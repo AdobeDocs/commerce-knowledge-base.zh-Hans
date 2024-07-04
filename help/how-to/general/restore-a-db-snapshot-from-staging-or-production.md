@@ -2,9 +2,9 @@
 title: 从暂存或生产环境恢复数据库快照
 description: 本文说明如何在云基础架构上从Adobe Commerce上的暂存或生产环境恢复数据库快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: ad0ec2e6dc1d3e1023ad4ecda595b5c942716407
+source-git-commit: b99d78845128ca3d995cbbb5df0799449ca954e3
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 步骤如下：
 
-1. 使用 [!DNL sFTP]，导航到数据库的位置 [!DNL snapshot] 放置，通常位于您的第一个服务器/节点上 [!DNL cluster] (例如： `/mnt/recovery-<recovery_id>`)。 注意：如果您的项目基于Azure，即，您的项目URL类似于https://us-a1.magento.cloud/projects/&lt;cluster_id>，则快照将放在 `/mnt/shared/<cluster ID>/all-databases.sql.gz` 或 `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz` 而是。
+1. 使用 [!DNL SFTP]，导航到数据库的位置 [!DNL snapshot] 放置，通常位于您的第一个服务器/节点上 [!DNL cluster] (例如： `/mnt/recovery-<recovery_id>`)。 注意：如果您的项目基于Azure，即，您的项目URL类似于https://us-a1.magento.cloud/projects/&lt;cluster_id>，则快照将放在 `/mnt/shared/<cluster ID>/all-databases.sql.gz` 或 `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz` 而是。
 
    注意：Azure项目上的快照格式将不同，并包含无法导入的其他数据库。 在导入快照之前，您必须先执行其他步骤来提取相应的数据库，然后再导入转储。
 
@@ -134,6 +134,12 @@ ht-degree: 0%
 
    ```sql
    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+   ```
+
+   （用于从任何其他环境导入数据库备份）
+
+   ```sql
+   zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
    （用于从任何其他环境导入数据库备份）
