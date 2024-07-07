@@ -3,7 +3,7 @@ title: Adobe Commerce帮助中心用户指南
 description: 了解如何将支持工单提交到Adobe Commerce帮助中心，提供对帐户的共享访问权限，以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
+source-git-commit: 3e773131f6f44436fc533f74474efbe8597abb5f
 workflow-type: tm+mt
 source-wordcount: '4988'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 要使用Adobe Experience League的起始页提交新的支持案例，请执行以下步骤：
 
->
+>[!NOTE]
 >
 >1. 如果您属于多个组织，则需要从下拉列表中选择相应的组织。
 >1. 要提交案例，您必须有权获得支持。 如果您没有权限，页面顶部将显示一个栏，告知您您您不是组织中的支持授权用户。
@@ -276,6 +276,7 @@ Adobe Commerce Ticketing System允许使用支持工单来解决您在使用Adob
 >如果您已在https://account.magento.com上拥有帐户，但无法登录，则可能尚未在https://account.adobe.com上注册帐户（自2022年8月起，必须注册）。
 >
 >要解决此问题：
+>
 >1. 在https://account.adobe.com上使用与您的广告ID相同的电子邮件地址创建一个帐户。
 >1. 转到https://account.magento.com ，将您的Adobe ID与MAG ID关联起来。
 
