@@ -3,24 +3,43 @@ title: Adobe Commerce帮助中心用户指南
 description: 了解如何将支持工单提交到Adobe Commerce帮助中心，提供对帐户的共享访问权限，以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 751a315303be3d6435f4064cdd3fb28a0c811155
+source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4988'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce帮助中心用户指南
 
-在本指南中，了解如何将支持票证提交到 [Adobe Commerce帮助中心](https://support.magento.com/hc/en-us) 并提供对Magento帐户的共享访问权限。
+在本指南中，了解如何将支持票证提交到 [Adobe Commerce帮助中心](https://support.magento.com/hc/en-us) 并提供对Adobe Commerce帐户的共享访问权限。
+
+>[!NOTE]
+>
+>Adobe Commerce支持将从Adobe Commerce帮助中心转移到Experience League。 如果您收到访问权限的通知，请使用描述的Experience League案例表单流程 [此处](#what-is-experience-support). 如果您尚未收到通知，请继续使用 [Adobe Commerce帮助中心案例流程](#what-is-adobe-commerce-help-center).
 
 >[!NOTE]
 >
 >Adobe Commerce帮助中心的知识库部分已迁移到Adobe Experience League门户。 在创建支持工单时，将向您推荐相关的知识库文章，以及来自Adobe Experience League的其他相关Adobe Commerce文档。
 
-**主要更新：** 2022年10月14
+**主要更新：** 2024年7月8日
 
-**[Adobe Commerce帮助中心是什么？](#what-is)**
+**[什么是EXPERIENCE LEAGUE支持？](#what-is-experience-support)**
+
+**[支持案例](#support-cases)**
+
+* [登录Experience League支持](#sign-in-experience-support)
+* [提交支持案例](#submit-case)
+
+   * [Adobe Experience League起始页](#experience-league-start-page)
+   * [Adobe Commerce帐户页面](#submit-case-adobe-commerce-account-page)
+   * [*请验证您的电子邮件地址*](#verify-email-address-error)
+
+* [跟踪您的支持案例](#track-support-cases)
+* [您案例中的备注](#comments-in-your-case)
+* [结案](#close-case)
+
+**[Adobe Commerce帮助中心是什么？](#what-is-adobe-commerce-help-center)**
 
 **[支持票证](#support-tickets)**
 
@@ -59,7 +78,160 @@ ht-degree: 0%
 
 **[MagentoU现在是ADOBE数字学习服务的一部分](#magento-u)**
 
-## 什么是ADOBE COMMERCE帮助中心？ {#what-is}
+>[!NOTE]
+>
+>除非您收到通知，否则请继续使用 [Adobe Commerce帮助中心案例流程](#what-is-adobe-commerce-help-center). 如果系统通知您您属于具有访问权限的同类群组，请按照描述的Experience League案例表单流程操作 [以下](#what-is-experience-league-support).
+
+## 什么是EXPERIENCE LEAGUE支持？ {#what-is-experience-support}
+
+Experience League支持是Adobe的支持门户，符合条件的Adobe Commerce客户可以在其中提交和管理支持工单。 您还可以在该处查看故障排除文章。
+
+## 支持案例 {#support-cases}
+
+Adobe Experience League支持案例管理允许通过案例与支持人员合作，解决在根据合同对所有Adobe Commerce产品使用Adobe产品(包括Adobe Commerce)时遇到的特定问题。
+
+## 登录EXPERIENCE LEAGUE支持 {#sign-in-experience-support}
+
+登录允许您提交、更新和响应工程师有关支持票证的问题。
+
+要登录Adobe Experience League支持，请执行以下步骤：
+
+1. 导航到 [experienceleague.adobe.com](https://experienceleague.adobe.com/).
+1. 使用您的Adobe登录凭据登录。
+
+![登录experience-league](assets/experience_league_sign_in.png)
+
+### 提交支持案例 {#support-case}
+
+成功登录后，您可以使用Adobe Experience League主页、Adobe Commerce帐户页面和Adobe Commerce Cloud帐户页面提交支持案例。
+
+* 如果您是帐户所有者，请按照以下步骤操作。
+* 如果您是“共享访问”用户，则必须首先切换帐户。 请参阅 [访问共享帐户（切换帐户）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)然后，您可以继续执行以下步骤。
+
+#### Adobe Experience League起始页 {#experience-league-start-page}
+
+要使用Adobe Experience League的起始页提交新的支持案例，请执行以下步骤：
+
+>
+>
+>1. 如果您属于多个组织，则需要从下拉列表中选择相应的组织。
+>1. 要提交案例，您必须有权获得支持。 如果您没有权限，页面顶部将显示一个栏，告知您您您不是组织中的支持授权用户。
+
+1. 单击 **支持** 在标题中。 它将打开支持中心的主页。
+
+   ![open-support-page](assets/click_support.png)
+
+1. 要开始获取支持的过程，请单击 **[!UICONTROL Open Ticket]** ，或单击 **[!UICONTROL Get Started]** 在 *[!UICONTROL Open a support ticket]* 卡片。
+
+   ![open-support-case](assets/open_support_case.png)
+
+1. 从下拉菜单中选择产品，并提供案例标题和描述。
+
+   ![select_product](assets/support_case_product.png)
+
+1. Adobe Experience League将推荐可帮助您解决案例的文章和最佳实践。 如果您仍然需要直接支持，则在提交案例之前需要提供一些其他信息。
+
+   ![direct_support_required](assets/direct_support.png)
+
+1. 填写完所有必需的信息后，单击 **[!UICONTROL Submit case]**.
+
+您必须同时在https://account.adobe.com和https://account.magento.com拥有帐户才能登录该Experience League以提交支持案例。 在登录之前，您将无法提交支持案例。
+
+>[!NOTE]
+>
+>如果您已在https://account.magento.com上拥有帐户，但无法登录，则可能尚未在https://account.adobe.com上注册帐户（自2022年8月起，必须注册）。
+>
+>要解决此问题：
+>1. 在https://account.adobe.com上使用与您的广告ID相同的电子邮件地址创建一个帐户。
+>1. 转到https://account.magento.com ，将您的Adobe ID与MAG ID关联起来。
+
+#### Adobe Commerce帐户页面 {#submit-case-adobe-commerce-account-page}
+
+要使用Adobe Commerce帐户页提交新的支持工单，请执行以下步骤：
+
+1. 登录到您的Adobe Commerce帐户。 请参阅 [详细说明](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) 在我们的用户指南中。
+1. 单击 **支持** 选项卡。
+
+   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
+
+1. 将为您加载Adobe Experience League支持页面。
+1. 选择 **[!UICONTROL Open Ticket]** 从左侧菜单。
+1. 填写字段。
+1. 单击 **提交**.
+
+#### *请验证您的电子邮件地址* Adobe Commerce帐户页面上的错误 {#verify-email-address-error}
+
+如果您收到“Please verify your email address（请验证您的电子邮件地址）”错误，您将无法提交支持工单，该错误与 [Adobe Commerce帐户](https://account.magento.com/) 页面。
+
+![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png)
+
+
+### 跟踪您的支持案例 {#track-support-case}
+
+您的支持案例包括：
+
+* 已经亲自提交了。
+* 已通过CC（抄送）添加到作为观察者。
+
+#### 查看您的案例
+
+您可以通过单击查看案例 **[!UICONTROL My Cases]** 在左侧菜单上。
+
+![视图支持案例](assets/view_support_cases.png)
+
+#### 搜索案例
+
+要查找案例，请在 *[!UICONTROL Search]* 字段并按 *进入* 在键盘上。
+
+![搜索案例](assets/search_cases.png)
+
+#### 升级您的案例
+
+如果您认为某个案例需要进一步关注，并且我们的初始响应时间已过，您可以升级该案例。 要做到这一点，
+
+1. 单击 **[!UICONTROL Escalate to management]** 在右下角 *[!UICONTROL Case Detail]* 面板中，该屏幕位于屏幕右侧。
+
+   ![上报至管理层](assets/escalate_to_management.png)
+
+1. 单击后，将显示一个弹出表单。 填写表单，然后单击 **[!UICONTROL Escalate]**.
+
+   ![confirm-escalation](assets/confirm_escalation.png)
+
+   *上报原因可能包括*：代理沟通技能、代理技术知识、等待回调/更新、问题紧迫性更改、解决未达到预期或解决时间等。
+
+#### 在支持案例中添加观察程序
+
+您可以添加观察者来支持组织成员提交的案例。 当提交新案例或更新现有案例时，观察者将收到电子邮件通知。
+
+1. 要将观察程序添加到现有案例，请打开案例，然后单击屏幕右侧“案例详细信息”面板中“观察程序”旁边的铅笔图标。
+
+   ![加载观察者](assets/add_watchers.png)
+
+1. 单击铅笔后，您可以在列表中添加或删除观察者。
+
+   ![更新观察者](assets/update_watchers.png)
+
+### 您案例中的备注 {#comments-in-your-case}
+
+您案例中的注释包含您或Adobe Commerce支持团队编写的所有注释。 注释按最新（顶部）到最早（底部）顺序显示。
+要添加评论，请执行以下步骤：
+
+1. 滚动到票证的底部。
+1. 将您的评论写入 **[!UICONTROL Comments]** 字段并单击 **[!UICONTROL Add comments]**.
+
+![添加注释](assets/add_comments.png)
+
+### 结案 {#close-case}
+
+要关闭您的案例，请单击 **[!UICONTROL Close case]** 在右下角 *[!UICONTROL Case Detail]* 面板。
+
+![close-case](assets/close_case.png)
+
+>[!NOTE]
+>
+>继续使用Adobe Commerce帮助中心表单流程 [以下](#what-is-adobe-commerce-help-center) 用于票证提交和管理，除非已通知您您您属于有权访问所描述的Experience League案例表单流程的同类群组 [此处](#what-is-experience-league-support).
+
+## 什么是ADOBE COMMERCE帮助中心？ {#what-is-adobe-commerce-help-center}
 
 此 [Adobe Commerce帮助中心](https://support.magento.com/hc/en-us) 是Adobe Commerce的支持门户，符合条件的客户可以在其中提交和管理支持工单。 您还可以在该处查看故障排除文章。
 
@@ -152,7 +324,7 @@ Adobe Commerce Ticketing System允许使用支持工单来解决您在使用Adob
 
 * 您尚未登录到帮助中心。
 * 如果首次使用共享访问，则尚未执行所需的步骤，以确保通过Magento.com中的SSO调用正确配置Adobe Commerce帮助中心。
-* 您的帐户无权获得Adobe Commerce支持(例如，您不是付费Commerce客户或您是开源客户)。
+* 您的帐户无权获得Adobe Commerce支持(例如，您不是付费Commerce客户或您是开放Source客户)。
 
 #### 解决方案
 
@@ -291,7 +463,7 @@ Adobe Commerce Ticketing System允许使用支持工单来解决您在使用Adob
 
 ### Adobe Commerce共同责任运营模式 {#shared-responsibility-operational-model}
 
-**需要登录** 以访问 [Adobe Commerce共同责任运营模式](https://support.magento.com/hc/en-us/articles/4407700678669) 本文章旨在明确仅针对我们的专业基础设施服务在Adobe Commerce方面的运营职责。
+请参阅以下文章： [Adobe Commerce共同责任运营模式](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary)，旨在明确我们的专业基础设施服务的运营责任。
 
 ### 支持票证字段说明 {#ticket-fields-explained}
 
@@ -446,15 +618,15 @@ URL必须以“https://”开头。 其格式通常为：商家名称+&quot;.mco
 
 #### 主题
 
-包含问题的简短概述(例如， *所有页面均显示错误404* )。
+包含问题的简短概述(例如， *所有页面均显示错误404*)。
 
-**建议的文章：** 输入搜索词时，会显示可能与问题相关的Adobe商务文档文章列表。 单击列表中的文章以将其打开。
+**建议的文章：** 输入搜索词时，会显示可能与您的问题相关的Adobe Commerce文档文章列表。 单击列表中的文章以将其打开。
 
 ![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
 
 *推荐：* 请仔细考虑建议的文章，它们可能包含您希望Adobe Commerce支持团队提供的解决方案。
 
-#### 版本(Adobe Commerce内部部署，仅云基础架构和航运上的Adobe Commerce)
+#### 版本(仅限Adobe Commerce内部部署、云基础架构上的Adobe Commerce和配送)
 
 请选择您正在请求帮助的Adobe Commerce版本。 顶部列出了所有受支持的Adobe Commerce版本。 不支持的版本在底部以括号列出。 如果您正在迁移，请选择最新版本以确保您的版本受支持。
 
@@ -498,6 +670,7 @@ Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解
    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
 
 1. 若要向评论中添加人员，请在 **抄送** 注释字段的字段。
+
    >[!NOTE]
    >
    >CC：中的用户必须在https://account.magento.com上拥有现有帐户。 否则，他们必须首先在https://account.adobe.com创建一个帐户，然后使用该帐户登录https://account.magento.com。
@@ -518,29 +691,29 @@ Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解
 
 ## 共享访问：授予其他用户访问您帐户的权限 {#shared-access}
 
-您可以为其他Magento帐户持有人授予对您帐户的有限访问权限。 特别是，使用 **共享访问** 功能，您可以向受信任的员工和服务提供商提供使用您的帮助中心帐户的权限，以便他们可以使用您的支持工单。
+您可以为其他Adobe Commerce帐户持有人授予对您帐户的有限访问权限。 特别是，使用 **共享访问** 功能，您可以向受信任的员工和服务提供商提供使用您的帮助中心帐户的权限，以便他们可以使用您的支持工单。
 
-您可以使用Magento帐户页面提供和管理共享访问权限，该页面位于 [https://account.magento.com](https://account.magento.com/).
+您可以使用位于以下位置的Adobe Commerce帐户页面提供和管理共享访问权限： [https://account.magento.com](https://account.magento.com/).
 
 ### 谁可以提供共享访问权限 {#who-can-provide-shared-access}
 
-只有具有相应权限的帐户所有者（主要帐户所有者）才能为其他用户提供共享访问权限。
+只有具有相应权限的帐户所有者（主帐户所有者）才能为其他用户提供共享访问权限。
 
-管理用户及其访问权限是客户的责任，在共享访问方面尤其如此。 因此，Adobe Commerce支持团队无法代表客户提供对Magento帐户的共享访问权限。 我们鼓励客户自行添加具有共享访问权限的用户，使用 [“Magento帐户”页](https://account.magento.com/).
+管理用户及其访问权限是客户的责任，在共享访问方面尤其如此。 因此，Adobe Commerce支持团队无法代表客户提供对Adobe Commerce帐户的共享访问权限。 我们鼓励客户自行添加具有共享访问权限的用户，使用 [Adobe Commerce帐户页面](https://account.magento.com/).
 
 已被提供共享访问权限的用户不能向其他用户转移或授予此类访问权限。
 
 ### 提供共享访问 {#provide-shared-access}
 
-请参阅 [共享您的帐户](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) Adobe Commerce部分，了解有关设置共享帐户的详细步骤。
+请参阅 [共享Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) Adobe Commerce部分，以了解有关设置共享帐户的详细步骤。
 
-为新用户提供共享访问后，可在以下位置找到相关信息： **共享访问** > **管理权限** Magento帐号页面的。
+为新用户提供共享访问后，可在以下位置找到相关信息： **共享访问** > **管理权限** Adobe Commerce的URL值。
 
-![magento-account-shared-manage-permissions](assets/magento-account-shared-manage-permissions.png){width="800"}
+![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
 ### 撤销（删除）共享访问权限 {#revoke-shared-access}
 
-1. 登录您的Magento帐户： [https://account.magento.com](https://account.magento.com/).
+1. 登录您的Adobe Commerce帐户，网址为 [https://account.magento.com](https://account.magento.com/).
 1. 在左侧面板的“共享访问”下，选择 **管理权限。**
 1. 找到要撤销其共享访问权限的用户，然后单击 ![删除图标](assets/remove_icon.png){width="25"} 在用户行中(**操作** 列)。
 1. 单击 **删除用户** 以撤销访问权限，或者将X置于顶角以取消撤销。
@@ -549,7 +722,7 @@ Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解
 
    您还可以使用撤销共享访问权限 **编辑** 菜单：
 
-1. 登录您的Magento帐户，网址为 [https://account.magento.com](https://account.magento.com/).
+1. 登录您的Adobe Commerce帐户，网址为 [https://account.magento.com](https://account.magento.com/).
 1. 在左侧面板的“共享访问”下，选择 **管理权限。**
 1. 找到要撤销其共享访问权限的用户，然后单击 **编辑** 在用户行中(**操作** 列)。
 1. 单击 **删除此用户** 在页面底部。
@@ -573,7 +746,7 @@ Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解
 
 但是，一旦您撤销了这些共享访问用户的权限，他们将不再拥有该访问权限。
 
-1. 登录您的Magento帐户，网址为 [https://account.magento.com](https://account.magento.com/).
+1. 登录您的Adobe Commerce帐户，网址为 [https://account.magento.com](https://account.magento.com/).
 1. 在左侧的面板中，在 *[!UICONTROL Shared Access]*，选择 **[!UICONTROL Manage Permissions]**.
 1. 找到要撤销其共享访问权限的用户，然后单击 **[!UICONTROL Edit]** 在用户行中(*[!UICONTROL Actions]* 列)。
 1. 取消选中下的所有资源 *[!UICONTROL Grant Account Permissions]*.
@@ -586,10 +759,10 @@ Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解
 
 要使用为您提供的共享访问权限，请执行以下步骤：
 
-1. 登录您的Magento帐户： [https://account.magento.com](https://account.magento.com/).
+1. 登录您的Adobe Commerce帐户，网址为 [https://account.magento.com](https://account.magento.com/).
 1. 单击 **切换帐户** 并选择一个帐户。
 
-   ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
+   ![magento-account-shared-switch](assets/magento_account_shared_switch.png){width="800"}
 
 要了解您当前使用的帐户（您自己的本机帐户或共享访问权限），请参阅 **切换帐户** 菜单：显示活动帐户。
 
@@ -605,4 +778,3 @@ Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解
 
 MagentoU已与 [Adobe数字学习服务(ADLS)](https://learning.adobe.com/).
 
-U ZendeskMagento将被逐步淘汰。
