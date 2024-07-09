@@ -4,9 +4,9 @@ description: 本文为组件依赖关系冲突提供了解决方案。 当尝试
 exl-id: 782049c4-b6e1-4ead-a00f-80d2aa8475c9
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ We have detected conflicts with the following packages:
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}
 
 1. 请联系扩展的开发人员，以便他们可以为您提供帮助。 您可以在从Commerce Marketplace上购买扩展的页面上找到他们的联系信息。 查找 **联系销售商** 按钮显示在右侧面板上。 所有Commerce开发人员在Marketplace上发布扩展时，都需要提供用户指南和安装指南。 您可以在登陆页面的右侧找到这两个页面。
-1. 如果您没有在合理的时间内收到卖方的回复，请 [告知Commerce Marketplace](https://marketplacesupport.magento.com/hc/en-us) 这样我们就可以提醒他们客户支持承诺。
+1. 如果您没有在合理的时间内收到卖方的回复，请 [联系Marketplace支持](mailto:commercemarketplacesupport@adobe.com) 这样我们就可以提醒他们客户支持承诺。
 
 ## Magento Open Source {#opensource}
 
-在以下位置请求帮助： [我们的主要论坛](https://community.magento.com/) 或 [联系Adobe Commerce合作伙伴](https://magento.com/find-a-partner) 帮助解决开源问题。
+在以下位置请求帮助： [我们的主要论坛](https://community.magento.com/) 或 [联系Adobe Commerce合作伙伴](https://magento.com/find-a-partner) 有助于解决Open Source问题。

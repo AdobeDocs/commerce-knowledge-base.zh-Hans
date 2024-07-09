@@ -3,9 +3,9 @@ title: 在云基础架构沙盒请求上合作伙伴Adobe Commerce
 description: 本常见问题解答文章包含指向有关云基础架构沙盒请求的Adobe Commerce的有用资源的链接。
 exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 ## 解决方案合作伙伴或技术合作伙伴如何在何处提交支持请求？ {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
 * 解决方案合作伙伴可以通过发送电子邮件到提交沙盒相关问题的票证 [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) 并将其转发给合作伙伴技术支持团队。
-* 技术合作伙伴可在以下网站提交支持请求： [Commerce Marketplace帮助中心](https://marketplacesupport.magento.com/hc/en-us/requests) 页面。
+* 技术合作伙伴可以 [联系Marketplace支持](mailto:commercemarketplacesupport@adobe.com).
