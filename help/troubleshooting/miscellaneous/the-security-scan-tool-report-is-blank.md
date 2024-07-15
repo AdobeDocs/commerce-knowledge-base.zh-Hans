@@ -21,12 +21,12 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 配置安全扫描工具以检查您的网站，如中所述 [安全扫描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) 在我们的用户指南中。
-1. 在操作列中，选择 **运行扫描**.
+1. 按照用户指南中的[安全扫描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html)中的说明，配置安全扫描工具以检查您的网站。
+1. 在“操作”列中，选择&#x200B;**运行扫描**。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 查看报表完成通知和打开报表的功能。
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 尝试打开您的网站。
 
 * 列入允许列表如果页面加载成功，您可能需要将安全扫描工具使用的IP添加到防火墙。 在端口80和443上使用以下IP：52.87.98.44、34.196.167.176、3.218.25.102。
-* 如果站点未加载并返回 *“处理您的请求时出错”* 消息，请检查您的网站是否存在错误。
+* 如果该网站未加载并返回&#x200B;*“处理您的请求时出错”*&#x200B;消息，请检查您的网站是否存在错误。
 
 ## 相关阅读
 
-* [上线并启动](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) 在我们的开发人员文档中。
-* [安全扫描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) 在我们的用户指南中。
+* 在我们的开发人员文档中[上线并启动](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan)。
+* 用户指南中的[安全扫描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html)。

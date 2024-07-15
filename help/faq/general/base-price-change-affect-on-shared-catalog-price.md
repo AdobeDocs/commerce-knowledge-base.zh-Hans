@@ -30,4 +30,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-[设置共享目录的定价和结构](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) 在我们的用户指南中。
+在我们的用户指南中[设置共享目录的定价和结构](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html)。

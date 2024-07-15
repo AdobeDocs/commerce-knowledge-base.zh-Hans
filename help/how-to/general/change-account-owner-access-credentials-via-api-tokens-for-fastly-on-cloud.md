@@ -12,5 +12,5 @@ ht-degree: 0%
 
 # 为Fastly on Cloud更改帐户所有者（通过API令牌访问凭据）
 
-请参阅 [Fastly服务帐户和凭据](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials) 在我们的Commerce on Cloud Infrastructure指南中。
+请参阅我们的Commerce on Cloud Infrastructure指南中的[Fastly服务帐户和凭据](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials)。
 

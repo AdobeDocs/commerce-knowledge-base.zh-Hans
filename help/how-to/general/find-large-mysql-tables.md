@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 查找大型MySQL表
 
-要标识大型表，请按照 [连接到数据库](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) 文章，并运行以下命令，其中 `project_id` 是您的云项目ID：
+要识别大型表，请按照[连接到数据库](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database)文章中所述连接到数据库，然后运行以下命令，其中`project_id`是您的Cloud项目ID：
 
 ```sql
 SELECT TABLE_NAME AS `Table`,

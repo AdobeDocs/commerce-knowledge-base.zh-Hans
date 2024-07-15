@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->请注意：加密库功能为 [已从PHP 7.1弃用并从PHP 7.2中删除](https://www.php.net/manual/en/intro.mcrypt.php).
+>请注意： mcrypt库功能在PHP 7.1中已弃用，已从PHP 7.2](https://www.php.net/manual/en/intro.mcrypt.php)中删除[。
 
 ## 详细信息
 
@@ -51,13 +51,13 @@ Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' 
 
 确定是否通过以下任一方式加载mcrypt扩展：
 
-* 设置 [phpinfo.php](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) 文件，并在Web浏览器中检查输出。
+* 在Web服务器的根目录中设置[phpinfo.php](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs)文件，并在Web浏览器中检查输出。
 * 运行以下命令：    `$ php -r "phpinfo();" | grep mcrypt`
 
-如果mcrypt *非* 已安装，将显示与以下内容类似的消息：
+如果mcrypt是&#x200B;*未安装*，则会显示与以下内容类似的消息：
 
 ```php
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-在某些情况下，您可能需要从安装Adobe Commerce软件 [命令行](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html) 并指定已安装mcrypt的LAMP栈栈的完整路径。
+在某些情况下，您可能需要从[命令行](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html)安装Adobe Commerce软件，并指定已安装mcrypt的LAMP栈栈的完整路径。

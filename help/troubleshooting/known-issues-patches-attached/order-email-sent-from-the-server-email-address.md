@@ -19,12 +19,12 @@ ht-degree: 0%
 
 订单确认电子邮件从Apache Server电子邮件地址发送。 从配置的电子邮件地址发送其他电子邮件（忘记密码等）。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 使用以下方式下订单 **发送订单确认** 复选框。
+1. 在选中&#x200B;**发送订单确认**&#x200B;框的情况下下订单。
 1. 检查电子邮件。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 电子邮件是从Adobe Commerce配置的发送地址发送的。
 
@@ -59,6 +59,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

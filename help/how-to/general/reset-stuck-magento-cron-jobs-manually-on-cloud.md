@@ -14,20 +14,20 @@ ht-degree: 0%
 
 云基础架构上的Adobe Commerce cron作业无法完成执行、卡住并阻止其他cron作业运行。 本文介绍了如何手动重置卡住的cron作业。
 
-使用此命令时请务必小心！ 我们建议您阅读 [重置cron作业](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html) 请参阅我们的支持知识库中的文章，以了解更多详细信息。
+使用此命令时请务必小心！ 有关更多详细信息，我们建议阅读我们的支持知识库中的[重置cron作业](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)文章。
 
 ## 步骤
 
 >[!INFO]
 >
->从 [ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4) 您可以通过SSH访问使用CLI命令手动重置卡住cron作业。
+>从[ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4)，您可以使用CLI命令通过SSH访问手动重置卡住cron作业。
 
-1. [通过SSH连接到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 执行此命令： `./vendor/bin/ece-tools cron:unlock`
 
 ## 警告
 
-* 该命令会重置 **所有** CRON工作，包括那些正在运转的工作； **仅在特殊情况下使用**.
+* 该命令会重置&#x200B;**所有**&#x200B;个cron作业，包括当前正在运行的作业；**仅在异常情况下使用它**。
 * 避免在索引器运行时使用此解决方案。
 
 ## 请阅读我们的支持知识库：

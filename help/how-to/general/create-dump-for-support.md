@@ -20,15 +20,15 @@ Adobe Commerce（所有部署方法）2.3.x、2.4.x。
 
 从管理员创建一个“已清理”转储：
 
-1. 在Commerce Admin中，转到 **系统** > **支持** > **数据收集器**.
-1. 单击 **新建备份**.
-1. 几分钟后，单击 **刷新状态** （可能需要更长时间，每5分钟重复一次，直到完成）。
-1. 从重新定位生成的转储文件 `/var/support` 到Adobe Commerce根目录。
+1. 在Commerce管理员中，转到&#x200B;**系统** > **支持** > **数据收集器**。
+1. 单击&#x200B;**新建备份**。
+1. 几分钟后，单击&#x200B;**刷新状态** （可能需要更长时间，每5分钟重复一次直到完成）。
+1. 将生成的转储文件从`/var/support`目录重定位到Adobe Commerce根目录。
 
 然后，您可以向支持人员提供转储文件的直接下载链接（您的商店地址和所显示的文件名）。
 
-如果从管理员创建转储时遇到问题，请考虑使用CLI命令，如中所述 [运行支持实用程序](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) 在我们的开发人员文档中。
+如果从管理员创建转储时遇到问题，请考虑使用CLI命令，如开发人员文档中的[运行支持实用工具](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html)中所述。
 
 ## 相关阅读
 
-* [在云基础架构上为Adobe Commerce创建完整数据库备份](/help/how-to/general/create-database-dump-on-cloud.md) 在我们的支持知识库中。
+* [在我们的支持知识库中为Adobe Commerce在云基础架构上创建完整数据库备份](/help/how-to/general/create-database-dump-on-cloud.md)。

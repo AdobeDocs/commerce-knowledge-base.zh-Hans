@@ -24,22 +24,22 @@ ht-degree: 0%
 
 当购物者使用Amazon Pay结账、登录、进入支付步骤并尝试从支付构件更改其支付信用卡时，会显示一条错误消息。 如果购物者忽略错误并继续结帐，则无法完成结帐。
 
-为了解决此问题并删除错误，我们创建了 [patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
+要解决此问题并删除错误，我们已创建一个[修补程序](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip)。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 使用Amazon Pay开始结帐。
 1. 以Amazon Pay客户身份登录。
 1. 选择配送方式并继续付款步骤。
 1. 尝试将信用卡更改为其他信用卡。
 
-<u>预期结果</u>：选择了其他信用卡作为付款方式，并且未出现错误。
+<u>预期结果</u>：选择其他信用卡作为付款方式，且未出现错误。
 
-<u>实际结果</u>：出现错误消息： *“请联系此商家，以获得完成订单的帮助。”*
+<u>实际结果</u>：出现错误消息： *“请与此商家联系以获得完成订单的帮助。”*
 
 ## 解决方案
 
-[应用修补程序](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) 下。
+[应用下面的修补程序](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip)。
 
 ## Patch
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中获取说明。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

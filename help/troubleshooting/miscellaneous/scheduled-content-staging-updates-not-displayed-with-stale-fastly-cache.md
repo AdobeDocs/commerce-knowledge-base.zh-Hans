@@ -17,34 +17,34 @@ ht-degree: 0%
 
 ## 问题
 
-商店内容资产（页面、产品、块等）的计划更新 更新开始时间后不会立即在店面显示。 使用计划更新时，会发生这种情况 [内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) 功能。
+商店内容资产（页面、产品、块等）的计划更新 更新开始时间后不会立即在店面显示。 如果已使用[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)功能计划了更新，则会发生这种情况。
 
 ## 原因
 
-由于Fastly的软清除功能（默认启用），Adobe Commerce店面在发送时仍会收到旧（陈旧）的缓存内容 **第一个** 请求将更新后的资产发送给Fastly。 Fastly需要第二个请求来重新生成站点数据。
+由于Fastly的软清除功能（默认启用），在向Fastly发送&#x200B;**第一个**&#x200B;更新资源的请求时，Adobe Commerce店面仍会收到旧（过时）的缓存内容。 Fastly需要第二个请求来重新生成站点数据。
 
 因此，在第二次请求更新内容之前，Fastly可能会提供过时的内容。
 
-**预期缓存：** 在我们使用Content Staging计划内容资产更新后，Adobe Commerce会发送请求以将缓存更新到Fastly。 Fastly使之前缓存的内容失效（不删除内容）并开始提供更新的内容。
+**预期缓存：**&#x200B;使用Content Staging为内容资源计划更新后，Adobe Commerce会发送请求以将缓存更新到Fastly。 Fastly使之前缓存的内容失效（不删除内容）并开始提供更新的内容。
 
-**实际缓存：** 如果Fastly在接收时仍提供过时的内容 **第一个** 请求更新的内容，则仅会发送重新生成的、更正的内容，并且仅在接收后才发送 **第二个** 请求。 实施此行为是为了减少服务器负载，方法是：仅在具有已验证流量的区域续订缓存，而不重新生成整个网站的缓存。 Fastly逐步更新缓存，节省了应用程序资源。
+**实际缓存：**&#x200B;如果Fastly在收到&#x200B;**对更新内容的第一个**&#x200B;请求时仍提供过时内容，则它仅在收到&#x200B;**第二个**&#x200B;请求后才会发送重新生成的、正确的内容。 实施此行为是为了减少服务器负载，方法是：仅在具有已验证流量的区域续订缓存，而不重新生成整个网站的缓存。 Fastly逐步更新缓存，节省了应用程序资源。
 
 ## 解决方案
 
 如果提供过时内容（即使为第一个请求提供）是不可接受的，则可以禁用软清除并启用清除CMS页面：
 
 1. 以管理员身份登录到您的本地Commerce管理员。
-1. 转到 **商店** > **配置** > **高级** > **系统** > **全页缓存**.
-1. 展开 **Fastly配置**，然后展开 **高级**.
-1. 设置 **使用软清除** 到 *否*.
-1. 设置 **“清除CMS”页** 到 *是*.
-1. 单击 **保存配置** 页面顶部的。
+1. 转到&#x200B;**商店** > **配置** > **高级** > **系统** > **全页缓存**。
+1. 展开&#x200B;**Fastly配置**，然后展开&#x200B;**高级**。
+1. 将&#x200B;**使用软清除**&#x200B;设置为&#x200B;*否*。
+1. 将&#x200B;**清除CMS页面**&#x200B;设置为&#x200B;*是*。
+1. 单击页面顶部的&#x200B;**保存配置**。
 
 
 ![purge_options.png](assets/purge_options.png)
 
 ## 相关文档
 
-* [配置清除选项](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 《Commerce on Cloud Infrastructure指南》中的。
-* [内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) 在内容和设计文档中。
-* [提供过时内容](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) 在Fastly的文档中。
+* 在《云基础架构上的Commerce指南》中[配置清除选项](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+* 内容和设计文档中的[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)。
+* 在Fastly文档中[提供过时的内容](https://docs.fastly.com/guides/performance-tuning/serving-stale-content)。

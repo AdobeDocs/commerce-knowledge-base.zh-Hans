@@ -31,5 +31,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [使用VertexAddress Cleansing取消选择“我的帐单和送货地址相同”时，不允许使用不同的地址](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) 在我们的支持知识库中。
-* [Adobe Commerce 2.4.1顶点地址验证消息地址更新](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) 在我们的支持知识库中。
+* [在我们的支持知识库中使用VertexAddress Cleansing](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md)取消选择“我的帐单和送货地址相同”时，不允许使用不同的地址。
+* 在我们的支持知识库中更新[Adobe Commerce 2.4.1顶点地址验证消息](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)。

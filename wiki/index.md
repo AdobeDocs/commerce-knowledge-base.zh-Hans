@@ -9,7 +9,7 @@ ht-degree: 0%
 
 欢迎访问Adobe Commerce支持知识库存储库文档主页。
 在这里，您可以找到可帮助您做出最佳贡献且具有相同用途的文档。
-如果您需要了解常规贡献流程，请转到 [投稿人指南](../.github/CONTRIBUTING.md).
+如果需要了解常规贡献流，请转到[参与者指南](../.github/CONTRIBUTING.md)。
 
 ## 指南
 

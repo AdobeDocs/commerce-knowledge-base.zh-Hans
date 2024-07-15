@@ -17,7 +17,7 @@ Adobe Commerce内部部署、Adobe Commerce on cloud infrastructure和Magento Op
 
 >[!WARNING]
 >
->在尝试升级之前未能安装/配置Elasticsearch6/7可能会导致严重的Adobe Commerce问题。 请注意，如果没有48个工作小时的通知，就无法将云基础架构上Adobe Commerce上的服务升级推送到生产环境。 这是必需的，因为我们需要确保我们有一名基础架构支持工程师在所需时间范围内更新您的配置，同时最大限度地减少生产环境的停机时间。 因此，在更改需要投入生产环境的48小时之前 [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 详细描述所需的服务升级，并说明希望升级过程开始的时间。
+>在尝试升级之前未能安装/配置Elasticsearch6/7可能会导致严重的Adobe Commerce问题。 请注意，如果没有48个工作小时的通知，就无法将云基础架构上Adobe Commerce上的服务升级推送到生产环境。 这是必需的，因为我们需要确保我们有一名基础架构支持工程师在所需时间范围内更新您的配置，同时最大限度地减少生产环境的停机时间。 因此，在更改需要投入生产前48小时[提交支持工单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，其中详细列出所需的服务升级并指明希望升级过程开始的时间。
 
 删除MySQL搜索引擎的原因是，Elasticsearch提供了优异的搜索功能以及目录性能优化。
 
@@ -36,15 +36,15 @@ Adobe Commerce内部部署、Adobe Commerce on cloud infrastructure和Magento Op
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">MySQL</td>
-<td style="width: 478.2px;">您必须安装Elasticsearch。 请参阅 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">安装和配置Elasticsearch</a> 在我们的开发人员文档中。</td>
+<td style="width: 478.2px;">您必须安装Elasticsearch。 请参阅我们的开发人员文档中的<a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">安装和配置Elasticsearch</a>。</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch（未列出版本）</td>
-<td style="width: 478.2px;">您使用的是Elasticsearch2，必须更新为Elasticsearch7（首选）或6。 请参阅 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">升级Elasticsearch</a> 和 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">配置Commerce以使用Elasticsearch</a> 有关详细信息，请参阅我们的开发人员文档。</td>
+<td style="width: 478.2px;">您使用的是Elasticsearch2，必须更新为Elasticsearch7（首选）或6。 有关详细信息，请参阅开发人员文档中的<a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">升级Elasticsearch</a>和<a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">配置Commerce以使用Elasticsearch</a>。</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH5</td>
-<td style="width: 478.2px;">Elasticsearch5已达到其 <a href="https://www.elastic.co/support/eol">生命周期结束</a> 并在Adobe Commerce 2.4.0中被弃用。更新至Elasticsearch7（首选）或6。</td>
+<td style="width: 478.2px;">Elasticsearch5的<a href="https://www.elastic.co/support/eol">生命周期已结束</a>，已在Adobe Commerce 2.4.0中弃用。更新至Elasticsearch7（首选）或6。</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch6或7</td>
@@ -59,9 +59,9 @@ Adobe Commerce内部部署、Adobe Commerce on cloud infrastructure和Magento Op
 
 ## 安装：
 
-在发布Adobe Commerce内部部署和Magento Open Source2.4.0时，Elasticsearch将是必需组件，因此您必须先设置并配置Elasticsearch主机，然后再安装版本2.4.0。请参阅 [安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) 在我们的开发人员文档中。
+在发布Adobe Commerce内部部署和Magento Open Source2.4.0时，Elasticsearch将是一个必需组件，因此您必须先设置并配置Elasticsearch主机，然后才能安装版本2.4.0。请参阅我们的开发人员文档中的[安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
 
-默认情况下，Adobe Commerce搜索将使用Elasticsearch7作为搜索引擎，并尝试连接到localhost：9200上的服务器。 还支持Elasticsearch6.x。 如果配置与默认值不匹配，则可以使用传递给的参数配置这些设置 `setup:install`，其配置方式与数据库连接大致相同。
+默认情况下，Adobe Commerce搜索将使用Elasticsearch7作为搜索引擎，并尝试连接到localhost：9200上的服务器。 还支持Elasticsearch6.x。 如果配置与默认值不匹配，则可以使用传递给`setup:install`的参数配置这些设置，其方式与配置数据库连接的方式大致相同。
 
 例如，`setup:install --elasticsearch-host=es.mystore.com`
 

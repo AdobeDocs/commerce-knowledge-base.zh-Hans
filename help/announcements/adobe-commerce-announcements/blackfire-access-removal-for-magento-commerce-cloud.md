@@ -18,14 +18,14 @@ ht-degree: 0%
 **如果要继续使用Blackfire**：
 
 1. 您必须直接通过Blackfire购买许可证。
-1. 然后使用以下内容设置Blackfire [步骤](https://blackfire.io/docs/integrations/paas/magentocloud).
-1. 如果在安装过程中遇到任何困难，您可以 [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 以请求帮助。 有关特定于Blackfire的问题，请直接联系Blackfire支持： [support@blackfire.io](mailto:support@blackfire.io).
+1. 然后使用这些[步骤](https://blackfire.io/docs/integrations/paas/magentocloud)设置Blackfire。
+1. 如果在安装时遇到任何困难，您可以[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以请求帮助。 有关Blackfire的特定问题，请直接通过[support@blackfire.io](mailto:support@blackfire.io)联系Blackfire支持。
 
 ## 如果在运行部署时出错：
 
 如果运行部署时出现与Blackfire相关的错误，请执行以下操作：
 
-1. 从配置中删除Blackfire。 编辑 `.magento.app.yaml` 文件并从运行时部分删除Blackfire：
+1. 从配置中删除Blackfire。 编辑`.magento.app.yaml`文件并从运行时节删除Blackfire：
 
    ```YAML
    ...
@@ -42,12 +42,12 @@ ht-degree: 0%
 
 1. 在本地开发环境中完成该操作并将其推送到云。
 
-仅 [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 如果在运行部署后看到以下错误：
+在运行部署后看到以下错误时，仅[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)：
 
-*PHP警告： PHP启动：无法在未知的行0中加载动态库“blackfire.so”(已尝试：/usr/lib/php/20180731-zts/blackfire.so (/usr/lib/php/20180731-zts/blackfire.so：无法打开共享对象文件：没有此类文件或目录)、/usr/lib/php/20180731-zts/blackfire.so.so (/usr/lib/php/20180731-zts/blackfire.so.so：无法打开共享对象文件：没有此类文件或目录)*
+*PHP警告： PHP启动：无法在未知的行0*&#x200B;中加载动态库“blackfire.so”(已尝试：/usr/lib/php/20180731-zts/blackfire.so (/usr/lib/php/20180731-zts/blackfire.so：无法打开共享对象文件：没有此类文件或目录)、/usr/lib/php/20180731-zts/blackfire.so.so (/usr/lib/php/20180731-zts/blackfire.so.so：无法打开共享对象文件：没有此类文件或目录)
 
 此错误表示必须更新并停止Blackfire插件加载。
 
-**如果您要使用New Relic基础架构**：
+**如果要使用New Relic基础架构**：
 
-要了解如何访问New Relic基础架构，请参阅 [访问New Relic](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html) 在我们的支持知识库中。
+要了解如何访问New Relic基础架构，请参阅我们的支持知识库中的[访问New Relic](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html)。

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 受限的管理员访问权限导致性能问题
 
-本文为使用对性能产生负面影响的情况提供了解决方案 [具有受网站限制的角色范围的管理员角色](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) 在我们的用户指南中。
+本文提供了解决方案，用于解决在我们的用户指南中使用角色范围受网站](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources)限制的[管理员角色对性能产生负面影响的情况。
 
 ## 受影响的产品和版本
 
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 以下是避免此问题的选项：
 
-* 将Adobe Commerce应用程序版本升级到2.2.10或2.3.3。 (有关说明，请参阅 [在云基础架构版本上升级Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) （位于我们的开发人员文档中）。
+* 将Adobe Commerce应用程序版本升级到2.2.10或2.3.3。 (有关说明，请参阅我们的开发人员文档中的[在云基础架构上升级Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html)。)
 * 如果可能，请避免按网站限制管理员用户角色范围。
-* [提交Magento支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以请求修补程序（如果可用）。
+* [提交Magento支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以请求修补程序（如果可用）。
 
 ## 相关阅读
 
-* [用户角色](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) 在我们的用户指南中。
+* 我们用户指南中的[用户角色](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html)。

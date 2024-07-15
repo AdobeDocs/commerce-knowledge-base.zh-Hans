@@ -21,18 +21,18 @@ ht-degree: 0%
 
 ## 问题
 
-https：/&#x200B;/mydomain.com.c.&lt;projectid>无法再访问.magento.cloud/。
+https：/&#x200B;/mydomain.com.c.&lt;projectid>.magento.cloud/不再可访问。
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
 1. 登录到您的项目。
-1. 单击 **访问项目** URL和SSH的列表。
+1. 单击&#x200B;**访问项目**&#x200B;可获取URL和SSH列表。
 
 <u>实际结果：</u>
 
 页面加载失败，并出现以下错误：
 
-*NET：：ERR\_CERT\_INVALID*  *TLS警报，错误证书(554)：*
+*NET：：ERR\_CERT\_INVALID* *TLS警报，错误的证书(554)：*
 
 <u>预期结果：</u>
 
@@ -47,8 +47,8 @@ https：/&#x200B;/mydomain.com.c.&lt;projectid>无法再访问.magento.cloud/。
 ## 解决方案
 
 * 如果您的云站点处于活动状态，请切换到https://mydomain.com/。
-* 如果您有一个活动站点（非云），请使用https://mydomain.com/域设置一个子域 `mcprod.mydomain.com` 并更新 **基本URL** 到 *https://mcprod.mydomain.com* 相反，则 [将DNS指向Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* 如果您有活动站点（非云），请使用https://mydomain.com/域，设置子域`mcprod.mydomain.com`，然后将&#x200B;**基本URL**&#x200B;更新为&#x200B;*https://mcprod.mydomain.com*，然后[将DNS指向Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings)。
 
 ## 相关阅读
 
-[Fastly Origin遮盖功能启用常见问题解答](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) 在我们的支持知识库中。
+支持知识库中的[Fastly Origin遮盖功能启用常见问题解答](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)。

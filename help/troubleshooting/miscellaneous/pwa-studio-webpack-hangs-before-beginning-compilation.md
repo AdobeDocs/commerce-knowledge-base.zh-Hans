@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio：Webpack在开始编译前挂起
 
-本文讨论当javascript运行时，为提供建议的解决方案 [网络包](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) 挂起PWA Studio后，即开始在Progressive Web App Studio中进行编译。
+本文介绍了当Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)在Progressive Web App Studio中开始编译之前挂起很长时间时的建议解决方案(PWA Studio)。
 
 ## 受影响的产品和版本
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 问题
 
-[查看pwa-buildpack的最新版本](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack)，和
+[检查pwa-buildpack的最新版本是](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack)，以及
 
 ```yaml
 pwa-buildpack
 ```
 
-版本号将位于 `package.json` 文件名列表。 如果您拥有旧版本的
+版本号将位于`package.json`文件名列表旁边。 如果您拥有旧版本的
 
 ```yaml
 pwa-buildpack
@@ -35,9 +35,9 @@ pwa-buildpack
 
 项目时，webpack可能会长时间挂起，然后才能开始编译。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-<u>先决条件</u>：使用本地Adobe Commerce实例设置PWA Studio店面（例如Venia）并运行
+<u>先决条件</u>：使用本地Adobe Commerce实例设置PWA Studio店面（如Venia）并运行
 
 ```yaml
 build
@@ -51,7 +51,7 @@ watch
 
 命令。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 * 如果使用    ```yaml    build    ```    命令，它通常会为Venia生成生成构件。
 * 如果使用    ```yaml    watch    ```    命令，正常启动Venia店面。
@@ -88,7 +88,7 @@ openssl version
 
 版本应为1.0或更高版本（对于OSX High Sierra，则为LibreSSL 2）。
 
-您可以通过以下方式安装较高版本的OpenSSL： [Homebrew](https://brew.sh/) 在OSX上， [巧克力](https://chocolatey.org/) 在Windows上或Linux分发的包管理器上。
+您可以在OSX上安装[Homebrew](https://brew.sh/)的OpenSSL较高版本，在Windows上安装[Chocolatey](https://chocolatey.org/)，或者安装Linux分发的包管理器。
 
 ## 相关阅读
 
@@ -96,4 +96,4 @@ openssl version
 * [Venia店面设置](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
 * [PWA构建包](https://magento.github.io/pwa-studio/pwa-buildpack/)
 * [buildpack命令行界面](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [工具和库：构建包](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [工具和库： buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)

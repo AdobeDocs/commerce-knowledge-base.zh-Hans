@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce， [所有受支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 云基础架构上的Adobe Commerce，[所有支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 * Composer版本1.10.20及更低版本
 
 >[!NOTE]
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 部署失败，部署日志包含与以下内容类似的信息：
 
-*致命错误：未捕获的UnexpectedValueException：您的github.com的github oauth令牌包含无效字符：/app/vendor/composer/composer/src/Composer/IO/BaseIO.php：129中的“ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”*
+*致命错误：未捕获的UnexpectedValueException：您的github.com的github oauth令牌包含无效字符： /app/vendor/composer/composer/src/Composer/IO/BaseIO.php：129*&#x200B;中的“ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
 
 ## 原因
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 
 要解决此问题，请将您的编辑器版本更新为1.10.22：
 
-1. 在本地环境中，运行 `composer require “composer/composer”:”>1.10.21`.
-1. 这添加了对该编辑器包版本的要求。 检查锁定文件 —  `composer/composer` 版本必须为1.0.22或更高版本。
-1. 提交 `composer.json` 和 `composer.lock` 并推送部署。
+1. 在本地环境中，运行`composer require “composer/composer”:”>1.10.21`。
+1. 这添加了对该编辑器包版本的要求。 检查锁定文件 — `composer/composer`版本必须为1.0.22或更高版本。
+1. 提交`composer.json`和`composer.lock`并推送部署。
 
-如果此方法不起作用，请 [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+如果此方法不起作用，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ## 相关阅读
 
-* [Github博客：GitHub的新身份验证令牌格式背后](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
+* [Github博客：在GitHub的新身份验证令牌格式之后](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
 * [InfoQ.com新闻文章： GitHub更改令牌格式以提高可识别性、密钥扫描和熵](https://www.infoq.com/news/2021/04/github-new-token-format/)

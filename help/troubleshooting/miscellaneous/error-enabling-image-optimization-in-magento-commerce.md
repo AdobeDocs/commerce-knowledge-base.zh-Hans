@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-在Fastly配置页面的Fastly IO代码片段旁边，您可以看到当前状态： \_disabled \_并在下面显示以下消息：请联系您的销售代表或发送电子邮件至 `support@fastly.com` 请求为您的Fastly服务激活图像优化。
+在Fastly配置页面的Fastly IO代码片段旁边，您可以看到当前状态： \_disabled \_并在下面显示以下消息：请联系您的销售代表或向`support@fastly.com`发送电子邮件，以请求为您的Fastly服务激活图像优化。
 
 ## 原因
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 解决方案
 
-创建 [支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 并要求图像优化。
+创建[支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)并请求图像优化。

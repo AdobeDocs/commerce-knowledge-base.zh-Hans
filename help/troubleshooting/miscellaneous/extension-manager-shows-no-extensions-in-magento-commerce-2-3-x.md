@@ -23,25 +23,25 @@ ht-degree: 0%
 
 当您通过Commerce Marketplace购买扩展时，无法使用核心Adobe CommerceExtension Manager安装它们。 当您添加访问密钥并同步到Marketplace时，Extension Manager不会显示任何扩展。
 
-此 **解决方法** 对于此问题，是使用命令行Adobe Commerce安装，如中所示 [常规CLI安装](https://devdocs.magento.com/extensions/install/) 在我们的开发人员文档中。
+此问题的&#x200B;**解决方法**&#x200B;是使用命令行Adobe Commerce安装，如开发人员文档中的[常规CLI安装](https://devdocs.magento.com/extensions/install/)中所示。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 通过Commerce Marketplace购买扩展。
 1. 添加扩展的访问密钥并同步到Marketplace。
 1. 转到管理员的Extension Manager部分。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 该扩展将显示在Commerce管理员的Extension Manager部分中。
 
 <u>实际结果</u>：
 
-**Commerce管理员的Extension Manager部分上不显示任何扩展，如下图所示：**
+**Commerce管理员的Extension Manager部分上未显示任何扩展，类似于以下图像：**
 
 
 ![KB-607_Image_1.png](assets/KB-607_Image_1.png)
 
 ## 解决方法
 
-使用命令行Adobe Commerce安装，如所示 [常规CLI安装](https://devdocs.magento.com/extensions/install/) 在我们的开发人员文档中。
+使用命令行Adobe Commerce安装，如开发人员文档中的[常规CLI安装](https://devdocs.magento.com/extensions/install/)中所示。

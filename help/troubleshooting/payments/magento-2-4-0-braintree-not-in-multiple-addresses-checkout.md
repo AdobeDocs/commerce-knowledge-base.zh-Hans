@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文为Adobe Commerce 2.4.0的已知问题提供了解决方法，该问题涉及在多个地址结账时未包含Braintree支付方法。 请注意，Adobe Commerce 2.4.1中已修复此问题。
 
-注意：Adobe Commerce建议使用 [Commerce MarketplaceBraintree扩展](https://marketplace.magento.com/paypal-module-braintree.html) 版本2.3及更高版本，以保持PSD合规性。 该扩展不提供多地址签出功能。
+注意：Adobe Commerce建议对版本2.3及更高版本使用[Commerce MarketplaceBraintree扩展](https://marketplace.magento.com/paypal-module-braintree.html)，以保持PSD合规性。 该扩展不提供多地址签出功能。
 
 ## 受影响的产品和版本
 
@@ -28,18 +28,18 @@ ht-degree: 0%
 
 使用核心Braintree集成。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 去店面。
 1. 以客户身份登录。
 1. 将产品添加到购物车。
 1. 打开购物车。
-1. 按 **查看和编辑购物车**.
-1. 按 **使用多个地址签出**.
-1. 按 **转到送货信息**.
-1. 按 **继续查看账单信息**.
+1. 按&#x200B;**查看和编辑购物车**。
+1. 按&#x200B;**签出多个地址**。
+1. 按&#x200B;**转到送货信息**。
+1. 按&#x200B;**继续记帐信息**。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 Braintree可用作支付方式。
 

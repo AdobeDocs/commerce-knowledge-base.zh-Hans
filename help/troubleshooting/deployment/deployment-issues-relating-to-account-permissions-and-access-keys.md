@@ -23,16 +23,16 @@ ht-degree: 0%
 
 <u>先决条件</u>：
 
-云许可证与联系人A(电子邮件地址： *<u>first@e.mail</u>*)
+云许可证与联系人A关联(电子邮件地址： *<u>first@e.mail</u>*)
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 联系在其帐户中创建的Adobe Commerce访问密钥（密钥X），并将其安装在云中。
-1. 联系人B (电子邮件地址： *<u>second@e.mail</u>*)使用其帐户购买了一个扩展，并创建了用于安装该扩展的访问密钥（密钥Y）。
+1. 联系人B(电子邮件地址：*<u>second@e.mail</u>*)使用其帐户购买了一个扩展，并创建了用于安装该扩展的访问密钥（密钥Y）。
 1. 联系人A随后离开了公司，许可证（所有权）随后转让给联系人B。
 1. 系统集成商尝试使用密钥X在云环境中安装扩展。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 已成功安装扩展。
 
@@ -50,18 +50,18 @@ ht-degree: 0%
 
 ### 如何禁用访问密钥
 
-如果您无权访问 [Commerce Marketplace](https://marketplace.magento.com/) 与旧密钥关联的帐户， [联系Adobe Commerce支持](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 禁用密钥。
+如果您无权访问与旧密钥关联的[Commerce Marketplace](https://marketplace.magento.com/)帐户，请[联系Adobe Commerce支持部门](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以禁用该密钥。
 
 如果您有权访问与旧密钥关联的Marketplace帐户，请执行以下步骤来禁用该密钥：
 
-1. 登录到 [Commerce Marketplace](https://marketplace.magento.com/) 使用来自旧帐户的凭据。
-1. 单击页面右上角的帐户名称，然后选择 **我的个人资料**.
-1. 单击 **访问密钥** 在Marketplace选项卡中。
+1. 使用旧帐户的凭据登录到[Commerce Marketplace](https://marketplace.magento.com/)。
+1. 单击页面右上角的帐户名称，然后选择&#x200B;**我的个人资料**。
+1. 在“市场”选项卡中单击&#x200B;**访问密钥**。
 
    ![magento_products_access_keys_2.4.1.png](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
 
-1. 单击 **禁用** 访问密钥的旁边。
+1. 单击访问密钥旁边的&#x200B;**禁用**。
 
 ## 相关阅读
 
-* [获取您的身份验证密钥](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html) 在我们的开发人员文档中。
+* [在我们的开发人员文档中获取您的身份验证密钥](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)。

@@ -20,8 +20,8 @@ ht-degree: 0%
 
 ## 如何在云基础架构上为Adobe Commerce应用编辑器修补程序 {#cloud}
 
-1. 如果没有名为的目录 `m2-hotfixes` 请在项目根目录中创建一个。
-1. 复制 `%patch_name%.composer.patch` 文件到 `m2-hotfixes` 目录。
+1. 如果项目根目录中没有名为`m2-hotfixes`的目录，请创建一个。
+1. 将`%patch_name%.composer.patch`文件复制到`m2-hotfixes`目录。
 1. 添加、提交和推送代码更改：
 
    ```git
@@ -36,7 +36,7 @@ ht-degree: 0%
    git push origin
    ```
 
-有关将修补程序应用到云项目的其他信息，请参阅 [应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html) 在我们的开发人员文档中。
+有关将修补程序应用到云项目的其他信息，请参阅我们的开发人员文档中的[应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ### 如何为Adobe Commerce内部部署和Magento Open Source应用编辑器修补程序 {#commerce}
 
@@ -47,6 +47,6 @@ ht-degree: 0%
    patch -p1 < %patch_name%.composer.patch
    ```
 
-   (如果上述命令不起作用，请尝试使用 `-p2` 而不是 `-p1` )
+   （如果上述命令不起作用，请尝试使用`-p2`而不是`-p1` ）
 
-1. 要反映更改，请在下的管理员中刷新缓存 **系统** > **缓存管理**.
+1. 要使更改生效，请在&#x200B;**系统** > **缓存管理**&#x200B;下的管理员中刷新缓存。

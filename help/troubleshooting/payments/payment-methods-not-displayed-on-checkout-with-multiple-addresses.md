@@ -22,26 +22,26 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->核心的Adobe Commerce网络源支付集成自2.3.3之后已被弃用，并将在2.4.0中完全删除。使用 [正式延期](https://marketplace.magento.com/cybersource-global-payment-management.html) 而不是从marketplace访问。
+>核心的Adobe Commerce网络源支付集成自2.3.3之后已被弃用，并将在2.4.0中完全删除。请改用Marketplace中的[正式扩展](https://marketplace.magento.com/cybersource-global-payment-management.html)。
 
 ## 问题
 
-<u>先决条件</u>：在Commerce“管理员”中，启用和配置PayPal和Cybersource支付方式，并为您的商店启用多送货服务。
+<u>先决条件</u>：在Commerce管理员中，启用并配置PayPal和Cybersource支付方式，并为您的商店启用多送货服务。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 在店面，将多个产品添加到购物车。
 1. 转到购物车页面。
-1. 单击 **使用多个地址签出**.
+1. 单击&#x200B;**签出多个地址**。
 1. 登录或创建帐户。
 1. 在“收货地址 — 多个地址”页上的地址之间拆分产品。
-1. 单击 **转到送货信息**.
+1. 单击&#x200B;**转到送货信息**。
 1. 选择每个装运的装运方法。
-1. 单击 **继续查看账单信息**.
+1. 单击&#x200B;**继续查看帐单信息**。
 
-<u>预期结果</u>：PayPal和Cybersource作为支付选项提供。
+<u>预期结果</u>： PayPal和Cybersource可作为付款选项使用。
 
-<u>实际结果</u>：仅Cybersource显示为可用支付选项。
+<u>实际结果</u>：只有赛博源显示为可用支付选项。
 
 ## 原因
 

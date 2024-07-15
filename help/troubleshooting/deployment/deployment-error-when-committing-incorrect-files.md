@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-提交到文件/文件夹存储库时出现部署错误。 例如，以下错误是由于尝试连接到数据库而导致的，在数据库当前不可用期间 [构建阶段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase)：
+提交到文件/文件夹存储库时出现部署错误。 例如，以下错误是由于在[构建阶段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase)期间尝试连接到数据库时当前不可用而导致的：
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +42,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## 原因
 
-某些文件/文件夹不应提交到存储库，因为它们会导致 [部署工作流](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
+某些文件/文件夹不应提交到存储库，因为它们导致[部署工作流](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html)中断。
 
 ## 解决方案
 

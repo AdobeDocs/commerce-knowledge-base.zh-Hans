@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce， [所有受支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* 云基础架构上的Adobe Commerce，[所有支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)。
 
 ## 问题
 
@@ -25,15 +25,15 @@ ht-degree: 0%
 
 让本地Git控制项目克隆。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 您需要从暂存分支创建集成分支：
 
 1. 通过在本地shell中运行以下命令切换到暂存分支： `git checkout staging`
 1. 通过在本地shell中运行以下命令，从暂存分支创建集成分支： `git checkout -b <branch>`
-1. 通过将分支推送到远程存储库并设置上游分支，方法是在本地shell中运行以下命令： `git push --set-upstream origin <branch>`
+1. 通过在本地shell中运行以下命令，将分支推送到远程存储库并设置上游分支： `git push --set-upstream origin <branch>`
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 新分支在暂存分支下创建。
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 解决方案
 
-只有在商家推送并激活新创建的分支后，才能设置父分支。 请参阅 [云基础架构上的Adobe Commerce >比特桶集成](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) 在我们的开发人员文档中。
+只有在商家推送并激活新创建的分支后，才能设置父分支。 请参阅我们的开发人员文档中的[Adobe Commerce on cloud infrastructure > Bitbucket集成](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch)。
 
-要更新服务器上现有分支的父分支，请使用 `magento-cloud environment:info` magento-cloud CLI中的命令。
+要更新服务器上现有分支的父级，请使用magento-cloud CLI中的`magento-cloud environment:info`命令。
 
 使用示例：
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [云基础架构上的Adobe Commerce > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) 在我们的开发人员文档中。
+* 在开发人员文档中，[云基础架构上的Adobe Commerce > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html)。

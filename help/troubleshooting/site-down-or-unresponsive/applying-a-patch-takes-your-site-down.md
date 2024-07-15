@@ -48,15 +48,15 @@ ht-degree: 0%
    patch -p1 -R %patch_name%.composer.patch
    ```
 
-   (如果上述命令不起作用，请尝试使用 `-p2` 而不是 `-p1`)
+   （如果上述命令不起作用，请尝试使用`-p2`而不是`-p1`）
 
-1. 要反映更改，请在下的管理员中刷新缓存 **系统** > **缓存管理**.
+1. 要使更改生效，请在&#x200B;**系统** > **缓存管理**&#x200B;下的管理员中刷新缓存。
 
 ### 云基础架构上的Adobe Commerce，所有版本
 
 对于云基础架构上的Adobe Commerce，所有版本，
 
-1. 删除 `%patch_name%.composer.patch` 中的文件 `m2-hotfixes` 目录。
+1. 从`m2-hotfixes`目录中删除`%patch_name%.composer.patch`文件。
 1. 提交并推送代码更改：
 
    ```
@@ -65,4 +65,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+* [如何应用我们的支持知识库中Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。

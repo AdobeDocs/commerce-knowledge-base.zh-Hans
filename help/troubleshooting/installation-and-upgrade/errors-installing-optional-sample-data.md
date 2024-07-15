@@ -34,11 +34,11 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 ### 解决方案
 
-[再次设置文件系统所有权和权限](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) 作为用户，具有 `root` 权限。
+[再次设置文件系统所有权和权限](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html)作为具有`root`权限的用户。
 
 ## 症状（生产模式）
 
-如果您当前设置为 [生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)，如果您使用 [magento sampledata：deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) 命令：
+如果当前设置为[生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)，则使用[magento sampledata：deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html)命令时，示例数据安装将失败：
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -46,9 +46,9 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 ### 解决方案
 
-请勿在生产模式下安装示例数据。 切换到开发人员模式并清除部分 `var` 目录并重试。
+请勿在生产模式下安装示例数据。 切换到开发人员模式并清除某些`var`目录，然后重试。
 
-按照显示的顺序输入以下命令 [Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html)：
+按照[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html)显示的顺序输入以下命令：
 
 ```php
 cd <magento_root>
@@ -107,15 +107,15 @@ Installing data...
 
 ### 解决方案
 
-作为用户，具有 `root` 权限，修改 `php.ini` 以增加 `max_execution_time` 到600或更多。 (600秒是10分钟。 您可以根据需要增加值。) 您应该更改 `max_execution_time` 安装成功后恢复到其之前的值。
+作为具有`root`权限的用户，请修改`php.ini`以将`max_execution_time`的值增加到600或更多。 (600秒是10分钟。 您可以根据需要增加值。) 安装成功后，您应将`max_execution_time`更改回其先前的值。
 
-如果你不确定在哪 `php.ini` 位置，请输入以下命令：
+如果您不确定`php.ini`的位置，请输入以下命令：
 
 ```php
 php --ini
 ```
 
-的值 `Loaded Configuration File` 是 `php.ini` 您必须修改。
+`Loaded Configuration File`的值是您必须修改的`php.ini`。
 
 >[!NOTE]
 >

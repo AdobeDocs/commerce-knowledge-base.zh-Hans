@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce， [所有受支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 云基础架构上的Adobe Commerce，[所有支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 选择最适合您的具体情况：
 
-* 如果您具有稳定的内部版本，但没有有效的快照 —  [场景1：无快照，构建稳定（可用SSH连接）](#scen2).
-* 如果内部版本已损坏，并且您没有有效的快照 —  [场景2：没有快照；构建中断（没有SSH连接）](#scen3).
+* 如果您具有稳定的生成，但没有有效的快照 — [场景1：没有快照，则生成稳定（SSH连接可用）](#scen2)。
+* 如果生成已损坏，并且您没有有效的快照 — [方案2：没有快照；生成已损坏（无SSH连接）](#scen3)。
 
 ## 场景1：无快照，构建稳定（可用SSH连接） {#scen2}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 执行这些步骤后：
 
-* Adobe Commerce安装将返回到其Vanilla状态(数据库已恢复；删除了部署配置；目录位于 `var` 已清除)
+* 您的Adobe Commerce安装返回到其Vanilla状态（数据库已恢复；部署配置已删除；已清除`var`下的目录）
 * 您的Git分支将会重置为过去的所需状态
 
 请阅读以下详细步骤：
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 我们需要禁用配置管理，以便它不会在部署期间自动应用以前的配置设置。
 
-要禁用配置管理，请确保 `/app/etc/` 目录不包含 `config.php` (适用于Adobe Commerce 2.4.x)或 `config.local.php` (适用于Adobe Commerce 2.1.x)文件。
+要禁用配置管理，请确保您的`/app/etc/`目录不包含`config.php`(对于Adobe Commerce 2.4.x)或`config.local.php`(对于Adobe Commerce 2.1.x)文件。
 
 要删除配置文件，请执行以下步骤：
 
-1. [通过SSH连接到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 删除配置文件：
    * 对于Adobe Commerce 2.4：
 
@@ -64,20 +64,20 @@ ht-degree: 0%
 
 通过查看以下内容了解有关配置管理的更多信息：
 
-* [减少云基础架构上Adobe Commerce的部署停机时间](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) 在我们的支持知识库中。
-* [商店设置的配置管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 在我们的开发人员文档中。
+* [在我们支持知识库中，减少Adobe Commerce在云基础架构上的部署停机时间](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)。
+* 在开发人员文档中[商店设置的配置管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)。
 
 ### 步骤1：使用setup：uninstall命令卸载Adobe Commerce软件 {#setup-uninstall}
 
 
-卸载Adobe Commerce软件将删除并恢复数据库，删除部署配置，并清除以下目录 `var`.
+卸载Adobe Commerce软件将删除并还原数据库，删除部署配置，并清除`var`下的目录。
 
-审核 [卸载Adobe Commerce软件](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) 在我们的开发人员文档中。
+请查看我们的开发人员文档中的[卸载Adobe Commerce软件](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html)。
 
 要卸载Adobe Commerce软件，请执行以下步骤：
 
-1. [通过SSH连接到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
-1. 执行 `setup:uninstall`：
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. 执行`setup:uninstall`：
 
    ```php
      php bin/magento setup:uninstall
@@ -98,7 +98,7 @@ ht-degree: 0%
 通过Git重置，我们可以将代码还原到过去所需的状态。
 
 1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
-1. 访问提交历史记录。 使用 `--reverse` 为了更加方便起见，请按相反顺序显示历史记录：
+1. 访问提交历史记录。 使用`--reverse`以相反顺序显示历史记录，以便更加方便：
 
    ```git
      git log --reverse
@@ -127,11 +127,11 @@ ht-degree: 0%
 
 [1.重置Git分支。](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
 
-[2. 禁用配置管理。](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
+[2。 禁用配置管理。](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
 
 [3.卸载Adobe Commerce软件。](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4个期间；强制重新部署。
+4&amp;amp；句点；强制重新部署。
 
 执行这些步骤后，您的结果将与方案1中的结果相同。
 
@@ -145,36 +145,36 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 ## 如果安装：卸载失败，请手动重置数据库
 
-如果执行 `setup:uninstall` 命令因错误而失败，无法完成，我们可以通过以下步骤手动清除数据库：
+如果执行`setup:uninstall`命令失败并出现错误，且无法完成，则可以使用以下步骤手动清除数据库：
 
-1. [通过SSH连接到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 连接到MySQL数据库：
 
    ```sql
    mysql -h database.internal
    ```
 
-1. 放下 `main` 数据库：
+1. 删除`main`数据库：
 
    ```sql
    drop database main;
    ```
 
-1. 创建空的 `main` 数据库：
+1. 创建空的`main`数据库：
 
    ```sql
    create database main;
    ```
 
-1. 删除以下配置文件： `config.php`， `config.php` `.bak`， `env.php`、和 `env.php.bak`.
+1. 删除以下配置文件： `config.php`、`config.php` `.bak`、`env.php`和`env.php.bak`。
 
-重置数据库后， [将git推送到环境以触发重新部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands) 并将Adobe Commerce安装到新创建的数据库中。 或 [运行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
+重置数据库后，[向环境推送git以触发重新部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands)，并将Adobe Commerce安装到新创建的数据库中。 或[运行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。
 
 ## 相关阅读
 
 在我们的开发人员文档中：
 
-* [在云上恢复快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [在云上还原快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
 * [创建快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
 * [快照和备份管理](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
 * [使用Cloud Console管理分支 — 查看日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)

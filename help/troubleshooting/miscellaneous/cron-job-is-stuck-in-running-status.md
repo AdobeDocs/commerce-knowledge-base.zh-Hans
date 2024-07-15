@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Cron] 作业卡在**正在运行**状态”中'
-description: 本文为何时使用Adobe Commerce提供了解决方案 [!DNL cron] 作业不会完成执行，并会持续处于“正在运行”状态，从而阻止其他 [!DNL cron] 作业运行。 发生这种情况的原因有很多，例如网络问题、应用程序崩溃和重新部署问题。
+title: “[!DNL Cron]作业卡在**正在运行**状态”
+description: 本文提供了当Adobe Commerce [!DNL cron] 作业未完成执行并持续处于“正在运行”状态时（阻止其他 [!DNL cron] 作业运行）的解决方案。 发生这种情况的原因有很多，例如网络问题、应用程序崩溃和重新部署问题。
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Cron] 作业卡在“正在运行”状态
+# [!DNL Cron]作业卡在“正在运行”状态
 
-本文为何时使用Adobe Commerce提供了解决方案 [!DNL cron] 作业不会完成执行，并会持续处于“正在运行”状态，从而阻止其他 [!DNL cron] 作业运行。 发生这种情况的原因有很多，例如网络问题、应用程序崩溃和重新部署问题。
+本文针对Adobe Commerce [!DNL cron]作业未完成执行并持续处于“正在运行”状态时提供了解决方案，该状态会阻止其他[!DNL cron]作业运行。 发生这种情况的原因有很多，例如网络问题、应用程序崩溃和重新部署问题。
 
 ## 受影响的产品和版本
 
@@ -21,38 +21,38 @@ ht-degree: 0%
 
 ## 症状 {#symptom}
 
-的症状 [!DNL cron] 必须重置的作业包括：
+必须重置的[!DNL cron]作业的症状包括：
 
-* 大量作业显示在 `cron_schedule` 队列
+* `cron_schedule`队列中出现大量作业
 * 网站性能开始降低
 * 作业无法按计划执行
 
 ## 解决方案 {#solutions}
 
-### 用于停止所有对象的解决方案 [!DNL cron] 一次作业 {#solution-stop-all-crons-at-once}
+### 用于同时停止所有[!DNL cron]作业的解决方案 {#solution-stop-all-crons-at-once}
 
 >[!WARNING]
 >
->运行此命令，不使用 `--job-code` 选项重置 *所有* [!DNL cron] 作业，包括当前正在运行的作业，因此我们建议仅在异常情况下才使用它，例如，在您验证所有 [!DNL cron] 必须重置作业。 默认情况下，重新部署将运行此命令以重置 [!DNL cron] 作业，这样在环境备份后，它们可以正确恢复。 避免在索引器运行时使用此解决方案。
+>运行此命令而不使用`--job-code`选项会重置&#x200B;*所有* [!DNL cron]作业（包括当前正在运行的作业），因此我们建议仅在例外情况下使用它，例如，在您验证必须重置所有[!DNL cron]作业之后。 默认情况下，重新部署将运行此命令以重置[!DNL cron]个作业，以便在环境备份后正确恢复它们。 避免在索引器运行时使用此解决方案。
 
-要解决此问题，必须重置 [!DNL cron] 作业使用 `cron:unlock` 命令。 此命令更改 [!DNL cron] 作业时，强制结束该作业以允许其他已安排的作业继续执行。
+要解决此问题，必须使用`cron:unlock`命令重置[!DNL cron]作业。 此命令更改数据库中[!DNL cron]作业的状态，强制结束该作业以允许其他计划的作业继续执行。
 
-1. 打开终端并使用 [SSH密钥](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) 以连接到受影响的环境。
+1. 打开终端并使用[SSH密钥](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)连接到受影响的环境。
 1. 获取MySQL数据库凭据：    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
-1. 连接到数据库，使用 `mysql` ：    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
-1. 选择 `main` 数据库：    ```shell    use main    ```
-1. 查找所有正在运行的 [!DNL cron] 作业：    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
-1. 复制 `job_code` 任何作业运行时间超过正常时间的问题。
-1. 使用上一步中的计划ID解锁特定 [!DNL cron] 作业：    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
+1. 使用`mysql`连接到数据库：    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
+1. 选择`main`数据库：    ```shell    use main    ```
+1. 查找所有正在运行的[!DNL cron]作业：    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
+1. 复制运行时间超过正常时间的任何作业的`job_code`。
+1. 使用上一步中的计划ID解锁特定[!DNL cron]作业：    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
 
-### 用于停止单次存取的解决方案 [!DNL cron] {#solution-stop-a-single-cron}
+### 用于停止单个[!DNL cron]的解决方案 {#solution-stop-a-single-cron}
 
-1. 打开终端并使用 [SSH密钥](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) 以连接到受影响的环境。
+1. 打开终端并使用[SSH密钥](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)连接到受影响的环境。
 1. 使用以下命令检查长时间运行的任务：
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```
 
-1. 在输出中，如下面的示例输出中，您将看到当前日期和进程列表。 此 `START` 列显示流程的开始时间或日期：
+1. 在输出中，如下面的示例输出中，您将看到当前日期和进程列表。 `START`列显示进程的开始时间或日期：
 
    ```
    Wed May  8 22:41:31 UTC 2019
@@ -72,8 +72,8 @@ ht-degree: 0%
    bxc2qly+ 25896 29.0  0.6 475320 109876 ?       R    20:51   0:00 /usr/bin/php7.1-zts /app/bxc2qlykqhbqe/bin/magento cron:run --group=ddg_automation --bootstrap=standaloneProcessStarted=1
    ```
 
-1. 如果您看到长时间运行 [!DNL cron] 作业可能属于块部署进程，您可以使用以下命令终止该进程： `kill` 命令。 您可以识别 **进程ID** (找到 `PID` 栏)，然后放上 `PID` 在命令中终止进程。
-此 **终止过程** 命令为：
+1. 如果您看到长时间运行的[!DNL cron]作业可能属于块部署进程，则可以使用`kill`命令终止该进程。 您可以识别&#x200B;**进程ID**（找到`PID`列），然后将`PID`放入命令中以终止该进程。
+**终止进程**&#x200B;命令为：
 
    ```kill -9 <PID>```
 

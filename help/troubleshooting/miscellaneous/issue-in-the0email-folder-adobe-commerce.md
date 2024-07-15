@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 云上的Adobe Commerce存在变量/导出文件夹权限问题
 
-本文提供了解决方案，来解决由于中的服务器存在文件权限问题而无法导出产品数据的问题。 `var/export/email` 文件夹。 症状包括产品和目录导出在用户界面中不可用，但在使用SSH时可见。
+本文为由于`var/export/email`文件夹中服务器上的文件权限问题而无法导出产品数据的问题提供了解决方案。 症状包括产品和目录导出在用户界面中不可用，但在使用SSH时可见。
 
 ## 受影响的产品和版本
 
@@ -21,29 +21,29 @@ ht-degree: 0%
 
 ## 问题
 
-不能在中导出文件 `var/export/email` 或 `var/export/archive` 文件夹。
-由于以下项的权限，部署失败： `var/export/email` 或 `var/export/email/archive` 因为存档文件夹是在电子邮件下创建的，如果我只是执行导出/电子邮件操作，有时仍会遇到问题)，无法添加内容以说明子文件夹 `var/export/email/archive`.
+无法导出`var/export/email`或`var/export/archive`文件夹中的文件。
+由于`var/export/email`或`var/export/email/archive`的权限，部署失败，因为该存档文件夹是在电子邮件下创建的，如果我只是执行导出/电子邮件，有时仍然有问题)，无法将内容添加到子文件夹`var/export/email/archive`的帐户。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-在“管理员”中，转到 **系统** > *数据传输* > **导出**.
-选择要保存在中的CSV文件 `var/export/` 文件夹。
+在管理员中，转到&#x200B;**系统** > *数据传输* > **导出**。
+选择要保存在`var/export/`文件夹中的CSV文件。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 CSV文件可见，并且可以导出。
 
 <u>实际结果</u>：
 
-CSV文件不可见。 您还会看到一条权限被拒绝消息： *RecursiveDirectoryIterator：：__construct(/app/project id>/var/export/email)：无法打开目录：权限被拒绝*
+CSV文件不可见。 您还会看到权限被拒绝消息： *RecursiveDirectoryIterator：：__construct(/app/project id>/var/export/email)：无法打开目录：权限被拒绝*
 
 对于所有导出类型，您都会收到相同的消息：“高级定价”、“客户财务”、“客户主文件”和“客户地址”。
 
 ## 原因
 
-这是由于在中创建的文件夹导致的 `/var` 具有不完美权限的用户： `d-wxrwsr-T`. T粘性位表示用户只能删除他们拥有的文件，而缺少可执行文件则表示他们无法在目录中创建文件。
+这是由于在`/var`内创建的具有不完美权限的文件夹所导致： `d-wxrwsr-T`。 T粘性位表示用户只能删除他们拥有的文件，而缺少可执行文件则表示他们无法在目录中创建文件。
 
-当系统创建名为的文件夹时，经常会注意到这种情况 `export`，其中包含名为的文件夹 `email`，其中包含名为的文件夹 `archive`.
+当系统创建名为`export`的文件夹时，经常会注意到这种情况，该文件夹包含名为`email`的文件夹，该文件夹包含名为`archive`的文件夹。
 
 要检查目录是否具有这些配置错误的权限，请在CLI/终端中运行以下命令：
 
@@ -67,4 +67,4 @@ chmod 777 -R var/export/
 
 ## 相关阅读
 
-* [导出](https://docs.magento.com/user-guide/system/data-export.html) 在我们的用户指南中。
+* 用户指南中的[导出](https://docs.magento.com/user-guide/system/data-export.html)。

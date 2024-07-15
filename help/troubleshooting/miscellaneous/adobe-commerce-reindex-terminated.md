@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce cloud：重新索引终止 `Killed` message
+# Adobe Commerce cloud：重新索引已终止，显示`Killed`消息
 
 ## 受影响的产品和版本
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 问题
 
-您正尝试在集成分支（或在入门体系结构项目的暂存阶段）上运行重新索引，此过程将终止 `Killed` 消息。
+您正在尝试对集成分支（或在启动程序架构项目的暂存阶段）运行重新索引，该进程将使用`Killed`消息终止。
 
 ## 原因
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 1. 减少产品数量（以及客户组和商店 — 如果适用）。
 1. 仅限一个或两个并发用户使用。
 1. 禁用cron作业，并根据需要手动运行。
-1. 如果之前未执行此操作，请请求升级到增强集成环境 — 请注意，一旦执行升级，您将受到环境数量限制。 请参阅 [集成环境增强请求 — Pro和Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 请参阅我们的支持知识库中的文章，以了解详细信息。
+1. 如果之前未执行此操作，请请求升级到增强集成环境 — 请注意，一旦执行升级，您将受到环境数量限制。 有关详细信息，请参阅我们的支持知识库中的[集成环境增强请求 — Pro和Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)文章。
 
 ## 相关阅读：
 

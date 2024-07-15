@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Adobe Commerce Intelligence培训视频： SQLReport Builder
 
-请记住， **您需要管理员权限才能访问SQLReport Builder！**
+请记住，**您需要管理员权限才能访问SQLReport Builder！**
 
 在本视频中，您将了解：
 
 * 如何运行SQL查询
-* 操作方法 [可视化您的结果](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
+* 如何[可视化您的结果](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
 * 如何将报表保存到功能板
 
-要观看视频，请访问 [Commerce Intelligence - SQLReport Builder](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) 在Adobe Experience League中。
+若要观看视频，请转到Adobe Experience League中的[Commerce Intelligence - SQLReport Builder](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html)。
 
-**想跟着吗？** 查看我们的 [sqlReport Builder教程](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) 以获取书面说明。
+**要关注吗？**&#x200B;请查看我们的[SQLReport Builder教程](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)以了解书面说明。

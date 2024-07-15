@@ -53,20 +53,20 @@ PayPal无法处理付款并完成订单。
 
 更改您的PayPal配置文件以允许每个发票ID进行多项付款。 您需要通过PayPal进行这些更改。
 
-1. 登录您的帐户，网址为 [https://www.paypal.com](https://www.paypal.com/).
-1. 单击 **个人资料** > **配置文件和设置** （右上角）。
-1. 转到 **我的销售工具**.
-1. 导航到 **获得报酬并管理我的风险** > **阻止付款** 并单击 **更新**.
-1. **销售首选项**，单击 **付款接收首选项**.
-1. 下 **阻止意外支付**，选择 **否，允许每个发票ID进行多项付款**.    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
-1. 滚动到底部并单击 **保存**.
+1. 在[https://www.paypal.com](https://www.paypal.com/)登录到您的帐户。
+1. 单击&#x200B;**配置文件** > **配置文件和设置**（右上角）。
+1. 转到&#x200B;**我的销售工具**。
+1. 导航到&#x200B;**获取付款并管理我的风险** > **阻止付款**，然后单击&#x200B;**更新**。
+1. **销售首选项**，单击&#x200B;**付款接收首选项**。
+1. 在&#x200B;**阻止意外付款**&#x200B;下，选择&#x200B;**否，允许每个发票ID**&#x200B;进行多次付款。    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
+1. 滚动到底部并单击&#x200B;**保存**。
 
 ## 更多信息
 
-* [阻止意外支付](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) 在PayPal开发人员文档上。
+* 在PayPal开发人员文档上[阻止意外付款](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments)。
 * 我们的用户指南中的PayPal支付：
    * [PayPal Express签出](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
    * [其他PayPal解决方案](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)
 * 在我们的开发人员文档中：
    * [在云基础架构上为Adobe Commerce设置PayPal支付方法](/docs/commerce-cloud-service/user-guide/configure-store/paypal.html)
-   * [支付集成](https://developer.adobe.com/commerce/php/development/payments-integrations/)
+   * [付款集成](https://developer.adobe.com/commerce/php/development/payments-integrations/)

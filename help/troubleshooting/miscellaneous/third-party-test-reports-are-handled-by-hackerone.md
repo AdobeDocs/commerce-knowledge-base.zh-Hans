@@ -1,5 +1,5 @@
 ---
-title: 第三方安全扫描发现的漏洞应转到 [!DNL HackerOne]
+title: 第三方安全扫描找到的漏洞应转到 [!DNL HackerOne]
 description: 本文提供了一个解决方案，用于解决第三方安全扫描发现的漏洞。
 feature: Security
 role: Developer, Admin
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# 第三方安全扫描发现的漏洞应转到 [!DNL HackerOne]
+# 第三方安全扫描找到的漏洞应转到[!DNL HackerOne]
 
 本文提供了一个解决方案，用于解决第三方安全扫描发现的漏洞。
 
@@ -25,4 +25,4 @@ ht-degree: 0%
 
 ## 解决方案
 
-第三方安全扫描发现的漏洞应发送到 [!DNL HackerOne] 网站。 Adobe Commerce在中没有直接联系点 [!DNL HackerOne]，因此您应该直接联系 [!DNL HackerOne]. Adobe仅处理MST(Magento安全扫描工具)报告。
+第三方安全扫描发现的漏洞应发送到[!DNL HackerOne]网站。 Adobe Commerce在[!DNL HackerOne]没有直接联系人，因此您应直接联系[!DNL HackerOne]。 Adobe仅处理MST(Magento安全扫描工具)报告。

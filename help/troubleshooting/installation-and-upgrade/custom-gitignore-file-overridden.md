@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Composer install命令覆盖.gitignore文件、Adobe Commerce
 
-本文为跟踪何时发送数据提供了解决方案 `.gitignore` 在Cloud Infrastructure 2.4.2-p1和2.3.7上，文件被Adobe Commerce上的编辑器覆盖。
+本文提供了一个解决方案，用于在Adobe Commerce上由编辑器在Cloud Infrastructure 2.4.2-p1和2.3.7上覆盖跟踪的`.gitignore`文件。
 
 ## 受影响的产品和版本
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 ## 问题
 
-`.gitignore` 运行composer install命令时文件被覆盖。
+运行composer install命令时正在覆盖`.gitignore`文件。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 
 1. 为工作区创建一个空目录。
@@ -39,7 +39,7 @@ ht-degree: 0%
    1. `echo "/this/line/should/stay" >> .gitignore`
    1. `git init`
    1. `git add * && git add .*`
-   1. `git commit -m "Init"` #提交到存储库的文件
+   1. 已提交到存储库的`git commit -m "Init"` #个文件
    1. `rm -rf vendor/*`
    1. `composer install`
    1. `git diff`
@@ -56,17 +56,17 @@ ht-degree: 0%
       -/this/line/should/stay
       ```
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
-`.gitignore` 不会被编辑器覆盖。
+`.gitignore`未被编辑器覆盖。
 
 <u>实际结果</u>：
 
-`.gitignore` 被每次编辑器安装运行覆盖。
+每次运行composer时都会覆盖`.gitignore`。
 
 ## 解决方案
 
-保持您的自定义 `.gitignore file` 您需要在 `magento-deploy-ignore` 部分。
+要保留您的自定义`.gitignore file`，您需要在`magento-deploy-ignore`分区中忽略它。
 
 ```git
 {
@@ -84,4 +84,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [跟踪的.gitignore文件已由编辑器覆盖！](https://github.com/magento/magento2/issues/32888) 在Magento2 GitHub中。
+* [跟踪的.gitignore文件已由编辑器覆盖！Magento2 GitHub中的](https://github.com/magento/magento2/issues/32888)。

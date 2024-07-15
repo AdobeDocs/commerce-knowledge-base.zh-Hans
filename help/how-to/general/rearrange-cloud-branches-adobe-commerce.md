@@ -29,17 +29,17 @@ ht-degree: 0%
 
 要重新排列云分支，请执行以下操作：
 
-1. 您必须拥有 [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 角色。
-1. 安装magento-cloud [!DNL CLI] （如果您尚未这样做）。
+1. 您必须具有[[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)角色。
+1. 安装magento-cloud [!DNL CLI]（如果尚未安装）。
 1. 为需要移动的分支运行以下命令：
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-注意：创建新分支时，可以指定父分支。 有关步骤，请参阅 [快速入门创建分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) 在我们的开发人员文档中。
+注意：创建新分支时，可以指定父分支。 有关步骤，请参阅我们的开发人员文档中的[创建分支快速入门](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)。
 
-您可以使用创建新环境分支 `branch <environment-name> <parent-environment-ID>` magento-cloud环境命令。
+您可以使用`branch <environment-name> <parent-environment-ID>` magento-cloud环境命令创建新的环境分支。
 
 创建和激活新环境分支可能需要额外的时间。
 
 ## 相关阅读
 
-[使用管理分支 [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) 在我们的开发人员文档中。
+在我们的开发人员文档中，[使用 [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html)管理分支。

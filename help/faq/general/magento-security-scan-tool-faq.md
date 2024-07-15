@@ -40,14 +40,14 @@ ht-degree: 0%
 
 ## 安全扫描工具如何工作？ {#how-does-the-magento-security-scan-tool-work}
 
-安全扫描工具基于Web，可从商家的Adobe Commerce在线帐户([account.magento.com](https://account.magento.com/))。 安全扫描可通过HTTP和HTTPS运行。 它会检查已知的安全问题，并识别缺失的Adobe Commerce修补程序和更新。
+安全扫描工具基于Web，可从商家的Adobe Commerce在线帐户([account.magento.com](https://account.magento.com/))访问。 安全扫描可通过HTTP和HTTPS运行。 它会检查已知的安全问题，并识别缺失的Adobe Commerce修补程序和更新。
 
 ## 如何注册使用安全扫描工具？ {#how-do-i-sign-up-to-use-the-magento-security-scan-tool}
 
-商家可以通过注册使用安全扫描工具，从其Adobe Commerce帐户([account.magento.com](https://account.magento.com))。 按照链接注册安全扫描工具 [此处](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
+商家可以注册使用安全扫描工具从其Adobe Commerce帐户([account.magento.com](https://account.magento.com))扫描其网上商店。 单击此链接注册安全扫描工具[此处](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686)。
 
 ## 如果在扫描报告中遇到误报，我该怎么办？ {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
 我们建议我们的商家调查所有失败的扫描，并采取适当步骤来解决此类问题。 经调查后，如果商户发现扫描结果呈误判，我们会要求商户通知Adobe采取适当措施。
 
-要提交误报报告，请输入具有Adobe Commerce商家支持的票证，以便我们能够评估误报、进行必要更改和/或提供建议以避免将来看到此类通知。 商家还可以通过电子邮件将误报情况发送至 [securityscan@magento.com](mailto:securityscan@magento.com).
+要提交误报报告，请输入具有Adobe Commerce商家支持的票证，以便我们能够评估误报、进行必要更改和/或提供建议以避免将来看到此类通知。 商户还可以向我们发送电子邮件至[securityscan@magento.com](mailto:securityscan@magento.com)来报告误报。

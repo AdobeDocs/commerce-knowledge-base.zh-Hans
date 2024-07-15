@@ -51,13 +51,13 @@ Web API无法处理数组中包含20个以上项目的消息（例如，库存�
 
 ### 如何应用修补程序
 
-解压缩下载的 `.zip` 文件并应用修补程序，如中所述 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+解压缩下载的`.zip`文件并应用[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序中所述的修补程序。
 
 >[!WARNING]
 >
->如果您怀疑存储区正在遭受DoS攻击，Adobe建议将默认输入限制降低到较低的值，以限制可请求的资源数量。  您可以使用以编程方式自定义默认限制 [类构造函数参数](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
->如我们的开发人员文档中所述： [API安全性>速率限制>最大参数输入数](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+>如果您怀疑存储区正在遭受DoS攻击，Adobe建议将默认输入限制降低到较低的值，以限制可请求的资源数量。  您可以使用[类构造函数参数](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)以编程方式自定义默认限制
+>如我们的开发人员文档中所述：[API安全>速率限制>最大参数输入](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting)。
 
 ## 相关阅读
 
-[API安全>速率限制](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) 在我们的开发人员文档中。
+在我们的开发人员文档中，[API安全>速率限制](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting)。

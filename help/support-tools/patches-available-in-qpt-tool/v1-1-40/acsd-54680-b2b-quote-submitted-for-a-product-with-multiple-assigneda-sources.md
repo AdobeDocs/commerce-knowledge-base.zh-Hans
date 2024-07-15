@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-54680：无法处理具有多个已分配来源的产品的B2B报价。
 
-ACSD-54680修补程序修复了无法处理具有多个已分配源的产品的B2B报价的问题。 此修补程序在以下情况下可用： [!DNL Quality Patches Tool (QPT)] 已安装1.1.40。 修补程序ID为ACSD-54680。 请注意，该问题计划在Adobe Commerce 2.4.6中修复。
+ACSD-54680修补程序修复了无法处理具有多个已分配源的产品的B2B报价的问题。 安装[!DNL Quality Patches Tool (QPT)] 1.1.40时，此修补程序可用。 修补程序ID为ACSD-54680。 请注意，该问题计划在Adobe Commerce 2.4.6中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 * Adobe Commerce（所有部署方法） 2.4.3
 
@@ -27,33 +27,33 @@ ACSD-54680修补程序修复了无法处理具有多个已分配源的产品的B
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新版本的其他版本 [!DNL Quality Patches Tool] 版本发布。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
 无法处理具有多个已分配来源的产品的B2B报价。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 转到 **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Sources]** 并创建两个新源： **源1** 和 **源2**.
-1. 转到 **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Stocks]** 并创建新的Stock： **库存A**，将其分配到主网站，然后分配 **源1** 和 **源2** 敬它。
-1. 创建简单产品，分配 **源1** 和 **源2**，并设置数量= *2* 每个源。 (产品的可销售数量应为 *4* 因此)。
+1. 转到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Sources]**&#x200B;并创建两个新源： **Source 1**&#x200B;和&#x200B;**Source 2**。
+1. 转到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Stocks]**&#x200B;并创建新库存： **库存A**，将其分配给主网站，然后将&#x200B;**Source 1**&#x200B;和&#x200B;**Source 2**&#x200B;分配给它。
+1. 创建简单产品，分配&#x200B;**Source 1**&#x200B;和&#x200B;**Source 2**，并为每个源设置数量= *2*。 （因此，产品的可销售数量应为&#x200B;*4*）。
 1. 创建公司帐户。
-1. 转到 **[!UICONTROL Storefront]** 并登录到公司帐户。
-1. 将简单产品添加到购物车，数量为 *4*.
-1. 打开 *[!UICONTROL Shopping cart]* 并单击 **[!UICONTROL Request a quote]** 按钮。
-1. 添加注释和报价名称，然后单击 **[!UICONTROL Send a Request]** 按钮。
-1. 转到 **[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. 转到&#x200B;**[!UICONTROL Storefront]**&#x200B;并登录到公司帐户。
+1. 将简单产品添加到购物车，其数量= *4*。
+1. 打开&#x200B;*[!UICONTROL Shopping cart]*&#x200B;并单击&#x200B;**[!UICONTROL Request a quote]**&#x200B;按钮。
+1. 添加评论和报价名称，然后单击&#x200B;**[!UICONTROL Send a Request]**&#x200B;按钮。
+1. 转到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 1. 打开最近提交的报价。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 引用项包含订购的产品。
 
 <u>实际结果</u>：
 
 引用页面中的项目部分为空，无法处理报价。
-`var/log/system.log` 包含
+`var/log/system.log`包含
 
 ```
 report.CRITICAL: TypeError: number_format() expects parameter 1 to be float, null given in .../vendor/magento/module-negotiable-quote/Model/QuoteUpdatesInfo.php:232
@@ -63,14 +63,14 @@ report.CRITICAL: TypeError: number_format() expects parameter 1 to be float, nul
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 云基础架构上的Commerce指南中的。
+* Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 云基础架构上的Adobe Commerce：云基础架构上的Commerce指南中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相关阅读
 
-要了解有关 [!DNL Quality Patches Tool]，请参阅：
+要了解有关[!DNL Quality Patches Tool]的更多信息，请参阅：
 
-* [[!DNL Quality Patches Tool] 已发布：用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用以下方式检查修补程序是否可用于您的Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关QPT中可用的其他修补程序的信息，请参阅 [[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+有关QPT中其他可用修补程序的信息，请参阅[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

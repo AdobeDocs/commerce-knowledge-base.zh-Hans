@@ -27,10 +27,10 @@ ht-degree: 0%
 
 ## 原因
 
-首次安装/升级时，会将所有产品分配给默认来源，并将所有数量与该来源相关联。 “默认来源”将分配给默认库存，并关联默认网站。
+首次安装/升级时，会将所有产品分配给默认来源，并将所有数量与该来源相关联。 默认Source将分配给默认库存，并与默认网站关联。
 
 ## 解决方案
 
 如果您有多个网站，则需要将这些网站作为Sales Channel添加到默认股票或其他自定义股票。
 
-请参阅 [Wiki/用户指南的Stock部分](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) ，以获取有关如何执行此操作的详细信息。
+有关如何操作的详细信息，请参阅我们用户指南中Wiki/用户指南](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html)的[Stock部分。

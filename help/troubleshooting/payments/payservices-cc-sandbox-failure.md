@@ -18,11 +18,11 @@ ht-degree: 0%
 ## 受影响的产品和版本
 
 
-* Adobe Commerce 2.4.0 - 2.4.4 ，所有部署选项，带 [支付服务](https://marketplace.magento.com/magento-payment-services.html)
+* Adobe Commerce 2.4.0 - 2.4.4 ，所有部署选项，带[付款服务](https://marketplace.magento.com/magento-payment-services.html)
 
 ## 问题
 
-使用测试Visa信用卡时 `4111 1111 1111 1111` 从PayPal中，它有时因PayPal欺诈政策而失败，并出现以下错误：
+使用来自PayPal的测试Visa信用卡`4111 1111 1111 1111`时，有时由于PayPal欺诈政策而导致失败，并出现以下错误：
 
 ```terminal
 Error happened when processing the request. Please try again later.
@@ -36,6 +36,6 @@ Error happened when processing the request. Please try again later.
 
 使用其他测试信用卡。 要生成可用于测试的模拟信用卡，请执行以下操作：
 
-1. 转到PayPal开发人员门户 [信用卡生成器](https://developer.paypal.com/developer/creditCardGenerator/) 页面。
+1. 转到PayPal开发人员门户[信用卡生成器](https://developer.paypal.com/developer/creditCardGenerator/)页面。
 1. 登录到PayPal开发人员门户仪表板。
 1. 生成测试信用卡。

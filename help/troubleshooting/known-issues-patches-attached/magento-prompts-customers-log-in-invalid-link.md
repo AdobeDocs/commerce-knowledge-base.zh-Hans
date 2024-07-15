@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 问题
 
-Adobe Commerce通过显示以下消息来提示客户登录： *“这个账号尚未得到确认。 单击此处以重新发送确认电子邮件”*. 此 **单击此处** 链接应会打开发送确认链接页面，但处于不活动状态。
+Adobe Commerce通过显示此消息来提示客户登录： *&quot;此帐户未确认。 单击此处以重新发送确认电子邮件“*”。 **单击此处**&#x200B;链接应会打开发送确认链接页面，但该页面处于非活动状态。
 
 ## 解决方案
 
-Adobe Commerce技术资源中提供了此问题的修补程序： [重新发送Adobe Commerce 2.3.5的帐户确认电子邮件链接问题修补程序](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). Adobe Commerce 2.3.6将提供永久修复，该版本计划于2020年第4季度发布。
+Adobe Commerce技术资源中提供了此问题的修补程序：[重新发送帐户确认电子邮件链接问题修补程序，适用于Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368)。 Adobe Commerce 2.3.6将提供永久修复，该版本计划于2020年第4季度发布。
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取有关如何应用编辑器修补程序的说明。
+有关如何应用编辑器修补程序的说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 相关阅读
 

@@ -28,16 +28,16 @@ ht-degree: 0%
 
 cron作业执行的进程不会执行。 例如，产品更新不适用于小时，或者客户报告未收到电子邮件。
 
-当您打开 `cron_schedule` 数据库表，您会看到 `missed` 状态。
+打开`cron_schedule`数据库表时，您会看到状态为`missed`的作业。
 
 ## 原因
 
-以前，在我们的云环境中，使用Jenkins服务器来运行cron作业。 Jenkins一次只运行一个作业实例；因此，将只有一个作业实例 `bin/magento cron:run` 一次运行的进程。
+以前，在我们的云环境中，使用Jenkins服务器来运行cron作业。 Jenkins一次只能运行一个作业实例；因此，一次只能运行一个`bin/magento cron:run`进程。
 
 ## 解决方案
 
-1. 联系人 [Adobe Commerce支持](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 启用自管crons。
-1. 编辑 `.magento.app.yaml` 文件，该文件位于Git分支中Adobe Commerce代码的根目录中。 添加以下内容：
+1. 联系[Adobe Commerce支持](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以启用自托管cron。
+1. 在Git分支中Adobe Commerce代码的根目录中编辑`.magento.app.yaml`文件。 添加以下内容：
 
    ```yaml
      crons:
@@ -50,11 +50,11 @@ cron作业执行的进程不会执行。 例如，产品更新不适用于小时
 
 >[!NOTE]
 >
->无需传输旧的CRON配置，如果有多个 `cron:run` 参加新的CRON日程表； `cron:run` 如上所述添加的任务便已足够。 但是，如果您有任何自定义作业，则需要转移这些作业。
+>无需将存在多个`cron:run`的旧cron配置传输到新cron计划；如上所述添加的常规`cron:run`任务就足够了。 但是，如果您有任何自定义作业，则需要转移这些作业。
 
 ### 检查您是否启用了自管理cron（仅用于Cloud Pro暂存和生产）
 
-要检查是否已启用自管理cron，请运行 `crontab -l` 命令并观察结果：
+要检查是否已启用自托管cron，请运行`crontab -l`命令并观察结果：
 
 * 如果您能够看到以下任务，则启用自管理cron：
 
@@ -63,7 +63,7 @@ cron作业执行的进程不会执行。 例如，产品更新不适用于小时
   SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
   ```
 
-* 如果您无法查看任务并获取 *“不允许您使用此程序”* 错误消息。
+* 如果您无法看到任务并收到&#x200B;*“不允许您使用此程序”*&#x200B;错误消息，则不会启用自托管cron。
 
 >[!NOTE]
 >
@@ -71,4 +71,4 @@ cron作业执行的进程不会执行。 例如，产品更新不适用于小时
 
 ## 相关阅读
 
-* [设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 在我们的开发人员文档中。
+* 在开发人员文档中[设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)。

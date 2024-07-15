@@ -21,22 +21,22 @@ ht-degree: 0%
 
 ## 问题
 
-配置文件 `config.php` 和/或 `env.php` 错误更改或丢失。
+配置文件`config.php`和/或`env.php`被错误更改或丢失。
 
 ## 解决方案
 
 部署过程将为每个配置文件创建一个备份文件：
 
-* `app/etc/config.php.bak`  — 包含系统特定的设置，并在构建期间自动生成（如果不存在）
-* `app/etc/env.php.bak`  — 包含敏感配置数据
+* `app/etc/config.php.bak` — 包含系统特定的设置，如果它不存在，则在生成期间自动生成
+* `app/etc/env.php.bak` — 包含敏感配置数据
 
-您可以使用ECE-tools恢复它们 `backup:restore` 命令。
+您可以使用ECE-tools `backup:restore`命令恢复它们。
 
 BAK文件是部署过程的产物。 如果在部署后手动更改配置文件，则您的更改不会反映在现有BAK文件中。
 
 要恢复配置文件：
 
-1. 使用登录到您的远程存储库 [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. 使用[SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)登录到远程存储库。
 1. 列出可用的备份文件。
 
    ```
@@ -62,7 +62,7 @@ BAK文件是部署过程的产物。 如果在部署后手动更改配置文件�
    app/etc/config.php file exists! If you want to rewrite existed files use --force
    ```
 
-1. 使用 `--force` 用于覆盖所有文件的选项。
+1. 使用`--force`选项覆盖所有文件。
 
    ```
    ./vendor/bin/ece-tools backup:restore --force

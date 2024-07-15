@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-53098：共享目录中的产品不会在前端反映
 
-ACSD-53098修补程序修复了分配给共享目录的产品在执行部分索引时未在前端反映的问题。 此修补程序在以下情况下可用： [!DNL Quality Patches Tool (QPT)] 已安装1.1.38。 修补程序ID为ACSD-53098。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
+ACSD-53098修补程序修复了分配给共享目录的产品在执行部分索引时未在前端反映的问题。 安装[!DNL Quality Patches Tool (QPT)] 1.1.38时，此修补程序可用。 修补程序ID为ACSD-53098。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 * Adobe Commerce（所有部署方法） 2.4.3
 
@@ -27,16 +27,16 @@ ACSD-53098修补程序修复了分配给共享目录的产品在执行部分索�
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新版本的其他版本 [!DNL Quality Patches Tool] 版本发布。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
 部分索引器先执行cron作业，接着执行消费者cron作业后，通过API分配到共享目录的产品不会出现在前端。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 设置 [!DNL RabbitMQ] 作为队列服务。
-1. 将索引器切换到 **[!UICONTROL Update on Schedule]** 模式。
+1. 将[!DNL RabbitMQ]设置为队列服务。
+1. 将索引器切换到&#x200B;**[!UICONTROL Update on Schedule]**&#x200B;模式。
 1. 创建共享目录并将其分配给公司。
 1. 创建简单产品并将其分配给类别。 执行部分重新索引：
 
@@ -63,7 +63,7 @@ ACSD-53098修补程序修复了分配给共享目录的产品在执行部分索�
 1. 以公司用户的身份登录到前端。
 1. 选中前端类别页面。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 新分配的产品会显示在前端。
 
@@ -75,14 +75,14 @@ ACSD-53098修补程序修复了分配给共享目录的产品在执行部分索�
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 云基础架构上的Commerce指南中的。
+* Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 云基础架构上的Adobe Commerce：云基础架构上的Commerce指南中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相关阅读
 
-要了解有关 [!DNL Quality Patches Tool]，请参阅：
+要了解有关[!DNL Quality Patches Tool]的更多信息，请参阅：
 
-* [[!DNL Quality Patches Tool] 已发布：用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用以下方式检查修补程序是否可用于您的Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关QPT中可用的其他修补程序的信息，请参阅 [[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+有关QPT中其他可用修补程序的信息，请参阅[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

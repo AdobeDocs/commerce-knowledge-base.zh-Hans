@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ECE-Tools和修补程序更新错误Adobe Commerce云基础架构2.2.x.、2.3.x
 
-本文为您看到错误消息（包括&quot;）的问题提供解决方案&#x200B;*无法打开流：*”或“*没有这样的文件或目录*”在尝试将更新部署到ECE-Tools、修补程序或其他更改时。
+本文提供了解决方案，来解决在尝试将更新部署到ECE-Tools、修补程序或其他更改时，您会看到错误消息，包括“*无法打开流：*”或“*没有此类文件或目录*”。
 
 ## 受影响的产品和版本
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-尝试将更新部署到ECE-Tools时，出现以下错误：云控制台和 `var/log/cloud.log`
+尝试将更新部署到ECE-Tools、修补程序或其他更改时出现的错误包括： Cloud Console和`var/log/cloud.log`中的PHP错误
 
 ```
 W: PHP Warning: require(<path to file>): failed to open stream: No such file or directory in <path to file> on line 70
@@ -65,11 +65,11 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 原因
 
-配置错误 `composer.json` 文件。
+`composer.json`文件配置错误。
 
 ## 解决方案
 
-如果您的中缺少设置 `composer.json` 文件，某些目录将不会从Adobe Commerce代码库中复制。 无法应用包和更新/修补程序，因为找不到文件。
+如果`composer.json`文件中缺少设置，则某些目录将不会从Adobe Commerce代码库中复制。 无法应用包和更新/修补程序，因为找不到文件。
 
 请更改您的额外部分以匹配下面提供的部分，然后重新尝试部署。
 
@@ -82,4 +82,4 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 相关阅读
 
-* [升级和修补程序](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools) 在我们的开发人员文档中。
+* 在我们的开发人员文档中[升级和修补程序](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools)。

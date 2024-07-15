@@ -28,7 +28,8 @@ DHL正在引入6.2架构版本，并在2022年7月底 — 9月底之前弃用版
 
 ## Patch
 
-修补程序ID为AC-3022，可在Quality Patches Tool版本1.1.16中找到。请参阅 [Quality Patches Tool (QPT) >使用](https://devdocs.magento.com/quality-patches/usage.html) 有关如何使用QPT和安装修补程序的信息，请参阅我们的开发人员文档中的文章。
+修补程序ID为AC-3022，可在Quality Patches Tool版本1.1.16中找到。
+有关如何使用QPT和安装修补程序的信息，请参阅开发人员文档中的[Quality Patches Tool (QPT) > Usage](https://devdocs.magento.com/quality-patches/usage.html)一文。
 
 该修补程序适用于以下Adobe Commerce版本：
 
@@ -37,5 +38,5 @@ DHL正在引入6.2架构版本，并在2022年7月底 — 9月底之前弃用版
 
 ## 相关阅读
 
-* [装运承运人> DHL](https://docs.magento.com/user-guide/shipping/dhl.html) 在我们的用户指南中
-* [投放方法](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) 在我们的用户指南中
+* 我们用户指南中的[配送公司> DHL](https://docs.magento.com/user-guide/shipping/dhl.html)
+* 我们用户指南中的[投放方法](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html)

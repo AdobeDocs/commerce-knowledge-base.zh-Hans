@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * 在PWA Studio中为Adobe Commerce运行开发人员模式。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 * PWA Studio服务器正常启动。
 
@@ -53,5 +53,5 @@ npx @magento/pwa-buildpack create-env-file packages/venia-concept
 
 ## 相关阅读
 
-* [Adobe Commerce文档PWA Studio](https://magento.github.io/pwa-studio/)
+* [PWA StudioAdobe Commerce文档](https://magento.github.io/pwa-studio/)
 * [Venia Storefront（概念）](https://magento.github.io/pwa-studio/venia-pwa-concept/)

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # robots.txt在云基础架构上显示404错误Adobe Commerce
 
-本文修复了 `robots.txt` 文件在云基础架构上的Adobe Commerce中引发404错误。
+本文修复了`robots.txt`文件在云基础架构上的Adobe Commerce中引发404错误的情况。
 
 ## 受影响的产品和版本
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-此 `robots.txt` 文件不起作用，并引发Nginx异常。 此 `robots.txt` 文件是“动态”生成的。 此 `robots.txt` 文件不可由访问 `/robots.txt` URL，因为Nginx具有强制重定向所有 `/robots.txt` 请求 `/media/robots.txt` 文件不存在。
+`robots.txt`文件不起作用，引发了Nginx异常。 `robots.txt`文件是“动态”生成的。 `/robots.txt` URL无法访问`robots.txt`文件，因为Nginx具有重写规则，该规则强制将所有`/robots.txt`请求重定向到不存在的`/media/robots.txt`文件。
 
 ## 原因
 
@@ -29,14 +29,14 @@ ht-degree: 0%
 
 ## 解决方案
 
-解决方案是禁用重定向的Nginx规则 `/robots.txt` 请求 `/media/robots.txt` 文件。 启用了自助服务的商家可以自行完成此操作，而未启用自助服务的商家需要创建支持工单。
+解决方案是禁用将`/robots.txt`请求重定向到`/media/robots.txt`文件的Nginx规则。 启用了自助服务的商家可以自行完成此操作，而未启用自助服务的商家需要创建支持工单。
 
-如果未启用自助服务（或者不确定是否启用自助服务）， [提交Magento支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 请求从中删除Nginx重定向规则 `/robots.txt` 请求 `/media/robots.txt`.
+如果未启用自助服务（或不确定是否启用自助服务），请[提交Magento支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，请求将Nginx重定向规则从`/robots.txt`个请求删除到`/media/robots.txt`。
 
-如果您已启用自助服务，请至少将ECE-Tools升级到2002.0.12，并删除 `.magento.app.yaml` 文件。 您可以引用 [添加站点地图和搜索引擎机器人](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) 查看我们的开发人员文档，以了解更多信息。
+如果您已启用自助服务，请将ECE-Tools至少升级到2002.0.12，并在`.magento.app.yaml`文件中删除Nginx重定向规则。 有关详细信息，请参考开发人员文档中的[添加站点地图和搜索引擎机器人](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)。
 
 ## 相关阅读
 
-* [如何阻止恶意流量以进行Fastly级别的Magento Commerce Cloud](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) 在我们的支持知识库中。
-* [添加站点地图和搜索引擎机器人](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) 在我们的开发人员文档中。
-* [搜索引擎机器人](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots) 在我们的用户指南中。
+* [如何在我们的支持知识库中阻止恶意流量进行Fastly级别](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)的Magento Commerce Cloud。
+* 在开发人员文档中[添加站点地图和搜索引擎机器人](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)。
+* 我们用户指南中的[搜索引擎机器人](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots)。

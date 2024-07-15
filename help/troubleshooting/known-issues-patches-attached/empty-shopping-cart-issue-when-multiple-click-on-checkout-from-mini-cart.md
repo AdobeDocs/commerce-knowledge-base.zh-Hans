@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # 多次单击从迷你购物车结帐时出现空购物车问题
 
-针对与客户单击后购物车为空相关的已知Adobe Commerce 2.2.3问题，本文提供了一个修补程序 **转至结帐** 在迷你购物车中多次访问。
+针对与迷你购物车中客户多次单击&#x200B;**转到结帐**&#x200B;后购物车为空相关的已知Adobe Commerce 2.2.3问题，本文提供了一个修补程序。
 
 ## 问题
 
-客户将产品添加到购物车，尝试通过单击 **转至结帐** 按钮数次，但是当他们转到购物车时，购物车是空的。 迷你购物车可能仍会显示产品。
+客户将产品添加到购物车，尝试通过多次单击&#x200B;**转到结帐**&#x200B;按钮来结帐，但是当他们转到购物车时，购物车是空的。 迷你购物车可能仍会显示产品。
 
 <u>重现问题的步骤</u> ：
 
 1. 在商店正面打开产品页面。
 1. 将产品添加到购物车。
-1. 在迷你购物车中，单击 **转至结帐** 好几次。
+1. 在迷你购物车中，单击&#x200B;**转到结帐**&#x200B;多次。
 
-<u>预期结果</u> ：
+<u>预期的结果</u> ：
 
 购物车包含您已添加的所有产品。
 
@@ -45,20 +45,20 @@ ht-degree: 0%
 
 修补程序是为以下对象创建的：
 
-* Adobe Commerce内部部署2.2.3(适用于 `MDVA-10441_EE_2.2.3_v3.composer.patch` file)
-* 云基础架构上的Adobe Commerce 2.2.5 (`MDVA-17078_EE_2.2.5_COMPOSER_v1.patch` file)
+* Adobe Commerce内部部署2.2.3（`MDVA-10441_EE_2.2.3_v3.composer.patch`文件）
+* 云基础架构2.2.5上的Adobe Commerce （`MDVA-17078_EE_2.2.5_COMPOSER_v1.patch`文件）
 
-此 `MDVA-10441_EE_2.2.3_v3.composer.patch` 修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+`MDVA-10441_EE_2.2.3_v3.composer.patch`修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
 
 * 从2.2.1到2.2.5的Adobe Commerce on cloud基础架构版本
 * 从2.2.1到2.2.5的Adobe Commerce本地版本
 
-此 `MDVA-17078_EE_2.2.5_COMPOSER_v1.patch` 修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+`MDVA-17078_EE_2.2.5_COMPOSER_v1.patch`修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
 
 * Adobe Commerce 2.2.5
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

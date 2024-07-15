@@ -13,37 +13,37 @@ ht-degree: 0%
 
 # 管理员密码以纯文本形式保存到操作日志
 
-本文修复了以下问题：Commerce管理员如何创建具有管理员权限的新用户，并且密码在中保存为纯文本。 `magento_logging_event_changes` 数据库表。
+本文修复了当Commerce管理员创建具有管理员权限的新用户并且密码在`magento_logging_event_changes`数据库表中保存为纯文本时。
 
 要修复此安全问题，请安装Adobe Commerce 2.0.16和2.1.9安全更新。 应用安全更新后，密码将加密，不会显示为纯文本。
 
-## 受影响的版本 {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Affectedversions}
+## 受影响的版本{#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Affectedversions}
 
 * Adobe Commerce内部部署2.X.X
 * 云基础架构上的Adobe Commerce 2.X.X
 
-## 问题 {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Issue}
+## 问题{#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Issue}
 
-当现有Commerce管理员通过创建具有管理员权限的新用户时 **系统** > **权限** > **所有用户** > **添加新用户**，密码（作为确认输入）将作为纯文本保存在中 `magento_logging_event_changes` 数据库表。
+当现有Commerce管理员通过&#x200B;**系统** > **权限** > **所有用户** > **添加新用户**&#x200B;创建具有管理员权限的新用户时，密码（以确认形式输入）将保存为`magento_logging_event_changes`数据库表中的纯文本。
 
-### 重现问题的步骤： {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce}
+### 要再现的步骤： {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce}
 
-1. 以管理员身份登录，并通过导航到以下路径创建新用户： **系统** >权限> **所有用户**.
+1. 以管理员身份登录，并通过导航到以下路径来创建新用户： **系统** >权限> **所有用户**。
 
    ![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
 
-1. 然后单击 **添加新用户** 页面。 提示时提供当前管理员的密码。
-1. 转到 **系统** > **操作日志** > **报表** 页并查找最后一个日志条目。
+1. 然后单击&#x200B;**添加新用户**&#x200B;页面。 提示时提供当前管理员的密码。
+1. 转到&#x200B;**系统** > **操作日志** > **报告**&#x200B;页面并查找最后一个日志条目。
 1. 您可以查看当前密码，该密码既未加密，也未经过哈希处理。
 
-## 解决方案 {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Solution}
+## 解决方案{#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Solution}
 
-安装 [Adobe Commerce 2.0.16和2.1.9安全更新](https://magento.com/security/patches/magento-2016-and-219-security-update) 修复了此问题。
+安装[Adobe Commerce 2.0.16和2.1.9安全更新](https://magento.com/security/patches/magento-2016-and-219-security-update)可修复此问题。
 
-安装安全更新后，密码将进行加密，并且不会以纯文本形式显示在 `magento_logging_event_changes` 表格。
+安装安全更新后，密码将加密，并且不会在`magento_logging_event_changes`表中以纯文本显示。
 
-## 更多信息 {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
+## 更多信息{#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
-[Adobe Commerce 2.0.16和2.1.9安全更新页面](https://magento.com/security/patches/magento-2016-and-219-security-update) 在我们的安全中心。
+在我们的安全中心中[Adobe Commerce 2.0.16和2.1.9安全更新页面](https://magento.com/security/patches/magento-2016-and-219-security-update)。
 
-[升级Adobe Commerce应用程序和组件](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) 在我们的开发人员文档中。
+在开发人员文档中[升级Adobe Commerce应用程序和组件](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)。

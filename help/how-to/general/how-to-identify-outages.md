@@ -18,4 +18,4 @@ ht-degree: 0%
 * 查明可能中断的问题的常规步骤
 * 如何确定问题到底是停机、小规模停机，还是暂时性障碍
 
-要下载文章，请单击 [Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)
+要下载此文章，请单击[Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)

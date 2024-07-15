@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 为云上的入门计划设置Fastly
 
-请参阅 [设置Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) 在我们的开发人员文档中。
+请参阅我们的开发人员文档中的[设置Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html)。

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 如果实时网站使用相同的域，则在生产环境中测试Fastly
 
-如果您的生产域中有一个已上线站点正在运行(`example.com`)，并且您需要在启用了Fastly CDN的云基础架构的生产环境中在Adobe Commerce上测试新存储，我们建议使用子域(例如 `prod.example.com`)，之前已将其添加到Fastly，用于任何启动前测试活动。 本文讨论详细信息，并提供指向相关Adobe Commerce文档资源的有用链接。
+如果您的生产域(`example.com`)上已启动并运行实时网站，并且您需要在启用了Fastly CDN的云基础架构的生产环境中在Adobe Commerce上测试新存储，我们建议使用子域（例如`prod.example.com`）（以前已将其添加到Fastly）来执行任何启动前测试活动。 本文讨论详细信息，并提供指向相关Adobe Commerce文档资源的有用链接。
 
 ## 问题
 
-您当前使用 `example.com` 生产域已上线并正在运行。 但是，您需要测试新存储，在云基础架构上使用Adobe Commerce构建并部署到生产环境，同时启用Fastly全页缓存服务。
+您当前使用`example.com`生产域的商店已上线并正在运行。 但是，您需要测试新存储，在云基础架构上使用Adobe Commerce构建并部署到生产环境，同时启用Fastly全页缓存服务。
 
-问题在于云基础架构项目上的Adobe Commerce的生产环境使用相同的活动域(`example.com`)，并且不能将新站点切换到该域，同时让当前的live store在同一域上运行。
+问题是，云基础架构项目上的Adobe Commerce的生产环境使用相同的实时域(`example.com`)，并且您不能在同一域上同时运行当前实时商店将新站点切换到该域。
 
 ### 为何使用Fastly在生产环境中进行测试？
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 
 ## 解决方案：使用生产子域
 
-使用第一级子域(`prod.example.com`Adobe Commerce )，将当前实时站点保留在基本域(`example.com`)。
+在生产环境的云基础架构存储上为新的Adobe Commerce使用第一级子域(`prod.example.com`)，同时将当前实时站点保留在基本域(`example.com`)上。
 
 在云基础架构项目上规划Adobe Commerce时，您可以指定此类生产子域，并请求云基础架构团队将该子域指向Fastly服务。
 
 执行以下步骤，在Adobe Commerce on cloud infrastructure项目中处理子域：
 
-* [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 请求将子域添加到Fastly服务/Nginx配置(适用于云基础架构上的Adobe Commerce Pro计划架构)。
+* [提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，请求将子域添加到Fastly服务/Nginx配置(适用于Adobe Commerce on cloud infrastructure Pro计划架构)。
 * 配置您这端的相应DNS设置。
 
 执行子域配置的步骤后，还必须执行以下步骤来验证SSL证书的生产域：
 
 * 上传DNS TXT记录以进行生产域的SSL验证。
-* [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 请求验证SSL证书的生产域。
+* [提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，请求验证SSL证书的生产域。
 
 使用子域后，您将可以对存储执行“软启动”，因为此类启动只需要更新相应的DNS设置。
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 * [在暂存和生产环境中配置Fastly DNS设置](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
 * [为云上的入门计划设置Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [在云基础架构上的Adobe Commerce上启动的潜在阻止程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* 在云基础架构上的Adobe Commerce上启动[个潜在阻止程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
 
 在我们的开发人员文档中：
 
 * [Fastly概述](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [上线核对清单：Fastly的DNS配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [上线核对清单： Fastly的DNS配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)

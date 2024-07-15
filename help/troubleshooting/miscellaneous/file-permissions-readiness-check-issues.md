@@ -19,12 +19,12 @@ ht-degree: 0%
 
 解决问题的方式取决于您设置的是单用户还是双用户：
 
-* *一个用户* 意味着您是以同时运行Web服务器的同一用户登录到Adobe Commerce服务器。 此类设置在共享托管环境中很常见。
-* *两个用户* 意味着您通常 *无法* 以Web服务器用户身份登录或切换到该用户。 通常以一个用户身份登录，并以其他用户身份运行Web服务器。 这在私有托管中或您拥有自己的服务器时是典型的。
+* *一个用户*&#x200B;意味着您以同样运行Web服务器的相同用户身份登录到Adobe Commerce服务器。 此类设置在共享托管环境中很常见。
+* *两个用户*&#x200B;意味着您通常无法&#x200B;*作为Web服务器用户*&#x200B;登录或切换到该用户。 通常以一个用户身份登录，并以其他用户身份运行Web服务器。 这在私有托管中或您拥有自己的服务器时是典型的。
 
 ## 单用户分辨率
 
-如果您具有命令行访问权限，请输入以下命令(假定在中安装了Adobe Commerce) `/var/www/html/magento2`：
+如果您具有命令行访问权限，则输入以下命令(假设`/var/www/html/magento2`中安装了Adobe Commerce)：
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+w {} + && chmod u+x bin/magento
@@ -34,13 +34,13 @@ $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -typ
 
 ## 双用户分辨率
 
-要选择性地在一行中输入所有命令，请输入以下内容(假定Adobe Commerce已安装在中) `/var/www/html/magento2` 并且Web服务器组名称为 `apache`：
+要选择在一行中输入所有命令，请输入以下内容(假设Adobe Commerce安装在`/var/www/html/magento2`中，且Web服务器组名称为`apache`)：
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} + && chown -R :apache . && chmod u+x bin/magento
 ```
 
-如果文件系统权限设置不正确，且Adobe Commerce文件系统所有者无法更改权限，则可以作为用户输入命令，并使用 `root` 权限：
+如果文件系统权限设置不正确且无法由Adobe Commerce文件系统所有者更改，则可以作为具有`root`权限的用户输入命令：
 
 ```bash
 $ cd /var/www/html/magento2 && sudo find var vendor

@@ -23,15 +23,15 @@ ht-degree: 0%
 
 由于Google Analytics组件代码中有错误，Google Analytics未跟踪转化数据。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 在Commerce管理员的下，启用和配置Google Analytics功能 **商店** > **设置** > **配置** > **销售** > **GOOGLE API** > **Google Analytics**.
-1. 单击 **保存配置**.
+1. 在Commerce管理员的&#x200B;**商店** > **设置** > **配置** > **销售** > **Google API** > **Google Analytics**&#x200B;下启用和配置Google Analytics功能。
+1. 单击&#x200B;**保存配置**。
 1. 在店面下订单。
-1. 转到 **Google Analytics功能板** > **转化** > **概述**.
+1. 转到&#x200B;**Google Analytics信息板** > **转化** > **概述**。
 1. 将日期范围设置为当前日期。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 转换数据中将显示顺序。
 
@@ -62,6 +62,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 本文修复了由于Fastly模块与当前Adobe Commerce版本不兼容而导致部署失败的情况。
 
-**问题：** 在新提交和推送后部署失败，错误消息如下所示：
+**问题：**&#x200B;在新提交和推送后部署失败，错误消息如下所示：
 
 >\[Exception\]警告：缺少Fastly\\Cdn\\Plugin\\...的参数3，该参数在/app/vendor/magento/framework/Interception/Interceptor.php中调用，并在/app/vendor/fastly/magento2/Plugin/ExcludeFilesFromMinification.php中定义……
 
-**原因：** Fastly模块v1.2.79中的向后不兼容更改。
+**原因：**&#x200B;在Fastly模块v1.2.79中进行向后不兼容的更改。
 
-**解决方案（临时）：** 将Fastly模块升级到版本1.2.82或更高版本，并在Commerce管理中上传新的VCL。 然后，提交并推送更改以触发成功的部署。
+**解决方案（临时）：**&#x200B;将Fastly模块升级到版本1.2.82或更高版本，并在Commerce管理中上传新的VCL。 然后，提交并推送更改以触发成功的部署。
 
 ## 受影响的版本
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-如果您在云基础架构解决方案上使用Adobe Commerce，您将在以下页面中看到此错误消息： [部署日志](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). 对于Adobe Commerce内部部署，您将在命令行中看到错误。
+如果您在云基础架构解决方案上使用Adobe Commerce，您将在[部署日志](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log)中看到此错误消息。 对于Adobe Commerce内部部署，您将在命令行中看到错误。
 
 ## 原因
 
@@ -70,4 +70,4 @@ ht-degree: 0%
    * 如果Fastly模块包含在magento-cloud-metapackage中：    <pre>编辑器更新magento/magento-cloud-metapackage</pre>
    * 如果Fastly模块是单独安装的(例如，如果您使用的是本地Adobe Commerce，而不是云版本) <pre>编辑器更新fastly/magento2</pre>
 1. 提交并推送更改，如果未自动完成，则触发部署过程。
-1. 在“管理员”中， [将新VCL上传到Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. 在管理员中，[将新VCL上传到Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets)。

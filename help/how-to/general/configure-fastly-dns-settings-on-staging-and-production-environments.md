@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # 在暂存和生产环境中配置Fastly DNS设置
 
-请参阅 [设置Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) 有关最新信息，请参阅我们的开发人员文档中的文章。
+有关最新信息，请参阅开发人员文档中的[Setup Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)一文。

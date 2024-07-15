@@ -30,7 +30,7 @@ ht-degree: 0%
 
 新版本的symfony/控制台依赖项(4.4.27、4.4.28)正在导致依赖项编译过程失败。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 安装或升级Adobe Commerce或运行编辑器更新时，执行失败并显示以下错误消息：
 *不兼容的参数类型：必需类型： int。 实际类型：字符串*
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 在发布新的symfony/console版本4.2.29（预计于2021年8月发布）后，将自动解决此问题。
 
-**如何在Adobe Commerce内部部署中修复：**
+**如何在Adobe Commerce内部部署上修复：**
 
 Adobe Commerce内部部署2.4.x
 
@@ -57,10 +57,10 @@ Adobe Commerce内部部署2.4.x
 
 **如何在云基础架构上修复Adobe Commerce：**
 
-运行上述命令或升级到欧洲经委会工具的最新版本(ece-tools：2002.1.7)，该版本将于7月29日星期四提供。 有关步骤，请参阅 [Cloud for Adobe Commerce >更新ece-tools版本](https://devdocs.magento.com/cloud/project/ece-tools-update.html) 在我们的开发人员文档中。
+运行上述命令或升级到欧洲经委会工具的最新版本(ece-tools：2002.1.7)，该版本将于7月29日星期四提供。 有关步骤，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >更新ece-tools版本](https://devdocs.magento.com/cloud/project/ece-tools-update.html)。
 
 完整的修复将在Adobe Commerce（所有部署方法）2.4.4中发布。
 
 ## 相关阅读
 
-* Github： [2021-07-27编辑器更新不兼容的参数类型：必需类型：int。 实际类型：字符串](https://github.com/magento/magento2/issues/33595)
+* Github： [2021-07-27编辑器更新不兼容的参数类型：必需类型： int。 实际类型：字符串](https://github.com/magento/magento2/issues/33595)

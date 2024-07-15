@@ -23,11 +23,11 @@ ht-degree: 0%
 
 使用Web设置向导安装扩展时，将显示404页。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 商家单击Web设置向导以安装新模块/集成。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 模块/集成安装。
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 在云基础架构上的Adobe Commerce上禁用此功能。
 
-请参阅 [安装、管理和升级扩展](https://devdocs.magento.com/cloud/howtos/install-components.html) 有关如何在我们的云基础架构上执行更新或安装Adobe Commerce的外部模块的信息，请参阅我们的开发人员文档。
-请参阅 [快速入门安装](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) 有关如何执行更新或为Adobe Commerce内部部署安装外部模块的信息，请参阅我们的开发人员文档。
+请参阅我们的开发人员文档中的[安装、管理和升级扩展](https://devdocs.magento.com/cloud/howtos/install-components.html)，以了解如何在我们的云基础架构上执行更新或安装Adobe Commerce的外部模块。
+有关如何对Adobe Commerce内部部署执行更新或安装外部模块的信息，请参阅开发人员文档中的[快速入门安装](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)。
 
 ## 相关阅读
 
-* 请参阅 [安装扩展](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) 在我们的开发人员文档中。
+* 请参阅我们的开发人员文档中的[安装扩展](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)。

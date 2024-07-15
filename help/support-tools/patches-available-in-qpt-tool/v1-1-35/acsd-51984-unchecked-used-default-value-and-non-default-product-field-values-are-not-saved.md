@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-51984：未选中 [!UICONTROL Use Default Value] 对于第二个网站、商店和商店视图，不会保存非默认产品字段值'
-description: 应用ACSD-51984修补程序以修复未选中的Adobe Commerce问题 [!UICONTROL Use Default Value] 对于第二个网站、商店和商店视图，和非默认产品字段值不会保存。
+title: 'ACSD-51984：未选中[!UICONTROL Use Default Value]，第二个网站、商店和商店视图未保存非默认产品字段值'
+description: 应用ACSD-51984修补程序以修复Adobe Commerce问题，该问题导致第二个网站、商店和商店视图未保存未勾选的[!UICONTROL Use Default Value]和非默认产品字段值。
 feature: Products
 role: Admin
 exl-id: 1f45c700-dd27-4a69-8634-9c0aa131d197
@@ -11,17 +11,17 @@ ht-degree: 0%
 
 ---
 
-# ACSD-51984：未选中 *[!UICONTROL Use Default Value]* 和非默认产品字段值未保存
+# ACSD-51984：未选中&#x200B;*[!UICONTROL Use Default Value]*，并且不保存非默认的产品字段值
 
 >[!NOTE]
 >
->此修补程序已过期，已被 [ACSD-54776](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54776-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md) 在1.1.39 QPT版本中添加的修补程序。
+>此修补程序已过期，已由1.1.39 QPT版本中添加的[ACSD-54776](/help/support-tools/patches-available-in-qpt-tool/v1-1-39/acsd-54776-unchecked-used-default-value-and-non-default-product-field-values-are-not-saved.md)修补程序替换。
 
-ACSD-51984修补程序修复了未选中该复选框的问题 **[!UICONTROL Use Default Value]** 对于第二个网站、商店和商店视图，和非默认产品字段值不会保存。 此修补程序在以下情况下可用： [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安装1.1.35。 修补程序ID为ACSD-51984。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
+ACSD-51984修补程序修复了未为第二个网站、商店和商店视图保存未勾选的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;和非默认产品字段值的问题。 安装[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.35时，此修补程序可用。 修补程序ID为ACSD-51984。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 * Adobe Commerce（所有部署方法） 2.4.5-p2
 
@@ -31,22 +31,22 @@ ACSD-51984修补程序修复了未选中该复选框的问题 **[!UICONTROL Use 
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新版本的其他版本 [!DNL Quality Patches Tool] 版本发布。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
-未选中 *[!UICONTROL Use Default Value]* 对于第二个网站、商店和商店视图，和非默认产品字段值不会保存。
+对于第二个网站、商店和商店视图，未选中&#x200B;*[!UICONTROL Use Default Value]*&#x200B;且未保存非默认产品字段值。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 转到后端并导航到 **[!UICONTROL Stores]** > **[!UICONTROL All Stores]** 并创建新网站、商店和商店视图。
-1. 转到 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**，创建一个简单产品并将其保存，然后将该产品从以下网站分配给两个网站： **[!UICONTROL Product in Websites]**.
+1. 转到后端并导航到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**，然后创建新网站、商店和商店视图。
+1. 从&#x200B;**[!UICONTROL Product in Websites]**&#x200B;转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**，创建一个简单产品并保存它，然后将该产品分配给两个网站。
 1. 从步骤2将范围更改为新创建的存储视图。
-1. 转到 **[!UICONTROL Search Engine Optimization]** 并取消选中 **[!UICONTROL Use Default Value]** 复选框 [!UICONTROL Meta Title]， [!UICONTROL Meta Keywords]、和 [!UICONTROL Meta Description].
-1. 清除字段中的文本： *[!UICONTROL Meta Title]*， *[!UICONTROL Meta Keywords]* 和 *[!UICONTROL Meta Description]*，然后单击 **[!UICONTROL Save]**.
-1. 转到 **[!UICONTROL Search Engine Optimization]** 再来一次。
+1. 转到&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;并取消选中[!UICONTROL Meta Title]、[!UICONTROL Meta Keywords]和[!UICONTROL Meta Description]的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;复选框。
+1. 清除字段&#x200B;*[!UICONTROL Meta Title]*、*[!UICONTROL Meta Keywords]*&#x200B;和&#x200B;*[!UICONTROL Meta Description]*&#x200B;中的文本，然后单击&#x200B;**[!UICONTROL Save]**。
+1. 再次转到&#x200B;**[!UICONTROL Search Engine Optimization]**。
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 将保存这些字段和复选框的值。
 
@@ -58,14 +58,14 @@ ACSD-51984修补程序修复了未选中该复选框的问题 **[!UICONTROL Use 
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [[!DNL Quality Patches Tool] >使用情况](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) 在 [!DNL Quality Patches Tool] 指南。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 云基础架构上的Commerce指南中的。
+* Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>)。
+* 云基础架构上的Adobe Commerce：云基础架构上的Commerce指南中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相关阅读
 
-要了解有关 [!DNL Quality Patches Tool]，请参阅：
+要了解有关[!DNL Quality Patches Tool]的更多信息，请参阅：
 
-* [[!DNL Quality Patches Tool] 已发布：用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用以下方式检查修补程序是否可用于您的Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关QPT中可用的其他修补程序的信息，请参阅 [[!DNL Quality Patches Tool]：搜索修补程序](<https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html>) 在 [!DNL Quality Patches Tool] 指南。
+有关QPT中其他可用修补程序的信息，请参阅[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜索修补程序](<https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html>)。

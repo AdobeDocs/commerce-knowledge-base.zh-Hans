@@ -23,12 +23,12 @@ ht-degree: 0%
 
 ## 问题
 
-如果您已注册，将在New Relic中收到通知 [Adobe Commerce的受管警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) 以及一个或多个警报阈值已超出。 这些警报由Adobe开发，旨在通过支持和工程部门的分析为客户提供一组标准。
+如果您已为New Relic](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)注册了[托管警报，并且一个或多个警报阈值已超出，则您将在Adobe Commerce中收到警报。 这些警报由Adobe开发，旨在通过支持和工程部门的分析为客户提供一组标准。
 
-<u> **去吧！** </u>
+<u> **做！** </u>
 
 * 中止任何计划的部署，直到清除此警报。
-* 如果您的网站处于或完全无响应，请立即将网站置于维护模式。 有关步骤，请参阅 [安装指南>启用或禁用维护模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten) 在我们的开发人员文档中。 确保将您的IP添加到免除IP地址列表，以确保您仍然能够访问站点进行故障排除。 有关步骤，请参阅 [维护免除IP地址列表](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt) 在我们的开发人员文档中。
+* 如果您的网站处于或完全无响应，请立即将网站置于维护模式。 有关步骤，请参阅我们的开发人员文档中的[安装指南>启用或禁用维护模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)。 确保将您的IP添加到免除IP地址列表，以确保您仍然能够访问站点进行故障排除。 有关步骤，请参阅我们的开发人员文档中的[维护免除IP地址列表](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt)。
 
 <u> **不要！** </u>
 
@@ -41,12 +41,12 @@ ht-degree: 0%
 
 按照以下步骤确定原因并排除故障：
 
-1. 在New Relic中，查看磁盘以获得最高利用率。 有关步骤，请参阅New Relic上的“存储”选项卡 [“基础结构监视主机”页](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/)：
+1. 在New Relic中，查看磁盘以获得最高利用率。 有关步骤，请参阅New Relic [基础架构监视主机页面](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/)上的“存储”选项卡：
    * 如果您在New Relic中看到磁盘使用率的增长缓慢，请尝试以下选项：
-   * 通过调整空间分配优化磁盘空间。 有关步骤，请参阅 [管理磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) 在我们的开发人员文档中。 您可能还需要请求更多磁盘空间(请与您的Adobe帐户团队联系)。
-   * 清除MySQL的磁盘空间。 请参阅 [MySQL磁盘空间不足](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) 以了解步骤。
+   * 通过调整空间分配优化磁盘空间。 有关步骤，请参阅我们的开发人员文档中的[管理磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html)。 您可能还需要请求更多磁盘空间(请与您的Adobe帐户团队联系)。
+   * 清除MySQL的磁盘空间。 有关步骤，请参阅[MySQL磁盘空间不足](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)。
    * 如果New Relic显示磁盘使用率快速增加，这可能表示存在导致目录中文件快速增加的问题。 执行以下检查：
-1. 在CLI/终端中运行以下命令，检查整体磁盘空间以识别问题： `df -h`
-1. 在发现目录异常大且磁盘使用量不断增加后，您需要检查受影响的文件系统。 以下示例说明如何检查文件目录 `pub/media/`. 这是Adobe Commerce用于存储日志和大型媒体文件的目录。 但是，您应该对显示意外磁盘使用情况的任何目录运行此命令： `du -sch ~/pub/media/*`.
+1. 通过在CLI/终端中运行以下命令检查整体磁盘空间以识别问题： `df -h`
+1. 在发现目录异常大且磁盘使用量不断增加后，您需要检查受影响的文件系统。 以下示例说明如何检查文件目录`pub/media/`。 这是Adobe Commerce用于存储日志和大型媒体文件的目录。 但是，您应该对任何显示意外磁盘使用的目录运行此命令： `du -sch ~/pub/media/*`。
 
-如果终端的输出显示其中某个目录中的文件在磁盘使用量中迅速增加，并且您知道不需要该文件内容，请考虑删除该文件。 如果你不乐意采取这种行动， [提交Adobe Commerce支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+如果终端的输出显示其中某个目录中的文件在磁盘使用量中迅速增加，并且您知道不需要该文件内容，请考虑删除该文件。 如果不想执行这项操作，请[提交Adobe Commerce支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。

@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## 如何在云基础架构沙盒上刷新Adobe Commerce？ {#how-do-i-refresh-my-cloud-sandbox}
 
-请参阅 [在云上重置环境](/help/how-to/general/reset-environment-on-cloud.md) 在我们的支持知识库中。
+请参阅我们的支持知识库中的[在云上重置环境](/help/how-to/general/reset-environment-on-cloud.md)。
 
 ## 如何处理滞留的部署？ {#what-do-i-do-with-a-stuck-deployment}
 
-请参阅 [部署疑难解答](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md) 在我们的支持知识库中。
+请参阅我们的支持知识库中的[部署疑难解答程序](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)。
 
 ## 在需要帮助时，我应从何处获得帮助？ {#wherehow-do-i-get-help-when-needed}
 
-请参阅 [Adobe Commerce支持知识库](https://support.magento.com/hc/en-us).
+请参阅[Adobe Commerce支持知识库](https://support.magento.com/hc/en-us)。
 
 ## 解决方案合作伙伴或技术合作伙伴如何在何处提交支持请求？ {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
-* 解决方案合作伙伴可以通过发送电子邮件到提交沙盒相关问题的票证 [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) 并将其转发给合作伙伴技术支持团队。
-* 技术合作伙伴可以 [联系Marketplace支持](mailto:commercemarketplacesupport@adobe.com).
+* 解决方案合作伙伴可以通过向[SPPHelp@adobe.com](mailto:SPPHelp@adobe.com)发送电子邮件来提交沙盒相关问题的票证，该票证将转发给合作伙伴技术支持团队。
+* 技术合作伙伴可以[联系市场支持](mailto:commercemarketplacesupport@adobe.com)。

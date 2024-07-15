@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文讨论如何解决云基础架构上的Adobe Commerce部署失败错误，错误类似于以下内容：
 
-&quot;*无法访问&#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; URL： HTTP/1.1 403禁止访问* “。 或&quot;*无法下载https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip文件（HTTP/1.1 404未找到）*“。
+“*无法访问&#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; URL： HTTP/1.1 403 Forbidden* ”。 或无法下载“*https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip”文件（HTTP/1.1 404未找到）*”。
 
 ## 受影响的产品和版本
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 部署上的错误消息，指示无法访问存储库URL。
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
 手动触发部署，或通过执行环境的合并、推送或同步来触发部署。
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 部署卡住。 在项目UI的部署错误日志中，会显示类似于以下内容的错误消息：
 
-*“无法访问‘https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; URL： HTTP/1.1 \[403 Forbidden or 404 Not Found\]”*.
+*“无法访问&#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; URL： HTTP/1.1 \[403 Forbidden or 404 Not Found\]”*。
 
 （单击项目UI中的“失败”图标可查看日志。）
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 已成功完成部署。
 
@@ -59,18 +59,18 @@ ht-degree: 0%
 执行以下步骤来解决授权密钥的问题（有关每个步骤的更多详细信息，请参阅以下部分）：
 
 1. 获取有效的授权密钥（如果绝对确定您的密钥有效，请跳过此步骤）。
-1. 将键值添加到中 `env:COMPOSER_AUTH` 变量（或确保存在正确的值），并检查键值是否在项目级别和环境级别的变量中一致指定，以及是否在 `auth.json` 文件（如果存在）。
-1. 更新或删除 `auth.json`，以便在未指定授权密钥值或具有其他值时，在单个位置配置密钥。
+1. 在`env:COMPOSER_AUTH`变量中添加键值（或确保存在正确的值），并检查在项目级别和环境级别的变量中以及在项目根目录中的`auth.json`文件（如果存在）中是否以一致的方式指定键。
+1. 如果未指定授权密钥值或具有其他值，请更新或删除`auth.json`，以便在单个位置配置密钥。
 
 ### 1.获取有效的授权密钥
 
 如果您使用在共享帐户下创建的密钥，则需要联系Adobe Commerce许可证所有者，该所有者为您提供访问权限并请求他们为您生成密钥。
 
-如果您的许可证先前因付款问题而被撤销，并且您已解决这些问题并且已续订许可证，则您需要 [生成新的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+如果您的许可证先前因付款问题而被撤销，并且您已解决这些问题并且已续订许可证，则您需要[生成新的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
 
 ### 2.在env：COMPOSER\_AUTH变量中添加键值，并检查是否在auth.json中指定了相同的键
 
-请参阅中的说明和相关信息 [准备现有系统](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) 和 [添加身份验证密钥](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) 在我们的开发人员文档中。
+请参阅我们的开发人员文档中的[准备现有系统](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json)和[添加身份验证密钥](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys)中的说明和相关信息。
 
 ### 3.更新或删除auth.json
 
@@ -78,10 +78,10 @@ ht-degree: 0%
 
 1. 登录到拥有Adobe Commerce on cloud infrastructure SSH密钥的计算机。
 1. 登录项目： `magento-cloud login`
-1. 创建分支以更新代码(在以下示例中，分支名称为 `auth` 是从主分支创建的)：     `magento-cloud environment:branch auth master`
+1. 创建分支以更新代码（在以下示例中，从主分支创建的分支名称为`auth`）：     `magento-cloud environment:branch auth master`
 1. 更改为项目根目录。
-1. 可选：删除 `auth.json` 如果您愿意，请继续 [步骤9](#step9).
-1. 打开 `auth.json` 在文本编辑器中。
+1. 可选：如果您愿意，请删除`auth.json`并继续执行[步骤9](#step9)。
+1. 在文本编辑器中打开`auth.json`。
 
    ```json
               {

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 本文介绍如何添加Adobe Commerce和Zend区域设置库中不存在的国家/地区。 这需要根据适用的协议条款对代码和数据库进行更改，以构成客户自定义项。 请注意，本文中包含的示例材料按“原样”提供，不提供任何形式的担保。 Adobe或任何关联实体均无义务维护、更正、更新、更改、修改或以其他方式支持这些材料。 在这里，我们将描述为实现这一目标需要做的工作的基本原则。
 
-在本例中，我们使用在Adobe Commerce安装或升级过程中应用的数据修补程序创建新的Adobe Commerce模块，并将国家/地区代码为XX的抽象国家/地区添加到Adobe Commerce。 此 [Adobe Commerce目录](https://developer.adobe.com/commerce/php/module-reference/module-directory/) 构建初始国家/地区列表，然后使用设置修补程序将地区附加到该列表。 本文介绍如何创建新模块，以将新国家/地区附加到列表。 您可以查看现有Adobe Commerce Directory模块的代码以供参考。 这是因为以下示例模块继续进行构建国家/地区列表的目录模块作业，并重复使用Adobe Commerce目录模块安装补丁程序的部分代码。
+在本例中，我们使用在Adobe Commerce安装或升级过程中应用的数据修补程序创建新的Adobe Commerce模块，并将国家/地区代码为XX的抽象国家/地区添加到Adobe Commerce。 [Adobe Commerce Directory](https://developer.adobe.com/commerce/php/module-reference/module-directory/)构建初始国家/地区列表，然后使用设置修补程序将地区附加到该列表。 本文介绍如何创建新模块，以将新国家/地区附加到列表。 您可以查看现有Adobe Commerce Directory模块的代码以供参考。 这是因为以下示例模块继续进行构建国家/地区列表的目录模块作业，并重复使用Adobe Commerce目录模块安装补丁程序的部分代码。
 
 ## 推荐文档
 
@@ -35,20 +35,34 @@ ht-degree: 0%
 
 在此示例中，我们将创建一个名为\&#39;ExtraCountries\&#39;的新模块，该模块具有以下目录结构：
 
-(要了解有关模块结构的更多信息，请参阅 [模块概述](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) （位于我们的开发人员文档中）。
+（要了解有关模块结构的更多信息，请参阅我们的开发人员文档中的[模块概述](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)）。
 
 <pre><ExtraCountries>
  |
  <etc>
- | | | config.xml | di.xml | module.xml |
+ | |
+ | config.xml
+ | di.xml
+ | module.xml
+ |
  <Plugin>
- | | | <Framework>
- | | |   <Locale>
- | | | TranslatedListPlugin.php |
+ | |
+ | <Framework>
+ |   |
+ |   <Locale>
+ |     |
+ |     TranslatedListPlugin.php
+ |
  <Setup>
- | | | <Patch>
- | | |   <Data>
- | | | AddDataForAbstractCountry.php | composer.json registration.php</pre>
+ | |
+ | <Patch>
+ |   |
+ |   <Data>
+ |     |
+ |     AddDataForAbstractCountry.php
+ |
+ composer.json
+ registration.php</pre>
 
 >[!NOTE]
 >
@@ -58,10 +72,10 @@ ht-degree: 0%
 
 新的模块配置在此XML文件中定义。 可以编辑以下配置和标记，以调整新的国家/地区默认设置。
 
-* `allow`  — 要将新添加的国家/地区默认添加到“允许国家/地区”列表，请将新的国家/地区代码附加到 `allow` 标记内容。 国家/地区代码以逗号分隔。 请注意，此标记将覆盖 `Directory` 模块配置文件 *(Directory/etc/config.xml)* `allow` 标记，这就是为什么我们在这里重复所有代码并添加新的代码。
-* `optional_zip_countries`  — 如果新添加的国家/地区的邮政编码是可选的，请将国家/地区代码附加到 `optional_zip_countries` 标记之前。 国家/地区代码以逗号分隔。 请注意，此标记将覆盖 `Directory` 模块配置文件 *(Directory/etc/config.xml)* `optional_zip_countries` 标记，这就是为什么我们在这里重复所有代码并添加新的代码。
-* `eu_countries`  — 如果新添加的国家默认必须是欧盟国家列表的一部分，则在内容末尾附加国家/地区代码， `eu_countries` 标记之前。 国家/地区代码以逗号分隔。 请注意，此标记将覆盖 `Store` 模块配置文件 *(\_Store/etc/config.xml\_)* `eu_countries` 标记，这就是为什么我们在这里重复所有代码并添加新的代码。
-* `config.xml` 文件示例
+* `allow` — 要将新添加的国家/地区默认添加到“允许国家/地区”列表，请将新的国家/地区代码附加到`allow`标记内容的末尾。 国家/地区代码以逗号分隔。 请注意，此标记将覆盖`Directory`模块配置文件&#x200B;*(Directory/etc/config.xml)* `allow`标记中的数据，因此我们会重复此处的所有代码并添加新的代码。
+* `optional_zip_countries` — 如果新添加国家/地区的邮政编码应为可选，请将国家/地区代码附加到`optional_zip_countries`标记内容的末尾。 国家/地区代码以逗号分隔。 请注意，此标记将覆盖`Directory`模块配置文件&#x200B;*(Directory/etc/config.xml)* `optional_zip_countries`标记中的数据，因此我们会重复此处的所有代码并添加新的代码。
+* `eu_countries` — 默认情况下，如果新添加的国家/地区必须是欧盟国家/地区列表的一部分，请将国家/地区代码附加到`eu_countries`标记内容的末尾。 国家/地区代码以逗号分隔。 请注意，此标记将覆盖`Store`模块配置文件&#x200B;*(\_Store/etc/config.xml\_)* `eu_countries`标记中的数据，因此我们会重复此处的所有代码并添加新的代码。
+* `config.xml`文件示例
 
 ```xml
 <?xml version="1.0"?>
@@ -83,17 +97,17 @@ ht-degree: 0%
 </config>
 ```
 
-有关模块配置文件的详细信息，请参阅 [PHP开发人员指南>定义配置文件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html) 在我们的开发人员文档中。
+有关模块配置文件的详细信息，请参阅我们的开发人员文档中的[PHP Developer Guide > Define Configurations files](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html)。
 
-请注意，这些更改是可选的，只会影响新国家/地区的默认属于“允许国家/地区”、“邮政编码对于是可选的”和“欧盟国家/地区”列表。 如果从模块结构跳过了此文件，则仍会添加新的国家/地区，但必须在上手动配置它 **管理员** > **商店** > *设置* > **配置** > **常规** > **国家/地区选项** 设置页面。
+请注意，这些更改是可选的，只会影响新国家/地区的默认属于“允许国家/地区”、“邮政编码对于是可选的”和“欧盟国家/地区”列表。 如果从模块结构跳过了此文件，则仍会添加新的国家/地区，但必须在&#x200B;**管理员** > **商店** > *设置* > **配置** > **常规** > **国家/地区选项**&#x200B;设置页面中手动配置此文件。
 
 ### ExtraCountries/etc/di.xml
 
-此 `di.xml` 文件配置对象管理器插入的依赖项。 请参阅 <a>PHP Developer Guide > The di.xml</a> 查看我们的开发人员文档，了解更多有关 `di.xml`.
+`di.xml`文件配置对象管理器插入的依赖项。 有关`di.xml`的更多详细信息，请参阅我们的开发人员文档中的<a>PHP开发人员指南> di.xml</a>。
 
-在我们的示例中，我们必须注册 `_TranslatedListsPlugin_` 如果Zend区域设置库本地化数据中不存在代码，则将新引入的国家/地区代码转换为完整的国家/地区名称。
+在我们的示例中，如果Zend区域设置库本地化数据中不存在代码，则必须注册一个`_TranslatedListsPlugin_`，以便将新引入的国家/地区代码转换为完整的国家/地区名称。
 
-`di.xml` 示例
+`di.xml`示例
 
 ```xml
 <?xml version="1.0"?>
@@ -109,9 +123,9 @@ ht-degree: 0%
 
 在模块注册文件中，我们必须为“Adobe Commerce目录”模块指定依赖关系，确保在“目录”模块之后注册并执行“额外国家/地区”模块。
 
-请参阅 [管理模块依赖关系](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies) 有关模块依赖项的更多信息，请参阅我们的开发人员文档。
+有关模块依赖项的更多信息，请参阅我们的开发人员文档中的[管理模块依赖项](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies)。
 
-`module.xml` 示例
+`module.xml`示例
 
 ```xml
 <?xml version="1.0"?>
@@ -126,7 +140,7 @@ ht-degree: 0%
 
 ### ExtraCountries/Plugin/Framework/Locale/TranslatedListsPlugin.php
 
-在 `aroundGetCountryTranslation()` 插件方法我们必须将国家/地区代码转换为完整的国家/地区名称。 对于在Zend区域设置库中没有与新国家/地区代码相关联的全名的国家/地区，这是必需的步骤。
+在`aroundGetCountryTranslation()`插件方法中，必须将国家/地区代码转换为国家/地区完整名称。 对于在Zend区域设置库中没有与新国家/地区代码相关联的全名的国家/地区，这是必需的步骤。
 
 ```php
 <?php
@@ -171,9 +185,9 @@ class TranslatedListsPlugin
 
 此数据修补程序将在Adobe Commerce安装/升级过程中执行，并将向数据库中添加新的国家/地区记录。
 
-请参阅 [开发数据和架构修补程序](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html) 参阅我们的开发人员文档，了解有关数据修补程序的更多信息。
+有关数据修补程序的详细信息，请参阅我们的开发人员文档中的[开发数据和架构修补程序](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html)。
 
-在以下示例中，您可以看到 `$data` 方法数组 `apply()` 包含新国家/地区的国家/地区ID、ISO2和ISO3代码，并且此数据正在插入数据库中。
+在下面的示例中，您可以看到方法`apply()`的`$data`数组包含新国家/地区的国家/地区ID、ISO2和ISO3代码，并且此数据正在插入到数据库中。
 
 ```php
 <?php
@@ -252,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-这是registration.php文件的一个示例。 要了解有关模块注册的更多信息，请参阅 [PHP开发人员指南>注册组件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html) 在我们的开发人员文档中。
+这是registration.php文件的一个示例。 要了解有关模块注册的更多信息，请参阅我们的开发人员文档中的[PHP Developer Guide > Register your component](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html)。
 
 ```php
 <?php
@@ -265,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 这是composer.json文件的一个示例。
 
-要了解有关composer.json的更多信息，请参阅 [PHP开发人员指南> composer.json文件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) 在我们的开发人员文档中。
+要了解有关composer.json的更多信息，请参阅我们的开发人员文档中的[PHP开发人员指南> Composer.json文件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html)。
 
 ```json
 {
@@ -296,8 +310,8 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 ## 模块安装
 
-要了解如何安装模块，请参阅 [模块位置](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations) 在我们的开发人员文档中。
+要了解如何安装模块，请参阅我们的开发人员文档中的[模块位置](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations)。
 
-将模块目录放置到正确位置后，执行 `bin/magento setup:upgrade` 以应用数据修补程序并注册翻译插件。
+将模块目录放置到正确位置后，执行`bin/magento setup:upgrade`以应用数据修补程序并注册翻译插件。
 
 您可能需要清除浏览器缓存，新更改才能生效。

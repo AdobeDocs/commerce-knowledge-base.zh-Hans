@@ -19,7 +19,7 @@ ht-degree: 0%
 
 当您拥有可配置产品时，对于特定选项组合，相关的简单产品缺货，样本仍然可用，并且可以在店面中选择。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 在Commerce Admin中，使用两个属性的选项创建可配置产品：颜色（红色、黑色）和大小(S、M、L)。
 1. 将每个相应的简单产品的数量设置为“1”。
@@ -28,7 +28,7 @@ ht-degree: 0%
 1. 确保不允许延交订单。
 1. 在店面，导航到相同的产品页面并选择相同的选项：红色、M。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 红色的M色板具有红色斜杠，无法选择。
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

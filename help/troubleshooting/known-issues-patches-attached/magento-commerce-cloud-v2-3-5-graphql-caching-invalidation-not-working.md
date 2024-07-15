@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce on cloud infrastructure v2.3.5GraphQL缓存失效不起作用
 
-本文为GraphQL中的问题提供了一个修补程序 `GET` 如果客户更改产品信息，则请求会返回过期的信息。
+本文针对GraphQL `GET`请求在客户更改产品信息时返回过期信息的问题提供了修补程序。
 
 ## 受影响的产品和版本
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Fastly缓存GraphQL请求，并为来自Fastly的每个后续请求检索缓存的版本。 在Adobe Commerce后端中重新保存产品时，Fastly缓存应在更新产品时失效。 但是，它仍然有效。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 触发以下GraphQL请求以获取特定类别的产品，例如：
    <pre><magento2-server>
@@ -31,13 +31,13 @@ Fastly缓存GraphQL请求，并为来自Fastly的每个后续请求检索缓存�
 1. 在Commerce管理中重新保存上述请求检索到的产品之一。
 1. 再次触发请求。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
-此 `X-Cache` 标头包含 `MISS`.
+`X-Cache`标头包含`MISS`。
 
 <u>实际结果</u>：
 
-此 `X-Cache` 标头包含 `HIT`，这表示将缓存响应。
+`X-Cache`标头包含`HIT`，这意味着响应已缓存。
 
 ## 解决方案
 
@@ -73,6 +73,6 @@ Fastly缓存GraphQL请求，并为来自Fastly的每个后续请求检索缓存�
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取有关如何应用编辑器修补程序的说明。
+有关如何应用编辑器修补程序的说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

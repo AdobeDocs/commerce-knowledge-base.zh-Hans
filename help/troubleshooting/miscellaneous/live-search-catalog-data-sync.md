@@ -23,18 +23,18 @@ ht-degree: 0%
 
 您的目录数据未正确同步，或者添加了新产品，但未显示在搜索结果中。
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
-1. 按照中的说明，为Adobe Commerce实例配置并连接Live Search [安装Live Search >配置API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) 在我们的用户文档中。
-1. 30分钟后，验证导出的目录数据，如中所述 [安装Live Search >验证导出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) 在我们的用户文档中。
-1. 30分钟后，按照中所述测试连接 [安装Live Search >测试连接](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) 在我们的用户文档中。
+1. 按照用户文档中的[安装Live Search >配置API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys)中所述，为Adobe Commerce实例配置并连接Live Search。
+1. 30分钟后，按照用户文档中的[安装Live Search >验证导出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)中的说明验证导出的目录数据。
+1. 30分钟后，按照用户文档中的[安装Live Search >测试连接](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)中的说明测试连接。
 
 或
 
 1. 向目录中添加新产品。
 1. 尝试在运行Magento索引器+ cron后的15-20分钟后使用产品名称或其他可搜索属性运行搜索查询，以将数据同步到后端服务。
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 * 可以验证导出的目录数据
 * 连接成功
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 如果特定SKU的产品数据未正确同步，请执行以下操作：
 
-1. 使用以下SQL查询并验证您是否在 `feed_data` 列。 此外，请记下 `modified_at` 时间戳。
+1. 使用以下SQL查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
 
    ```sql
    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
@@ -68,11 +68,11 @@ ht-degree: 0%
    bin/magento indexer:reindex catalog_data_exporter_products
    ```
 
-1. 如果您仍然看不到正确的数据， [创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 如果仍看不到正确的数据，请[创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 检查上次产品导出的时间戳
 
-1. 如果您在中看到正确的数据 `catalog_data_exporter_products`，使用以下SQL查询检查上次导出的时间戳。 它应在 `modified_at` 时间戳：
+1. 如果您在`catalog_data_exporter_products`中看到正确的数据，请使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后：
 
    ```sql
    select * from flag where flag_code = 'products-feed-version';
@@ -84,13 +84,13 @@ ht-degree: 0%
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 等待 `<>` 时间（增量更新的时间）。 如果您仍未看到数据， [创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 等待`<>`时间（增量更新的时间）。 如果您仍未看到数据，请[创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 同步特定的属性代码
 
 如果特定属性代码的产品属性数据未正确同步，请执行以下操作：
 
-1. 使用以下SQL查询并验证您是否在 `feed_data` 列。 此外，请记下 `modified_at` 时间戳。
+1. 使用以下SQL查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
 
    ```sql
    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
@@ -102,13 +102,13 @@ ht-degree: 0%
    bin/magento indexer:reindex catalog_data_exporter_product_attributes
    ```
 
-1. 如果您仍然看不到正确的数据， [创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 如果仍看不到正确的数据，请[创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 检查上次产品属性导出的时间戳
 
-如果您在中看到正确的数据 `catalog_data_exporter_product_attributes`：
+如果您在`catalog_data_exporter_product_attributes`中看到了正确的数据：
 
-1. 使用以下SQL查询检查上次导出的时间戳。 它应在 `modified_at` 时间戳。
+1. 使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后。
 
    ```sql
    select * from flag where flag_code = 'product-attributes-feed-version';
@@ -120,7 +120,7 @@ ht-degree: 0%
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 等待15-20分钟（增量更新的时间）。 如果您仍未看到数据，请 [创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 等待15-20分钟（增量更新的时间）。 如果您仍未看到数据，请[创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 在API配置更改后同步
 
@@ -133,4 +133,4 @@ bin/magento saas:resync --feed productattributes
 
 ## 相关阅读
 
-请参阅 [载入Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) 在我们的用户文档中。
+请参阅我们的用户文档中的[载入实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。

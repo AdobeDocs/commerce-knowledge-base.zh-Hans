@@ -24,7 +24,7 @@ ht-degree: 0%
 
 高级搜索功能不会像快速搜索那样首先返回最相关的结果。 问题与所选的搜索引擎类型无关。
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
 1. 在店面，快速搜索“合身夹克”。
 1. 请注意，“Orion Two-Tone Fitted Jacket”是第一个结果。
@@ -50,6 +50,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

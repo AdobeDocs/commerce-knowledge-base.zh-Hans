@@ -29,5 +29,5 @@ Adobe已发布质量修补程序工具以供正式发布，该工具允许应用
 
 有关详细信息，请参阅我们的开发人员文档：
 
-* [Quality Patches Tool中提供的修补程序](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
-* [质量修补程序工具发行说明](https://devdocs.magento.com/quality-patches/release-notes.html)
+* Quality Patches Tool中提供了[个修补程序](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
+* [质量修补工具发行说明](https://devdocs.magento.com/quality-patches/release-notes.html)

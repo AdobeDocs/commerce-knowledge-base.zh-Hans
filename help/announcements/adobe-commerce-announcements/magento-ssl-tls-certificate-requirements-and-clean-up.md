@@ -15,5 +15,5 @@ ht-degree: 0%
 
 有关在云基础架构上为Adobe Commerce提供的SSL/TLS证书的最相关信息，请参阅以下文章：
 
-* [云基础架构上Adobe Commerce的SSL (TLS)证书](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) 在我们的支持知识库中
-* [配置SSL/TLS证书](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) 在我们的开发人员文档中
+* 在我们的支持知识库中，为Adobe Commerce在云基础架构上提供[SSL (TLS)证书](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
+* 在我们的开发人员文档中[配置SSL/TLS证书](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates)

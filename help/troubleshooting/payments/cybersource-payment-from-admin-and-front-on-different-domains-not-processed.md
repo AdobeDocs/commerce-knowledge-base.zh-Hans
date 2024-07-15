@@ -17,17 +17,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->核心的Adobe Commerce网络源支付集成自2.3.3之后已被弃用，并将在2.4.0中完全删除。使用 [正式延期](https://marketplace.magento.com/cybersource-global-payment-management.html) 而不是从marketplace访问。
+>核心的Adobe Commerce网络源支付集成自2.3.3之后已被弃用，并将在2.4.0中完全删除。请改用Marketplace中的[正式扩展](https://marketplace.magento.com/cybersource-global-payment-management.html)。
 
 ## 问题
 
-之前实施的网络源集成仅允许从一个域处理支付。 因此，如果您的Adobe Commerce店面与Commerce管理员位于不同的域，那么当您尝试在管理员中使用网络资源下订单时，会收到以下错误： ” *X-Frame-Options拒绝加载： https://%your\_domain%/cybersource/SilentOrder/TokenResponse/不允许跨源成帧。* ..”
+之前实施的网络源集成仅允许从一个域处理支付。 因此，如果您的Adobe Commerce店面与Commerce管理员不在同一域中，那么当您尝试在管理员中使用赛博源下订单时，会收到以下错误：“*Load denied by X-Frame-Options： https://%your\_domain%/cybersource/SilentOrder/TokenResponse/不允许跨域分帧。* ...”
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 在其他子域上设置管理员。
-1. 在下为商店配置Cybersource **商店** >设置> **配置** > **销售** > **支付方式** > **网络资源**.
-1. 转到 **销售** > **订购**.
+1. 在&#x200B;**商店** >设置> **配置** > **销售** > **付款方式** > **网络资源**&#x200B;下为商店配置网络资源。
+1. 转到&#x200B;**销售** > **订单**。
 1. 创建新订单。
 1. 创建新客户。
 1. 输入客户详细信息。
@@ -35,13 +35,13 @@ ht-degree: 0%
 1. 选择Cybersource作为付款方法。
 1. 提交订单。
 
-<u>预期结果</u>：下达的订单没有任何问题。
+<u>预期结果</u>：下订单时没有问题。
 
-<u>实际结果</u>：订单页面会显示一个加载图标，但从未下达订单。 该错误显示在控制台中。
+<u>实际结果</u>：“订单”页显示加载图标，但从未下达订单。 该错误显示在控制台中。
 
 ## 解决方案
 
-附加的修补程序为与Cybersource的集成提供了改进。 应用补丁后，您需要为管理员中的支付处理再次创建一个Cybersource配置文件，并在Commerce管理员的“Cybersource”配置中添加所需的凭据 **商店** >设置> **配置** > **销售** > **支付方式** > **网络资源**.
+附加的修补程序为与Cybersource的集成提供了改进。 应用修补程序后，您需要为管理员中的网络资源再创建一个配置文件，以便处理付款，并在Commerce管理员中的网络资源配置中添加所需的凭据，其位于&#x200B;**商店** >设置> **配置** > **销售** > **付款方式** > **网络资源**&#x200B;下。
 
 >[!NOTE]
 >
@@ -69,6 +69,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

@@ -24,16 +24,16 @@ Adobe Commerce（所有部署方法） 2.4.3及更高版本
 
 商家会设置优惠券以供一次使用，并且客户可以多次使用。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 创建优惠券并将优惠券配置为单次使用。
 1. 继续结帐。
 1. 使用您刚刚创建的优惠券。
 1. 再次进入结账流程，并使用相同的优惠券。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
-优惠券只能使用一次。 此时将显示一条消息： *优惠券代码“COUPON_NAME”无效*.
+优惠券只能使用一次。 显示一条消息： *优惠券代码“COUPON_NAME”无效*。
 
 <u>实际结果</u>：
 
@@ -42,11 +42,11 @@ Adobe Commerce（所有部署方法） 2.4.3及更高版本
 
 ## 原因
 
-商家没有 `sales.rule.update.coupon.usage` 用户设置和运行会导致不当行为。
+商家未设置并运行`sales.rule.update.coupon.usage`消费者，从而导致不当行为。
 
 ## 解决方案
 
-添加 `sales.rule.update.coupon.usage` 消费者对 `app/etc/env.php` 文件。
+将`sales.rule.update.coupon.usage`使用者添加到`app/etc/env.php`文件。
 
 ```php
 ...
@@ -62,8 +62,8 @@ Adobe Commerce（所有部署方法） 2.4.3及更高版本
 ...
 ```
 
-有关详细步骤，请参阅 [管理消息队列>配置](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration) 在我们的开发人员文档中。
+有关详细步骤，请参阅我们的开发人员文档中的[管理消息队列>配置](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration)。
 
 ## 相关阅读
 
-[消息队列概述](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html) 在我们的开发人员文档中。
+在我们的开发人员文档中，[消息队列概述](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html)。

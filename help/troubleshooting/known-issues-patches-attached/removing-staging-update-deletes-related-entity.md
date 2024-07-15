@@ -23,15 +23,15 @@ ht-degree: 0%
 
 删除开始日期和结束日期之间的活动计划更新时，也会删除相关实体（类别、子类别、CMS页面）。
 
-<u>重现问题的步骤（使用类别）</u>：
+<u>要再现的步骤（使用类别）</u>：
 
 1. 登录到Commerce管理员。
-1. 在下创建新子类别 **目录** > **类别**.
+1. 在&#x200B;**目录** > **类别**&#x200B;下创建新子类别。
 1. 使用开始和结束时间创建新的暂存更新。
 1. 等待应用更新；即开始时间。
-1. 使用删除更新 **查看/编辑** 链接。
+1. 使用&#x200B;**查看/编辑**&#x200B;链接删除更新。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 更新已删除，并且子类别仍然存在于管理员中。
 
@@ -80,6 +80,6 @@ MDVA-23505\_EE\_2.2.5\_COMPOSER\_v1.patch修补程序与以下Adobe Commerce版�
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

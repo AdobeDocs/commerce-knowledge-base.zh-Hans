@@ -1,6 +1,6 @@
 ---
-title: '''ACSD-48262：产品在店面中不可见，当时 [!UICONTROL Allow All Products Per Page] 已设置 [!UICONTROL Yes]’'
-description: Adobe Commerce应用ACSD-48262修补程序以修复以下问题：当 [!UICONTROL Allow All Products Per Page] 设置已设置为 [!UICONTROL Yes].
+title: 'ACSD-48262：当[!UICONTROL Allow All Products Per Page]设置为[!UICONTROL Yes]时，产品在店面不可见'
+description: 应用ACSD-48262修补程序以修复将[!UICONTROL Allow All Products Per Page]设置设为[!UICONTROL Yes]时店面中看不到产品的Adobe Commerce问题。
 exl-id: 327cad03-441d-4adb-8a10-802f06d3fcd1
 feature: Admin Workspace, Cache, Categories, Orders, Products, Storefront
 role: Admin
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48262：以下情况下店面中看不到产品： [!UICONTROL Allow All Products Per Page] 已设置 *[!UICONTROL Yes]*
+# ACSD-48262：当[!UICONTROL Allow All Products Per Page]设置为&#x200B;*[!UICONTROL Yes]*&#x200B;时，产品在店面不可见
 
-ACSD-48262修补程序修复了以下问题： [!UICONTROL Allow All Products Per Page] 设置已设置为 *[!UICONTROL Yes]*. 此修补程序在以下情况下可用： [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安装1.1.25。 修补程序ID为ACSD-48262。 请注意，该问题计划在Adobe Commerce 2.4.6中修复。
+ACSD-48262修补程序修复了将[!UICONTROL Allow All Products Per Page]设置设为&#x200B;*[!UICONTROL Yes]*&#x200B;时，产品在店面中不可见的问题。 安装[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25时，此修补程序可用。 修补程序ID为ACSD-48262。 请注意，该问题计划在Adobe Commerce 2.4.6中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 * Adobe Commerce（所有部署方法） 2.4.5
 
@@ -27,22 +27,22 @@ ACSD-48262修补程序修复了以下问题： [!UICONTROL Allow All Products Pe
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新版本的其他版本 [!DNL Quality Patches Tool] 版本发布。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
-ACSD-48262修补程序修复了以下问题： [!UICONTROL Allow All Products Per Page] 设置已设置为 *[!UICONTROL Yes]*.
+ACSD-48262修补程序修复了将[!UICONTROL Allow All Products Per Page]设置设为&#x200B;*[!UICONTROL Yes]*&#x200B;时，产品在店面中不可见的问题。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 创建测试类别。
 1. 在测试类别中创建测试产品。
 1. 浏览产品以测试店面上的类别页面，并确保产品可见。
-1. 转到 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** 并设置 [!UICONTROL Allow All Products Per Page] 将设置为 *[!UICONTROL Yes]*.
+1. 转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]**&#x200B;并将[!UICONTROL Allow All Products Per Page]设置设置为&#x200B;*[!UICONTROL Yes]*。
 1. 清除缓存。
 1. 检查店面的类别页面。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 产品可见。
 
@@ -54,15 +54,15 @@ ACSD-48262修补程序修复了以下问题： [!UICONTROL Allow All Products Pe
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html) 在我们的开发人员文档中。
+* Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 
 ## 相关阅读
 
-要了解有关 [!DNL Quality Patches Tool]，请参阅：
+要了解有关[!DNL Quality Patches Tool]的更多信息，请参阅：
 
-* [[!DNL Quality Patches Tool] 已发布：用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用以下方式检查修补程序是否可用于您的Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关QPT中可用的其他修补程序的信息，请参阅 [[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+有关QPT中其他可用修补程序的信息，请参阅[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

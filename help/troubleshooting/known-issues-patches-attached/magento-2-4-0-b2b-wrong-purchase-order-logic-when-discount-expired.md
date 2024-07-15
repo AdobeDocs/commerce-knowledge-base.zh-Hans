@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ## 问题
 
-<u>先决条件</u>：创建折扣优惠券，并且存在阻止自动处理PO的审批规则。
+<u>先决条件</u>：创建了折扣优惠券，并且存在阻止自动处理PO的审批规则。
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
 1. 下达应用了折扣的采购单。
 1. 停用折扣优惠券。
@@ -49,8 +49,8 @@ ht-degree: 0%
 
 [B2B-709-composer.patch](assets/B2B-709-composer.patch.zip)
 
-该修补程序也可在以下两个页面中下载： `.git` 和 `.composer` ，格式位于 [Adobe Commerce下载](https://magento.com/tech-resources/download) 页面，在 **补丁程序** 在左列导航中。 搜索XXX修补程序。
+该修补程序还能够以两种格式下载： [Adobe Commerce下载](https://magento.com/tech-resources/download)页左侧列导航栏中&#x200B;**修补程序**&#x200B;下的`.git`和`.composer`。 搜索XXX修补程序。
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中获取说明。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。

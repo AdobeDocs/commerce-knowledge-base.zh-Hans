@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # 使用数据导出来查明差异
 
-本文为排查MagentoBI数据中的差异提供了解决方案。 数据导出是一种将MagentoBI数据与源数据进行比较的有用工具，可以查明报表中的数据差异，尤其是当 [数据差异诊断核对清单](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md) 没有帮助你查明问题。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
+本文为排查MagentoBI数据中的差异提供了解决方案。 数据导出是一种将MagentoBI数据与源数据进行比较的有用工具，可以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)没有帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
 
 以这种分析为例：
 
 ![](assets/Exports_Discrepancies_1.png)
 
-2014年11月出现了可疑的下降。 收入500,780.94美元？ 听起来不对。 您已确认源数据库中显示了2014年11月的更多收入，并且已仔细检查 **收入** 已正确定义此报表中使用的量度。 似乎MagentoBI数据仓库中的数据不完整，可以使用“数据导出”来确认。
+2014年11月出现了可疑的下降。 收入500,780.94美元？ 听起来不对。 您已确认源数据库中显示了更多的2014年11月收入，并仔细检查了是否正确定义了此报告中使用的&#x200B;**收入**&#x200B;指标。 似乎MagentoBI数据仓库中的数据不完整，可以使用“数据导出”来确认。
 
 ## 导出数据 {#export}
 
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 在“原始数据导出”菜单中，可以选择要从中导出的表以及要包含在导出中的列。 过滤器也可以应用于结果集。
 
-在我们的示例中， **收入** 此报告上使用的指标使用 **order\_total** 字段定义于 **订单** 表，使用 **日期** 作为其时间戳。 在我们的导出中，我们想要包含所有 **order\_id** 2014年11月的值及其 **order\_total** . 此 **收入** 量度不使用任何过滤器，但我们将为导出添加一个过滤器，以将结果集限制为仅在2014年11月。
+在我们的示例中，此报表中使用的&#x200B;**Revenue**&#x200B;量度使用&#x200B;**orders**&#x200B;表中定义的&#x200B;**order\_total**&#x200B;字段，并使用&#x200B;**date**&#x200B;作为其时间戳。 在我们的导出中，我们要包含2014年11月的所有&#x200B;**order\_id**&#x200B;值及其&#x200B;**order\_total** 。 **收入**&#x200B;量度不使用任何筛选器，但我们将为导出添加一个筛选器，以将结果集限制为仅2014年11月。
 
 以下是本示例中原始数据导出菜单的外观：
 
 ![](assets/Exports_Discrepancies_2.png)
 
-单击导出数据开始导出。 此时将显示一个窗口，其中包含导出的详细信息，包括状态。 准备导出需要几分钟时间，现在正是执行2014年11月源数据的类似提取的大好时机，包括 **日期，order\_id** ，和 **order\_total** . 我们将在Excel中打开此文件并保留它，因为我们将很快返回到它。
+单击导出数据开始导出。 此时将显示一个窗口，其中包含导出的详细信息，包括状态。 准备导出需要几分钟的时间，现在可以开始对2014年11月的源数据进行类似提取，包括&#x200B;**日期、order\_id**&#x200B;和&#x200B;**order\_total** 。 我们将在Excel中打开此文件并保留它，因为我们将很快返回到它。
 
 当“原始数据导出”窗口中出现“下载”按钮时，单击该按钮可下载包含CSV文件的zip文件。
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 
 ### 两个工作表包含的行数相同
 
-如果两个系统具有相同的行数和 **收入** 量度与源数据不匹配，则 **order\_total** 肯定在某个地方。 有可能 **order\_total** 字段已在源数据库中更新，MagentoBI无法接收这些更改。
+如果两个系统具有相同的行计数，且&#x200B;**收入**&#x200B;指标与源数据不匹配，则&#x200B;**order\_total**&#x200B;必须在某个位置关闭。 源数据库中的&#x200B;**order\_total**&#x200B;字段可能已更新，且MagentoBI未收到这些更改。
 
-要确认这一点，请查看 **order\_total** 正在重新检查列。 前往Data Warehouse管理器并单击“订单”表。 您将会看到 [重新检查频率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) 在“更改？”中列出 列。 此 **order\_total** 字段应设置为按预期更改的频率重新检查；如果没有，则将其设置为所需的重新检查频率。
+要确认这一点，请查看&#x200B;**order\_total**&#x200B;列是否正在重新检查。 前往Data Warehouse管理器并单击“订单”表。 您会看到“更改？”中列出了[重新检查频率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) 列。 **order\_total**&#x200B;字段应设置为按预期更改频率重新检查；如果不更改，请将其设置为所需的重新检查频率。
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
-如果重新检查频率已正确设置，则表明存在其他问题。 请参阅 [联系支持部分](#support) ，以了解后续步骤。
+如果重新检查频率已正确设置，则表明存在其他问题。 请参阅本文末尾的[联系支持部分](#support)以了解后续步骤。
 
 ## 源数据库的行数比MagentoBI多 {#morerows}
 
@@ -63,17 +63,17 @@ ht-degree: 0%
 
 导航到“连接”页面，并查看包含订单表的数据源的状态：
 
-1. **如果状态为“重新验证”** 时，连接未使用正确的凭据。 单击进入连接，输入正确的凭据，然后重试。
-1. **如果状态为“失败”** 时，服务器端的连接设置可能会不正确。 连接失败通常是由于主机名不正确或目标服务器不接受指定端口上的连接造成的。单击连接并仔细检查主机名的拼写以及是否输入了正确的端口。 在服务器端，确保端口可以接受连接，并且防火墙具有允许的MagentoBI IP地址(54.88.76.97/32)。 **如果连接继续失败** ，请参阅 [联系支持部分](#support) ，以了解后续步骤。
-1. **如果状态为“成功”** ，则连接不是问题，需要参与RJ支持。 请参阅 [联系支持部分](#support) ，以了解后续步骤。
+1. **如果状态为“重新验证”**，则连接未使用正确的凭据。 单击进入连接，输入正确的凭据，然后重试。
+1. **如果状态为“失败”**，则可能无法在服务器端正确设置连接。 连接失败通常是由于主机名不正确或目标服务器不接受指定端口上的连接造成的。单击连接并仔细检查主机名的拼写以及是否输入了正确的端口。 在服务器端，确保端口可以接受连接，并且防火墙具有允许的MagentoBI IP地址(54.88.76.97/32)。 **如果连接继续失败**，请参阅本文末尾的[联系支持部分](#support)以了解后续步骤。
+1. **如果状态为Successful** ，则连接不是问题，需要联系RJ支持。 请参阅本文末尾的[联系支持部分](#support)以了解后续步骤。
 
 ## 源数据库的行数少于MagentoBI {#lessrows}
 
-如果源数据库的行数少于MagentoBI，则可能正在从源数据库中删除行，并且MagentoBI不接收这些删除操作。 ** [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) 可能会导致不一致、更新时间延长以及大量后勤问题**，因此我们强烈建议您不要删除数据，除非它确实必要。
+如果源数据库的行数少于MagentoBI，则可能正在从源数据库中删除行，并且MagentoBI不接收这些删除操作。 ** [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能会导致不一致、更新时间延长以及后勤方面的一系列难题**，因此我们强烈建议您永远不要删除数据，除非它真的必要。
 
 但是，如果从表中删除了行，请查看主键上的重新检查频率。 重新选中主键表示将检查表中是否包含已删除的行。
 
-在Data Warehouse管理器中，主键列用键符号标记。 在本例中，主键是 **order\_id** 列：
+在Data Warehouse管理器中，主键列用键符号标记。 在我们的示例中，主键是&#x200B;**order\_id**&#x200B;列：
 
 ![](assets/Export_Discrepancies_3.png)
 
@@ -83,11 +83,11 @@ ht-degree: 0%
 
 如果无法查明问题的根源，则需要在RJ支持中循环。 在提交票证之前，请执行以下操作：
 
-* **如果源数据库和MagentoBI的行数相同** 并重新检查频率设置是否正确，在电子表格中执行VLOOKUP **查找MagentoBI和源数据库之间哪个order\_id值的order\_total值不同。** 在提交票证时包含这些值。
-* **如果源数据库的行数大于MagentoBI** 连接显示为成功或继续失败，我们需要知道连接的名称和您看到的错误消息（如果有）。
-* **如果源数据库的行数少于MagentoBI，** 不会从表中删除行，且重新检查频率设置正确，请在电子表格中执行VLOOKUP **查找MagentoBI中的order\_id值** 但源数据库中没有。 在提交票证时包含这些值。
+* **如果源数据库和MagentoBI具有相同的行数**，并且重新检查频率设置正确，请在电子表格&#x200B;**中执行VLOOKUP，以找出哪些order\_id值在MagentoBI和源数据库之间具有不同的order\_total值。**&#x200B;在提交票证时包含这些值。
+* **如果您的源数据库比MagentoBI多**&#x200B;行，并且连接显示为“成功”或继续失败，我们需要知道连接的名称和您看到的错误消息（如果有）。
+* **如果源数据库的行数少于MagentoBI，则不会从表中删除**&#x200B;行，并且重新检查频率设置正确，请在电子表格&#x200B;**中执行VLOOKUP以查找哪些order\_id值在MagentoBI**&#x200B;中，而不是在源数据库中。 在提交票证时包含这些值。
 
 ## 相关
 
 * [数据差异诊断核对清单](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
-* [提交数据差异票证](https://support.magento.com/hc/en-us/articles/360016506472-Submitting-a-data-discrepancy-ticket)
+* [正在提交数据差异票证](https://support.magento.com/hc/en-us/articles/360016506472-Submitting-a-data-discrepancy-ticket)

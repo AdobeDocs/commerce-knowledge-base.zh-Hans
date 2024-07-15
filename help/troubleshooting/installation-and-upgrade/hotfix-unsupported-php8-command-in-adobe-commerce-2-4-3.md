@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文修复了商家尝试升级到Adobe Commerce（所有部署方法）或Magento Open Source2.4.3或2.3.7-p1时出现以下错误的问题：
 
-*PHP致命错误：未捕获错误：在&lt;...>Magento\Framework\Filesystem\Directory\str_contains：74中调用未定义的函数/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()*
+*PHP致命错误：未捕获错误：调用&lt;...>Magento\Framework\Filesystem\Directory\str_contains：74*&#x200B;中的未定义函数/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()
 
 此问题将在2.4.4、2.4.3-p1和2.3.7-p2版本的范围内修复。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 问题
 
-此问题是由新推出的Adobe Commerce 2.4.3和2.3.7-p1版本造成的，这些版本仅使用PHP 8函数 `str_contains`. Adobe Commerce 2.4.3和2.3.7-p1仅与PHP 7.4兼容，因此无法使用此函数。
+此问题是由使用PHP 8的新Adobe Commerce 2.4.3和2.3.7-p1版本仅函数`str_contains`导致的。 Adobe Commerce 2.4.3和2.3.7-p1仅与PHP 7.4兼容，因此无法使用此函数。
 
 <u>重现问题的步骤</u> ：
 
@@ -42,7 +42,7 @@ PHP致命错误。
 
 ## 解决方案
 
-作为解决方法，您可以在CLI/终端中运行以下命令： `composer require symfony/polyfill-php80` 从Magento根文件夹或安装编辑器修补程序。
+作为解决方法，您可以在CLI/终端中运行以下命令：从Magento根文件夹运行`composer require symfony/polyfill-php80`或安装编辑器修补程序。
 
 为了修复2.4.3的问题，Adobe Commerce（所有部署方法）和Magento Open Source商应应用修补程序：
 
@@ -54,8 +54,8 @@ PHP致命错误。
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Magento提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Magento](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 相关阅读
 
-GitHub [Magento2.4.3 EE #33680中不支持的PHP 8命令](https://github.com/magento/magento2/issues/33680)
+GitHub [Magento2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)不支持的PHP 8命令

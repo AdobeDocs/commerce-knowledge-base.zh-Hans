@@ -23,7 +23,7 @@ ht-degree: 0%
 
 此问题的常见原因包括：
 
-* 的PHP设置 [`max_execution_time`](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
+* [`max_execution_time`](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)的PHP设置
 * nginx和Varnish的超时值
 
 ## 解决方案：
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ### 所有Web服务器和Varnish {#all-web-servers-and-varnish}
 
-1. 找到您的 `php.ini` 使用 [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) 文件。
-1. 作为用户，具有 `root` 权限，打开 `php.ini` 在文本编辑器中。
-1. 找到 `max_execution_time` 设置。
-1. 将其值更改为 `18000` .
-1. 将更改保存到 `php.ini` 并退出文本编辑器。
+1. 使用[`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo)文件找到您的`php.ini`。
+1. 作为具有`root`权限的用户，在文本编辑器中打开`php.ini`。
+1. 找到`max_execution_time`设置。
+1. 将其值更改为`18000` 。
+1. 将更改保存到`php.ini`并退出文本编辑器。
 1. 重新启动Apache：
 
    * CentOS： `service httpd restart`
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ### 仅限nginx {#nginx-only}
 
-如果您使用nginx，请使用包含的 `nginx.conf.sample` 或在nginx主机配置文件中将超时设置添加到 `location ~ ^/setup/index.php` 部分如下所示：
+如果您使用nginx，请使用我们包含的`nginx.conf.sample`或在nginx主机配置文件中将超时设置添加到`location ~ ^/setup/index.php`部分，如下所示：
 
 ```php
 location ~ ^/setup/index.php {
@@ -60,7 +60,7 @@ location ~ ^/setup/index.php {
 
 ### 仅涂漆 {#varnish-only}
 
-如果您使用“清漆”，请编辑 `default.vcl` 并将超时限制值添加到 `backend` 节如下：
+如果您使用Varnish，请编辑`default.vcl`并向`backend`段添加超时限制值，如下所示：
 
 ```php
 backend default {

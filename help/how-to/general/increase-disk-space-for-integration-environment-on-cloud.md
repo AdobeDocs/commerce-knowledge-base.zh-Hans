@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 增加云上集成环境的磁盘空间
 
-请参阅 [管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) 在我们的Commerce on Cloud Infrastructure指南中。
+请参阅我们的Commerce on Cloud Infrastructure指南中的[管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)。

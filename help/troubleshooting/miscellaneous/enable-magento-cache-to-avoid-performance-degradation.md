@@ -30,18 +30,18 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此， [通过SSH连接到环境](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) 并运行以下命令：
+1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)并运行以下命令：
 
    ```bash
    php bin/magento cache:status
    ```
 
-   这将显示每种缓存类型的状态（禁用时为“0”，启用时为“1”）。 或者，您可以在 `app/etc/env.php` 文件。
+   这将显示每种缓存类型的状态（禁用时为“0”，启用时为“1”）。 或者，您可以在`app/etc/env.php`文件中获取此信息。
 
 1. 调查已禁用的高速缓存类型。 所有Adobe Commerce缓存类型都应启用，除非您收到了Adobe的替代指导。 第三方扩展不得要求禁用Adobe Commerce缓存。
-1. 如果调查确认某些高速缓存类型被错误地禁用，请通过为每个高速缓存类型运行以下命令来启用它们： `php bin/magento cache:enable <your_disabled_cache_type>`
+1. 如果调查确认某些缓存类型被错误地禁用，请通过为每个缓存类型运行以下命令来启用它们： `php bin/magento cache:enable <your_disabled_cache_type>`
 
-如果存在可以或应该禁用特定Adobe Commerce缓存类型的顾虑和/或问题， [联系Adobe Commerce支持](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 询问建议。
+如果存在可以或应该禁用特定Adobe Commerce缓存类型的顾虑和/或问题，请[联系Adobe Commerce支持](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以寻求建议。
 
 ## 相关阅读
 

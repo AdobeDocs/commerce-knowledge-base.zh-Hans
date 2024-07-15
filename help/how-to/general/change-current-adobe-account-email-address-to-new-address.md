@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 更改当前Adobe帐户的电子邮件地址
 
-本文说明如何更改中注册的当前电子邮件地址 [Adobe帐户](https://account.adobe.com/) 到当前未在中注册的新地址 [Adobe帐户](https://account.adobe.com/) 或 [Magento帐户](https://account.magento.com/).
+本文说明如何将当前在[Adobe帐户](https://account.adobe.com/)中注册的电子邮件地址更改为当前未在[Adobe帐户](https://account.adobe.com/)或[Magento帐户](https://account.magento.com/)中注册的新地址。
 
 ## 受影响的产品和版本
 
@@ -28,6 +28,6 @@ ht-degree: 0%
 
 按照以下步骤更改电子邮件地址：
 
-1. 重置用于旧电子邮件地址的密码。 按照中提供的说明操作 [重置忘记的密码](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) 在Adobe帮助中。
+1. 重置用于旧电子邮件地址的密码。 按照Adobehelpx中的[重置忘记的密码](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)中提供的说明进行操作。
 1. 密码重置链接将发送到当前所有者的邮箱，并附上相关说明。
-1. 导航至 [“Adobe帐户”页](https://account.adobe.com) 使用新电子邮件登录并设置密码。
+1. 导航到[Adobe帐户页](https://account.adobe.com)以使用新电子邮件登录并设置密码。

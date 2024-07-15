@@ -26,13 +26,13 @@ ht-degree: 0%
 
 ## 原因
 
-如果您的索引器为 [已配置为按计划更新](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)，该问题可能是由一个或多个更改日志过大或未设置MySQL触发器的表导致的。
+如果索引器被[配置为按计划](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)更新，则问题可能是由一个或多个更改日志过大或未设置MySQL触发器的表导致的。
 
 ### 超大的更改日志表
 
-更改日志表会增长得很大，如果 `indexer_update_all_views` cron作业未成功完成多次。
+如果`indexer_update_all_views` cron作业多次未成功完成，则更改日志表将变得很大。
 
-更改日志表是用来跟踪实体更改的数据库表。 只要不应用更改，记录就存储在更改日志表中，该更改由 `indexer_update_all_views` cron作业。 Adobe Commerce数据库中有多个更改日志表，它们按照以下模式命名：例如INDEXER\_TABLE\_NAME + &#39;\_cl&#39; `catalog_category_product_cl`， `catalog_product_category_cl`. 有关如何在数据库中跟踪更改的更多详细信息，请参阅 [索引概述> Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) 本文档。
+更改日志表是用来跟踪实体更改的数据库表。 只要不应用更改，记录就会存储在更改日志表中，该更改由`indexer_update_all_views` cron作业执行。 Adobe Commerce数据库中有多个更改日志表，它们按照以下模式命名： INDEXER\_TABLE\_NAME + &#39;\_cl&#39;，例如`catalog_category_product_cl`、`catalog_product_category_cl`。 您可以在我们的开发人员文档中的[索引概述> Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview)一文中找到有关如何在数据库中跟踪更改的更多详细信息。
 
 ### MySQL数据库触发器未设置
 
@@ -46,19 +46,19 @@ ht-degree: 0%
 
 ### 避免更改日志表过大
 
-确保 `indexer_update_all_views` cron作业始终成功完成。
+确保`indexer_update_all_views` cron作业始终成功完成。
 
-您可以使用以下SQL查询获取 `indexer_update_all_views` cron作业：
+您可以使用以下SQL查询获取`indexer_update_all_views` cron作业的所有失败实例：
 
 ```sql
 select * from cron_schedule where job_code = "indexer_update_all_views" and status
   <> "success" and status <> "pending";
 ```
 
-或者，您可以通过搜索日志中的 `indexer_update_all_views` 条目：
+或者，您可以通过搜索`indexer_update_all_views`条目来在日志中检查其状态：
 
-* `<install_directory>/var/log/cron.log`  — 适用于版本2.3.1+和2.2.8+
-* `<install_directory>/var/log/system.log`  — 对于早期版本
+* `<install_directory>/var/log/cron.log` — 适用于版本2.3.1+和2.2.8+
+* `<install_directory>/var/log/system.log` — 对于早期版本
 
 ### 重新设置MySQL表触发器
 
@@ -71,7 +71,7 @@ select * from cron_schedule where job_code = "indexer_update_all_views" and stat
 
 >[!WARNING]
 >
->在切换索引器模式之前，我们建议将您的网站置于 [维护](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) 模式和 [禁用cron作业](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) 以避免数据库锁定。
+>在切换索引器模式之前，我们建议将您的网站置于[维护](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)模式和[禁用cron作业](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs)以避免数据库锁定。
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
@@ -83,5 +83,5 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## 相关阅读
 
-<ul><li title="MySQL表太大"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">MySQL表太大</a> 在我们的支持知识库中。</li>
-<li title="MySQL表太大"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">索引器概述&gt; Mview</a> 在我们的开发人员文档中。</li></ul>
+<ul><li title="MySQL表太大">在我们的支持知识库中，<a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">MySQL表太大</a>。</li>
+<li title="MySQL表太大">在我们的开发人员文档中，<a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">索引器概述&gt; Mview</a>。</li></ul>

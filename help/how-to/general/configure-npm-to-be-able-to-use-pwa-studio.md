@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 配置NPM以便能够使用PWA Studio
 
-[渐进式Web应用程序(PWA) Studio](https://magento.github.io/pwa-studio/) 是一个新项目，可用于Adobe Commerce on cloud infrastructure 2.3.x或更高版本。 为了能够使用和安装PWA Studio，您需要将NPM包管理器版本设置为5.x或更高版本，以获取对Node.js 8.x的支持。此操作可在中完成 `hooks:build` 的部分 `.magento.app.yaml` 配置文件。
+[渐进式Web应用程序(PWA) Studio](https://magento.github.io/pwa-studio/)是一个新项目，可在Cloud Infrastructure 2.3.x或更高版本上用于Adobe Commerce。 为了能够使用和安装PWA Studio，您需要将NPM包管理器版本设置为5.x或更高版本，以获取对Node.js 8.x的支持。此操作在`.magento.app.yaml`配置文件的`hooks:build`部分中完成。
 
 ## 环境和技术
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ## 设置NPM版本：步骤
 
-要设置所需的NPM版本，请在 `.magento.app.yaml` 配置文件。 请按照以下步骤操作：
+要设置所需的NPM版本，请在`.magento.app.yaml`配置文件中指定该版本。 请按照以下步骤操作：
 
-1. 在本地开发环境中，找到 `.magento.app.yaml` 配置文件。
+1. 在本地开发环境中，找到`.magento.app.yaml`配置文件。
 1. 使用纯文本编辑器或IDE打开文件进行编辑。
-1. 在中设置所需版本 `hooks:build` 部分。 在以下示例中，配置设置为安装NPM v9.5.0，这是当前可用的最高版本（2019年2月4日）：
+1. 在`hooks:build`部分中设置所需版本。 在以下示例中，配置设置为安装NPM v9.5.0，这是当前可用的最高版本（2019年2月4日）：
 
    ```yaml
    hooks:
@@ -48,10 +48,10 @@ ht-degree: 0%
    > ```
 
 1. 在文件中保存更改。
-1. Git将编辑的文件推送到 [集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+1. Git将编辑的文件推送到[集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)。
 
 在Git将更新的YAML文件推送到环境后，更改将生效。
 
 ## 相关文档
 
-* [应用程序配置：挂接](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) 在我们的Adobe Commerce on Cloud Infrastructure指南中。
+* [应用程序配置：我们的Adobe Commerce on Cloud Infrastructure指南中的挂接](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html)。

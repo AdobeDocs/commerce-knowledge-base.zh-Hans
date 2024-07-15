@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ## 如何查看您的Fastly凭据
 
-请参阅 [获取Fastly凭据](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) 部分（位于开发人员文档中）。
+请参阅我们的开发人员文档中的[获取Fastly凭据](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds)部分。
 
 ## 如何测试Fastly凭证
 
-请参阅 [测试Fastly凭证](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) 部分（位于开发人员文档中）。
+请参阅我们的开发人员文档中的[测试Fastly凭据](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)部分。
 
 ## 相关阅读
 
-[为Fastly on Cloud更改帐户所有者（通过API令牌访问凭据）](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) 在我们的支持知识库中。
+在我们的支持知识库中[更改Fastly on Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)的帐户所有者（通过API令牌访问凭据）。

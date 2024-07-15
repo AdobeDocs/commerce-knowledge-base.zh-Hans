@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-您可以通过中的以下错误确认问题 `var/report` 目录：
+您可以在`var/report`目录中通过以下错误确认问题：
 
 ```php
 NOTE: You cannot install Adobe Commerce using the Setup Wizard because the Adobe Commerce setup directory cannot be accessed.
@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### 解决方法
 
-使用安装Adobe Commerce软件 [命令行](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html).
+使用[命令行](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html)安装Adobe Commerce软件。

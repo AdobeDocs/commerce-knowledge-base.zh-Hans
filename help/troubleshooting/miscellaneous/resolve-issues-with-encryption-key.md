@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-导入后 [数据库转储](/help/how-to/general/create-database-dump-on-cloud.md) 从生产环境到暂存/集成环境，对于需要使用商家凭据的支付集成，保存的信用卡号显示错误和/或支付失败。
+将[数据库转储](/help/how-to/general/create-database-dump-on-cloud.md)从生产环境导入到暂存/集成环境后，对于需要使用商家凭据的付款集成，保存的信用卡号显示错误和/或付款失败。
 
 ## 原因
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 要复制加密密钥，请执行以下操作：
 
-1. SSH到作为数据库转储源的项目，如中所述 [SSH到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) 在我们的开发人员文档中。
-1. 打开 `app/etc/env.php` 在文本编辑器中。
-1. 复制的值 `key` 对象 `crypt`.
+1. SSH到作为数据库转储源的项目，如开发人员文档中的[SSH到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)中所述。
+1. 在文本编辑器中打开`app/etc/env.php`。
+1. 复制`crypt`的`key`值。
 
 ```php
 return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
@@ -43,13 +43,13 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 
 设置目标项目的键值：
 
-1. 打开 [云控制台](https://console.adobecommerce.com) 并找到您的项目。
-1. 设置值 [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) （在我们的开发人员文档中）变量，如中所述 [配置项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) 在我们的开发人员文档中。 这将触发部署过程并 `CRYPT_KEY` 将在 `app/etc/env.php` 每个部署中的文件。
+1. 打开[云控制台](https://console.adobecommerce.com)并找到您的项目。
+1. 设置[CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html)（在我们的开发人员文档中）变量的值，如我们的开发人员文档中的[配置您的项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)中所述。 这将触发部署过程，每次部署时`app/etc/env.php`文件中的`CRYPT_KEY`将被覆盖。
 
-或者，您可以手动覆盖 `app/etc/env.php` 文件：
+或者，您可以在`app/etc/env.php`文件中手动覆盖加密密钥：
 
 1. SSH连接到目标环境。
-1. 打开 `app/etc/env.php` 在文本编辑器中。
-1. 将复制的数据粘贴为 `key` 值 `crypt`.
-1. 保存已编辑的 `env.php`.
-1. 通过运行清理目标环境中的缓存 `bin/magento cache:clean` 或在Commerce管理员中的 **系统** > **工具** > **缓存管理**.
+1. 在文本编辑器中打开`app/etc/env.php`。
+1. 将复制的数据粘贴为`crypt`的`key`值。
+1. 保存编辑的`env.php`。
+1. 通过运行`bin/magento cache:clean`或在&#x200B;**系统** > **工具** > **缓存管理**&#x200B;下的Commerce管理员中清除目标环境中的缓存。

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
 1. 启用站点的维护模式。
 1. 导航到店面。
@@ -41,8 +41,8 @@ ht-degree: 0%
 ## 尽管处于维护模式，站点解决方案仍可见
 
 1. 通过SSH连接到环境。
-1. 运行 `php bin/magento cache:clean` 命令。
+1. 运行`php bin/magento cache:clean`命令。
 
 ## 相关阅读
 
-[启用或禁用维护模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) 在我们的开发人员文档中。
+在开发人员文档中[启用或禁用维护模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html)。

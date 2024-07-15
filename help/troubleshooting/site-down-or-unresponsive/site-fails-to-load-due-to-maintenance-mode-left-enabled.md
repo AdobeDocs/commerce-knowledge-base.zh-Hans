@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## 相关阅读
 
-要了解何时使用维护模式，请参阅 [启用或禁用维护模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) 在我们的开发人员文档中。
+要了解何时使用维护模式，请参阅我们的开发人员文档中的[启用或禁用维护模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode)。

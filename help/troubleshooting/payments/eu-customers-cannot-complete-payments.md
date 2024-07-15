@@ -27,8 +27,8 @@ ht-degree: 0%
 
 ## 原因
 
-欧盟用更新版本修订了名为《支付服务指令》(PSD)的法规 [PSD2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015L2366&amp;from=EN). 这是一项欧盟(EU)指令，旨在管理整个欧盟和欧洲经济区(EEA)的支付服务和支付服务提供商。 强客户身份验证(SCA)是PSD2的一项要求，用于提高支付数据的安全性和身份验证。 如果您的支付解决方案不符合指令要求，这可能导致客户无法完成支付。 欲知更多详情，请参阅 [相关的Adobe Commerce DevBlog文章](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460).
+欧盟使用更新版本[Directive2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015L2366&amp;from=EN)修订了名为“支付服务指令(PSD)”的PSD。 这是一项欧盟(EU)指令，旨在管理整个欧盟和欧洲经济区(EEA)的支付服务和支付服务提供商。 强客户身份验证(SCA)是PSD2的一项要求，用于提高支付数据的安全性和身份验证。 如果您的支付解决方案不符合指令要求，这可能导致客户无法完成支付。 请在[相关的Adobe Commerce DevBlog文章](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460)中找到更多详细信息。
 
 ## 解决方案
 
-请遵循以下网站的建议： [DevBlog的Adobe Commerce Payment Provider Recommendations部分](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations).
+遵循DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations)的[Adobe Commerce Payment Provider Recommendations部分的建议。

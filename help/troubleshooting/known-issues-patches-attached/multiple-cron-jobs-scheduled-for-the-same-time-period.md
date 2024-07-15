@@ -17,21 +17,21 @@ ht-degree: 0%
 
 ## 问题
 
-如果将cron配置为每分钟运行一次，那么如果您在Admin中编辑三个计划任务的时间变量， `cron_schedule` 数据库表显示计划同时运行的多个任务组。
+将cron配置为每分钟运行一次，如果您在Admin中编辑三个计划任务的时间变量，则`cron_schedule`数据库表会显示计划同时运行的多个任务组。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 在Commerce管理中，导航到 **商店** >设置> **配置** > **高级** > **系统** > **Cron（计划任务）** > **组的Cron配置选项：默认。**
+1. 在Commerce Admin中，导航到&#x200B;**商店** >设置> **配置** > **高级** > **系统** > **Cron（计划任务）** > **组的Cron配置选项：默认。**
 1. 配置以下选项：
-   * **历史记录清理间隔**：清除 **使用系统** 复选框，并将设置为 *1440*.
-   * **成功历史记录生命周期**：清除 **使用系统** 复选框，并将设置为 *1440*.
-   * **失败历史记录生命周期**：清除 **使用系统** 复选框，并将设置为 *1440*.
+   * **History Cleanup Every**：清除&#x200B;**使用系统**&#x200B;复选框，并设置为&#x200B;*1440*。
+   * **成功历史记录生命周期**：清除&#x200B;**使用系统**&#x200B;复选框，并设置为&#x200B;*1440*。
+   * **失败历史记录生命周期**：清除&#x200B;**使用系统**&#x200B;复选框，并设置为&#x200B;*1440*。
 
-1. 单击 **保存配置**.
-1. 在SSH中，运行 `crontab -e` 命令。
+1. 单击&#x200B;**保存配置**。
+1. 在SSH中，运行`crontab -e`命令。
 1. 将cron设置为每分钟运行一次。
 1. 打开三个终端选项卡/窗口。
-1. 转到Adobe Commerce `root/base/project` 目录。
+1. 在每个终端窗口中转到Adobe Commerce `root/base/project`目录。
 1. 在每个选项卡/窗口中运行以下命令：
 
    ```bash
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 1. 查看计划同时运行的任务组。
 
-<u>预期结果</u>：一个cron `job_code` 应该安排在特定时间段内。
+<u>预期结果</u>：应在特定时间段内计划一个cron `job_code`。
 
 <u>实际结果</u>：同一时间段内计划了多个cron作业。
 
 ## 解决方案
 
-对于Adobe Commerce on cloud infrastructure商家， [更新ECE工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) 可以解决这个问题。
+对于云基础架构商家上的Adobe Commerce，[更新ECE-tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)将解决此问题。
 
 Adobe Commerce本地商家应应用附加的修补程序之一来解决此问题。
 
@@ -74,23 +74,23 @@ Adobe Commerce本地商家应应用附加的修补程序之一来解决此问题
 
 这些修补程序还与以下版本兼容：
 
-* 对于Adobe Commerce内部部署2.1.0 - 2.1.4： [下载MDVA-11304\_EE\_2.1.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.4_COMPOSER_v1.patch.zip) 该修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+* 对于Adobe Commerce内部部署2.1.0-2.1.4： [下载MDVA-11304\_EE\_2.1.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.4_COMPOSER_v1.patch.zip)该修补程序与以下Adobe Commerce版本兼容（但可能无法解决此问题）：
    * 云基础架构上的Adobe Commerce 2.1.0 - 2.1.4
-* 对于Adobe Commerce内部部署2.1.5 - 2.1.12： [下载MDVA-11304\_EE\_2.1.5\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.5_COMPOSER_v1.patch.zip) 该修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+* 对于Adobe Commerce内部部署2.1.5-2.1.12： [下载MDVA-11304\_EE\_2.1.5\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.5_COMPOSER_v1.patch.zip)该修补程序与以下Adobe Commerce版本兼容（但可能无法解决问题）：
    * 云基础架构上的Adobe Commerce 2.1.5 - 2.1.12
 * 对于Adobe Commerce on cloud infrastructure 2.1.13： [下载MDVA-11304\_EE\_2.1.13\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.13_COMPOSER_v1.patch.zip)
-* 对于Adobe Commerce内部部署2.1.14-2.1.17： [下载MDVA-11304\_EE\_2.1.14\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.14_COMPOSER_v1.patch.zip) 该修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+* 对于Adobe Commerce内部部署2.1.14-2.1.17： [下载MDVA-11304\_EE\_2.1.14\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.14_COMPOSER_v1.patch.zip)该修补程序与以下Adobe Commerce版本和版本兼容（但可能无法解决此问题）：
    * Adobe Commerce内部部署2.1.18
    * 云基础架构上的Adobe Commerce 2.1.14-2.1.18
-* 对于Adobe Commerce内部部署2.2.0 - 2.2.1： [下载MDVA-11304\_EE\_2.2.0\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.0_COMPOSER_v1.patch.zip) 该修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+* 对于Adobe Commerce内部部署2.2.0-2.2.1： [下载MDVA-11304\_EE\_2.2.0\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.0_COMPOSER_v1.patch.zip)该修补程序与以下Adobe Commerce版本兼容（但可能无法解决此问题）：
    * 云基础架构上的Adobe Commerce 2.2.0 - 2.2.1
-* 对于Adobe Commerce内部部署2.2.0 - 2.2.3： [下载MDVA-11304\_EE\_2.2.2\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.2_COMPOSER_v1.patch.zip) 该修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+* 对于Adobe Commerce内部部署2.2.0-2.2.3： [下载MDVA-11304\_EE\_2.2.2\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.2_COMPOSER_v1.patch.zip)该修补程序与以下Adobe Commerce版本兼容（但可能无法解决此问题）：
    * 云基础架构上的Adobe Commerce 2.2.0 - 2.2.3
-* 对于Adobe Commerce内部部署2.2.4： [下载MDVA-11304\_EE\_2.2.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.4_COMPOSER_v1.patch.zip) 该修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+* 对于Adobe Commerce内部部署2.2.4： [下载MDVA-11304\_EE\_2.2.4\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.2.4_COMPOSER_v1.patch.zip)该修补程序与以下Adobe Commerce版本和版本兼容（但可能无法解决问题）：
    * 云基础架构上的Adobe Commerce 2.2.4
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) ，以获取相关说明。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

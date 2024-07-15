@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 不在pub media目录中执行的自定义服务器端脚本
 
-本文修复了将自定义服务器端脚本放置在 `./pub/media/` 云基础架构上Adobe Commerce应用程序的目录。 这是预期的安全限制，因为 `./pub/media/` 目录可写。 要使脚本可执行，请将脚本放在不可写目录中，例如 `./app/code/` 或 `./pub/`.
+本文修复了将自定义服务器端脚本放置在云基础架构上Adobe Commerce应用程序的`./pub/media/`目录中时未执行的情况。 这是预期的安全限制，因为`./pub/media/`目录可写。 若要使脚本可执行，请将脚本放在不可写入的目录中，如`./app/code/`或`./pub/`。
 
 ## 受影响的版本
 
@@ -23,16 +23,16 @@ ht-degree: 0%
 
 启动时无法执行自定义服务器端脚本。
 
-例如，当最终用户(Adobe Commerce购物者)单击指向以下内容的链接时： `\*.php` 带脚本的文件(例如 *domain.com/media/directory/script.php* )，正在下载脚本而不是执行脚本。
+例如，当最终用户(Adobe Commerce购物者)单击指向带有脚本的`\*.php`文件的链接(如&#x200B;*domain.com/media/directory/script.php* )时，将下载脚本而不是执行脚本。
 
 ## 原因：脚本文件的位置不正确
 
-当脚本文件位于 `./pub/media/` 云基础架构上的Adobe Commerce应用程序目录。 这是预期行为：由于安全限制，来自可写目录(`./pub/media/`)永远不会执行。
+当脚本文件位于云基础架构上的Adobe Commerce应用程序的`./pub/media/`目录中时，会出现问题。 这是预期行为：由于安全限制，从不执行来自可写目录(`./pub/media/`)的文件。
 
 ## 解决方案：将脚本放在不可写目录中
 
-将服务器端脚本存储在不可写入的目录中，例如 `./app/code/` 或 `./pub/`  &quot;
+将服务器端脚本存储在不可写入的目录中，如`./app/code/`或`./pub/`
 
 ## 相关文档
 
-* [Cloud for Adobe Commerce >项目结构>可写目录](https://devdocs.magento.com/guides/v2.3/cloud/project/project-start.html#write-dir) 在我们的开发人员文档中。
+* 在开发人员文档中，[Adobe Commerce云>项目结构>可写目录](https://devdocs.magento.com/guides/v2.3/cloud/project/project-start.html#write-dir)。

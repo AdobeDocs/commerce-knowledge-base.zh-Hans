@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-56886：禁用子产品后，可配置产品将缺货
 
-ACSD-56886修补程序修复了在禁用子产品时，可配置产品缺货的问题。 此修补程序在以下情况下可用： [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安装1.1.45。 修补程序ID为ACSD-56886。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
+ACSD-56886修补程序修复了在禁用子产品时，可配置产品缺货的问题。 安装[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.45时，此修补程序可用。 修补程序ID为ACSD-56886。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 * Adobe Commerce（所有部署方法） 2.4.5-p5
 
@@ -27,54 +27,54 @@ ACSD-56886修补程序修复了在禁用子产品时，可配置产品缺货的�
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新版本的其他版本 [!DNL Quality Patches Tool] 版本发布。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
 禁用子产品后，可配置产品将缺货。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 以管理员身份登录。
-1. 设置中的所有索引器 **[!UICONTROL Update By Schedule]** 模式。
+1. 在&#x200B;**[!UICONTROL Update By Schedule]**&#x200B;模式下设置所有索引器。
 1. 创建以下可配置产品：
 
    * 名称= *测试可配置1*
    * 属性= *颜色*
-   * 值= *红色* 和 *black*
-   * 的价格 **红色**  子产品= *100美元*；
-   * “黑色”子产品的价格= *200美元*.
+   * 值= *red*&#x200B;和&#x200B;*black*
+   * **red**&#x200B;子产品的价格= *$100*；
+   * “黑色”子产品的价格= *$200*。
 
 1. 为可配置产品创建以下计划更新：
 
-   * 开始日期= *3* 几分钟后。
-   * 结束日期= *5* 开始日期后的分钟数。
-   * 产品名称= *已编辑测试可配置1*.
-   * 禁用 **红色** 子产品位于 **可配置** 部分。
+   * 开始日期= *3*&#x200B;分钟后。
+   * 结束日期= *5*&#x200B;分钟后。
+   * 产品名称= *测试可配置1 edited*。
+   * 禁用&#x200B;**可配置**&#x200B;部分中的&#x200B;**红色**&#x200B;子产品。
 
 1. 等待开始日期。
 1. 在Storefront上打开可配置产品的详细信息。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
-可配置产品显示为 **有货** 使用 **低至200** 标签。
+可配置产品显示为&#x200B;**In Stock**，标签为&#x200B;**As 200**。
 
 <u>实际结果</u>：
 
-可配置产品显示为 **缺货**.
+可配置产品显示为&#x200B;**缺货**。
 
 ## 应用修补程序
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 云基础架构上的Commerce指南中的。
+* Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 云基础架构上的Adobe Commerce：云基础架构上的Commerce指南中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相关阅读
 
-要了解有关 [!DNL Quality Patches Tool]，请参阅：
+要了解有关[!DNL Quality Patches Tool]的更多信息，请参阅：
 
-* [[!DNL Quality Patches Tool] 已发布：用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用以下方式检查修补程序是否可用于您的Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关QPT中可用的其他修补程序的信息，请参阅 [[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+有关QPT中其他可用修补程序的信息，请参阅[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

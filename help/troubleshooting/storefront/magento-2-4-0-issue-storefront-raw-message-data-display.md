@@ -22,16 +22,16 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
-1. 转到 **创建新帐户** 在店面上写了那篇文章。
+1. 转到店面上的&#x200B;**新建帐户**&#x200B;页面。
 1. 使用注册的电子邮件创建新帐户。 将显示以下消息：
 
 `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.`
 
 ## 原因
 
-该问题是由与set\\read Cookie相关的PHP 7.4.2问题引起的。 请参阅 [PHP错误\#79174 setcookie()将空间编码为\`+\`，但$\_COOKIE不再对其进行解码](https://bugs.php.net/bug.php?id=79174).
+该问题是由与set\\read Cookie相关的PHP 7.4.2问题引起的。 请参阅[PHP错误\#79174 setcookie()将空间编码为\`+\`，但$\_COOKIE不再解码它们](https://bugs.php.net/bug.php?id=79174)。
 
 ## 解决方案
 

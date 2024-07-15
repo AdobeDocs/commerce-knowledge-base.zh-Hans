@@ -21,12 +21,12 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 转到您的Commerce管理页面。
 1. 输入您的凭据，然后单击“登录”。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 您将登录到Commerce管理员。
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 要延长管理会话的生命周期，请执行以下步骤：
 
 1. 创建数据库备份。
-1. 使用数据库工具，例如 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或从命令行手动访问数据库以运行以下SQL查询：
+1. 使用数据库工具（如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ ht-degree: 0%
 要检查Cookie设置值并清除它们，请执行以下步骤：
 
 1. 创建数据库备份。
-1. 使用数据库工具，例如 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或从命令行手动访问数据库以运行以下SQL查询：
+1. 使用数据库工具（如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
@@ -89,5 +89,5 @@ ht-degree: 0%
 
 ## 相关文章
 
-* [重定向回包含“您的帐户已被暂时禁用”错误的管理员登录表单](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) 在我们的支持知识库中。
-* [重定向回包含“您的当前会话已过期”错误的管理员登录表单](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) 在我们的支持知识库中。
+* [重定向回管理员登录表单，在我们的支持知识库中出现“您的帐户已被暂时禁用”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)。
+* [重定向回管理员登录表单，在我们的支持知识库中出现“您的当前会话已过期”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)。

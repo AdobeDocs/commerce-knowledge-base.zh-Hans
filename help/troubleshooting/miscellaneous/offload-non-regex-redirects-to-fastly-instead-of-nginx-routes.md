@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce（所有版本） `Master/Production/Staging` 环境利用Fastly
+* 云基础架构上的Adobe Commerce（所有版本） `Master/Production/Staging`环境利用Fastly
 
 ## 问题
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## 原因
 
-此 `routes.yaml` 中的文件 `.magento/routes.yaml` directory定义云基础架构上Adobe Commerce的路由。
+`.magento/routes.yaml`目录中的`routes.yaml`文件为云基础架构上的Adobe Commerce定义了路由。
 
-如果您的 `routes.yaml` 文件大于或等于32KB，您应该将非正则表达式重定向/重写卸载到Fastly。
+如果`routes.yaml`文件的大小为32KB或更大，则应将非正则表达式重定向/重写卸载到Fastly。
 
 此Nginx层无法处理大量非正则表达式重定向/重写，否则会导致性能问题。
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 以下步骤将详细介绍如何在Fastly上而不是Nginx上放置重定向。
 
-1. 创建Edge词典。
+1. 创建一个Edge词典。
 
-   首先，您可以使用 [Adobe Commerce中的VCL代码片段](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) 以定义边缘词典。 这将包含重定向。
+   首先，您可以使用Adobe Commerce](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[VCL代码片段来定义Edge词典。 这将包含重定向。
 
    对此有一些注意事项：
 
-   * Fastly不能对字典条目执行正则表达式。 只是一模一样的。 有关这些限制的更多信息，请参阅 [Fastly关于边缘词典限制的文档](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations).
+   * Fastly不能对字典条目执行正则表达式。 只是一模一样的。 有关这些限制的更多信息，请参阅[Fastly关于边缘词典限制的文档](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations)。
    * Fastly在单个词典中的限制为1000个条目。 Fastly可以扩大这一限制，但这引出了第三个警告。
    * 每当您更新条目并将更新的VCL部署到所有节点时，几何加载时间会随着词典的扩展而增加 — 这意味着，2000条条目的词典实际加载速度将比包含1000条条目的词典慢3到4倍。 但只有在部署VCL（更新词典或更改VCL函数代码）时，才会出现此问题。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    进行URL查找时，如果找到匹配项，则将进行比较以应用自定义错误代码。
 
-   使用其他VCL代码片段将如下内容添加到 `vcl_recv`：
+   使用其他VCL代码片段向`vcl_recv`添加类似以下的内容：
 
    ```
         declare local var.redir-path STRING;
@@ -74,9 +74,9 @@ ht-degree: 0%
 
 1. 管理重定向。
 
-   当找到匹配项时，将执行为其定义的操作 `obj.status`，在本例中为301永久移动重定向。
+   当找到匹配项时，将执行为该`obj.status`定义的操作，在本例中为301永久移动重定向。
 
-   在中使用最终代码片段 `vcl_error` 要将301错误代码发送回客户端，请执行以下操作：
+   在`vcl_error`中使用最终代码片段将301错误代码发送回客户端：
 
    ```
      if (obj.status == 912) {
@@ -87,7 +87,7 @@ ht-degree: 0%
           }
    ```
 
-   通过此块，我们正在检查传入的错误代码是否为 `vcl_recv` 匹配，如果是，我们将位置设置为传入的错误消息，然后将状态代码更改为301，并将消息更改为“已永久移动”。 此时，响应应准备好返回客户端。
+   通过此块，我们正在检查从`vcl_recv`传入的错误代码是否匹配，如果匹配，我们将位置设置为传入的错误消息，然后将状态代码更改为301，并将消息更改为“已永久移动”。 此时，响应应准备好返回客户端。
 
 ### 暂存服务
 
@@ -100,6 +100,6 @@ ht-degree: 0%
 ## 相关阅读
 
 * [Fastly VCL引用](https://docs.fastly.com/vcl/)
-* [配置路由](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) 在我们的开发人员文档中。
-* [设置Fastly](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 在我们的开发人员文档中。
-* [VCL正则表达式速查表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) 在我们的开发人员文档中。
+* [在我们的开发人员文档中配置路由](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)。
+* 在我们的开发人员文档中[设置Fastly](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+* 在开发人员文档中的[VCL正则表达式备忘表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)。

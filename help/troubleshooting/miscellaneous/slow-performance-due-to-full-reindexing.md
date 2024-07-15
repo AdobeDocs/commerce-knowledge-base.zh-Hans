@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >这些操作应在营业时间以外运行，以确保这些操作不会影响营业时间的性能。
 
-[第三方扩展](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) 还可能导致完全重新索引。 也可以从CLI手动运行完全重新索引。 要了解是否重新索引了索引并可能导致性能降级，请执行以下操作：
+[第三方扩展](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento)也可能导致完全重新索引。 也可以从CLI手动运行完全重新索引。 要了解是否重新索引了索引并可能导致性能降级，请执行以下操作：
 
 1. 执行此查询可查找在过去15分钟内完全重新编制索引的索引器：
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 1. 如果发现频繁的完全重新索引，请检查以下各项：
    * 谁可能从CLI手动执行此操作
    * 第三方模块正在执行何种重新索引
-   * 什么第三方模块将索引器标记为 *无效*
+   * 哪个第三方模块将索引器标记为&#x200B;*无效*
 
 ### 解决方案
 
-仅在必要时运行重新索引。 有关步骤，请查看 [配置索引器](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) 在我们的开发人员文档中。 一般建议和最佳做法是允许部分索引机制处理数据索引，而无需商家采取手动行动。 应使用本机Adobe Commerce功能(Mview)完成所有索引调整。 Mview执行部分重新索引，这是重新索引数据的最有效方法。 要了解Mview，请参阅 [索引概述：Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) 在我们的开发人员文档中。
+仅在必要时运行重新索引。 有关步骤，请查看我们的开发人员文档中的[配置索引器](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)。 一般建议和最佳做法是允许部分索引机制处理数据索引，而无需商家采取手动行动。 应使用本机Adobe Commerce功能(Mview)完成所有索引调整。 Mview执行部分重新索引，这是重新索引数据的最有效方法。 要了解Mview，请参阅我们的开发人员文档中的[索引概述： Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview)。
 
 ## 相关阅读
 
-* [索引概述：如何重新索引](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) 在我们的开发人员文档中。
-* [缓存失效导致响应时间降低](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) 在我们的支持知识库中。
+* [索引概述：如何在我们的开发人员文档中重新索引](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex)。
+* [无效缓存导致支持知识库中的响应时间降低](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)。

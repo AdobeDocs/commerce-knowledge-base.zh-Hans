@@ -17,22 +17,22 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* [支付服务](https://marketplace.magento.com/magento-payment-services.html) 现在与Adobe Commerce版本2.4.0到2.4.4兼容。
+* [Payment Services](https://marketplace.magento.com/magento-payment-services.html)现在与Adobe Commerce版本2.4.0到2.4.4兼容。
 
 ## 问题 — 不正确的编辑器键
 
 安装Payment Services扩展时，您可能会看到一条错误消息，说明您在安装期间使用了不正确的编辑器密钥。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 尝试 [安装支付服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
+1. 尝试[安装付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)。
 1. 请参阅以下错误：
 
    *找不到程序包magento/payment-services的匹配版本。 检查包的拼写、版本约束以及包的稳定性是否与最小稳定性（稳定）匹配。*
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
-您可以按照以下步骤操作 [安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) ，以成功安装支付服务。
+您可以按照开发人员文档中的这些[安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)成功安装付款服务。
 
 <u>实际结果</u>：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 解决方案
 
-验证 [您的编辑器键已链接到MagentoID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys) 在支付服务注册期间使用。
+验证[您的编辑器密钥已链接到在付款服务注册期间使用的MagentoID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys)。
 
 ## 问题 — 在多个实例中使用相同的数据空间
 
@@ -59,22 +59,22 @@ ht-degree: 0%
 * Adobe Commerce — 一个生产数据空间；两个测试数据空间
 * Magento Open Source — 一个生产数据空间；无测试数据空间
 
-按照中的说明操作 [Commerce API密钥和私钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials) 以成功配置您的支付服务扩展。
+按照[Commerce API密钥和私钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials)中的说明成功配置您的支付服务扩展。
 
 ## 问题 — PHP内存不足
 
 在安装Payment Services扩展时，您可能会看到一条错误消息，说明您没有足够的内存来安装PHP。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 尝试 [安装支付服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
+1. 尝试[安装付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)。
 1. 请参阅以下错误或类似错误：
 
-   *致命错误：在phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php第52行上允许的内存大小已用尽2146435072字节（尝试分配4096字节）*
+   *致命错误：在phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php第52*&#x200B;行上允许的内存大小已用尽2146435072字节（尝试分配4096字节）
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
-您可以按照以下步骤操作 [安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) ，以成功安装支付服务。
+您可以按照开发人员文档中的这些[安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)成功安装付款服务。
 
 <u>实际结果</u>：
 
@@ -86,4 +86,4 @@ ht-degree: 0%
 
 ### 解决方案
 
-[增加PHP的内存限制](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) 在中的环境中 `php.ini`.
+在`php.ini`中增加环境上PHP](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php)的内存限制[。

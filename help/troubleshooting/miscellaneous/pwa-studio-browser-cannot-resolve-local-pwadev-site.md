@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio：浏览器无法解析.local.pwadev站点
 
-本文为其他程序或进程编辑您的项目提供了一个解决方案。 [主机文件](https://en.wikipedia.org/wiki/Hosts_(file\))，并删除了项目域的条目。
+本文提供了当其他程序或进程编辑了您的[主机文件](https://en.wikipedia.org/wiki/Hosts_(file\)并删除了您的项目域条目时的解决方案。
 
 ## 受影响的产品和版本
 
@@ -21,17 +21,17 @@ Adobe CommercePWA Studio
 
 ## 问题
 
-浏览到开发/暂存站点时，您看不到 `.local.pwadev` 站点。
+浏览到开发/暂存站点时，无法看到`.local.pwadev`站点。
 
 ## 原因
 
-PWA Studio允许您将项目的自定义主机名和SSL证书分配给本地计算机。 这涉及在您的计算机的主机文件中创建一个新条目，它类似于 `my-storefront-project-abc123.local.pwadev`.
+PWA Studio允许您将项目的自定义主机名和SSL证书分配给本地计算机。 这涉及在计算机上类似`my-storefront-project-abc123.local.pwadev`的主机文件中创建一个新条目。
 
-此条目可告知开发人员计算机上的任何浏览器在访问该URL时查看本地店面项目。 如果其他程序或进程进入并移除该条目，则浏览器不知道该转到何处，并且浏览器无法解析 `.local.pwadev` 站点。
+此条目可告知开发人员计算机上的任何浏览器在访问该URL时查看本地店面项目。 如果其他程序或进程进入并移除该条目，则浏览器将无法知道要转到何处，并且浏览器无法解析`.local.pwadev`站点。
 
 ## 解决方案
 
-您可以 [手动编辑您的主机文件](https://support.rackspace.com/how-to/modify-your-hosts-file/) 添加该条目，但您应该检查其他已安装的软件，以查看覆盖先前更改的内容。
+您可以[手动编辑主机文件](https://support.rackspace.com/how-to/modify-your-hosts-file/)以将该条目添加回，但您应该检查其他已安装的软件，以查看覆盖先前更改的内容。
 
 ## 我们的支持知识库中的相关阅读
 

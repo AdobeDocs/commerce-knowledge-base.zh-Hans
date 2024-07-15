@@ -24,9 +24,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文不适用于尝试发送404错误的情况 [预览暂存更新](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). 如果您遇到此问题，请打开 [支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+>本文不适用于尝试[预览暂存更新](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change)时出现404错误的情况。 如果您遇到此问题，请打开[支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
-使用对商店内容资产执行计划更新操作后，访问任何店面页面或管理员会导致404错误（“糟糕，我们的不好……”页面） [内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (使用计划的存储内容资产的更新 [Magento\_Staging模块](https://developer.adobe.com/commerce/php/module-reference/))。 例如，您可能已删除了计划更新的产品，或删除了计划更新的结束日期。
+访问任何店面页面或管理员会导致404错误（“糟糕，我们的错误……”页面），原因是使用[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)对商店内容资源执行计划更新操作后(对使用[Magento\_暂存模块](https://developer.adobe.com/commerce/php/module-reference/)计划的商店内容资源的更新)。 例如，您可能已删除了计划更新的产品，或删除了计划更新的结束日期。
 
 商店内容资产包括：
 
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 ## 原因
 
-此 `flag` 数据库(DB)中的表包含指向 `staging_update` 表格。
+数据库(DB)中的`flag`表包含指向`staging_update`表的无效链接。
 
 该问题与内容暂存相关。 以下是两种特定情况；请注意，可能有更多情况会触发该问题。
 
-**场景1：** 删除符合以下条件的商店内容资源：
+**方案1：**&#x200B;正在删除商店内容资源，该资源：
 
 * 已计划内容暂存的更新
 * 更新具有结束日期（即更新的资产恢复到其先前版本的到期日期）
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 同时，如果删除的资产没有计划更新的结束日期，则可能不会发生问题。
 
-**场景2：** 删除计划更新的结束日期/时间。
+**方案2：**&#x200B;正在删除计划更新的结束日期/时间。
 
 ### 确定您的问题是否相关
 
@@ -68,19 +68,19 @@ ht-degree: 0%
    -> WHERE flag_code = 'staging';
 ```
 
-如果查询返回表，其中 `update_exists` 值为“0”，则指向的链接无效 `staging_update` 表中存在的数据，以及 [解决方案部分](#solution) 会帮助解决这个问题。 以下是查询结果的示例 `update_exists` 等于“0”的值：
+如果查询返回的`update_exists`值为“0”的表，则数据库中存在指向`staging_update`表的无效链接，并且[解决方案部分](#solution)中描述的步骤将有助于解决此问题。 以下是`update_exists`值等于“0”的查询结果示例：
 
 ![update_exists_0.png](assets/update_exists_0.png)
 
-如果查询返回表，其中 `update_exists` 值为“1”或为空结果，这意味着您的问题与暂存更新无关。 以下是查询结果的示例 `update_exists` 等于“1”的值：
+如果查询返回的`update_exists`值为“1”的表或结果为空，则表示您的问题与暂存更新无关。 以下是`update_exists`值等于“1”的查询结果示例：
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-在这种情况下，您可以参考 [Site Down疑难解答程序](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) 以获取有关疑难解答的想法。
+在这种情况下，您可以参阅[Site Down Troubleshooter](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)以了解故障排除想法。
 
 ## 解决方案
 
-1. 运行以下查询以删除指向 `staging_update` 表：
+1. 运行以下查询以删除指向`staging_update`表的无效链接：
 
    ```sql
    DELETE FROM flag WHERE flag_code = 'staging';
@@ -88,4 +88,4 @@ ht-degree: 0%
 
 1. 等待cron作业运行（如果设置正确，最多可在五分钟后运行），或者如果未设置cron，请手动运行该作业。
 
-该问题应在修复无效链接后立即解决。 如果问题仍然存在， [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+该问题应在修复无效链接后立即解决。 如果问题仍然存在，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。

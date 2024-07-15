@@ -19,12 +19,12 @@ ht-degree: 0%
 
 从“管理员”面板下订单时，您会卡在商店选择中。
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
-1. 转到 **[!UICONTROL Sales]** > **[!UICONTROL Orders]** 并选择客户以创建订单。
+1. 转到&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**&#x200B;并选择客户以创建订单。
 2. 从商店选择器屏幕中选择要下订单的商店。
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 选择商店后，即可完成订单。
 
@@ -44,5 +44,5 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-* 有关在云基础架构上应用Adobe Commerce修补程序的说明，请参阅 [应用修补程序](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 在我们的Commerce on Cloud Infrastructure指南中。
-* 有关为Adobe Commerce内部部署应用修补程序的说明，请参阅 [应用修补程序](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) ，位于我们的Commerce升级指南中。
+* 有关在云基础架构上应用Adobe Commerce修补程序的说明，请参阅我们的Commerce on Cloud Infrastructure指南中的[应用修补程序](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
+* 有关为Adobe Commerce本地应用修补程序的说明，请参阅《Commerce升级指南》中的[应用修补程序](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer)。

@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce的Magento Order Management系统(OMS)处理错误
-description: 当您在运行“bin/magento oms”的CLI中遇到“getMode()”错误时，本文提供了此问题的解决方案:messages:Adobe Commerce的Magento Order Management系统(OMS)中的process`。
+description: 当您在适用于Adobe Commerce的Magento Order Management系统(OMS)中运行“bin/magento oms:messages:process”的CLI中收到“getMode()”错误时，本文提供了此问题的解决方案。
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce的Magento Order Management系统(OMS)处理错误
 
-本文提供了当您收到 `getMode()` 运行CLI时出错 `bin/magento oms:messages:process` 在Adobe Commerce的Magento Order Management系统(OMS)中。
+当您在适用于Adobe Commerce的Magento Order Management系统(OMS)中运行`bin/magento oms:messages:process`的CLI中出现`getMode()`错误时，本文提供了此问题的解决方案。
 
 ## 受影响的产品和版本
 
@@ -56,14 +56,15 @@ Stack trace:
 
 ## 原因
 
-当连接器尝试处理时，会发生这种情况 `magento.inventory.source_management` 消息。 连接器尝试处理这些消息，就好像它们是 `magento.inventory.source_stock_management.update` 需要模式值的消息。 因为在 `magento.inventory.source_mangement` 消息时，出现错误。
+Ï
+当连接器尝试处理`magento.inventory.source_management`条消息时，会发生这种情况。 连接器尝试处理这些消息，就像它们是`magento.inventory.source_stock_management.update`消息一样，需要模式值。 由于`magento.inventory.source_mangement`消息中没有模式，因此出现此错误。
 
 ## 解决方案
 
-要解决此问题，请在CLI中运行以下SQL语句，该语句将删除 `mcom_api_messages` 表：
+要解决此问题，请在CLI中运行以下SQL语句，该语句将删除`mcom_api_messages`表中的所有记录：
 
 `delete from mcom_api_messages;`
 
 ## 相关阅读
 
-请参阅OMS文档 [OMS连接器设置教程](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+请参阅OMS文档[OMS连接器安装教程](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)。

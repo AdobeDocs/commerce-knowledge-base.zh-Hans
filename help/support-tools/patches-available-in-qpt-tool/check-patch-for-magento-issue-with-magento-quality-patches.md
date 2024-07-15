@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* Adobe Commerce内部部署，所有 [支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* 云基础架构上的Adobe Commerce，全部 [支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce内部部署，所有[支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 云基础架构上的Adobe Commerce，所有[支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 什么是质量修补程序工具
 
-此 [Quality Patches工具](https://github.com/magento/quality-patches) (QPT)是由Adobe和Magento Open Source群体开发的各个补丁。
+[Quality Patches Tool](https://github.com/magento/quality-patches) (QPT)是由Adobe和Magento Open Source团体开发的单个修补程序。
 
 它允许您：
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->QPT仅适用于高质量的修补程序。 安全修补程序可在 [Magento安全中心](https://magento.com/security/patches).
+>QPT仅适用于高质量的修补程序。 [Magento安全中心](https://magento.com/security/patches)中有安全修补程序。
 
 ## Quality Patches Tool中提供的修补程序
 
-请参阅 [Quality Patches工具](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) ，以获取可用修补程序的列表。
+有关可用修补程序的列表，请参阅开发人员文档中的[Quality Patches Tool](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。
 
 ## 如何安装和使用Quality Patches工具
 
@@ -50,13 +50,13 @@ ht-degree: 0%
 
 ### 如何在Adobe Commerce内部部署安装和使用QPT
 
-请参阅 [软件更新指南>修补](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) ，以了解有关如何安装和使用QPT来应用和还原修补程序的详细信息。
+有关如何安装和使用QPT来应用和还原修补程序的详细信息，请参阅我们的开发人员文档中的[软件更新指南>修补](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
 
 ### 如何在云基础架构上安装和使用QPT for Adobe Commerce
 
-请参阅 [适用于Adobe Commerce的Cloud >应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html) 请参阅我们的开发人员文档，详细了解如何安装和使用QPT在云基础架构上的Adobe Commerce上应用和还原修补程序。
+请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)，了解有关如何在Adobe Commerce上安装和使用QPT来应用和还原修补程序的详细信息。
 
 ## 相关阅读
 
-* [质量修补程序工具发行说明](https://devdocs.magento.com/quality-patches/release-notes.html) 在我们的开发人员文档中。
-* [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+* 开发人员文档中的[Quality Patches Tool发行说明](https://devdocs.magento.com/quality-patches/release-notes.html)。
+* [如何应用我们的支持知识库中Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。

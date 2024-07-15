@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce，全部 [支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* 云基础架构上的Adobe Commerce，所有[支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)。
 
 ## 问题
 
 在部署后阶段结束时，高速缓存预热脚本以极高的速率发送请求，以致于某些实例（如4-cpu实例）无法处理。 他们的nginx耗尽了工人的数量。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 启动缓存预热操作。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 页面或整个网站加载。
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 解决方案
 
-限制缓存预热期间的并发连接数。 这要求添加 `WARM_UP_CONCURRENCY` 部署后变量，用于指定缓存预热脚本可同时发送的预热请求数。 设置此选项有助于管理Adobe Commerce云基础架构的负载。 有关步骤，请参阅 [部署后变量> WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) 在我们的开发人员文档中。
+限制缓存预热期间的并发连接数。 这需要添加`WARM_UP_CONCURRENCY`部署后变量以指定缓存预热脚本可同时发送的预热请求数。 设置此选项有助于管理Adobe Commerce云基础架构的负载。 有关步骤，请参阅我们的开发人员文档中的[Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency)。
 
 ## 相关阅读
 
-[全页缓存](https://docs.magento.com/user-guide/system/cache-full-page.html) 在我们的用户指南中
+我们用户指南中的[全页缓存](https://docs.magento.com/user-guide/system/cache-full-page.html)

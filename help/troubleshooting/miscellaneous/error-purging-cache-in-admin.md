@@ -14,7 +14,7 @@ ht-degree: 0%
 # 清除Commerce Admin中的缓存时出错
 
 本文说明如何在Commerce管理员中清除缓存时确定出现错误消息的原因。 当您尝试通过管理员清除缓存时，会收到以下消息：
-*无法删除/app/project-id/pub/media/catalog/product/cache/directory/filename”文件。 警告！unlink(/app/project id/pub/media/catalog/product/cache/directory/filename)：没有此类文件或目录*
+无法删除*/app/project-id/pub/media/catalog/product/cache/directory/filename”文件。 警告！unlink(/app/project id/pub/media/catalog/product/cache/directory/filename)：没有这样的文件或目录*
 
 ## 受影响的产品和版本
 
@@ -24,9 +24,9 @@ Adobe Commerce（所有部署方法） 2.3.0-2.3.7、2.4.0-2.4.2-p1
 
 当您尝试通过管理员清除缓存时，会收到一条错误消息。
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
-1. 在“管理员”中，转到 **系统** > **工具** > **缓存管理**.
+1. 在管理员中，转到&#x200B;**系统** > **工具** > **缓存管理**。
 1. 选择任何清除高速缓存选项。
 
 <u>预期结果：</u>
@@ -56,8 +56,8 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 操作完成时，尝试清除文件。 这不是一个错误；这是一个预计有时会发生的消息并发问题。 没有要诊断的问题。
-但是，如果输出显示文件仍在缓存中，则需要 [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+但是，如果输出显示文件仍在缓存中，则需要[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ## 相关阅读
 
-* [缓存管理](https://docs.magento.com/user-guide/system/cache-management.html) 在我们的开发人员文档中。
+* 在我们的开发人员文档中[缓存管理](https://docs.magento.com/user-guide/system/cache-management.html)。

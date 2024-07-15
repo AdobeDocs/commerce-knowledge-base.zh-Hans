@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Markdown中的作者
 
-通常，我们使用 [Adobe Experience League Markdown语法样式指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)但是，其中存在一些差异和例外。 此外，在某些情况下，还需要使用某些HTML标签。
+我们通常使用[Adobe Experience League Markdown语法样式指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)，但存在一些差异和异常。 此外，在某些情况下，还需要使用某些HTML标签。
 
 以下是存储库中最常用的Markdown格式示例。
 
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 `This text will be *italics*`
 
-要将文本设置为带下划线的格式，请使用 `<ins>` 标记：
+要将文本格式设置为下划线，请使用`<ins>`标记：
 
 `<ins>This text will be underlined</ins>`
 
-要添加换行符，请使用 `<br>` HTML标记。
+要添加换行符，请使用`<br>`HTML标记。
 
 
 ## 标头
@@ -54,8 +54,11 @@ ht-degree: 0%
 
 \`\`\` sql
 
-选择TABLE_NAME `Table`， ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
-从TABLE_SCHEMA =“%project_id%”的INFORMATION_SCHEMA.TABLES排序依据(DATA_LENGTH + INDEX_LENGTH)描述；
+选择TABLE_NAME作为`Table`，
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024)作为`Size (MB)`
+FROM information_schema.TABLES
+其中TABLE_SCHEMA =“%project_id%”
+排序依据(DATA_LENGTH + INDEX_LENGTH)说明；
 
 \`\`\`
 
@@ -81,7 +84,7 @@ your code here
 </pre></code>
 ```
 
-位置 ``%language-code%`` 是由定义的代码 [Prism.js支持的语言](https://prismjs.com/#supported-languages).
+其中``%language-code%``是由[Prism.js支持的语言](https://prismjs.com/#supported-languages)定义的代码。
 
 ## 列表
 
@@ -130,7 +133,7 @@ your code here
 
 任何类型的附件都应采用.png、.jpg和.jpeg格式。 为安全起见，我们仅接受采用三种格式之一的附件。
 
-要插入图像，请将图像置于 *资产* 子文件夹，并使用以下语法将图像插入到文章中：
+要插入图像，请将图像放置在与文章相同的节文件夹中的&#x200B;*assets*&#x200B;子文件夹中，并使用以下语法将图像插入文章：
 
 ```markdown
 ![alt text](assets/image.png)
@@ -162,17 +165,17 @@ your code here
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-如果需要引用标题以外的元素，请使用HTML来定义要添加的元素，请使用 [id属性](https://www.w3schools.com/html/html_id.asp). 然后，您可以使用Markdown或HTML引用此ID。
+如果需要引用标头以外的元素，请使用HTML来定义要添加元素，并使用[id属性](https://www.w3schools.com/html/html_id.asp)。 然后，您可以使用Markdown或HTML引用此ID。
 
 ### 其他文章的相对链接和链接
 
-请勿使用相对链接来引用我们的支持知识库文章。 当您的文章在中发布时，这些链接将不起作用 [Adobe Commerce帮助中心](https://support.magento.com/hc/en-us).
-请使用以下网址的完整超链接： [Adobe Commerce帮助中心](https://support.magento.com/hc/en-us).
+请勿使用相对链接来引用我们的支持知识库文章。 当您的文章在[Adobe Commerce帮助中心](https://support.magento.com/hc/en-us)中发布时，这些链接将不起作用。
+请使用[Adobe Commerce帮助中心](https://support.magento.com/hc/en-us)中的完整超链接。
 
 
 ## 表
 
-使用 [表格的HTML格式](https://www.w3schools.com/html/html_tables.asp).
+对表](https://www.w3schools.com/html/html_tables.asp)使用[HTML格式。
 
 
 ## 警告和信息块

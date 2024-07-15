@@ -28,18 +28,18 @@ ht-degree: 0%
 
 我们不建议商家在生产环境中使用Baler模块，因为它当前处于早期alpha开发阶段。 使用此配置文件可能会导致部署错误。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 商家试图插入 **SCD\_USE\_BALER** 变量构建阶段 `.magento.env.yaml` 文件，用于启用Baler Javascript捆绑包。
-1. 这家商家还增加了芭蕾舞作曲家的依赖性： `"magento/module-baler": "1.0.0-alpha"` 到 `require` 部分 `composer.json`.
+1. 商家尝试在`.magento.env.yaml`文件的构建阶段中插入&#x200B;**SCD\_USE\_BALER**&#x200B;变量，该变量将启用Baler Javascript捆绑包。
+1. 商家还将Baler编辑器依赖项`"magento/module-baler": "1.0.0-alpha"`添加到`composer.json`的`require`部分。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 部署成功。
 
 <u>实际结果</u>：
 
-商家在云上的部署日志中看到以下错误消息，即 `<project home>/var/log/cloud.log`，在静态内容部署阶段时：
+商家在静态内容部署阶段的云上的部署日志中看到以下错误消息： `<project home>/var/log/cloud.log`
 
 ```
 [2020-08-19 12:06:12] WARNING: [1007] Baler JS bundling cannot be used because of the following issues:
@@ -52,9 +52,9 @@ Baler模块目前处于早期alpha开发阶段，并且Baler扩展安装过程�
 
 ## 解决方案
 
-您可以在以下位置查看现有贝勒Alpha文档： [Github/Magento/Baler/Alpha快速入门](https://github.com/magento/baler/blob/master/docs/ALPHA.md). 但是，它还没有准备好用于生产，使用它时您将自行承担风险。 为此，建议您使用Adobe Commerce的内置捆绑包（基本捆绑包）来合并或捆绑多个Javascript (JS)文件，以便优化文件。
+您可以在[Github/Baler/Baler/Alpha快速入门](https://github.com/magento/baler/blob/master/docs/ALPHA.md)上查看现有MagentoAlpha文档。 但是，它还没有准备好用于生产，使用它时您将自行承担风险。 为此，建议您使用Adobe Commerce的内置捆绑包（基本捆绑包）来合并或捆绑多个Javascript (JS)文件，以便优化文件。
 
-* 您可以在管理员中打开合并或捆绑功能（合并和捆绑功能无法同时启用）： **商店** > **设置** > **配置** > **高级** > **开发人员** > **JavaScript设置**.
-* 您还可以从命令行启用Adobe Commerce的内置捆绑包（基本捆绑包）： `php -f bin/magento config:set dev/js/enable_js_bundling 1`
+* 您可以在管理员中启用合并或捆绑（合并和捆绑无法同时启用）： **存储** > **设置** > **配置** > **高级** > **开发人员** > **JavaScript设置**。
+* 您还可以从以下命令行启用Adobe Commerce的内置捆绑包（基本捆绑包）： `php -f bin/magento config:set dev/js/enable_js_bundling 1`
 
-要了解更多信息，请参阅 [在云基础架构和Adobe Commerce内部部署上的Adobe Commerce上优化CSS和Javascript文件](https://support.magento.com/hc/en-us/articles/360044482152).
+要了解更多信息，请参阅云基础架构上的Adobe Commerce和Adobe Commerce内部部署上的[CSS和Javascript文件优化](https://support.magento.com/hc/en-us/articles/360044482152)。

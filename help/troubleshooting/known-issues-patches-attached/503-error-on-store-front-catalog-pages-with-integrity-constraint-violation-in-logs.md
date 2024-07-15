@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文提供了修补程序作为解决方法，但该问题已在Adobe Commerce on cloud infrastructure v2.3.3版本中永久修复，建议您升级到v2.3.3。请按照中的步骤操作 [升级Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html) 在我们的开发人员文档中。
+>本文提供了修补程序作为解决方法，但该问题已在Adobe Commerce on cloud infrastructure v2.3.3版本中永久修复，建议您升级到v2.3.3。按照开发人员文档中的[升级Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html)中的步骤操作。
 
-本文为云基础架构2.2.0上与存储前端目录页面无法访问相关的已知Adobe Commerce问题提供了一个修补程序，该修补程序在日志中会显示类似于以下内容的错误消息： *完整性约束违规： 1062键“PRIMARY”的重复条目“%entry%”，查询为： INSERT INTO \&#39;search\_tmp\_%number%*.
+本文为云基础架构2.2.0上与存储前端目录页相关的已知Adobe Commerce问题提供了一个修补程序，该问题在日志中带有类似于以下内容的错误消息： *完整性约束违规： 1062键“PRIMARY”的重复条目“%entry%”，查询为： INSERT INTO \&#39;search\_tmp\_%number%*。
 
 ## 问题
 
-存储前端目录页面意外变为不可访问。 错误日志具有类似于以下内容的错误描述： *完整性约束违规： 1062键“PRIMARY”的重复条目“%entry%”，查询为： INSERT INTO \&#39;search\_tmp\_%number%*.
+存储前端目录页面意外变为不可访问。 错误日志具有类似于以下内容的错误描述： *完整性约束冲突： 1062键“PRIMARY”的重复条目“%entry%”，查询为： INSERT INTO \&#39;search\_tmp\_%number%*。
 
 该问题与搜索有关，并且是由于重新索引后存在过时索引以及新索引造成的。
 
@@ -57,27 +57,27 @@ curl -X DELETE 127.0.0.1:9200/magento2_product_8_v332
 
 为以下版本和版本创建了修补程序：
 
-* 云基础架构上的Adobe Commerce 2.2.0 (`MDVA-9590_EE_2.2.0_COMPOSER_v2.patch`)
-* 云基础架构上的Adobe Commerce 2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)
+* 云基础架构2.2.0 (`MDVA-9590_EE_2.2.0_COMPOSER_v2.patch`)上的Adobe Commerce
+* 云基础架构2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)上的Adobe Commerce
 
-此 `MDVA-9590_EE_2.2.0_COMPOSER_v2` 修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+`MDVA-9590_EE_2.2.0_COMPOSER_v2`修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
 
 * 云基础架构上的Adobe Commerce 2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 * Adobe Commerce内部部署2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 
-此 `MDVA-13203_EE_2.2.4_V1_COMPOSER` 修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+`MDVA-13203_EE_2.2.4_V1_COMPOSER`修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
 
 * 云基础架构上的Adobe Commerce 2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 * Adobe Commerce内部部署2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 有用的链接
 
-* [云基础架构上Adobe Commerce的日志文件位置入门计划架构](/help/how-to/general/log-locations-directories-for-starter-plan.md) 在我们的支持知识库中。
-* [Adobe Commerce在云基础架构上的日志文件位置Pro规划架构](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) 在我们的支持知识库中。
-* [Adobe Commerce的日志文件位置](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) 在我们的开发人员文档中。
+* 在我们的支持知识库中，[Adobe Commerce在云基础架构上的日志文件位置入门计划架构](/help/how-to/general/log-locations-directories-for-starter-plan.md)。
+* 在我们的支持知识库中，[Adobe Commerce在云基础架构上的日志文件位置Pro规划体系结构](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)。
+* 在开发人员文档中，为Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)添加[日志文件位置。
 
 ## 附加文件

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 问题
 
-客户（公司）可以在网站上成功创建公司帐户，但可以获得 *“没有具有customerId = ”的此类实体* 和 *“您还没有公司帐户”* 错误消息。 他们可能还会获得 *“500内部服务器错误”* （在尝试访问“公司配置文件”页面时）。
+客户（公司）可以在网站上成功创建公司帐户，但收到&#x200B;*“没有客户ID = &quot;* and *&quot;您还没有公司帐户&quot;*&#x200B;错误消息。 他们尝试访问公司配置文件页面时也可能收到&#x200B;*“500内部服务器错误”*。
 
 ## Patch
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。

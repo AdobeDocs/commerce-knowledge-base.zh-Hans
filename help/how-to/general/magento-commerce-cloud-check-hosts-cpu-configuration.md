@@ -21,4 +21,4 @@ ht-degree: 0%
 
 ## 下载文章
 
-单击 [Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf](assets/Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf) 以下载该文章。
+单击[Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf](assets/Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf)以下载该文章。

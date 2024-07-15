@@ -49,16 +49,16 @@ ht-degree: 0%
 
 ## UI元素
 
-* 用户点击的所有内容 **粗体**. 例如，“单击 **继续**“ 选项值和错误消息的格式为 _斜体_.
-* 请尽量避免在说明中提及UI元素类型。 (单击 **下一个**. vs单击 **下一个** 按钮。)
-* 在命令序列中使用“选择”和“>”。 (选择 **编辑** > **偏好设置**. 与单击编辑 | 首选项。)
+* 用户单击的所有内容都放入&#x200B;**bold**。 例如，“单击&#x200B;**继续**。” 选项值和错误消息的格式为&#x200B;_斜体_。
+* 请尽量避免在说明中提及UI元素类型。 (单击&#x200B;**下一步**。 vs单击&#x200B;**下一步**&#x200B;按钮。)
+* 在命令序列中使用“选择”和“>”。 (选择&#x200B;**编辑** > **首选项**。 与单击编辑 | 首选项。)
 * 前置词：“在”用于对话框、窗口，包括面板、视图、向导、列表、文件夹和节点。
 * 前置位置：屏幕、页面、工具栏、菜单栏、选项卡、窗格、功能区的“开”。
-* 前置词：单击(单击 **下一个** 与点击 **下一个**)。
+* 前置词：单击（单击&#x200B;**下一步**&#x200B;与单击&#x200B;**下一步**）。
 
 ## 文件名
 
-文件名和文件夹的格式为代码。 示例： `/var/log` 系统目录包含所有环境的日志。
+文件名和文件夹的格式为代码。 示例： `/var/log`系统目录包含所有环境的日志。
 
 
 ## 数字
@@ -206,7 +206,7 @@ Adobe Commerce版本2.4.0
 
 </td>
 
-<td colspan="1"> 错误消息：  <i>发生错误。</i> </td>
+<td colspan="1"> 错误消息： <i>发生错误。</i> </td>
 
 <td colspan="1">
 </td>
@@ -219,9 +219,9 @@ Adobe Commerce版本2.4.0
 
 ## 辅助功能
 
-* 所有非文本或图形元素都具有文本等效项或替换文本。 示例： ![example_image](/url "alt_text_for_this_image").
+* 所有非文本或图形元素都具有文本等效项或替换文本。 示例：![example_image](/url "alt_text_for_this_image")。
 
-* 所有链接都描述链接的目标。 示例 [链接](/uri "destination_of_the_link").
+* 所有链接都描述链接的目标。 示例[链接](/uri "destination_of_the_link")。
 
 
 <!--
@@ -253,14 +253,14 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ### 指向外部网站的链接
 
-使用普通URL而不是goURL链接到外部页面  [Adobe.com](http://Adobe.com).
+使用普通URL而不是goURL链接到[Adobe.com](http://Adobe.com)之外的页面。
 
 
 ## 逗号
 
 通常，请遵循《芝加哥风格手册》的开放样式标点符号建议，仅在必要时使用标点符号以防止误读。 例如，如果复合句子的连接前省略逗号，几乎不会出现误读风险。 在需要澄清时请使用逗号。
 
-* 始终使用串行逗号（前面的逗号） _和_ 或 _或_ （在包含三个或更多项目的列表中）：x、y和z
+* 在包含三个或更多项的列表中，始终使用串行逗号（位于&#x200B;_和_&#x200B;或&#x200B;_或_&#x200B;之前的逗号）： x、y和z
 
 * 将逗号放在引入独立子句的结合项之前：“指定位置，并键入文件列表的名称。”
 
@@ -276,4 +276,4 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ## 品牌化
 
-* Magento Commerce现在是Adobe Commerce。 请参阅 [品牌重塑条款](https://github.com/magento/knowledge-base/wiki) wiki ，以了解有关如何使用最新品牌语言的详细信息。
+* Magento Commerce现在是Adobe Commerce。 有关如何使用最新品牌语言的详细信息，请参阅[品牌推广术语](https://github.com/magento/knowledge-base/wiki) Wiki。

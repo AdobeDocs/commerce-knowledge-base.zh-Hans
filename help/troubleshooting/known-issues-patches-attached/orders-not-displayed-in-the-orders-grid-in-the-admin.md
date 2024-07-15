@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 问题
 
-在安装了B2B扩展的Adobe Commerce 2.2.1中，由注册客户在店面创建的订单不会显示在Commerce管理员中客户帐户的订单列表中。 在调试日志中(`./var/log/debug.log`)，将记录以下错误：
+在安装了B2B扩展的Adobe Commerce 2.2.1中，由注册客户在店面创建的订单不会显示在Commerce管理员中客户帐户的订单列表中。 在调试日志(`./var/log/debug.log`)中记录了以下错误：
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
@@ -25,16 +25,16 @@ ht-degree: 0%
 
 您的商店目录包含产品，而不是Adobe Commerce示例数据，并且已安装B2B扩展。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 导航到店面并创建客户帐户。
 1. 将产品添加到购物车，完成结帐并提交订单。
 1. 登录到管理员。
-1. 导航到 **客户，** 然后选择 **所有客户**.
-1. 对于新创建的客户，单击 **编辑**.
-1. 单击 **订购** 在左侧的面板中。
+1. 导航到&#x200B;**客户，**，然后选择&#x200B;**所有客户**。
+1. 对于新创建的客户，单击&#x200B;**编辑**。
+1. 单击左侧面板中的&#x200B;**订单**。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 最近提交的订单将列在网格中。
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) ，以获取相关说明。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

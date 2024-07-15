@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* [升级兼容性工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) 与2.3.0以后的Adobe Commerce版本兼容。
+* [升级兼容性工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)与2.3.0以后的Adobe Commerce版本兼容。
 
 ## 分段错误
 
@@ -39,7 +39,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 
 ## 输出为空
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 如果运行此命令后：
 
@@ -47,7 +47,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
    bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
    ```
 
-1. 唯一的输出是 `Upgrade compatibility tool`：
+1. 唯一输出为`Upgrade compatibility tool`：
 
    ```terminal
    bin/uct upgrade:check /var/www/project/magento/ -c 2.4.1
@@ -62,7 +62,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 
 <u>解决方案1</u>：
 
-通过设置覆盖内存限制 `memory_limit` 到 `-1`：
+通过将`memory_limit`设置为`-1`覆盖内存限制：
 
 ```bash
 php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
@@ -70,11 +70,11 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 
 >[!NOTE]
 >
-> 此 `M2_VERSION` 是要与Adobe Commerce实例进行比较的目标Adobe Commerce版本。
+> `M2_VERSION`是您要与Adobe Commerce实例进行比较的目标Adobe Commerce版本。
 
 <u>解决方案2</u>：
 
-添加 `-m` 选项允许升级兼容性工具独立分析每个特定模块，以避免在Adobe Commerce实例中遇到两个具有相同名称的模块。
+添加`-m`选项允许升级兼容性工具独立分析每个特定模块，以避免在Adobe Commerce实例中遇到两个具有相同名称的模块。
 
 此命令选项还允许升级兼容性工具分析包含多个模块的文件夹：
 
@@ -82,4 +82,4 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-请参阅 [在命令行界面中运行该工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) 页面，以了解有关命令行界面选项的详细信息。
+有关命令行界面选项的更多信息，请参阅[在命令行界面中运行工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html)页。

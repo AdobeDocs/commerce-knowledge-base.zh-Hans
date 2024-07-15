@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-Adobe Commerce（所有部署方法）所有 [支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce（所有部署方法）所有[支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 问题
 
-当您访问 [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) 或 [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) 您可能会注意到，现在提供了统一的登录表单，您无法再像之前一样输入凭据。
+当您转到[https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/)或[https://accounts.magento.cloud/user](https://accounts.magento.cloud/user)时，您可能会注意到现在有一个统一的登录表单，您无法再像以前一样输入您的凭据。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 尝试登录到您的Commerce帐户。
 
 ![adobe-login-one](assets/adobe-login-one.png)
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 登录成功。
 
@@ -51,7 +51,7 @@ Adobe Commerce（所有部署方法）所有 [支持的版本](https://www.adobe
 - 现有的Adobe公司/个人帐户。
 - 如果您没有Adobe帐户，请创建具有相同电子邮件地址的帐户。
 
-有关步骤，请参阅 [Commerce Identity管理器](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) 在Adobe Experience League中。
+有关步骤，请参阅Adobe Experience League中的[Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html)。
 
 ## 相关阅读
 

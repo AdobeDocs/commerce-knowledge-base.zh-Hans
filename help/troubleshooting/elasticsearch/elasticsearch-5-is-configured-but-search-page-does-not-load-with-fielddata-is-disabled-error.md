@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 原因
 
-默认情况下，分层导航中只能使用某些类型的产品属性。 它们是“是/否”、“下拉列表”、“多重选择”和“价格”。 这就是为什么在Commerce管理员中，您不能将任何其他类型的属性设置为 **在分层导航中使用** = *可筛选* 或 **在搜索结果分层导航中使用** = *是*. 但是，从技术角度来说，通过直接更改 `is_filterable` 和 `is_filterable_in_search` 数据库中的值。 如果发生这种情况，并且任何其他属性类型（如日期、文本等）设置为在分层导航中使用，则Elasticsearch5会引发异常。
+默认情况下，分层导航中只能使用某些类型的产品属性。 它们是“是/否”、“下拉列表”、“多重选择”和“价格”。 这就是为什么在Commerce管理中，不能将任何其他类型的属性设置为&#x200B;**用于分层导航** = *可筛选*&#x200B;或&#x200B;**用于搜索结果的分层导航** = *是*。 但是，通过直接更改数据库中的`is_filterable`和`is_filterable_in_search`值，在技术上有可能绕过此限制。 如果发生这种情况，并且任何其他属性类型（如日期、文本等）设置为在分层导航中使用，则Elasticsearch5会引发异常。
 
 要确保出现这种情况，您需要确定是否存在除Dropdown、Multipleselect和Price之外的、设置为在分层导航中使用的任何其他属性。 运行以下查询以搜索这些属性：
 
@@ -53,10 +53,10 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 
 ## 解决方案
 
-要解决此问题，您需要设置 `is_filterable` （即，用于分层导航）和 `filterable_in_search` （即，用于搜索结果的分层导航）到“0”（不使用）。 为此，请执行以下步骤：
+要解决此问题，您需要将`is_filterable`（即用于分层导航）和`filterable_in_search`（即用于搜索结果分层导航）设置为“0”（不使用）。 为此，请执行以下步骤：
 
 1. 创建数据库备份。
-1. 使用数据库工具，例如 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或从命令行手动访问数据库以运行以下SQL查询：
+1. 使用数据库工具（如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
 
    ```sql
    UPDATE catalog_eav_attribute AS cea
@@ -79,6 +79,6 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
    bin/magento cache:clean
    ```
 
-或在Commerce管理员中的 **系统** > **工具** > **缓存管理**.
+或在Commerce管理员中的&#x200B;**系统** > **工具** > **缓存管理**&#x200B;下。
 
 现在，您应该能够毫无问题地执行目录搜索。

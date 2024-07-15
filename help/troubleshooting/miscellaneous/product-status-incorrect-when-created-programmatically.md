@@ -26,12 +26,12 @@ ht-degree: 0%
 
 ## 原因
 
-由于为Adobe Commerce实例管理员角色设置的ACL限制，可能出现此问题。 对于引导应用程序，将不会有具有适当ACL设置的初始化管理会话。 这将导致验证在 `Magento_AdminGws` 模块，负责此类操作的权限检查。
+由于为Adobe Commerce实例管理员角色设置的ACL限制，可能出现此问题。 对于引导应用程序，将不会有具有适当ACL设置的初始化管理会话。 这将导致`Magento_AdminGws`模块中的验证失败，该模块负责检查此类操作的权限。
 
 ## 产品状态不正确的解决方案
 
-为设置动态DI首选项 `Magento\Framework\Authorization\PolicyInterface`，如中所述 [ObjectManager>程序化产品更新](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) 主题进行讨论。
+为`Magento\Framework\Authorization\PolicyInterface`设置动态DI首选项，如开发人员文档中的[ObjectManager>程序化产品更新](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates)主题中所述。
 
 ## 相关阅读
 
-* [Github：无法更改使用productRepository创建的产品的产品状态](https://github.com/magento/magento2/issues/5664)
+* [Github：无法更改使用productRepository](https://github.com/magento/magento2/issues/5664)创建的产品的产品状态

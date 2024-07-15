@@ -28,10 +28,10 @@ ElasticSuite 2.8.0之前的版本无法定期清理跟踪索引。
 如果安装了ElasticSuite第三方插件，您可能会遇到Elasticsearch内存问题，并且Elasticsearch服务可能会因ElasticSuite跟踪索引而崩溃。 症状包括：
 
 * Elasticsearch崩溃，无内存错误。
-* 运行运行状况命令时 `curl -m1 localhost:9200/_cluster/health?pretty` 或 `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` （对于入门客户）有数百或数千个 `unassigned_shards`
+* 运行运行状况命令`curl -m1 localhost:9200/_cluster/health?pretty`或`curl -m1 elasticsearch.internal:9200/_cluster/health?pretty`（对于入门帐户）时，`unassigned_shards`有数百或数千个
 * Elasticsearch或站点性能严重降低。
-* *“在您的群集中未找到活动节点”* Elasticsearch部署或日志错误。
-* *“正在拒绝映射更新到 [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* 在部署或日志错误中。
+* 在Elasticsearch部署或日志错误中，*“在您的群集中未找到活动节点”*。
+* *在部署或日志错误中拒绝到[&lt;\*>_ tracking_log_event _&lt;\*>]“*”的映射更新。
 
 ## 原因
 
@@ -43,7 +43,7 @@ ElasticSuite具有创建跟踪索引的新功能。 这些跟踪索引记录哪�
 
 将ElasticSuite插件升级到高于2.8.0的版本后，即可配置索引的定期清理。
 
-转到 **商店** > **配置** > **跟踪** > **全局配置** > **保留延迟**
+转到&#x200B;**商店** > **配置** > **跟踪** > **全局配置** > **保留延迟**
 
 默认保留期为365天。 您可以将其缩短到30或15天。
 
@@ -53,7 +53,7 @@ ElasticSuite具有创建跟踪索引的新功能。 这些跟踪索引记录哪�
 
 您仍然可以缩短保留期：
 
-转到 **商店** > **配置** > **跟踪** > **全局配置** > **保留延迟**
+转到&#x200B;**商店** > **配置** > **跟踪** > **全局配置** > **保留延迟**
 
 默认保留期为12个月（将生成12个索引）。 您可以将其缩短到3或6个月。
 

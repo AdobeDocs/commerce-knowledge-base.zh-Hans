@@ -17,4 +17,4 @@ Adobe Commerce观察信息是一种New Relic小子，用于查看Adobe Commerce�
 
 Adobe Commerce的“观察摘要”选项卡旨在快速查看站点遇到的一些问题，以帮助您自动解决或识别站点问题的潜在根本原因。 其他选项卡提供有关组件服务、数据库、基础架构和流程状态的更深入的信息。
 
-要查看有关如何对云基础架构上的Adobe Commerce使用观察的完整指南，请转到 [Adobe Commerce观察](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html) Experience League指南。
+要查看如何在云基础架构上使用对Adobe Commerce的观察的完整指南，请转到Experience League中的[对Adobe Commerce的观察](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html)指南。

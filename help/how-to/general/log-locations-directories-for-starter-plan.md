@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 记录入门计划的位置（目录）
 
-请参阅 [查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) 在 *《云基础架构上的Commerce指南》* 了解在何处查找在云基础架构上部署的Adobe Commerce项目的生成和部署、应用程序和服务日志。
+请参阅&#x200B;*Commerce on Cloud Infrastructure指南*&#x200B;中的[查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)，了解在何处查找部署在Cloud Infrastructure上的Adobe Commerce项目的生成和部署、应用程序和服务日志。

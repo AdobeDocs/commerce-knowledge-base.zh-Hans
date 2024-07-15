@@ -37,10 +37,10 @@ ht-degree: 0%
    ```
 
    * 如果未返回任何结果，则表示尚未配置发件人地址。
-   * 如果返回结果，则继续执行 **步骤2**.
+   * 如果返回结果，则继续执行&#x200B;**步骤2**。
 
 1. 如果电子邮件出现在您的“垃圾邮件”文件夹中，请单击电子邮件中的链接。 如果该链接已过期，请尝试再次登录以重复该过程。
-1. 获得访问权限后，请转到 **商店** > **配置** > **常规** > **存储电子邮件地址** 并配置电子邮件地址。
+1. 获得访问权限后，请转到&#x200B;**商店** > **配置** > **常规** > **商店电子邮件地址**&#x200B;并配置电子邮件地址。
 
 ### 步骤2：如果正确配置了电子邮件地址/一旦配置了电子邮件地址，请SSH进入环境并运行此命令：
 
@@ -48,8 +48,8 @@ ht-degree: 0%
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-检查您的Spam文件夹中的电子邮件。 如果邮件出现在那里， [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) 请求在SendGrid中为域添加白标签。
+检查您的Spam文件夹中的电子邮件。 如果电子邮件出现在该处，则[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login)以请求在SendGrid中将域标记为白标。
 
 ## 相关阅读
 
-* [发送网格](https://devdocs.magento.com/cloud/project/sendgrid.html) 在我们的开发人员文档中。
+* 在我们的开发人员文档中[SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html)。

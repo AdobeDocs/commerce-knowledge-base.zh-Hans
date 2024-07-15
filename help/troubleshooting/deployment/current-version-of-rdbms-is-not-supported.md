@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 部署时出现“不支持当前版本的RDBMS”错误
 
-本文为部署失败并在部署日志中出现以下错误时提供了解决方案： *不支持RDBMS的当前版本*.
+本文为部署失败并在部署日志中出现以下错误时提供了解决方案： *当前版本的RDBMS不受支持*。
 
 ## 受影响的产品和版本
 
@@ -24,17 +24,17 @@ ht-degree: 0%
 此错误消息表示您尝试升级到的Adobe Commerce版本不再支持当前的MariaDB版本，必须将MariaDB升级到兼容版本。
 
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 尝试部署。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 部署成功。
 
 <u>实际结果</u>：
 
-部署失败，并出现错误消息： *不支持RDBMS的当前版本*.
+部署失败，并出现错误消息： *当前版本的RDBMS不受支持*。
 
 ## 原因
 
@@ -45,12 +45,12 @@ ht-degree: 0%
 在升级应用程序之前，必须将MariaDB服务升级到兼容版本。
 
 
-有关Adobe Commerce上云基础架构的集成分支专业计划架构（以及入门架构中的所有分支），请关注 [配置服务](https://devdocs.magento.com/cloud/project/services.html) 在我们的开发人员文档中。
+对于云基础架构Pro计划架构上Adobe Commerce的集成分支（以及入门架构中的所有分支），请按照开发人员文档中的[配置服务](https://devdocs.magento.com/cloud/project/services.html)操作。
 
-有关Adobe Commerce上云基础架构Pro计划架构的暂存和生产，请 [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) ，以在部署Adobe Commerce版本升级之前请求升级服务。
+对于云基础架构Pro计划架构上的Adobe Commerce上的暂存和生产，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以请求在您部署Adobe Commerce版本升级之前升级服务。
 
 
 ## 相关阅读
 
-* [构建和部署的最佳实践](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) 在我们的开发人员文档中。
-* [Adobe Commerce 2.3.5升级：压缩为动态表](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) 在我们的支持知识基础中。
+* 在开发人员文档中[生成和部署的最佳实践](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices)。
+* [Adobe Commerce 2.3.5升级：在我们的支持知识库中压缩到动态表](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)。

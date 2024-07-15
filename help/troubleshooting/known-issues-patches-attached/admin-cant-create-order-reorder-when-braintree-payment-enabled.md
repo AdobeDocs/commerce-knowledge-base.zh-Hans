@@ -23,14 +23,14 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 核心Braintree集成已使用(**商店** > **配置** > **销售** > **付款方式** > **Braintree**)。
+1. 已使用核心Braintree集成(**商店** > **配置** > **销售** > **付款方式** > **Braintree**)。
 1. 使用Luma店面下订单。
-1. 转到管理员UI > **销售**.
-1. 尝试为客户创建新订单，或转到之前下达的订单并单击 **重新排序**.
+1. 转到“管理员UI”>**Sales**。
+1. 尝试为客户创建新订单，或转到之前下单的订单并单击&#x200B;**重新订购**。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 启用Braintree付款方式后，管理员用户即可为客户成功创建订单和重新订单。
 
@@ -44,7 +44,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 ## 原因
 
-不正确的类依赖关系(`vendor/paypal/module-braintree-core/Block/Form.php`)
+不正确的类依赖项(`vendor/paypal/module-braintree-core/Block/Form.php`)
 
 ## 解决方案
 
@@ -58,7 +58,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 >[!NOTE]
 >
->此外，对于Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce版本1.0.18的云修补程序中包含此修补程序。请参阅 [Commerce云修补程序发行说明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) 在我们的开发人员文档中，查找有关应用最新包的说明。
+>此外，对于Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce版本1.0.18的云修补程序中包含此修补程序。请参阅我们的开发人员文档中的[Commerce的云修补程序](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html)发行说明，查找有关应用最新软件包的说明。
 
 ### 兼容的Adobe Commerce版本：
 
@@ -74,4 +74,4 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中获取说明。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。

@@ -1,6 +1,6 @@
 ---
-title: Adobe Commerce Intelligence Service策略
-description: 在Commerce Intelligence，我们的目标是提供卓越的客户服务、保护您的数据，并为您提供制定数据驱动型决策所需的专业知识。
+title: Adobe Commerce Intelligence服务策略
+description: 在Commerce Intelligence，我们的目标是提供一流的客户服务、保护您的数据，并为您提供制定数据驱动型决策所需的专业知识。
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce Intelligence Service策略
+# Adobe Commerce Intelligence服务策略
 
-在Commerce Intelligence，我们的目标是提供卓越的客户服务、保护您的数据，并为您提供制定数据驱动型决策所需的专业知识。
+在Commerce Intelligence，我们的目标是提供一流的客户服务、保护您的数据，并为您提供制定数据驱动型决策所需的专业知识。
 
 ## 您的支持团队可以做什么？
 
@@ -38,16 +38,16 @@ ht-degree: 0%
 * 输入或修改开单信息
 * [与其他用户共享功能板](/docs/commerce-business-intelligence/mbi/build/dashboards/share-dashboard-with-users.html?lang=en)
 * 讨论、创建或修改数据连接和服务器详细信息
-* 对标准用户或只读用户执行管理员级别的功能(例如 [添加/编辑量度](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
+* 正在为标准用户或只读用户执行管理员级别的功能（例如[添加/编辑量度](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html)）
 * 披露入站电话呼叫的帐户详细信息，例如报告或账单信息。 我们将使用注册的电子邮件地址进行跟进。
 
 除了上面列出的数据安全功能外，我们的支持团队还无法满足一些与产品相关的请求：
 
-* **教学SQL**  — 希望使用SQLReport Builder，但不知道SQL？ 没关系，我们把 [教程](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) 帮助您了解基础知识。
+* **正在教导SQL** — 希望使用SQLReport Builder，但不知道SQL？ 没关系 — 我们提供了[教程](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)帮助您了解基础知识。
 
-* **不是由产品缺陷引起的SQL可视化图表问题**  — 如果图表最后看起来有点不正常 **不是** 是由产品缺陷引起的，原因可能是查询本身。 看看我们的 [从SQL查询创建可视化图表教程](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) ，以获取有关如何构建可视化查询的指导。
-* **调试SQL查询**  — 您有时会遇到非EXPLAIN错误，导致查询无法运行。 我们建议您参阅 [Commerce Intelligence User Guide：使用SQLReport Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) 以及我们的SQL教程，以帮助查明查询的错误位置。
+* **不是由产品缺陷引起的SQL可视化问题** — 如果图表最后看起来有点不确定，而&#x200B;**不是**&#x200B;由产品缺陷引起的，则原因可能是查询本身。 请查看我们的用户指南中的[从SQL查询创建可视化图表教程](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html)，以获取有关如何构造查询以进行可视化的指导。
+* **调试SQL查询** — 您有时可能会遇到非EXPLAIN错误，导致查询无法运行。 我们建议您参阅[Commerce Intelligence User Guide：使用SQLReport Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)和SQL教程来帮助确定查询的错误位置。
 
 ## 如何提交票证？
 
-您可以 [提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 联系我们的支持团队，方法是单击 **提交票证** 页面顶部的链接。 我们建议您签出 [支持票证中的信息](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket) 请在联系我们以确保在您的初次提交中填写所有必要信息之前。
+您可以通过单击页面顶部的&#x200B;**提交票证**&#x200B;链接，向我们的支持团队[提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 我们建议您在联系我们之前，在您的支持工单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket)中查看[信息，以确保您的初始提交中包含所有必需的信息。

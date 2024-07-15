@@ -25,19 +25,19 @@ ht-degree: 0%
 
 ## 原因
 
-如果在添加新域后未更新变量或添加了错误，则会发生这种情况 [!DNL Fastly] 已在环境中配置了服务。
+当添加新域后未更新变量或在环境中配置了错误的[!DNL Fastly]服务时，会发生这种情况。
 
 ## 解决方案
 
-1. 如果域在同一环境中重定向，请确保您已配置 [变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables).
-1. 如果域正在重定向到其他环境，请检查您配置的域是否正确 [!DNL Fastly] 通过运行以下命令提供服务： `bin/magento fastly:conf:get -s`
+1. 如果域在同一环境中重定向，请确保已配置[变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables)。
+1. 如果域正在重定向到其他环境，请运行以下命令检查是否已配置正确的[!DNL Fastly]服务： `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->您可以找到 [!DNL Fastly] 通过登录到每个环境（测试/生产）并检查 `/mnt/shared/fastly_tokens.txt` 文件。 有关更多信息，请参阅 [配置 [!DNL Fastly] 服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 《Commerce on Cloud Infrastructure指南》中的。
+>通过登录到每个环境（暂存/生产）并检查`/mnt/shared/fastly_tokens.txt`文件，您可以找到[!DNL Fastly] API凭据。 有关详细信息，请参阅Commerce on Cloud Infrastructure指南中的[配置 [!DNL Fastly] 服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 如果上述配置均正确，请提交支持工单。
 
 ## 相关阅读
 
-* [设置新域的核对清单](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) 在我们的支持知识库中。
+* 在我们的支持知识库中设置[新域的清单](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html)。

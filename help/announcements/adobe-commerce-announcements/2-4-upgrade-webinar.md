@@ -25,6 +25,6 @@ ht-degree: 0%
 
 星期三，2022年1月26日，上午10:00 — 上午11:30（中部标准时间）
 
-[请在此处登记](https://register.gotowebinar.com/register/6951278956217776911)
+[在此注册](https://register.gotowebinar.com/register/6951278956217776911)
 
 即使您无法加入，我们建议您进行注册，以便在活动后接收录制。

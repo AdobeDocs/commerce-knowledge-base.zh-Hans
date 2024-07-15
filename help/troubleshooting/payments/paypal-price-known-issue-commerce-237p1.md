@@ -25,16 +25,16 @@ ht-degree: 0%
 
 使用PayPal Express Checkout付款方式下订单时，先前订购的已购产品将添加到订单中，而不是实际订单中。
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
 1. 在商店前面，将产品添加到购物车（产品A，价格50美元）。
 1. 单击购物车链接以打开购物车。
-1. 单击 **PayPal结账** 按钮。
+1. 单击&#x200B;**PayPal结帐**&#x200B;按钮。
 1. 使用您的PayPal凭据登录PayPal并提交付款。
 1. 完成商店侧的订单下达。
 1. 返回目录并向购物车添加其他产品（产品B，价格100美元）。
 1. 单击购物车链接以打开购物车。
-1. 单击 **PayPal结账** 按钮。
+1. 单击&#x200B;**PayPal结帐**&#x200B;按钮。
 
 <u>实际结果：</u>
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## Patch
 
-使用以下链接下载包含修补程序的.zip文件： [MC42674-composer.patch.zip](assets/MC42674-composer.patch.zip).
+使用以下链接下载包含修补程序的.zip文件： [MC42674-composer.patch.zip](assets/MC42674-composer.patch.zip)。
 
 ### 兼容的Adobe Commerce版本
 
@@ -60,4 +60,4 @@ ht-degree: 0%
 ## 如何应用修补程序
 
 1. 解压缩下载的.zip文件。
-1. 请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取进一步的说明。
+1. 有关进一步说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。

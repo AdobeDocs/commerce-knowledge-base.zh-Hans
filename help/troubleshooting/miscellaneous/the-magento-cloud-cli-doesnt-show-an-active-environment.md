@@ -1,6 +1,6 @@
 ---
-title: '''Magento云'' [!DNL CLI] 不显示活动环境'
-description: 本文介绍了一个已知的Adobe Commerce问题，其中“Magento-cloud” [!DNL CLI] （命令行工具）不显示活动环境。
+title: “Magento — 云” [!DNL CLI] 未显示活动环境
+description: 本文介绍了一个已知的Adobe Commerce问题，“Magento-cloud” [!DNL CLI] （命令行工具）不显示活动环境。
 feature: Cloud, Integration, Configuration
 role: Developer
 exl-id: 3c1b5de2-8888-4531-9dc1-cd478e3c96fc
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# 此 `Magento-cloud` [!DNL CLI] 不显示活动环境
+# `Magento-cloud` [!DNL CLI]未显示活动环境
 
 ## 问题
 
-有几个活动环境，您正尝试通过运行 `Magento-cloud` [!DNL CLI] （命令行工具）命令。 (例如： `ssh`， `db:size`， `db:sql`、等)
+有多个活动环境，您正在尝试通过运行`Magento-cloud` [!DNL CLI] （命令行工具）命令与环境交互。 （例如： `ssh`、`db:size`、`db:sql`等）
 但是，提示选择所需环境时不会列出此环境。 （例如：集成环境）
 
 ```
@@ -34,7 +34,7 @@ Default: master
 
 ## 解决方案
 
-您将必须使用手动指定环境 `e|-environment` 标志。
+您将需要手动使用`e|-environment`标志指定环境。
 
 1. 查找活动环境的列表并记下环境名称：
 

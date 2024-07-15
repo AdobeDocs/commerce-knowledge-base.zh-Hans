@@ -55,11 +55,11 @@ Adobe Commerce（所有部署方法）和Magento Open Source2.1.x、2.2.x、2.3.
 
 #### 安装Google reCAPTCHA并签出表单更新
 
-此 `magento/module-paypal-recaptcha` 包中包含与Google reCAPTCHA和Payflow Pro支付表单更新的集成。 即使您已安装和配置reCAPTCHA模块，我们仍建议您安装此包。
+`magento/module-paypal-recaptcha`包包含与Google reCAPTCHA和Payflow Pro支付表单更新的集成。 即使您已安装和配置reCAPTCHA模块，我们仍建议您安装此包。
 
 运行以下命令进行安装。
 
-**对于Adobe Commerce内部部署：**
+针对Adobe Commerce本地：****
 
 ```bash
 composer require magento/module-paypal-recaptcha
@@ -68,7 +68,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**对于云基础架构上的Adobe Commerce：**
+云基础架构上的Adobe Commerce的&#x200B;**：**
 
 1. 运行以下命令：
 
@@ -86,11 +86,11 @@ bin/magento cache:clean
 
 #### 安装验证码的签出表单更新
 
-此 `magento/module-paypal-captcha` 包中包含与本机Adobe Commerce CAPTCHA模块的集成。
+`magento/module-paypal-captcha`包包含与本机Adobe Commerce CAPTCHA模块的集成。
 
 运行以下命令进行安装：
 
-**对于Adobe Commerce内部部署：**
+针对Adobe Commerce本地：****
 
 ```bash
 composer require magento/module-paypal-captcha
@@ -99,7 +99,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**对于云基础架构上的Adobe Commerce：**
+云基础架构上的Adobe Commerce的&#x200B;**：**
 
 1. 运行以下命令：
 
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 安装包后，请按照以下文档中的说明配置Google reCAPTCHA（推荐）或CAPTCHA：
 
-* [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) 在我们的用户指南中。
-* [验证码](https://docs.magento.com/user-guide/stores/security-captcha.html) 在我们的用户指南中。
+* 用户指南中的[Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html)。
+* 用户指南中的[验证码](https://docs.magento.com/user-guide/stores/security-captcha.html)。
 
 新的签出表单选项为：
 
@@ -129,11 +129,11 @@ bin/magento cache:clean
 
 ## PayPal支持和联系人
 
-请联系PayPal Payflow商家支持以了解有关欺诈防护服务的更多信息。 您可以请求PayPal支持团队启用 [基本防欺诈服务](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) 过滤器，提供对付款的最严格控制，以便您可以自动拒绝可能导致欺诈交易的付款，并接受通常不会成为问题的付款。 请注意，启用PayPal欺诈防护服务过滤器后，交易可能需要长达2小时才能结算。
+请联系PayPal Payflow商家支持以了解有关欺诈防护服务的更多信息。 您可以请求PayPal支持团队启用[基本欺诈保护服务](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/)过滤器，以对付款提供尽可能严格的控制功能，以便您可以自动拒绝可能导致欺诈交易的付款，并接受通常不会成为问题的付款。 请注意，启用PayPal欺诈防护服务过滤器后，交易可能需要长达2小时才能结算。
 
 >[!NOTE]
 >
->有关更多信息，请参阅PayPal的知识库 [“Adobe已就我的Payflow Pro集成联系过我。 我需要做什么？”](https://www.paypal.com/us/smarthelp/article/ts2242).
+>有关其他信息，请参阅PayPal知识库[“Adobe已就我的Payflow Pro集成与我联系。 我需要做什么？&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
 
 **PayPal Payflow商家支持详细信息**
 

@@ -20,4 +20,4 @@ ht-degree: 0%
 
 ## 下载文章
 
-单击 [Check_if_an_upsize_is_needed.pdf](assets/Check_whether_an_upsize_is_needed.pdf) 以下载该文章。
+单击[Check_if_an_upsize_is_needed.pdf](assets/Check_whether_an_upsize_is_needed.pdf)以下载该文章。

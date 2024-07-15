@@ -25,12 +25,12 @@ ht-degree: 0%
 
 可通过以下两种方法从项目中删除用户来停止通知：
 
-* 方法1：使用云 [!DNL Project URL]. 请参阅 [管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 云基础架构指南中的Commerce的步骤。
-* 方法2：使用magento-cloud [!DNL CLI]. 请参阅 [使用管理用户 [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) 云基础架构指南中的Commerce的步骤。
+* 方法1：使用云[!DNL Project URL]。 有关步骤，请参阅Commerce on cloud infrastructure指南中的[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)。
+* 方法2：使用magento-cloud [!DNL CLI]。 有关步骤，请参阅Commerce on cloud infrastructure指南中的[使用 [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli)管理用户。
 
-如果这已经完成，但电子邮件通知仍继续包含这些用户，请提交支持票证以请求从中删除这些用户 *[!UICONTROL Always CC]* 帐户中的设置。
+如果此操作已完成，但电子邮件通知仍继续包含这些用户，请提交支持票证以请求从帐户上的&#x200B;*[!UICONTROL Always CC]*&#x200B;设置中删除这些用户。
 
 ## 相关阅读
 
-* [查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user的project-role) 《云基础架构上的Commerce指南》中的。
-* [如何在支持通知中包含团队成员](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) 在Commerce KB中。
+* 在Commerce on cloud infrastructure指南中[查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user的project-role)。
+* [如何在Commerce KB的支持通知中包含团队成员](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html)。

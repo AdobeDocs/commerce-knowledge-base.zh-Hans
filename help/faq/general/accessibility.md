@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Adobe Commerce具有高度可自定义性，我们的客户可以扩展Luma主题，创建其辅助功能模块，并访问我们的Commerce Marketplace以查找满足其辅助功能要求的扩展。
 
-我们的许多客户都使用 [W3C无障碍标准](https://www.w3.org/WAI/standards-guidelines/) 并利用 [Adobe Commerce的Adobe无障碍合规性报表](https://www.adobe.com/accessibility/compliance/adobe-commerce-2021-acr.html).
+我们的许多客户都使用[W3C辅助功能标准](https://www.w3.org/WAI/standards-guidelines/)，并使用Adobe Commerce的[Adobe辅助功能合规性报告](https://www.adobe.com/accessibility/compliance/adobe-commerce-2021-acr.html)。
 
 通过使用行业标准开发人员工具，您可以与重要的辅助功能合作伙伴合作，或根据特定的客户要求或/和Adobe合规性报告实施Commerce Marketplace中的扩展。
 
-解决方案可在以下网址找到： [Commerce Marketplace](https://marketplace.magento.com/).
+可以在[Commerce Marketplace](https://marketplace.magento.com/)中找到解决方案。
 
 ## 相关阅读
 

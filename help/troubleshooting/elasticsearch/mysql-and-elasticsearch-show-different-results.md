@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Adobe Commerce 2.4.0中将删除MySQL目录搜索引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 在安装版本2.4.0之前，必须设置和配置Elasticsearch主机。请参阅 [安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) 在我们的开发人员文档中。
+> 将在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除[MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置和配置Elasticsearch主机。请参阅我们的开发人员文档中的[安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
 
 本文为云基础架构2.2.3上的已知Adobe Commerce问题提供了一个修补程序，该问题与使用MySQL和Elasticsearch获取同一搜索查询的不同搜索结果相关。
 
@@ -26,13 +26,15 @@ ht-degree: 0%
 1. 安装和配置Elasticsearch。
 1. 在店面，选择一个过滤器。
 1. 记下匹配产品的数量。
-1. 配置默认值 [MySQL搜索](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md).
+1. 配置默认[MySQL搜索](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)。
 1. 在店面，选择一个过滤器。
 1. 记下匹配产品的数量。
 
-<u>预期结果</u>：匹配产品的数量相同。
+<u>预期的结果</u>：
+匹配产品的数量相同。
 
-<u>实际结果</u>：匹配产品的数量不同。
+<u>实际结果</u>：
+匹配产品的数量不同。
 
 ## Patch
 
@@ -46,10 +48,10 @@ ht-degree: 0%
 
 修补程序是为以下对象创建的：
 
-* Adobe Commerce on cloud infrastructure 2.2.3( `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` file)
-* Adobe Commerce on cloud infrastructure 2.2.6( `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` file)
+* 云基础架构2.2.3上的Adobe Commerce（`MDVA-12312_EE_2.2.3_COMPOSER_v1.patch`文件）
+* 云基础架构2.2.6上的Adobe Commerce（`MDVA-14172_EE_2.2.6_COMPOSER_v1.patch`文件）
 
-此 `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` 修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+`MDVA-12312_EE_2.2.3_COMPOSER_v1.patch`修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
 
 * 云基础架构上的Adobe Commerce 2.2.4
 * 云基础架构上的Adobe Commerce 2.2.5
@@ -57,12 +59,12 @@ ht-degree: 0%
 * Adobe Commerce内部部署2.2.4
 * Adobe Commerce内部部署2.2.5
 
-此 `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` 修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
+`MDVA-14172_EE_2.2.6_COMPOSER_v1.patch`修补程序与以下Adobe Commerce版本也兼容（但可能无法解决此问题）：
 
 * Adobe Commerce内部部署2.2.6
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中获取说明。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

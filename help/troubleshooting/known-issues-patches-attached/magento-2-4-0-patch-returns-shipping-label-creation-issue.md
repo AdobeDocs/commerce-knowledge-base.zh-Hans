@@ -22,24 +22,24 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
 1. 使用以下核心配送方式之一下单并完成订单：FedEx、DHL、UPS和USPS。
 1. 为此订单创建和授权退货。
-1. 打开授权的 **退货信息** 页面，然后单击 **创建送货标签** 按钮。
+1. 打开授权的&#x200B;**退货信息**&#x200B;页面，然后单击&#x200B;**创建送货标签**&#x200B;按钮。
 1. 选择配送方式，将产品添加到包装中，然后单击“保存”。
 
 <u>预期结果：</u>
 
-已成功创建送货标签，并且您会看到一条消息： *您已创建一个装运标签。*
+已成功创建配送标签，您看到一条消息： *您已创建配送标签。*
 
 <u>实际结果：</u>
 
-此 **退货信息** 页面损坏，并且您会在“返回信息”页面上看到一条错误消息： *此部分已进行常规信息更改但尚未保存。 此选项卡包含无效数据*.
+**返回信息**&#x200B;页已损坏，您在“返回信息”页上看到一条错误消息： *对此分区进行了常规信息更改但尚未保存。 此选项卡包含无效数据*。
 
 ## 解决方案
 
-应用 [patch](assets/MC-35984-2.4.0-CE-composer.patch.zip) 本文提供。
+应用本文中提供的[patch](assets/MC-35984-2.4.0-CE-composer.patch.zip)。
 
 ## Patch
 
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 [MC-35984-2.4.0-CE-composer.patch](assets/MC-35984-2.4.0-CE-composer.patch.zip)
 
-该修补程序也可在以下两个页面中下载： `.git` 和 `.composer`，格式位于 [Adobe Commerce下载](https://magento.com/tech-resources/download) 页面，在 **补丁程序** 在左列导航中。 搜索MC-35984修补程序。
+该修补程序还能够以两种格式（`.git`和`.composer`）下载，它们位于[Adobe Commerce Downloads](https://magento.com/tech-resources/download)页左侧列导航栏中&#x200B;**修补程序**&#x200B;下。 搜索MC-35984修补程序。
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识页面中。
+有关说明，请参阅我们的支持知识页中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 我们的支持知识库中的相关读物：
 

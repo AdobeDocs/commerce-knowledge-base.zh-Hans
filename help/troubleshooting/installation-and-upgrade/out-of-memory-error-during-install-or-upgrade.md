@@ -40,23 +40,23 @@ proc_open(): fork failed - Cannot allocate memory
 
 ## 解决方案 {#solution}
 
-我们推荐您 [为PHP分配2 GB的内存](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) ，以确保安装或升级成功。
+我们建议您[在我们的开发人员文档中为PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)分配2GB的内存，以确保您的安装或升级成功。
 
-如果您已经这样做，请在您的计算机上创建一个交换文件。 Linux计算机使用 *交换空间* 如果它需要更多内存资源并且RAM已满。 交换空间用于内存中的非活动页。
+如果您已经这样做，请在您的计算机上创建一个交换文件。 如果Linux计算机需要更多内存资源并且RAM已满，则它使用&#x200B;*交换空间*。 交换空间用于内存中的非活动页。
 
-以下只是建议；其他选项可能可用。 在继续之前，请咨询网络管理员或其他知识丰富的资源。 必须运行命令以用户身份创建交换文件 `root` 权限。
+以下只是建议；其他选项可能可用。 在继续之前，请咨询网络管理员或其他知识丰富的资源。 您必须运行命令以具有`root`权限的用户身份创建交换文件。
 
 ### 在Ubuntu上交换文件 {#swap-file-on-ubuntu}
 
-使用 `fallocate` 命令，如以下参考中所述：
+使用下列参考中所述的`fallocate`命令：
 
-* [如何在Ubuntu 14.04(Digitalocean)中添加交换](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
-* [如何在Ubuntu 16.04(Digitalocean)中添加交换空间](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
-* [交换常见问题解答(help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
+* [如何在Ubuntu 14.04 (Digitalocean)上添加交换](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
+* [如何在Ubuntu 16.04 (Digitalocean)上添加交换空间](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+* [SwapFaq (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
 
 ### 在CentOS上交换文件 {#swap-file-on-centos}
 
-使用 `mkswap` 命令，如以下参考中所述：
+使用下列参考中所述的`mkswap`命令：
 
 * [如何在CentOS 6 (Digitalocean)中添加交换](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
 * [如何在CentOS 7 (Digitalocean)中添加交换](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)

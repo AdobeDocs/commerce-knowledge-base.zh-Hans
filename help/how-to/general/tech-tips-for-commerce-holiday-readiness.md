@@ -18,8 +18,8 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce，全部 [支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* 云基础架构上的Adobe Commerce，所有[支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)。
 
 ## 下载PDF
 
-单击 [Commerce假日准备工作技术提示。pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf) 下载pdf。
+单击[Commerce假日准备情况的技术提示。pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf)以下载pdf。

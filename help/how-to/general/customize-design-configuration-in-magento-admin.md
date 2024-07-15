@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 在Commerce管理中自定义设计配置
 
-有关在Commerce管理员中自定义设计配置的最新信息，请参阅 [自定义Adobe Commerce管理设计](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html) 在我们的开发人员文档中。
+有关在Commerce管理员中自定义设计配置的最新信息，请参阅我们的开发人员文档中的[自定义Adobe Commerce管理员设计](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html)。

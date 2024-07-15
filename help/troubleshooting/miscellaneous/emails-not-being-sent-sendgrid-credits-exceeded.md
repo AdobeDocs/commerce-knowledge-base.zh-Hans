@@ -25,7 +25,7 @@ SendGrid信用指可以发送的允许电子邮件数。 每月从集成和暂�
 
 ## 如何检查您的积分是否超出：
 
-Adobe Commerce on cloud infrastructure Pro规划架构：查看 `/var/log/mail.log`  — 您可能会看到如下消息：
+云基础架构上的Adobe Commerce Pro计划架构：检查`/var/log/mail.log` — 您可能会看到如下消息：
 
 `May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded).`
 
@@ -35,9 +35,9 @@ Adobe Commerce on cloud infrastructure Pro规划架构：查看 `/var/log/mail.l
 
 ## 解决方案
 
-* 如果您在生产环境中看到此消息， [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 并提供上述报文，请求增加信用额度。
-* 如果您没有看到此消息，或者您使用的是Adobe Commerce on cloud infrastructure入门计划架构，还有 [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 并提及 `mail.log` 文件未指示已超出积分。
+* 如果您在生产环境中看到此消息，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)并提供上述消息并请求增加积分。
+* 如果您没有看到此消息，或者您在云基础架构入门计划架构上的Adobe Commerce上，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，并提及`mail.log`文件未指示信用额度已超出。
 
 ## 相关阅读
 
-* [发送网格](https://devdocs.magento.com/cloud/project/sendgrid.html) 在我们的开发人员文档中。
+* 在我们的开发人员文档中[SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html)。

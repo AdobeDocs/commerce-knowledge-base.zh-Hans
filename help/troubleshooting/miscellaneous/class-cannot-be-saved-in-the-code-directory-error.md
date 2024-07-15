@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # “类无法保存在代码目录中”错误
 
-本文介绍如何修复以下问题：指定依赖项的方式阻止即时自动生成类，并且您获得 *“类无法保存在生成的/代码目录中”* 错误消息。
+本文介绍如何修复以下问题：指定依赖项的方式阻止即时自动生成类，并且您收到&#x200B;*“类无法保存在生成的/代码目录中”*&#x200B;错误消息。
 
 ## 受影响的产品和版本
 
@@ -21,28 +21,28 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
 1. 在本地环境中，编写依赖于自动生成类的自定义类。
 1. 运行触发自定义类的方案，并查看其是否正常运行。
 1. 提交更改并将其推送到集成环境。 这将触发部署过程。 部署成功。
-1. 在 [集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)，运行触发自定义类的方案。
+1. 在[集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)中，运行触发自定义类的方案。
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 一切正常，就像在本地环境中一样。
 
 <u>实际结果</u>
 
-失败并显示错误消息，指出您的类无法保存在中 `generated/code` 目录。
+失败，错误消息指出您的类无法保存在`generated/code`目录中。
 
 ## 原因
 
-问题的原因在于，您具有依赖关系的类不会在部署期间生成，并且无法在稍后触发该类时动态生成，因为 `generated/code` 部署完成后，目录无法写入。
+问题的原因在于，您具有依赖关系的类不会在部署期间生成，并且无法在触发该类时稍后即时生成，因为在部署完成后，`generated/code`目录将无法写入。
 
 发生这种情况有两个主要原因：
 
-* 用例1：与自动生成类具有依赖关系的类位于入口点(如 `index.php` )，在部署期间不会扫描依赖关系。
+* 用例1：对自动生成类具有依赖关系的类位于入口点（如`index.php`）中，在部署期间不会扫描该入口点以确定依赖关系。
 * 用例2：直接指定对自动生成类的依赖关系（与建议使用的构造函数声明依赖关系进行比较）。
 
 ## 解决方案
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 <u>示例</u>
 
-中的原始代码，例如， `index2.php` ：
+中的原始代码，例如`index2.php` ：
 
 ```php
 <?php
@@ -85,7 +85,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
 
 您需要执行以下步骤：
 
-1. 将类定义移到 `app/code/YourVendor/YourModule`：
+1. 将类定义移动到`app/code/YourVendor/YourModule`：
 
    ```php
       <?php
@@ -103,7 +103,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
        }
    ```
 
-1. 编辑入口点 `my_api/index.php` 因此，它看起来如下所示：
+1. 编辑入口点`my_api/index.php`，使其类似于以下内容：
 
    ```php
      <?php
@@ -170,4 +170,4 @@ class YourClass
 
 ## 相关阅读
 
-* [代码生成](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) 在我们的开发人员文档中。
+* 在我们的开发人员文档中[代码生成](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html)。

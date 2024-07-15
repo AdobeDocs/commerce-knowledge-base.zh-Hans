@@ -22,12 +22,12 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
-1. 转到 **管理面板** > **内容** > **页面**，并选择 **编辑** 任何页面的。
-1. 转到 **内容** 然后单击 **使用页面生成器编辑** 按钮。
-1. 拖动 **数字表单** 阻止并选择 **编辑**.
-1. 选择一个测试表单，然后选择 **嵌入式** 模式并保存表单。
+1. 转到&#x200B;**管理员面板** > **内容** > **页面**，然后选择任何页面的&#x200B;**编辑**。
+1. 转到&#x200B;**内容**&#x200B;并单击&#x200B;**使用页面生成器编辑**&#x200B;按钮。
+1. 拖动&#x200B;**dotdigital form**&#x200B;块并选择&#x200B;**编辑**。
+1. 选择一个测试表单，然后选择&#x200B;**嵌入式**&#x200B;模式并保存该表单。
 1. 保存页面修改。
 
 <u>预期结果：</u>
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [什么是Page Builder？](https://devdocs.magento.com/page-builder/docs/) 在我们的开发人员文档中。
-* [Page Builder设置](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) 在我们的开发人员文档中。
-* [页面生成器](https://docs.magento.com/user-guide/cms/page-builder.html) 在我们的用户指南中。
-* [页面生成器 — 元素](https://docs.magento.com/user-guide/cms/page-builder-elements.html) 在我们的用户指南中。
+* [什么是页面生成器？](https://devdocs.magento.com/page-builder/docs/)位于我们的开发人员文档中。
+* 在开发人员文档中[页面生成器设置](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)。
+* 我们用户指南中的[页面生成器](https://docs.magento.com/user-guide/cms/page-builder.html)。
+* 用户指南中的[页面生成器 — 元素](https://docs.magento.com/user-guide/cms/page-builder-elements.html)。

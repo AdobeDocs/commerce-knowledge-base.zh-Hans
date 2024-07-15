@@ -21,29 +21,29 @@ Adobe Commerce 2.3.x
 
 ## 问题 {#symptoms}
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
-(先决条件：确保该存储不在 [维护模式](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show))。
+（先决条件：确保存储不处于[维护模式](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)）。
 
 在Web浏览器中导航到您的Commerce管理员或店面。
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 页面加载。
 
 <u>实际结果</u>
 
-您收到HTTP 503 （服务不可用）错误。 Apache `error.log` 包括以下消息：
+您收到HTTP 503 （服务不可用）错误。 Apache `error.log`包含以下消息：
 
 *命令“Order”无效，可能拼写错误或由未包含在服务器配置中的模块定义。*
 
 ## 原因 {#details}
 
-Apache 2.4兼容性模块 `mod_access_compat` 已禁用，这将导致Adobe Commerce URL重写无法正常工作。
+Apache 2.4兼容模块`mod_access_compat`已禁用，这会导致Adobe Commerce URL重写无法正常工作。
 
 ## 解决方案 {#suggested-solution}
 
-启用 `mod_access_compat` Apache模块并重新启动Apache，方法是以具有“root”权限的用户身份运行以下命令：
+以具有“root”权限的用户身份运行以下命令，以启用`mod_access_compat` Apache模块并重新启动Apache：
 
 ```bash
 a2enmod access_compat
@@ -78,7 +78,7 @@ apache2
 
 ## 相关阅读 {#additional-resources}
 
-* [Apache有关mod\_access\_compat的文档](https://httpd.apache.org/docs/current/mod/mod_access_compat.html)
-* [Apache有关mod\_authz\_host的文档](https://httpd.apache.org/docs/current/mod/mod_authz_host.html)
-* [Apache Definitive指南中的Order、Allow、Deny](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
+* [有关mod\_access\_compat](https://httpd.apache.org/docs/current/mod/mod_access_compat.html)的Apache文档
+* [有关mod\_authz\_host](https://httpd.apache.org/docs/current/mod/mod_authz_host.html)的Apache文档
+* 从Apache Definitive指南[订购、允许、拒绝](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
 * [askubuntu.com](https://askubuntu.com/questions/335228/changes-in-apache-config-between-12-04-2-and-12-04-3-lts)

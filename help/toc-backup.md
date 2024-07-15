@@ -12,13 +12,13 @@ ht-degree: 0%
 # Adobe Commerce 知识库 {#kb}
 
 * [Commerce帮助中心主页](overview.md)
-* 支持工具 {#support-tools}
+* 支持工具{#support-tools}
    * [概述](/help/support-tools/overview.md)
-   * 站点范围分析工具 {#site-wide-analysis-tool}
+   * 站点范围分析工具{#site-wide-analysis-tool}
       * [按Adobe划分的站点范围分析工具：概述](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
-   * Adobe Commerce观察 {#observation}
+   * Adobe Commerce {#observation}的观察结果
       * [Adobe Commerce观察概述](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
-   * Adobe Commerce上的受管警报 {#managed-alerts}
+   * Adobe Commerce {#managed-alerts}上的托管警报
       * [Adobe Commerce上的托管警报：Redis内存严重警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
       * [Adobe Commerce托管警报：磁盘警告警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
       * [Adobe Commerce的受管警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)
@@ -31,7 +31,7 @@ ht-degree: 0%
       * [在Adobe Commerce上管理警报：MariaDB警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
       * [Adobe Commerce的受管警报：Apdex警告警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
       * [Adobe Commerce的受管警报：CPU警告警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
-   * QPT工具中可用的修补程序 {#patches}
+   * QPT工具{#patches}中可用的修补程序
       * [MDVA-24201：目录价格规则不起作用](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
       * [MDVA-33281修补程序：清单不一致问题](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md)
       * [MDVA-42950：视频不会在产品页面上播放](/help/support-tools/patches-available-in-qpt-tool/mdva-42950-videos-dont-play-on-the-product-page.md)
@@ -311,9 +311,9 @@ ht-degree: 0%
       * [MDVA-38308：将Vimeo视频添加到禁用的产品时出错](/help/support-tools/patches-available-in-qpt-tool/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
       * [MDVA-34189：可视化促销程序运行长MySQL查询](/help/support-tools/patches-available-in-qpt-tool/mdva-34189-visual-merchandiser-runs-long-mysql-queries.md)
       * [MDVA-34886：使用“权重”属性时没有搜索结果](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
-* 公告 {#announcements}
+* 公告{#announcements}
    * [公告概述](/help/announcements/overview.md)
-   * Adobe Commerce公告 {#commerce-announcements}
+   * Adobe Commerce公告{#commerce-announcements}
       * [集成环境增强请求 — Pro和Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [针对云基础架构上的Adobe Commerce的假期激增容量请求](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [适用于Adobe Commerce的升级兼容性工具1.1.0](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
@@ -327,23 +327,23 @@ ht-degree: 0%
       * [2.4 2022年1月26日Adobe Commerce升级研讨会](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
       * [Adobe Commerce 2.4.0中将删除MySQL目录搜索引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Adobe支持客户数据访问和隐私](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
-   * 帮助中心新闻 {#news}
+   * 帮助中心新闻{#news}
       * [MBI文档已移动](/help/announcements/help-center-news/mbi-documentation-got-moved.md)
       * [每两周Adobe Commerce支持知识库新闻稿：新文章和更新](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
       * [Adobe Commerce支持知识库开始接受投稿](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
-* 最佳实践 {#best-practices}
+* 最佳实践{#best-practices}
    * [概述](/help/best-practices/overview.md)
-   * 配置 {#configuration}
+   * 配置{#configuration}
       * [Adobe Commerce中OPcache内存大小的最佳实践](/help/best-practices/configuration/best-practice-for-opcache-memory-size-in-magento-commerce.md)
       * [Realpath缓存大小最佳实践](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [在Adobe Commerce中优化CSS和JS文件](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
-   * 数据库 {#database}
+   * 数据库{#database}
       * [Adobe Commerce 2.3.5升级：压缩为动态表](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
       * [触发器使用最佳实践](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [Adobe Commerce中有关云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
       * [适用于MySQL从属连接的云基础架构上的Adobe Commerce最佳实践](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
       * [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
-   * 常规 {#general}
+   * 常规{#general}
       * [私有内容块中的_isScopePrivate会降低Adobe Commerce性能](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [Adobe Commerce在云基础架构上的疑难解答最佳实践](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
       * [Adobe安全通知服务](/help/best-practices/general/adobe-security-notification-service.md)
@@ -362,7 +362,7 @@ ht-degree: 0%
       * [Adobe Commerce中的最大销售规则最佳实践](/help/best-practices/general/max-sales-rules-best-practice-in-magento.md)
    * Redis {#redis}
       * [扩展Redis缓存实施Adobe Commerce 2.3.5+](/help/best-practices/redis/extended-redis-cache-implementation-magento-commerce-2.3.5.md)
-   * 性能 {#performance}
+   * 性能{#performance}
       * [Adobe Commerce产品属性最佳实践](/help/best-practices/performance/best-practice-magento-product-attributes.md)
       * [Adobe Commerce中的最大优惠券数量](/help/best-practices/performance/maximum-number-of-coupons-in-magento.md)
       * [最佳实践Adobe Commerce类别数限制](/help/best-practices/performance/best-practice-magento-number-of-categories-limits.md)
@@ -377,9 +377,9 @@ ht-degree: 0%
       * [Adobe Commerce中渲染阻止资源的最佳实践](/help/best-practices/performance/best-practices-for-render-blocking-resources-in-magento.md)
       * [Adobe Commerce购物车中产品数量的最佳实践](/help/best-practices/performance/best-practice-for-number-of-products-in-cart-in-magento.md)
       * [Adobe Commerce产品属性选项的最佳实践](/help/best-practices/performance/best-practices-for-magento-product-attribute-options.md)
-* 疑难解答 {#troubleshooting}
+* 疑难解答{#troubleshooting}
    * [概述](/help/troubleshooting/overview.md)
-   * 一般故障排除 {#general}
+   * 常规疑难解答{#general}
       * [Adobe Commerce中的产品Recommendations模块疑难解答](/help/troubleshooting/general/troubleshoot-product-recommendations-module-in-magento-commerce.md)
       * [云基础架构上的Adobe Commerce中的磁盘空间不足时安全删除文件](/help/troubleshooting/general/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
       * [robots.txt未更新或显示默认设置](/help/troubleshooting/general/robots-txt-not-updated-or-displaying-default-settings.md)
@@ -598,7 +598,7 @@ ht-degree: 0%
       * [高吞吐量AJAX请求导致性能不佳](/help/troubleshooting/general/high-throughput-ajax-requests-cause-poor-performance.md)
       * [PWA Studio：浏览器显示“无法代理到”错误](/help/troubleshooting/general/pwa-studio-browser-displays-cannot-proxy-to-error.md)
       * [Adobe Commerce 2.4.0已知问题： Klarna现场消息传递空白页](/help/troubleshooting/general/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
-      * [运行安装程序:static-content:部署deployed_version.txt问题](/help/troubleshooting/general/run-setup-static-content-deploy-deployed-version-txt-issue.md)
+      * [运行安装程序:static-content:deployed_version.txt问题](/help/troubleshooting/general/run-setup-static-content-deploy-deployed-version-txt-issue.md)
       * [单次使用优惠券多次，Adobe Commerce](/help/troubleshooting/general/coupon-code-used-more-than-once-adobe-commerce.md)
       * [重定向回Commerce管理员登录表单，其中显示“您的帐户暂时被禁用”错误](/help/troubleshooting/general/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
       * [部署后禁用Google Analytics](/help/troubleshooting/general/google-analytics-gets-disabled-after-deployment.md)
@@ -614,12 +614,12 @@ ht-degree: 0%
       * [清除Commerce Admin中的缓存时出错](/help/troubleshooting/general/error-purging-cache-in-admin.md)
       * [在Adobe Commerce上超过SendGrid信用时未发送电子邮件](/help/troubleshooting/general/emails-not-being-sent-sendgrid-credits-exceeded.md)
       * [Adobe Commerce 2.4.1：保存dotdigital Page Builder表单时显示空页面](/help/troubleshooting/general/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
-   * 已知问题 {#known-issues}
+   * 已知问题{#known-issues}
       * [多次单击从迷你购物车结帐时出现空购物车问题](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
       * [2.3.4 PayPal问题修补程序](/help/troubleshooting/known-issues-patches-attached/2-3-4-paypal-issue-hotfix.md)
       * [Adobe Commerce 2.4.4：无法创建部分发票](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [新订单将发送到存档](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [将Authorize.Net直邮从MD5更新为SHA-512](/help/troubleshooting/known-issues-patches-attached/update-authorize.net-direct-post-from-md5-to-sha-512.md)
+      * [将Authorize.Net直接Post从MD5更新至SHA-512](/help/troubleshooting/known-issues-patches-attached/update-authorize.net-direct-post-from-md5-to-sha-512.md)
       * [高级报告cron作业错误Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
       * [从数据库中删除失败的登录尝试](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md)
       * [更新高级报告以在其自己的cron组上运行](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)
@@ -669,10 +669,10 @@ ht-degree: 0%
       * [Adobe Commerce提示客户登录无效链接](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
       * [Adobe Commerce 2.4.0中的配送标签创建已知问题](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
       * [B2B：公司无法访问店面的配置文件页面](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
-* 帮助中心指南 {#help-center-guide}
+* 帮助中心指南{#help-center-guide}
    * [Adobe Commerce帮助中心用户指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Adobe Commerce支持票证生命周期策略更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
-* 操作方法 {#how-to}
+* 操作方法{#how-to}
    * [概述](/help/how-to/overview.md)
    * [MBI Essentials：更新付款方式或取消订阅](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [MBI培训视频： SQLReport Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
@@ -731,7 +731,7 @@ ht-degree: 0%
    * [MBI：创建和编辑高级计算列](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [检查云基础架构上Adobe Commerce的磁盘空间限制](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [云基础架构上Adobe Commerce的SSL (TLS)证书](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
-   * [无法访问最新的测试版](/help/how-to/general/cannot-access-the-latest-beta-version.md)
+   * [无法访问最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [切换应用程序模式](/help/how-to/general/switch-the-magento-mode.md)
    * [如何登录Adobe Commerce在云基础架构上提供的Fastly帐户](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [显示Adobe Commerce错误报告编号而不是Fastly 503错误](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
@@ -742,7 +742,7 @@ ht-degree: 0%
    * [Adobe Commerce在云基础架构上的第三方测试提示](/help/how-to/general/share-access-third-party.md)
    * [访问Adobe Commerce客户支持指南](/help/how-to/general/access-the-magento-commerce-customer-support-guide.md)
    * [如何订阅Adobe Commerce状态更新](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
-* 常见问题解答 {#faq}
+* 常见问题解答{#faq}
    * [概述](/help/faq/overview.md)
    * [Fastly支持的Web应用程序防火墙(WAF)：常见问题解答](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
    * [核心Adobe Commerce支付集成已弃用](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
@@ -769,7 +769,7 @@ ht-degree: 0%
    * [Adobe Commerce软件终止支持常见问题解答](/help/faq/general/adobe-commerce-eos-policy-faq.md)
    * [我是否需要Fastly才能使用Headless Adobe Commerce网站？](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
    * [云基础架构上的Adobe Commerce：共享暂存迁移到专用基础架构](/help/faq/general/magento-commerce-cloud-shared-staging-migration-to-dedicated-infrastructure.md)
-* 新建文件 {#new-files}
+* 新文件{#new-files}
    * [帮助中心主页](/help/overview.md)
    * [在我们的云专业架构上，将数据库auto_increment_增量变量设置为“3”Adobe Commerce](/help/faq/general/database-auto_increment_-increment-variable-set-to-3-magento-cloud-pro.md)
    * [旧版欧盟地区的集成环境迁移](/help/announcements/adobe-commerce-announcements/integration-environments-migration-to-new-regions-for-eu-and-us.md)
@@ -1058,7 +1058,7 @@ ht-degree: 0%
    * [ACSD-45488：具有多个来源的可配置产品不会自动退货](/help/support-tools/patches-available-in-qpt-tool/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md)
    * [ACSD-46146：管理员下订单后发送了两封订单确认电子邮件](/help/support-tools/patches-available-in-qpt-tool/acsd-46146-two-order-confirmation-emails-are-sent-after-placing-order-from-admin.md)
    * [MDVA-43824：订单取消操作失败，错误为“尚未取消项目”](/help/support-tools/patches-available-in-qpt-tool/mdva-43824-order-cancellation-action-failed-with-error.md)
-   * [MDVA-39605： Redis缓存TTL（过期日期）的值错误](/help/support-tools/patches-available-in-qpt-tool/mdva-39605-redis-cache-ttl-expiration date-has-wrong-value.md)
+   * [MDVA-39605： Redis缓存TTL （过期日期）的值错误](/help/support-tools/patches-available-in-qpt-tool/mdva-39605-redis-cache-ttl-expiration date-has-wrong-value.md)
    * [MDVA-30599：customer_is_guest设置不正确](/help/support-tools/patches-available-in-qpt-tool/mdva-30599-magento-patch-customer_is_guest-is-set-incorrectly.md)
    * [MDVA-44100：所有FPT均已分配给购物车中的最后一个产品](/help/support-tools/patches-available-in-qpt-tool/mdva-44100-all-fpts-are-assigned-to-the-last-product-in-the-shopping-cart-and-reset-for-other-product.md)
    * [MDVA-21095： INSERT INTO &quot;search_tmp...&quot;在批量属性更新后从不结束](/help/support-tools/patches-available-in-qpt-tool/mdva-21095-insert-into-search_tmp...-never-ends-after-mass-attribute-update.md)

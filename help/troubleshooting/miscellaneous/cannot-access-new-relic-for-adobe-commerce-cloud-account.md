@@ -1,6 +1,6 @@
 ---
-title: 无法访问 [!DNL New Relic] 在Adobe Commerce云项目上
-description: 本文为当您无法访问时提供了解决方案 [!DNL New Relic] ，尽管该项目已被添加到Adobe Commerce上的云项目中。
+title: 无法在Adobe Commerce云项目中访问 [!DNL New Relic]
+description: 本文为无法访问 [!DNL New Relic] 提供了解决方案，尽管您已被添加到Adobe Commerce上的云项目中。
 exl-id: bafe2dd9-8a16-4249-b814-7e421e25e828
 feature: Cloud, Observability, Paas
 role: Developer
@@ -11,26 +11,26 @@ ht-degree: 0%
 
 ---
 
-# 无法访问 [!DNL New Relic] 在Adobe Commerce Cloud项目上
+# 无法访问Adobe Commerce Cloud项目上的[!DNL New Relic]
 
-本文为当您无法访问时提供了解决方案 [!DNL New Relic] 添加到某个Adobe Commerce云项目后。
+本文提供一种解决方案，用于解决即使您添加到Adobe Commerce云项目也无法访问[!DNL New Relic]的问题。
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce全部 [支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* 云基础架构上的Adobe Commerce所有[支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 问题
 
-尽管已添加到云项目，您仍然无法访问 [!DNL New Relic] 该项目的帐户。
+尽管已添加到云项目，您仍无法访问该项目的[!DNL New Relic]帐户。
 
 ## 原因
 
-添加到云项目不会自动授予您 [!DNL New Relic] 访问权限。
+添加到云项目不会自动授予您[!DNL New Relic]访问权限。
 
 ## 解决方案
 
-联系New Relic帐户所有者，请求他们将您添加到其帐户 [!DNL New Relic].
+联系New Relic帐户所有者，要求他们在[!DNL New Relic]中将您添加到其帐户。
 
 ## 相关阅读
 
-[管理 [!DNL New Relic] 帐户](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account) 在我们的开发人员文档中。
+在我们的开发人员文档中[管理 [!DNL New Relic] 帐户](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account)。

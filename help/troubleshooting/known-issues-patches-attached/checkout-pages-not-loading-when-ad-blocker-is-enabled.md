@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 问题
 
-如果为商店启用了Google Analytics，则当安装了uBlock或其他广告拦截器的客户开始结账时， `trackingCode.js` 文件被阻止加载，RequireJS中断JS执行流。 这会导致加载签出页面时出现问题。
+如果为应用商店启用了Google Analytics，则当安装了uBlock或其他广告阻止程序的客户进行结账时，将阻止`trackingCode.js`文件加载，并且RequireJS会中断JS执行流程。 这会导致加载签出页面时出现问题。
 
 <u>重现问题的步骤</u> ：
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 1. 在Commerce管理员中，启用和配置Google Analytics功能。
 1. 在店面打开产品页。
 1. 将产品添加到购物车。
-1. 单击 **转至结帐** 链接。
+1. 单击&#x200B;**转到结帐**&#x200B;链接。
 
-<u>预期结果</u>：加载结账页面，客户可以完成结账。
+<u>预期结果</u>：已加载签出页面，客户可以完成签出。
 
-<u>实际结果</u>：未加载签出页面；加载旋转图标从不会消失。
+<u>实际结果</u>：未加载签出页面；加载进度环永不消失。
 
 ## Patch
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 有用的链接
 

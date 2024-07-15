@@ -24,7 +24,7 @@ ht-degree: 0%
 
 当两个或多个事务相互保留并请求锁时，就会在MySQL中出现死锁。 存在的死锁并不总是指示问题，但通常是已发生的某个其他MySQL或Adobe Commerce问题的症状。
 
-应用程序、部署或MySQL日志通常会提及 *&quot;deadlock&quot;* 错误或错误 *“尝试获取锁定时发现死锁；请尝试重新启动事务。”*
+应用程序、部署或MySQL日志通常会提及&#x200B;*“死锁”*&#x200B;错误或错误&#x200B;*“尝试获取锁定时发现死锁；请尝试重新启动事务。”*
 
 ## 原因
 
@@ -36,16 +36,16 @@ ht-degree: 0%
 
 1. 检查应用程序、部署或MySQL日志中是否有死锁错误：
    * [Adobe Commerce和Magento Open Source日志位置](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [云基础架构上的Adobe Commerce记录位置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
-1. 检查您的MySQL进程列表，了解如何使用命令运行进程 `mysql -e 'show full processlist';`
-1. 如果在云基础架构上的Adobe Commerce上，请检查MySQL从属是否启用。 请参阅本文： [部署变量(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
-1. 根据所涉及的错误，解决方案可能会自行出现，或者您可能需要在需要打开时包含有用的日志信息 [支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+   * 云基础架构上的[Adobe Commerce日志位置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+1. 检查您的MySQL进程列表，了解如何使用命令`mysql -e 'show full processlist';`运行进程
+1. 如果在云基础架构上的Adobe Commerce上，请检查MySQL从属是否启用。 请参阅本文： [部署变量(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection)。
+1. 根据所涉及的错误，解决方案可能会自行出现，或者您可能需要在需要打开[支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)时提供有用的日志信息。
 
 ## 相关阅读
 
 * [如何最小化并处理死锁](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
 * [索引器优化 — 索引器表切换](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
-* [批量操作 — 使用消息](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
+* [批量操作 — 使用邮件](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
 
 >[!NOTE]
 >

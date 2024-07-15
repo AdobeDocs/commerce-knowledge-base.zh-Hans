@@ -21,6 +21,6 @@ ht-degree: 0%
 * 如何将过滤器集应用于量度
 * 如何将筛选器集应用到计算的数据维度
 
-要观看视频，请访问 [Commerce Intelligence — 筛选器集](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) 在Adobe Experience League中。
+若要观看视频，请转到Adobe Experience League中的[Commerce Intelligence — 筛选集](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html)。
 
-**想跟着吗？** 查看我们的 [创建量度的过滤器集教程](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) 以获取书面说明。
+**要关注吗？**&#x200B;请查看我们的[为量度创建筛选器集教程](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)以了解书面说明。

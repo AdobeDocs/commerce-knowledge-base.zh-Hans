@@ -35,19 +35,19 @@ Adobe CommercePWA Studio
 yarn buildpack create-custom-origin ./
 ```
 
-证书生成由处理 [设备证书](https://github.com/davewasmer/devcert). 它依赖于OpenSSL，因此使用以下命令确保您的系统上有openssl的当前版本：
+生成证书由[devcert](https://github.com/davewasmer/devcert)处理。 它依赖于OpenSSL，因此使用以下命令确保您的系统上有openssl的当前版本：
 
 `openssl version`
 
 版本应为1.0或更高版本（对于OSX High Sierra，则为LibreSSL 2）。
 
-您可以通过以下方式安装较高版本的OpenSSL： [Homebrew](https://brew.sh/) 在OSX上， [巧克力](https://chocolatey.org/) 在Windows上或Linux分发的包管理器上。
+您可以在OSX上安装[Homebrew](https://brew.sh/)的OpenSSL较高版本，在Windows上安装[Chocolatey](https://chocolatey.org/)，或者安装Linux分发的包管理器。
 
-如果您运行的是Linux，请确保 `libnss3-tools` （或等效项）安装在您的系统上。 本节中提供的进一步信息 [设备证书](https://github.com/davewasmer/devcert#skipcertutil) 自述文件。
+如果您正在运行Linux，请确保您的系统上安装了`libnss3-tools`（或等效项）。 [devcert](https://github.com/davewasmer/devcert#skipcertutil)自述文件的此部分提供了详细信息。
 
 一些用户建议删除devcert文件夹以触发证书重新生成。
 
-* 对于MacOS用户，此文件夹通常位于以下位置： `{{~/Library/Application Support/devcert }}`
+* 对于MacOS用户，此文件夹通常位于： `{{~/Library/Application Support/devcert }}`
 * 对于Windows用户，此文件夹通常位于： `${User}\AppData\Local\devcert`
 
 ## 我们的支持知识库中的相关阅读

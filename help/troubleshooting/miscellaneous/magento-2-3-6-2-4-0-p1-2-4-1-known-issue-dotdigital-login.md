@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知问题： dotdigital login
 
-本文介绍了无法登录的Adobe Commerce 2.3.6、2.4.0-p1和2.4.1已知问题 [dotdigital](https://dotdigital.com/) 启用dotdigital帐户后通过“管理面板”。
+本文介绍了一个Adobe Commerce 2.3.6、2.4.0-p1和2.4.1已知问题，其中在启用dotdigital帐户的情况下，无法通过Admin Panel登录到[dotdigital](https://dotdigital.com/)。
 
 ## 受影响的产品和版本
 
@@ -28,12 +28,12 @@ ht-degree: 0%
 1. dotdigital帐户存在。
 1. Adobe Commerce中存在有效的dotdigital API凭据。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 转到 **商店** > **配置** > **DOTDIGITAL** > **聊天设置** > **已启用** 设置为 *是的。*
-1. 单击 **配置** 在 **配置聊天小组件** 或 **配置聊天团队**.
+1. 转到&#x200B;**商店** > **配置** > **DOTDIGITAL** > **聊天设置** > **已启用**&#x200B;设置为&#x200B;*是。*
+1. 单击&#x200B;**配置聊天小组件**&#x200B;中的&#x200B;**配置**&#x200B;或&#x200B;**配置聊天团队**。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 应通过管理员面板成功打开聊天设置页面。
 
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-[Adobe Commerce 2.4.1已知问题 — 无法使用其他送货/帐单地址验证顶点地址](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) 在我们的支持知识库中。
+[Adobe Commerce 2.4.1已知问题 — 在我们的支持知识库中，无法使用其他送货/帐单地址验证顶点地址](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)。

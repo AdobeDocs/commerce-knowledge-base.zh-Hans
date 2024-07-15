@@ -1,6 +1,6 @@
 ---
-title: '''概述： [!DNL Quality Patches Tool] (QPT) v1.1.0`'
-description: 此子部分详细说明了中提供的修补程序所修复的问题。 [!DNL Quality Patches Tool] (QPT) v1.1.0。
+title: '概述： [!DNL Quality Patches Tool] (QPT) v1.1.0'
+description: 此子部分详细描述了 [!DNL Quality Patches Tool] (QPT) v1.1.0中提供的修补程序所修复的问题。
 exl-id: e099e388-85a8-4885-a658-fb8801c94c7c
 feature: Tools and External Services
 role: Admin
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # [!DNL Quality Patches Tool] (QPT) v1.1.0概述
 
-此子部分详细说明了中提供的修补程序所修复的问题。 [!DNL Quality Patches Tool] (QPT) v1.1.0。
+此子部分详细描述了[!DNL Quality Patches Tool] (QPT) v1.1.0中提供的修补程序所修复的问题。
 
 QPT v1.1.0包含以下修补程序：
 
-1. **MDVA-37592**：修复了按价格排序对分配给共享目录的“零价格”产品无法正常工作的问题。
+1. **MDVA-37592**：修复了按价格排序对分配给共享目录的零价格产品无法正常工作的问题。
 1. **MDVA-38799**：修复了在创建暂存更新后未保存可下载产品的问题。
 1. **MDVA-38827**：修复了客户收到包含错误消息的订单装运电子邮件的问题。
 

@@ -30,22 +30,22 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Apdex得分低：</p>
-<p>您的New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex得分</a> 衡量用户对Web应用程序和服务的响应时间的满意度。</p>
+<p>您的New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex得分</a>衡量用户对Web应用程序和服务的响应时间的满意度。</p>
 </td>
 <td>
-<p>您登录到 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概述。 在“概述”页面的右侧，您会看到Apdex得分图。 Apdex得分为0.5或以下是一个值得关注的问题，需要调查：Web事务时间（服务器请求）：</p>
+<p>您登录到<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概述。 在“概述”页面的右侧，您会看到Apdex得分图。 Apdex得分为0.5或以下是一个值得关注的问题，需要调查：Web事务时间（服务器请求）：</p>
 <ol>
 <ol>
-<li>登录 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;（选择应用程序）&gt;概述。 确保在主图表下拉过滤器上将过滤器设置为Web事务时间。 在“事务”表的下方，查找应用程序服务器时间。 验证是否有任何长期运行或可疑的交易。</li>
-<li>通过转到监控&gt;事务来单独调查这些事件，并确保为Web和最耗时的事务设置过滤器<em>.</em>
+<li>登录到<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; （选择应用程序） &gt;概述。 确保在主图表下拉过滤器上将过滤器设置为Web事务时间。 在“事务”表的下方，查找应用程序服务器时间。 验证是否有任何长期运行或可疑的交易。</li>
+<li>通过转至“监控”&gt;“事务”逐个调查，并确保为Web和最耗时的<em>.</em>设置筛选器
 </li>
 <li>然后搜索使用资源的第三方模块：支付提供商、ERP等。</li>
 <li>在APM的“监视”部分中：<ol>
 <li>单击“事务”。</li>
 <li>向下滚动，单击显示所有事务表。</li>
-<li>您可以按以下方式排序事务： <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">各种参数</a> 跳到那些引起怀疑的人。</li>
+<li>您可以按<a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">各种参数</a>对事务进行排序，并跳转到引起怀疑的事务。</li>
 <li>查看Apdex得分低、Count异常高或Avg时间长或Dissat %的事务。</li>
-<li>单击每个单独的事务。 如果不能解决问题， <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">提交支持服务单。</a>
+<li>单击每个单独的事务。 如果无法解决此问题，请<a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">提交支持票证。</a>
 </li>
 <li>如果需要进一步调查，请考虑检查非Web事务。</li>
 </ol>
@@ -55,12 +55,12 @@ ht-degree: 0%
 <p>非Web事务时间（操作和后台任务）：</p>
 <ol>
 <ol>
-<li>登录 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;（选择应用程序）&gt;概述。 确保在主图形下拉过滤器中选择非Web事务时间。 单击“事务处理”表中的单个事务处理。 查找长期运行或可疑的交易。 这包括后端作业、cron作业或导入/导出作业（包括第三方作业）。</li>
+<li>登录到<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; （选择应用程序） &gt;概述。 确保在主图形下拉过滤器中选择非Web事务时间。 单击“事务处理”表中的单个事务处理。 查找长期运行或可疑的交易。 这包括后端作业、cron作业或导入/导出作业（包括第三方作业）。</li>
 </ol>
 </ol>
 </td>
 <td>
-<p>要了解有关New Relic Apdex得分的更多信息，请参阅 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic文档&gt; APM附录&gt;衡量用户满意度</a>. 您也可以参阅 <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Adobe Commerce的受管警报：Apdex警告警报</a> 在我们的支持知识库中。</p>
+<p>要了解有关New Relic Apdex得分的更多信息，请参阅<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic文档&gt; APM Apdex &gt;衡量用户满意度</a>。 您还可以在我们的支持知识库中参考<a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Adobe Commerce托管警报：Apdex警告警报</a>。</p>
 </td>
 </tr>
 <tr>
@@ -70,12 +70,12 @@ ht-degree: 0%
 </td>
 <td>
 <ol>
-<li>登录 <a href="https://login.newrelic.com/login">New Relic</a> &gt;基础架构&gt;流程。</li>
+<li>登录到<a href="https://login.newrelic.com/login">New Relic</a> &gt;基础架构&gt;进程。</li>
 <li>查看CPU图形，查看是否存在占用超过100% CPU时间的停滞或高耗时的进程，并与实例上的处理器计数进行比较。 请注意资源利用率的高峰。 不建议您终止进程，除非该进程处于卡住状态。</li>
 </ol>
 </td>
 <td>
-<p>要了解有关性能度量，特别是CPU百分比、I/O字节数和单个进程或进程组的内存使用率的详细信息，请参阅 <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic文档&gt;基础架构UI页面&gt;基础架构主机页面&gt;流程选项卡</a>.</p>
+<p>要了解有关性能指标的更多信息，特别是单个或进程组的CPU百分比、I/O字节数和内存使用率，请参阅<a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic文档&gt;基础架构UI页面&gt;基础架构主机页面&gt;进程选项卡</a>。</p>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 <td>
 <p>与以前的平均I/O操作相比，请寻找不寻常的峰值：</p>
 <ol>
-<li>登录 <a href="https://login.newrelic.com/login">New Relic</a> &gt;基础架构&gt;流程。</li>
+<li>登录到<a href="https://login.newrelic.com/login">New Relic</a> &gt;基础架构&gt;进程。</li>
 <li>查看“I/O每秒读取字节数”图表。</li>
 <li>记录尖峰的时间。</li>
 <li>单击APM。</li>
@@ -103,7 +103,7 @@ ht-degree: 0%
 <td>
 <p>调查中断可能需要几个步骤，包括检查Web和非Web事务、数据库和第三方事务。 Web事务：</p>
 <ol>
-<li>登录 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概述。 确保在下拉图形过滤器上将该过滤器设置为Web事务时间。</li>
+<li>登录到<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概述。 确保在下拉图形过滤器上将该过滤器设置为Web事务时间。</li>
 <li>手动缩小时间范围。</li>
 <li>单击“事务”。 确保将过滤器设置为Web且最耗时。 调查运行时间最长的事务处理。</li>
 <li>如果需要进一步调查，请考虑检查非Web事务。</li>
@@ -121,7 +121,7 @@ ht-degree: 0%
 <li>按最耗时的内容排序。</li>
 <li>查看热门查询。
 
-注意： <code>更新</code> 或 <code>插入</code>查询是占用最多的CPU的查询。</li>
+注意： <code>更新</code> 或<code>插入</code>查询是占用最多的CPU的查询。</li>
 <li>从排序依据选择器切换到吞吐量，并查找导致数据库吞吐量下降的进程。</li>
 <li>如果需要进一步调查，请考虑检查第三方服务。</li>
 </ol>
@@ -133,7 +133,7 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>要了解有关调查特定性能问题的更多信息，请参阅 <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#tx_functions">New Relic文档&gt; APM UI页&gt;交易页&gt;使用向下钻取函数</a>.</p>
+<p>要了解有关调查特定性能问题的更多信息，请参阅<a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#tx_functions">New Relic文档&gt; APM UI页面&gt;事务页面&gt;使用向下钻取函数</a>。</p>
 </td>
 </tr>
 </tbody>

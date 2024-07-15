@@ -30,12 +30,12 @@ ht-degree: 0%
 ## 解决方案
 
 1. 通过运行以下命令检查是否已单独安装模块： `composer show magento/module-page-builder-product-recommendations`
-1. 如果返回以下消息： *未找到magento/module-page-builder-product-recommendations包*，则必须通过运行以下命令来安装它： `composer require magento/module-page-builder-product-recommendations`
+1. 如果它返回以下消息： *找不到Package magento/module-page-builder-product-recommendations*，则必须通过运行命令来安装它： `composer require magento/module-page-builder-product-recommendations`
 
-通过在页面生成器中启用“产品Recommendations”，您将能够 [添加推荐单位](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) 添加到在页面生成器中创建的任何内容。
+通过在页面生成器中启用“产品Recommendations”，您将能够[向页面生成器中创建的任何内容添加推荐单元](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html)。
 
 ## 相关阅读
 
-* [添加内容 — 产品Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) 在我们的用户指南中。
-* [安装和配置产品Recommendations](https://devdocs.magento.com/recommendations/install-configure.html) 在我们的开发人员文档中。
+* 在我们的用户指南中[添加内容 — 产品Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html)。
+* 在我们的开发人员文档中[安装和配置产品Recommendations](https://devdocs.magento.com/recommendations/install-configure.html)。
 * [Adobe Commerce用户指南](https://docs.magento.com/user-guide/)

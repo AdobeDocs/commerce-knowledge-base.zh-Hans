@@ -13,9 +13,9 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Adobe Commerce 2.4.0中将删除MySQL目录搜索引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。请参阅 [安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> 将在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除[MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。请参阅[安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
 
-本文修复了Elasticsearch索引状态不是&#39;的问题&#x200B;*绿色*’。 ’*黄色*&#39;表示正常，而&#39;*红色*&#39;表示错误。 “黄色”或“红色”状态可能会与缺少产品或显示旧产品信息同时出现。
+文章修复了Elasticsearch索引状态不是“*绿色*”的问题。 “*黄色*”表示正常，“*红色*”表示错误。 “黄色”或“红色”状态可能会与缺少产品或显示旧产品信息同时出现。
 
 ## 受影响的版本和产品
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 问题
 
-Elasticsearch目录搜索索引较慢，导致状态为&#39;*黄色*&#39;或&#39;*红色*&#39;而非&#39;*绿色*’。 您还可能会遇到前端缺少更改的情况。
+Elasticsearch目录搜索索引缓慢，导致状态为“*黄色*”或“*红色*”，而不是“*绿色*”。 您还可能会遇到前端缺少更改的情况。
 
 ## 原因
 
@@ -55,8 +55,8 @@ Elasticsearch目录搜索索引较慢，导致状态为&#39;*黄色*&#39;或&#39
    curl --silent -X GET localhost:9200/_cat/indices?v
    ```
 
-如果这些步骤不起作用， [提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+如果这些步骤不起作用，[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ## 相关阅读
 
-要了解更多信息，请参阅 [Elasticsearch群集运行状况API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).
+若要了解详细信息，请参阅[Elasticsearch群集运行状况API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html)。

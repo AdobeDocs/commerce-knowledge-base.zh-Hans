@@ -23,12 +23,12 @@ ht-degree: 0%
 
 如果未选择允许国家/地区，则用户无法将产品添加到购物车。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 登录到Commerce管理员。
-1. 转到 **存储** > **配置** > **常规** > **国家/地区选项**
-1. 取消选择中的所有选项 **允许国家/地区** 字段。
-1. 单击 **保存配置** 以保存配置。
+1. 转到&#x200B;**商店** > **配置** > **常规** > **国家/地区选项**
+1. 取消选择&#x200B;**允许国家/地区**&#x200B;字段中的所有选项。
+1. 单击&#x200B;**保存配置**&#x200B;以保存配置。
 1. 转到店面，尝试将产品添加到购物车。
 
 <u>预期结果：</u>
@@ -51,7 +51,7 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## 原因
 
-Adobe Commerce配置将会检索 `null` 当多选配置没有任何选定项时。 如果在8.1之前的PHP版本中进一步成功处理此配置。但是，在PHP 8.1中，由于“[在PHP 8.1中，不要将null传递给internal函数的不可为空的参数](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)“。
+当多选配置没有任何选定项时，Adobe Commerce配置将检索`null`。 如果在8.1之前的PHP版本中进一步成功处理此配置。但是，在PHP 8.1中，由于“[Deprecate将null传递给PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)中内部函数的不可为空的参数”导致的错误，它无法正常工作。
 
 ## 解决方案
 
@@ -61,8 +61,8 @@ Adobe Commerce配置将会检索 `null` 当多选配置没有任何选定项时�
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中获取说明。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 有用的链接
 
-[在云基础架构上将自定义修补程序应用到Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) 在我们的开发人员文档中。
+在开发人员文档中，[将自定义修补程序应用到云基础架构上的Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)。

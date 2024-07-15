@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ## 问题
 
-在“管理员”中，如果您选择要删除的客户或客户记录，请过滤网格，然后选择 **删除** 操作，则将删除所有记录。
+在“管理员”中，如果您选择要删除的客户或客户记录，筛选网格，然后选择&#x200B;**删除**&#x200B;操作，则会删除所有记录。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 导航到 **目录** > **产品** 在“管理员”中。
+1. 在管理员中导航到&#x200B;**目录** > **产品**。
 1. 选择一个或多个产品。
 1. 从“操作”下拉菜单中选择“删除”。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 仅删除选定的产品。
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。

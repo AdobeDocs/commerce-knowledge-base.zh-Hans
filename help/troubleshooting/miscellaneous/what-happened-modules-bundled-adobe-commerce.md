@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* Adobe Commerce（所有部署方法）所有  [支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce（所有部署方法）所有[支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 问题
 
@@ -31,8 +31,8 @@ ht-degree: 0%
 
 ## 解决方案
 
-单独安装/购买官方扩展。 这些资源可在 [Commerce Marketplace](https://marketplace.magento.com/extensions.html).
+单独安装/购买官方扩展。 这些在[Commerce Marketplace](https://marketplace.magento.com/extensions.html)上可用。
 
 ## 相关阅读
 
-[供应商捆绑的扩展](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) 位于Adobe Commerce文档>发行信息> Adobe Commerce 2.4.4发行说明中。
+Adobe Commerce文档>发行信息> Adobe Commerce 2.4.4发行说明中的[供应商捆绑的扩展](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions)。

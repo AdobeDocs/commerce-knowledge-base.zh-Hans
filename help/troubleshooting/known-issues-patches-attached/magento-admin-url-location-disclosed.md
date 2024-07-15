@@ -29,9 +29,9 @@ ht-degree: 0%
 
 要解决此问题，请应用本文附带的修补程序。 要下载它，请单击以下链接：
 
-* 下载 [PRODSECBUG-2432\_EE\_2.1.17\_composer.patch](assets/PRODSECBUG-2432_EE_2.1.17_composer.patch.zip)  — 适用于版本2.1.13-2.1.17、Adobe Commerce、Magento Open Source
-* 下载 [PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip)  — 对于版本2.2.0 - 2.2.8，所有版本
-* 下载 [PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip)  — 对于版本2.3.0 - 2.3.1，所有版本
+* 下载[PRODSECBUG-2432\_EE\_2.1.17\_composer.patch](assets/PRODSECBUG-2432_EE_2.1.17_composer.patch.zip) — 适用于版本2.1.13-2.1.17、Adobe Commerce、Magento Open Source
+* 下载[PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip) — 适用于版本2.2.0-2.2.8的所有版本
+* 下载[PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip) — 适用于版本2.3.0-2.3.1的所有版本
 
 如果您没有看到产品/版本的修补程序，请升级到最新的安全版本，然后应用该修补程序。
 
@@ -39,13 +39,13 @@ Adobe强烈建议尽快应用修补程序，即使您未遇到任何攻击症状
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe Commerce提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 其他安全建议
 
 Adobe列入允许列表还强烈建议商家部署工具来保护其管理面板，包括双重身份验证、VPN、IP等。 有关详细信息，请参阅以下博客和文档：
 
-* [Protect应对暴力袭击的5个紧急行动](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
-* [Protect猜测新更新的Magento安装密码](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
+* [针对Protect暴力攻击的立即操作](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
+* [Protect您的Magento安装密码猜测新更新](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [安全最佳实践](https://magento.com/security/best-practices/security-best-practices)
-* 在Adobe Commerce中为添加并配置双重身份验证 [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) 和 [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+* 在Adobe Commerce中为[2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html)和[2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)添加并配置双重身份验证

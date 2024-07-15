@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 拆分数据库解决方案的高级报告404错误
 
-本文为Adobe Commerce 2.3.x用户提供了一个修补程序，其中包含 [拆分数据库解决方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) 尝试使用高级报表时出现404错误。
+本文为具有[拆分数据库解决方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)的Adobe Commerce 2.3.x用户提供了一个修补程序，该解决方案在尝试使用高级报表时遇到404错误。
 
 ## 受影响的产品和版本
 
@@ -25,7 +25,7 @@ Adobe Commerce 2.3.0 - 2.3.5-p1
 
 ## 解决方案
 
-应用 [patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) 本文提供。
+应用本文中提供的[patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip)。
 
 ## Patch
 
@@ -35,4 +35,4 @@ Adobe Commerce 2.3.0 - 2.3.5-p1
 
 ## 如何应用修补程序
 
-解压缩文件并按照 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+解压缩文件并按照[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序中的说明操作。

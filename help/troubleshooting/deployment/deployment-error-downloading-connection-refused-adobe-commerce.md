@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# 部署错误： *下载时出错7...端口443：连接被拒绝*
+# 部署错误： *下载时发生错误7...端口443：连接被拒绝*
 
 本文修复了部署失败并出现以下错误消息的问题：
 
@@ -25,13 +25,13 @@ W:    refused
 
 ## 受影响的版本
 
-云基础架构上的Adobe Commerce， [所有受支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+云基础架构上的Adobe Commerce，[所有支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 问题
 
-部署失败，出现 **curl错误7** 消息。
+部署失败，出现&#x200B;**curl错误7**&#x200B;消息。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 触发部署。
 
@@ -41,7 +41,7 @@ W:    refused
 
 <u>实际行为</u>：
 
-部署失败，并出现以下错误： *下载……端口443时出现CURL错误7：连接被拒绝* 显示在部署日志中。
+部署失败，并且以下错误：下载时出现&#x200B;*curl错误7...端口443：连接被拒绝*&#x200B;显示在部署日志中。
 
 ## 原因
 
@@ -55,10 +55,10 @@ W:    refused
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-要检查项目中的谁是超级用户，请参阅 [查看用户的项目角色](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) 《Commerce on Cloud Infrastructure指南》中的。
+要检查项目上的谁是超级用户，请参阅《云基础架构上的Commerce指南》中的[查看用户的项目角色](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role)。
 
 ## 推荐阅读
 
-* [Adobe Commerce部署疑难解答程序](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
-* [无法访问云存储库上的Adobe Commerce：部署时出现403 Forbidden或404 Not Found错误](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [部署失败，并显示“构建项目时出错：构建挂接失败，状态代码为1”](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [Adobe Commerce部署疑难解答程序](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)。
+* 无法访问云存储库上的[Adobe Commerce：部署](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)时出现403禁止或404未找到错误。
+* [部署失败，并显示“生成项目时出错：生成挂接失败，状态代码为1”](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html)。

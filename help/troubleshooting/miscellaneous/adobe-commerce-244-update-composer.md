@@ -25,14 +25,14 @@ ht-degree: 0%
 
 在2022年7月之后更新到Adobe Commerce 2.4.4或更高版本时，您可能会收到来自编辑器的有关插件的警告。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 先决条件：已安装Adobe Commerce 2.4.3或更低版本。
 
-1. 按照中的说明开始升级 [执行升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
-1. 运行 `composer update` 命令升级Adobe Commerce应用程序。
+1. 按照[中的说明开始升级。执行升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)。
+1. 运行`composer update`命令以升级Adobe Commerce应用程序。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 升级成功。
 
@@ -58,13 +58,13 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 ## 原因
 
-2022年7月之后，Composer更改 [`allow-plugins` option](https://getcomposer.org/doc/06-config.md#allow-plugins) 到 `{}` 除非允许，否则和插件将不再加载。
+2022年7月之后，Composer将[`allow-plugins`选项](https://getcomposer.org/doc/06-config.md#allow-plugins)的默认值更改为`{}`，并且除非允许，否则将不再加载插件。
 
 ## 解决方案
 
-将以下内容添加到您的 `composer.json` 文件，具体取决于您安装Adobe Commerce的方式：
+将以下内容添加到您的`composer.json`文件，具体取决于您安装Adobe Commerce的方式：
 
-* 如果项目已创建 [使用 `composer create-project` 命令](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)：
+* 如果已使用`composer create-project`命令](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)创建项目[：
 
   ```json
   "config": {
@@ -76,7 +76,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
   }
   ```
 
-* 如果项目是通过其他方式创建的，但没有 `"dealerdirect/phpcodesniffer-installer"` 在 `"require-dev"` 部分：
+* 如果项目是通过其他方式创建的，且`"require-dev"`分区中没有`"dealerdirect/phpcodesniffer-installer"`：
 
   ```json
   "config": {
@@ -87,4 +87,4 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
   }
   ```
 
-更新后 `composer.json` 文件，运行 `composer update` 命令并重新启动升级过程。
+更新`composer.json`文件后，运行`composer update`命令并重新启动升级过程。

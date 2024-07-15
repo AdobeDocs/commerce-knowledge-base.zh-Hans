@@ -19,17 +19,17 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce，全部 [支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 云基础架构上的Adobe Commerce，所有[支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 问题
 
 缓存预热失败。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 启动缓存预热操作。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 页面或整个网站加载。
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 ## 解决方案
 
-确保未启用访问控制：转到特定的分支/环境，然后单击 **设置** 图标，然后查看 **HTTP访问控制** 设置 — 在此情况下不能进行缓存热启动，必须禁用访问控制。
+请确保未启用访问控制：转到特定分支/环境并单击&#x200B;**设置**&#x200B;图标，然后选中&#x200B;**HTTP访问控制**&#x200B;设置 — 在此情况下无法发生缓存预热问题，必须禁用访问控制。
 
 ## 相关阅读
 
-* [Adobe Commerce用户指南>全页缓存](https://docs.magento.com/user-guide/system/cache-full-page.html) 在我们的用户指南中。
-* [缓存预热和网站在Adobe Commerce上不可用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) 在我们的支持知识库中。
+* 我们的用户指南中的[Adobe Commerce用户指南>全页缓存](https://docs.magento.com/user-guide/system/cache-full-page.html)。
+* 在我们支持知识库的Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)上，[缓存预热和网站不可用。

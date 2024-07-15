@@ -1,6 +1,6 @@
 ---
-title: 设置新项目的核对清单 [!DNL domain]
-description: 这是一份清单，说明如何设置新的 [!DNL domain] 云基础架构上的Adobe Commerce中的。
+title: 设置新 [!DNL domain]的清单
+description: 这是一份清单，说明如何在Adobe Commerce中在云基础架构上设置新的 [!DNL domain] 。
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
 source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
@@ -10,58 +10,58 @@ ht-degree: 0%
 
 ---
 
-# 设置新项目的核对清单 [!DNL domain]
+# 设置新[!DNL domain]的清单
 
-这是一份清单，说明如何设置新的 [!DNL domain] 云基础架构上的Adobe Commerce中的。 无论您是尝试仅添加新域还是使用新域替换当前域，它均适用。
+这是一份清单，说明如何在Adobe Commerce中在云基础架构上设置新的[!DNL domain]。 无论您是尝试仅添加新域还是使用新域替换当前域，它均适用。
 
 ## 受影响的产品和版本
 
-云基础架构上的Adobe Commerce， [所有受支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+云基础架构上的Adobe Commerce，[所有支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 如何设置新域
 
-### 第1步 — 这是否适用于 [!DNL Integration, Staging]，或 [!DNL Production environment]？
+### 步骤1 — 这是否适用于[!DNL Integration, Staging]或[!DNL Production environment]？
 
-* **[!DNL Integration]**： [!DNL Custom domains] 不受支持。 必须改用此方法： [设置多个网站或商店：配置本地安装](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) 在我们的用户指南中。
-* **[!DNL Staging]**：转到 **步骤2**.
-* **[!DNL Production]**：转到 **步骤3**.
+* 不支持&#x200B;**[!DNL Integration]**： [!DNL Custom domains]。 您必须改用此方法： [设置多个网站或商店：在我们的用户指南中配置本地安装](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)。
+* **[!DNL Staging]**：转到&#x200B;**步骤2**。
+* **[!DNL Production]**：转到&#x200B;**步骤3**。
 
-### 第2步 —  [!DNL Staging environment]：您是否启用 [!DNL Pro] 或 [!DNL Starter]？
+### 步骤2 - [!DNL Staging environment]：您是在[!DNL Pro]还是[!DNL Starter]？
 
-* **[!DNL Pro]**： **提交请求** 将域添加到 [!DNL Fastly, Nginx]，并配置 [!DNL SSL certificate] (以及 [!DNL Sendgrid domain]（如有必要）。 一旦完成配置， [更新 [!DNL DNS] 配置 [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
-
->[!NOTE]
->
->您可以添加新的 [!DNL domain] 到 [!DNL Fastly] 您自己，只需在 [!DNL Admin] 在 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** 如所示 [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) 在我们的用户指南中。
->
->如果您无法添加域，可能是由于以下原因之一：
->
->1. 您正在将域迁移到云环境，在您自己的环境中进行了配置 [!DNL Fastly] 服务。 在这种情况下，提交请求并请求委派域。
->1. 您正在将域从Starter迁移到Pro。 在这种情况下，请提出进一步援助请求。
-
-* **[!DNL Starter]**： [!DNL Custom domains] 暂存环境上不支持。
-
-### 步骤3 - [!DNL Production environment]：您是否启用 [!DNL Pro] 或 [!DNL Starter]？
-
-* **[!DNL Pro]**： **提交请求** 将域添加到 [!DNL Fastly, Nginx]，并配置 [!DNL SSL certificate] (作为 [!DNL Sendgrid domain]（如有必要）。 配置完毕后，请继续 **步骤4**.
+* **[!DNL Pro]**： **提交请求**&#x200B;以将域添加到[!DNL Fastly, Nginx]，并配置[!DNL SSL certificate]（如有必要，还将配置[!DNL Sendgrid domain]）。 完成配置后，[使用 [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)更新 [!DNL DNS] 配置。
 
 >[!NOTE]
 >
->您可以添加新的 [!DNL domain] 到 [!DNL Fastly] 您自己，只需在 [!DNL Admin] 在 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) 在我们的用户指南中。
+>您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是像在我们的用户指南中的[[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)一样，在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]**&#x200B;中更新[!DNL Admin]中的配置。
+>
+>如果您无法添加域，可能是由于以下原因之一：
+>
+>1. 您正在将域迁移到已在您自己的[!DNL Fastly]服务中配置的云环境。 在这种情况下，提交请求并请求委派域。
+>1. 您正在将域从Starter迁移到Pro。 在这种情况下，请提出进一步援助请求。
+
+* 暂存环境中不支持&#x200B;**[!DNL Starter]**： [!DNL Custom domains]。
+
+### 步骤3 - [!DNL Production environment]：您是在[!DNL Pro]还是[!DNL Starter]？
+
+* **[!DNL Pro]**： **提交请求**&#x200B;以将域添加到[!DNL Fastly, Nginx]，并配置[!DNL SSL certificate]（如有必要，作为[!DNL Sendgrid domain]）。 配置完毕后，请继续&#x200B;**步骤4**。
+
+>[!NOTE]
+>
+>您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是在我们的用户指南的&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)中更新[!DNL Admin]中的配置。
 >
 >
 >如果您无法添加域，可能是由于以下原因之一：
 >
->1. 您正在将域从内部部署迁移到云环境，该环境已在您自己的环境中配置 [!DNL Fastly] 服务。 在这种情况下，提交请求并请求委派域。
+>1. 您正在将域从内部部署迁移到云环境，该环境已在您自己的[!DNL Fastly]服务中配置。 在这种情况下，提交请求并请求委派域。
 >1. 您正在将域从Starter迁移到Pro。 在这种情况下，请提出进一步援助请求。
 
-* **[!DNL Starter]**：添加 [!DNL domain] 至您的项目 **[!DNL Domains]** 选项卡，然后 **提交请求** 以提供 **[!DNL ACME Challenge Key]** 对于 [!DNL SSL certificate].
+* **[!DNL Starter]**：将[!DNL domain]添加到您项目的&#x200B;**[!DNL Domains]**&#x200B;选项卡中，然后&#x200B;**提交请求**&#x200B;以提供[!DNL SSL certificate]的&#x200B;**[!DNL ACME Challenge Key]**。
 
-### 第4步 — 是 [!DNL domain] 直播？
+### 步骤4 - [!DNL domain]是否处于活动状态？
 
-* **是**： [更新 [!DNL DNS] 配置 [!UICONTROL production] 设置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings).
-* **否**： [更新 [!DNL DNS] 配置 [!UICONTROL development] 设置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+* **是**：[使用[!UICONTROL production]设置更新 [!DNL DNS] 配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings)。
+* **否**：[使用[!UICONTROL development]设置更新 [!DNL DNS] 配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)。
 
 ## 相关阅读
 
-* [设置多个网站或商店：新增 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) 在我们的用户指南中。
+* [设置多个网站或商店：在我们的用户指南中新增 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)。

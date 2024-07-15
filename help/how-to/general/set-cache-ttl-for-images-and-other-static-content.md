@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 为图像和其他静态内容设置缓存TTL
 
-请参阅 [设置静态文件的缓存](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html) 在我们的用户指南中。
+请参阅用户指南中的[设置静态文件的缓存](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html)。

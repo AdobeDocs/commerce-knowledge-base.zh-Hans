@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 检查部署日志（如果云UI具有） *日志片段* 错误
+# 正在检查Cloud UI是否具有&#x200B;*日志片段*&#x200B;错误
 
-本文为云基础架构UI上的Adobe Commerce显示了 *日志被截断，因为它太长* 尝试在云项目UI上查看部署日志时出现错误消息。 (不适用于 [Adobe Commerce Cloud控制台](https://console.adobecommerce.com/).)
+本文针对以下问题提供了解决方案：在云项目UI上尝试查看部署日志时，云基础架构UI上的Adobe Commerce显示&#x200B;*日志片段，因为该片段太长*&#x200B;错误消息。 (不适用于[Adobe Commerce Cloud控制台](https://console.adobecommerce.com/)。)
 
 ## 受影响的产品
 
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 ## 问题
 
-尝试在云项目UI上查看部署日志时，云基础架构UI上的Adobe Commerce显示以下错误消息： *日志被截断，因为它太长*.
+尝试在云项目UI上查看部署日志时，云基础架构UI上的Adobe Commerce显示以下错误消息： *日志片段，因为它太长*。
 
 ## 重现问题的步骤
 
-1. 转到项目URL并单击 **状态** 相关部署的ID。
-1. 如果日志太长而无法在UI中显示，则会显示错误消息： *日志被截断，因为它太长*.
+1. 转到项目URL，然后单击相关部署的&#x200B;**状态**。
+1. 如果日志太长无法在UI中显示，则会显示错误消息： *日志已截断，因为日志太长*。
 
 ## 原因
 
-请注意，不应将UI中显示的日志视为事实来源，尤其是当您在以“成功”状态列出部署后发现站点未响应或无法正常工作时。 您还应使用服务器上的日志进行验证。 请参阅 [查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) 在我们的开发人员文档中。
+请注意，不应将UI中显示的日志视为事实来源，尤其是当您在以“成功”状态列出部署后发现站点未响应或无法正常工作时。 您还应使用服务器上的日志进行验证。 请参阅我们的开发人员文档中的[查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)。
 
 ## 解决方案
 
-1. 确保您拥有 [MagentoCloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) 已安装在本地环境中。
+1. 确保在本地环境中安装了[MagentoCloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html)。
 1. 运行以下命令：
 
    ```bash
@@ -66,5 +66,5 @@ ht-degree: 0%
 
 ## 我们的开发人员文档中的相关阅读：
 
-* [云基础架构上的Adobe Commerce >构建和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* [云基础架构上的Adobe Commerce >查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* 云基础架构上的[Adobe Commerce >生成和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
+* 云基础架构上的[Adobe Commerce >查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)

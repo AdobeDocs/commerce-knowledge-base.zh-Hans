@@ -29,7 +29,7 @@ ht-degree: 0%
 SELECT * FROM $entityTable WHERE $column = <$entityID> ORDER BY created_in;
 ```
 
-位置 `$entityID = ID` 类别/产品/购物车价格规则/目录价格规则/CMS页面的。
+其中类别/产品/购物车价格规则/目录价格规则/CMS页面的`$entityID = ID`。
 
 | 实体 | $entityTable | $column |
 |------------------|-----------------------------------|------------------|
@@ -41,9 +41,9 @@ SELECT * FROM $entityTable WHERE $column = <$entityID> ORDER BY created_in;
 
 这是预期行为。 多行由内容暂存功能创建：
 
-* 如果指定的开始日期没有结束日期，则至少有两行具有相同的实体/规则/页面ID。 一行将指示实体的原始状态(其中的 `created_in=1`)，有一行表示 *计划更新结束*.
+* 如果指定的开始日期没有结束日期，则至少有两行具有相同的实体/规则/页面ID。 一行表示实体的原始状态（`created_in=1`所在的行），一行表示计划更新的&#x200B;*结束*。
 
-* 如果指定了带有结束日期的开始日期，则至少会有三行具有相同的实体/规则/页面ID。 一行将指示实体的原始状态(其中的 `created_in=1`)，一行将用于 *计划更新的开始*，其中一行将用于 *计划更新结束*.
+* 如果指定了带有结束日期的开始日期，则至少会有三行具有相同的实体/规则/页面ID。 一行表示实体的原始状态（`created_in=1`所在的行），一行表示计划更新的&#x200B;*开始*，一行表示计划更新的&#x200B;*结束*。
 
 例如，在此查询中：
 
@@ -53,13 +53,13 @@ SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHE
 
 ![multiple_rows_in_database.png](assets/multiple_rows_in_database.png)
 
-* 此 `created_in` 和 `updated_in` 值应遵循以下模式： `created_in` 当前行的值等于 `updated_in` 值。 此外，第一行应包含 `created_in = 1` 最后一行应包含 `updated_in = 2147483647`. (如果只有一行，则必须看到 `created_in=1` 和 `updated_in=2147483647`)。
+* `created_in`和`updated_in`值应遵循以下模式：当前行的`created_in`值等于上一行的`updated_in`值。 此外，第一行应包含`created_in = 1`，最后一行应包含`updated_in = 2147483647`。 （如果只有一行，则必须看到`created_in=1`和`updated_in=2147483647`）。
 
 ### 为什么第二个数据库条目（以及所有后续条目）会出现在同一实体的数据库中？
 
-* 受影响实体的第二个DB记录（可能还有后续记录）意味着已使用计划了内容暂存更新 `Magento_Staging` 模块，用于对相应表中的实体进行附加记录。
+* 受影响实体的第二条DB记录（可能还有下一条）表示已使用`Magento_Staging`模块计划了内容暂存更新，这将为相应表中的实体生成额外记录。
 
-仅当记录的值相同时，才会出现问题 `created_in` 或 `updated_in` 列。
+仅当记录的`created_in`或`updated_in`列具有相同的值时，才会出现问题。
 
 ## 解决方案
 
@@ -67,5 +67,5 @@ SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHE
 
 ## 相关阅读
 
-* [未保存对类别所做的更改](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html) 在我们的支持知识库中。
-* [编辑计划更新的结束日期后，目录表中出现重复条目](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) 在我们的支持知识库中。
+* [对类别的更改未保存在我们的支持知识库中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)。
+* 在编辑我们的支持知识库中计划更新的结束日期之后，[目录表中出现重复条目](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html)。

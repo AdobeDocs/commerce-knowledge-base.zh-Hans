@@ -29,9 +29,9 @@ PayPal付款的大多数问题都有类似的症状：在指定付款卡详细�
 
 ### 设置问题示例
 
-应用PayPal Express Checkout解决方案时，必须拒绝基于AVS/CSC响应的交易。 **PayPal管理器** （“服务设置”>“设置”>“安全选项”）和 **Commerce管理员** ( **商店** >配置> **销售** > **支付方式** ...)。
+应用PayPal Express结帐解决方案时，基于AVS/CSC响应的交易必须在&#x200B;**PayPal管理器**（“服务设置”>“设置”>“安全选项”）和&#x200B;**Commerce管理员**（“**商店**”>“配置”>“**销售**”>“**付款方式**”……）中拒绝。
 ![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
-有关更多信息，请参阅文档： [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) 和 [Adobe Commerce](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html) 在我们的用户指南中。
+有关详细信息，请参阅用户指南中的文档： [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm)和[Adobe Commerce](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)。
 
 ## 允许引用交易记录
 
@@ -41,14 +41,14 @@ PayPal付款的大多数问题都有类似的症状：在指定付款卡详细�
 
 请参阅以下文章：
 
-* [PayPal网关已拒绝请求 — 重复发票问题](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) 在我们的支持知识库中。
-* [更改新存储实体的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) 在我们的支持知识库中。
+* [PayPal网关拒绝请求 — 我们的支持知识库中存在重复发票问题](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)。
+* [更改我们支持知识库中的新商店实体](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)的增量ID。
 
 ## 联系支持人员以收集高级付款日志
 
 为了排除复杂的付款问题，Adobe Commerce支持团队可能会要求您应用专用修补程序以启用高级付款日志记录。 在这种情况下，您的步骤应如下所示：
 
-[提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 包含以下详细信息：
+[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，详细信息如下：
 
 * 请尽可能多地指定您的问题。
 * 列出您尝试从本文、知识库和其他资源中执行的步骤。 包括所有结果。
@@ -57,5 +57,5 @@ PayPal付款的大多数问题都有类似的症状：在指定付款卡详细�
 如果您收到了“高级付款记录”修补程序：
 
 * 应用修补程序。
-* 收集日志并将它们附加到您的 [支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+* 收集日志并将它们附加到您的[支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 * 等待Adobe Commerce支持团队提出进一步的建议。

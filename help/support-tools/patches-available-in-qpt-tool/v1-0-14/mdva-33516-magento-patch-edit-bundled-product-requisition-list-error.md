@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-33516修补程序：编辑捆绑产品申请列表错误
 
-MDVA-33516修补程序修复了在从申请列表编辑捆绑产品类型时，您被重定向到申请列表项目错误页面的问题。 此修补程序在以下情况下可用： [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安装1.0.14。 请注意，该问题计划在Adobe Commerce 2.4.3中修复。
+MDVA-33516修补程序修复了在从申请列表编辑捆绑产品类型时，您被重定向到申请列表项目错误页面的问题。 安装[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.14时，此修补程序可用。 请注意，该问题计划在Adobe Commerce 2.4.3中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 云基础架构上的Adobe Commerce 2.3.4
 
@@ -27,7 +27,7 @@ MDVA-33516修补程序修复了在从申请列表编辑捆绑产品类型时，�
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
@@ -38,14 +38,14 @@ MDVA-33516修补程序修复了在从申请列表编辑捆绑产品类型时，�
 * 已安装B2B。
 * 已启用申请列表。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 创建包含两个简单产品的捆绑产品。
-1. 转到捆绑产品页面，单击 **自定义并添加到购物车** 按钮。
-1. 从下拉列表中选择一个选项，然后单击 **添加到申请列表** 以创建新的申请列表。 有关详细步骤，请参阅 [《Magento用户指南》>“我的申请列表”>“创建申请列表”](https://docs.magento.com/user-guide/customers/account-dashboard-requisition-lists.html#create-a-requisition-list) 在我们的用户指南中。
-1. 转至新创建的申请列表(“我的帐户”> **我的申请列表**)。
-1. 单击 **视图** 中的按钮 *操作* 列。
-1. 单击 **编辑** 按钮。
+1. 转到捆绑的产品页面，单击&#x200B;**自定义并添加到购物车**&#x200B;按钮。
+1. 从下拉菜单中选择一个选项，单击&#x200B;**添加到申请列表**&#x200B;以创建新的申请列表。 有关详细步骤，请参阅我们的用户指南中的[Magento用户指南>我的申请列表>创建申请列表](https://docs.magento.com/user-guide/customers/account-dashboard-requisition-lists.html#create-a-requisition-list)。
+1. 转到新创建的申请列表（“我的帐户”>**“我的申请列表”**）。
+1. 单击&#x200B;*操作*&#x200B;列中的&#x200B;**查看**&#x200B;按钮。
+1. 单击&#x200B;**编辑**&#x200B;按钮。
 
 <u>预期结果</u>：<br>
 
@@ -64,14 +64,14 @@ Fatal error: Uncaught Error: Call to a member function isAvailableForCompare() o
 
 要应用单独的修补程序，请根据您的Adobe Commerce产品使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用补丁程序](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) 在我们的开发人员文档中。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html) 在我们的开发人员文档中。
+* 在开发人员文档中，参阅Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用修补程序](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ## 相关阅读
 
 要了解有关Quality Patches Tool的更多信息，请参阅：
 
-* [Quality Patches Tool released：一款用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用Quality Patches Tool检查是否有可用于Adobe Commerce问题的修补程序](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [已发布高质量修补程序工具：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查是否有针对您的Adobe Commerce问题的修补程序。
 
-有关QPT工具中可用的其他修补程序的信息，请参阅 [QPT工具中可用的修补程序](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) 部分。
+有关QPT工具中可用的其他修补程序的信息，请参阅QPT工具](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-)中可用的[修补程序部分。

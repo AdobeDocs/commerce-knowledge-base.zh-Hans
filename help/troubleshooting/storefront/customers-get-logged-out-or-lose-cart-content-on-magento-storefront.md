@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* Adobe Commerce内部部署， [所有受支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* 云基础架构上的Adobe Commerce， [所有受支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce内部部署，[所有支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 云基础架构上的Adobe Commerce，[所有支持的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 问题
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
 1. 客户将产品添加到店面的购物车，然后进行结账。
 1. 客户将被重定向到第三方地点，以进行付款/运输或其他信息/服务。
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 原因
 
-SameSite Cookie属性设置为 *Lax* 或未指定(被视为设置为 *Lax* )。 具有 `SameSite` = *Lax* 禁用通过将Cookie传输到外部URL `POST` 请求。
+SameSite Cookie属性设置为&#x200B;*Lax*&#x200B;或未指定（被视为设置为&#x200B;*Lax*）。 拥有`SameSite` = *Lax*&#x200B;将禁止通过`POST`请求将Cookie传输到外部URL。
 
 ## 解决方案
 

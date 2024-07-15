@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 使用dig命令进行测试
 
-首先，使用指向URL的dig命令检查标头。 在终端应用程序中，输入dig `<url>` 以验证Fastly服务是否显示在标头中。 有关其他挖掘测试，请参阅Fastly的 [更改DNS前的测试](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
+首先，使用指向URL的dig命令检查标头。 在终端应用程序中，输入dig `<url>`以验证Fastly服务是否显示在标头中。 有关其他挖掘测试，请参阅Fastly的[在更改DNS](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains)之前进行的测试。
 
 例如：
 
@@ -46,12 +46,12 @@ ht-degree: 0%
 
 接下来，使用curl命令验证XMagento标签是否存在以及其他标头信息。 对于“暂存”和“生产”，命令格式不同。
 
-有关这些命令的详细信息，请在插入时绕过Fastly `-H "host:URL"`，替换为连接位置的源（OneDrive电子表格中的CNAME信息）， `-k` 忽略SSL，并且 `-v` 提供了详细的响应。 如果标头显示正确，请检查实时网站并再次验证标头。
+有关这些命令的更多信息，当您插入`-H "host:URL"`，替换为连接位置的源（OneDrive电子表格中的CNAME信息）时，会绕过Fastly，`-k`会忽略SSL，`-v`会提供详细响应。 如果标头显示正确，请检查实时网站并再次验证标头。
 
 * 如果在绕过Fastly直接点击源服务器时出现标头问题，则您的代码、扩展或基础架构可能会出现问题。
 * 如果您在直接命中源服务器时没有遇到错误，但标头通过Fastly命中活动域时缺失，则您可能会遇到Fastly错误。
 
-首先，检查您的 **实时网站** 以验证响应标头。 命令通过Fastly扩展接收响应。 如果您没有收到正确的标头，则应该直接测试原始服务器。 此命令返回 `Fastly-Magento-VCL-Uploaded` 和 `X-Cache` 标头。
+首先，检查您的&#x200B;**活动站点**&#x200B;以验证响应标头。 命令通过Fastly扩展接收响应。 如果您没有收到正确的标头，则应该直接测试原始服务器。 此命令返回`Fastly-Magento-VCL-Uploaded`和`X-Cache`标头的值。
 
 1. 在终端中，输入以下命令以测试您的实时网站URL：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
    curl http://<live URL> -vo /dev/null -HFastly-Debug:1 [--resolve]
    ```
 
-   使用 `--resolve` 仅当您的实时URL未设置DNS并且您没有设置静态路由时。 例如：
+   仅当您的实时URL未使用DNS设置并且您没有静态路由集时才使用`--resolve`。 例如：
 
    ```
    curl http://www.mymagento.biz -vo /dev/null -HFastly-Debug:1
@@ -71,19 +71,19 @@ ht-degree: 0%
    < Fastly-Magento-VCL-Uploaded: yes    < X-Cache: HIT, MISS
    ```
 
-测试 **暂存** ：
+要测试&#x200B;**暂存**，请执行以下操作：
 
 ```
 curl http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-测试 **生产负载平衡器** ：
+要测试&#x200B;**生产负载平衡器**，请执行以下操作：
 
 ```
 curl http[s]://<your domain>.c.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-测试 **生产源节点** ：
+要测试&#x200B;**生产源节点**，请执行以下操作：
 
 ```
 curl http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
@@ -163,20 +163,20 @@ curl命令的输出可能会很长。 以下是仅供参考的摘要：
 1. 单击Fastly配置。 确保输入Fastly服务ID和Fastly API令牌（您的Fastly凭据）。 验证您是否已为暂存环境和生产环境输入正确的凭据。 单击“测试凭据”可提供帮助。
 1. 编辑您的composer.json并确保版本中包含快速模块。 此文件的所有模块都列出了版本。
 
-   * 在“要求”部分中，您应该具有“fastly/magento2”： `<version number>`
+   * 在“需要”部分中，您应该具有“fastly/magento2”： `<version number>`
    * 在“存储库”部分中，您应具有：
 
    ```
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. 如果使用配置管理，则应该有一个配置文件。 编辑app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)文件，并确保设置 `'Fastly_Cdn' => 1` 是正确的。 设置不应为 `'Fastly_Cdn' => 0` （表示已禁用）。如果您启用了Fastly，请删除配置文件并运行bin/magento magento-cloud：scd-dump命令进行更新。 有关此文件的演练，请参见 [管理系统特定设置的示例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration) ，位于配置指南中。
+1. 如果使用配置管理，则应该有一个配置文件。 编辑app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)文件，并确保设置`'Fastly_Cdn' => 1`正确。 设置不应为`'Fastly_Cdn' => 0`（表示已禁用）。如果您启用了Fastly，请删除配置文件并运行bin/magento magento-cloud：scd-dump命令进行更新。 有关该文件的演练，请参阅配置指南中的[管理系统特定设置示例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration)。
 
-如果未安装模块，则需要在 [集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 分支并部署到暂存和生产环境。 请参阅 [设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 有关Commerce on Cloud Infrastructure指南的说明。
+如果未安装该模块，则需要在[集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)分支中安装并部署到暂存和生产环境。 有关Commerce on Cloud Infrastructure指南中的说明，请参阅[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 ### Fastly-Magento-VCL-Uploaded不存在
 
-在安装和配置期间，您应该已上传Fastly VCL。 这些是Fastly模块提供的基本VCL片段，而不是您创建的自定义VCL片段。 有关说明，请参阅 [上传Fastly VCL片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly) 《Commerce on Cloud Infrastructure指南》中的。
+在安装和配置期间，您应该已上传Fastly VCL。 这些是Fastly模块提供的基本VCL片段，而不是您创建的自定义VCL片段。 有关说明，请参阅Commerce on Cloud Infrastructure指南中的[上传Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly)。
 
 ### X-Cache包括MISS
 
@@ -190,9 +190,9 @@ curl命令的输出可能会很长。 以下是仅供参考的摘要：
 
 如果问题仍然存在，则其他扩展可能会重置这些标头。 在暂存中重复以下过程可禁用扩展，以查找导致问题的扩展。 找到导致问题的扩展后，您将需要在生产环境中禁用该扩展。
 
-1. 要禁用扩展，请按照中给出的步骤操作 [管理扩展](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) Commerce云基础架构指南上的部分。
-1. 禁用扩展后，转到 **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
-1. 单击 **[!UICONTROL Flush Magento Cache]**.
+1. 要禁用扩展，请按照Commerce on Cloud Infrastructure指南的[管理扩展](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions)部分中给出的步骤操作。
+1. 禁用扩展后，转到&#x200B;**[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**。
+1. 单击&#x200B;**[!UICONTROL Flush Magento Cache]**。
 1. 现在，每次启用一个扩展，以保存配置并刷新缓存。
 1. 尝试curl命令并验证响应标头。
 1. 重复步骤4和5以启用和测试curl命令。 当Fastly标头不再显示时，您发现扩展导致Fastly出现问题。
@@ -203,4 +203,4 @@ curl命令的输出可能会很长。 以下是仅供参考的摘要：
 
 * [关于Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
 * [设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [自定义Fastly VCL片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [自定义Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)

@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ## 原因
 
-此 `slave_parallel_mode` 默认情况下，数据库上的config已更改为 *优化* 值应为 *保守*，和 `synchronous_replication` ece-Tools中的值默认为 *true* 值应为 *false*.
+当值应为&#x200B;*conservative*&#x200B;时，数据库上的`slave_parallel_mode`配置默认更改为&#x200B;*optimistics*，而Ece-Tools中的`synchronous_replication`值默认为&#x200B;*true*，而值应为&#x200B;*false*。
 
 ## 解决方案
 
-1. 检查 `slave_parallel_mode` 参数设置为 *保守* (您将需要 [提出支持票证](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) 如果值未显示为 *保守*)。 要检查，请运行以下命令：
+1. 检查`slave_parallel_mode`参数是否设置为&#x200B;*conservative* （如果值未显示为&#x200B;*conservative*，则需要[引发支持票证](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)）。 要检查，请运行以下命令：
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -42,7 +42,7 @@ ht-degree: 0%
     1 row in set (0.001 sec)
    ```
 
-1. 更新 `.magento.env.yaml` 数据库配置用于：
+1. 将`.magento.env.yaml`数据库配置更新为：
 
    ```yaml
        DATABASE_CONFIGURATION:
@@ -54,10 +54,10 @@ ht-degree: 0%
 
 
 
-有关更新数据库配置的步骤，请参阅 [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) 《Commerce on Cloud Infrastructure指南》的部署变量主题中。
+有关更新数据库配置的步骤，请参阅Commerce on Cloud Infrastructure指南中“部署变量”主题中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)。
 
 
 ## 相关阅读
 
-* [配置环境变量以进行部署](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) 《Commerce on Cloud Infrastructure指南》中的。
-* [数据库配置的最佳实践](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) 实施行动手册中的。
+* 在《云基础架构上的Commerce指南》中[为部署](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)配置环境变量。
+* 在《实施行动手册》中[数据库配置的最佳实践](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。

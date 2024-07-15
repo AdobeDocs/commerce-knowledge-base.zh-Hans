@@ -23,17 +23,17 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->免责声明： Adobe Commerce不推荐也不认可任何用于建立隧道的特定工具。 前面的只是建议。 欲知更多信息，请参见 [Ngrok文档](https://ngrok.com/docs).
+>免责声明： Adobe Commerce不推荐也不认可任何用于建立隧道的特定工具。 前面的只是建议。 有关详细信息，请参阅[ngrok文档](https://ngrok.com/docs)。
 
 ## 问题
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
 1. 在本地环境中安装Adobe Commerce。
 1. 设置ngrok以创建一个通道来公开您的本地服务器。
-1. 尝试 [连接到OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. 尝试[连接到OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)。
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 已成功建立连接。
 
@@ -53,4 +53,4 @@ ht-degree: 0%
 ./ngrok http 80 -region eu
 ```
 
-默认区域为美国。 请参阅 [所有可能的值](https://ngrok.com/docs#config_region).
+默认区域为美国。 查看[所有可能的值](https://ngrok.com/docs#config_region)。

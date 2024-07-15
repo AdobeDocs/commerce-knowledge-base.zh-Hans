@@ -1,6 +1,6 @@
 ---
-title: ’[!DNL B2B] 在Adobe Commerce 2.4.6-p1 on-premises上安装1.4.0失败
-description: 本文提供Adobe Commerce 2.4.6-p1内部部署问题的解决方法，其中 [!DNL B2B] 版本1.4.0安装失败。
+title: '[!DNL B2B] 1.4.0在Adobe Commerce 2.4.6-p1内部部署上安装失败'
+description: 本文为Adobe Commerce 2.4.6-p1内部部署问题提供了解决方法，该问题导致 [!DNL B2B] 版本1.4.0安装失败。
 feature: Install, Upgrade, B2B
 role: Developer
 exl-id: 4a557c13-7ec2-4cfe-b86e-bb0d1a441658
@@ -11,22 +11,22 @@ ht-degree: 0%
 
 ---
 
-# [!DNL B2B] 在Adobe Commerce 2.4.6-p1内部部署上，1.4.0安装失败
+# 在Adobe Commerce 2.4.6-p1内部部署上安装[!DNL B2B] 1.4.0失败
 
-本文提供Adobe Commerce 2.4.6-p1内部部署问题的解决方法，其中 [!DNL B2B] 版本1.4.0安装失败。
+本文为Adobe Commerce 2.4.6-p1内部部署问题提供了解决方法，该问题导致[!DNL B2B]版本1.4.0安装失败。
 
 ## 受影响的产品和版本
 
-* Adobe Commerce 2.4.6-p1 **内部部署**
-* [!DNL B2B] 版本1.4.0
+* Adobe Commerce 2.4.6-p1 **本地**
+* [!DNL B2B]版本1.4.0
 
 >[!NOTE]
 >
->[!DNL B2B] 版本1.4.0成功安装在 **Adobe Commerce Cloud 2.4.6-p1**.
+>[!DNL B2B]版本1.4.0已成功安装在&#x200B;**Adobe Commerce Cloud 2.4.6-p1**&#x200B;上。
 
 ## 问题
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 安装Adobe Commerce 2.4.6-p1。
 
@@ -34,15 +34,15 @@ ht-degree: 0%
    m2install.sh -s composer --ee -v 2.4.6-p1
    ```
 
-1. 尝试安装 [!DNL B2B] 版本1.4.0。
+1. 尝试安装[!DNL B2B]版本1.4.0。
 
    ```terminal
    composer require magento/extension-b2b:1.4.0
    ```
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
-[!DNL B2B] 版本1.4.0已成功在Adobe Commerce 2.4.6-p1上安装。
+已成功在Adobe Commerce 2.4.6-p1上安装[!DNL B2B]版本1.4.0。
 
 <u>实际结果</u>：
 
@@ -61,9 +61,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ## 解决方法
 
-已成功安装或升级到 [!DNL B2B] Adobe Commerce 2.4.6-p1上的1.4.0版，方法是为 [!DNL B2B] 带的安全包 [稳定性标记](https://getcomposer.org/doc/04-schema.md#package-links).
+通过为带有[稳定性标记](https://getcomposer.org/doc/04-schema.md#package-links)的[!DNL B2B]安全包添加手动依赖项，在Adobe Commerce 2.4.6-p1上成功安装或升级到[!DNL B2B]版本1.4.0。
 
-1. 从Adobe Commerce安装目录中，更新 `composer.json` 具有所需的依赖关系：
+1. 从Adobe Commerce安装目录中，使用所需的依赖项更新`composer.json`：
 
    ```terminal
    composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
@@ -92,7 +92,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
    No security vulnerability advisories found
    ```
 
-1. 更新 `composer.json` 添加 [!DNL B2B] 版本1.4.0。
+1. 更新`composer.json`以添加[!DNL B2B]版本1.4.0。
 
    ```terminal
    composer require magento/extension-b2b=1.4.0
@@ -114,5 +114,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 完成安装或升级过程。
 
-   * [安装 [!DNL B2B] 在云基础架构上](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
+   * 在云基础架构上[安装 [!DNL B2B] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
    * [安装内部部署](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)

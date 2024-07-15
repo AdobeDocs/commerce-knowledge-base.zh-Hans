@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文提供了在运行数据迁移工具时可能发生的错误的解决方案。
 
-## 未映射源文档/字段 {#source-documents-fields-not-mapped}
+## Source文档/字段未映射 {#source-documents-fields-not-mapped}
 
 ### 错误消息
 
@@ -40,15 +40,15 @@ Destination fields
 
 某些Adobe Commerce版本1实体（大多数情况下来自扩展）在Adobe Commerce版本2数据库中不存在。
 
-出现此消息的原因是，数据迁移工具运行内部测试以验证表和字段之间是否一致。 *源* (Adobe Commerce 1)及 *目标* (Adobe Commerce 2)数据库。
+出现此消息是因为数据迁移工具运行内部测试以验证&#x200B;*源* (Adobe Commerce 1)和&#x200B;*目标* (Adobe Commerce 2)数据库之间的表和字段是否一致。
 
-### 可能的解决方案
+### 可采用的解决方案
 
-* 从安装相应的Adobe Commerce 2扩展 [Commerce Marketplace](https://marketplace.magento.com/).     如果冲突的数据源自添加自己的数据库结构元素的扩展，则相同扩展的Adobe Commerce 2版本可以将此类元素添加到目标(Adobe Commerce 2)数据库中，从而修复问题。
-* 使用 `-a` 参数以执行工具以自动解决错误并阻止迁移停止。
+* 从[Commerce Marketplace](https://marketplace.magento.com/)安装相应的Adobe Commerce 2扩展。     如果冲突的数据源自添加自己的数据库结构元素的扩展，则相同扩展的Adobe Commerce 2版本可以将此类元素添加到目标(Adobe Commerce 2)数据库中，从而修复问题。
+* 在执行工具时使用`-a`参数可自动解决错误并阻止迁移停止。
 * 配置工具以忽略有问题的数据。
 
-要忽略数据库实体，请添加 `<ignore>` 标记到中的实体 `map.xml` 文件，如下所示：
+要忽略数据库实体，请将`<ignore>`标记添加到`map.xml`文件中的实体，如下所示：
 
 ```xml
 ...
@@ -71,7 +71,7 @@ Destination fields
 
 >[!WARNING]
 >
->在按映射文件忽略图元或使用 `-a` 选项，确保您的Adobe Commerce 2存储中不需要受影响的数据。
+>在通过映射文件忽略实体或使用`-a`选项之前，请确保在Adobe Commerce 2存储中不需要受影响的数据。
 
 ## 类未在记录中映射 {#class-does-not-exist-but-mentioned}
 
@@ -83,13 +83,13 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### 原因
 
-在Adobe Commerce 2代码库中找不到Adobe Commerce 1代码库中的类 [EAV迁移步骤](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) 在我们的开发人员文档中。 在大多数情况下，缺少的类属于 [扩展](https://glossary.magento.com/extension).
+在我们的开发人员文档中的[EAV迁移步骤](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav)期间，在Adobe Commerce 2代码库中找不到Adobe Commerce 1代码库中的类。 在大多数情况下，缺少的类属于[扩展](https://glossary.magento.com/extension)。
 
-### 可能的解决方案
+### 可采用的解决方案
 
 * 安装相应的Adobe Commerce 2扩展。
-* 忽略导致问题的属性。    为此，将属性添加到 `ignore` 组中的组 `eav-attribute-groups.xml.dist` 文件。
-* 使用添加类映射 `class-map.xml.dist` 文件。
+* 忽略导致问题的属性。    为此，将属性添加到`eav-attribute-groups.xml.dist`文件中的`ignore`组。
+* 使用`class-map.xml.dist`文件添加类映射。
 
 ## 外键约束失败
 
@@ -101,13 +101,13 @@ Foreign key <KEY_NAME> constraint fails on source database. Orphan records id: <
 
 ### 原因
 
-中缺少数据库记录 `parent_table` ，则 `field_id` 的 `child_table` 正指向。
+`child_table`的`field_id`指向的`parent_table`中缺少数据库记录。
 
 ### 可能的解决方案
 
-从删除记录 `child_table` ，如果您不需要它们。
+从`child_table`中删除记录（如果您不需要这些记录）。
 
-要保留记录，请禁用 `Data Integrity Step` 通过修改数据迁移工具的 `config.xml` .
+要保留记录，请通过修改数据迁移工具的`config.xml`禁用`Data Integrity Step`。
 
 ## URL重写中存在重复项
 
@@ -119,13 +119,13 @@ Request path: towel.html Store ID: 2 Target path: catalog/product/view/id/12
 
 ### 原因
 
-此 `Target path` 在URL重写中，必须由唯一的 `Request path` + `Store ID` . 此错误报告使用相同的两个条目 `Request path` + `Store ID` 与两个不同对象配对 `Target path` 值。
+URL重写中的`Target path`必须由唯一的`Request path` + `Store ID`对指定。 此错误报告两个使用相同`Request path` + `Store ID`对并具有两个不同`Target path`值的条目。
 
 ### 可能的解决方案
 
-启用 `auto_resolve_urlrewrite_duplicates` 中的选项 `config.xml` 文件。
+在`config.xml`文件中启用`auto_resolve_urlrewrite_duplicates`选项。
 
-此配置向冲突记录添加一个哈希字符串 [URL](https://glossary.magento.com/url) 重写并在命令行界面中显示解析结果。
+此配置向[URL](https://glossary.magento.com/url)重写的冲突记录添加一个哈希字符串，并在命令行界面中显示解析结果。
 
 ## 实体不匹配 {#mismatch-of-entities}
 
@@ -143,7 +143,7 @@ Mismatch of entities in the document: <DOCUMENT> Source: <COUNT_ITEMS_IN_SOURCE_
 
 ### 可能的解决方案
 
-在中运行数据迁移工具 `Delta` 用于传输增量更改的模式。
+以`Delta`模式运行数据迁移工具以传输增量更改。
 
 ## 未安装Deltalog {#deltalog-is-not-installed}
 
@@ -155,9 +155,9 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### 原因
 
-此错误发生于 [增量迁移](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) （在我们的开发人员文档中）更改数据。 这意味着删除表（带前缀） `m2_cl_*`)在Adobe Commerce 1数据库中未找到。 该工具会在以下过程中安装这些表： [数据迁移](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) （位于我们的开发人员文档中）以及数据库触发器，用于跟踪更改和填充增量表。
+在对数据进行更改的[增量迁移](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html)（在我们的开发人员文档中）期间发生此错误。 这意味着在Adobe Commerce 1数据库中找不到deltalog表（前缀为`m2_cl_*`）。 此工具会在[数据迁移](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) （在我们的开发人员文档中）期间安装这些表，还会安装用于跟踪更改和填充增量表的数据库触发器。
 
-出现该错误的一个原因可能是您正在尝试从 *复制* Adobe Commerce ，而不是来自Live Store本身。 当您从从未迁移的Adobe Commerce 1实时存储中创建副本时，该副本不包含完成增量迁移所需的触发器和其他增量表，因此迁移失败。 数据迁移工具不会比较AC1和AC2的DB以迁移差异。 相反，该工具使用在首次迁移期间安装的触发器和增量表来执行后续的增量迁移。 在这种情况下，实时Adobe Commerce 1数据库的副本将不包含数据迁移工具用于执行迁移的触发器和删除表。
+导致该错误的一个原因可能是，您尝试从Live Adobe Commerce 1存储区的&#x200B;*副本*&#x200B;进行迁移，而不是从Live存储区本身进行迁移。 当您从从未迁移的Adobe Commerce 1实时存储中创建副本时，该副本不包含完成增量迁移所需的触发器和其他增量表，因此迁移失败。 数据迁移工具不会比较AC1和AC2的DB以迁移差异。 相反，该工具使用在首次迁移期间安装的触发器和增量表来执行后续的增量迁移。 在这种情况下，实时Adobe Commerce 1数据库的副本将不包含数据迁移工具用于执行迁移的触发器和删除表。
 
 ### 可能的解决方案
 

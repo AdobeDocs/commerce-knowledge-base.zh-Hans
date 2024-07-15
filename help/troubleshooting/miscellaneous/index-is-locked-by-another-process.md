@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-在CLI中进行完全重新索引时，Adobe Commerce会向您显示以下错误消息： *&#39;索引被另一个重新索引过程锁定。 正在跳过。* 换言之，当进程或索引类型被锁定时，您无法重新索引该特定锁定的索引类型。 重新索引将始终跳过该索引类型。
+在CLI中进行完全重新索引时，Adobe Commerce会向您显示错误消息： *&#39;索引被另一个重新索引进程锁定。 正在跳过。*&#x200B;换句话说，当进程或索引类型被锁定时，您将无法重新索引该特定锁定的索引类型。 重新索引将始终跳过该索引类型。
 
 ## 原因
 
@@ -83,6 +83,6 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 * [索引概述](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
 * [索引器最佳实践](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
-* [配置和运行Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
+* [配置并运行Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
 * [管理索引器](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
 * [索引器优化](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)

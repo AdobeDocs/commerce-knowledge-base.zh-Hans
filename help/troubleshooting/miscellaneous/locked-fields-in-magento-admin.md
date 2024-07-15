@@ -22,16 +22,16 @@ ht-degree: 0%
 
 ## 问题
 
-将配置的更改保存到 `app/etc/env.php` 或 `app/etc/config.php`中，您无法修改“管理员”中的设置。
+将配置的更改保存到`app/etc/env.php`或`app/etc/config.php`后，便无法在管理员中修改设置。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 注意：以上是一个示例 — 该问题可能会影响已保存的所有配置。
 
-1. 商家在终端中使用以下命令保存其投放方法凭据： `./vendor/bin/ece-tools config:dump`. 这会将凭据保存在 `app/etc/env.php` 文件。
+1. 商家在终端中使用以下命令保存其投放方法凭据： `./vendor/bin/ece-tools config:dump`。 这会将凭据保存在`app/etc/env.php`文件中。
 1. 然后，商家尝试稍后更改凭据。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 商家可以在“管理员”字段设置中设置值并保存它们。
 
@@ -41,17 +41,17 @@ ht-degree: 0%
 
 ## 原因
 
-当配置保存到 `env.php` 或 `config.php`中，您将无法修改管理员中的设置。 要允许编辑设置，您必须从以下位置删除配置 `env.php` 或 `config.php`.
+当配置保存到`env.php`或`config.php`时，您将无法在管理员中修改设置。 要允许编辑设置，您必须从`env.php`或`config.php`中删除配置。
 
 ## 解决方案
 
-确保配置尚未保存到 `app/etc/env.php` 或 `app/etc/config.php`. 如果已保存，请尝试以下步骤：
+确保该配置尚未保存到`app/etc/env.php`或`app/etc/config.php`。 如果已保存，请尝试以下步骤：
 
-* `config.php`  — 删除设置，然后重新部署。
-* `env.php`  — 直接在服务器上修改此设置并删除设置，然后运行 `bin/magento app:config:import`.
+* `config.php` — 删除设置，然后重新部署。
+* `env.php` — 直接在服务器上修改此设置并删除设置，然后运行`bin/magento app:config:import`。
 
 ## 相关阅读
 
-* [导出配置](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) 在我们的开发人员文档中。
-* [设置配置值](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) 在我们的开发人员文档中。
-* [云基础架构上的Adobe Commerce：通过配置管理减少部署停机时间](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) 在我们的支持知识库中。
+* [导出开发人员文档中的配置](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings)。
+* 在我们的开发人员文档中[设置配置值](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set)。
+* 云基础架构上的[Adobe Commerce：通过我们的支持知识库中的配置管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)，减少部署停机时间。

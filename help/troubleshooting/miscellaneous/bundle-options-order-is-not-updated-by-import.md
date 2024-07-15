@@ -27,12 +27,12 @@ ht-degree: 0%
 
 您有一个包含捆绑销售产品的有效.csv文件。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 使用导入文件 [导入功能](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
+1. 使用[导入功能](https://docs.magento.com/m2/ee/user_guide/system/data-import.html)导入文件。
 1. 打开捆绑包产品页面。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 选项顺序与.csv文件中的顺序相同。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 在中为每个选项显式声明一个位置 `position` 的参数 `bundle_values` 列中的。csv文件。 有关详细说明，请参阅 [编辑产品数据](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data) 在我们的用户指南中。
+1. 为.csv文件中`bundle_values`列的`position`参数中的每个选项显式声明位置。 有关详细说明，请参阅用户指南中的[编辑产品数据](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data)。
 1. 重复导入操作。
 
-有关导入的一般信息，请参见 [导入捆绑产品](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html) 在我们的用户指南中。
+有关导入的一般信息，请参阅用户指南中的[导入捆绑包产品](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html)。

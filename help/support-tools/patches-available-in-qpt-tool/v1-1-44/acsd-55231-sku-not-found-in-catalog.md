@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-55231：使用快速订购功能时出现“未找到SKU”错误
 
-ACSD-55231修补程序修复了您获取的 *&#39;在目录中找不到SKU&#39;* 尝试使用快速订购功能将产品添加到购物车时出错。 此修补程序在以下情况下可用： [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安装1.1.44。 修补程序ID为ACSD-55231。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
+ACSD-55231修补程序修复了以下问题：当您尝试使用快速订购功能将产品添加到购物车时，出现&#x200B;*“在目录中找不到SKU”*&#x200B;错误。 安装[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.44时，此修补程序可用。 修补程序ID为ACSD-55231。 请注意，该问题计划在Adobe Commerce 2.4.7中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 * Adobe Commerce（所有部署方法） 2.4.4-p3
 
@@ -27,24 +27,24 @@ ACSD-55231修补程序修复了您获取的 *&#39;在目录中找不到SKU&#39;*
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新版本的其他版本 [!DNL Quality Patches Tool] 版本发布。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
-正在获取 *&#39;在目录中找不到SKU&#39;* 使用快速订购功能搜索要添加到购物车的产品时出错。
+获取&#x200B;*”在使用快速订购功能搜索要添加到购物车的产品时，在目录“*”中找不到SKU错误。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 安装Adobe Commerce和B2B模块。
-1. 导航到 **[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B Features]** 并设置：
+1. 导航到&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL B2B Features]**&#x200B;并设置：
    * **[!UICONTROL Enable company]**： *是*
    * **[!UICONTROL Enable Shared Catalog]**： *是*
    * **[!UICONTROL Enable Quick Order]**： *是*
 1. 保存上述配置。
-1. 转到 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]** 并创建新的共享目录。
-1. 导航到 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** 并创建新客户：
-   * 在组字段中，选择最近创建的共享目录并设置 *[!UICONTROL Allow remote shopping assistance]* 到 *是*.
-1. 使用SKU生成简单产品 *p12*，将其与类别关联 *c1*，然后在中选择新创建的共享目录 [!UICONTROL Product in Shared Catalog] 部分。
+1. 转到&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**&#x200B;并创建新共享目录。
+1. 导航到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**&#x200B;并创建新客户：
+   * 在“组”字段中，选择最近创建的共享目录并将&#x200B;*[!UICONTROL Allow remote shopping assistance]*&#x200B;设置为&#x200B;*是*。
+1. 生成带有SKU *p12*&#x200B;的简单产品，将其与类别&#x200B;*c1*&#x200B;关联，然后在[!UICONTROL Product in Shared Catalog]部分中选择新创建的共享目录。
 1. 运行：
 
    ```
@@ -54,33 +54,33 @@ ACSD-55231修补程序修复了您获取的 *&#39;在目录中找不到SKU&#39;*
    ```
 
 1. 刷新管理页面。
-1. 导航到 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** 并编辑之前创建的客户。
-1. 单击 **[!UICONTROL Login as customer]**.
-1. 转到 **[!UICONTROL Quick order]**.
-1. 搜索 *p12* SKU并单击 **[!UICONTROL Product Suggestion]**.
+1. 导航到&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**&#x200B;并编辑之前创建的客户。
+1. 单击&#x200B;**[!UICONTROL Login as customer]**。
+1. 转到&#x200B;**[!UICONTROL Quick order]**。
+1. 搜索&#x200B;*p12* SKU并单击&#x200B;**[!UICONTROL Product Suggestion]**。
 1. 将此产品添加到购物车并下订单。
-1. 返回到 **[!UICONTROL Quick Order]**，搜索SKU *p12* 再次，然后单击 **[!UICONTROL Product Suggestion]**.
+1. 返回&#x200B;**[!UICONTROL Quick Order]**，再次搜索SKU *p12*，然后单击&#x200B;**[!UICONTROL Product Suggestion]**。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 您可以使用快速订购功能将产品添加到购物车。
 
 <u>实际结果</u>：
 
-您无法使用快速订购功能将产品添加到购物车并获取 *&#39;在目录中找不到SKU&#39;* 搜索产品SKU时出错。
+无法使用快速订购功能将产品添加到购物车并获取&#x200B;*。搜索产品SKU时，在目录“*”中找不到SKU出错。
 
 ## 应用修补程序
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 云基础架构上的Commerce指南中的。
+* Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 云基础架构上的Adobe Commerce：云基础架构上的Commerce指南中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相关阅读
 
-要了解有关 [!DNL Quality Patches Tool]，请参阅：
+要了解有关[!DNL Quality Patches Tool]的更多信息，请参阅：
 
-* [[!DNL Quality Patches Tool] 已发布：用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用以下方式检查修补程序是否可用于您的Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关QPT中可用的其他修补程序的信息，请参阅 [[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+有关QPT中其他可用修补程序的信息，请参阅[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

@@ -14,11 +14,11 @@ ht-degree: 0%
 # Adobe Commerce的受管警报
 
 
-我们设置了关键的仪表板和警报，帮助您了解您的站点何时达到关键存储和Apdex级别（用户对应用程序和服务响应时间的满意度）。 这有助于您在发现响应时间缓慢或中断之前采取行动。 您将能够使用下面列出的文章对警报进行故障排除。 在使用警报之前，请先设置通知渠道。 请参阅 [New Relic配置通知渠道](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) 在我们的开发人员文档中。
+我们设置了关键的仪表板和警报，帮助您了解您的站点何时达到关键存储和Apdex级别（用户对应用程序和服务响应时间的满意度）。 这有助于您在发现响应时间缓慢或中断之前采取行动。 您将能够使用下面列出的文章对警报进行故障排除。 在使用警报之前，请先设置通知渠道。 请参阅我们的开发人员文档中的[New Relic配置通知渠道](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels)。
 
 >[!NOTE]
 >
->如果Adobe Commerce警报策略的托管警报不可用，可能是由于此帐户是新创建的或最近配置了New Relic。 在每个星期二运行一个进程，将警报策略添加到这些帐户。 警报策略应在下一个进程运行后的第二天可供您使用。 如果政策还是缺失， [提交Adobe Commerce支持请求](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) 并包含您的项目ID。
+>如果Adobe Commerce警报策略的托管警报不可用，可能是由于此帐户是新创建的或最近配置了New Relic。 在每个星期二运行一个进程，将警报策略添加到这些帐户。 警报策略应在下一个进程运行后的第二天可供您使用。 如果策略仍然缺失，请[提交Adobe Commerce支持请求](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket)并包含您的项目ID。
 
 请参阅下表中的链接，这些链接指向提供这些警报的故障诊断步骤的知识库文章：
 

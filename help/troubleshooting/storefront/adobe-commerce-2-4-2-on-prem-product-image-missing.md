@@ -21,21 +21,21 @@ ht-degree: 0%
 
 ## 问题
 
-产品图像将保存在中 `s3` 存储桶，但未同步回 `pub/media` 目录。 仅当同时使用以下两种方式时，才会出现此问题：
+产品图像保存在`s3`存储桶中，但未同步回`pub/media`目录。 仅当同时使用以下两种方式时，才会出现此问题：
 
 * 启用网站的Nginx可调整图像大小
-* AWS `s3` 作为媒体存储
+* AWS `s3`作为媒体存储空间
 
 <u>先决条件</u>：
 
 Adobe Commerce与Nginx一起安装。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 配置Adobe Commerce以使用AWS `s3` 作为介质存储。
-1. 使用配置Nginx `nginx.conf.sample` Adobe Commerce安装目录中提供的配置文件和Nginx虚拟主机。 请参阅 [配置Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) 在我们的开发人员文档中。
+1. 将Adobe Commerce配置为使用AWS `s3`作为媒体存储。
+1. 使用Adobe Commerce安装目录中提供的`nginx.conf.sample`配置文件和Nginx虚拟主机配置Nginx。 请参阅我们的开发人员文档中的[配置Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)。
 1. 创建一个具有一个产品映像的简单产品。
-1. Nginx具有用于在中调整图像大小的未注释配置 `nginx.conf.sample` 与以下内容类似：
+1. Nginx在`nginx.conf.sample`中调整图像大小的配置未注释，类似于以下内容：
 
 ```conf
 load_module /etc/nginx/modules/ngx_http_image_filter_module.so;
@@ -54,7 +54,7 @@ location /media/ {
     }
 ```
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 产品图像将上传到产品页面。
 

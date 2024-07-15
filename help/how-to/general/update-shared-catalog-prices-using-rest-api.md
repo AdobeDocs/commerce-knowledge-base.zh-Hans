@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 使用REST API更新共享目录价格
 
-要使用API在共享目录中添加或更新价格，我们建议使用 `TierPriceStorageInterface` 服务，请参见 [管理层价格](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) 我们的开发人员文档中的REST API引用。 对于共享目录价格，我们使用层价和客户组。
+要在具有API的共享目录中添加或更新价格，我们建议使用开发人员文档中的[管理层价格](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) REST API参考中所述的`TierPriceStorageInterface`服务。 对于共享目录价格，我们使用层价和客户组。

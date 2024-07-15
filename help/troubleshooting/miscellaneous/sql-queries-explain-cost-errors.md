@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # SQL查询： EXPLAIN成本错误
 
-本文提供了在运行不成功的SQL查询时出现EXPLAIN开销错误的解决方案。 PostgreSQL使用名为 [EXPLAIN命令](https://www.postgresql.org/docs/9.5/static/using-explain.html) 确定SQL查询的开销。 我们构建的SQLReport Builder也使用此命令，这意味着如果认为成本过高（执行查询所需的资源量超过我们的阈值），查询将不会运行，并且会显示一条EXPLAIN消息。
+本文提供了在运行不成功的SQL查询时出现EXPLAIN开销错误的解决方案。 PostgreSQL使用名为[EXPLAIN命令](https://www.postgresql.org/docs/9.5/static/using-explain.html)的内容来确定SQL查询的成本。 我们构建的SQLReport Builder也使用此命令，这意味着如果认为成本过高（执行查询所需的资源量超过我们的阈值），查询将不会运行，并且会显示一条EXPLAIN消息。
 
 发生这种情况的原因有几个。 以下是您可能会收到的消息、这些消息的含义以及如何排除这些消息。
 
 ## 无法执行查询。 \[xxx\]的EXPLAIN成本值太高，无法运行此查询。
 
-如果您看到此消息，则表示该查询被视为太昂贵而无法执行。 针对这种情况，我们提出了两个建议：一个是从查询中删除任何ORDER BY子句，因为这些子句的操作成本很高。 其次是按照我们网站上的 [优化文章](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html) 以调整您的查询。
+如果您看到此消息，则表示该查询被视为太昂贵而无法执行。 针对这种情况，我们提出了两个建议：一个是从查询中删除任何ORDER BY子句，因为这些子句的操作成本很高。 第二个是按照我们的[优化文章](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html)中的提示调整您的查询。
 
 ## 无法执行查询。 此查询返回\[xxx\]行，这超过了我们10,000行的限制
 

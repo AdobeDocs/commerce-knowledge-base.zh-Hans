@@ -23,4 +23,4 @@ ht-degree: 0%
 
 ## 要选择禁用这些电子邮件，请执行以下操作：
 
-请按照以下说明进行操作 [在Amazon网站上更新通知首选项](https://sellercentral.amazon.com/gp/help/external/G871).
+按照[更新Amazon网站](https://sellercentral.amazon.com/gp/help/external/G871)上的通知首选项的说明进行操作。

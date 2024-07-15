@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 更新高级报告以在其自己的cron组上运行
 
-本文为Adobe Commerce在Cloud Infrastructure 2.3.0上的已知问题提供了一个修补程序，在该修补程序中，高级报表不显示任何数据。 这是因为高级报告作业 `analytics_collect_data` 未按计划执行。 本文提供了一个将创建高级报表cron组的修补程序 `analytics`.
+本文为Adobe Commerce在Cloud Infrastructure 2.3.0上的已知问题提供了一个修补程序，在该修补程序中，高级报表不显示任何数据。 这是因为未按计划执行高级报告作业`analytics_collect_data`。 本文提供了一个将创建高级报表cron组`analytics`的修补程序。
 
 ## 问题
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## Patch
 
-该修补程序已附加到本文。 该修补程序将 `analytics` cron作业任务从默认组转到 `analytics`.
+该修补程序已附加到本文。 该修补程序将`analytics` cron作业任务从默认组移至`analytics`。
 
 要下载它，请向下滚动到文章的结尾并单击文件名，或单击以下链接：
 
 [MDVA-19640\_EE\_2.3.0\_COMPOSER\_v1.patch](assets/MDVA-19640_EE_2.3.0_COMPOSER_v1.patch.zip)
 
-应用修补程序后，请运行以下SQL查询。 必须运行查询才能在中更改记录 `cron_schedule` 表格。
+应用修补程序后，请运行以下SQL查询。 必须运行查询才能更改`cron_schedule`表中的记录。
 
 ```
 UPDATE core_config_data
@@ -45,6 +45,6 @@ WHERE `path` LIKE "crontab/default/jobs/analytics%";
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

@@ -29,8 +29,8 @@ ht-degree: 0%
 1. 启用PayPal Express签出。
 1. 以访客身份或在登录时将产品添加到购物车。
 1. 去结帐。
-1. 选择您的送货地址。 例如， *UK* . 然后，将输入内容输入到 **省/市/自治区** 字段。 例如， *诺丁汉郡*.
-1. 单击 **下单** 按钮下单。 您会收到成功的订单页面和订单确认电子邮件。
+1. 选择您的送货地址。 例如，*UK* 。 然后在&#x200B;**省/市/自治区**&#x200B;字段中输入输入。 例如，*诺丁汉郡*。
+1. 单击&#x200B;**下单**&#x200B;按钮下单。 您会收到成功的订单页面和订单确认电子邮件。
 
 <u>预期结果：</u>
 
@@ -47,14 +47,14 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 ## 解决方案
 
-对于Adobe Commerce本地商家：应用 [修补程序，](https://magento.com/tech-resources/download#download2353) 该页面可从以下位置的“下载”部分获得： [magento.com](https://magento.com) 门户。
+对于Adobe Commerce本地商家：应用[修补程序，](https://magento.com/tech-resources/download#download2353)，该修补程序可从“我的帐户”中[magento.com](https://magento.com)门户的“下载”部分获得。
 
-对于Adobe Commerce on cloud infrastructure商家：Adobe在适用于Commerce v1.0.2的云修补程序中包含此修补程序。请参阅 [Commerce云修补程序发行说明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) 在我们的开发人员文档中，查找有关应用最新包的说明。
+对于Adobe Commerce on cloud infrastructure商家：Adobe在适用于Commerce v1.0.2的云修补程序中包含此修补程序。请参阅我们的开发人员文档中的[Commerce的云修补程序](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)发行说明，查找有关应用最新软件包的说明。
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 相关阅读
 
-* [发行信息> Adobe Commerce 2.3.4发行说明>应用Adobe Commerce 2.3.4的区域修补程序的PayPal Express签出问题以解决关键的PayPal Express签出问题](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) 在我们的开发人员文档中。
+* [发行信息> Adobe Commerce 2.3.4发行说明>应用Adobe Commerce 2.3.4的区域修补程序的PayPal Express签出问题以解决我们开发人员文档中的关键PayPal Express签出问题](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue)。

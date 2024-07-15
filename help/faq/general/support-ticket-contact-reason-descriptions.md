@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 支持票证联系原因描述
 
-本文列出了支持服务单 **联系原因** 字段选项以及每个选项的更多详细说明。
+本文列出了支持票证&#x200B;**联系原因**&#x200B;字段选项以及每个选项的更多详细说明。
 
 ## 联系原因
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## Adobe Commerce应用程序原因
 
-以下为显示的选项： **Adobe Commerce应用程序** 已选为 **联系原因**：
+如果选择&#x200B;**Adobe Commerce应用程序**&#x200B;作为&#x200B;**联系原因**，则会显示以下选项：
 
 <table class="tg">
 <thead>
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ## Adobe Commerce Cloud基础架构原因
 
-以下为显示的选项： **Adobe Commerce Cloud基础架构** 已选为 **联系原因**：
+如果选择&#x200B;**Adobe Commerce Cloud基础架构**&#x200B;作为&#x200B;**联系原因**，则会显示以下选项：
 
 <table class="tg">
 <thead>
@@ -150,4 +150,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-请参阅 [帮助中心指南>支持票证字段说明](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) 查看有关其他票证接收表单字段的详细信息。
+请参阅[帮助中心指南>支持的票证字段说明](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets)，查看有关其他票证接收表单字段的详细信息。

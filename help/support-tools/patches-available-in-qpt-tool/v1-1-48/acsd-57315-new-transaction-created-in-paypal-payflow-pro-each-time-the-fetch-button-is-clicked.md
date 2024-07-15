@@ -1,22 +1,23 @@
 ---
-title: '''ACSD-57315：新事务创建于 [!DNL PayPal Payflow Pro] 每次单击“获取”按钮时'
-description: 应用ACSD-57315修补程序以修复在中创建新事务的Adobe Commerce问题。 [!DNL PayPal Payflow Pro] 每次在的“查看交易”屏幕上单击“提取”按钮时， [!UICONTROL Admin].
+title: 'ACSD-57315：每次单击获取按钮时， [!DNL PayPal Payflow Pro] 中都会创建新事务'
+description: 应用ACSD-57315修补程序以修复Adobe Commerce问题，该问题导致每次在[!UICONTROL Admin]中的查看事务屏幕上单击获取按钮时， [!DNL PayPal Payflow Pro] 中都会创建一个新事务。
 feature: Payments
 role: Admin, Developer
-source-git-commit: b7f85e4fdb7ef4a6328a1a411dac765dd8da083e
+exl-id: bcc7467d-09f9-4235-9f9f-46d3034567b8
+source-git-commit: d7ace1f20defb01105d4a241f971b06fca052215
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
-# ACSD-57315：新事务处理创建于 [!DNL PayPal Payflow Pro] 每次单击“获取”按钮时
+# ACSD-57315：每次单击获取按钮时，[!DNL PayPal Payflow Pro]中都会创建新事务
 
-ACSD-57315修补程序修复了在中创建新交易的问题 [!DNL PayPal Payflow Pro] 每次在的“查看交易”屏幕上单击“提取”按钮时， [!UICONTROL Admin]. 此修补程序在以下情况下可用： [!DNL Quality Patches Tool (QPT)] 已安装1.1.48。 修补程序ID为ACSD-57315。 请注意，该问题计划在Adobe Commerce 2.5.0中修复。
+ACSD-57315修补程序修复了每次在[!UICONTROL Admin]中的查看事务屏幕上单击获取按钮时，[!DNL PayPal Payflow Pro]中都会创建一个新事务的问题。 安装[!DNL Quality Patches Tool (QPT)] 1.1.48时，此修补程序可用。 修补程序ID为ACSD-57315。 请注意，该问题计划在Adobe Commerce 2.5.0中修复。
 
 ## 受影响的产品和版本
 
-**该修补程序是为Adobe Commerce版本创建的：**
+**为Adobe Commerce版本创建了修补程序：**
 
 * Adobe Commerce（所有部署方法） 2.4.4-p4
 
@@ -26,22 +27,22 @@ ACSD-57315修补程序修复了在中创建新交易的问题 [!DNL PayPal Payfl
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新版本的其他版本 [!DNL Quality Patches Tool] 版本发布。 要检查该修补程序是否与您的Adobe Commerce版本兼容，请更新 `magento/quality-patches` 包到最新版本，并检查 [[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
-新事务创建于 [!DNL PayPal Payflow Pro] 每次在的“查看交易”屏幕上单击“提取”按钮时， [!UICONTROL Admin].
+每次在[!UICONTROL Admin]中的查看事务屏幕上单击获取按钮时，[!DNL PayPal Payflow Pro]中都会创建一个新事务。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 配置 [!DNL PayPal Payflow Pro].
-1. 将交易记录方法设置为 *[!UICONTROL Sale]*.
-1. 下订单，使用 *信用卡*.
-1. 从以下位置打开交易记录 [!UICONTROL Admin].
-1. 单击 **[!UICONTROL Fetch]** 按钮。
-1. Check [!DNL PayPal] 与下单相关的交易记录的帐户。
+1. 配置[!DNL PayPal Payflow Pro]。
+1. 将事务方法设置为&#x200B;*[!UICONTROL Sale]*。
+1. 使用&#x200B;*信用卡*&#x200B;下订单。
+1. 从[!UICONTROL Admin]打开事务。
+1. 单击&#x200B;**[!UICONTROL Fetch]**&#x200B;按钮。
+1. 检查[!DNL PayPal]帐户以查找与下订单相关的交易记录。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 未创建新的付款交易记录。
 
@@ -53,14 +54,14 @@ ACSD-57315修补程序修复了在中创建新交易的问题 [!DNL PayPal Payfl
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* Adobe Commerce或Magento Open Source内部部署： [[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 云基础架构上的Adobe Commerce： [升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 云基础架构上的Commerce指南中的。
+* Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 云基础架构上的Adobe Commerce：云基础架构上的Commerce指南中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相关阅读
 
-要了解有关 [!DNL Quality Patches Tool]，请参阅：
+要了解有关[!DNL Quality Patches Tool]的更多信息，请参阅：
 
-* [[!DNL Quality Patches Tool] 已发布：用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我们的支持知识库中。
-* [使用以下方式检查修补程序是否可用于您的Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我们的支持知识库中。
+* [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
+* [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关QPT中可用的其他修补程序的信息，请参阅 [[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+有关QPT中其他可用修补程序的信息，请参阅[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

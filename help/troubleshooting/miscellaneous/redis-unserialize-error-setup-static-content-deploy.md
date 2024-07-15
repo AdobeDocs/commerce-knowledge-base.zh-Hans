@@ -1,6 +1,6 @@
 ---
-title: Redis未序列化错误'setup:static-content:部署'
-description: 本文修复了运行“magento设置”时的Redis非序列化错误:static-content:部署”。
+title: Redis未序列化错误“设置:static-content:部署”
+description: 本文修复了在运行“magento setup:static-content:deploy”时出现Redis未序列化错误的问题。
 exl-id: 4bc88933-3bf9-4742-b864-b82d3c1b07a9
 feature: Cache, Deploy, Page Content, SCD, Services, Variables
 role: Developer
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Redis未序列化错误 `setup:static-content:deploy`
+# Redis未序列化错误`setup:static-content:deploy`
 
-本文修复了运行中的Redis非序列化错误 `magento setup:static-content:deploy`.
+本文修复了在运行`magento setup:static-content:deploy`时出现Redis未序列化错误的问题。
 
-正在运行 `magento setup:static-content:deploy` 导致Redis错误：
+运行`magento setup:static-content:deploy`导致Redis错误：
 
 ```
 [Exception]
@@ -25,13 +25,13 @@ Notice: unserialize(): Error at offset 0 of 1 bytes in
 
 该问题是由于Redis连接上的并行干扰进程造成的。
 
-若要解决，请运行 `setup:static-content:deploy` 在单线程模式下，通过设置以下环境变量：
+要解决此问题，请通过设置以下环境变量，在单线程模式下运行`setup:static-content:deploy`：
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-或者，运行 `setup:static-content:deploy` 命令后跟 `-j 1` (或 `--jobs=1` )参数。
+或者，运行`setup:static-content:deploy`命令，后跟`-j 1` （或`--jobs=1` ）参数。
 
 请注意，禁用多线程会减慢部署静态资产的过程。
 
@@ -43,7 +43,7 @@ STATIC_CONTENT_THREADS =1
 
 ## 问题
 
-运行 `setup:static-content:deploy` 命令导致Redis错误：
+运行`setup:static-content:deploy`命令导致Redis错误：
 
 ```php
 )
@@ -79,17 +79,17 @@ Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned 
 
 问题是由于Redis连接上的并行干扰进程造成的。
 
-在此，一个过程 `App/Config/Type/System.php` 预期响应 `system_defaultweb`，但收到了针对 `system_cache_exists` 这是另一个过程造成的。 请参阅中的详细说明 [杰森·伍兹的帖子](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
+此处，`App/Config/Type/System.php`中的进程需要对`system_defaultweb`的响应，但收到了其他进程对`system_cache_exists`的响应。 查看[Jason Woods帖子](https://github.com/magento/magento2/issues/9287#issuecomment-302362283)中的详细说明。
 
 ## 解决方案
 
-禁用并行并运行 `setup:static-content:deploy` 在单线程模式下，通过设置以下环境变量：
+通过设置以下环境变量，禁用并行度并在单线程模式下运行`setup:static-content:deploy`：
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-此外，您还可以运行 `setup:static-content:deploy` 命令后跟 `-j 1` (或 `--jobs=1`)参数。
+也可以运行`setup:static-content:deploy`命令，后跟`-j 1` （或`--jobs=1`）参数。
 
 >[!NOTE]
 >

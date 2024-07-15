@@ -1,6 +1,6 @@
 ---
-title: 回退到 [!DNL Elasticsearch7] 当搜索引擎设置为 [!DNL Opensearch]
-description: 本文为当*回退到以下位置时的问题提供了解决方案 [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] 在Adobe Commerce中。
+title: 当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7]
+description: 本文提供了当Adobe Commerce中的*回退到 [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] 时问题的解决方案。
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 回退到 [!DNL Elasticsearch7] 当搜索引擎设置为 [!DNL Opensearch]
+# 当搜索引擎设置为[!DNL Opensearch]时回退到[!DNL Elasticsearch7]
 
-本文为以下情况下出现的问题提供了解决方案： *回退到[!DNL Elasticsearch7]* 将搜索引擎设置为时出现错误 [!DNL OpenSearch] 在Adobe Commerce中。
+本文为在Adobe Commerce中将搜索引擎设置为[!DNL OpenSearch]时出现&#x200B;*回退到[!DNL Elasticsearch7]*&#x200B;错误的问题提供了解决方案。
 
 ## 受影响的版本
 
@@ -21,33 +21,33 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL OpenSearch] 可作为搜索引擎从Adobe Commerce 2.4.6开始提供。
+>[!DNL OpenSearch]可用作从Adobe Commerce 2.4.6开始的搜索引擎。
 
 ## 问题
 
-您设置了 **搜索引擎** 到 **[!DNL OpenSearch]**，但在中看到此类错误 `var/log/support_report.log` 文件：
+您将&#x200B;**搜索引擎**&#x200B;设置为&#x200B;**[!DNL OpenSearch]**，但在`var/log/support_report.log`文件中看到以下类型的错误：
 
 ```[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []```
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
-1. 验证 [!DNL OpenSearch] 通过运行此命令安装： `curl 127.0.0.1:9200`<br>
-如果它指示 *1.2.4*，则 [!DNL OpenSearch] 已安装。
-1. 转到 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**.
-1. 检查搜索引擎。 它将会显示 [!DNL Elasticsearch7].
+1. 通过运行此命令验证是否已安装[!DNL OpenSearch]： `curl 127.0.0.1:9200`<br>
+如果它指示*1.2.4*，则表示已安装[!DNL OpenSearch]。
+1. 转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**。
+1. 检查搜索引擎。 它将显示[!DNL Elasticsearch7]。
 
 ## 原因
 
-即使您的版本支持 [!DNL OpenSearch]，则应用程序将仅识别/接受 [!DNL Elasticsearch7] 作为搜索引擎。
+即使您的版本不支持[!DNL OpenSearch]，应用程序也将只识别/接受[!DNL Elasticsearch7]作为搜索引擎。
 
-从Adobe Commerce版本2.4.6开始，应用程序已更新为允许 [!DNL OpenSearch] 选为搜索引擎。
-如果您转到 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** 在非云环境中，您将能够更改此选项，如 **解决方案** 下。
-(注意：在云环境中，此字段无法更改，因为搜索引擎已锁定在 `app/etc/env.php` 文件。)
+从Adobe Commerce版本2.4.6开始，已更新应用程序，以允许选择[!DNL OpenSearch]作为搜索引擎。
+如果您在非云环境中转到**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**，您将能够更改此选项，如下面的&#x200B;**解决方案**中所示。
+（注意：在云环境中，此字段无法更改，因为搜索引擎在`app/etc/env.php`文件中被锁定。）
 
 ## 解决方案
 
-更新 `SEARCH_CONFIGURATION` 中的变量 `.magento.env.yaml` 文件，并确保 **搜索引擎** 设置为 *[!DNL elasticsearch7]*.
+更新`.magento.env.yaml`文件中的`SEARCH_CONFIGURATION`变量，并确保&#x200B;**搜索引擎**&#x200B;设置为&#x200B;*[!DNL elasticsearch7]*。
 
 ## 相关阅读
 
-[设置OpenSearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) 云基础架构上的Commerce指南中的。
+在《云基础架构上的Commerce》指南中[设置OpenSearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html)。

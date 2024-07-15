@@ -21,9 +21,9 @@ ht-degree: 0%
 
 ## 问题
 
-通过中定义的至少一个直接或间接依赖关系，可以检测到活动依赖关系混淆攻击的潜在情况 `composer.json` 通过编辑器插件 `magento/composer-dependency-version-audit-plugin` 在安装/更新编辑器期间。
+在编辑器安装/更新期间，通过编辑器插件`magento/composer-dependency-version-audit-plugin`在`composer.json`中定义的至少一个直接或间接依赖项检测到活动依赖项混淆攻击的可能情况。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 安装/更新编辑器时，如果编辑器插件检测到潜在的依赖项混淆攻击，则会停止该进程。 在这种情况下，编辑器安装/更新将失败，并出现类似于以下内容的错误消息：
 
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ### 扩展开发人员的期望
 
-* 无法确定插件的包（如果来自公共存储库）是否已被破坏。 该插件将检测packagist.org上包的公共版本的版本何时高于此类私有存储库中可用的版本 [repo.magento.com](https://repo.magento.com). 我们强烈建议扩展开发人员避免此类情况，并且不要公开发布比可通过访问的版本更新的版本 [repo.magento.com](https://repo.magento.com).
+* 无法确定插件的包（如果来自公共存储库）是否已被破坏。 该插件将检测packagist.org上包的公共版本的版本何时高于私有存储库（如[repo.magento.com](https://repo.magento.com)）中的可用版本。 我们强烈建议扩展开发人员避免此类情况，并且不要公开发布比[repo.magento.com](https://repo.magento.com)提供的版本更新的版本。
 * Adobe Commerce明白，市场审查流程可能会延迟扩展的发布，但是该流程旨在保护商家的安全，并帮助扩展开发人员发现他们可能错过的意外错误。

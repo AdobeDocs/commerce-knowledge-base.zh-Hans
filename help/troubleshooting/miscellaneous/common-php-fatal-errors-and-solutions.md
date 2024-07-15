@@ -17,25 +17,25 @@ ht-degree: 0%
 
 ## 示例
 
-*&#39;PHP致命错误：超出最大执行时间60秒....&#39;*
+*&#39;PHP致命错误：在....&#39;*&#x200B;中超出了60秒的最大执行时间
 
 ## 解决方案
 
-您可以通过设置自定义更新最长执行时间 `max_execution_time` 值 `php.ini` 文件并重新部署。
+您可以通过在`php.ini`文件中设置自定义`max_execution_time`值并重新部署来更新最大执行时间。
 
 例如：
 
 `max_execution_time = 120`
 
-请参阅 [自定义php.ini设置](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) 文章。
+请参阅[自定义php.ini设置](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)一文。
 
 ## 示例
 
-*&#39;PHP致命错误：允许的内存大小已耗尽792723456字节&#39;* （这只是字节大小的示例。）
+*&#39;PHP严重错误：允许的内存大小已用完792723456字节&#39;* （这只是示例字节大小。）
 
 ## 解决方案
 
-自定义您的 `php.ini` 设置。 请参阅此 [自定义php.ini设置](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) 文章。
+自定义您的`php.ini`设置。 请参阅此[自定义php.ini设置](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)文章。
 
 ## 示例
 
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 ## 解决方案
 
-确保不删除 `php.ini` 文件。 在Windows上，行尾由回车（ASCII 0x0d或\r）和新行(\n)的组合终止，也称为CR/LF。
+确保未删除`php.ini`文件中的Windows样式结尾。 在Windows上，行尾由回车（ASCII 0x0d或\r）和新行(\n)的组合终止，也称为CR/LF。
 
 ## 示例
 
-*&#39;PHP致命错误：未捕获的PDOException： SQLSTATE\[HY000\] \[1040\]中的连接太多&#39;*
+*&#39;PHP严重错误：未捕获的PDOException： SQLSTATE\[HY000\] \[1040\]&#39;*&#x200B;中的连接太多
 
 ## 解决方案
 
@@ -55,11 +55,11 @@ MySQL环境的磁盘空间不足。 为MySQL环境提供更多磁盘空间。
 
 ## 示例
 
-*&#39;PHP致命错误：未捕获的TypeError：Magento的返回值&#39;*
+*&#39;PHP致命错误：未捕获的TypeError：返回Magento&#39;*&#x200B;的值
 
 ## 解决方案
 
-查看 `<root>/tmp` 目录，因为它可能已满。 如果空间已满，请在目录中提供更多空间。 这可能只是将文件移动到另一个目录或删除它们。
+检查`<root>/tmp`目录，因为它可能已满。 如果空间已满，请在目录中提供更多空间。 这可能只是将文件移动到另一个目录或删除它们。
 
 ## 相关阅读
 

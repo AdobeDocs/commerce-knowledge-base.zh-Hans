@@ -26,18 +26,18 @@ ht-degree: 0%
 
 <u>先决条件</u>：
 
-1. 在“Commerce管理”中的 **商店** > **配置** > **销售** > **结帐**，设置 **允许访客签出** = *否*.
-1. 通过Braintree启用PayPal，如 [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) 在我们的用户指南中。
+1. 在Commerce管理员中，在&#x200B;**商店** > **配置** > **销售** > **签出**&#x200B;下，设置&#x200B;**允许来宾签出** = *否*。
+1. 按照用户指南中的[Braintree](https://docs.magento.com/user-guide/payment/braintree.html?)所述，通过Braintree启用PayPal。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 1. 将产品作为访客添加到购物车。
-1. 选择 **迷你购物车** 并单击 **使用PayPal付款**.
+1. 选择&#x200B;**迷你购物车**&#x200B;并单击&#x200B;**使用PayPal支付**。
 1. 完成Paypal结帐，然后您将登录到“订单审核”页面。
-1. 选择 **配送方式**.
-1. 单击 **下单**.
+1. 选择&#x200B;**配送方式**。
+1. 单击&#x200B;**下单**。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 当客户单击迷你购物车或购物车页面上的PayPal按钮时，应向客户显示以下消息：
 
@@ -59,6 +59,6 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [Adobe Commerce购物车中产品数量的最佳实践](https://support.magento.com/hc/en-us/articles/360048550332) 在我们的支持知识库中。
-* [订单处理教程：步骤1。 将项目添加到购物车](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) 在我们的开发人员文档中
-* [GraphQL签出教程：步骤1。 将产品添加到购物车](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) 在我们的开发人员文档中
+* 在我们支持知识库中，[Adobe Commerce购物车中产品数量的最佳实践](https://support.magento.com/hc/en-us/articles/360048550332)。
+* [订单处理教程：步骤1。 在开发人员文档中将项目添加到购物车](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html)
+* [GraphQL签出教程：步骤1。 在开发人员文档中将产品添加到购物车](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html)

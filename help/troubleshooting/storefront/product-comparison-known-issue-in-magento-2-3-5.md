@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.5中的产品比较已知问题
 
-本文就如何避免已知问题提供了建议 [产品比较](https://docs.magento.com/user-guide/marketing/product-compare.html) Adobe Commerce内部部署2.3.5和Adobe Commerce中的cloud infrastructure 2.3.5问题。
+本文提供了有关如何避免Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中的已知[产品比较](https://docs.magento.com/user-guide/marketing/product-compare.html)问题的建议。
 
 ## 受影响的产品和版本
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->产品属性设置为使用进行比较 **Storefront上的比较** 配置设置。 欲了解更多信息，请参见 [创建产品属性](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) 在我们的用户指南中。
+>产品属性设置为使用&#x200B;**Storefront上的可比较项**&#x200B;配置设置进行比较。 有关详细信息，请参阅用户指南中的[创建产品属性](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties)。
 
 Adobe Commerce 2.3.6中将会提供相应的修复，该版本计划于2020年第4季度发布。
 
-您可以在GitHub中查看此修补程序（请考虑，此修补程序未通过回归测试，不是正式的修补程序）： <https://github.com/magento/magento2/pull/27662>
+您可以在GitHub中查看此修补程序（请考虑，此修补程序未通过回归测试，不是正式修补程序）： <https://github.com/magento/magento2/pull/27662>
 
 ## 相关阅读
 
@@ -53,4 +53,4 @@ Adobe Commerce 2.3.6中将会提供相应的修复，该版本计划于2020年�
 <p title="Adobe Commerce 2.3.5-p1中有关Amazon Pay签出问题的修补程序"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Adobe Commerce 2.3.5-p1中有关Amazon Pay签出问题的修补程序</a></p>
 </li>
 </ul>
-</li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5已知问题</a> 在我们的开发人员文档中</li></ul>
+</li><li>在开发人员文档中<a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5已知问题</a></li></ul>

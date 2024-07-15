@@ -23,17 +23,17 @@ ht-degree: 0%
 
 更新laminas/laminas-escaper：2.7.1后，页面上会显示错误消息。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 将laminas/laminas-escaper更新为2.7.1。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 没有错误。
 
 <u>实际结果</u>：
 
-更新到laminas/laminas-escaper：2.7.1后，产品编辑（或产品管理）页面上会显示错误消息： *TypeError： rawurlencode()要求参数1为字符串，int在/var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php：246中给定*
+更新到laminas/laminas-escaper：2.7.1后，产品编辑（或产品管理）页面上显示一条错误消息： *TypeError： rawurlencode()预期参数1为字符串，int在/var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php：246*中提供
 此错误发生在前端和管理员页面上，导致页面内容扭曲。
 
 ## 原因
@@ -42,8 +42,8 @@ laminas/laminas-escaper 2.7.1已开始对Escaper类使用严格类型验证。
 
 ## 解决方案
 
-运行 `composer require laminas/laminas-escaper:2.7.0` 每个项目的根目录中。
+在每个项目的根目录中运行`composer require laminas/laminas-escaper:2.7.0`。
 
 ## 相关阅读
 
-laminas文档： [拉米纳斯逸出器](https://docs.laminas.dev/laminas-escaper/)
+laminas文档： [laminas-escaper](https://docs.laminas.dev/laminas-escaper/)

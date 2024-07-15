@@ -25,19 +25,21 @@ ht-degree: 0%
 
 要修改这些字段，请执行以下步骤：
 
-1. 访问您的帐户，网址为 [Adobe帐户登录](https://accounts.magento.cloud).
-1. 单击 **[!UICONTROL Account Settings]** 选项卡。
-1. 选择 *创建新密码* 复选框。
-1. 进行必要的更改，然后单击 *保存*.
+1. 通过[帐户登录](https://accounts.magento.cloud)Adobe访问您的帐户。
+1. 单击&#x200B;**[!UICONTROL Account Settings]**&#x200B;选项卡。
+1. 选中&#x200B;*创建新密码*&#x200B;复选框。
+1. 进行必要的更改，然后单击&#x200B;*保存*。
 
-**注意**： *您的密码不会更改。*
+**注意**： *您的密码将不会更改。*
 
 ## 哪些内容不能修改？
 
-1. **[!UICONTROL Password]**：要更改密码，请访问 [Adobe密码重置](https://account.adobe.com/)，因为此用户档案已链接到您在该处的帐户/电子邮件地址。
+1. **[!UICONTROL Password]**：
+要更改密码，请访问[Adobe密码重置](https://account.adobe.com/)，因为此配置文件已链接至您的帐户/电子邮件地址。
 
-1. **[!UICONTROL Email Address]**：此字段的修改取决于您的具体情况。
+1. **[!UICONTROL Email Address]**：
+修改此字段取决于您的具体情况。
 
 如果您需要将当前帐户的所有权转让给新所有者或其他电子邮件地址，则需要更新与该帐户关联的主要用户电子邮件。
 
-请参阅： [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+请参阅：[https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)

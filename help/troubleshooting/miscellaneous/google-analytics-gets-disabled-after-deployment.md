@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-跨环境部署代码时，构建和部署脚本会验证 `master/production/staging` 部署分支以启用Google Analytics。 在部署主环境的开发（或子）分支到开发人员环境（集成）时，部署脚本将禁用Google Analytics。
+跨环境部署代码时，生成和部署脚本将验证是否已部署`master/production/staging`分支以启用Google Analytics。 在部署主环境的开发（或子）分支到开发人员环境（集成）时，部署脚本将禁用Google Analytics。
 
 ## 原因
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-如果要始终启用Google Analytics，请设置deploy变量 `ENABLE_GOOGLE_ANALYTICS = true`，如中所述 [部署变量](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) 在我们的开发人员文档中。
+如果要始终启用Google Analytics，请按照开发人员文档中的[部署变量](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics)中的说明设置部署变量`ENABLE_GOOGLE_ANALYTICS = true`。
 
 >[!NOTE]
 >

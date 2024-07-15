@@ -28,10 +28,10 @@ MySQL表的大小不会直接影响站点性能。 但是，如果表很大，�
 
 请考虑以下选项以避免性能降低：
 
-* 创建CRON作业，这将清理大表。 请参阅 [查找大型MySQL表](/help/how-to/general/find-large-mysql-tables.md) 在我们的支持知识库中获取有关如何标识大表的建议。
+* 创建CRON作业，这将清理大表。 请参阅我们的支持知识库中的[查找大型MySQL表](/help/how-to/general/find-large-mysql-tables.md)，以获取有关如何识别大型表的建议。
 * 对于大于1 GB的表，请使用为日志写入优化的MySQL引擎。 例如，Archive引擎。
 * 更新功能以避免将日志存储在数据库中。
 
 ## 相关阅读
 
-[更改日志表过大，导致实体更新延迟](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) 在我们的支持知识库中。
+[超大的更改日志表导致我们的支持知识库中的实体更新延迟](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)。

@@ -1,6 +1,6 @@
 ---
 title: 旧版欧盟地区的集成环境迁移
-description: “为了向您提供最新的基础设施基础，我们正在将属于旧版‘欧盟’地区的所有客户的集成环境迁移到新的欧盟地区。 其他地区&ndash； EU-3、EU-5、EU-6和ndash；将保持不变。  ’
+description: “为了向您提供最新的基础设施基础，我们正在将属于旧版‘欧盟’地区的所有客户的集成环境迁移到新的欧盟地区。 其他地区&amp；ndash； EU-3、EU-5、EU-6 &amp；ndash；将保持不变。  ’
 exl-id: 71c0d241-7ba8-48c3-acf1-2b28be5c80e7
 feature: Integration
 role: Admin

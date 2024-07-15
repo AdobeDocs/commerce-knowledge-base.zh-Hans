@@ -29,4 +29,4 @@ Magento清单当前不支持在结账期间使用基于源地址的直接发货�
 
 ## 相关阅读
 
-* [Magento清单常见问题解答](https://github.com/magento/inventory/wiki/MSI-FAQs) 在GitHub中。
+* GitHub中的[Magento清单常见问题解答](https://github.com/magento/inventory/wiki/MSI-FAQs)。

@@ -24,31 +24,31 @@ ht-degree: 0%
 
 ### 方案1：配置Braintree支付方式
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
-在Commerce Admin中，转到 **销售** > **Braintree虚拟终端** .** **
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。** **
 
 <u>预期结果：</u>
 
-此 **Braintree虚拟终端** 页面会通过正确的UI加载。
+**Braintree虚拟终端**&#x200B;页使用正确的UI加载。
 
 <u>实际结果：</u>
 
-的UI **Braintree虚拟终端** 页面已损坏。
+**Braintree虚拟终端**&#x200B;页面的UI已损坏。
 
 ### 方案2：配置Braintree支付方式
 
-<u>重现问题的步骤：</u>
+<u>要再现的步骤：</u>
 
-在Commerce Admin中，转到 **销售** > **Braintree虚拟终端** .** **
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。** **
 
 <u>预期结果：</u>
 
-此 **Braintree虚拟终端** 页面通过适当的UI加载，并显示一条警告，告知Braintree尚未配置。
+**Braintree虚拟终端**&#x200B;页面加载时带有正确的UI，并显示一条警告，告知Braintree尚未配置。
 
 <u>实际结果：</u>
 
-的UI **Braintree虚拟终端** 页面已损坏，不显示任何警告。
+**Braintree虚拟终端**&#x200B;页面的UI已损坏，未显示任何警告。
 
 ## 解决方案
 
@@ -69,6 +69,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以获取说明。
+有关说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

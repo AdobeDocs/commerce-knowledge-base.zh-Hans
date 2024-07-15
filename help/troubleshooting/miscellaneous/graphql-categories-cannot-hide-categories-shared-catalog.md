@@ -20,9 +20,9 @@ ht-degree: 0%
 
 ## 问题
 
-GraphQL类别和 `categoryList` 查询忽略类别权限以隐藏共享目录中的类别。 在B2B共享目录功能开启的情况下，Adobe Commerce 2.4.3上的所有商家都会发生这种情况。
+GraphQL类别和`categoryList`查询忽略类别权限以隐藏共享目录中的类别。 在B2B共享目录功能开启的情况下，Adobe Commerce 2.4.3上的所有商家都会发生这种情况。
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 先决条件：
 
@@ -34,10 +34,10 @@ GraphQL类别和 `categoryList` 查询忽略类别权限以隐藏共享目录中
 1. 为每个类别分配一些产品。
 1. 将CAT1分配给自定义目录，从自定义专用目录中取消分配CAT2。 这会从共享目录中取消分配CAT2中的所有产品。
 1. 保存自定义目录。
-1. 将CAT2的类别权限设置为 *拒绝* 浏览类别并将客户组设置为上述专用目录。
-1. 运行 `categoryList query` 或者类别查询为第三步中的公司用户。
+1. 将CAT2的类别权限设置为&#x200B;*拒绝*&#x200B;浏览类别，并将客户组设置为上述专用目录。
+1. 以步骤3中的公司用户身份运行`categoryList query`或类别查询。
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 结果中只显示CAT1。
 
@@ -51,8 +51,8 @@ GraphQL类别和 `categoryList` 查询忽略类别权限以隐藏共享目录中
 
 ## 解决方案
 
-此问题将在版本2.4.4的范围内修复，商家应： [提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 获得自定义修补程序（如果他们需要2.4.4版本之前的解决方案）。
+该问题将在版本2.4.4的范围内修复，如果商家需要2.4.4版本之前的解决方案，他们应[提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以获取自定义修补程序。
 
 ## 相关阅读
 
-* [最佳实践Adobe Commerce类别数限制](https://support.magento.com/hc/en-us/articles/360048176832) 在我们的支持知识库中。
+* [最佳实践Adobe Commerce支持知识库中的类别数限制](https://support.magento.com/hc/en-us/articles/360048176832)。

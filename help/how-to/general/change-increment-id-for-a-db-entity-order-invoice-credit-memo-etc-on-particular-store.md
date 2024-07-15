@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 更改数据库实体（订单、发票、贷项通知单等）的增量ID 在特定存储上
 
-本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce商店中使用 `ALTER TABLE` sql语句。
+本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce存储上使用`ALTER TABLE` SQL语句。
 
 ## 受影响的版本
 
 * Adobe Commerce内部部署：2.x.x
 * 云基础架构上的Adobe Commerce：2.x.x
-* MySQL：任意 [支持的版本](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL：任何[支持的版本](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
 
 ## 您何时需要更改增量ID（案例）
 
@@ -29,12 +29,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您还可以通过在PayPal的“付款接收首选项”中允许每个发票ID多次付款，修复PayPal的付款网关问题。 请参阅 [PayPal网关已拒绝请求 — 重复发票问题](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) 在我们的支持知识库中。
+>您还可以通过在PayPal的“付款接收首选项”中允许每个发票ID多次付款，修复PayPal的付款网关问题。 请参阅我们的支持知识库中的[PayPal网关被拒绝的请求 — 重复发票问题](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)。
 
 ## 必备步骤
 
 1. 查找应更改新增量ID的存储和实体。
-1. [连接](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) 到MySQL数据库。 对于云基础架构上的Adobe Commerce，您首先需要 [通过SSH连接到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [连接](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)到您的MySQL数据库。 对于云基础架构上的Adobe Commerce，您首先需要[SSH连接到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 使用以下查询检查实体序列表的当前auto\_increment值：
 
 ```sql
@@ -43,17 +43,17 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### 示例
 
-如果您要检查应用商店中订单的自动递增，其中 *ID=1*，则表名称为：
+如果您在&#x200B;*ID=1*&#x200B;的存储区中检查订单的自动递增，则表名将是：
 
 ```sql
 'sequence_order_1'
 ```
 
-如果 `auto_increment` 列为 *1234*，则在商店中下单的订单 *ID=1* 将具有 *ID \#100001234*.
+如果`auto_increment`列的值为&#x200B;*1234*，则在&#x200B;*ID=1*&#x200B;的商店下个订单将具有&#x200B;*ID \#100001234*。
 
 ### 相关文档
 
-* [设置远程MySQL数据库连接](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) 在我们的开发人员文档中。
+* [在我们的开发人员文档中设置远程MySQL数据库连接](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)。
 
 ## 更新实体以更改增量ID
 
@@ -75,16 +75,16 @@ ALTER TABLE sequence_{entity_type}_{store_id} AUTO_INCREMENT = {new_increment_va
 ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 ```
 
-在商店的下一次订单 *ID=1* 将具有 *ID \#100002000*.
+下一个在&#x200B;*ID=1*&#x200B;商店下单的订单将具有&#x200B;*ID \#100002000*。
 
 ## 有关生产环境(Cloud)的其他建议步骤
 
-执行之前 `ALTER TABLE` 在云基础架构上的Adobe Commerce的生产环境中进行查询，我们强烈建议执行以下步骤：
+在云基础架构上的Adobe Commerce的生产环境中执行`ALTER TABLE`查询之前，我们强烈建议执行以下步骤：
 
 * 测试在暂存环境中更改增量ID的整个过程
-* [创建](/help/how-to/general/create-database-dump-on-cloud.md) 在出现故障时恢复生产数据库的数据库备份
+* [创建](/help/how-to/general/create-database-dump-on-cloud.md)数据库备份，以便在出现故障时还原您的生产数据库
 
 ## 相关文档
 
-* [在云上创建数据库转储](/help/how-to/general/create-database-dump-on-cloud.md) 在我们的支持知识库中。
-* [通过SSH连接到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) 在我们的开发人员文档中。
+* [在我们的支持知识库中创建云上的数据库转储](/help/how-to/general/create-database-dump-on-cloud.md)。
+* 在开发人员文档中[SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。

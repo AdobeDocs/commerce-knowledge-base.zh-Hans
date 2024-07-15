@@ -27,4 +27,4 @@ fatal: The remote end hung up unexpectedly
 
 ## 解决方案 {#solution}
 
-将您的SSH密钥上传到GitHub，如中所述 [GitHub帮助页面](https://help.github.com/articles/generating-ssh-keys) .
+将SSH密钥上传到GitHub，如[GitHub帮助页面](https://help.github.com/articles/generating-ssh-keys)中所述。

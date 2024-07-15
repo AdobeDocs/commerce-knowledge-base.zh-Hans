@@ -19,14 +19,14 @@ ht-degree: 0%
 
 在此服务器上未找到请求的URL /magento2index.php/admin/admin/dashboard/index/key/0c81957145a968b697c32a846598dc2e/。
 
-请注意，之间缺少斜杠字符 `magento2` 和 `index.php` 在URL中。
+请注意，URL中缺少介于`magento2`和`index.php`之间的斜杠字符。
 
 ## 解决方案
 
 基本URL不正确。 基本URL必须：
 
-* 开始于 `http://` 或 `https://`
-* 以斜杠( `/` )
-* 与的大小写匹配 `web/unsecure/base_url` 中的记录 `core_config_data` 数据库表
+* 以`http://`或`https://`开头
+* 以斜杠( `/` )结尾
+* 匹配`core_config_data`数据库表中`web/unsecure/base_url`记录的大小写
 
 请使用有效值重新运行安装。

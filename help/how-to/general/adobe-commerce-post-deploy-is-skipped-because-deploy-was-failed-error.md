@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce *已跳过部署后，因为部署失败*错误
-description: '本文说明如何调查部署错误：*由于部署失败，已跳过部署后*'
+description: '本文说明如何调查部署错误：*由于部署失败，已跳过Post-deploy*'
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce *已跳过部署后，因为部署失败* 错误
+# 已跳过Adobe Commerce *后期部署，因为部署失败*&#x200B;错误
 
-本文介绍如何调查部署错误： *已跳过部署后，因为部署失败* 在部署到不同环境（例如升级）期间发生。
+本文说明如何调查部署错误： *已跳过Post-deploy，因为部署到其他环境（例如升级）期间发生部署失败*。
 
 ## 受影响的产品和版本
 
-云基础架构上的Adobe Commerce [所有受支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+云基础架构上的Adobe Commerce [所有支持的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 问题
 
@@ -46,4 +46,4 @@ ht-degree: 0%
     W:
 ```
 
-要获取用于确定实际原因的错误跟踪，请通过SSH连接到服务器并检查日志文件 `var/log/install_upgrade.log`.
+要获取用于确定实际原因的错误跟踪，请SSH到服务器并检查日志文件`var/log/install_upgrade.log`。

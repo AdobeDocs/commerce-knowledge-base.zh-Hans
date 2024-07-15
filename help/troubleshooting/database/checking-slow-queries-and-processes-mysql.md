@@ -30,7 +30,7 @@ ht-degree: 0%
    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
    ```
 
-1. 转到 <https://www.unixtimestamp.com/> 或类似的Unix时间戳转换器)并插入执行慢查询的时间戳。
+1. 转到<https://www.unixtimestamp.com/>（或类似的Unix时间戳转换器）并插入执行慢速查询的时间戳。
 1. 如果时间与您经历的任何站点停机都相关，则可能是由于数据库过载所致。 检查数据库上当时有哪些加载。 此类载荷的示例包括：
 
 * Cron进程
@@ -39,13 +39,13 @@ ht-degree: 0%
 * 创建转储
 
 
-### 使用分析查询 [!DNL Percona Toolkit] (Adobe Commerce Pro：仅限Cloud架构)
+### 使用[!DNL Percona Toolkit]分析查询(仅限Adobe Commerce Pro：云架构)
 
-如果您的Adobe Commerce项目部署在Pro体系结构上，则可以使用 [!DNL Percona Toolkit] 以分析查询。
+如果您的Adobe Commerce项目部署在Pro架构上，则可以使用[!DNL Percona Toolkit]来分析查询。
 
-1. 运行 `pt-query-digest --type=slowlog` 命令，针对MySQL慢查询日志。
-   * 要查找慢查询日志的位置，请参阅 **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** 在我们的开发人员文档中。
-   * 请参阅 [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) 文档。
+1. 对MySQL慢查询日志运行`pt-query-digest --type=slowlog`命令。
+   * 要查找慢查询日志的位置，请参阅我们的开发人员文档中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**。
+   * 请参阅[[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest)文档。
 1. 根据发现的问题，采取措施修复查询，使其运行速度更快。
 
 ## 正在检查MySQL“进程列表”
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [MySQL Show Processlist语法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) 在dev.mysql.com中。
-* [MySQL Kill语法](https://dev.mysql.com/doc/refman/8.0/en/kill.html) 在dev.mysql.com中。
-* [安全性、性能和数据处理](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) 在我们的开发人员文档中。
-* [MySQL帮助](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) 在我们的开发人员文档中。
+* 在dev.mysql.com中[MySQL显示Processlist语法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)。
+* dev.mysql.com中的[MySQL终止语法](https://dev.mysql.com/doc/refman/8.0/en/kill.html)。
+* 在开发人员文档中[安全性、性能和数据处理](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html)。
+* 在开发人员文档中[MySQL帮助](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html)。

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0：安装B2B 1.2.0时出现异常
 
-针对以下期间引发的异常，本文修复了Adobe Commerce已知问题 `setup:upgrade` 安装B2B 1.2.0时。
+本文修复了在安装B2B 1.2.0时`setup:upgrade`期间引发的异常所导致的Adobe Commerce已知问题。
 
 ## 受影响的产品和版本
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 问题
 
-<u>重现问题的步骤</u>
+<u>重现步骤</u>
 
 1. 安装Adobe Commerce并创建多个存储。
 1. 创建其他存储。
@@ -33,13 +33,13 @@ ht-degree: 0%
 >
 >任何存储区超过1个的B2B实例从1.2.0以下的版本升级或Commerce实例2.4.0以下的版本升级也会受到影响。
 
-<u>预期结果</u>
+<u>预期的结果</u>
 
 B2B 1.2.0安装。
 
 <u>实际结果</u>
 
-时间 `setup:upgrade` 运行以安装B2B 1.2.0，此错误显示在 `PurchaseOrder` 模块：
+当`setup:upgrade`运行以安装B2B 1.2.0时，`PurchaseOrder`模块上出现此错误：
 
 ```php
 Module 'Magento_PurchaseOrder':
@@ -54,7 +54,7 @@ Module 'Magento_PurchaseOrder':
 
 ## Patch
 
-该修补程序已附加到本文，可在以下两个页面中下载： `.composer` 和 `.git` 格式（解压缩文件后）。
+该修补程序已附加到此文章，可以采用`.composer`和`.git`两种格式（解压缩文件后）下载。
 
 要下载它，请向下滚动到文章的结尾并单击文件名，或单击以下链接之一：
 
@@ -63,14 +63,14 @@ Module 'Magento_PurchaseOrder':
 
 ## 如何应用修补程序
 
-<u>Composer修补程序 </u>
+<u>Composer修补程序</u>
 
-请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 有关编辑器修补程序的说明。
+有关编辑器修补程序的说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
-<u>Git修补程序 </u>
+<u>Git修补程序</u>
 
-* 请参阅 [应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html) 请参阅Adobe Commerce云基础架构的git修补程序说明开发人员文档。
-* 请参阅 [应用修补程序：自定义修补程序](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) 在开发人员文档中，查看有关Adobe Commerce的Git修补程序说明。
+* 有关云基础架构上Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 有关Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序：自定义修补程序](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)。
 
 ## 相关阅读
 

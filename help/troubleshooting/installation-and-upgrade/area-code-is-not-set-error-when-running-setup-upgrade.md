@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 运行时出现“未设置区号”错误 `setup:upgrade`
+# 运行`setup:upgrade`时出现“未设置区号”错误
 
-本文为云基础架构2.2.3上的已知Adobe Commerce提供了一个修补程序，该修补程序与获取 *“未设置区号”* 运行以下命令时出错：
+本文为云基础架构2.2.3上已知的Adobe Commerce问题提供了一个修补程序，该问题与运行以下命令时出现&#x200B;*“未设置区码”*&#x200B;错误有关：
 
 ```bash
 setup:upgrade
@@ -31,7 +31,7 @@ setup:upgrade
 bin/magento setup:upgrade
 ```
 
-命令，您会收到以下错误消息： *“模块‘Magento\_AdvancedSalesRule’：正在安装数据……未设置区号：必须在启动会话之前设置区号”* 命令执行中断。 出现此问题是因为在实际设置区域配置之前请求了区域配置。 该修补程序允许捕获错误，并且不会中断升级过程。
+命令，您会收到以下错误消息： *&quot;Module &#39;Magento\_AdvancedSalesRule&#39;：正在安装数据……未设置区号：在启动会话之前必须设置区号&quot;*，命令执行已中断。 出现此问题是因为在实际设置区域配置之前请求了区域配置。 该修补程序允许捕获错误，并且不会中断升级过程。
 
 ## Patch
 
@@ -51,6 +51,6 @@ bin/magento setup:upgrade
 
 ## 如何应用修补程序
 
-有关说明，请参阅 [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我们的支持知识库中。
+有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
 
 ## 附加文件

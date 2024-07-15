@@ -14,7 +14,7 @@ ht-degree: 0%
 标题应简要描述问题，最好不超过70个字符。<br/>
 （例如：“安装或升级期间出现内存不足错误”。）
 
-请参阅 [参与>元数据](../../CONTRIBUTING.md#metadata) 以了解有关元数据的更多信息。
+有关元数据的更多信息，请参阅[参与>元数据](../../CONTRIBUTING.md#metadata)。
 
 介绍一两个段落：问题的简要概述。 前140个字符对于SEO很重要。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 * Adobe Commerce内部部署x.x.x
 * 云基础架构x.x.x上的Adobe Commerce
 
-(*或者，如果云或本地的相同版本受到影响，您可以说：*)
+（*如果云或本地的相同版本受到影响，您可以说：*）
 
 Adobe Commerce（所有部署方法）x.x.x
 
@@ -38,7 +38,7 @@ Adobe Commerce（所有部署方法）x.x.x
 
 如果在非常特定的情况下发生问题，请按照以下格式提供详细的步骤来重现问题、预期结果和实际结果：
 
-<u>重现问题的步骤</u>：
+<u>重现步骤</u>：
 
 先决条件： ... （如果有）。
 
@@ -46,7 +46,7 @@ Adobe Commerce（所有部署方法）x.x.x
 1. 第二步。
 1. ....
 
-<u>预期结果</u>：
+<u>预期的结果</u>：
 
 Adobe Commerce会这样做。
 
@@ -67,7 +67,7 @@ Adobe Commerce就是这么做的。
 
 ## 相关阅读
 
-* [文章主题](https://docs.magento.com/user-guide/) 在我们的用户指南中。
-* [文章主题](https://devdocs.magento.com) 在我们的开发人员文档中。 您还可以说要区分面向云用户和本地用户的开发文档中的说明： ”[文章主题](https://devdocs.magento.com) (位于我们为Adobe Commerce提供的云基础架构开发人员文档中)。” 对比”[文章主题](https://devdocs.magento.com) ，该页面位于我们为Adobe Commerce内部部署开发的开发人员文档中。”
-* [文章主题](https://support.magento.com/hc/en-us) 在我们的支持知识库中。
+* 我们用户指南中的[文章主题](https://docs.magento.com/user-guide/)。
+* 我们的开发人员文档中的[文章主题](https://devdocs.magento.com)。 您还可以说要区分面向云用户和本地用户的devdocs中的说明：“[文章主题](https://devdocs.magento.com)(在面向云基础架构的Adobe Commerce的开发人员文档中)”。 与“[文章主题](https://devdocs.magento.com)”(在Adobe Commerce内部部署的开发人员文档中)。
+* 我们的支持知识库中的[文章主题](https://support.magento.com/hc/en-us)。
 * 任何相关资源（博客、论坛、StackOverflow等）

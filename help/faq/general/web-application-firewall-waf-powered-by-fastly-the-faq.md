@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Adobe Commerce的托管云WAF（由Fastly提供支持）如何工作？
 
-Web应用程序防火墙(WAF)阻止 [恶意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) 通过根据一组安全规则过滤流量来进入站点和网络。 触发任何规则的流量会被阻止，以免损害您的网站或网络。
+Web应用程序防火墙(WAF)通过根据一组安全规则过滤流量，阻止[恶意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)进入站点和网络。 触发任何规则的流量会被阻止，以免损害您的网站或网络。
 
 Adobe Commerce的cloud WAF提供了WAF策略和规则集，旨在保护Adobe Commerce Web应用程序免受各种攻击。
 
@@ -50,7 +50,7 @@ WAF针对单个云帐户下的所有域进行整体调整。
 
 ## 如何更新WAF规则集？ WAF规则的更改或更新以及在生产中全局应用的速度如何？
 
-作为云WAF服务的一部分，Fastly管理来自商业第三方、Fastly研究和开放源的规则更新。 他们可以根据需要或在可从各自来源对规则进行更改时，将发布的规则更新到策略中。 一旦启用任何服务的WAF实例，也会插入与已发布的规则类匹配的新规则。 这有助于确保即时涵盖新的或不断演变的利用漏洞攻击。 您可以查看信息 [关于规则更新和维护](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) 在Fastly文档网站上。
+作为云WAF服务的一部分，Fastly管理来自商业第三方、Fastly研究和开放源的规则更新。 他们可以根据需要或在可从各自来源对规则进行更改时，将发布的规则更新到策略中。 一旦启用任何服务的WAF实例，也会插入与已发布的规则类匹配的新规则。 这有助于确保即时涵盖新的或不断演变的利用漏洞攻击。 您可以在Fastly文档网站上查看有关规则更新和维护[的信息](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance)。
 
 ## Adobe Commerce的云WAF与Fastly为其直接客户提供的WAF解决方案有何不同？
 
@@ -104,11 +104,11 @@ Adobe Commerce的WAF产品包括：作为PCI要求的一部分针对OWASP Top-10
 
 ## 客户是否可以创建和修改IP黑名单以阻止流量？
 
-是，客户可以在云基础架构的Admin UI上通过Adobe Commerce启用按国家/地区和访问控制列表(ACL)进行阻止。 如果您希望阻止来自特定国家/地区或特定IP或IP范围的访客访问，请使用这些功能。 如果您希望被阻止的访客查看自定义页面而不是错误代码，可以通过在Fastly配置菜单中上传HTML来创建自定义错误页面。 请参阅 [创建自定义错误/维护页面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 在我们的开发人员文档中。
+是，客户可以在云基础架构的Admin UI上通过Adobe Commerce启用按国家/地区和访问控制列表(ACL)进行阻止。 如果您希望阻止来自特定国家/地区或特定IP或IP范围的访客访问，请使用这些功能。 如果您希望被阻止的访客查看自定义页面而不是错误代码，可以通过在Fastly配置菜单中上传HTML来创建自定义错误页面。 请参阅我们的开发人员文档中的[创建自定义错误/维护页面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 ## 可在何处查看WAF服务的运行状态？
 
-WAF服务总体可用性报告于 [Fastly状态页面](https://status.fastly.com/). 不提供单个客户的WAF的可用性报告。
+在[Fastly状态页](https://status.fastly.com/)上报告整体WAF服务可用性。 不提供单个客户的WAF的可用性报告。
 
 ## Adobe Commerce是否为WAF服务提供事件管理？
 
@@ -118,7 +118,7 @@ WAF服务总体可用性报告于 [Fastly状态页面](https://status.fastly.com
 
 虽然Adobe Commerce没有安全运营中心，但我们确实有一个安全运营流程，使我们能够利用适当的资源实时响应安全事件。 我们还提供全天候的跟踪支持。
 
-您还可以从获取有关Adobe Commerce的安全新闻和更新 [安全中心](https://helpx.adobe.com/security.html).
+您还可以从[安全中心](https://helpx.adobe.com/security.html)获取与Adobe Commerce相关的安全新闻和更新。
 
 ## 提供哪些支持？
 
@@ -128,11 +128,11 @@ WAF支持提供以下资源来帮助您减轻不需要的或恶意请求对服�
 * 持续误判以解决WAF阻止合法流量的情况
 * 配置作为WAF版本升级的一部分引入的任何新标准规则
 
-请参阅 [云SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) 术语以了解其他支持信息，包括严重性定义、响应时间、渠道和可用性。
+请参阅[云SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf)术语，了解其他支持信息，包括严重性定义、响应时间、渠道和可用性。
 
 ## 如果WAF阻止合法流量或导致其他问题，如何获得帮助？
 
-[提交支持服务单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 在 [Adobe Commerce帮助中心](https://support.magento.com). 请包括指示票证与WAF服务相关，并包括阻止的请求标识符(ID)。
+[在[Adobe Commerce帮助中心](https://support.magento.com)提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 请包括指示票证与WAF服务相关，并包括阻止的请求标识符(ID)。
 
 Adobe Commerce支持工单系统跟踪我们的支持工程师和客户人员之间的通信。 此系统提供了带有时间戳的沟通记录，并在票证更新时向客户和Adobe Commerce的员工发送电子邮件。
 
@@ -160,12 +160,12 @@ Adobe Commerce支持工单系统跟踪我们的支持工程师和客户人员之
 </tr>
 <tr>
 <td>紧急升级*</td>
-<td>请参阅 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1通知热线</a> 文章适用于美国和国际数字。</td>
+<td>请参阅有关美国和国际号码的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1通知热线</a>文章。</td>
 </tr>
 </tbody>
 </table>
 
-*\* Adobe Commerce的免费支持电话线仅保留用于优先级1事件。 非优先级1调用将减慢对问题的整体响应*
+*\* Adobe Commerce的免费支持电话线仅保留用于优先级1事件。 非优先级1调用将减慢对问题*&#x200B;的整体响应速度
 
 ## 如何对误报进行分级？
 
