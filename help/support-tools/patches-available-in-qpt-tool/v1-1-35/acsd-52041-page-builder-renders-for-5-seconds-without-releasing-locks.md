@@ -4,9 +4,9 @@ description: 应用ACSD-52041修补程序以修复Adobe Commerce问题，该问�
 feature: Page Builder
 role: Admin, Developer
 exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
-source-git-commit: fc5dc9fcf610cae6f8c0a334b4ef15029c462c66
+source-git-commit: b5c253a5c0651c6027c0795edb2f230bd65f734a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,28 @@ ACSD-52041修补程序修复了页面生成器呈现5秒钟而不释放锁的问
 
 **与Adobe Commerce版本兼容：**
 
-* Adobe Commerce（所有部署方法） 2.4.4 - 2.4.4-p8、2.4.5 - 2.4.5-p7、2.4.6 - 2.4.6-p6
+* Adobe Commerce（所有部署方法） 2.4.4 - 2.4.4-p5、2.4.5 - 2.4.5-p4和2.4.6 - 2.4.6-p2。
+
+
 
 >[!NOTE]
 >
 >该修补程序可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
+
 ## 问题
 
-页面生成器呈现5秒钟，并且不释放锁定。
+**[!DNL Page Builder]**&#x200B;呈现&#x200B;*5*&#x200B;秒而不释放锁定。
 
 <u>重现步骤</u>：
 
-1. 编辑CMS页面、产品页面或具有页面生成器的任何内容。
+1. 编辑CMS页面、产品页面或具有&#x200B;**[!DNL Page Builder]**&#x200B;的任何内容。
 1. 保存更改。
 1. 请注意页面保存时间。
 
 <u>预期的结果</u>
 
-内容已保存。 在浏览器日志中未找到错误。
+内容已保存。 浏览器日志中未找到错误。
 
 <u>实际结果</u>
 
@@ -50,7 +53,7 @@ ACSD-52041修补程序修复了页面生成器呈现5秒钟而不释放锁的问
 
 ## 应用修补程序
 
-要应用单独的修补程序，请根据您的部署方法使用以下链接：
+要为版本&#x200B;**2.4.4 - 2.4.4-p5、2.4.5 - 2.4.5-p4和2.4.6 - 2.4.6-p2**&#x200B;应用单独的修补程序，请根据您的部署方法使用以下链接：
 
 * Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>)。
 * 云基础架构上的Adobe Commerce：云基础架构上的Commerce指南中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
