@@ -4,7 +4,7 @@ description: 本文为Adobe Commerce 2.4.6-p1内部部署问题提供了解决�
 feature: Install, Upgrade, B2B
 role: Developer
 exl-id: 4a557c13-7ec2-4cfe-b86e-bb0d1a441658
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 1. 安装Adobe Commerce 2.4.6-p1。
 
-   ```terminal
+   ```bash
    m2install.sh -s composer --ee -v 2.4.6-p1
    ```
 
 1. 尝试安装[!DNL B2B]版本1.4.0。
 
-   ```terminal
+   ```bash
    composer require magento/extension-b2b:1.4.0
    ```
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 安装失败并出现以下错误：
 
-```terminal
+```bash
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1
@@ -65,13 +65,13 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 从Adobe Commerce安装目录中，使用所需的依赖项更新`composer.json`：
 
-   ```terminal
+   ```bash
    composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
    ```
 
    **命令输出：**
 
-   ```terminal
+   ```bash
    Running composer update magento/module-re-captcha-company magento/security-package-b2b
    Loading composer repositories with package information
    Updating dependencies
@@ -94,13 +94,13 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 更新`composer.json`以添加[!DNL B2B]版本1.4.0。
 
-   ```terminal
+   ```bash
    composer require magento/extension-b2b=1.4.0
    ```
 
    **命令输出：**
 
-   ```terminal
+   ```bash
    ./composer.json has been updated
    Running composer update magento/extension-b2b
    Loading composer repositories with package information

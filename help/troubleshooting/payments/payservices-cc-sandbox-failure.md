@@ -4,7 +4,7 @@ description: 本文介绍了为什么在具有PayPal API的Sandbox环境中测�
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 使用来自PayPal的测试Visa信用卡`4111 1111 1111 1111`时，有时由于PayPal欺诈政策而导致失败，并出现以下错误：
 
-```terminal
+```bash
 Error happened when processing the request. Please try again later.
 ```
 

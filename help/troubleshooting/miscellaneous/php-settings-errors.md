@@ -4,7 +4,7 @@ description: 本文为PHP设置错误提供了解决方案。
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 具有大量存储审阅、产品、属性或选项的配置可以生成超过预设PHP限制的表单。 如果发送的值数超过`php.ini`内设置的`max-input-vars`限制（默认值为1000），则不会传输剩余数据，也不会更新这些数据库值。 发生这种情况时，PHP日志中会出现警告：
 
-```terminal
+```bash
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
@@ -58,7 +58,7 @@ PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase th
 
 错误文本通常为：
 
-```terminal
+```bash
 Parse error: syntax error, unexpected 'data' (T_STRING)
 ```
 
