@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 202f5edcef114a1d16177b05328803aca81c11e2
+source-git-commit: d3b832d2f8a0ef35e8a8e8899ccdaffeec8029ff
 workflow-type: tm+mt
-source-wordcount: '11064'
+source-wordcount: '11066'
 ht-degree: 0%
 
 ---
@@ -1180,7 +1180,7 @@ ht-degree: 0%
       * [MySQL和Elasticsearch显示不同的结果](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
       * [尽管安装了OpenSearch，Elasticsearch仍显示为搜索引擎](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * 帮助中心指南{#help-center-guide}
-   * [Adobe Commerce帮助中心用户指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
+   * [Adobe Commerce的Experience League支持用户指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Adobe Commerce支持票证生命周期策略更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * 操作方法{#how-to}
    * [操作方法概述](/help/how-to/overview.md)

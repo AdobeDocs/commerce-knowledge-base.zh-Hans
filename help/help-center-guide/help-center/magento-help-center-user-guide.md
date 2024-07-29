@@ -1,28 +1,28 @@
 ---
-title: Adobe Commerce帮助中心用户指南
-description: 了解如何将支持工单提交到Adobe Commerce帮助中心，提供对帐户的共享访问权限，以及导航Adobe Commerce知识库。
+title: Adobe Commerce的Experience League支持用户指南
+description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 3e773131f6f44436fc533f74474efbe8597abb5f
+source-git-commit: 23f19c3b8fff3b31bb42625d210c5330292b79b3
 workflow-type: tm+mt
-source-wordcount: '4988'
+source-wordcount: '2088'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce帮助中心用户指南
+# Adobe Commerce的Experience League支持用户指南
 
-在本指南中，了解如何向[Adobe Commerce帮助中心](https://support.magento.com/hc/en-us)提交支持票证，并提供对Adobe Commerce帐户的共享访问权限。
+在本指南中，了解如何向[Experience League支持](https://experienceleague.adobe.com/home#support)提交支持票证，并提供对Adobe Commerce帐户的共享访问权限。
 
 >[!NOTE]
 >
->Adobe Commerce支持将从Adobe Commerce帮助中心转移到Experience League。 如果您收到访问权限的通知，请使用[此处](#what-is-experience-support)描述的Experience League案例表单流程。 如果您未收到通知，请继续使用[Adobe Commerce帮助中心案例流程](#what-is-adobe-commerce-help-center)。
+>Adobe Commerce支持已从Adobe Commerce帮助中心迁移到Experience League。 使用[此处](#what-is-experience-support)描述的Experience League案例表单流程提交支持案例。
 
 >[!NOTE]
 >
 >Adobe Commerce帮助中心的知识库部分已迁移到Adobe Experience League门户。 在创建支持工单时，将向您推荐相关的知识库文章，以及来自Adobe Experience League的其他相关Adobe Commerce文档。
 
-**主要更新：** 2024年7月8日
+**主要更新：** 2024年7月29日
 
 **[什么是EXPERIENCE LEAGUE支持？](#what-is-experience-support)**
 
@@ -38,30 +38,10 @@ ht-degree: 0%
 * [跟踪您的支持案例](#track-support-cases)
 * [您案例中的备注](#comments-in-your-case)
 * [结案](#close-case)
-
-**[什么是ADOBE COMMERCE帮助中心？](#what-is-adobe-commerce-help-center)**
-
-**[支持票证](#support-tickets)**
-
-* [登录到帮助中心](#login)
-* [提交支持服务单](#submit-ticket)
-
-   * [帮助中心起始页](#submit-ticket-help-center-start-page)
-   * [“Magento帐户”页](#submit-ticket-magento-account-page)
-   * [云控制台](#submit-ticket-magento-cloud-account-page)
-   * [支持票证中的信息](#info-in-support-ticket)
-   * [Adobe Commerce帮助中心起始页上未显示“提交票证”链接](#no-submit-link)
-   * [*“请验证您的电子邮件地址”*](#verify-email-address)
-   * [票证提交表单：商家未显示在“组织”下拉列表中](#merchant-not-displayed)
-
-* [跟踪您的票证](#track-tickets)
-* [Adobe Commerce P1热线（需要登录）](#P1-hotline)
-* [Adobe Commerce分担责任运营模型（需要登录）](#shared-responsibility-operational-model)
-* [支持票证字段说明](#ticket-fields-explained)
-* [票证状态：如何处理您的请求](#ticket-status)
-* [票证中的对话](#conversation-in-ticket)
-* [解析您的票证](#resolve-ticket)
-* [打开跟进票证](#follow-up)
+* [重新打开您的案例](#reopen-case)
+* [使用Cloud Console提交票证](#cloud-console)
+* [Adobe Commerce P1热线](#P1-hotline)
+* [Adobe Commerce共同责任运营模式](#shared-responsibility-operational-model)
 
 **[共享访问权限：授予其他用户访问您帐户的权限](#shared-access)**
 
@@ -76,11 +56,6 @@ ht-degree: 0%
 
 **[ADOBE COMMERCE的计费常见问题解答](#billing-faq)**
 
-**[MAGENTOU现在是ADOBE数字学习服务的一部分](#magento-u)**
-
->[!NOTE]
->
->除非您收到通知，否则请继续使用[Adobe Commerce帮助中心案例流程](#what-is-adobe-commerce-help-center)。 如果系统通知您您属于具有访问权限的同类群组，请按照[下面](#what-is-experience-league-support)所述的Experience League案例表单流程操作。
 
 ## 什么是EXPERIENCE LEAGUE支持？ {#what-is-experience-support}
 
@@ -112,12 +87,12 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 要使用Adobe Experience League的起始页提交新的支持案例，请执行以下步骤：
 
->[!NOTE]
+>[!INFO]
 >
 >1. 如果您属于多个组织，则需要从下拉列表中选择相应的组织。
 >1. 要提交案例，您必须有权获得支持。 如果您没有权限，页面顶部将显示一个栏，告知您您您不是组织中的支持授权用户。
 
-1. 单击标题中的&#x200B;**支持**。 它将打开支持中心的主页。
+1. 单击标题中的&#x200B;**支持**。 打开“支持”主页。
 
    ![open-support-page](assets/click_support.png)
 
@@ -134,6 +109,16 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
    ![direct_support_required](assets/direct_support.png)
 
 1. 填写完所有必需的信息后，单击&#x200B;**[!UICONTROL Submit case]**。
+
+>[!IMPORTANT]
+>
+>如果您在登录experienceleague.adobe.com时无法在组织下拉菜单中看到您的组织，则在请求支持或管理现有支持案例之前，可能需要将您的配置文件与accounts.magento.com同步。   
+>
+>1. 导航到accounts.magento.com ，然后使用您将用于管理Adobe Experience League中的支持案例的相同配置文件（公司、学校或个人）登录。 
+>1. 成功登录accounts.magento.com配置文件后，请导航回experienceleague.adobe.com并登录。 
+>1. 从组织下拉菜单中选择您的组织。 
+>1. 如果贵组织仍未出现，请联系Commerce管理员以获取支持委派权限。 有关其他信息，请参阅[Commerce帐户共享](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)帮助文章。 
+
 
 您必须同时在https://account.adobe.com和https://account.magento.com拥有帐户才能登录该Experience League以提交支持案例。 在登录之前，您将无法提交支持案例。
 
@@ -227,75 +212,11 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 ![close-case](assets/close_case.png)
 
->[!NOTE]
->
->继续使用下面](#what-is-adobe-commerce-help-center)的Adobe Commerce帮助中心表单流程[进行票证提交和管理，除非您收到通知，您属于可以访问[此处](#what-is-experience-league-support)所述的Experience League案例表单流程的同类群组。
+### 重新打开您的案例 {#reopen-case}
 
-## 什么是ADOBE COMMERCE帮助中心？ {#what-is-adobe-commerce-help-center}
+要重新打开您的案例，请回复我们的支持系统中与该案例相关的电子邮件，并请工程师重新打开该案例。 如果您在案例关闭后14天内执行此操作，工程师可以为您重新打开案例。 但是，如果是在14天之后，工程师必须创建一个新案例。
 
-[Adobe Commerce帮助中心](https://support.magento.com/hc/en-us)是Adobe Commerce的支持门户，符合条件的客户可以在其中提交和管理支持工单。 您还可以在该处查看故障排除文章。
-
-## 支持票证 {#support-tickets}
-
-Adobe Commerce Ticketing System允许使用支持工单来解决您在使用Adobe Commerce时遇到的特定问题 — 适用于所有Adobe Commerce产品。
-
-## 登录到帮助中心 {#login}
-
-登录允许您提交、更新和响应工程师有关支持票证的问题。
-
-要登录Adobe Commerce帮助中心，请执行以下步骤：
-
-1. 访问<https://support.magento.com>上的帮助中心。
-1. 单击右上角的&#x200B;**登录**。
-
-使用您的Magento帐户凭据登录。 有关详细信息，请参阅我们的用户指南中的[您的Magento](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html)。
-
-### <strong>提交支持票证</strong> {#submit-ticket}
-
-成功登录后，您可以使用“帮助中心”起始页、“Magento帐户”页和“Magento云帐户”页提交支持票证。
-
-* 如果您是&#x200B;**帐户所有者**，请按照以下步骤操作。
-* 如果您是&#x200B;**共享访问用户，则必须首先切换帐户** [访问共享帐户（切换帐户）](#switch-accounts)，然后您可以继续执行以下步骤。
-
-#### 帮助中心起始页 {#submit-ticket-help-center-start-page}
-
-要使用Adobe Commerce帮助中心的起始页提交新的支持工单，请执行以下步骤：
-
-1. 转到[Adobe Commerce帮助中心](https://support.magento.com/hc/en-us)。
-1. 单击右上角的&#x200B;**提交票证**。
-
-   ![提交票证](assets/submit-a-ticket-4.png){width="800"}
-
-1. 填写字段。
-1. 单击&#x200B;**提交**。
-
-您&#x200B;*必须在https://account.adobe.com和https://account.magento.com上拥有*&#x200B;帐户，然后使用您的Adobe Commerce帐户登录到帮助中心以提交支持票证。 在登录之前，[不会显示&#x200B;**提交票证**&#x200B;按钮](#no-submit-link)。
-
->[!NOTE]
->
->如果您已在https://account.magento.com上拥有帐户，但无法登录，则可能尚未在https://account.adobe.com上注册帐户（自2022年8月起，必须注册）。
->
->要解决此问题：
->
->1. 在https://account.adobe.com上使用与您的广告ID相同的电子邮件地址创建一个帐户。
->1. 转到https://account.magento.com ，将您的Adobe ID与MAG ID关联起来。
-
-
-#### “Magento帐户”页 {#submit-ticket-magento-account-page}
-
-要使用“Magento帐户”页提交新的支持服务单，请执行以下步骤：
-
-1. 登录到您的Magento帐户。 请参阅我们的用户指南中的[详细说明](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account)。
-1. 单击&#x200B;**支持**&#x200B;选项卡。
-
-   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
-
-1. 将为您加载“帮助中心”起始页。
-1. 单击右上角的&#x200B;**提交票证**。
-1. 填写字段。
-1. 单击&#x200B;**提交**。
-
-#### 云控制台 {#submit-ticket-magento-cloud-account-page}
+### 使用Cloud Console提交票证 {#cloud-console}
 
 要使用Cloud Console提交新的支持工单，请执行以下步骤：
 
@@ -307,383 +228,14 @@ Adobe Commerce Ticketing System允许使用支持工单来解决您在使用Adob
 1. 单击&#x200B;**提交**。
 1. 单击&#x200B;**[!UICONTROL Submit]**。
 
-#### 支持票证中的信息 {#info-in-support-ticket}
-
-标有红色星号( **\*** )的字段是必填字段，必须填写。 如果将其中任何字段留空，您将无法提交票证。
-
-有关更多详细信息，请参阅下面解释的[票证字段](#ticket-fields-explained)。
-
-### Adobe Commerce帮助中心起始页上未显示“提交票证”链接 {#no-submit-link}
-
-#### 问题
-
-您访问Adobe Commerce帮助中心并想要提交支持请求，但&#x200B;**提交票证**&#x200B;链接未显示在帮助中心起始页上。
-
-#### 原因
-
-原因可能是以下之一：
-
-* 您尚未登录到帮助中心。
-* 如果首次使用共享访问，则尚未执行所需的步骤，以确保通过Magento.com中的SSO调用正确配置Adobe Commerce帮助中心。
-* 您的帐户无权获得Adobe Commerce支持(例如，您不是付费Commerce客户或您是开放Source客户)。
-
-#### 解决方案
-
-[登录到帮助中心](/help/help-center-guide/help-center/magento-help-center-user-guide.md#provide-shared-access)。
-
-**提交票证**&#x200B;链接将仅针对电子邮件链接到有效支持协议的客户显示。
-
-#### 使用共享访问帐户
-
-要能够使用共享访问帐户提交支持票证，您需要执行以下操作（只需执行一次）：
-
-1. 在收到[共享访问权限](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access)后，登录到magento.com网站](https://account.magento.com/)上的您的[Magento帐户。
-1. 在右上角的&#x200B;**切换帐户**&#x200B;下拉字段中，选择共享访问帐户。
-1. 单击左侧面板中的&#x200B;**支持**&#x200B;选项卡。 这样做将确保通过从Magento.com向Adobe Commerce帮助中心发出的SSO调用，正确配置Adobe Commerce帮助中心。
-
-#### 仍看不到&#x200B;**提交票证**&#x200B;链接
-
-如果您在&#x200B;**切换帐户**&#x200B;下拉列表中没有&#x200B;**共享帐户**，但您正在为具有Adobe Commerce许可证的客户端工作，请要求他们授予您共享访问权限。 有关更多详细信息，请参阅[提供对Magento帐户](/help/help-center-guide/help-center/magento-help-center-user-guide.md#provide-shared-access)的共享访问权限。
-
-如果您是Adobe Commerce许可证所有者，请验证您没有处于&#x200B;**待处理付款**&#x200B;状态的发票。 根据发票付款状态，自动授予或撤消支持权利。
-
-<span class="wysiwyg-underline">如何检查您的付款状态</span>：
-
-1. 登录到[magento.com](https://support.magento.com/)。
-1. 单击左侧的&#x200B;**记帐历史记录**。
-1. 如果您&#x200B;**做**&#x200B;的发票状态为&#x200B;**待处理付款**，请&#x200B;**联系您的Adobe帐户团队**&#x200B;以解决付款问题。
-
-我们仅向Adobe Commerce许可证所有者和对具有Adobe Commerce许可证的帐户共享访问权限的帐户提供支持。 如果您需要Magento Open Source版本支持，请利用这些自助技术资源：
-
-* [Adobe Commerce帮助中心](https://support.magento.com/)
-* [Adobe Commerce开发人员文档](https://developer.adobe.com/commerce/docs/)
-* [Adobe Commerce文档资源](https://experienceleague.adobe.com/docs/commerce.html)
-* [Magento论坛](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
-
-如果您在登录帐户时遇到问题，或者您认为共享访问设置正确，但仍无法看到&#x200B;**提交票证**&#x200B;按钮，请向[帮助中心登录问题](mailto:grp-magento-helpcenterloginissues@adobe.com)发送电子邮件，我们将很高兴地查看您的帐户设置和支持权利。
-
->[!NOTE]
->
->如果您在访问云项目时遇到问题，请通过常规渠道提交此问题的票证。 如果能够提交票证，请勿发送电子邮件。
-
-### “Magento帐户”页面上的“请验证您的电子邮件地址”错误 {#verify-email-address}
-
-如果您收到&#x200B;*验证您的电子邮件地址*&#x200B;错误，您将无法提交支持票证，该错误与[Magento帐户页面](https://account.magento.com/)上的以下错误类似。
-
-![验证电子邮件地址错误](assets/Verify_Email_Address_Error.png){width="800"}
-
-解决方案是验证您的电子邮件地址：
-
-1. 登录到https://account.adobe.com ，并根据需要请求密码。
-1. 验证您的Adobe帐户。
-
->[!NOTE]
->
->这仅适用于来自https://account.magento.com的电子邮件验证链接(“Magento帐户”页面)。
-
-### 票证提交表单：商家未显示在“组织”下拉列表中 {#merchant-not-displayed}
-
-#### 问题
-
-<span class="wysiwyg-underline">先决条件</span>：您拥有商户授予的共享访问帐户。
-
-<span class="wysiwyg-underline">重现步骤</span>：
-
-1. 使用共享帐户登录到帮助中心。
-1. 单击&#x200B;**提交票证**&#x200B;链接。 此时将打开票证提交表单。
-1. 展开&#x200B;**组织**&#x200B;下拉字段以选择贸易商。
-
-<span class="wysiwyg-underline">预期的结果</span>：
-
-与共享帐户对应的商家在&#x200B;**组织**&#x200B;选项中列出。
-
-<span class="wysiwyg-underline">实际结果</span>：
-
-在&#x200B;**组织**&#x200B;选项中，与使用的共享帐户对应的商家不可用。
-
-#### 解决方案
-
-从商家获得共享访问权限后，您需要执行以下步骤（只需一次）：
-
-1. 登录到magento.com网站](https://account.magento.com/)上的您的[Magento帐户。
-1. 在右上角的&#x200B;**切换帐户**&#x200B;下拉字段中，选择共享访问帐户。
-1. 单击左侧面板中的&#x200B;**支持**&#x200B;选项卡。 这样做将确保通过从Magento.com向Adobe Commerce帮助中心发出的SSO调用，正确配置Adobe Commerce帮助中心。
-
-如果您已经完成此操作，请单击帐户上的[[!UICONTROL Shared with me]选项卡](https://account.magento.com/grantor/manage/shared/)，检查您是否已被授予多个商家&#x200B;*共享访问权限*：
-* 如果仅列出一个[!UICONTROL Share Name]，即您仅被一个商家授予权限，*您将不会看到[!UICONTROL Organization]下拉列表*。
-* 如果有多个[!UICONTROL Share Names]，则商户的支持权利可能已过期，因为他们的许可证先前因付款问题而被吊销。
-
-### 跟踪您的票证 {#track-tickets}
-
-你的票是你的：
-
-* 已亲自提交
-* 已通过CC（抄送）作为观察者添加到
-
-#### 查看您的票证
-
-要列出所有票证，请单击“帮助中心”起始页上的配置文件菜单（右上角），然后选择&#x200B;**我的票证**。
-
-![磁盘严重警报](assets/my-tickets-8.png){width-&quot;800&quot;}
-
-要在票证和已抄送的票证之间切换，请单击相应的选项卡：
-
-* **我的票证**
-* **我抄送的票证**
-* **组织票证**（如果您的帐户与多个组织关联，则可用）
-
-![hc_my-tickets_tabs.png](assets/hc_my-tickets_tabs.png)
-
-要对票证进行排序，请单击&#x200B;**已创建**&#x200B;或&#x200B;**上次活动**&#x200B;列标题。
-
-#### 搜索票证
-
-若要查找票证，请在&#x200B;**搜索票证**&#x200B;字段中键入搜索查询，然后在键盘上按&#x200B;*Enter*。 选择[状态](#ticket-status)以进行附加筛选。
-
-![hc_search-tickets.png](assets/hc_search-tickets.png)
-
-#### 关注组织票证
-
-您可以按照组织成员提交的支持工单进行操作。
-
-当您关注组织票证时，您可以：
-
-* 可在&#x200B;**组织票证**&#x200B;选项卡中查看票证
-* 在提交新票证或更改现有票证时接收电子邮件通知
-
-要关注/取消关注组织的票证，请执行以下操作：
-
-1. 转到&#x200B;**我的票证** > **组织票证**&#x200B;选项卡。
-1. 在菜单中选择一个组织，然后单击&#x200B;**关注/取消关注**。
-
-![hc_follow-org-tickets.png](assets/hc_follow-org-tickets.png)
-
 ### Adobe Commerce P1热线 {#P1-hotline}
 
-**需要登录**&#x200B;才能访问[Adobe Commerce P1热线](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html)文章，该文章在P1事件期间寻求帮助时为Adobe Commerce提供P1热线号码并解释要提供的信息。
+[Adobe Commerce P1热线](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html)文章提供了Adobe Commerce在P1事件期间寻求帮助时的P1热线号码，并解释了要提供的信息。
 
 ### Adobe Commerce共同责任运营模式 {#shared-responsibility-operational-model}
 
 请参阅关于[Adobe Commerce分担责任运营模型](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary)的文章，
 旨在厘清我们专业基础设施服务的运营责任。
-
-### 支持票证字段说明 {#ticket-fields-explained}
-
-#### 受影响的URL
-
-链接到Adobe Commerce支持团队将能够看到您问题的环境。 确保以“http://”或“https://”启动URL。
-
-#### 附件
-
-附加日志、屏幕截图、录像或任何其他可能更好地说明问题的媒体。
-
-#### Backoffice URL（仅限MOM）
-
-URL必须以“https://”开头。 其格式通常为：商家名称+&quot;.mcom.magento.com/admin/login&quot;，例如“https://luma.mcom.magento.com/admin/login”。
-
-您还可以放置与问题相关的直接链接。
-
-#### 抄送
-
-您想要关注票证的人员的电子邮件(例如，*first@e.mail*)。
-
-您可以添加没有Magento帐户或Zendesk帐户的人员的电子邮件；这些人员仍可以在您的票证中向对话投稿。
-
-要向CC添加多个电子邮件，请执行以下操作：
-
->[!NOTE]
->
->CC：中的用户必须在https://account.magento.com上拥有现有帐户。 否则，他们必须首先在https://account.adobe.com创建一个帐户，然后使用该帐户登录https://account.magento.com。
-
-1. 输入电子邮件。
-1. 按键盘上的&#x200B;*共享空间*&#x200B;以保存输入的电子邮件。 电子邮件以灰色框架显示。\
-   ![hc_cc_emails.png](assets/hc_cc_emails.png)
-1. 开始键入下一封电子邮件。
-1. 按&#x200B;*共享空间*&#x200B;保存所有其他电子邮件。
-
-要从抄送中删除电子邮件：请在带框电子邮件中单击&#x200B;**x**。
-
-![hc_cc_emails_remove.png](assets/hc_cc_emails_remove.png)
-
-#### 产品
-
-选择您正在使用的Adobe Commerce产品的类型：
-
-* Adobe Commerce：选择此选项后，将显示&#x200B;**[!UICONTROL Implementation Type]**&#x200B;字段（有关详细信息，请参阅下文）
-* Magento Order Management
-* Adobe Commerce报告：不包括[高级报告](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html)
-* Adobe Commerce [付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html)
-* Adobe Commerce服务：仅[渠道管理员](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html)
-
-#### 实施类型
-
-此字段仅在您选择&#x200B;**[!UICONTROL Product]** = *Adobe Commerce*&#x200B;之后显示
-
-请指定您的部署方法：
-
-* Cloud：仅当位于Adobe Commerce上的Cloud Infrastructure上时才选择此选项
-* 内部部署：*所有自托管实例以及[AWS]基于云的托管*(不包括Adobe Commerce on Cloud)
-
-#### 云项目URL
-
-请提供Cloud Console项目的URL，例如`https://console.adobecommerce.com/<owner-user-name>/<project-ID>`。
-
-获取项目URL的另一个方法如下：
-
-1. 登录到[云控制台](https://console.adobecommerce.com)。
-1. 单击相应的项目。
-1. 复制URL。
-
-#### 联系原因
-
-联系原因因产品而异。 选择最适合您遇到的症状的联系原因。 请参阅[支持票证联系人原因描述](/help/faq/general/support-ticket-contact-reason-descriptions.md)文章，了解有关您应该选择何种联系人原因的更多信息。
-
-#### Adobe Commerce环境ID
-
-仅当您选择&#x200B;**[!UICONTROL Contact Reason]** = *Adobe Commerce Cloud应用程序*，然后选择&#x200B;**Adobe Commerce应用程序联系人原因** = *[!DNL Live Search]*后，才会显示此字段。
-转到**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** > **[!UICONTROL SaaS Identifier]**，并提供&#x200B;*[!UICONTROL Data Space ID]*。
-
-#### （数据）集成类型(仅限Adobe Commerce报表)
-
-选择您在Adobe Commerce报表中拥有的集成类型。 这将帮助我们的工程师更有效地解决您的问题。
-
-#### 描述
-
-在合理的范围内尽可能多地提供问题的概览和详细信息。
-
-请提供准确的详细信息、要再现的步骤(Adobe Commerce本地和云基础架构除外，其中有单独的[要再现的步骤](#steps)字段)以及您的问题或请求的症状。 请确保包括任何受影响的SKU、相关数据点和任何其他相关链接。
-
-#### 环境(仅限云基础架构上的Adobe Commerce、内部部署的Adobe Commerce、Adobe Commerce Reporting and Shipping)
-
-选择您遇到问题的&#x200B;**环境类型**：
-
-* 开发（**集成分支**）
-* 暂存
-* 生产
-
-有关云基础架构环境上的Adobe Commerce的更多信息，请参阅用户指南中的[专业架构](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html)文章。
-
-#### 受影响的订单数（仅限MOM）
-
-选择受影响的订单范围。
-
-这是一个下拉列表，仅适用于Order Management产品。
-
-#### 组织
-
-指示您希望票证关联的组织 — 如果您使用多个组织。
-
-当您的帐户与多个组织关联时，会显示此字段。
-
->[!WARNING]
->
->您必须确保选择了正确的组织。 如果您选择了错误的组织，则与组织无关的第三方将能够查看潜在的敏感信息和专有信息。
-
->[!NOTE]
->
->提交票证后，可以更改组织。 按照以下步骤更改组织。
->
->1. 转到票证的右列。
->1. 找到可用组织的下拉菜单。
->1. 选择相应的组织。
->
->![组织下拉列表](/help/help-center-guide/help-center/assets/change_org.png)
-
-此外，这将允许我们快速交叉引用过去为此组织提交的类似/重复/相关的票证，并确定可能有助于调查和解决当前票证的线索。
-
-如果您对多个组织具有共享访问权限，但此字段不可用，请参阅[票证提交表单：商家未显示在组织下拉列表中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed)
-
-#### 合作伙伴名称（商家名称）
-
-对于商家： **合作伙伴名称**&#x200B;是参与开发Adobe Commerce应用商店的开发组织(Adobe Commerce [技术合作伙伴](https://partners.magento.com/portal/directory/?&amp;partner_type=6)或[解决方案合作伙伴](https://partners.magento.com/portal/directory/?&amp;partner_type=1))的名称。
-
-对于合作伙伴： **商家名称**&#x200B;是客户的名称。
-
-#### 项目URL(仅Commerce Cloud)
-
-链接到[云控制台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)。
-
-#### 重现步骤(仅限Adobe Commerce内部部署和Adobe Commerce on Cloud基础架构)
-
-提供准确的分步说明以重现您的问题，包括：
-
-* 要复制的步骤
-* 预期结果
-* 实际结果
-
-*推荐：*&#x200B;假设您正在为&#x200B;**对Adobe Commerce一无所知**&#x200B;的人编写这些步骤：
-
-* 提及每一步，即使这看似简单而明显
-* 不要指望读者知道你的意思
-
-用简单的语言写作，有简短的句子。
-
-#### 主题
-
-包含问题的简短概述（例如，所有页面&#x200B;*上的*&#x200B;错误404）。
-
-**建议的文章：**&#x200B;当您输入搜索词时，将显示可能与您的问题相关的Adobe Commerce文档文章列表。 单击列表中的文章以将其打开。
-
-![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
-
-*推荐：*&#x200B;请仔细考虑建议的文章，它们可能包含您希望Adobe Commerce支持团队提供的解决方案。
-
-#### 版本(仅限Adobe Commerce内部部署、云基础架构上的Adobe Commerce和配送)
-
-请选择您正在请求帮助的Adobe Commerce版本。 顶部列出了所有受支持的Adobe Commerce版本。 不支持的版本在底部以括号列出。 如果您正在迁移，请选择最新版本以确保您的版本受支持。
-
-要查找Adobe Commerce （云基础架构）的版本，请向下滚动[Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)页面，然后检查窗口的中下方。
-
-![联系人原因设置为Adobe Commerce Cloud应用程序，Adobe Commerce应用程序联系人原因设置为“实时搜索”](assets/magento-env-id.png)
-
-如果您使用的是[Elasticsearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html)或[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/aws-opensearch.html)，请不要选择此选项。
-
-若要获取此信息，请在Adobe Commerce管理员中，转到&#x200B;**营销** > **实时搜索** > **GraphQL游乐场**，向下滚动到页面底部，然后单击&#x200B;**HTTP标头**。
-
-### 票证状态：如何处理您的票证 {#ticket-status}
-
-您的票证可能具有以下三种状态之一。
-
-#### **1. 打开**
-
-您的票证尚未解决，将由Adobe Commerce支持团队处理。 如果您在对话的特定步骤中提供了所有需要您提供的信息，并且下一步需要由Adobe Commerce支持人员执行，则您的票证处于&#x200B;**打开**&#x200B;状态。
-
-#### **2。 正在等待您的回复**
-
-Adobe Commerce支持部门需要您提供信息。
-
-在回复中，您可以指定问题的其他技术详细信息、提供上报详细信息，或声明Adobe Commerce支持提供的解决方案是否已被证明对您的问题有帮助。 确保尽快提供回复，因为Adobe Commerce支持部门无法继续处理处于&#x200B;**等待回复**&#x200B;状态的票证。
-
-有关时间和通知策略的详细信息，请参阅[Adobe Commerce支持票证生命周期策略更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)文章。
-
-#### **3。 已解决**
-
-Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解决方案对您有所帮助。 是您将此票证标记为&#x200B;**已解决**。 如果修复的问题再次出现，您可以重新打开票证，将其状态设置为&#x200B;**打开**。
-
-### 票证中的对话 {#conversation-in-ticket}
-
-您票证中的对话将统一您或Adobe Commerce支持团队编写的所有注释。 注释按最新（顶部）到最早（底部）顺序显示。
-
-要向对话添加评论，请执行以下步骤：
-
-1. 滚动到票证的底部。
-1. 单击&#x200B;**添加到对话**&#x200B;字段开始写入。
-
-   ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
-
-1. 若要向评论中添加人员，请在评论字段的&#x200B;**抄送**&#x200B;字段中指定电子邮件。
-
-   >[!NOTE]
-   >
-   >CC：中的用户必须在https://account.magento.com上拥有现有帐户。 否则，他们必须首先在https://account.adobe.com创建一个帐户，然后使用该帐户登录https://account.magento.com。
-
-   ![hc_conversation-write.png](assets/hc_conversation-write.png)
-
-1. 完成评论后，单击&#x200B;**提交**。
-
-### 解析您的票证 {#resolve-ticket}
-
-若要解析票证，请单击票证底部的&#x200B;**标记为已解决**。
 
 ### 打开跟进票证 {#follow-up}
 
@@ -776,7 +328,4 @@ Adobe Commerce支持已为您问题提供了解决方案，并且您同意该解
 
 商家通常通过信用卡(CC)交易来支付我们的服务，此[Adobe Commerce帐单常见问题解答](/help/faq/general/billing-faq-for-adobe-commerce.md)是在您支付账单时提供帮助的资源。
 
-## MagentoU现在是ADOBE数字学习服务的一部分 {#magento-u}
-
-MagentoU已与[Adobe数字学习服务(ADLS)](https://learning.adobe.com/)合并。
 
