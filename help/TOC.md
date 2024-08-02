@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 29564ab62b8d82384092a1db6ac170666ec4acde
+source-git-commit: f66220fe81660120aef8cd324163f34a8d75917b
 workflow-type: tm+mt
-source-wordcount: '11084'
+source-wordcount: '11087'
 ht-degree: 0%
 
 ---
@@ -1117,6 +1117,7 @@ ht-degree: 0%
       * [在env：COMPOSER_AUTH或auth.json中，部署失败并显示正确的访问密钥](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知问题{#known-issues-patches-attached}
       * [加密密钥轮换疑难解答：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
+      * [隐藏的下载测试](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102-hidden-test.md)
       * [可用于Adobe Commerce的安全更新 — [!DNL APSB24-40]已修订为包括 [!DNL CVE-2024-34102]的隔离修补程序](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS]配送方式集成从 [!DNL SOAP] 迁移到 [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Ground Advantage配送方式支持AC-9182的修补程序](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
