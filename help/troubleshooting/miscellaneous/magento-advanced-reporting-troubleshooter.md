@@ -4,9 +4,9 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 84b4ca4c4144381f0b404d2eae6684e7b21755df
+source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ b.否 — 继续执行[步骤4](#step-4)。
 
 +++**是否启用了高级报告？**
 
-检查&#x200B;**管理员** > **商店** > **设置** > **配置** > **常规** > **高级**。 有关详细步骤，请查看[高级报告：启用高级报告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)。
+检查&#x200B;**管理员** > **商店** > **设置** > **配置** > **常规** > **高级报告**。 有关详细步骤，请查看[高级报告：启用高级报告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)。
 
 a.是 — 继续执行[步骤5](#step-5)。\
 b.否 — [启用高级报告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)并保存，等待24小时让Adobe Commerce和高级报告同步。 检查您的数据现在是否加载。 如果它确实解决了这个问题。 如果未执行[步骤5](#step-5)。
