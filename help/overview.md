@@ -4,9 +4,9 @@ description: 排除Commerce商店故障和维护所需了解的一切。
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 738a5455267647d294d222d5bb6149254dcb93dd
+source-git-commit: cfbe281941fbdc3e6fe7ee36385dc6732b46da26
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此知识库中的信息旨在补充[Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs)、[Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)及其他Adobe Commerce出版物。 它涵盖故障排除和最佳实践，发布公告，回答常见问题，并重点说明官方文档中未提及（出于任何原因）的特定场景。
 
-## 知识库中的内容
+## 此知识库中包含哪些内容？
 
 | 类别 | 描述 |
 | --- | --- |
