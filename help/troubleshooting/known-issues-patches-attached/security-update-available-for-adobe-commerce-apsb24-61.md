@@ -4,21 +4,21 @@ promoted: true
 description: 为仅运行 [!DNL Apache]的Adobe Commerce 2.4.7-p2、2.4.6-p7、2.4.5-p9、2.4.4-p10及更早版本实例应用隔离修补程序以修复 [!DNL CVE-2024-39397] 。
 feature: Compliance, Security
 role: Developer
-source-git-commit: 2038e766d65c81172391091a0cdff4abb04e84d5
+source-git-commit: 76ff7669a0a57925a176e08031e0789ced0a7f0e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # 可用于Adobe Commerce的安全更新 — [!DNL APSB24-61]
 
-2024年8月13日，Adobe发布了Adobe Commerce、Magento Open Source和Adobe Commerce Webhooks插件的安全更新。
+2024年8月13日，Adobe发布了Adobe Commerce、Magento Open Source和Adobe Commerce Webhooks插件的定期安全更新。
 此更新解决了[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用此漏洞可能会导致执行任意代码、读取任意文件系统、绕过安全功能以及权限提升。 公告是[Adobe安全公告([!DNL APSB24-61])](https://helpx.adobe.com/security/products/magento/apsb24-61.html)。
 
 >[!NOTE]
 >
->**[!DNL CVE-2024-39397]仅在使用[!DNL Apache] Web服务器时适用。**&#x200B;为了帮助确保尽快应用此漏洞的修复，Adobe还发布了解决[!DNL CVE-2024-39397]问题的独立修补程序。
+>以上安全公告中列出的&#x200B;**[!DNL CVE-2024-39397]仅在使用[!DNL Apache] Web服务器时适用。**&#x200B;为了帮助确保尽快应用此漏洞的修复，Adobe还发布了解决[!DNL CVE-2024-39397]问题的独立修补程序。
 
 **请尽快应用最新的安全更新。 如果您未能做到这一点，您将容易遭受这些安全问题的攻击，而Adobe帮助进行补救的手段有限。**
 
