@@ -3,7 +3,7 @@ title: 在云基础架构上重置Adobe Commerce上的环境
 description: 本文显示了在Adobe Commerce上回滚云基础架构上环境的各种方案。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: f2aeb0262ddcb3d7e78028d08b9323db243fc96b
+source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -158,6 +158,6 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 1. 连接到MySQL数据库： `mysql -h database.internal` （对于Pro环境，请参阅： [设置MySQL服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)）。
 1. 删除`main`数据库： `drop database main;`
 1. 创建空的`main`数据库： `create database main;`
-1. 删除以下配置文件： `config.php`、`config.php`、`.bak,`、`env.php`、`env.php.bak`
+1. 删除以下配置文件： `config.php`、`config.php.bak`、`env.php`、`env.php.bak`
 
 重置数据库后，[向环境推送 [!DNL git] 以触发重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html)并将Adobe Commerce安装到新创建的数据库中。 或[运行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。
