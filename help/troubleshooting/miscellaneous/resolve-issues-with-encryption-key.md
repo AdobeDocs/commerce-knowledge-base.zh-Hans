@@ -4,9 +4,9 @@ description: 本文就如何解决加密密钥未随数据库转储一起移动�
 exl-id: 34410da0-1bd5-421e-9cd7-d3ee75ad8ed7
 feature: Cache, Variables
 role: Developer
-source-git-commit: bee0263da487399ab07bf9158c4d60ab316d6ea1
+source-git-commit: 0458b37e2af4c9ad2ec92a1fdd6844ef222ef84a
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-* 云基础架构上的Adobe Commerce 2.2.x、2.3.x
+* 云基础架构上的Adobe Commerce 2.4.x
 
 ## 问题
 
