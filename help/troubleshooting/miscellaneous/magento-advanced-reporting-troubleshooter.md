@@ -4,9 +4,9 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
+source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ c.是 — 如果有记录但出现错误，请继续执行[步骤10](#step-10)�
 
 +++**系统中是否存在文件`data.tgz`，访问日志中是否有记录？**
 
-要检查文件`data.tgz`是否存在，请运行命令：
+要检查文件`data.tgz`是否存在，请运行此命令 — 它应返回具有哈希名称的目录：
 
 ```
-ls -ltr pub/media/analytics/<there should be a directory with hash name>/
+ls -ltr pub/media/analytics/
 ```
 
-要检查access.logs中是否存在记录，请运行命令：
+要检查access.logs中是否存在记录，请运行此命令：
 
 ```
 zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
