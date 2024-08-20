@@ -4,9 +4,9 @@ description: 本文为使用Live Search扩展时目录数据无法正确同步�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: a1b049dab989d5d8594d86b64b778e6e277a9f41
+source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 如果您在`catalog_data_exporter_products`中看到正确的数据，请使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后：
 
    ```sql
-   select * from flag where flag_code = 'products-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. 如果时间戳较旧，则可以等待下一个cron运行，也可以使用以下命令自行触发该时间戳：
@@ -111,7 +111,7 @@ ht-degree: 0%
 1. 使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后。
 
    ```sql
-   select * from flag where flag_code = 'product-attributes-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. 如果时间戳较旧，则可以等待下一个cron运行，也可以使用以下命令自行触发该时间戳：
@@ -133,4 +133,5 @@ bin/magento saas:resync --feed productattributes
 
 ## 相关阅读
 
-请参阅我们的用户文档中的[载入实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。
+* 请参阅我们的用户文档中的[载入实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。
+* 请参阅Adobe Commerce SaaS Data Export Guide中的[Review logs and troubleshoot Adobe Commerce SaaS data export and synchronization](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)。
