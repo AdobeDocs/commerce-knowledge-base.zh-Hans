@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: abfd1e3a042f2756c27471b81004a3dcea0914ac
+source-git-commit: 01d815edd76b749df036021d75d4456d9d7b5550
 workflow-type: tm+mt
-source-wordcount: '11090'
+source-wordcount: '11096'
 ht-degree: 0%
 
 ---
@@ -272,7 +272,7 @@ ht-degree: 0%
       * v1.1.3 {#v1-1-3}
          * [概述：Quality Patches Tool (QPT) v1.1.3](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/overview.md)
          * [MDVA-31590：无法使用MySQL异步队列批量更新属性](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-31590-unable-to-update-attributes-in-bulk-using-mysql-async-queues.md)
-         * [MDVA-33606：用户在保存分配给层次结构的CMS页面时遇到错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
+         * [MDVA-33606：保存分配给层次结构的CMS页面时，用户收到错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
          * [MDVA-36309：在管理网格中，按属性搜索产品的速度较慢](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-36309-product-search-by-attributes-is-slow-in-the-admin-grids.md)
          * [MDVA-37234：将项目多次添加到购物车会创建重复的行项目](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-37234-adding-item-to-cart-multiple-times-creates-duplicate-item.md)
          * [MDVA-40262：GraphQL查询不会显示在管理员的常用搜索词中](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-40262-graphql-queries-dont-show-in-popular-search-terms-in-admin.md)
@@ -289,7 +289,7 @@ ht-degree: 0%
          * [MDVA-40399：无法通过API同时创建同一订单的部分发票](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40399-partial-invoices-for-same-order-cannot-be-created-simultaneously-via-rest-api.md)
          * [MDVA-40401：订单失败后优惠券使用值发生更改](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40401-coupon-usage-value-changes-even-after-failed-order.md)
          * [MDVA-40435：未通过GraphQL正确应用捆绑产品折扣](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40435-discount-on-bundle-product-is-not-applied-correctly-via-graphql.md)
-         * [MDVA-40537：当多个CMS页面具有相同的URL密钥时，创建存储视图会出错。](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40537-creating-store-view-gives-error-when-multiple-cms-pages-with-same-url-keys-exist.md)
+         * [MDVA-40537：当多个CMS页面具有相同的URL键时，创建存储视图会出错。](/help/support-tools/patches-available-in-qpt-tool/v1-1-4/mdva-40537-creating-store-view-gives-error-when-multiple-cms-pages-with-same-url-keys-exist.md)
       * v1.1.5 {#v1-1-5}
          * [概述：Quality Patches Tool (QPT) v1.1.5](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/overview.md)
          * [MDVA-31763：将还原目录价格规则，直到手动重新编入索引](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-31763-catalog-price-rules-are-reverted-until-manual-reindex.md)
@@ -613,7 +613,7 @@ ht-degree: 0%
          * [ACSD-50512：更新可下载产品暂存更新的开始日期时出错](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
          * [ACSD-50895：如果未配置Google Analytics3 GTM，则不会触发Google Analytics3 GTM标签](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
          * [ACSD-51471：管理员用户无法保存捆绑产品的计划更新](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51471-admin-user-cannot-save-scheduled-update-for-bundled-product.md)
-         * [ACSD-51120：对于包含CMS块的CMS页面，未清除GraphQLGET的缓存](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
+         * [ACSD-51120：对于包含GraphQL块的CMS页面，未清除CMSGET的缓存](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
          * [ACSD-51700：在可下载的产品编辑页面上切换商店视图时出错](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51700-downloadable-product-error-when-switching-storeviews.md)
          * [ACSD-51735：当产品库存为0时，订单项目状态错误地设置为[!UICONTROL Ordered]](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51735-order-item-status-incorrectly-set.md)
          * [ACSD-51497：无法按“下拉列表”类型的自定义属性对目录页面进行排序](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51497-cannot-sort-catalog-page-by-custom-attribute-of-dropdown-type.md)
@@ -705,7 +705,7 @@ ht-degree: 0%
          * [ACSD-54472：被拒绝公司的客户仍然可以验证和下订单](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.md)
          * [ACSD-54680：无法处理具有多个已分配来源的产品的B2B报价](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.md)
          * [ACSD-55004：在上传大于值的导入文件时验证器崩溃](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55004-validator-crashes-while-uploading-an-import-file-larger-than-the-value.md)
-         * [ACSD-53414：受限管理员用户可查看其权限范围以外的CMS页面](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
+         * [ACSD-53414：受限管理员用户可在其权限范围内查看CMS页面](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
          * [ACSD-52657：在使用子域的第二个存储上未更新Minicart](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
          * [ACSD-54007：导入客户数据时出现未定义的数组键作用域错误(_S)](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
          * [ASCD-54040：启用B2B模块时，订单详细信息中的[!UICONTROL Created]字段为空](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.md)
@@ -749,12 +749,12 @@ ht-degree: 0%
          * [ACSD-55305：在[!UICONTROL My Account]中编辑公司用户时弹出窗口冻结](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
          * [ACSD-54972：规范类别URL不更新](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54972-canonical-category-url-doesnt-update.md)
          * [ACSD-53636：[!UICONTROL Product Listing]页面上不显示常规价格](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
-         * [ACSD-53925：无法保存带有[!UICONTROL Product Carousel]的CMS块](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53925-cant-save-cms-block-with-product-carousel-catalog-product-price-dimensions-set-to-website.md)
+         * [ACSD-53925：无法使用[!UICONTROL Product Carousel]保存CMS块](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53925-cant-save-cms-block-with-product-carousel-catalog-product-price-dimensions-set-to-website.md)
          * [ACSD-54885：当管理员以客户身份登录时，在多个地址签出期间出现异常](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54885-exception-during-multiple-address-checkout.md)
          * [ACSD-53309：可自定义选项和“[!UICONTROL Regular Price]”标签的纳税申请不完整](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53309-incomplete-tax-application-for-customizable-options.md)
          * [ACSD-53790：可通过Rest API为单个产品创建多个RMA](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
          * [ACSD-54739： [!UICONTROL Related Product Rules]未应用[!UICONTROL Product Stock]状态](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
-         * [ACSD-54983：包含GraphQL的公司用户UID不适用于非活动用户](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
+         * [ACSD-54983：带GraphQL的公司用户UID不适用于非活动用户](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
       * v1.1.44 {#v1-1-44}
          * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
          * [ACSD-55231：使用快速订购功能时出现“未找到SKU”错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55231-sku-not-found-in-catalog.md)
@@ -823,6 +823,7 @@ ht-degree: 0%
       * [2024年发布时间表](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Adobe Commerce支持将摄取过程迁移到Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * 帮助中心新闻{#news}
+      * [Adobe Commerce帮助中心停用](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
       * [Adobe Commerce支持知识库开始接受投稿](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * 疑难解答{#troubleshooting}
    * [疑难解答概述](/help/troubleshooting/overview.md)
@@ -1261,7 +1262,7 @@ ht-degree: 0%
    * [当字段变灰时，如何更改magento.com帐户上的电子邮件地址](/help/how-to/general/change-email-address-on-magento-account.md)
    * [如何删除Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
    * [Commerce假日准备工作的技术提示](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
-   * [如何为GraphQL请求绕过WAF](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
+   * [如何在GraphQL请求中绕过WAF](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
    * [将适用于Adobe Commerce on cloud的MariaDB 10.4升级到10.5](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * 常见问题解答{#faq}
    * [常见问题解答概述](/help/faq/overview.md)
