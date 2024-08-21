@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 38e67144f337c8359a5602e49d8a0ee91cd20b53
+source-git-commit: b7b272c2e1cb677829afa64e2c77c0faa207313d
 workflow-type: tm+mt
-source-wordcount: '2117'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 1. 要开始支持接收流程，请确保您从下拉列表（如果可用）中选择了相应的组织，因为您可能具有多个名称相似的组织，每个组织都具有自己的权利。
 
-   ![图像](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
+   ![select_product_org](assets/select_appropriate_org.png)
 
 1. 单击左侧菜单中的&#x200B;**[!UICONTROL Open Ticket]**&#x200B;或单击&#x200B;*[!UICONTROL Open a support ticket]*&#x200B;卡片中的&#x200B;**[!UICONTROL Get Started]**。
 
