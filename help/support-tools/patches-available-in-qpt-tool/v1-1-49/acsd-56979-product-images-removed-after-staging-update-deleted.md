@@ -3,9 +3,9 @@ title: 'ACSD-56979：删除暂存更新后已删除产品映像'
 description: 应用ACSD-56979修补程序以修复在删除暂存更新后删除产品映像的Adobe Commerce问题
 feature: Products
 role: Admin, Developer
-source-git-commit: e97850bcaa98b1ccc1522fb6ee0046cd38bf1c93
+source-git-commit: 8e916feab8be9d92d047fae8861a479070d448e8
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ACSD-56979修补程序修复了在删除暂存更新之后删除产品映像的�
 
 **与Adobe Commerce和Magento Open Source版本兼容：**
 
-* Adobe Commerce（所有部署方法）>=2.4.3 &lt;2.4.7
+* Adobe Commerce（所有部署方法） 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
