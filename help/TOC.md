@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 0f5e70462f439c6ed5b63567a21f039529262805
+source-git-commit: 683473a9a6b7ccc87c190d1cdc83453aa0734961
 workflow-type: tm+mt
-source-wordcount: '11132'
+source-wordcount: '11136'
 ht-degree: 0%
 
 ---
@@ -804,6 +804,8 @@ ht-degree: 0%
       * v1.1.49 {#v1-1-49}
          * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
          * [ACSD-56979：删除暂存更新后删除的产品映像](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+      * v1.1.50 {#v1-1-50}
+         * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
       * [使用Quality Patches Tool检查Adobe Commerce问题的修补程序](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 公告{#announcements}
    * [公告概述](/help/announcements/overview.md)
