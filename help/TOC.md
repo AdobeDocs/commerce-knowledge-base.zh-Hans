@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 683473a9a6b7ccc87c190d1cdc83453aa0734961
+source-git-commit: 7cda7f53226b878e8900b79443c4be28ff056862
 workflow-type: tm+mt
-source-wordcount: '11136'
+source-wordcount: '11141'
 ht-degree: 0%
 
 ---
@@ -1062,6 +1062,7 @@ ht-degree: 0%
       * [无法克隆MagentoGitHub存储库](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [实时搜索目录未同步](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
       * [[!DNL Live Search]仪表板和搜索结果排名不正确](/help/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect.md)
+      * [[!DNL Live Search]个Facet未按字母顺序排序](/help/troubleshooting/miscellaneous/live-search-facets-not-sorted.md)
       * [客户配置文件未出现在Experience Platform中](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio：浏览器无法解析.local.pwadev站点](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [页面生成器中未显示产品Recommendations](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
