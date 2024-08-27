@@ -4,7 +4,7 @@ description: 应用ACSD-55241修补程序以修复Adobe Commerce问题，该问�
 feature: Price Rules
 role: Admin, Developer
 exl-id: cfe0f8af-423a-4e12-a332-053392cbabed
-source-git-commit: 5d0b4743fe49d22c099102490f93dc4065ab4413
+source-git-commit: f830486ab3b00fca92dda897bbf0bfbae41543c1
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -37,10 +37,10 @@ ACSD-55241修补程序修复了&#x200B;**已使用**&#x200B;和&#x200B;**已使�
 
 1. 从&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]**&#x200B;创建&#x200B;**[!UICONTROL Cart Price Rules]**&#x200B;并在下订单时添加任何匹配的条件（示例：小计大于&#x200B;*5$*）
 
-* 应用任何折扣。
-* 选择&#x200B;**[!UICONTROL Auto Coupon]**。
-* 它将通过&#x200B;**管理优惠券代码**&#x200B;生成几个优惠券代码。
-* 重新索引并清理缓存。
+   * 应用任何折扣。
+   * 选择&#x200B;**[!UICONTROL Auto Coupon]**。
+   * 它将通过&#x200B;**管理优惠券代码**&#x200B;生成几个优惠券代码。
+   * 重新索引并清理缓存。
 
 1. 创建&#x200B;**[!UICONTROL customer account]**&#x200B;并登录到前端。
 1. 在购物车中添加一个数量超过&#x200B;*2*&#x200B;的产品，然后应用一个优惠券。
