@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 88a9fad5d4a38a82001175af4a1611acf6d4e413
+source-git-commit: 7c6cc2fc3cd76fc4c156d7cdb15bfbc3a24f39cb
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2500'
 ht-degree: 0%
 
 ---
@@ -89,14 +89,20 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 >[!INFO]
 >
->1. 如果您属于多个组织，则需要从下拉列表中选择相应的组织。
->1. 要提交案例，您必须有权获得支持。 如果您没有权限，页面顶部将显示一个栏，告知您您您不是组织中的支持授权用户。
+>1. 要提交案例，您必须有权获得对相应产品(例如，Adobe Commerce、Adobe Commerce Intelligence、Experience Platform等)的支持。 如果您无权获得支持，页面顶部将显示一个栏，告知您您您不是组织中有权获得支持的用户。
+>1. 如果您属于多个组织，或者有多个组织具有相似的名称(每个组织都表示该组织订阅的任何其他Adobe产品)，则需要首先从下拉列表中选择相应的组织。
+
+>[!NOTE]
+>
+>在提交案例之前，请确保您选择了正确的组织，并且您选择的组织拥有您请求支持的产品的相应权利。 例如，如果您的问题与Adobe Commerce相关，但您选择了Experience Platform作为产品并且案例已成功提交，这可能会导致案例的路由错误和响应时间的延迟。
+>
+>此外，如果选择了错误的组织，您的团队将无法在[!UICONTROL My Cases]下查看适当/正确的组织的案例。 支持团队将来无法更改与案例关联的组织。
 
 1. 单击标题中的&#x200B;**支持**。 打开“支持”主页。
 
    ![open-support-page](assets/click_support.png)
 
-1. 要开始支持接收流程，请确保您从下拉列表（如果可用）中选择了相应的组织，因为您可能具有多个名称相似的组织，每个组织都具有自己的权利。
+1. 要开始支持接收流程，请确保您从“组织”下拉列表（如果可见）中选择了相应的组织。
 
    ![select_product_org](assets/select_appropriate_org.png)
 
@@ -104,7 +110,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
    ![开放支持案例](assets/open_support_case.png)
 
-1. 从下拉菜单中选择产品，并提供案例标题和描述。
+1. 从下拉菜单中选择产品，并提供案例标题和描述。 注意：如果下拉列表未显示任何产品，或者Commerce不可用，请尝试在左栏中切换组织并再次检查。
 
    ![select_product](assets/support_case_product.png)
 
@@ -123,6 +129,18 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >1. 从组织下拉菜单中选择您的组织。 
 >1. 如果贵组织仍未出现，请联系Commerce管理员以获取支持委派权限。 有关其他信息，请参阅[Commerce帐户共享](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)帮助文章。 
 
+>[!NOTE]
+>
+>为什么组织/产品很重要
+>
+>**示例A**：您仅共享了一个公司的访问权限，且该公司拥有两个Adobe产品的权利：Product1和Product2。
+>1. 由于每个组织代表一种产品，因此您会在下拉列表中看到两个组织，例如OrgA-Product1和OrgB-Product2。
+>1. 如果您选择了产品= Product1，但您的问题与Product2有关，则案例将被转接至Product2支持部门，在将案例转接至Product1支持部门时会有所延迟。
+>1. 如果您提交了OrgA-Product1的案例，并且希望将来查看该组织的[!UICONTROL My Cases]，那么如果选择OrgA-Product2作为组织，您将不会看到该案例（与示例B相比，您只需选择另一个组织）。
+>
+>**示例B**：您已共享对两家公司的访问权限，并且每家公司只拥有Adobe Commerce的权利。
+>1. 如果您为OrgA提交了案例，但问题实际影响OrgB，则OrgB的成员将来将无法在[!UICONTROL My Cases]下看到此案例。
+>1. 此外，OrgA成员将能够查看[!UICONTROL My Cases]下实际适用于OrgB的案例，这可能会导致隐私问题。
 
 您必须同时在https://account.adobe.com和https://account.magento.com拥有帐户才能登录该Experience League以提交支持案例。 在登录之前，您将无法提交支持案例。
 
