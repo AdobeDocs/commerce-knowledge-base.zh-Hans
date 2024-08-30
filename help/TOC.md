@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4d6785ce0c0624f62105a5f1541344c989439c40
+source-git-commit: eb7f8bbb53cf96033c67ae077268351078fa786c
 workflow-type: tm+mt
-source-wordcount: '11180'
+source-wordcount: '11200'
 ht-degree: 0%
 
 ---
@@ -809,7 +809,9 @@ ht-degree: 0%
          * [ACSD-58054：为非活动客户生成API令牌](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ACSD-59378：在导入期间错误地更新了存储级别 [!DNL URL] 重写](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938：安装：升级期间数据库触发器出现性能问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-60441：通过V1/customers [!DNL REST] API端点更新客户会引发错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
       * [使用Quality Patches Tool检查Adobe Commerce问题的修补程序](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 公告{#announcements}
    * [公告概述](/help/announcements/overview.md)
