@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: fdfd0b94de831572267dd333216453e7be7b6ea2
+source-git-commit: 951816a272836b7d6673af9d576b6b89d741de44
 workflow-type: tm+mt
-source-wordcount: '11212'
+source-wordcount: '11225'
 ht-degree: 0%
 
 ---
@@ -809,6 +809,7 @@ ht-degree: 0%
          * [ACSD-58054：为非活动客户生成API令牌](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ACSD-45049：客户[!UICONTROL Is required]属性设置无法按管理员中的网站范围使用](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378：在导入期间错误地更新了存储级别 [!DNL URL] 重写](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938：安装：升级期间数据库触发器出现性能问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
          * [ACSD-59229：由于过时的XMagento变化值而导致客户组数据分配错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
