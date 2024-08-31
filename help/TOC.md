@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 159ec056ea1f57935d35ab07fc70f24e53901146
+source-git-commit: f8f09e3aeadb27724c431c275ce13d8f8699dd20
 workflow-type: tm+mt
-source-wordcount: '11238'
+source-wordcount: '11246'
 ht-degree: 0%
 
 ---
@@ -810,6 +810,7 @@ ht-degree: 0%
          * [ACSD-58054：为非活动客户生成API令牌](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ACSD-59036：加载产品价格时出现异常](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59036-exception-occurs-when-loading-product-prices.md)
          * [ACSD-45049：客户[!UICONTROL Is required]属性设置无法按管理员中的网站范围使用](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378：在导入期间错误地更新了存储级别 [!DNL URL] 重写](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938：安装：升级期间数据库触发器出现性能问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
