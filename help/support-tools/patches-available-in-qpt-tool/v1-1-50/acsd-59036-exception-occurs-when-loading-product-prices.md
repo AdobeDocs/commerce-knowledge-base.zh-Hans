@@ -57,7 +57,8 @@ Adobe Commerce（所有部署方法） 2.4.7 - 2.4.7-p2
 
     ```JSON
     report.CRITICAL： OpenSearch\Common\Exceptions\BadRequest400Exception： {&quot;error&quot;：{&quot;root_cause&quot;：[{&quot;type&quot;：&quot;x_content_parse_exception&quot;，&quot;reason&quot;：&quot;[1:193] [bool]无法解析字段[must]&quot;}，&quot;type&quot;：&quot;x_content_parse_exception&quot;，&quot;reason&quot;：&quot;[1:193] [bool]无法解析字段[filter]&quot;，&quot;cloud_by&quot;：&quot;type&quot;：&quot;x_content_parse_exception&quot;，&quot;原因&quot;：&quot;：&quot;：&quot;：&quot;[1:1：193] bool]未能分析/vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php：664
-    “
+    ```
+
 ”中的字段[must]”、“caused_by”：{&quot;type”：“illegal_argument_exception”、“reason”：“field name is null or empty”}}、“status”：400}
 ## 应用修补程序
 
