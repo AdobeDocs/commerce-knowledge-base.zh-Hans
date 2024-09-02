@@ -3,9 +3,9 @@ title: 'ACSD-59036：加载产品价格时，上下限均设置为$0时会发生
 description: 应用ACSD-59036修补程序以修复Adobe Commerce问题：加载上下限均设置为*$0*的产品价格时出现异常。
 feature: Categories, Products, Storefront, Search
 role: Admin, Developer
-source-git-commit: 01abf64953207939bc0c79978e67612da3a940eb
+source-git-commit: d711fb8ff8876a4a514daade6d7df4d7cf7e3593
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,10 @@ Adobe Commerce（所有部署方法） 2.4.7 - 2.4.7-p2
 
 出现错误：
 
-    ```JSON
-    report.CRITICAL： OpenSearch\Common\Exceptions\BadRequest400Exception： {&quot;error&quot;：{&quot;root_cause&quot;：[{&quot;type&quot;：&quot;x_content_parse_exception&quot;，&quot;reason&quot;：&quot;[1:193] [bool]无法解析字段[must]&quot;}，&quot;type&quot;：&quot;x_content_parse_exception&quot;，&quot;reason&quot;：&quot;[1:193] [bool]无法解析字段[filter]&quot;，&quot;cloud_by&quot;：&quot;type&quot;：&quot;x_content_parse_exception&quot;，&quot;原因&quot;：&quot;：&quot;：&quot;：&quot;[1:1：193] bool]未能分析/vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php：664
-    ```
+```JSON
+report.CRITICAL: OpenSearch\Common\Exceptions\BadRequest400Exception: {"error":{"root_cause":[{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]"}],"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [filter]","caused_by":{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]","caused_by":{"type":"illegal_argument_exception","reason":"field name is null or empty"}}},"status":400} in /vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php:664
+```
 
-”中的字段[must]”、“caused_by”：{&quot;type”：“illegal_argument_exception”、“reason”：“field name is null or empty”}}、“status”：400}
 ## 应用修补程序
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
