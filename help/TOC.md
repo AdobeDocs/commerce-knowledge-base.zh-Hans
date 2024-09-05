@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 3fab5cf6598e032d75992750bb58620a002cd9df
+source-git-commit: 87b0024615d3aa02df40a6d6de56594e225d32b6
 workflow-type: tm+mt
-source-wordcount: '11264'
+source-wordcount: '11278'
 ht-degree: 0%
 
 ---
@@ -806,6 +806,7 @@ ht-degree: 0%
          * [ACSD-57643：错误地添加了具有自定义选项的产品](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
          * [ACSD-57588：发运到多个地址时，区域ID处理出错](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
          * [ACSD-56979：删除暂存更新后删除的产品映像](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+         * [ACSD-57086：来自启用了条款和条件的非默认网站的订单处理不正确](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly.md)
          * [ACSD-57941：产品选项未正确分配给管理员商店](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57941-product-options-are-incorrectly-assigned-to-the-admin-store.md)
          * [ACSD-58739：部分重新索引引发错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
          * [ACSD-57846：使用零价格过滤器搜索的GraphQL产品未返回结果](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
