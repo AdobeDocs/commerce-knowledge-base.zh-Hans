@@ -4,9 +4,9 @@ description: 本文为使用Live Search扩展时目录数据无法正确同步�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
+source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,11 @@ ht-degree: 0%
 
 ## 问题
 
-您的目录数据未正确同步，或者添加了新产品，但未显示在搜索结果中。
+您的目录数据未正确同步，或者已添加新产品，但未显示在搜索结果中。
+
+>[!NOTE]
+>
+>从[!DNL Live Search]版本4.2.1开始，表名`catalog_data_exporter_products`和`catalog_data_exporter_product_attributes`现在称为`cde_products_feed`和`cde_product_attributes_feed`。对于版本低于4.2.1的商家，在旧表名称`catalog_data_exporter_products`和`catalog_data_exporter_product_attributes`中查找数据。
 
 <u>重现步骤</u>
 
@@ -59,20 +63,20 @@ ht-degree: 0%
 1. 使用以下SQL查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
 
    ```sql
-   select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. 如果看不到正确的数据，请尝试使用以下命令重新编制索引，然后在步骤1中重新运行SQL查询以验证数据：
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_products
+   bin/magento indexer:reindex cde_products_feed
    ```
 
 1. 如果仍看不到正确的数据，请[创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 检查上次产品导出的时间戳
 
-1. 如果您在`catalog_data_exporter_products`中看到正确的数据，请使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后：
+1. 如果您在`cde_products_feed`中看到正确的数据，请使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后：
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -93,20 +97,20 @@ ht-degree: 0%
 1. 使用以下SQL查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
 
    ```sql
-   select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. 如果看不到正确的数据，请使用以下命令重新编制索引，然后重新运行步骤1中的SQL查询来验证数据。
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_product_attributes
+   bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
 1. 如果仍看不到正确的数据，请[创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 检查上次产品属性导出的时间戳
 
-如果您在`catalog_data_exporter_product_attributes`中看到了正确的数据：
+如果您在`cde_product_attributes_feed`中看到了正确的数据：
 
 1. 使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后。
 
