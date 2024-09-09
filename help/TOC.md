@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 87b0024615d3aa02df40a6d6de56594e225d32b6
+source-git-commit: f309e4cde788475ae624520a76abaca1cc784f93
 workflow-type: tm+mt
-source-wordcount: '11278'
+source-wordcount: '11297'
 ht-degree: 0%
 
 ---
@@ -819,6 +819,8 @@ ht-degree: 0%
          * [ACSD-46938：安装：升级期间数据库触发器出现性能问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
          * [ACSD-59229：由于过时的XMagento变化值而导致客户组数据分配错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441：通过V1/customers [!DNL REST] API端点更新客户会引发错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-59280： 2.4.4-pX安装中的ReflectionUnionType：：getName()错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
+         * [ACSD-60303：在启用HTML缩小功能的情况下解决了管理员订单放置问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
       * [使用Quality Patches Tool检查Adobe Commerce问题的修补程序](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 公告{#announcements}
    * [公告概述](/help/announcements/overview.md)
