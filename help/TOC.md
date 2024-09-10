@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 7bfbf1853dddc10199dcb97135535b9e8ee79293
+source-git-commit: 6d79090b9a9c0a6e6b110678ecef58651ff69011
 workflow-type: tm+mt
-source-wordcount: '11357'
+source-wordcount: '11367'
 ht-degree: 0%
 
 ---
@@ -823,6 +823,7 @@ ht-degree: 0%
          * [ACSD-58141：如果启用L2 Redis缓存，则为已登录的客户在POST请求时重新生成PHPSESSID](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229：由于过时的XMagento变化值而导致客户组数据分配错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441：通过V1/customers [!DNL REST] API端点更新客户会引发错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-48210：存储视图特定的范围属性将覆盖全局值](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
          * [ACSD-59280： 2.4.4-pX安装中的ReflectionUnionType：：getName()错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
          * [ACSD-60303：在启用HTML缩小功能的情况下解决了管理员订单放置问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
       * [使用Quality Patches Tool检查Adobe Commerce问题的修补程序](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
