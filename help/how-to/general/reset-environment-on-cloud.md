@@ -3,9 +3,9 @@ title: 在云基础架构上重置Adobe Commerce上的环境
 description: 本文显示了在Adobe Commerce上回滚云基础架构上环境的各种方案。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
+source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,9 @@ ht-degree: 0%
 
 <u>更改日期</u>：
 
-1. 将网站放入[!UICONTROL Maintenance Mode]。<br>
-详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升级指南中用于升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)的[[!UICONTROL Maintenance Mode]选项。
+1. 将网站放入[!UICONTROL Maintenance Mode]。
+详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升级指南中的升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)的[[!UICONTROL Maintenance Mode]选项。
+1. 禁用cron作业。 有关禁用cron作业的详细信息，请参阅[crons属性指南](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)。
 1. 获取本地[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)。
 
 <u>如果需要[!UICONTROL Rollback]</u>：
@@ -123,7 +124,7 @@ ht-degree: 0%
 1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 访问提交历史记录。 使用`--reverse`以相反顺序显示历史记录，以便更加方便： `git log --reverse`
 1. 选择已完成的提交哈希。 要将代码重置为其真实状态(Vanilla)，请查找创建分支（环境）的第一次提交。
-   ![在Git控制台中选择承诺哈希](assets/select_commit_hash.png)
+   ![替换文本](image.png)
 1. 应用硬[!DNL git]重置： `git reset --h <commit_hash>`
 1. 将更改推送到服务器： `git push --force <origin> <branch>`
 
