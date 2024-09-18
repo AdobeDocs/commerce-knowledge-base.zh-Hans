@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7c6cc2fc3cd76fc4c156d7cdb15bfbc3a24f39cb
+source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Adobe Commerce支持已从Adobe Commerce帮助中心迁移到Experience League。 使用[此处](#what-is-experience-support)描述的Experience League案例表单流程提交支持案例。
+
+>[!NOTE]
+>
+>目前，要查看您之前在Adobe Commerce帮助中心提交的案例，您必须转到https://support.magento.com/hc/en-us/requests ，因为这些案例尚未迁移到新的支持票证系统。 帮助中心现在为只读；要继续获得对原始问题的支持，您必须向[Experience League支持](https://experienceleague.adobe.com/home#support)提交跟进票证。
 
 >[!NOTE]
 >
