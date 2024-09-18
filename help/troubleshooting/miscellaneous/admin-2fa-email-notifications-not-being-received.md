@@ -4,9 +4,9 @@ description: 本文介绍了在设置了双重身份验证(2FA)以增强Adobe Co
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 435a545adcf2a1d6b023abaec55c4b73e942ee1a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,12 @@ ht-degree: 0%
    ```
 
    * 如果未返回任何结果，则表示尚未配置发件人地址。
+由于您无权访问管理员，因此必须将配置插入数据库。 插入相应的电子邮件地址并运行MySQL语句：
+
+   ```
+   insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here.com)
+   ```
+
    * 如果返回结果，则继续执行&#x200B;**步骤2**。
 
 1. 如果电子邮件出现在您的“垃圾邮件”文件夹中，请单击电子邮件中的链接。 如果该链接已过期，请尝试再次登录以重复该过程。
