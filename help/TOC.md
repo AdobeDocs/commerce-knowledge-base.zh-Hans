@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 7ece2f2dd578fc455bc2d584ffa401f25f561630
+source-git-commit: 82313d2444230de7f4ea426a255bf0462a136334
 workflow-type: tm+mt
-source-wordcount: '11443'
+source-wordcount: '11456'
 ht-degree: 0%
 
 ---
@@ -825,6 +825,7 @@ ht-degree: 0%
          * [ACSD-58141：如果启用L2 Redis缓存，则为已登录的客户在POST请求时重新生成PHPSESSID](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229：由于过时的XMagento变化值而导致客户组数据分配错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441：通过V1/customers [!DNL REST] API端点更新客户会引发错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-58352：通过 [!DNL GraphQL] API返回默认存储的属性标签](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58352-return-attribute-labels-for-the-default-store-are-returned-via-graphql-api.md)
          * [ACSD-59514：管理员中的Forms在浏览器控制台中出现 [!DNL Page Builder] throw错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59514-forms-in-admin-with-page-builder-throw-error-in-browser-console.md)
          * [ACSD-58790：修复了在 [!DNL Chrome]上移动视图的产品详细信息页面图像上缩放功能的捏合问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome.md)
          * [ACSD-58442：修复了宽度为768px的设备被视为移动设备的问题，该问题会导致菜单和标题在移动设备视图而非桌面中加载](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop.md)
