@@ -4,9 +4,9 @@ description: 了解如何对Adobe Commerce和Magento Open Source的安全扫描�
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 检查52.87.98.44 、 34.196.167.176和3.218.25.102 IP是否在80和443端口处未被阻止。
 1. 检查提交的重定向URL（例如，`https://mystore.com`重定向到`https://www.mystore.com`或反之，或者重定向到其他域名）。
-1. 调查WAF/Web服务器访问日志中拒绝的/未完成的请求。 HTTP 403 `Forbidden`和HTTP 500 `Internal server error`是导致生成空报表的常见服务器响应。 以下是阻止用户代理请求的确认代码示例：
+1. 调查WAF/Web服务器访问日志中有关被拒绝/未完成的请求。 HTTP 403 `Forbidden`和HTTP 500 `Internal server error`是导致生成空报表的常见服务器响应。 以下是阻止用户代理请求的确认代码示例：
 
 ```code block
 if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent_allowlist)
@@ -100,8 +100,12 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### Adobe Commerce会将安全扫描报告保留多长时间？
 
-您可以从终端生成前10个报表。 如果需要更早的报表，请联系Adobe Commerce支持部门。 可获得多达一年的以前的安全扫描报告。
+您可以从终端生成前10个报表。 如果需要更早的报表，请联系Adobe Commerce支持部门。
 
 ### 提交支持票证时需要什么信息？
 
 请确保提供域名。
+
+### 如果我从扫描工具扫描中删除存储区会发生什么情况？
+
+如果删除存储提交，则将删除所有相关数据，包括扫描报告。 此操作不可逆。 删除商店域后提交该域会创建一个新的提交。
