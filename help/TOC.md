@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 82313d2444230de7f4ea426a255bf0462a136334
+source-git-commit: f3d662d8843eded65eade4732d2016bf34ccd6a5
 workflow-type: tm+mt
-source-wordcount: '11456'
+source-wordcount: '11462'
 ht-degree: 0%
 
 ---
@@ -1166,6 +1166,7 @@ ht-degree: 0%
       * [网站和API性能低](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
       * [将折旧的Google图像图表替换为图像图表](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [高级搜索未显示最相关的结果](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
+      * [在Admin中过滤订单时出错](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [如果未在允许国家/地区中选择任何内容，则用户无法将产品添加到购物车](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
       * [在“管理员”的“订单”网格中不显示订单](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
       * [无法验证VAT编号 — 云基础架构上的Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
