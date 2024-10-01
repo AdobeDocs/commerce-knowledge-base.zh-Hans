@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
+source-git-commit: 3cddfcb136147a5c0602a62585438313b3162900
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2586'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,10 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 ### 提交支持案例 {#support-case}
 
-成功登录后，您可以使用Adobe Experience League主页、Adobe Commerce帐户页面和Adobe Commerce Cloud帐户页面提交支持案例。
+以帐户所有者或Shared Access用户身份成功登录后，您可以使用Adobe Experience League主页、Adobe Commerce帐户页面和Adobe Commerce Cloud帐户页面提交支持案例。
 
-* 如果您是帐户所有者，请按照以下步骤操作。
-* 如果您是“共享访问”用户，则必须首先切换帐户。 请参阅[访问共享帐户（切换帐户）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)，然后您可以继续执行以下步骤。
+* 如果您是帐户所有者或返回的共享访问用户，请按照以下步骤操作。
+* 如果您是“共享访问”用户，而帐户所有者刚刚[为您提供了共享访问权限](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access)，则您必须先切换帐户，然后才能继续执行以下步骤。 有关详细信息，请参阅[访问共享帐户（切换帐户）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)。
 
 #### Adobe Experience League起始页 {#experience-league-start-page}
 
