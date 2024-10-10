@@ -4,16 +4,16 @@ description: 本文为部署失败并出现以下错误“无法下载https://re
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
+source-git-commit: 2a1c97c65282d03010bffabbcd2d1be7fb9ff9a6
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # 在env：COMPOSER_AUTH或auth.json中，部署失败并显示正确的访问密钥
 
-本文提供了一个解决方案，用于解决[部署日志](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中部署失败并出现以下错误时的问题：
+本文提供了一个解决方案，用于解决[部署日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中部署失败并出现以下错误时的问题：
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,7 +40,7 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 >
 >这是一个示例错误。 您可能会收到指示其他文件的错误(具体取决于您部署的Adobe Commerce版本)。
 
-您未成功部署。 在[部署日志](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中看到&#x200B;*无法下载“https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip”文件(HTTP/1.1 404 Not Found)*&#x200B;之类的错误。
+您未成功部署。 在[部署日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中看到&#x200B;*无法下载“https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip”文件(HTTP/1.1 404 Not Found)*&#x200B;之类的错误。
 
 ### 原因
 
