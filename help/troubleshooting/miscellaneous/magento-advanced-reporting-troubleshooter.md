@@ -4,7 +4,7 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
+source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -94,7 +94,7 @@ b.否 — 如果查询未返回任何内容，请执行以下步骤：1. [在设
 
 检查作业`analytics_collect_data`是否通过运行此查询而执行： `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G`
 
-a.是 — 如果有记录，且&#x200B;**状态**&#x200B;列显示&#x200B;_已错过_，则使用此KB文章[更新高级报告中的修补程序以在其自己的cron组](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)上运行。\
+a.是 — 如果有记录，且&#x200B;**status**&#x200B;列显示&#x200B;_missed_，则使用此KB文章“更新高级报告”中的修补程序在自己的cron组上运行。\
 b.是 — 如果有记录，且&#x200B;**状态**&#x200B;列显示&#x200B;_成功_，请继续执行[步骤9](#step-9)。\
 c.是 — 如果有记录，且&#x200B;**状态**&#x200B;列显示&#x200B;_错误_，请继续执行[步骤8。](#step-8)\
 d.否 — 如果没有记录，请继续执行[步骤8](#step-8)。
@@ -151,7 +151,7 @@ b.否 — 继续执行[步骤11](#step-11)。
 
 示例： `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
-a.是 — 在Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)上的[常见高级报告cron作业错误中使用MDVA-19391修补程序，等待24小时以使作业再次运行并重试。\
+a.是 — 在Adobe Commerce上的常见高级报告cron作业错误中使用MDVA-19391修补程序，等待24小时以使作业再次运行并重试。\
 b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 +++
