@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 3cddfcb136147a5c0602a62585438313b3162900
+source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,10 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 您可以单击左侧菜单中的&#x200B;**[!UICONTROL My Cases]**&#x200B;查看您本人提交的案例。
 
 ![查看支持案例](assets/view_support_cases.png)
+
+#### 从Adobe Commerce帮助中心查看历史案例
+
+详细了解如何从Adobe Commerce知识库的[停用Adobe Commerce帮助中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center)中的Adobe Commerce帮助中心&#x200B;**查看您的历史案例**。
 
 #### 查看您的观察案例
 
