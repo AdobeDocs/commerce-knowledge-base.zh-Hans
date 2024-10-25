@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: a2f113e6d9123fd9058cce34a199a90484523862
+source-git-commit: fdca2b0345bbd259007f5eeef10dd63455395d4f
 workflow-type: tm+mt
-source-wordcount: '9692'
+source-wordcount: '9662'
 ht-degree: 0%
 
 ---
@@ -950,9 +950,6 @@ ht-degree: 0%
       * [[!DNL USPS] Ground Advantage配送方式支持AC-9182的修补程序](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 — 适用于CVE-2022-35698的2.4.5安全修补程序](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
       * [Adobe Commerce 2.4.4：无法创建部分发票](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
-      * [新订单将发送到存档](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [网站和API性能低](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
-      * [将折旧的Google图像图表替换为图像图表](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [高级搜索未显示最相关的结果](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [在Admin中过滤订单时出错](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [如果未在允许国家/地区中选择任何内容，则用户无法将产品添加到购物车](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
@@ -966,7 +963,6 @@ ht-degree: 0%
       * [在管理员中批量删除期间，删除的产品比启动的产品多](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
       * [Adobe Commerce on cloud infrastructure v2.3.5GraphQL缓存失效不起作用](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [启用Braintree付款后，管理员无法创建订单/重新订单](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [Adobe Commerce 2.4.0 B2B：折扣过期时采购订单逻辑错误](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-b2b-wrong-purchase-order-logic-when-discount-expired.md)
       * [编辑计划更新的结束日期后，目录表中出现重复条目](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5、2.3.5-p1修补程序：国家/地区付款问题](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
       * [Adobe Commerce 2.4.0修补程序：返回发货标签创建问题](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
