@@ -1,17 +1,17 @@
 ---
-title: “'部署失败：'cache'命名空间错误中未定义命令'”
+title: “'缓存刷新时部署失败：'缓存'命名空间错误中未定义命令'”
 description: 本文为部署失败并出现以下错误**在缓存命名空间中未定义命令**的问题提供了解决方案。
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 1a8a4e1eada859a6712a43536d7bad26d1ce1244
+source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 部署失败：“cache”命名空间错误中未定义命令
+# 部署在缓存刷新时失败：“在‘缓存’命名空间错误中未定义命令”
 
 >[!WARNING]
 >

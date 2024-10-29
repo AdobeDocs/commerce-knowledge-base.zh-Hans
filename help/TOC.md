@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 7a4d6ab8a96cd739bc692ae6b91fc2613d3b115f
+source-git-commit: 61b3cc2fc40b320c3c657a7dd0c6ea2b9db71c75
 workflow-type: tm+mt
-source-wordcount: '9623'
+source-wordcount: '9626'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,7 @@ ht-degree: 0%
          * [ACSD-50234：使用 [!DNL PayPal]下订单的确认电子邮件中的客户名称不正确](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50234-incorrect-customer-name-in-confirmation-email-for-orders-placed-with-paypal.md)
          * [ACSD-48813：搜索未根据属性的搜索权重显示相关结果](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48813-search-not-showing-relevant-results-based-on-search-weight-of-attributes.md)
          * [ACSD-49464：未从存档中移回的发票、发运和贷项通知单](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49464-invoices-shipments-credit-memos-not-moved-back-from-archive.md)
-         * [ACSD-48771：所见即所得编辑器以不同的方式呈现内容](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48771-wyswigy-editor-rendering-content-differently.md)
+         * [ACSD-48771：WYSIWYG编辑器以不同的方式呈现内容](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48771-wyswigy-editor-rendering-content-differently.md)
          * [ACSD-49527：GraphQL公司角色未正确显示分页](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49527-graphql-company-roles-dont-display-pagination-correctly.md)
       * v1.1.30 {#v1-1-30}
          * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
@@ -938,7 +938,7 @@ ht-degree: 0%
       * [部署错误：“下载时发生错误7 ...端口443：连接被拒绝”](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [提交不正确的文件时出现部署错误](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [未找到修补程序的部署错误](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
-      * [部署失败：“cache”命名空间错误中未定义命令](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+      * [缓存刷新时部署失败：“缓存”命名空间错误中未定义命令](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中，部署失败并显示正确的访问密钥](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知问题{#known-issues-patches-attached}
       * [可用于Adobe Commerce的安全更新 — [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
