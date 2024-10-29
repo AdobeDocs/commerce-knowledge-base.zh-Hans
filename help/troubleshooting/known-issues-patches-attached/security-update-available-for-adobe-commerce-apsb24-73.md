@@ -4,7 +4,7 @@ promoted: true
 description: 为仅运行 [!DNL B2B] 模块的Adobe Commerce 2.4.7-p2、2.4.6-p7、2.4.5-p9、2.4.4-p10及更早版本实例应用隔离修补程序以修复 [!DNL critical, important, and moderate vulnerabilities] 。
 feature: Compliance, Security
 role: Developer
-source-git-commit: 694cb7519733e950b55006866e585097bc2429f4
+source-git-commit: 483589be81e55f818f5cf93cccff2ffcbb5763cf
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
