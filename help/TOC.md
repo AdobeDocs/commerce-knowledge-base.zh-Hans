@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 61b3cc2fc40b320c3c657a7dd0c6ea2b9db71c75
+source-git-commit: a0b8fdf0e04cad2260a04af7c1049c6831d2921b
 workflow-type: tm+mt
-source-wordcount: '9626'
+source-wordcount: '9617'
 ht-degree: 0%
 
 ---
@@ -639,7 +639,6 @@ ht-degree: 0%
       * [Adobe Commerce中的Apache log4j2漏洞](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
       * [在云基础架构上删除Adobe Commerce的Blackfire访问权限](/help/announcements/adobe-commerce-announcements/blackfire-access-removal-for-magento-commerce-cloud.md)
       * [已发布质量修补程序工具：用于自助提供质量修补程序的全新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
-      * [2.4 2022年1月26日Adobe Commerce升级研讨会](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
       * [Adobe Commerce 2.4.0中将删除MySQL目录搜索引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Adobe支持客户数据访问和隐私](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
       * [已弃用UPS API](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
@@ -938,7 +937,7 @@ ht-degree: 0%
       * [部署错误：“下载时发生错误7 ...端口443：连接被拒绝”](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [提交不正确的文件时出现部署错误](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [未找到修补程序的部署错误](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
-      * [缓存刷新时部署失败：“缓存”命名空间错误中未定义命令](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+      * [部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中，部署失败并显示正确的访问密钥](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知问题{#known-issues-patches-attached}
       * [可用于Adobe Commerce的安全更新 — [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
