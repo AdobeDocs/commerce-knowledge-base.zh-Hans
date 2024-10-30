@@ -1,17 +1,18 @@
 ---
-title: “'缓存刷新时部署失败：'缓存'命名空间错误中未定义命令'”
+title: “部署在缓存刷新时失败：‘缓存’命名空间中未定义命令’错误”
 description: 本文为部署失败并出现以下错误**在缓存命名空间中未定义命令**的问题提供了解决方案。
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
+source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 部署在缓存刷新时失败：“在‘缓存’命名空间错误中未定义命令”
+
+# 部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误
 
 >[!WARNING]
 >
@@ -30,11 +31,11 @@ ht-degree: 0%
 
 云基础架构上的Adobe Commerce 2.4.x
 
-## 问题  
+## 问题
 
 <u>重现步骤</u>：
 
-尝试部署。 
+尝试部署。
 
 <u>预期的结果</u>：
 
@@ -66,16 +67,16 @@ ht-degree: 0%
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. 运行此MySql查询以验证是否找不到存储，如步骤2中的错误消息所示。 
+1. 运行此MySql查询以验证是否找不到存储，如步骤2中的错误消息所示。
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. 运行以下MySql语句以删除无效行： 
+1. 运行以下MySql语句以删除无效行：
 
    ```sql
-   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
 1. 再次运行此命令：
