@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 8438978de04746c8a66816fe4f03d5f0d2d11521
+source-git-commit: 7a70f2c54396f82424e442aca7413c02ebecddb9
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,8 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 >[!INFO]
 >
+>1. 要提交案例，您必须有权获得对相应产品(例如，Adobe Commerce、Adobe Commerce Intelligence、Experience Platform等)的支持。 如果您无权获得支持，页面顶部将显示一个栏，告知您您您不是组织中有权获得支持的用户。
+>1. 如果您属于多个组织，或者有多个组织具有相似的名称(每个组织都表示该组织已订阅的任何其他Adobe产品)，则需要首先从以“(Commerce)”结尾的下拉列表中选择相应的组织。
 >1. 要提交案例，您必须有权支持相应的产品(例如，Adobe Commerce、Adobe Commerce Reporting、Adobe Commerce Payment Services、Experience Platform等)。 如果您无权获得支持，页面顶部将显示一个栏，告知您您您不是组织中有权获得支持的用户。 要提交与Commerce相关问题的案例，您必须首先选择以&#x200B;*[!DNL (Commerce)]*&#x200B;结尾的相应组织名称。
 >1. 如果您属于多个组织，或者有多个组织具有相似的名称(每个组织都表示该组织订阅的任何其他Adobe产品)，则需要首先从下拉列表中选择相应的组织。
 >1. 如果您在[!UICONTROL Select a product]下拉列表中未看到Adobe Commerce，则必须首先从Commerce帐户所有者获取[共享访问权限](#shared-access)。 获得共享访问权限后，您必须[同步帐户](#switch-accounts)才能完成此过程，然后才能提交案例。
@@ -98,7 +100,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >
 >在提交案例之前，请确保您选择了正确的组织，并且您选择的组织拥有您请求支持的产品的相应权利。 例如，如果您的问题与Adobe Commerce相关，但您选择了Experience Platform作为产品并且案例已成功提交，这可能会导致案例的路由错误和响应时间的延迟。
 >
->此外，如果选择了错误的组织，您的团队将无法在[!UICONTROL My Cases]下查看适当/正确的组织的案例。 支持团队将来无法更改与案例关联的组织。
+>此外，如果在提交案例时选择了错误的组织，您的团队将无法在[!UICONTROL My Cases]下查看相应/正确的组织案例。 Adobe Commerce支持团队无法更改与案例关联的组织；要解决此问题，您必须关闭现有案例，并提交包含提供/选择的相应详细信息的新案例。
 
 1. 单击标题中的&#x200B;**支持**。 打开“支持”主页。
 
