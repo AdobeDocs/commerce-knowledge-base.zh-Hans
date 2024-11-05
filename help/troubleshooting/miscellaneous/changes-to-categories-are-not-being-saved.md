@@ -4,9 +4,9 @@ description: 本文修复了在通过Commerce管理员更新产品类别时，�
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,8 @@ ht-degree: 0%
 1. 查找具有相同`entity_id`和相同`created_in`值的类别记录。
 1. 选择`row_id` = `entity_id`的记录并复制`updated_in`值。
 1. 选择`row_id`不等于`entity_id`的记录，并将复制的`updated_in`值粘贴为`created_in`值。 请参见下面的屏幕快照作为插图。    ![正在复制created_in值.png](assets/copy_created-in_value.png)
-1. 验证`staging_update`表中是否存在类别更新记录，即（步骤3中的）已更新的`created_in`值。 *例如：*&#x200B;如果复制的`created_in`值为1509281953，则`staging_update`表中必须存在具有`row_id` = 1509281953的实体
+1. 验证`staging_update`表中是否存在类别更新记录，即（步骤3中的）已更新的`created_in`值。 *例如：*&#x200B;如果复制的`created_in`值为1509281953，则`staging_update`表中必须存在具有`row_id` = 1509281953的实体。
+
+## 相关阅读
+
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

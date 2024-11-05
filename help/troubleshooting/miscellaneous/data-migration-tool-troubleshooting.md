@@ -4,9 +4,9 @@ description: 本文提供了在运行数据迁移工具时可能发生的错误�
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -162,3 +162,7 @@ Deltalog for <TABLE_NAME> is not installed
 ### 可能的解决方案
 
 我们建议从Adobe Commerce 1数据库的副本测试迁移过程以修复迁移问题。 修复了副本上的问题后，从实时Adobe Commerce 1数据库中重新开始迁移过程。 这将有助于确保顺利迁移过程。
+
+## 相关阅读
+
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

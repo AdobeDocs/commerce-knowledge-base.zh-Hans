@@ -1,19 +1,19 @@
 ---
 title: 由于内容暂存问题，所有页面均显示错误404
-description: 本文修复了Adobe Commerce内部部署和Adobe Commerce on Cloud基础架构问题，该问题导致您在访问任何店面页面或Commerce管理员时出现404错误。
+description: 本文修复了Adobe Commerce内部部署和Adobe Commerce on cloud infrastructure问题，该问题导致您在访问任何店面页面或[!UICONTROL Commerce Admin]时出现404错误。
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
 # 由于内容暂存问题，所有页面均显示错误404
 
-本文修复了Adobe Commerce内部部署和Adobe Commerce on Cloud基础架构问题，该问题导致您在访问任何店面页面或Commerce管理员时出现404错误。
+本文修复了Adobe Commerce内部部署和Adobe Commerce on cloud infrastructure问题，该问题导致您在访问任何店面页面或[!UICONTROL Commerce Admin]时出现404错误。
 
 ## 受影响的产品和版本
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文不适用于尝试[预览暂存更新](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change)时出现404错误的情况。 如果您遇到此问题，请打开[支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+>本文不适用于尝试[预览暂存更新](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change)时出现404错误的情况。 如果您遇到此问题，请打开[支持票证](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
 
 访问任何店面页面或管理员会导致404错误（“糟糕，我们的错误……”页面），原因是使用[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)对商店内容资源执行计划更新操作后(对使用[Magento\_暂存模块](https://developer.adobe.com/commerce/php/module-reference/)计划的商店内容资源的更新)。 例如，您可能已删除了计划更新的产品，或删除了计划更新的结束日期。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-在这种情况下，您可以参阅[Site Down Troubleshooter](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)以了解故障排除想法。
+在这种情况下，您可以参阅[Site Down Troubleshooter](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter)以了解故障排除想法。
 
 ## 解决方案
 
@@ -86,6 +86,10 @@ ht-degree: 0%
    DELETE FROM flag WHERE flag_code = 'staging';
    ```
 
-1. 等待cron作业运行（如果设置正确，最多可在五分钟后运行），或者如果未设置cron，请手动运行该作业。
+1. 等待[!DNL cron]作业运行（如果设置正确，最多可在五分钟内运行）；如果未设置[!DNL cron]，请手动运行该作业。
 
-该问题应在修复无效链接后立即解决。 如果问题仍然存在，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+该问题应在修复无效链接后立即解决。 如果问题仍然存在，请[提交支持票证](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
+
+## 相关阅读
+
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

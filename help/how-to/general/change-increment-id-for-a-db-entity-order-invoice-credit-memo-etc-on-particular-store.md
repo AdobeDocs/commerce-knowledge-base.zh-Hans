@@ -1,18 +1,18 @@
 ---
-title: 更改数据库实体（订单、发票、贷项通知单等）的增量ID 在特定存储上
-description: 本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce存储区中使用“ALTER TABLE”SQL语句。
+title: 更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID
+description: 本文讨论如何使用“ALTER TABLE”SQL语句更改特定Adobe Commerce存储上Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# 更改数据库实体（订单、发票、贷项通知单等）的增量ID 在特定存储上
+# 更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID
 
-本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce存储上使用`ALTER TABLE` SQL语句。
+本文讨论如何使用`ALTER TABLE` SQL语句更改特定Adobe Commerce存储中Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID。
 
 ## 受影响的版本
 
@@ -86,5 +86,6 @@ ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 
 ## 相关文档
 
-* [在我们的支持知识库中创建云上的数据库转储](/help/how-to/general/create-database-dump-on-cloud.md)。
-* 在开发人员文档中[SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+* 在我们的支持知识库中[在云上创建数据库转储](/help/how-to/general/create-database-dump-on-cloud.md)
+* 在开发人员文档中[SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

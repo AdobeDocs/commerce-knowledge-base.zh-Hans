@@ -4,9 +4,9 @@ description: 本文为数据库中的同一实体ID存在多行问题提供了�
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
 exl-id: 09d5c321-9c45-4041-b6f6-831efca0977e
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 SELECT * FROM $entityTable WHERE $column = <$entityID> ORDER BY created_in;
 ```
 
-其中类别/产品/购物车价格规则/目录价格规则/CMS页面的`$entityID = ID`。
+其中`$entityID = ID`个类别/产品/购物车价格规则/目录价格规则/CMS页面。
 
 | 实体 | $entityTable | $column |
 |------------------|-----------------------------------|------------------|
@@ -67,5 +67,6 @@ SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHE
 
 ## 相关阅读
 
-* [对类别的更改未保存在我们的支持知识库中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)。
-* 在编辑我们的支持知识库中计划更新的结束日期之后，[目录表中出现重复条目](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html)。
+* [对类别的更改未保存在我们的支持知识库中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
+* 在编辑我们的支持知识库中计划更新的结束日期之后，[目录表中出现重复条目](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

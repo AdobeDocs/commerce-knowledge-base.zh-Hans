@@ -4,9 +4,9 @@ description: 本文提供了针对该问题的解决方案，您将收到一则�
 exl-id: f52b383b-87f2-4216-9bf4-e765db31ca6b
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -30,3 +30,7 @@ ht-degree: 0%
 * 匹配`core_config_data`数据库表中`web/unsecure/base_url`记录的大小写
 
 请使用有效值重新运行安装。
+
+## 相关阅读
+
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

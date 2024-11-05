@@ -4,9 +4,9 @@ description: 本文针对“var/log/exception.log”中的数据库连接错误�
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-当MySQL客户端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)服务器收到大于[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)字节的数据包时，它会发出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)错误（可在`exception.log`中看到）并关闭连接。 对于某些客户端，如果通信数据包太大，则在查询&#x200B;*错误期间您也可能获得与MySQL服务器的*&#x200B;丢失连接。
+当[!DNL MySQL]客户端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)服务器收到大于[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)字节的数据包时，它会发出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)错误（可在`exception.log`中看到）并关闭连接。 对于某些客户端，如果通信数据包太大，则在查询&#x200B;*错误期间您还可能会收到*&#x200B;与[!DNL MySQL]服务器的丢失连接。
 
 <u>重现步骤</u>
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 原因
 
-MySQL `max_allowed_packets`设置的默认值16MB不够大，无法满足您的需求。
+[!DNL MySQL] `max_allowed_packets`设置的默认值16MB不够大，无法满足您的需求。
 
 ## 解决方案
 
@@ -45,7 +45,8 @@ MySQL `max_allowed_packets`设置的默认值16MB不够大，无法满足您的�
 
 ## 相关阅读
 
-* 我们的开发人员文档中的[安装指南> MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=max%20allowed%2016%20MB)。
-* [数据库上载将丢失与支持知识库中的MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)的连接。
+* 我们的开发人员文档中的[内部部署安装概述](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
+* [数据库上载将断开与支持知识库中 [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)的连接。
 * 在我们的支持知识库中[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
 * [解决支持知识库中数据库性能问题的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)。
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

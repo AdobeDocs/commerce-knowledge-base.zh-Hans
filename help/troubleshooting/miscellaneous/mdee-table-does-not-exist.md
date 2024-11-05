@@ -3,9 +3,10 @@ title: 修复数据未在 [!DNL Commerce Data Exporter] 源中更新，并且 [!
 description: 本文提供了一个解决方案，用于修复在 [!DNL Commerce Data Exporter mview] 订阅中使用错误视图ID导致的数据同步问题。
 feature: Data Import/Export, Saas, Logs
 role: Developer
-source-git-commit: 3581e39e7054cf765403fd963e22a051457c1097
+exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -48,4 +49,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-Adobe Commerce Data Export Guide for [!DNL SaaS]服务中的[[!DNL SaaS] 数据导出扩展发行说明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
+* Adobe Commerce Data Export Guide for [!DNL SaaS]服务中的[[!DNL SaaS] 数据导出扩展发行说明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

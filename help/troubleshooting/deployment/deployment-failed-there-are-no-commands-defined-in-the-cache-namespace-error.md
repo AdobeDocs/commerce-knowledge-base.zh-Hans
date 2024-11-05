@@ -4,9 +4,9 @@ description: 本文为部署失败并出现以下错误**在缓存命名空间�
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 原因
 
-**core_config_data**&#x200B;表包含数据库中不再存在的商店ID或网站ID的配置。 当您从另一个实例/环境导入了数据库备份，并且这些作用域的配置保留在数据库中时会发生这种情况，尽管关联的存储/网站已被删除。
+**`core_config_data`**&#x200B;表包含数据库中不再存在的商店ID或网站ID的配置。 当您从另一个实例/环境导入了数据库备份，并且这些作用域的配置保留在数据库中时会发生这种情况，尽管关联的存储/网站已被删除。
 
 ### 解决方案
 
@@ -67,13 +67,13 @@ ht-degree: 0%
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. 运行此MySql查询以验证是否找不到存储，如步骤2中的错误消息所示。
+1. 运行此[!DNL MySQL]查询以验证是否找不到存储，如步骤2中的错误消息所示。
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. 运行以下MySql语句以删除无效行：
+1. 运行以下[!DNL MySQL]语句以删除无效行：
 
    ```sql
    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
@@ -91,13 +91,13 @@ ht-degree: 0%
    The website with id X that was requested wasn't found. Verify the website and try again.
    ```
 
-   运行此MySql查询并验证是否找不到该网站：
+   运行此[!DNL MySQL]查询并验证是否找不到该网站：
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. 运行此MySql语句可从网站配置中删除无效行：
+1. 运行此[!DNL MySQL]语句以从网站配置中删除无效行：
 
    ```sql
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
@@ -107,5 +107,6 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [Adobe Commerce部署疑难解答程序](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
-* [检查部署日志，如果Cloud UI出现“日志截断”错误](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+* [Adobe Commerce部署疑难解答程序](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
+* [如果Cloud UI出现“日志截断”错误，则检查部署日志](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

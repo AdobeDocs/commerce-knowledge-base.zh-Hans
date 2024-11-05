@@ -4,9 +4,9 @@ description: 本文修复了以下问题：Commerce管理员创建具有管理�
 exl-id: 0e91198e-66b9-456a-9b75-5986369ed8e6
 feature: Admin Workspace, Logs
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,6 @@ ht-degree: 0%
 
 ## 更多信息{#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
-在我们的安全中心中[Adobe Commerce 2.0.16和2.1.9安全更新页面](https://magento.com/security/patches/magento-2016-and-219-security-update)。
-
-在开发人员文档中[升级Adobe Commerce应用程序和组件](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)。
+* 在我们的安全中心中[Adobe Commerce 2.0.16和2.1.9安全更新页面](https://magento.com/security/patches/magento-2016-and-219-security-update)
+* 在开发人员文档中[升级Adobe Commerce应用程序和组件](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

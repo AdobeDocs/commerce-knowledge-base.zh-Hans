@@ -3,9 +3,10 @@ title: 客户配置文件未出现在Experience Platform中
 description: 如果使用 [!DNL Data Connection] 扩展时，Experience Platform中未显示您的客户配置文件数据，本文将提供故障排除步骤。
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
-source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
+exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -95,8 +96,8 @@ ht-degree: 0%
 
 ### 查询事件数据SaaS表
 
-连接并执行以下SQL查询，以验证
-`event_data_saas`表且没有错误：
+连接并执行以下[!DNL SQL]查询，以验证
+`event_data_saas`表并且没有错误：
 
 ```sql
 Copy code
@@ -124,4 +125,5 @@ select * from event_data_saas;
 
 ## 相关阅读
 
-请参阅Commerce Services用户指南中的[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)扩展。
+* Commerce Services用户指南中的[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)扩展
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

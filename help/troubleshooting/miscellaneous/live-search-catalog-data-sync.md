@@ -4,9 +4,9 @@ description: 本文为使用Live Search扩展时目录数据无法正确同步�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ ht-degree: 0%
 
 如果特定SKU的产品数据未正确同步，请执行以下操作：
 
-1. 使用以下SQL查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
+1. 使用以下[!DNL SQL]查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
 
    ```sql
    select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. 如果看不到正确的数据，请尝试使用以下命令重新编制索引，然后在步骤1中重新运行SQL查询以验证数据：
+1. 如果看不到正确的数据，请尝试使用以下命令重新编入索引，并在步骤1中重新运行[!DNL SQL]查询以验证数据：
 
    ```bash
    bin/magento indexer:reindex cde_products_feed
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ### 检查上次产品导出的时间戳
 
-1. 如果您在`cde_products_feed`中看到正确的数据，请使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后：
+1. 如果您在`cde_products_feed`中看到正确的数据，请使用以下[!DNL SQL]查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后：
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -94,13 +94,13 @@ ht-degree: 0%
 
 如果特定属性代码的产品属性数据未正确同步，请执行以下操作：
 
-1. 使用以下SQL查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
+1. 使用以下[!DNL SQL]查询并验证您是否在`feed_data`列中有所需数据。 另外，记下`modified_at`时间戳。
 
    ```sql
    select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. 如果看不到正确的数据，请使用以下命令重新编制索引，然后重新运行步骤1中的SQL查询来验证数据。
+1. 如果看不到正确的数据，请使用以下命令重新编制索引，然后在步骤1中重新运行[!DNL SQL]查询以验证数据。
 
    ```bash
    bin/magento indexer:reindex cde_product_attributes_feed
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 如果您在`cde_product_attributes_feed`中看到了正确的数据：
 
-1. 使用以下SQL查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后。
+1. 使用以下[!DNL SQL]查询检查上次导出的时间戳。 它应在`modified_at`时间戳之后。
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -137,5 +137,6 @@ bin/magento saas:resync --feed productattributes
 
 ## 相关阅读
 
-* 请参阅我们的用户文档中的[载入实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。
-* 请参阅Adobe Commerce SaaS Data Export Guide中的[Review logs and troubleshoot Adobe Commerce SaaS data export and synchronization](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)。
+* 在我们的用户文档中[载入Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)
+* [在Adobe Commerce SaaS Data Export Guide中查看日志并排除Adobe Commerce SaaS数据导出和同步问题](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

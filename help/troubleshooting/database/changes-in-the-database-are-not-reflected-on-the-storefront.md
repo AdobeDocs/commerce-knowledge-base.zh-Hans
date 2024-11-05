@@ -1,19 +1,19 @@
 ---
 title: 数据库中的更改未反映在店面上
-description: 本文提供了避免在应用实体更新时出现延迟或中断的解决方案。 这包括如何避免更改日志表过大，以及如何设置MySQL表触发器。
+description: 本文提供了避免在应用实体更新时出现延迟或中断的解决方案。 这包括如何避免更改日志表变得过大，以及如何设置 [!DNL MySQL] 表触发器。
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
 # 数据库中的更改未反映在店面上
 
-本文提供了避免在应用实体更新时出现延迟或中断的解决方案。 这包括如何避免更改日志表过大，以及如何设置MySQL表触发器。
+本文提供了避免在应用实体更新时出现延迟或中断的解决方案。 这包括如何避免更改日志表变得过大，以及如何设置[!DNL MySQL]表触发器。
 
 受影响的产品和版本：
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 更改日志表是用来跟踪实体更改的数据库表。 只要不应用更改，记录就会存储在更改日志表中，该更改由`indexer_update_all_views` cron作业执行。 Adobe Commerce数据库中有多个更改日志表，它们按照以下模式命名： INDEXER\_TABLE\_NAME + &#39;\_cl&#39;，例如`catalog_category_product_cl`、`catalog_product_category_cl`。 您可以在我们的开发人员文档中的[索引概述> Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview)一文中找到有关如何在数据库中跟踪更改的更多详细信息。
 
-### MySQL数据库触发器未设置
+### [!DNL MySQL]数据库触发器未设置
 
 如果在添加或更改实体（产品、类别、目标规则等）之后，没有向相应的更改日志表添加记录，则您可能会怀疑数据库触发器未设置。
 
@@ -60,9 +60,9 @@ select * from cron_schedule where job_code = "indexer_update_all_views" and stat
 * `<install_directory>/var/log/cron.log` — 适用于版本2.3.1+和2.2.8+
 * `<install_directory>/var/log/system.log` — 对于早期版本
 
-### 重新设置MySQL表触发器
+### 重新设置[!DNL MySQL]表触发器
 
-要设置缺少的MySQL表触发器，需要重新设置索引器模式：
+要设置缺少的[!DNL MySQL]表触发器，您需要重新设置索引器模式：
 
 1. 切换到“保存时”。
 1. 切换回“按计划”。
@@ -83,5 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## 相关阅读
 
-<ul><li title="MySQL表太大">在我们的支持知识库中，<a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">MySQL表太大</a>。</li>
-<li title="MySQL表太大">在我们的开发人员文档中，<a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">索引器概述&gt; Mview</a>。</li></ul>
+* [[!DNL MySQL] 表在我们的支持知识库中太大](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large)
+* 在我们的开发人员文档中[索引： [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

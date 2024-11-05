@@ -4,9 +4,9 @@ description: 本文提供了一个解决方案，可用于为现有的Adobe Comm
 feature: Commerce Intelligence
 role: Developer
 exl-id: 56f6ad64-729d-4e3a-93a9-da1b91bc5c1d
-source-git-commit: b75328202952bf4c8f57ddc538b5c9e4318b2001
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Adobe Commerce on cloud starter（所有版本）
 
    ![添加SSH公钥](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
 
-1. 提供Business IntelligenceEssentials MySQL凭据。
+1. 提供Business IntelligenceEssentials [!DNL MySQL]凭据。
 
    * 更新您的`.magento/services.yaml`。
 
@@ -197,3 +197,7 @@ Adobe Commerce on cloud starter（所有版本）
 1. 单击&#x200B;**[!UICONTROL Save Integration]**。
 1. 您现在已成功连接到Commerce Intelligence Essentials帐户。
 1. 如果您是Adobe Commerce Intelligence Pro客户，请联系您的客户成功经理或客户技术顾问来协调后续步骤。
+
+## 相关阅读
+
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

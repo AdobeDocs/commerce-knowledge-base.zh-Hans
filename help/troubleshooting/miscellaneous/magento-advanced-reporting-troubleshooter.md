@@ -4,9 +4,9 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ b.否 — 按照[高级报告要求](https://docs.magento.com/user-guide/reports
 
 +++**是否使用了多个基础货币？**
 
-是否使用了多个基本货币（在订单和配置中）？ 运行此SQL命令以获取当前配置： `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` 。
+是否使用了多个基本货币（在订单和配置中）？ 运行此[!DNL SQL]命令以获取当前配置： `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` 。
 
 a.是 — 如果查询返回了多行，则不能使用“高级报告”，因为我们仅支持一种货币。\
-b.否 — 输出仅显示一种货币。 示例： `USD`。 是否曾经使用过多个基础货币（按订单）？ 运行此SQL命令以获取历史订单数据：\
+b.否 — 输出仅显示一种货币。 示例： `USD`。 是否曾经使用过多个基础货币（按订单）？ 运行此[!DNL SQL]命令以获取历史订单数据：\
 `SELECT DISTINCT base_currency_code FROM sales_order;`。
 **注意：此命令要求进行完整的表扫描，因此对于记录数量多的表，当查询正在执行**以获取历史订单数据时，这可能会对性能产生影响。
 如果曾经使用过多种基础货币，则不能使用高级报告，因为我们只支持一种货币。 如果输出只显示一种货币，请执行[步骤3](#step-3)。
@@ -157,3 +157,7 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 +++
 
 [返回步骤1](#step-1)
+
+## 相关阅读
+
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
