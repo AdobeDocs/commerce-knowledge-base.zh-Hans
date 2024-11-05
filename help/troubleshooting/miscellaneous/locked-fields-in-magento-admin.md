@@ -1,19 +1,19 @@
 ---
-title: Commerce管理员中的锁定字段
+title: Commerce管理员中的已锁定（灰显）字段
 description: 本文为无法修改Commerce管理员中的字段提供了解决方案。
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Commerce管理员中的锁定字段
+# Commerce管理员中的已锁定（灰显）字段
 
-本文为无法修改Commerce管理员中的字段提供了解决方案。
+本文为无法修改Commerce管理员中锁定（灰显）字段的情况提供了解决方案。
 
 ## 受影响的产品和版本
 

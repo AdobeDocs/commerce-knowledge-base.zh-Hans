@@ -2,9 +2,9 @@
 title: 无法更改“app/etc/env.php”中的搜索引擎
 description: 本文解决了一个问题：您尝试在Commerce管理员中更改搜索引擎，但字段被锁定。
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 《Cloud Infrastructure指南》中的CommerceCommerce管理员中的[锁定字段](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)。
+* 《Commerce on Cloud Infrastructure指南》中Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)的[锁定（灰色）字段。

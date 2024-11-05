@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 2212ec66c04445db791c5bd852d7498161de410d
+source-git-commit: 5110233220a6db734be2802b792869759f46b8c0
 workflow-type: tm+mt
-source-wordcount: '9625'
+source-wordcount: '9627'
 ht-degree: 0%
 
 ---
@@ -841,7 +841,7 @@ ht-degree: 0%
       * [robots.txt在云基础架构2.3.x中显示404错误Adobe Commerce](/help/troubleshooting/miscellaneous/robots-txt-gives-404-error-magento-commerce-cloud-2-3-x.md)
       * [受限的管理员访问权限导致性能问题](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Cron任务从其他组锁定任务](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-      * [Commerce管理员中的锁定字段](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
+      * [Commerce管理员中的已锁定（灰显）字段](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
       * [无法使用Commerce管理更改搜索引擎（搜索引擎菜单不可访问）](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
       * [安装xdebug最大函数嵌套级别错误](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [无法保存实体Adobe Commerce后端](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)
