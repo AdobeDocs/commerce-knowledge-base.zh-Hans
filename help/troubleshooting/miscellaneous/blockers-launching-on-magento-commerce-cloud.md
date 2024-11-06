@@ -4,9 +4,9 @@ description: 本文修复了阻止程序在云基础架构上的Adobe Commerce�
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: 3dd44b72bc9f02fe808b70355c4331fc28aa3606
+source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,6 @@ Fastly配置过程在我们的用户指南中的[设置Fastly](https://experienc
 
 推荐&#x200B;**：**&#x200B;请求您为暂存或实时域名共享的SSL证书。
 
-请参阅我们的支持知识库中的此[快速常见问题解答](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)文章中的SSL证书。
 
 ## 3.配置和测试301重定向
 
