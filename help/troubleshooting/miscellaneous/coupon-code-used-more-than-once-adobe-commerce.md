@@ -4,7 +4,7 @@ description: 本文为购物车价格规则优惠券无法正常工作时的问�
 exl-id: 9c81de40-65a3-422d-9053-3c894b863a0a
 feature: Orders
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -62,8 +62,8 @@ Adobe Commerce（所有部署方法） 2.4.3及更高版本
 ...
 ```
 
-有关详细步骤，请参阅我们的开发人员文档中的[管理消息队列>配置](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration)。
+有关详细步骤，请参阅我们的开发人员文档中的[管理消息队列>配置](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
 
 ## 相关阅读
 
-在我们的开发人员文档中，[消息队列概述](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html)。
+在我们的开发人员文档中，[消息队列概述](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。

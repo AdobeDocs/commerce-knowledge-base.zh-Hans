@@ -4,7 +4,7 @@ description: 当您在表单上的任何字段输入不正确的值后难以创�
 exl-id: e6e65ede-8156-4e2b-b369-b18395bb3dbf
 feature: Customer Service
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -57,4 +57,4 @@ ht-degree: 0%
 ## 相关阅读
 
 * [GitHub Adobe Commerce >提交无效的创建帐户表单会禁用提交按钮](https://github.com/magento/magento2/issues/30513)
-* [Adobe Commerce用户指南>快速入门>创建帐户](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [Adobe Commerce用户指南>快速入门>创建帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create)

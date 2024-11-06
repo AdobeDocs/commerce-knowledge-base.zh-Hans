@@ -3,7 +3,7 @@ title: Adobe Commerce软件终止支持常见问题解答
 description: 以下常见问题解答旨在帮助商家、开发人员和合作伙伴了解Adobe Commerce发布的终止支持(EOS)日期对受影响的Adobe Commerce版本的影响。
 exl-id: ec147307-46eb-4a3a-8572-a014b091c58a
 feature: Best Practices, Compliance, Console
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 可在何处找到所有Adobe Commerce版本的软件支持日期？
 
-您可以在[Adobe Commerce软件生命周期政策](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)中找到Adobe Commerce软件生命周期政策和软件支持日期。 我们还在[开发人员文档页面](https://devdocs.magento.com/release/released-versions.html)上发布支持结束(EOS)日期。
+您可以在[Adobe Commerce软件生命周期政策](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)中找到Adobe Commerce软件生命周期政策和软件支持日期。 我们还在[开发人员文档页面](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)上发布支持结束(EOS)日期。
 
 ### 当Adobe终止支持某个Adobe Commerce软件版本时，这意味着什么？
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 迁移到最新版本的Adobe Commerce软件可能需要时间和资源才能正常运行。 您最好在支持结束日期之前尽早进行规划，以帮助确保您有适当的时间和资源，按时在预算内实现您的战略目标。 为了帮助您进行下一次升级，Adobe已发布[2.4升级指南](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf)，其中包括要遵循的最佳实践和技术步骤，以及在执行升级时要使用的工具和资源。
 
-另一个重要的考虑是尽早预留开发人员和合作伙伴资源。 合作伙伴的时间和资源通常在支持日期结束之前提前预定，导致用于协助迁移项目的资源显着减少。 建议您制定为期三年的滚动计划，至少每年讨论一次，并确保为下一年制定计划和预算。 使用[Adobe的发布日历](https://devdocs.magento.com/release/)跟踪发布日期。
+另一个重要的考虑是尽早预留开发人员和合作伙伴资源。 合作伙伴的时间和资源通常在支持日期结束之前提前预定，导致用于协助迁移项目的资源显着减少。 建议您制定为期三年的滚动计划，至少每年讨论一次，并确保为下一年制定计划和预算。 使用[Adobe的发布日历](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)跟踪发布日期。
 
 ### Adobe Commerce支持终止时，我是否可以使用第三方服务提供商提供软件支持？
 
@@ -94,7 +94,7 @@ Adobe Commerce许可证过期后，您需要停止使用Adobe Commerce软件，�
 
 ### 在软件版本的支持结束日期之前打开的支持票证是否会在支持结束日期之后继续处理以供解决？
 
-是，即使软件版本的支持结束日期已过，在软件版本支持结束日期之前打开的支持工单也将继续处理并解决。 但是，解决支持工单可能取决于解决是否依赖于Adobe Commerce控制之外的组件（即PHP、jQuery等） 已过期或支持已终止的客户。 在这些情况下，可以通过指示升级到最新版本来解决支持票证问题。
+是，即使软件版本的支持结束日期已过，在软件版本支持结束日期之前打开的支持工单也将继续处理并解决。 但是，解决支持工单可能取决于解决是否依赖于Adobe Commerce控制范围之外的组件（即PHP、jQuery等），这些组件已过期或达到支持终止状态。 在这些情况下，可以通过指示升级到最新版本来解决支持票证问题。
 
 ### 如果我打开软件版本工单的软件支持即将结束，Adobe是否会优先处理这些工单，以便在支持日期结束前解决它们？
 

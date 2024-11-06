@@ -4,7 +4,7 @@ description: '本文说明如何在收到cURL错误60后检查上次部署分支
 exl-id: 74f1db7e-ee2b-4e27-8fcc-fe462a9e72c3
 feature: Configuration
 role: Developer
-source-git-commit: 6f631ca35b663c386bca9efe6e56db266502c0b1
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -55,7 +55,7 @@ cURL error 60: SSL certificate problem: certificate has expired
 在我们的开发人员文档中：
 
 * [Cloud Manager API： SSLCertificates](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [设置Fastly：设置SSL/TLS证书](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates)
+* [设置Fastly：设置SSL/TLS证书](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 在我们的支持知识库中：
 

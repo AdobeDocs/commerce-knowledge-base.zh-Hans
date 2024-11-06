@@ -4,7 +4,7 @@ description: 本文为产品可自定义选项拖放无法按预期工作的问�
 exl-id: 49b29495-d225-4f34-ac76-b7294a86aea6
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ACSD-46703修补程序修复了产品可自定义选项（拖放）无法按预�
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
 * Adobe Commerce或本地Magento Open Source： Quality Patches Tool指南中的[Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
-* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相关阅读
 

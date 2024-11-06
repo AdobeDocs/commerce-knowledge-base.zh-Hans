@@ -4,9 +4,9 @@ description: 本文提供了针对Adobe Commerce本地产品中cron问题的故�
 exl-id: e69a4fb3-731b-449e-a815-c33cd2faa567
 feature: Configuration
 role: Developer
-source-git-commit: b6a79bcff3d757d40e7070182d8853a37960a782
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 ## 以下是cron问题的症状：
 
 * 您的更新或升级从不运行；它保持在`pending`状态。
-* 即使设置正确，[PHP](https://glossary.magento.com/php)设置`$HTTP_RAW_POST_DATA`也会显示一条错误消息。
+* 即使设置正确，也会显示有关PHP设置`$HTTP_RAW_POST_DATA`的错误消息。
 * cron就绪检查失败。 可能的错误包括不可写路径和未设置cron。 下面是一个示例：
 
   ![upgr-tshoot-no-cron2.png](assets/upgr-tshoot-no-cron2.png)
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 要验证是否已设置crontab，请执行以下步骤：
 
-1. 以[Magento文件Magento所有者](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html)的身份登录或切换到您的系统服务器。
+1. 以[Magento文件Magento所有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)的身份登录或切换到您的系统服务器。
 1. 查看以下文件是否存在：    `bash    ls -al <magento_root>/var/.setup_cronjob_status`。 如果文件存在，则cron过去已成功运行。 如果文件&#x200B;*不存在*，则表示您尚未安装Magento或cron未运行。 无论属于哪种情况，请继续执行下一步。
 1. 获取有关cron的更多详细信息。 作为具有`root`权限的用户，输入以下命令：    `bash    crontab -u <Magento file system owner name> -l`。 例如，在CentOS `bash    crontab -u magento_user -l`上。  如果未为用户设置crontab，则会显示以下消息：    `terminal    no crontab for magento_user`。 您的crontab将告诉您以下信息：
 
@@ -62,17 +62,17 @@ ht-degree: 0%
 
 ### 未设置crontab的解决方案 {#solution-crontab-not-set-up}
 
-要验证您的cron作业是否设置正确，请参阅[设置cron作业](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron)。
+要验证您的cron作业是否设置正确，请参阅[设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 ### 从不正确的PHP二进制文件运行的cron的解决方案 {#solution-cron-running-from-incorrect-php-binary}
 
 如果cron作业使用的PHP二进制文件与Web服务器插件不同，则可能会显示PHP设置错误。 要解决此问题，请为PHP命令行和PHP Web服务器插件设置相同的PHP设置。
 
-有关PHP设置的详细信息，请参阅我们的开发人员文档中的[必需的PHP设置](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)。
+有关PHP设置的详细信息，请参阅我们的开发人员文档中的[必需的PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
 
 ### cron运行有错误的解决方案 {#solution-cron-running-with-errors}
 
-尝试手动运行每个命令，因为该命令可能会显示有用的错误消息。 查看[设置cron作业](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron)。
+尝试手动运行每个命令，因为该命令可能会显示有用的错误消息。 查看[设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 >[!NOTE]
 >

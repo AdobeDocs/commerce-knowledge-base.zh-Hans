@@ -4,7 +4,7 @@ description: '更新时间：2019年2月29日'
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-如果您在云基础架构解决方案上使用Adobe Commerce，您将在[部署日志](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log)中看到此错误消息。 对于Adobe Commerce内部部署，您将在命令行中看到错误。
+如果您在云基础架构解决方案上使用Adobe Commerce，您将在[部署日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)中看到此错误消息。 对于Adobe Commerce内部部署，您将在命令行中看到错误。
 
 ## 原因
 
@@ -70,4 +70,4 @@ ht-degree: 0%
    * 如果Fastly模块包含在magento-cloud-metapackage中：    <pre>编辑器更新magento/magento-cloud-metapackage</pre>
    * 如果Fastly模块是单独安装的(例如，如果您使用的是本地Adobe Commerce，而不是云版本) <pre>编辑器更新fastly/magento2</pre>
 1. 提交并推送更改，如果未自动完成，则触发部署过程。
-1. 在管理员中，[将新VCL上传到Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets)。
+1. 在管理员中，[将新VCL上传到Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。

@@ -3,7 +3,7 @@ title: Adobe Commerce上的管理面板中的双重身份验证常见问题解�
 description: 1. **什么是管理面板上的双重身份验证？ 更改了哪些内容?**双重身份验证(2FA)为验证您的身份提供了额外的安全层，即使有人知道您的密码，也只有您可以访问管理员帐户。 Adobe在2.3.0版的Commerce管理面板中添加了对2FA的支持，以保护管理员帐户免遭未经授权的访问。 在2.4.0中，默认情况下在管理员面板上启用2FA，在通过UI或Web API登录到管理员之前需要配置2FA。 Adobe强烈建议不要禁用2FA模块。
 exl-id: 77b57c11-fcde-4bc6-814e-45fa990cc491
 feature: Admin Workspace, Best Practices
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 1. **为什么2.4.0中默认启用2FA？**&#x200B;通过2FA提供额外的一层身份验证，是一种默认的安全设置，它提供额外的一层身份验证以使管理门户更加安全，减少用于绕过攻击的攻击面，并降低安全事件的潜在风险。
 1. **能否在2.4.0上禁用此2FA设置？**&#x200B;我们强烈建议不要禁用此安全最佳实践和具有双重身份验证的额外保护层。
 1. **哪些版本支持2FA？**&#x200B;在2.3.0中添加了对2FA的支持，但在2.4.0中默认启用它。
-1. **如何在2.3上启用2FA？**&#x200B;有关在Adobe Commerce 2.3上启用2FA的步骤，请参阅我们的开发人员文档中的[安装2FA](https://devdocs.magento.com/guides/v2.3/security/two-factor-authentication.html#install-2fa)。
-1. **无论跨所有的IP或网络如何，是否需要2FA作为管理员？**&#x200B;在2.4.0中，默认情况下启用2FA，无论是否使用IP或网络，均需要使用2FA。 这是我们建议所有客户遵循的安全最佳实践。 有关2FA的其他详细信息可在开发人员文档的[双重身份验证](https://devdocs.magento.com/guides/v2.4/security/two-factor-authentication.html)中在此处找到。
+1. **如何在2.3上启用2FA？**&#x200B;有关在Adobe Commerce 2.3上启用2FA的步骤，请参阅我们的开发人员文档中的[安装2FA](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)。
+1. **无论跨所有的IP或网络如何，是否需要2FA作为管理员？**&#x200B;在2.4.0中，默认情况下启用2FA，无论是否使用IP或网络，均需要使用2FA。 这是我们建议所有客户遵循的安全最佳实践。 有关2FA的其他详细信息可在开发人员文档的[双重身份验证](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)中在此处找到。
 1. **我没有智能手机，如何启用2FA？Admin Panel上的** 2FA支持以下身份验证器：Google Authenticator、Authy、U2F密钥和Duo Security。 不拥有智能手机的管理员用户可以使用U2F密钥，也可以使用Google身份验证器等身份验证器的浏览器扩展。
 1. **您能否在Adobe Commerce中仅为少数用户激活2FA，或者每个用户登录时都需要使用2FA？** Adobe Commerce建议所有管理员用户在登录其管理员帐户时启用2FA。 对于在Adobe Commerce 2.4及更高版本上运行的网站商店，默认情况下会为每个用户启用2FA。
 1. **在“管理面板”上配置2FA时的预期行为是什么？我能否使用配置时收到的电子邮件中的链接，并使用与我已登录并请求2FA配置的浏览器不同的浏览器？**&#x200B;用户应能够在任何浏览器中打开电子邮件链接，无论他们是否已登录。 出于安全原因，他们在此过程中只能打开一个会话，如果他们切换浏览器，则需要再次进行身份验证。 2FA的好处是强制用户使用两种不同的方法来验证他们的身份。 在此配置方案中，访问用户电子邮件只是其中一种方法，这意味着用户仍必须提供另一种方法。 在这个过程中，只有密码作为第二个选项。 因此，用户无法使用电子邮件链接本身进行登录，如果切换浏览器或尚未登录，则会提示用户输入密码，然后才能继续。
-1. **2FA配置是否需要更改ACL设置并授予非管理员用户访问权限，以更改2FA管理员设置以允许个人用户配置其个人2FA？**&#x200B;接口中有两个“双因素身份验证”[ACL](https://devdocs.magento.com/guides/v2.4/ext-best-practices/tutorials/create-access-control-list-rule.html)资源。 一个允许全局配置（**存储** >设置> **配置** > **安全性** > **2FA**），另一个允许用户使用其个人2FA （**系统** > **权限** > **2FA**）。 全局配置是管理员类型的用户配置系统，非管理员用户需要第二种类型的ACL登录并设置他们自己的2FA设置。 允许全局配置的ACL允许拥有配置设置权限的管理员设置全局配置，并且不需要个别用户更改设置。 当用户登录并看到“访问被拒绝”屏幕时，他们可以访问https://``<magento store>``/&lt;admin\_path>/tfa/tfa/requestconfig/以访问个人配置。 这是2.4.1/2.3.6/2.4.0-p1 （安全包1.1.0）中的一个已知问题，将在2.4.2/2.3.7/2.4.1-p1 （安全包1.1.1）中解决。
+1. **2FA配置是否需要更改ACL设置并授予非管理员用户访问权限，以更改2FA管理员设置以允许个人用户配置其个人2FA？**&#x200B;接口中有两个“双因素身份验证”[ACL](https://developer.adobe.com/commerce/php/tutorials/backend/create-access-control-list-rule/)资源。 一个允许全局配置（**存储** >设置> **配置** > **安全性** > **2FA**），另一个允许用户使用其个人2FA （**系统** > **权限** > **2FA**）。 全局配置是管理员类型的用户配置系统，非管理员用户需要第二种类型的ACL登录并设置他们自己的2FA设置。 允许全局配置的ACL允许拥有配置设置权限的管理员设置全局配置，并且不需要个别用户更改设置。 当用户登录并看到“访问被拒绝”屏幕时，他们可以访问https://``<magento store>``/&lt;admin\_path>/tfa/tfa/requestconfig/以访问个人配置。 这是2.4.1/2.3.6/2.4.0-p1 （安全包1.1.0）中的一个已知问题，将在2.4.2/2.3.7/2.4.1-p1 （安全包1.1.1）中解决。

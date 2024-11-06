@@ -3,7 +3,7 @@ title: 对于云基础架构上的Adobe Commerce上的所有页面，将HTTP重�
 description: 在Commerce管理员中激活Fastly的**强制TLS**功能，以便为云基础架构存储上的Adobe Commerce的所有页面启用全局HTTP到HTTPS重定向。
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 将&#x200B;**在店面上使用安全URL**&#x200B;和&#x200B;**在管理员上使用安全URL**&#x200B;设置设置为&#x200B;**是**。    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. 单击右上角的&#x200B;**保存配置**&#x200B;以应用更改。
 
-用户指南中的&#x200B;**相关文档：**   [存储URL](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html)。
+用户指南中的&#x200B;**相关文档：**   [存储URL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls)。
 
 ### 步骤2：启用强制TLS {#step-2-enable-force-tls}
 

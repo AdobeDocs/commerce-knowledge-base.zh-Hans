@@ -4,7 +4,7 @@ description: 本文为页面缓存预热并且存在停滞部署或站点关闭�
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
 feature: Cache, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 解决方案
 
-限制缓存预热期间的并发连接数。 这需要添加`WARM_UP_CONCURRENCY`部署后变量以指定缓存预热脚本可同时发送的预热请求数。 设置此选项有助于管理Adobe Commerce云基础架构的负载。 有关步骤，请参阅我们的开发人员文档中的[Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency)。
+限制缓存预热期间的并发连接数。 这需要添加`WARM_UP_CONCURRENCY`部署后变量以指定缓存预热脚本可同时发送的预热请求数。 设置此选项有助于管理Adobe Commerce云基础架构的负载。 有关步骤，请参阅我们的开发人员文档中的[部署后变量> WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency)。
 
 ## 相关阅读
 
-我们用户指南中的[全页缓存](https://docs.magento.com/user-guide/system/cache-full-page.html)
+我们用户指南中的[全页缓存](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching)

@@ -4,7 +4,7 @@ description: 本文讨论了一些MySQL常见问题（查询缓慢、流程耗�
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -80,5 +80,5 @@ ht-degree: 0%
 
 * 在dev.mysql.com中[MySQL显示Processlist语法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)。
 * dev.mysql.com中的[MySQL终止语法](https://dev.mysql.com/doc/refman/8.0/en/kill.html)。
-* 在开发人员文档中[安全性、性能和数据处理](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html)。
-* 在开发人员文档中[MySQL帮助](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html)。
+* 在开发人员文档中[安全性、性能和数据处理](https://developer.adobe.com/commerce/php/best-practices/extensions/security/)。
+* 在开发人员文档中[MySQL帮助](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。

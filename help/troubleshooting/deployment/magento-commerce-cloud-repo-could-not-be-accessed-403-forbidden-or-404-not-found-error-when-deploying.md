@@ -4,7 +4,7 @@ description: '本文讨论如何解决云基础架构上的Adobe Commerce部署�
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ### 2.在env：COMPOSER\_AUTH变量中添加键值，并检查是否在auth.json中指定了相同的键
 
-请参阅我们的开发人员文档中的[准备现有系统](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json)和[添加身份验证密钥](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys)中的说明和相关信息。
+请参阅我们的开发人员文档中的[准备现有系统](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)和[添加身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)中的说明和相关信息。
 
 ### 3.更新或删除auth.json
 

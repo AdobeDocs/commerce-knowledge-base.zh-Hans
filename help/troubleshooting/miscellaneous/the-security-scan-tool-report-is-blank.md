@@ -4,7 +4,7 @@ description: 本文修复了安全扫描工具显示空白页面而非实际报�
 exl-id: e5f7f8c6-2dd3-44e3-8d19-f1f38d06dd6c
 feature: Compliance, Security
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 按照用户指南中的[安全扫描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html)中的说明，配置安全扫描工具以检查您的网站。
+1. 按照用户指南中的[安全扫描](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)中的说明，配置安全扫描工具以检查您的网站。
 1. 在“操作”列中，选择&#x200B;**运行扫描**。
 
 <u>预期的结果</u>：
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[上线并启动](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan)。
-* 用户指南中的[安全扫描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html)。
+* 在我们的开发人员文档中[上线并启动](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview)。
+* 用户指南中的[安全扫描](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)。

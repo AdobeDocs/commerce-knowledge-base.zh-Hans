@@ -4,7 +4,7 @@ description: 本文为使用商店积分退款时用户收到错误订单状态�
 exl-id: 8464df22-0223-4ded-a15f-ce06eacdf77c
 feature: Orders, Returns
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ACSD-46520修补程序解决了使用商店积分退款时，用户得到的订�
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
 * Adobe Commerce或Quality Patches Tool指南中的[!DNL Magento Open Source]内部部署： [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
-* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相关阅读
 

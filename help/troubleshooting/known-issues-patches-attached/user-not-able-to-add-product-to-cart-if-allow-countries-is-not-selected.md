@@ -4,7 +4,7 @@ description: 本文为带有PHP 8.1的已知Adobe Commerce 2.4.4问题提供了�
 exl-id: d05d1956-de23-496c-9234-c461a3cfdf36
 feature: Orders, Products, Shopping Cart
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -65,4 +65,4 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## 有用的链接
 
-在开发人员文档中，[将自定义修补程序应用到云基础架构上的Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)。
+在开发人员文档中，[将自定义修补程序应用到云基础架构上的Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。

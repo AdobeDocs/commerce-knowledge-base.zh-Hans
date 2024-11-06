@@ -4,7 +4,7 @@ description: 本文介绍了一个已知的Adobe Commerce内部部署2.4.2问题
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Commerce与Nginx一起安装。
 <u>重现步骤</u>：
 
 1. 将Adobe Commerce配置为使用AWS `s3`作为媒体存储。
-1. 使用Adobe Commerce安装目录中提供的`nginx.conf.sample`配置文件和Nginx虚拟主机配置Nginx。 请参阅我们的开发人员文档中的[配置Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)。
+1. 使用Adobe Commerce安装目录中提供的`nginx.conf.sample`配置文件和Nginx虚拟主机配置Nginx。 请参阅我们的开发人员文档中的[配置Nginx](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)。
 1. 创建一个具有一个产品映像的简单产品。
 1. Nginx在`nginx.conf.sample`中调整图像大小的配置未注释，类似于以下内容：
 

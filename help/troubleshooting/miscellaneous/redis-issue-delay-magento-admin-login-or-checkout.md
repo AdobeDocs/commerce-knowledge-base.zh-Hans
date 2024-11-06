@@ -4,7 +4,7 @@ description: 修复了登录到Commerce管理员或打开签出页面导致滞�
 exl-id: a91a7a51-7cc4-4910-a9de-3a212788663f
 feature: Admin Workspace, Checkout, Orders, Services
 role: Developer
-source-git-commit: aa8c32e3524d669daea7bcf8bc63ed9f8ed16ffa
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -80,6 +80,6 @@ Adobe Commerce 2.1.14和2.2.2中已修复此问题。
 
 ## 云基础架构2.2.0上的Adobe Commerce：使用ECE-Tools v2002.0.8或更高版本 {#h_64593789291526919876198}
 
-版本为2002.0.3 - 2002.0.7的[ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html)部署脚本包自动应用解决方法](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)，将`disable_locking`设置为`1`。 [这将禁用Adobe Commerce 2.2.0的会话锁定机制，在该机制上不会出现初始问题。
+版本为2002.0.3 - 2002.0.7的[ECE-Tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)部署脚本包自动应用解决方法](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)，将`disable_locking`设置为`1`。 [这将禁用Adobe Commerce 2.2.0的会话锁定机制，在该机制上不会出现初始问题。
 
 如果您在云基础架构2.2.0上运行Adobe Commerce，请将ECE-Tools升级到v2002.0.8或更高版本。 您还可以考虑将您在云基础架构上的Adobe Commerce升级到2.2.2或更高版本。

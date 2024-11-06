@@ -4,7 +4,7 @@ description: 文章提供了正确配置“robots.txt”时的解决方案，例
 exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 ## 解决方案
 
-启用按搜索引擎编制索引。 请参阅我们的开发人员文档中的[按搜索引擎配置索引](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine)。
+启用按搜索引擎编制索引。 请参阅我们的开发人员文档中的[按搜索引擎配置索引](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)。
 
 ## 相关阅读
 
-* 在开发人员文档中[添加站点地图和搜索引擎机器人](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)。
+* 在开发人员文档中[添加站点地图和搜索引擎机器人](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。

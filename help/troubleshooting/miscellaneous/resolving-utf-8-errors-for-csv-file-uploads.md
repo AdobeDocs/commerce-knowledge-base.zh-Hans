@@ -4,7 +4,7 @@ description: 本文修复了您收到错误消息“CSV文件必须使用UTF-8�
 exl-id: 88d8e0b8-152e-4a6d-bc44-3b285e0eb0c3
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -23,4 +23,4 @@ ht-degree: 0%
 1. 单击&#x200B; &#x200B;**文件** > **另存为**&#x200B; &#x200B;并选择&#x200B; &#x200B;**逗号分隔值(.csv)**&#x200B;格式以保存文件。
 1. 以高级文本打开CSV文件。
 1. 在高级文本中，导航到&#x200B;**文件** > **&#x200B;使用编码保存** > **UTF-8\*{&#x200B;5}。**&#x200B;这将以UTF-8编码保存CSV文件。    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [将数据](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/using-file-uploader.html)(在我们的Magento指南中)上载到BI中的新表。
+1. [将数据](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader)(在我们的Magento指南中)上载到BI中的新表。

@@ -4,7 +4,7 @@ description: 本文为Commerce管理员登录问题提供了可能的解决方�
 exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 要延长管理会话的生命周期，请执行以下步骤：
 
 1. 创建数据库备份。
-1. 使用数据库工具（如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
+1. 使用数据库工具（如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ ht-degree: 0%
 要检查Cookie设置值并清除它们，请执行以下步骤：
 
 1. 创建数据库备份。
-1. 使用数据库工具（如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
+1. 使用数据库工具（如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");

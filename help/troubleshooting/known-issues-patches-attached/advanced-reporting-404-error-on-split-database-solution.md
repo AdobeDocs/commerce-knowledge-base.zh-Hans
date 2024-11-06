@@ -1,10 +1,10 @@
 ---
 title: 拆分数据库解决方案的高级报告404错误
-description: 本文为具有[拆分数据库解决方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)的Adobe Commerce 2.3.x用户提供了一个修补程序，该程序在尝试使用高级报表时遇到404错误。
+description: 本文为具有[拆分数据库解决方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)的Adobe Commerce 2.3.x用户提供了一个修补程序，该程序在尝试使用高级报表时遇到404错误。
 exl-id: b81d4ada-5f38-4882-bc5b-ab4ccd63fc5f
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 拆分数据库解决方案的高级报告404错误
 
-本文为具有[拆分数据库解决方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)的Adobe Commerce 2.3.x用户提供了一个修补程序，该解决方案在尝试使用高级报表时遇到404错误。
+本文为具有[拆分数据库解决方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)的Adobe Commerce 2.3.x用户提供了一个修补程序，该解决方案在尝试使用高级报表时遇到404错误。
 
 ## 受影响的产品和版本
 

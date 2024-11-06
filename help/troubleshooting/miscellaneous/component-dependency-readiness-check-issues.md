@@ -4,7 +4,7 @@ description: 本文提供了组件依赖关系冲突的解决方案。
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -51,7 +51,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-请确保按照开发人员文档中的[所有权和权限概述](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html)一文中所述设置文件系统权限。
+请确保按照开发人员文档中的[所有权和权限概述](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文中所述设置文件系统权限。
 
 ## 组件依赖关系检查状态从不更改 {#trouble-depend-state}
 

@@ -4,7 +4,7 @@ description: 本文解释了为什么支付服务中的报表数据可能会延�
 exl-id: 2f3249d1-be12-45bc-aa73-bef9766509ae
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 前提条件：使用“付款服务”功能下达订单。
 
-1. 在[管理员](https://docs.magento.com/user-guide/stores/admin.html)中，订单已开票[](https://docs.magento.com/user-guide/sales/invoice-create.html) （或[已取消](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order)或通过贷项通知单](https://docs.magento.com/user-guide/sales/credit-memos.html)退款[）。
+1. 在[管理员](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin)中，订单已开票[](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) （或[已取消](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)或通过贷项通知单](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)退款[）。
 1. 定位至“订单付款状态”报表，以查看有关该订单的信息。
 1. 状态显示为`AUTHORIZED`，这是开票或其他订单操作之前的订单状态。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->这只是一个常见用例。 当发生[订单操作](https://docs.magento.com/user-guide/sales/order-actions.html)并且数据在适用的报表中不可立即使用时，可能会出现其他用例。
+>这只是一个常见用例。 当发生[订单操作](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions)并且数据在适用的报表中不可立即使用时，可能会出现其他用例。
 
 <u>预期的结果</u>：
 在对订单执行操作后，将立即填充报表数据。

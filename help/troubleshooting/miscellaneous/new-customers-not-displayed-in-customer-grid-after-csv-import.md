@@ -4,7 +4,7 @@ description: 修复了从“.csv”文件导入后，在**Customers** &amp；gt�
 exl-id: e4d9d60a-a0d1-4602-924e-a338e56de61d
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -46,5 +46,5 @@ ht-degree: 0%
 
 链接到我们的开发人员文档中的相关主题：
 
-* [索引概述](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [管理索引器](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
+* [索引概述](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [管理索引器](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)

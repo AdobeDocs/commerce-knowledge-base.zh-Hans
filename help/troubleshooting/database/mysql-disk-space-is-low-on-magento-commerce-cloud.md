@@ -4,7 +4,7 @@ description: 本文为您在云基础架构上的Adobe Commerce上遇到空间�
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
@@ -78,7 +78,7 @@ df -h
 
 为了使[!DNL MySQL]重回正轨（或防止其卡住），您可以立即执行一个步骤：通过刷新大表格释放一些空间。
 
-但长期解决方案需要分配更多空间并遵循[数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)，包括启用[订单/发票/装运存档](https://docs.magento.com/user-guide/sales/order-archive.html)功能。
+但长期解决方案需要分配更多空间并遵循[数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)，包括启用[订单/发票/装运存档](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 下面是有关快速解决方案和长期解决方案的详细信息。
 
@@ -124,7 +124,7 @@ Size Used Avail Use% Mounted on·
 
 >[!WARNING]
 >
->我们强烈建议在执行任何操作之前创建数据库备份，并在高站点负载期间避免执行这些操作。 请参阅我们的开发人员文档中的[转储数据库](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump)。
+>我们强烈建议在执行任何操作之前创建数据库备份，并在高站点负载期间避免执行这些操作。 请参阅我们的开发人员文档中的[转储数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
 
 检查是否存在大型表格，并考虑是否可以刷新其中的任何表格。 在主（源）节点上执行此操作。
 
@@ -132,7 +132,7 @@ Size Used Avail Use% Mounted on·
 
 如果没有大型报表表，请考虑刷新`_index`表，只是为了使Adobe Commerce应用程序返回正轨。 `index_price`个表将是最佳候选。 例如，`catalog_category_product_index_storeX`表，其中X的值可以为“1”到最大存储计数。 请注意，您需要重新索引以恢复这些表中的数据，在大目录的情况下，此重新索引可能需要花费大量时间。
 
-刷新后，请等待wsrep同步完成。 您现在可以创建备份，并采取更多重要步骤来增加空间，例如分配/购买更多空间，以及启用[订单/发票/装运存档](https://docs.magento.com/user-guide/sales/order-archive.html)功能。
+刷新后，请等待wsrep同步完成。 您现在可以创建备份，并采取更多重要步骤来增加空间，例如分配/购买更多空间，以及启用[订单/发票/装运存档](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 ### 检查二进制日志记录设置
 

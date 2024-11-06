@@ -4,7 +4,7 @@ description: 本文修复了使用Authorize.Net Direct Post下订单时出现的
 exl-id: 764a550a-3373-483c-843d-d8c848dcee35
 feature: Compliance, Console, Customer Service, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # 使用Authorize.net Sandbox帐户下订单时出错（服务器上出现错误）
 
-本文修复了使用Authorize.Net Direct Post下订单时出现的“*服务器*&#x200B;上发生错误”错误消息。
+本文修复了使用Authorize.Net直邮下订单时出现的“*服务器*”错误信息。
 
 >[!WARNING]
 >
 >**弃用通知**
 >
->由于支付服务指令[PSD2](https://docs.magento.com/user-guide/v2.3/stores/compliance-payment-services-directive.html)和许多API的不断演变，Authorize.Net有过时和将来不再符合安全性的风险。 因此，现已弃用，我们建议您在Adobe Commerce配置中禁用它，并过渡到相应的[Commerce Marketplace扩展](https://marketplace.magento.com/extensions.html)。
+>由于支付服务指令[PSD2](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive)和许多API的不断演变，Authorize.Net有过时和将来不再符合安全性的风险。 因此，现已弃用，我们建议您在Adobe Commerce配置中禁用它，并过渡到相应的[Commerce Marketplace扩展](https://marketplace.magento.com/extensions.html)。
 >
 >**此集成已从Adobe Commerce 2.4.0版本中删除，已在2.3的当前版本中弃用。**
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 问题
 
-使用[Authorize.Net Direct Post](https://docs.magento.com/user-guide/v2.3/payment/authorize-net-direct-post.html)沙盒帐户下订单会导致出现错误消息：
+使用[Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server)沙盒帐户下订单会导致出现错误消息：
 
 >>
 “服务器上发生错误。 请尝试重新下单”
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 解决方案1：禁用测试模式
 
-1. 转到&#x200B;**商店** > **配置** > **销售** > **付款方式** > **其他付款方式** > **Authorize.net直接Post**。
+1. 前往&#x200B;**商店** > **配置** > **销售** > **付款方式** > **其他付款方式** > **Authorize.net直邮**。
 1. 将&#x200B;**测试模式**&#x200B;设置为“否”（取消选中&#x200B;**使用系统值**，然后在菜单中选择“否”）。
 1. 单击&#x200B;**保存配置**。
 

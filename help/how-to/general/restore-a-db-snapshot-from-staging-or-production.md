@@ -2,7 +2,7 @@
 title: 从暂存或生产环境恢复数据库快照
 description: 本文说明如何在云基础架构上从Adobe Commerce上的暂存或生产环境恢复数据库快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: b99d78845128ca3d995cbbb5df0799449ca954e3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
    ```
 
 1. 将数据库[!DNL dump file]（例如： [!DNL Production]的`<cluster ID>.sql.gz`或[!DNL Staging]的`<cluster ID_stg>.sql.gz`）复制到本地计算机。
-1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn)。
+1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn)。
 1. 连接到数据库。
 
    ```sql
@@ -152,5 +152,5 @@ ht-degree: 0%
 
 在我们的开发人员文档中：
 
-* [导入代码：导入数据库](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html#cloud-import-db)
-* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump)
+* [导入代码：导入数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)

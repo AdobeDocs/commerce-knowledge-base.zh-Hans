@@ -4,7 +4,7 @@ description: 本文提供了在管理客户的购物车时，Commerce管理员�
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 feature: Orders, Shopping Cart
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Commerce不会将您的选择添加到我的购物车。
 
 ## 相关阅读
 
-* [MerchDocs&#39;管理用户指南中的购物车](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html)。
+* [MerchDocs&#39;管理用户指南中的购物车](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage)。
 * [Adobe Commerce 2.4.0已知问题：原始消息数据显示在我们的支持知识库中的店面](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)上。
 * [Adobe Commerce 2.4.0已知问题：在我们的支持知识库中，导出税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)。
 * [Adobe Commerce 2.4.0已知问题：Braintree付款方法未出现在我们的支持知识库的“多个地址”结帐中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)。

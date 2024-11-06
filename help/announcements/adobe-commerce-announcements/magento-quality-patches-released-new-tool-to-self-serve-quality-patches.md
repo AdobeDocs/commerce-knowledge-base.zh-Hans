@@ -4,7 +4,7 @@ description: Adobe已发布质量修补程序工具以供正式发布，该工�
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -29,5 +29,5 @@ Adobe已发布质量修补程序工具以供正式发布，该工具允许应用
 
 有关详细信息，请参阅我们的开发人员文档：
 
-* Quality Patches Tool中提供了[个修补程序](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
-* [质量修补工具发行说明](https://devdocs.magento.com/quality-patches/release-notes.html)
+* Quality Patches Tool中提供了[个修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [质量修补工具发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)

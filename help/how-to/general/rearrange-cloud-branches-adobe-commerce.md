@@ -3,7 +3,7 @@ title: 在Adobe Commerce上重新排列云分支
 description: 本文提供了在Adobe Commerce上重新排列云分支的步骤（如果这些分支未按照正确的层次结构组织）。 如果没有将分支组织在正确的层次结构中，则无法合并到正确的父分支 — 它将转到现有的父分支。
 exl-id: 4fc0de96-da66-4634-a38a-6a1536855f8f
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 1. 为需要移动的分支运行以下命令：
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-注意：创建新分支时，可以指定父分支。 有关步骤，请参阅我们的开发人员文档中的[创建分支快速入门](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)。
+注意：创建新分支时，可以指定父分支。 有关步骤，请参阅我们的开发人员文档中的[创建分支快速入门](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)。
 
 您可以使用`branch <environment-name> <parent-environment-ID>` magento-cloud环境命令创建新的环境分支。
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-在我们的开发人员文档中，[使用 [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html)管理分支。
+在我们的开发人员文档中，[使用 [!DNL CLI]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)管理分支。

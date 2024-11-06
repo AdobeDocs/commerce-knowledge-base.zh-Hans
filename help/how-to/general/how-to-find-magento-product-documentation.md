@@ -3,7 +3,7 @@ title: 如何查找Adobe Commerce产品文档
 description: Adobe Commerce支持知识库提供了由Adobe Commerce支持团队提供的用于修复和避免已知Adobe Commerce产品问题的故障排除解决方案。
 exl-id: 03c5ec4a-ca1a-4c8e-b896-a13e08229531
 feature: B2B, Commerce Intelligence
-source-git-commit: 9491279d147eac9ed36ad236c227b08e7c6e0211
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Commerce支持知识库提供了由Adobe Commerce支持团队提供的用�
 <td>[!DNL Order Management System (OMS)] 适用于Adobe Commerce的</td>
 <td>
 <p>商家（最终用户）和开发人员（技术）文档：</p>
-<p><a href="https://omsdocs.magento.com/">https://omsdocs.magento.com/</a></p>
+<p><a href="https://commerce-docs.github.io/oms-documentation-archive/">https://commerce-docs.github.io/oms-documentation-archive/</a></p>
 </td>
 </tr>
 <tr>

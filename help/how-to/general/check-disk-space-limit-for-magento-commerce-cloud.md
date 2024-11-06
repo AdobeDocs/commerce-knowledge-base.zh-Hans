@@ -3,7 +3,7 @@ title: 检查云基础架构上Adobe Commerce的磁盘空间限制
 description: '要检查在云基础架构环境中每个Adobe Commerce有多少空间，请执行以下操作：'
 exl-id: 0dd613e4-161f-403e-95a1-d228303693d3
 feature: Cloud
-source-git-commit: fe258ac6eaa8e0825309cfa1ee5e101a9cbacaa3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -21,4 +21,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-在我们的开发人员文档中[管理磁盘空间](https://devdocs.magento.com/cloud/project/manage-disk-space.html)。
+在我们的开发人员文档中[管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)。

@@ -4,7 +4,7 @@ description: 本文列出了在查看Adobe Commerce日志时可以找到的一�
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 `max_execution_time = 120`
 
-请参阅[自定义php.ini设置](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)一文。
+请参阅[自定义php.ini设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)一文。
 
 ## 示例
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-自定义您的`php.ini`设置。 请参阅此[自定义php.ini设置](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)文章。
+自定义您的`php.ini`设置。 请参阅此[自定义php.ini设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
 
 ## 示例
 
@@ -65,9 +65,9 @@ MySQL环境的磁盘空间不足。 为MySQL环境提供更多磁盘空间。
 
 在我们的开发人员文档中：
 
-* [PHP设置错误](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
-* [必需的PHP设置](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
-* [Redis验证](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify)
-* [配置Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
-* [PHP内存限制错误](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html#trouble-php-memory)
-* [常见问题的解决方案 — 内存限制](https://devdocs.magento.com/guides/v2.3/test/unit/unit_test_execution_cli.html#solutions-to-common-problems)
+* [PHP设置错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [必需的PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis验证](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [配置Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP内存限制错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [常见问题的解决方案 — 内存限制](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

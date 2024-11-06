@@ -3,7 +3,7 @@ title: 更改New Relic on Cloud的帐户所有者
 description: 对于您的Adobe Commerce on cloud基础架构项目，您可以在New Relic UI页面上更改New Relic帐户所有者。 有关详细步骤，请参阅New Relic文档中的[更改帐户所有者](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner)。
 exl-id: fbb778d5-7e5d-4cd9-849a-4071ca9e4bea
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在开发人员文档中[New Relic服务](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html)。
+* 在开发人员文档中[New Relic服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。

@@ -4,7 +4,7 @@ description: 本文为无法修改Commerce管理员中的字段提供了解决�
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
-source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -52,6 +52,6 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [导出开发人员文档中的配置](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings)。
-* 在我们的开发人员文档中[设置配置值](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set)。
+* [导出开发人员文档中的配置](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)。
+* 在我们的开发人员文档中[设置配置值](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)。
 * 云基础架构上的[Adobe Commerce：通过我们的支持知识库中的配置管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)，减少部署停机时间。

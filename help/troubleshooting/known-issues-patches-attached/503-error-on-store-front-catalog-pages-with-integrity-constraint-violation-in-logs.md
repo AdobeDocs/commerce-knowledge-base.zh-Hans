@@ -4,7 +4,7 @@ description: 本文为云基础架构2.2.0中已知的Adobe Commerce提供了修
 exl-id: ad363744-756a-48b9-ae11-58642e0ca6a4
 feature: Catalog Management, Logs
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文提供了修补程序作为解决方法，但该问题已在Adobe Commerce on cloud infrastructure v2.3.3版本中永久修复，建议您升级到v2.3.3。按照开发人员文档中的[升级Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html)中的步骤操作。
+>本文提供了修补程序作为解决方法，但该问题已在Adobe Commerce on cloud infrastructure v2.3.3版本中永久修复，建议您升级到v2.3.3。按照开发人员文档中的[升级Adobe Commerce版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)中的步骤操作。
 
 本文为云基础架构2.2.0上与存储前端目录页相关的已知Adobe Commerce问题提供了一个修补程序，该问题在日志中带有类似于以下内容的错误消息： *完整性约束违规： 1062键“PRIMARY”的重复条目“%entry%”，查询为： INSERT INTO \&#39;search\_tmp\_%number%*。
 
@@ -78,6 +78,6 @@ curl -X DELETE 127.0.0.1:9200/magento2_product_8_v332
 
 * 在我们的支持知识库中，[Adobe Commerce在云基础架构上的日志文件位置入门计划架构](/help/how-to/general/log-locations-directories-for-starter-plan.md)。
 * 在我们的支持知识库中，[Adobe Commerce在云基础架构上的日志文件位置Pro规划体系结构](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)。
-* 在开发人员文档中，为Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)添加[日志文件位置。
+* 在开发人员文档中，为Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)添加[日志文件位置。
 
 ## 附加文件

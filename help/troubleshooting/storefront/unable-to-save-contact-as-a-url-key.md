@@ -1,10 +1,10 @@
 ---
 title: 无法将*contact*另存为URL键
-description: 当您无法将*contact*另存为产品或CMS页面的URL键（例如“/contact”）时，本文提供了此问题的解决方法。 当您尝试保存URL键时，您会收到一个错误，指示URL键是重复的URL。
+description: 当您无法将*contact*另存为产品或CMS页面的URL密钥（例如“/contact”）时，本文提供了此问题的解决方法。 当您尝试保存URL键时，您会收到一个错误，指示URL键是重复的URL。
 exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
 feature: CMS, Marketing Tools, Storefront
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Commerce（所有部署方法） 2.4.x
 
 <u>重现步骤</u>：
 
-创建一个CMS页面，并将&#x200B;*contact*&#x200B;作为URL键。
+创建一个CMS页面，并将&#x200B;*contact*&#x200B;用作URL键。
 
 <u>预期的结果</u>：
 
@@ -63,5 +63,5 @@ Adobe Commerce（所有部署方法） 2.4.x
 
 ## 相关阅读
 
-* 用户指南中的[URL重写](https://docs.magento.com/user-guide/marketing/url-rewrite.html)。
-* 我们用户指南中的[SEO最佳实践](https://docs.magento.com/user-guide/marketing/seo-best-practices.html)。
+* 用户指南中的[URL重写](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite)。
+* 我们用户指南中的[SEO最佳实践](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview)。

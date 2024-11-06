@@ -4,7 +4,7 @@ description: 应用ACSD-48262修补程序以修复将[!UICONTROL Allow All Produ
 exl-id: 327cad03-441d-4adb-8a10-802f06d3fcd1
 feature: Admin Workspace, Cache, Categories, Orders, Products, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ACSD-48262修补程序修复了将[!UICONTROL Allow All Products Per Page]设置
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
 * Adobe Commerce或Magento Open Source内部部署： [!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool] >使用情况](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
-* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 
 ## 相关阅读

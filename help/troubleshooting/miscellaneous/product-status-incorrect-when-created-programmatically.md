@@ -4,7 +4,7 @@ description: 本文修复了当产品状态为禁用且产品未显示在商店�
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 产品状态不正确的解决方案
 
-为`Magento\Framework\Authorization\PolicyInterface`设置动态DI首选项，如开发人员文档中的[ObjectManager>程序化产品更新](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates)主题中所述。
+为`Magento\Framework\Authorization\PolicyInterface`设置动态DI首选项，如开发人员文档中的[ObjectManager>程序化产品更新](https://developer.adobe.com/commerce/php/development/components/object-manager/)主题中所述。
 
 ## 相关阅读
 

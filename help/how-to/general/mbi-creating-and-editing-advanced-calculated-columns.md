@@ -1,9 +1,9 @@
 ---
 title: 'MBI：创建和编辑高级计算列'
-description: “[管理员用户](https://docs.magento.com/mbi/administrator/user-management/user-management.html)能够在Data Warehouse管理器中创建和编辑某些计算列。 利用这些计算列，您可以设置要查找的报表，以回答关键业务问题。”
+description: “[管理员用户](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management)能够在Data Warehouse管理器中创建和编辑某些计算列。 利用这些计算列，您可以设置要查找的报表，以回答关键业务问题。”
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # MBI：创建和编辑高级计算列
 
-[管理员用户](https://docs.magento.com/mbi/administrator/user-management/user-management.html)可以在Data Warehouse管理器中创建和编辑某些计算列。 利用这些计算列，可设置您要查找的报表以回答关键业务问题。
+[管理员用户](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management)可以在Data Warehouse管理器中创建和编辑某些计算列。 利用这些计算列，可设置您要查找的报表以回答关键业务问题。
 
 有关您可以在Data Warehouse管理器中创建的计算列的列表以及确保正确设置这些列的指导，请参阅我们的用户指南中的以下文章：
 
-* [正在创建计算列](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
-* [计算列类型](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/calc-column-types.html)
-* [了解和评估表关系](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
-* [为计算列创建路径](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
+* [正在创建计算列](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/creating-calculated-columns)
+* [计算列类型](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/calc-column-types)
+* [了解和评估表关系](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/table-relationships)
+* [为计算列创建路径](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/create-paths-calc-columns)
 
 ## 我仍然需要帮助！
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [MBI用户指南](https://docs.magento.com/mbi)
+* [MBI用户指南](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)
 * [MBI：数据差异](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
-* [MBI：数据分析师](https://docs.magento.com/mbi/data-analyst.html)
-* [MBI：正在获取有关MagentoBI的帮助](https://docs.magento.com/mbi/getting-started/support.html)
+* [MBI：数据分析师](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/data-analyst)
+* [MBI：正在获取有关MagentoBI的帮助](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/start/sign-in)

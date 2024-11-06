@@ -1,10 +1,10 @@
 ---
 title: Adobe Commerce 2.3.5中的产品比较已知问题
-description: 本文提供了有关如何避免在Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中出现的已知[产品比较](https://docs.magento.com/user-guide/marketing/product-compare.html)问题的建议。
+description: 本文提供了有关如何避免在Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中出现的已知[产品比较](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare)问题的建议。
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
-source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.5中的产品比较已知问题
 
-本文提供了有关如何避免Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中的已知[产品比较](https://docs.magento.com/user-guide/marketing/product-compare.html)问题的建议。
+本文提供了有关如何避免Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中的已知[产品比较](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare)问题的建议。
 
 ## 受影响的产品和版本
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->产品属性设置为使用&#x200B;**Storefront上的可比较项**&#x200B;配置设置进行比较。 有关详细信息，请参阅用户指南中的[创建产品属性](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties)。
+>产品属性设置为使用&#x200B;**Storefront上的可比较项**&#x200B;配置设置进行比较。 有关详细信息，请参阅用户指南中的[创建产品属性](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties)。
 
 Adobe Commerce 2.3.6中将会提供相应的修复，该版本计划于2020年第4季度发布。
 
@@ -50,4 +50,4 @@ Adobe Commerce 2.3.6中将会提供相应的修复，该版本计划于2020年�
 <p title="Adobe Commerce 2.3.5-p1中有关Amazon Pay签出问题的修补程序"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Adobe Commerce 2.3.5-p1中有关Amazon Pay签出问题的修补程序</a></p>
 </li>
 </ul>
-</li><li>在开发人员文档中<a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5已知问题</a></li></ul>
+</li><li>在开发人员文档中<a href="https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5已知问题</a></li></ul>

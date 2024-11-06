@@ -3,7 +3,7 @@ title: 已配置Elasticsearch5，但搜索页面未加载，并出现“Fielddat
 description: '本主题介绍如何修复Elasticsearch5的问题，该页面不加载搜索页面，并且会引发与以下内容类似的异常：'
 exl-id: f5fa8144-4e7c-45ce-89d0-a8367e91d6db
 feature: Cache
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -56,7 +56,7 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 要解决此问题，您需要将`is_filterable`（即用于分层导航）和`filterable_in_search`（即用于搜索结果分层导航）设置为“0”（不使用）。 为此，请执行以下步骤：
 
 1. 创建数据库备份。
-1. 使用数据库工具（如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
+1. 使用数据库工具（如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

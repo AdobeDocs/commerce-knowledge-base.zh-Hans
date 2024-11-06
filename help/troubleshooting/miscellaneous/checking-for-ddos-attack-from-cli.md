@@ -4,7 +4,7 @@ description: 本文介绍了如何尝试从服务器的命令行界面(CLI)检�
 exl-id: dfdef289-cf51-42d7-b3fb-d4d2d3760951
 feature: Observability
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 0%
@@ -35,8 +35,8 @@ ht-degree: 0%
 ## 解决方案步骤
 
 1. 检查Adobe Commerce日志，查看是否发生了DDoS攻击以外的其他攻击。 有关更多信息，请参阅我们的开发人员文档中的以下文章：
-   * [Adobe Commerce和Magento Open Source日志位置](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
-   * 云基础架构上的[Adobe Commerce日志位置](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
+   * [Adobe Commerce和Magento Open Source日志位置](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/enable-logging)
+   * 云基础架构上的[Adobe Commerce日志位置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)
 1. 使用`netstat`命令开始使用CLI检查您当前所有的Internet连接： `netstat -na`。 这会显示与服务器的所有活动已建立连接。 在这里，您可能会注意到来自同一IP地址的连接过多。
 1. 要进一步将已建立的连接结果缩小到仅连接端口80（网站的http端口）的连接，以便从一个IP地址或IP地址组对过多连接进行排序和识别，请使用以下命令： `netstat -an | grep :80 | sort`。 您可以对端口443上的https重复相同的命令： `netstat -an | grep :443 | sort`。 另一个选项是将原始命令同时扩展到端口80和443： `netstat -an | egrep ":80|:443" | sort`。
 1. 要查看服务器上是否出现了许多活动的`SYNC_REC`，请使用以下命令：     `netstat -n -p|grep SYN_REC | wc -l`     该值通常小于5，但对于DDoS攻击，该值可能会高得多，不过对于某些服务器，较高的值可能是正常情况。
@@ -53,6 +53,6 @@ ht-degree: 0%
 
 ## 我们的开发人员文档中的相关阅读：
 
-* [DDoS保护](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
-* [使用CLI命令](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
-* 适用于Commerce的[Cloud CLI](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html)
+* [DDoS保护](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#ddos-protection)
+* [使用CLI命令](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli)
+* 适用于Commerce的[Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)

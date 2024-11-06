@@ -4,7 +4,7 @@ description: 本文为Adobe Commerce 2.4.1中的已知问题提供了解决方�
 exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 feature: Page Builder
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [什么是页面生成器？](https://devdocs.magento.com/page-builder/docs/)位于我们的开发人员文档中。
+* [什么是页面生成器？](https://developer.adobe.com/commerce/frontend-core/page-builder/)位于我们的开发人员文档中。
 * 在开发人员文档中[页面生成器设置](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)。
-* 我们用户指南中的[页面生成器](https://docs.magento.com/user-guide/cms/page-builder.html)。
-* 用户指南中的[页面生成器 — 元素](https://docs.magento.com/user-guide/cms/page-builder-elements.html)。
+* 我们用户指南中的[页面生成器](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction)。
+* 用户指南中的[页面生成器 — 元素](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements)。

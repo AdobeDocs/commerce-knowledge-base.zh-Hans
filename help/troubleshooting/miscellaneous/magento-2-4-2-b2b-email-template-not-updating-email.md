@@ -4,7 +4,7 @@ description: 本文介绍了一个已知的Adobe Commerce 2.4.2 B2B问题，该�
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
 feature: B2B, Communications
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[管理消息队列](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html)。
+* 在我们的开发人员文档中[管理消息队列](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。

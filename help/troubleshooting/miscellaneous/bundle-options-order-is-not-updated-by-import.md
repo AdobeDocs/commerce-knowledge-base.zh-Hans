@@ -4,7 +4,7 @@ description: 本文为解决以下问题提供了解决方案：在从.csv文件
 exl-id: 7f7bf782-4b35-4067-aa94-417097079f1f
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 使用[导入功能](https://docs.magento.com/m2/ee/user_guide/system/data-import.html)导入文件。
+1. 使用[导入功能](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import)导入文件。
 1. 打开捆绑包产品页面。
 
 <u>预期的结果</u>：
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 为.csv文件中`bundle_values`列的`position`参数中的每个选项显式声明位置。 有关详细说明，请参阅用户指南中的[编辑产品数据](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data)。
+1. 为.csv文件中`bundle_values`列的`position`参数中的每个选项显式声明位置。 有关详细说明，请参阅用户指南中的[编辑产品数据](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data)。
 1. 重复导入操作。
 
-有关导入的一般信息，请参阅用户指南中的[导入捆绑包产品](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html)。
+有关导入的一般信息，请参阅用户指南中的[导入捆绑包产品](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products)。

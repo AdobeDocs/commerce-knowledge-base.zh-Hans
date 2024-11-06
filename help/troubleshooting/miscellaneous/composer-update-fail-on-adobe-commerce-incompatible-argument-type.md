@@ -4,7 +4,7 @@ description: 本文为因代码编译问题而卡住部署的情况提供了解�
 exl-id: ba2dd229-29f6-43e2-9467-8bd1bf59e6ef
 feature: Console
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Adobe Commerce内部部署2.4.x
 
 **如何在云基础架构上修复Adobe Commerce：**
 
-运行上述命令或升级到欧洲经委会工具的最新版本(ece-tools：2002.1.7)，该版本将于7月29日星期四提供。 有关步骤，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >更新ece-tools版本](https://devdocs.magento.com/cloud/project/ece-tools-update.html)。
+运行上述命令或升级到欧洲经委会工具的最新版本(ece-tools：2002.1.7)，该版本将于7月29日星期四提供。 有关步骤，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >更新ece-tools版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)。
 
 完整的修复将在Adobe Commerce（所有部署方法）2.4.4中发布。
 

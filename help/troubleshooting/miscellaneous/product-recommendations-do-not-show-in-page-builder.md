@@ -4,7 +4,7 @@ description: 本文为页面生成器中未显示“产品Recommendations”选�
 exl-id: e96a446b-2e64-47a6-ac1b-e73183da9fb8
 feature: Page Builder, Configuration, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -37,5 +37,5 @@ ht-degree: 0%
 ## 相关阅读
 
 * 在我们的用户指南中[添加内容 — 产品Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html)。
-* 在我们的开发人员文档中[安装和配置产品Recommendations](https://devdocs.magento.com/recommendations/install-configure.html)。
-* [Adobe Commerce用户指南](https://docs.magento.com/user-guide/)
+* 在我们的开发人员文档中[安装和配置产品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)。
+* [Adobe Commerce用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

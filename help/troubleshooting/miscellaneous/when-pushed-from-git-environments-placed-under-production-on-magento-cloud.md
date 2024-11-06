@@ -4,7 +4,7 @@ description: 本文为从Git版本控制系统推送新环境时将其放在Adob
 exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-只有在商家推送并激活新创建的分支后，才能设置父分支。 请参阅我们的开发人员文档中的[Adobe Commerce on cloud infrastructure > Bitbucket集成](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch)。
+只有在商家推送并激活新创建的分支后，才能设置父分支。 请参阅我们的开发人员文档中的[Adobe Commerce on cloud infrastructure > Bitbucket集成](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)。
 
 要更新服务器上现有分支的父级，请使用magento-cloud CLI中的`magento-cloud environment:info`命令。
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在开发人员文档中，[云基础架构上的Adobe Commerce > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html)。
+* 在开发人员文档中，[云基础架构上的Adobe Commerce > magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。

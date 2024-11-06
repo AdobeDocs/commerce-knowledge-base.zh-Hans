@@ -4,7 +4,7 @@ description: 本文针对安装期间出现反射异常错误提供了解决方�
 exl-id: aed5f297-1339-4171-9392-04b3f93277ee
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 清除Adobe Commerce的`var`子目录下的所有目录和文件，然后再次安装Adobe Commerce软件。
 
-作为[Adobe Commerce文件系统所有者](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html)或具有`root`权限的用户，输入以下命令：
+作为[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)或具有`root`权限的用户，输入以下命令：
 
 ```bash
 $ cd <your Magento install directory>/var

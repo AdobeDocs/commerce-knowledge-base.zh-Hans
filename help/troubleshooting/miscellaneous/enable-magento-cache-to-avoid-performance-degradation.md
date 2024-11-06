@@ -4,7 +4,7 @@ description: 本文介绍如何解决因禁用某些Adobe Commerce缓存类型�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)并运行以下命令：
+1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)并运行以下命令：
 
    ```bash
    php bin/magento cache:status
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 我们开发人员文档中的Adobe Commerce缓存文档：
 
-* [Adobe Commerce缓存概述](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
-* [管理缓存](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
+* [Adobe Commerce缓存概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
+* [管理缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 出现性能问题的其他可能原因以及解决方案：
 

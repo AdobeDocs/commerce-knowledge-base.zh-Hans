@@ -4,7 +4,7 @@ description: 本文提供一种解决方案，用于解决您无法在Adobe Comm
 exl-id: e45dc88a-2da0-4524-bd61-6634cfebb169
 feature: Admin Workspace, Marketing Tools
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 原因
 
-此问题与最近引入的新功能有关，该功能影响了最大会话大小。 请参阅我们的开发人员文档中的[会话管理](https://docs.magento.com/user-guide/stores/security-session-management.html)。
+此问题与最近引入的新功能有关，该功能影响了最大会话大小。 请参阅我们的开发人员文档中的[会话管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management)。
 
 ## 解决方案
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 用户指南中的[营销菜单](https://docs.magento.com/user-guide/marketing/marketing-menu.html)。
+* 用户指南中的[营销菜单](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu)。

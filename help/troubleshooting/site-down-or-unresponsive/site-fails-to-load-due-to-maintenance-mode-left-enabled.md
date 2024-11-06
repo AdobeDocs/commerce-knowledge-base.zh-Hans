@@ -4,7 +4,7 @@ description: “本文修复了由于保持启用维护模式或未自动禁用�
 exl-id: 77e01588-e135-4d24-a0c4-1a6ee123f4a8
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## 相关阅读
 
-要了解何时使用维护模式，请参阅我们的开发人员文档中的[启用或禁用维护模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode)。
+要了解何时使用维护模式，请参阅我们的开发人员文档中的[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。

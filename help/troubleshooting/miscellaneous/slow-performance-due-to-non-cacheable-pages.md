@@ -4,7 +4,7 @@ description: 本文提供了解决方案，可针对任何需要缓存的页面�
 exl-id: 7401d9bd-710c-4221-9c3d-d78042c1c1ad
 feature: Cache, Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 Cacheable和uncacheable是用于指示是否应缓存页面的术语。 默认情况下，可缓存所有页面。 但是，如果布局中的任何块被指定为不可缓存，则整个页面都不可缓存。
 
-下面的屏幕快照显示了一个设置`cacheable="false”`****的块，该块创建了一个不可缓存的页面。
+下面的屏幕快照显示了一个设置`cacheable="false"`****的块，该块创建了一个不可缓存的页面。
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 
@@ -46,15 +46,15 @@ Cacheable和uncacheable是用于指示是否应缓存页面的术语。 默认�
 
 ### 解决方案
 
-检查上面指定的文件是否具有设置`cacheable="false”` 。 如果有，请检查是否需要此设置。
+检查上面指定的文件是否具有设置`cacheable="false"` 。 如果有，请检查是否需要此设置。
 
-* 如果需要，请考虑将不可缓存的块移至[私有内容机制](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co)。
-* 如果需要，请删除属性`cacheable="false”`并刷新布局缓存。
+* 如果需要，请考虑将不可缓存的块移至[私有内容机制](https://developer.adobe.com/commerce/php/development/cache/page/private-content/)。
+* 如果需要，请删除属性`cacheable="false"`并刷新布局缓存。
 
 >[!NOTE]
 >
->对于Cloud Infrastructure 2.4.1及更高版本上的Adobe Commerce，您可以使用[站点范围分析工具](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)来自动检查完整页缓存配置是否正确。
+>对于Cloud Infrastructure 2.4.1及更高版本上的Adobe Commerce，您可以使用[站点范围分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access)来自动检查完整页缓存配置是否正确。
 
 ### 相关阅读
 
-在我们的开发人员文档中，[Adobe Commerce缓存概述](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2)。
+在我们的开发人员文档中，[Adobe Commerce缓存概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/)。

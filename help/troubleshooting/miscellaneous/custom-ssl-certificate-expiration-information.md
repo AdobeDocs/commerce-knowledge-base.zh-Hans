@@ -4,7 +4,7 @@ description: 本文为使用Adobe提供的SSL证书更新自定义SSL证书提�
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -46,6 +46,6 @@ Adobe Commerce会在过期后30天内更新任何证书。
 ## 相关阅读
 
 * Magento Commerce Cloud的[SSL (TLS)证书：我们的支持知识库中的常见问题解答](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)。
-* [命令行工具引用：开发人员文档中的magento-cloud certificate：add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd)。
-* 在开发人员文档中[启动项核对清单](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)。
-* 访问用户指南中的[站点范围分析工具](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool)。
+* [命令行工具引用：开发人员文档中的magento-cloud certificate：add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
+* 在开发人员文档中[启动项核对清单](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)。
+* 访问用户指南中的[站点范围分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。

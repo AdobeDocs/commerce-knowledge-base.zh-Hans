@@ -3,7 +3,7 @@ title: 更改特定商店中数据库实体（订单、发票、贷项通知单�
 description: 本文讨论如何使用“ALTER TABLE”SQL语句更改特定Adobe Commerce存储上Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * Adobe Commerce内部部署：2.x.x
 * 云基础架构上的Adobe Commerce：2.x.x
-* MySQL：任何[支持的版本](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL：任何[支持的版本](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ## 您何时需要更改增量ID（案例）
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 必备步骤
 
 1. 查找应更改新增量ID的存储和实体。
-1. [连接](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)到您的MySQL数据库。 对于云基础架构上的Adobe Commerce，您首先需要[SSH连接到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. [连接](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)到您的MySQL数据库。 对于云基础架构上的Adobe Commerce，您首先需要[SSH连接到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 使用以下查询检查实体序列表的当前auto\_increment值：
 
 ```sql
@@ -53,7 +53,7 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### 相关文档
 
-* [在我们的开发人员文档中设置远程MySQL数据库连接](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)。
+* [在我们的开发人员文档中设置远程MySQL数据库连接](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)。
 
 ## 更新实体以更改增量ID
 

@@ -1,9 +1,9 @@
 ---
 title: 在云基础架构上的Adobe Commerce上更改管理员URL
-description: 默认情况下，[Commerce管理员](https://docs.magento.com/m2/ee/user_guide/stores/admin.html) URL设置为*&amp；lt；domain\_name&amp；gt；/admin*。 本文介绍如何更改URL。
+description: 默认情况下，[Commerce管理员](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin) URL设置为*&amp；lt；domain\_name&amp；gt；/admin*。 本文介绍如何更改URL。
 exl-id: 6236370c-e0a2-45a6-a38f-12e219c540af
 feature: Admin Workspace, Cloud
-source-git-commit: 04dba4e2adeaaa7649b817444024bf96e7830ad3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%

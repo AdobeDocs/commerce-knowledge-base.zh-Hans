@@ -4,7 +4,7 @@ description: 本文为云基础架构暂存或生产站点店面和/或管理员
 exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -47,7 +47,7 @@ https：/&#x200B;/mydomain.com.c.&lt;projectid>.magento.cloud/不再可访问。
 ## 解决方案
 
 * 如果您的云站点处于活动状态，请切换到https://mydomain.com/。
-* 如果您有活动站点（非云），请使用https://mydomain.com/域，设置子域`mcprod.mydomain.com`，然后将&#x200B;**基本URL**&#x200B;更新为&#x200B;*https://mcprod.mydomain.com*，然后[将DNS指向Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings)。
+* 如果您有活动站点（非云），请使用https://mydomain.com/域，设置子域`mcprod.mydomain.com`，然后将&#x200B;**基本URL**&#x200B;更新为&#x200B;*https://mcprod.mydomain.com*，然后[将DNS指向Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)。
 
 ## 相关阅读
 

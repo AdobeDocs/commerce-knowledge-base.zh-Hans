@@ -1,10 +1,10 @@
 ---
 title: 云基础架构上的Adobe Commerce中的磁盘空间不足时安全删除文件
-description: 本文为磁盘空间不足并需要安全删除文件的情况提供了解决方案。 在考虑此操作之前，请查看我们的开发人员文档中的[管理磁盘空间](https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left)。 如果该文章中的步骤不适合您或者不能解决问题，请查看本文中的步骤。
+description: 本文为磁盘空间不足并需要安全删除文件的情况提供了解决方案。 在考虑此操作之前，请查看我们的开发人员文档中的[管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left)。 如果该文章中的步骤不适合您或者不能解决问题，请查看本文中的步骤。
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 86515936f72bbd0a5778cb81f665993ed91e4707
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -59,4 +59,4 @@ FS='/data/exports';NUMRESULTS=20;resize;clear; echo "Please find below the Large
 
 在我们的开发人员文档中：
 
-* [管理磁盘空间](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+* [管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

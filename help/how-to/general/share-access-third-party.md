@@ -3,7 +3,7 @@ title: Adobe Commerce在云基础架构上的第三方测试提示
 description: 当您在云基础架构上使用Adobe Commerce的扩展遇到问题时，本文提供了与第三方共享访问权限以进行测试/验证的选项。
 exl-id: e2d80aa9-8b68-48ed-bec5-68e128611a1e
 feature: Best Practices, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 为第三方供应商提供对云环境的访问权限。 相关文章：
 
    * [Adobe Commerce帮助中心用户指南>共享访问权限：授予其他用户访问您帐户的权限](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access)（位于我们的支持知识库中）。
-   * 在我们的用户指南中[共享您的Commerce帐户](https://docs.magento.com/user-guide/magento/magento-account-share.html)。
+   * 在我们的用户指南中[共享您的Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)。
 
 * 创建数据库转储（或授予第三方供应商执行此操作的权限）。 可以使用CLI或Commerce Admin执行此操作。 此数据库转储将混淆客户数据，因此他们获得的只是代码和产品SKU等，没有专有/客户数据。 请参考我们的支持知识库中的[共享您的Commerce帐户] (/help/how-to/general/create-database-dump-on-cloud.md)。
 * 测试完成后，请确保按照支持知识库中的[Adobe Commerce帮助中心用户指南>撤消（删除共享访问权限）](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access)中所述，撤消对云环境的共享访问权限。

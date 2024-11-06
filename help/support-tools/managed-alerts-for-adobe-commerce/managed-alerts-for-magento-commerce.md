@@ -4,7 +4,7 @@ description: 如果您是Adobe Commerce on cloud infrastructure Pro规划架构�
 exl-id: 4d08eaad-a3ce-4f6c-9c32-58e44e1d6534
 feature: Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 # Adobe Commerce的受管警报
 
 
-我们设置了关键的仪表板和警报，帮助您了解您的站点何时达到关键存储和Apdex级别（用户对应用程序和服务响应时间的满意度）。 这有助于您在发现响应时间缓慢或中断之前采取行动。 您将能够使用下面列出的文章对警报进行故障排除。 在使用警报之前，请先设置通知渠道。 请参阅我们的开发人员文档中的[New Relic配置通知渠道](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels)。
+我们设置了关键的仪表板和警报，帮助您了解您的站点何时达到关键存储和Apdex级别（用户对应用程序和服务响应时间的满意度）。 这有助于您在发现响应时间缓慢或中断之前采取行动。 您将能够使用下面列出的文章对警报进行故障排除。 在使用警报之前，请先设置通知渠道。 请参阅我们的开发人员文档中的[New Relic配置通知渠道](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。
 
 >[!NOTE]
 >

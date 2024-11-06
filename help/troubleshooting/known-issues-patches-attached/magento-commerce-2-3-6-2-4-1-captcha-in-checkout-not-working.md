@@ -4,7 +4,7 @@ description: 本文提供了一个修补程序，用于解决在Adobe Commerce�
 exl-id: 46ab7f4d-ee0a-4cc1-96cc-6eb408319e9c
 feature: Checkout, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 对于Adobe Commerce 2.3.6</u>：<u>
 
-* [Adobe Commerce 2.3.6发行说明：已知问题](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
-* [Magento Open Source2.3.6发行说明：已知问题](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
+* [Adobe Commerce 2.3.6发行说明：已知问题](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/commerce-2-3-6.html)
+* [Magento Open Source2.3.6发行说明：已知问题](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
 对于Adobe Commerce 2.4.1</u>：<u>
 
-* [Adobe Commerce 2.4.1发行说明：已知问题](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
-* [Magento Open Source2.4.1发行说明：已知问题](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
+* [Adobe Commerce 2.4.1发行说明：已知问题](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-1#known-issues)
+* [Magento Open Source2.4.1发行说明：已知问题](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/magento-open-source/2-4-1#known-issues)
 
 ## 受影响的产品和版本
 
@@ -83,4 +83,4 @@ ht-degree: 0%
 
 <u>Git修补程序</u>
 
-有关Adobe Commerce/Magento Open Source的Git修补程序说明，请参阅开发人员文档[应用修补程序：自定义修补程序](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)。
+有关Adobe Commerce/Magento Open Source的Git修补程序说明，请参阅开发人员文档[应用修补程序：自定义修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)。

@@ -4,7 +4,7 @@ description: 当您在包含已导出产品的CSV文件中找不到状态列时�
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
 feature: Data Import/Export, Products
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -50,5 +50,5 @@ Adobe Commerce（所有部署方法）所有[支持的版本](https://www.adobe.
 
 ## 相关阅读
 
-* 在我们的用户指南中[使用CSV文件](https://docs.magento.com/user-guide/system/data-csv.html)。
-* 我们用户指南中的[产品导出属性引用](https://docs.magento.com/user-guide/system/data-attributes-product.html)。
+* 在我们的用户指南中[使用CSV文件](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv)。
+* 我们用户指南中的[产品导出属性引用](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product)。

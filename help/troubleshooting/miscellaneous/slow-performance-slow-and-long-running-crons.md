@@ -4,7 +4,7 @@ description: 本文介绍如何解决因启用了平面表和索引器而导致�
 exl-id: a78ca3c3-85b4-40a1-a693-4703dd3ef4b5
 feature: Best Practices, Cache, Categories, Catalog Management
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >在任何Adobe Commerce版本上，由于某些扩展仅适用于平面表，因此，如果禁用平面表，则存在风险。 如果您知道有一些扩展使用平面目录索引器，则可能需要在将这些值设置为“*No*”时考虑这一点。
 
-本文介绍如何解决因启用了[平面表和索引器](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html)而导致的站点性能问题以及运行缓慢和卡住的cron。
+本文介绍如何解决因启用了[平面表和索引器](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat)而导致的站点性能问题以及运行缓慢和卡住的cron。
 
 受影响的产品和版本
 

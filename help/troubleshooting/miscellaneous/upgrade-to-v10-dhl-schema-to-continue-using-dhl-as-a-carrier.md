@@ -4,7 +4,7 @@ description: 本文提供了一个解决方案，通过升级到模式10.0或应
 exl-id: eed83713-2d6a-4360-bfa1-bebd4d604f2f
 feature: Orders, Shipping/Delivery, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 请参阅以下链接，了解如何使用[!DNL Quality Patches Tool]并根据您的部署方法安装修补程序：
 
 * Adobe Commerce内部部署和Magento Open Source：[Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League。
-* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 **该修补程序适用于以下Adobe Commerce版本（所有部署方法）：**
 

@@ -4,7 +4,7 @@ description: 本文修复了站点性能较低的问题。 启用但未使用“
 exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 如果您在&#x200B;**Content** > *Elements*&#x200B;下未看到&#x200B;**横幅**&#x200B;选项，则不是这种情况，并且无法应用此文章中的推荐。
 
-对于Adobe Commerce on cloud infrastructure 2.3.x（在v 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中函数重命名为[）：
+对于Adobe Commerce on cloud infrastructure 2.3.x（在v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中函数重命名为[）：
 
 1. 登录到Commerce管理员。
 1. 导航到&#x200B;**Content** > *Elements >* **动态块**。
@@ -56,5 +56,5 @@ ht-degree: 0%
 >
 >我们强烈建议先在[暂存/集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)上测试更改，然后再将其应用于生产。 我们还建议在进行任何操作之前进行最近备份。
 
-1. 禁用`Magento_Banner`模块输出，如开发人员文档中的[禁用模块输出](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html)中所述。 您需要使用的模块名称为`Magento_Banner`。
-1. 部署代码。 对于云基础架构上的Adobe Commerce，请按照开发人员文档中的[部署您的存储库](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html)文章中的说明进行部署。
+1. 禁用`Magento_Banner`模块输出，如开发人员文档中的[禁用模块输出](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output)中所述。 您需要使用的模块名称为`Magento_Banner`。
+1. 部署代码。 对于云基础架构上的Adobe Commerce，请按照开发人员文档中的[部署您的存储库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章中的说明进行部署。

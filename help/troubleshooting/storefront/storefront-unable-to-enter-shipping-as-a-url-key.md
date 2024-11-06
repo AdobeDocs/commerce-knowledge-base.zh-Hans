@@ -1,10 +1,10 @@
 ---
 title: 无法将送货另存为URL键
-description: 当您无法为产品或CMS页面将shipping保存为URL密钥（_例如， /shipping_）时，本文提供了此问题的解决方法。 当您尝试保存URL键时，您会收到一个错误，指示URL键是重复的URL。
+description: 当您无法为产品或CMS页面将shipping另存为URL密钥（_例如， /shipping_）时，本文提供了此问题的解决方法。 当您尝试保存URL键时，您会收到一个错误，指示URL键是重复的URL。
 exl-id: df19b597-f615-4b19-82c1-59cc179fa720
 feature: Marketing Tools, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 1ce963142a261a17e2b42f79dd567c8484ec5b3e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 无法将&#x200B;_shipping_&#x200B;另存为URL键
 
-当您无法为产品或CMS页面将shipping保存为URL密钥（_例如， /shipping_）时，本文提供了此问题的解决方法。 当您尝试保存URL键时，您会收到一个错误，指示URL键是重复的URL。
+当您无法为产品或CMS页面将shipping另存为URL密钥（_例如， /shipping_）时，本文提供了此问题的解决方法。 当您尝试保存URL键时，您会收到一个错误，指示URL键是重复的URL。
 
 ## 受影响的产品和版本
 
@@ -122,5 +122,5 @@ Adobe Commerce（所有部署方法） 2.4.x
 
 ## 相关阅读
 
-* 在我们的促销用户指南中，[URL重写了](https://docs.magento.com/user-guide/marketing/url-rewrite.html)。
-* 我们的《推销和促销用户指南》中的[SEO最佳实践](https://docs.magento.com/user-guide/marketing/seo-best-practices.html)。
+* 在我们的促销用户指南中，[URL重写了](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite)。
+* 我们的《推销和促销用户指南》中的[SEO最佳实践](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview)。

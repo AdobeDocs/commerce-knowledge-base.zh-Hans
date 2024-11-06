@@ -4,7 +4,7 @@ description: 本文修复了在启用维护模式(云基础架构上的Adobe Com
 exl-id: 61b81fbd-a382-44b5-94e9-5b6d72f11349
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-在开发人员文档中[启用或禁用维护模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html)。
+在开发人员文档中[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。

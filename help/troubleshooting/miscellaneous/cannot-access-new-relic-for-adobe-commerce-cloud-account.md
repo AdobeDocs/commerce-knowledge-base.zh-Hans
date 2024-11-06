@@ -4,7 +4,7 @@ description: 本文为无法访问 [!DNL New Relic] 提供了解决方案，尽�
 exl-id: bafe2dd9-8a16-4249-b814-7e421e25e828
 feature: Cloud, Observability, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-在我们的开发人员文档中[管理 [!DNL New Relic] 帐户](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account)。
+在我们的开发人员文档中[管理 [!DNL New Relic] 帐户](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。

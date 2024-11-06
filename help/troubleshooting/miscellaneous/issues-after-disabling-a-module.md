@@ -4,7 +4,7 @@ description: 本文为在Commerce管理员中禁用模块输出后的模块功�
 exl-id: 517f6993-f09e-4a94-8c57-175ecf9a98a8
 feature: Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -30,6 +30,6 @@ ht-degree: 0%
 
 ## 解决方案
 
-如果需要禁用模块功能，请按照开发人员文档中的[启用或禁用模块](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html)中的说明禁用模块。
+如果需要禁用模块功能，请按照开发人员文档中的[启用或禁用模块](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)中的说明禁用模块。
 
 模块输出禁用功能已从版本2.2.0中删除。

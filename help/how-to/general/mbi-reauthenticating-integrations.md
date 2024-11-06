@@ -3,7 +3,7 @@ title: 'MBI：重新验证集成'
 description: 本文提供了重新授权集成以授予Magento Business Intelligence(MBI)从第三方服务拉取数据所需的权限的解决方案。 撤销这些权限时需要重新授权。
 exl-id: c608d6f9-64a5-44f8-9d7b-9a85a2668775
 feature: Commerce Intelligence, Integration
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 数据库和SaaS集成
 
-有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html)。 （打开页面时，使用左侧的目录进行导航）。
+有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （打开页面时，使用左侧的目录进行导航）。
 
 ## 存在连接问题？
 

@@ -4,7 +4,7 @@ description: 本文提供了解决方案，用于解决在尝试将更新部署�
 exl-id: b1658001-0ffd-4f8a-a15f-d785efcee51f
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -82,4 +82,4 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[升级和修补程序](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools)。
+* 在我们的开发人员文档中[升级和修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices)。

@@ -4,7 +4,7 @@ description: 本文提供了针对此问题的解决方案，其中尝试应用M
 exl-id: 5341be3a-a9d7-4a4b-9755-8c585c6922a4
 feature: Deploy
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 原因
 
-如果云商已安装[magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016)，并且其中已包含修补程序，则无需单独应用MDVA-43395修补程序。
+如果云商已安装[magento/magento-cloud-patches 1.0.16](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)，并且其中已包含修补程序，则无需单独应用MDVA-43395修补程序。
 
 ## 解决方案
 
@@ -45,4 +45,4 @@ $ vendor/bin/magento-patches -n status |grep 43443
 ## 相关阅读
 
 * [如何应用我们的支持知识库中Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
-* 在开发人员文档中[Commerce的云修补程序](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016)。
+* 在开发人员文档中[Commerce的云修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)。

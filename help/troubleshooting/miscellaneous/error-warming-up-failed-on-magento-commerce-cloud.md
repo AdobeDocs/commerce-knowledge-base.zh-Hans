@@ -4,7 +4,7 @@ description: '本文为页面缓存预热并失败并出现错误提供了解决
 exl-id: 20a88030-b1c9-4fdc-83c1-f344d44cd2e1
 feature: Cache, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 我们的用户指南中的[Adobe Commerce用户指南>全页缓存](https://docs.magento.com/user-guide/system/cache-full-page.html)。
+* 我们的用户指南中的[Adobe Commerce用户指南>全页缓存](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching)。
 * 在我们支持知识库的Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)上，[缓存预热和网站不可用。

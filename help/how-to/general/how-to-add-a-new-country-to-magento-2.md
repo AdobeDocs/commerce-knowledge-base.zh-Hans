@@ -3,7 +3,7 @@ title: 如何向Adobe Commerce添加新国家/地区
 description: 本文介绍如何添加Adobe Commerce和Zend区域设置库中不存在的国家/地区。 这需要根据适用的协议条款对代码和数据库进行更改，以构成客户自定义项。 请注意，本文中包含的示例材料按“原样”提供，不提供任何形式的担保。 Adobe或任何关联实体均无义务维护、更正、更新、更改、修改或以其他方式支持这些材料。 在这里，我们将描述为实现这一目标需要做的工作的基本原则。
 exl-id: af499add-4966-4a3a-972a-62a34c169a1b
 feature: Build, Cache
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 在尝试创建新模块之前，请参阅我们的开发人员文档中的以下主题：
 
-* [PHP开发人员指南](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
-* [模块概述](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [创建新模块](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
-* [模块配置文件](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
+* [PHP开发人员指南](https://developer.adobe.com/commerce/php/development/)
+* [模块概述](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [创建新模块](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
+* [模块配置文件](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## 所需信息
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在此示例中，我们将创建一个名为\&#39;ExtraCountries\&#39;的新模块，该模块具有以下目录结构：
 
-（要了解有关模块结构的更多信息，请参阅我们的开发人员文档中的[模块概述](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)）。
+（要了解有关模块结构的更多信息，请参阅我们的开发人员文档中的[模块概述](https://developer.adobe.com/commerce/php/architecture/modules/overview/)）。
 
 <pre><ExtraCountries>
  |
@@ -97,7 +97,7 @@ ht-degree: 0%
 </config>
 ```
 
-有关模块配置文件的详细信息，请参阅我们的开发人员文档中的[PHP Developer Guide > Define Configurations files](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html)。
+有关模块配置文件的详细信息，请参阅我们的开发人员文档中的[PHP Developer Guide > Define Configurations files](https://developer.adobe.com/commerce/php/development/build/required-configuration-files/)。
 
 请注意，这些更改是可选的，只会影响新国家/地区的默认属于“允许国家/地区”、“邮政编码对于是可选的”和“欧盟国家/地区”列表。 如果从模块结构跳过了此文件，则仍会添加新的国家/地区，但必须在&#x200B;**管理员** > **商店** > *设置* > **配置** > **常规** > **国家/地区选项**&#x200B;设置页面中手动配置此文件。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 在模块注册文件中，我们必须为“Adobe Commerce目录”模块指定依赖关系，确保在“目录”模块之后注册并执行“额外国家/地区”模块。
 
-有关模块依赖项的更多信息，请参阅我们的开发人员文档中的[管理模块依赖项](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies)。
+有关模块依赖项的更多信息，请参阅我们的开发人员文档中的[管理模块依赖项](https://developer.adobe.com/commerce/php/architecture/modules/dependencies/#managing-module-dependencies)。
 
 `module.xml`示例
 
@@ -185,7 +185,7 @@ class TranslatedListsPlugin
 
 此数据修补程序将在Adobe Commerce安装/升级过程中执行，并将向数据库中添加新的国家/地区记录。
 
-有关数据修补程序的详细信息，请参阅我们的开发人员文档中的[开发数据和架构修补程序](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html)。
+有关数据修补程序的详细信息，请参阅我们的开发人员文档中的[开发数据和架构修补程序](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/)。
 
 在下面的示例中，您可以看到方法`apply()`的`$data`数组包含新国家/地区的国家/地区ID、ISO2和ISO3代码，并且此数据正在插入到数据库中。
 
@@ -266,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-这是registration.php文件的一个示例。 要了解有关模块注册的更多信息，请参阅我们的开发人员文档中的[PHP Developer Guide > Register your component](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html)。
+这是registration.php文件的一个示例。 要了解有关模块注册的更多信息，请参阅我们的开发人员文档中的[PHP Developer Guide > Register your component](https://developer.adobe.com/commerce/php/development/build/component-registration/)。
 
 ```php
 <?php
@@ -279,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 这是composer.json文件的一个示例。
 
-要了解有关composer.json的更多信息，请参阅我们的开发人员文档中的[PHP开发人员指南> Composer.json文件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html)。
+要了解有关composer.json的更多信息，请参阅我们的开发人员文档中的[PHP开发人员指南> Composer.json文件](https://developer.adobe.com/commerce/php/development/build/composer-integration/)。
 
 ```json
 {
@@ -310,7 +310,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 ## 模块安装
 
-要了解如何安装模块，请参阅我们的开发人员文档中的[模块位置](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations)。
+要了解如何安装模块，请参阅我们的开发人员文档中的[模块位置](https://developer.adobe.com/commerce/php/architecture/modules/overview/#module-locations)。
 
 将模块目录放置到正确位置后，执行`bin/magento setup:upgrade`以应用数据修补程序并注册翻译插件。
 

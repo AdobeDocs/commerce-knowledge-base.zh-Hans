@@ -4,7 +4,7 @@ description: 解决Adobe Commerce配置文件缺失或更改的问题。
 exl-id: d80bf981-8ba6-4357-a841-57bf5d3f2a3f
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -36,7 +36,7 @@ BAK文件是部署过程的产物。 如果在部署后手动更改配置文件�
 
 要恢复配置文件：
 
-1. 使用[SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)登录到远程存储库。
+1. 使用[SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)登录到远程存储库。
 1. 列出可用的备份文件。
 
    ```

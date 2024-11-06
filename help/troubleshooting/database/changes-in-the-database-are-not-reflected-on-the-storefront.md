@@ -4,7 +4,7 @@ description: 本文提供了避免在应用实体更新时出现延迟或中断�
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 ## 原因
 
-如果索引器被[配置为按计划](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)更新，则问题可能是由一个或多个更改日志过大或未设置MySQL触发器的表导致的。
+如果索引器被[配置为按计划](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)更新，则问题可能是由一个或多个更改日志过大或未设置MySQL触发器的表导致的。
 
 ### 超大的更改日志表
 
 如果`indexer_update_all_views` cron作业多次未成功完成，则更改日志表将变得很大。
 
-更改日志表是用来跟踪实体更改的数据库表。 只要不应用更改，记录就会存储在更改日志表中，该更改由`indexer_update_all_views` cron作业执行。 Adobe Commerce数据库中有多个更改日志表，它们按照以下模式命名： INDEXER\_TABLE\_NAME + &#39;\_cl&#39;，例如`catalog_category_product_cl`、`catalog_product_category_cl`。 您可以在我们的开发人员文档中的[索引概述> Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview)一文中找到有关如何在数据库中跟踪更改的更多详细信息。
+更改日志表是用来跟踪实体更改的数据库表。 只要不应用更改，记录就会存储在更改日志表中，该更改由`indexer_update_all_views` cron作业执行。 Adobe Commerce数据库中有多个更改日志表，它们按照以下模式命名： INDEXER\_TABLE\_NAME + &#39;\_cl&#39;，例如`catalog_category_product_cl`、`catalog_product_category_cl`。 您可以在我们的开发人员文档中的[索引概述> Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)一文中找到有关如何在数据库中跟踪更改的更多详细信息。
 
 ### [!DNL MySQL]数据库触发器未设置
 

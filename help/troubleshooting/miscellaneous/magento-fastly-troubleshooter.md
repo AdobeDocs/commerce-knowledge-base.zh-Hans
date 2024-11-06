@@ -4,9 +4,9 @@ description: 这个Adobe Commerce用户快速故障诊断程序将根据您对�
 exl-id: c5c51b89-5a7d-49ba-a0ee-7abbaf78fdad
 feature: Support, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ b.否 — 通过在CLI/终端中运行来检查DNS： `dig [your website.com] + 
 
 +++**运行`dig`时会发生什么？**
 
-运行`dig`时，它返回了指向prod.magentocloud.map.fastly.net或以下IP地址之一的记录（请参阅我们的开发人员文档中的[使用生产设置更新DNS配置](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns)）：
+运行`dig`时，它返回了指向prod.magentocloud.map.fastly.net或以下IP地址之一的记录（请参阅我们的开发人员文档中的[使用生产设置更新DNS配置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings)）：
 
 * 151.101.1.124
 * 151.101.65.124
@@ -56,7 +56,7 @@ b.否 — 通过在CLI/终端中运行来检查DNS： `dig [your website.com] + 
 * 151.101.193.124
 
 a.是 — 问题与DNS无关。 继续执行[步骤5](#step-5)。\
-b.否 — 问题可能与DNS有关。 客户应[检查DNS配置](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns "https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns")或联系其DNS提供商以获取更多信息。
+b.否 — 问题可能与DNS有关。 客户应[检查DNS配置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings)或联系其DNS提供商以获取更多信息。
 
 +++
 
@@ -74,7 +74,7 @@ b.否 — 访问[http://fastly-debug.com](https://www.fastly-debug.com/)并在[A
 +++**证书是否已过期？**
 
 a.是 — 您需要向证书颁发机构(CA)续订TLS证书。\
-b.否 — 您可能完全没有证书。 如果您拥有Adobe Commerce，我们建议您购买TLS证书。 如果您在云基础架构上的Adobe Commerce上，则可以拥有经过域验证的Let&#39;s Encrypt SSL/TLS证书来提供来自Fastly的安全HTTPS流量。 请参阅我们的开发人员文档中的[配置SSL/TLS证书](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates)。
+b.否 — 您可能完全没有证书。 如果您拥有Adobe Commerce，我们建议您购买TLS证书。 如果您在云基础架构上的Adobe Commerce上，则可以拥有经过域验证的Let&#39;s Encrypt SSL/TLS证书来提供来自Fastly的安全HTTPS流量。 请参阅我们的开发人员文档中的[配置SSL/TLS证书](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)。
 
 +++
 

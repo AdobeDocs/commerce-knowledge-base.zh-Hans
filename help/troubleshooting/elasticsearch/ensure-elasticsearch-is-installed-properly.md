@@ -3,7 +3,7 @@ title: 确保Elasticsearch安装正确
 description: 本文介绍了因安装和配置不正确的Elasticsearch(ES)所导致问题的解决方案。
 exl-id: d2c5971c-4db4-4857-ae79-970313bce981
 feature: Install
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 * Adobe Commerce内部部署和Adobe Commerce on cloud基础架构：
    * v2.2.3+支持ES 5.x
    * v2.2.8+和v2.3.1+支持ES 6.x
-   * 由于[生命周期结束](https://www.elastic.co/support/eol)，不建议使用ES v2.x和v5.x。 但是，如果您使用的是Adobe Commerce v2.3.1并且要使用ES 2.x或ES 5.x，您必须[更改Elasticsearchphp客户端](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html)。
+   * 由于[生命周期结束](https://www.elastic.co/support/eol)，不建议使用ES v2.x和v5.x。 但是，如果您使用的是Adobe Commerce v2.3.1并且要使用ES 2.x或ES 5.x，您必须[更改Elasticsearchphp客户端](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 * Magento Open Sourcev2.3.0+支持ES 5.x和6.x （但建议使用6.x ）。
 
 ## 问题
@@ -56,8 +56,8 @@ Elasticsearch安装不正确。 原因可能是：
 
 要正确设置Elasticsearch，请执行以下操作：
 
-* 云基础架构上的Adobe Commerce上的商家可以按照我们的开发人员文档中的步骤操作： [设置Elasticsearch服务](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html)。
-* Adobe Commerce内部部署和Magento Open Source上的商家可以按照我们的开发人员文档中的步骤操作： [安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
+* 云基础架构上的Adobe Commerce上的商家可以按照我们的开发人员文档中的步骤操作： [设置Elasticsearch服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
+* Adobe Commerce内部部署和Magento Open Source上的商家可以按照我们的开发人员文档中的步骤操作： [安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 设置Elasticsearch后，请检查它是否配置正确：
 

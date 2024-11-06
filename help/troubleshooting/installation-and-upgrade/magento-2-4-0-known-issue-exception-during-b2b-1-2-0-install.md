@@ -4,7 +4,7 @@ description: 本文修复了在安装B2B 1.2.0时“setup：upgrade”期间引�
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -69,8 +69,8 @@ Module 'Magento_PurchaseOrder':
 
 <u>Git修补程序</u>
 
-* 有关云基础架构上Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
-* 有关Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序：自定义修补程序](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)。
+* 有关云基础架构上Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+* 有关Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序：自定义修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)。
 
 ## 相关阅读
 

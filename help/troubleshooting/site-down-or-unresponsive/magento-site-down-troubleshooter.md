@@ -4,7 +4,7 @@ description: 单击每个问题以显示故障诊断程序每个步骤中的答�
 exl-id: 10a2313e-cc82-4ffc-9247-624884f3e165
 feature: Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -80,7 +80,7 @@ b.否 — 继续执行[步骤7](#step-7)。
 
 +++**您有Elasticsearch错误吗？**
 
-a.是 — 继续执行[检查Elasticsearch](https://developer.adobe.com/commerce/php/module-reference/module-elasticsearch/)的步骤。\
+a.是 — 继续执行[检查Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)的步骤。
 b.否 — 继续执行[步骤8](#step-8)。
 
 +++
@@ -116,7 +116,7 @@ b.否 — 继续执行[步骤11](#step-11)。
 
 +++**您是否看到Redis错误？**
 
-a.是 — 继续执行[验证 [!DNL Redis] 是否正在运行](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/redis#troubleshooting-redis)以及[[!DNL Redis] 故障排除](https://redis.io/topics/problems)的步骤。\
+a.是 — 继续执行[验证 [!DNL Redis] 是否正在运行](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)以及[[!DNL Redis] 故障排除](https://redis.io/topics/problems)的步骤。\
 b.否 — 继续执行[步骤12](#step-12)。
 
 +++

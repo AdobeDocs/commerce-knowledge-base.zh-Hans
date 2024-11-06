@@ -4,7 +4,7 @@ description: '''本文提供了在New Relic中接收Adobe Commerce的MariaDB警�
 exl-id: 707e20e0-faba-4bcd-884c-b54568787442
 feature: Cache, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Commerce on cloud infrastructure Pro计划架构
 **做！**
 
 * 中止任何计划的部署，直到清除此警报。
-* 如果您的网站处于或完全无响应，请立即将网站置于维护模式。 有关步骤，请参阅我们的开发人员文档中的[安装指南>启用或禁用维护模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)。 确保将您的IP添加到免除IP地址列表，以确保您仍然能够访问站点进行故障排除。 有关步骤，请参阅[维护免除IP地址列表](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt)。
+* 如果您的网站处于或完全无响应，请立即将网站置于维护模式。 有关步骤，请参阅我们的开发人员文档中的[安装指南>启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。 确保将您的IP添加到免除IP地址列表，以确保您仍然能够访问站点进行故障排除。 有关步骤，请参阅[维护免除IP地址列表](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt)。
 * 结束任何脚本，例如导入，如果网站性能受到影响，则这些脚本可能会导致警报。
 
 **不要！**
@@ -56,7 +56,7 @@ Adobe Commerce on cloud infrastructure Pro计划架构
 1. 寻找代码优化或操作优化：
 1. 代码优化：寻求通过批量插入/更新、最大程度地减少索引使用或限制代码来优化查询。
 1. 操作优化：卸载资源密集型数据修改以缩短通信时间。
-1. 其他优化：确保您使用的是最新版本的ECE-Tools。 有关步骤，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >更新ece-tools版本](https://devdocs.magento.com/cloud/project/ece-tools-update.html)。
+1. 其他优化：确保您使用的是最新版本的ECE-Tools。 有关步骤，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >更新ece-tools版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)。
 
 ## 相关阅读
 

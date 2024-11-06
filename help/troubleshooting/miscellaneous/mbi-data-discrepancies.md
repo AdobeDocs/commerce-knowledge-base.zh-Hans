@@ -4,7 +4,7 @@ description: “某份报告上的数字看上去不准确吗？ 是否看到意
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 * [数据差异诊断核对清单](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [使用导出功能查明数据差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-我们还建议您确保为涉及差异的表和列设置了正确的[复制方法](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html)和[重新检查](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html)。 请注意，您需要管理员权限才能访问复制方法并重新检查信息。
+我们还建议您确保为涉及差异的表和列设置了正确的[复制方法](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods)和[重新检查](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)。 请注意，您需要管理员权限才能访问复制方法并重新检查信息。
 
 ## 我仍然需要帮助！
 

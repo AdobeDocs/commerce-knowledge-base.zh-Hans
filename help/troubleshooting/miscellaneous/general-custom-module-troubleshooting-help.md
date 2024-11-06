@@ -4,7 +4,7 @@ description: 本文介绍了可帮助对Adobe Commerce中的自定义模块进�
 exl-id: c6603a2b-dc98-4022-ab29-c081c2b07415
 feature: Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -29,24 +29,24 @@ ht-degree: 0%
    * 云基础架构上的[Adobe Commerce我们的支持知识库中的入门计划架构日志](/help/how-to/general/log-locations-directories-for-starter-plan.md)。
    * [云基础架构上的Adobe Commerce Pro计划支持知识库中的架构日志](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)。
 1. 根据您发现的错误，如果要启用、禁用或卸载自定义模块，这些文章将详细介绍这些操作：
-   * 在开发人员文档中[启用或禁用模块](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html)。
-   * 在开发人员文档中[卸载模块](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html)。
+   * 在开发人员文档中[启用或禁用模块](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)。
+   * 在开发人员文档中[卸载模块](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)。
 
 ### 云基础架构上的Adobe Commerce，所有版本
 
-1. 在开发人员文档中记录位置： [云基础架构上的Adobe Commerce ](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)。
+1. 在开发人员文档中记录位置： [云基础架构上的Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)。
 1. 根据您发现的错误，如果您希望启用、禁用或卸载自定义模块，我们开发人员文档中的以下文章将详细介绍这些操作：
-   * [安装、管理和升级扩展](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html)。
-   * [组件部署失败](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html)。
+   * [安装、管理和升级扩展](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions)。
+   * [组件部署失败](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment)。
 
 ## 相关阅读
 
 在我们的开发人员文档中：
 
-* [模块概述](https://devdocs.magento.com/guides/v2.3/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [安装可选示例数据时出错](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_sample-data.html)
-* [异常处理](https://devdocs.magento.com/guides/v2.3/graphql/develop/exceptions.html)
-* 安装期间出现[异常](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_exceptions.html)
-* [运行模块管理器](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html)
-* [模块配置文件](https://devdocs.magento.com/guides/v2.3/config-guide/config/config-files.html)
-* [内存不足错误](https://devdocs.magento.com/guides/v2.3/comp-mgr/trouble/cman/out-of-memory.html)
+* [模块概述](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [安装可选示例数据时出错](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
+* [异常处理](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
+* 安装期间出现[异常](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
+* [运行模块管理器](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
+* [模块配置文件](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
+* [内存不足错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)

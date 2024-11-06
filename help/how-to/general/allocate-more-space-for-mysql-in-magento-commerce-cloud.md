@@ -3,7 +3,7 @@ title: 在云上的Adobe Commerce中为MySQL分配更多空间
 description: 本文介绍了如何在云基础架构的Adode Commerce中为MySQL分配更多空间。
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-请参阅[设置MySQL服务](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html)文章以供参考。
+请参阅[设置MySQL服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供参考。
 
 更改`.magento/services.yaml`文件后，您需要提交并推送更改以便应用。 推送将触发部署过程。
 

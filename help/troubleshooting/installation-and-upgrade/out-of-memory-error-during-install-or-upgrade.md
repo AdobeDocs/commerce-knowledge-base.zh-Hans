@@ -4,7 +4,7 @@ description: 本文介绍了在安装/升级Adobe Commerce内部部署和Magento
 exl-id: c0ed8228-9357-4a3b-a102-1119386ea52a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -40,7 +40,7 @@ proc_open(): fork failed - Cannot allocate memory
 
 ## 解决方案 {#solution}
 
-我们建议您[在我们的开发人员文档中为PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)分配2GB的内存，以确保您的安装或升级成功。
+我们建议您[在我们的开发人员文档中为PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)分配2GB的内存，以确保您的安装或升级成功。
 
 如果您已经这样做，请在您的计算机上创建一个交换文件。 如果Linux计算机需要更多内存资源并且RAM已满，则它使用&#x200B;*交换空间*。 交换空间用于内存中的非活动页。
 

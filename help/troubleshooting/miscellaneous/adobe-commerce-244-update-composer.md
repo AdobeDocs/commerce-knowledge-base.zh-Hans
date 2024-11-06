@@ -4,7 +4,7 @@ description: 本文提供了一个解决方案，可避免在从Adobe Commerce 2
 exl-id: 7502ca9e-c307-4e8a-aa1d-4886e7be25da
 feature: Upgrade
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 将以下内容添加到您的`composer.json`文件，具体取决于您安装Adobe Commerce的方式：
 
-* 如果已使用`composer create-project`命令](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)创建项目[：
+* 如果已使用`composer create-project`命令](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage)创建项目[：
 
   ```json
   "config": {

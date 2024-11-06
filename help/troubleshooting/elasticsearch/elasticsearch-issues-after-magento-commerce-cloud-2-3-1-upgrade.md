@@ -3,7 +3,7 @@ title: Adobe Commerce cloud基础架构2.3.1+升级后的Elasticsearch问题
 description: 如果您使用的是Elasticsearch版本2.x和5.x，本文将讨论在云基础架构版本2.3.1及更高版本上升级到Adobe Commerce后修复部署期间出现的问题。
 exl-id: 6ceeb2ea-528d-4c03-ab2b-c5aed46fd0a2
 feature: Cloud
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->将在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除[MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。请参阅[安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
+>将在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除[MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。请参阅[安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 >[!WARNING]
 >
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 原因
 
-在云基础架构（版本2.3.1及更高版本）上升级到Adobe Commerce并且使用6.x之前的Elasticsearch版本的商家在部署时可能会遇到错误。 这是因为Elasticsearch版本2.x和5.x的生命周期已结束[并且在Adobe Commerce中不再受支持。 ](https://www.elastic.co/support/eol)Elasticsearch客户端必须是最新的，或者运行部署可能会触发错误。 要了解更多信息，请参阅我们的开发人员文档中的[更改Elasticsearch客户端](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html)。
+在云基础架构（版本2.3.1及更高版本）上升级到Adobe Commerce并且使用6.x之前的Elasticsearch版本的商家在部署时可能会遇到错误。 这是因为Elasticsearch版本2.x和5.x的生命周期已结束[并且在Adobe Commerce中不再受支持。 ](https://www.elastic.co/support/eol)Elasticsearch客户端必须是最新的，或者运行部署可能会触发错误。 要了解更多信息，请参阅我们的开发人员文档中的[更改Elasticsearch客户端](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 ## 问题
 
@@ -43,12 +43,12 @@ ht-degree: 0%
 
 要解决此问题，Elasticsearch客户端模块和Elasticsearch服务需要采用最新的推荐版本：
 
-1. 按照我们的开发人员文档中的说明[更改Elasticsearch模块](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html)，以便您拥有最新推荐版本的Elasticsearch客户端模块。
+1. 按照我们的开发人员文档中的说明[更改Elasticsearch模块](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)，以便您拥有最新推荐版本的Elasticsearch客户端模块。
 1. [提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)并请求在暂存和生产环境中将Elasticsearch服务更新为6.x。 请注意，Elasticsearch服务的升级可能需要一些时间才能完成。
 
 ## 相关阅读
 
-* 在开发人员文档中[Adobe Commerce 2.3技术栈栈要求](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements-tech.html)。
-* 在开发人员文档中[设置Elasticsearch服务](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html)。
-* 在我们的开发人员文档中[安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
+* 在开发人员文档中[Adobe Commerce 2.3技术栈栈要求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
+* 在开发人员文档中[设置Elasticsearch服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
+* 在我们的开发人员文档中[安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 * [确保已在我们的支持知识库中正确安装Elasticsearch](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)。

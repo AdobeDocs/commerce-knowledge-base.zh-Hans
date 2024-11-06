@@ -4,7 +4,7 @@ description: 当您尝试通过管理面板访问“Web设置向导”时遇到4
 exl-id: 1b89da58-c872-481b-b2a0-aa48db8223db
 feature: Admin Workspace, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 在云基础架构上的Adobe Commerce上禁用此功能。
 
-请参阅我们的开发人员文档中的[安装、管理和升级扩展](https://devdocs.magento.com/cloud/howtos/install-components.html)，以了解如何在我们的云基础架构上执行更新或安装Adobe Commerce的外部模块。
-有关如何对Adobe Commerce内部部署执行更新或安装外部模块的信息，请参阅开发人员文档中的[快速入门安装](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)。
+请参阅我们的开发人员文档中的[安装、管理和升级扩展](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions)，以了解如何在我们的云基础架构上执行更新或安装Adobe Commerce的外部模块。
+有关如何对Adobe Commerce内部部署执行更新或安装外部模块的信息，请参阅开发人员文档中的[快速入门安装](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
 
 ## 相关阅读
 
-* 请参阅我们的开发人员文档中的[安装扩展](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)。
+* 请参阅我们的开发人员文档中的[安装扩展](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)。

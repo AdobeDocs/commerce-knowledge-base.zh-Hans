@@ -4,7 +4,7 @@ description: 针对Adobe CommerceMagento Order Management系统(OMS)由于MOM在
 exl-id: 19149d8c-ea24-46fb-8815-9f637afe46ca
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在本地环境中安装Adobe Commerce。
 1. 设置ngrok以创建一个通道来公开您的本地服务器。
-1. 尝试[连接到OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)。
+1. 尝试[连接到OMS](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)。
 
 <u>预期的结果</u>
 

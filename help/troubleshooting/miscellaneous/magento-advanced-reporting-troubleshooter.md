@@ -4,7 +4,7 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 +++**您的网站是否符合高级报告要求？**
 
-使用高级报告时，出现“404错误”页面。 您的网站是否符合[高级报告要求](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)？
+使用高级报告时，出现“404错误”页面。 您的网站是否符合[高级报告要求](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)？
 
 a.是 — 继续执行[步骤2](#step-2)。\
-b.否 — 按照[高级报告要求](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)中的步骤完成网站的高级报告要求。 然后，继续执行[步骤2](#step-2)。
+b.否 — 按照[高级报告要求](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)中的步骤完成网站的高级报告要求。 然后，继续执行[步骤2](#step-2)。
 
 +++
 
@@ -44,7 +44,7 @@ b.否 — 输出仅显示一种货币。 示例： `USD`。 是否曾经使用�
 
 +++**您是否使用拆分数据库解决方案？**
 
-您是否使用[拆分数据库解决方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)？
+您是否使用[拆分数据库解决方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)？
 
 a.是 — 对拆分数据库解决方案](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)使用[高级报告404错误中的修补程序&#x200B;**MDVA-26831**&#x200B;并清除缓存。 请等待24小时以使作业再次运行，然后重试。\
 b.否 — 继续执行[步骤4](#step-4)。
@@ -55,10 +55,10 @@ b.否 — 继续执行[步骤4](#step-4)。
 
 +++**是否启用了高级报告？**
 
-检查&#x200B;**管理员** > **商店** > **设置** > **配置** > **常规** > **高级报告**。 有关详细步骤，请查看[高级报告：启用高级报告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)。
+检查&#x200B;**管理员** > **商店** > **设置** > **配置** > **常规** > **高级报告**。 有关详细步骤，请查看[高级报告：启用高级报告](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)。
 
 a.是 — 继续执行[步骤5](#step-5)。\
-b.否 — [启用高级报告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)并保存，等待24小时让Adobe Commerce和高级报告同步。 检查您的数据现在是否加载。 如果它确实解决了这个问题。 如果未执行[步骤5](#step-5)。
+b.否 — [启用高级报告](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)并保存，等待24小时让Adobe Commerce和高级报告同步。 检查您的数据现在是否加载。 如果它确实解决了这个问题。 如果未执行[步骤5](#step-5)。
 
 +++
 
@@ -81,9 +81,9 @@ b.否 — 如果令牌值为NULL或数据库中没有记录，请继续执行[�
 
 a.是 — 执行以下步骤：1. 运行以下查询：\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\。 [在设置中禁用并启用高级报告模块](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)，并[重新授权令牌](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active)。\
+2\。 [在设置中禁用并启用高级报告模块](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，并[重新授权令牌](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
 3\。 等待24小时，以便Adobe Commerce和高级报表进行同步。 如果仍无法在高级报表中看到数据，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
-b.否 — 如果查询未返回任何内容，请执行以下步骤：1. [在设置中禁用并启用高级报告模块](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)，并[重新授权令牌](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active)。\
+b.否 — 如果查询未返回任何内容，请执行以下步骤：1. [在设置中禁用并启用高级报告模块](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，并[重新授权令牌](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
 2\。 等待24小时，以便Adobe Commerce和高级报表进行同步。 如果仍无法在高级报表中看到数据，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 +++

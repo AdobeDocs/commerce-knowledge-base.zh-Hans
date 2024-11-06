@@ -4,7 +4,7 @@ description: 本文就如何解决Venia storefront GraphQL查询到Adobe Commerc
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -42,9 +42,9 @@ yarn run validate-queries
 有关如何升级的说明，请参阅以下文档：
 
 * 对于PWA Studio升级，请在[PWA发行说明](https://github.com/magento/pwa-studio/releases/)的“从以前的版本升级”部分搜索需要升级到的版本。
-* 在开发人员文档中[在云基础架构版本](https://devdocs.magento.com/cloud/project/project-upgrade.html)上升级Adobe Commerce
-* [在我们的开发人员文档中升级Adobe Commerce内部部署（使用“composer create-project”或archive安装）](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html)
-* 在我们的开发人员文档中[升级Adobe Commerce内部部署(通过克隆Adobe Commerce repo安装)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html)
+* 在开发人员文档中[在云基础架构版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)上升级Adobe Commerce
+* [在我们的开发人员文档中升级Adobe Commerce内部部署（使用“composer create-project”或archive安装）](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)
+* 在我们的开发人员文档中[升级Adobe Commerce内部部署(通过克隆Adobe Commerce repo安装)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs)
 
 ## 相关阅读
 

@@ -2,7 +2,7 @@
 title: 无法访问最新的Beta版本
 description: 本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于遵循[Adobe Commerce Beta计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe合作伙伴。
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 提前访问代码位置
 
-在测试版访问期间，只能通过[repo.magento.com](https://repo.magento.com/)上的Composer获得发行包。 在此期间，发行包在GitHub和Adobe Commerce门户上不可用，我们将在GA日期将它们发布到这些位置。 有关如何使用Composer的更多详细信息，请单击[此处](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)。
+在测试版访问期间，只能通过[repo.magento.com](https://repo.magento.com/)上的Composer获得发行包。 在此期间，发行包在GitHub和Adobe Commerce门户上不可用，我们将在GA日期将它们发布到这些位置。 有关如何使用Composer的更多详细信息，请单击[此处](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
 
 ### 您需要使用的图像ID
 

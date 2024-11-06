@@ -4,7 +4,7 @@ description: 当您在New Relic中收到Adobe Commerce的关键磁盘警报时�
 exl-id: 03e5694b-7689-4fbf-8781-636fa46ca0d3
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: c829b4383fa808df29aab03229c59f06ef8a38bc
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 <u> **做！** </u>
 
 * 中止任何计划的部署，直到清除此警报。
-* 如果您的网站处于或完全无响应，请立即将网站置于维护模式。 有关步骤，请参阅[安装指南>启用或禁用维护模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten) 。 确保将您的IP添加到免除IP地址列表，以确保您仍然能够访问站点进行故障排除。 有关步骤，请参阅[维护免除IP地址列表](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt)。
+* 如果您的网站处于或完全无响应，请立即将网站置于维护模式。 有关步骤，请参阅[安装指南>启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) 。 确保将您的IP添加到免除IP地址列表，以确保您仍然能够访问站点进行故障排除。 有关步骤，请参阅[维护免除IP地址列表](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt)。
 
 **不要！**
 

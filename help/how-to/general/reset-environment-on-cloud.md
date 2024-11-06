@@ -3,7 +3,7 @@ title: 在云基础架构上重置Adobe Commerce上的环境
 description: 本文显示了在Adobe Commerce上回滚云基础架构上环境的各种方案。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 ## 场景2：恢复快照
 
-阅读：我们的开发人员文档中的[在Adobe Commerce上还原云基础架构上的快照](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot)。
+阅读：我们的开发人员文档中的[在Adobe Commerce上还原云基础架构上的快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
 
 >[!NOTE]
 >
 >在访问云基础架构帐户上的Adobe Commerce之后以及在应用重大更改之前，创建快照必须是我们的第一步。 这是最佳实践，强烈推荐。
 
-阅读：在我们的开发人员文档中创建[快照](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot)。
+阅读：在我们的开发人员文档中创建[快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
 
 ## 场景3：无快照，构建稳定（可用SSH连接）
 

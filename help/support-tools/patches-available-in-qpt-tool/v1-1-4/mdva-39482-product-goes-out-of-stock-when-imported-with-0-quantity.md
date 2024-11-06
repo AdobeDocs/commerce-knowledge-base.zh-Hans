@@ -1,10 +1,10 @@
 ---
 title: “MDVA-39482：如果导入的数量为“0”且启用了延交订单，则产品缺货”
-description: MDVA-39482修复了在启用MSI和延交订单并且“缺货阈值”设置为负值的情况下，如果以“0”数量导入产品，则产品缺货的问题。 安装[Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4后，即可使用此修补程序。 修补程序ID为MDVA-39482。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
+description: MDVA-39482修复了在启用MSI和延交订单并且“缺货阈值”设置为负值的情况下，如果以“0”数量导入产品，则产品缺货的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4后，即可使用此修补程序。 修补程序ID为MDVA-39482。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
 exl-id: 2caf461c-993d-48b3-bc47-3fa1d014deaf
 feature: Data Import/Export, Orders, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-39482：如果导入的数量为“0”且启用了延交订单，则产品缺货
 
-MDVA-39482修复了在启用MSI和延交订单并且“缺货阈值”设置为负值的情况下，如果以“0”数量导入产品，则产品缺货的问题。 安装[Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4时，此修补程序可用。 修补程序ID为MDVA-39482。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
+MDVA-39482修复了在启用MSI和延交订单并且“缺货阈值”设置为负值的情况下，如果以“0”数量导入产品，则产品缺货的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4时，此修补程序可用。 修补程序ID为MDVA-39482。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
 
 ## 受影响的产品和版本
 
@@ -27,7 +27,7 @@ Adobe Commerce（所有部署方法） 2.3.6 - 2.3.7-p2、2.4.1 - 2.4.3-p1
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
@@ -64,8 +64,8 @@ Adobe Commerce（所有部署方法） 2.3.6 - 2.3.7-p2、2.4.1 - 2.4.3-p1
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* 在开发人员文档中，参阅Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用修补程序](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
-* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 在开发人员文档中，参阅Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相关阅读
 

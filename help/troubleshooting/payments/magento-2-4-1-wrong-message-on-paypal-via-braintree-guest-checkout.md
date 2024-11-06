@@ -4,7 +4,7 @@ description: 本文介绍了一个已知的Adobe Commerce 2.4.1问题：如果�
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 <u>先决条件</u>：
 
 1. 在Commerce管理员中，在&#x200B;**商店** > **配置** > **销售** > **签出**&#x200B;下，设置&#x200B;**允许来宾签出** = *否*。
-1. 按照用户指南中的[Braintree](https://docs.magento.com/user-guide/payment/braintree.html?)所述，通过Braintree启用PayPal。
+1. 按照用户指南中的[Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?)所述，通过Braintree启用PayPal。
 
 <u>重现步骤</u>：
 
@@ -55,10 +55,10 @@ ht-degree: 0%
 
 ## 解决方法
 
-此问题的解决方法是客户可以在商店登录（登录用户不使用来宾结帐）。 禁用来宾签出。 已在Adobe Commerce版本2.4.2中修复此问题。
+此问题的解决方法是客户可以在禁用来宾签出的商店（登录用户不使用来宾签出）登录。 已在Adobe Commerce版本2.4.2中修复此问题。
 
 ## 相关阅读
 
 * 在我们支持知识库中，[Adobe Commerce购物车中产品数量的最佳实践](https://support.magento.com/hc/en-us/articles/360048550332)。
-* [订单处理教程：步骤1。 在开发人员文档中将项目添加到购物车](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html)
-* [GraphQL签出教程：步骤1。 在开发人员文档中将产品添加到购物车](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html)
+* [订单处理教程：步骤1。 在开发人员文档中将项目添加到购物车](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/)
+* [GraphQL签出教程：步骤1。 在开发人员文档中将产品添加到购物车](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html)

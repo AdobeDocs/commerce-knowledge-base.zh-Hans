@@ -4,7 +4,7 @@ description: 本文修复了Adobe Commerce中的“robots.txt”文件在云基�
 exl-id: 6f0b9f47-1901-4c43-88d8-fd992015d70f
 feature: Cloud, Marketing Tools, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,5 +38,5 @@ ht-degree: 0%
 ## 相关阅读
 
 * [如何在我们的支持知识库中阻止恶意流量进行Fastly级别](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)的Magento Commerce Cloud。
-* 在开发人员文档中[添加站点地图和搜索引擎机器人](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)。
+* 在开发人员文档中[添加站点地图和搜索引擎机器人](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。
 * 我们用户指南中的[搜索引擎机器人](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots)。

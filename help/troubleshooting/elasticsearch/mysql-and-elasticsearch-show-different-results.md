@@ -2,7 +2,7 @@
 title: MySQL和Elasticsearch显示不同的结果
 description: 本文为云基础架构2.2.3上的已知Adobe Commerce问题提供了一个修补程序，该问题与使用MySQL和Elasticsearch获取同一搜索查询的不同搜索结果相关。
 exl-id: 37a0164a-0237-4200-ab9c-e0dbad7e2062
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 将在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除[MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置和配置Elasticsearch主机。请参阅我们的开发人员文档中的[安装和配置Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
+> 将在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除[MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置和配置Elasticsearch主机。请参阅我们的开发人员文档中的[安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 本文为云基础架构2.2.3上的已知Adobe Commerce问题提供了一个修补程序，该问题与使用MySQL和Elasticsearch获取同一搜索查询的不同搜索结果相关。
 
