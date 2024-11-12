@@ -4,7 +4,7 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -46,7 +46,7 @@ b.否 — 输出仅显示一种货币。 示例： `USD`。 是否曾经使用�
 
 您是否使用[拆分数据库解决方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)？
 
-a.是 — 对拆分数据库解决方案](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)使用[高级报告404错误中的修补程序&#x200B;**MDVA-26831**&#x200B;并清除缓存。 请等待24小时以使作业再次运行，然后重试。\
+a.是 — 对拆分数据库解决方案和清除缓存使用高级报告404错误中的修补程序&#x200B;**MDVA-26831**。 请等待24小时以使作业再次运行，然后重试。\
 b.否 — 继续执行[步骤4](#step-4)。
 
 +++
