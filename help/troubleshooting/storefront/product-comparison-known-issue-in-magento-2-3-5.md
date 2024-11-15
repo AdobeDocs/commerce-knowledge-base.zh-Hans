@@ -4,9 +4,9 @@ description: 本文提供了有关如何避免在Adobe Commerce内部部署2.3.5
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,6 @@ Adobe Commerce 2.3.6中将会提供相应的修复，该版本计划于2020年�
 <p title="在Adobe Commerce 2.3.5中无法正确处理包含虚拟产品的多配送订单"><a href="/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md">在Adobe Commerce 2.3.5中无法正确处理包含虚拟产品的多配送订单</a></p>
 </li>
 <li><a href="/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md">Adobe Commerce 2.3.5中的批量操作产品计数已知问题</a></li>
-<li>
-<p title="Adobe Commerce中的云基础设施国家/地区支付方法问题，以及Adobe Commerce内部部署2.3.5和2.3.5-p1"><a href="/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md">Adobe Commerce中的云基础设施国家/地区支付方法问题，以及Adobe Commerce内部部署2.3.5和2.3.5-p1</a></p>
-</li>
 <li>
 <p title="Adobe Commerce 2.3.5-p1中有关Amazon Pay签出问题的修补程序"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Adobe Commerce 2.3.5-p1中有关Amazon Pay签出问题的修补程序</a></p>
 </li>

@@ -4,9 +4,9 @@ description: 本文针对在Adobe Commerce 2.3.5中结账期间出现的已知�
 exl-id: a0cca226-4d95-40b3-bd37-f13d28591366
 feature: Checkout, Orders, Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,6 @@ Adobe Commerce在订单页面的“订单摘要”部分引发错误。
 Adobe Commerce 2.3.5支持知识库中的已知问题文章：
 
 * [在Adobe Commerce 2.3.5中无法正确处理包含虚拟产品的多配送订单](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
-
-* [Adobe Commerce中的云基础设施国家/地区支付方法问题，以及Adobe Commerce内部部署2.3.5和2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-
 
 * [Adobe Commerce 2.3.5中的批量操作产品计数已知问题](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 
