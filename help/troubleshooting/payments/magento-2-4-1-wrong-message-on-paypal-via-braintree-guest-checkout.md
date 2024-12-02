@@ -1,10 +1,10 @@
 ---
-title: 'Adobe Commerce 2.4.1：PayPalBraintree访客结帐时出现错误消息'
+title: Adobe Commerce 2.4.1：PayPalBraintree访客结帐时出现错误消息
 description: 本文介绍了一个已知的Adobe Commerce 2.4.1问题：如果禁用访客签出，则尝试通过Braintree使用PayPal下达订单的访客客户将收到一则非信息性错误消息。
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 * 在我们支持知识库中，[Adobe Commerce购物车中产品数量的最佳实践](https://support.magento.com/hc/en-us/articles/360048550332)。
 * [订单处理教程：步骤1。 在开发人员文档中将项目添加到购物车](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/)
-* [GraphQL签出教程：步骤1。 在开发人员文档中将产品添加到购物车](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html)
+* [GraphQL签出教程：步骤1。 在开发人员文档中将产品添加到购物车](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/)

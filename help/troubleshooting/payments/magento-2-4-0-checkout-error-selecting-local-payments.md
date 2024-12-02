@@ -1,10 +1,10 @@
 ---
-title: 'Adobe Commerce 2.4.0：选择本地付款时出现结账错误'
-description: “本文介绍了结账期间Adobe Commerce中一个已知问题的解决方案，该问题导致在某些国家/地区选择本地支付方式时出现错误消息。 这种情况发生在比利时、意大利、荷兰、波兰和西班牙等国家。
+title: Adobe Commerce 2.4.0：选择本地付款时出现结账错误
+description: 本文介绍了结账过程中Adobe Commerce中一个已知问题的解决方案，该问题导致在某些国家/地区选择本地支付方式时出现错误消息。 这种情况发生在以下国家：比利时、意大利、荷兰、波兰和西班牙。
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: a8cc7ad0cb9cb111f5b9636ff18aef3b6ed44329
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * 已安装Adobe Commerce 2.4.0。
 * 创建一个产品和一个类别。
-* 配置[Braintree付款方式](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree.html)。
+* 配置[Braintree付款方式](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/)。
 
 <u>重现步骤</u>：
 

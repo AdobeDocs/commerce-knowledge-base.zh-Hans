@@ -1,10 +1,10 @@
 ---
-title: “MDVA-44147：GraphQL请求未返回申请列表”
+title: MDVA-44147：GraphQL请求未返回申请列表
 description: MDVA-44147修补程序修复了GraphQL请求不返回申请列表的问题。 安装[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14后，即可使用此修补程序。 修补程序ID为MDVA-44147。 请注意，该问题计划在Adobe Commerce 2.4.5中修复。
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -52,7 +52,7 @@ GraphQL请求不返回申请列表。
       </code>
       </pre>
 
-1. 使用以下查询从客户处检索所有申请列表。 使用值为`Bearer <customer_token>`的&#x200B;**授权**&#x200B;标头。 有关详细信息，请参阅开发人员文档中的[客户查询](https://developer.adobe.com/commerce/webapi/graphql/queries/customer.html)文章。
+1. 使用以下查询从客户处检索所有申请列表。 使用值为`Bearer <customer_token>`的&#x200B;**授权**&#x200B;标头。 有关详细信息，请参阅开发人员文档中的[客户查询](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer/)文章。
 
    请求：
 

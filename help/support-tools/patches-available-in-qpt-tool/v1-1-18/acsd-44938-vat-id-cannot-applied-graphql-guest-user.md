@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-44938：无法在GraphQL的访客用户请求中应用VAT_ID'
+title: ACSD-44938：无法在GraphQL访客用户请求中应用VAT_ID
 description: ACSD-44938修补程序修复了在GraphQL请求中无法将VAT_ID应用于访客用户的问题。 安装[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18后，即可使用此修补程序。 修补程序ID为ACSD-44938。 请注意，该问题计划在Adobe Commerce 2.4.6中修复。
 exl-id: 18b3dfa5-b666-491e-a067-526a53294f39
 feature: Admin Workspace, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -35,12 +35,12 @@ VAT_ID不能在GraphQL请求中应用于来宾用户。
 
 <u>重现步骤</u>：
 
-1. 按照开发人员文档中的[GraphQL教程](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-shopping-cart.html)中所述的步骤创建访客购物车。
+1. 按照开发人员文档中的[GraphQL教程](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/)中所述的步骤创建访客购物车。
 1. 尝试使用GraphQL为来宾用户应用VAT_ID。
 
 <u>预期的结果</u>：
 
-VAT_ID的应用方式与注册客户的相同。 请参阅我们的开发人员文档中的[createCustomerAddress突变](https://developer.adobe.com/commerce/webapi/graphql/mutations/create-customer-address.html)一文。
+VAT_ID的应用方式与注册客户的相同。 请参阅我们的开发人员文档中的[createCustomerAddress突变](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-address/)一文。
 
 <u>实际结果</u>：
 
