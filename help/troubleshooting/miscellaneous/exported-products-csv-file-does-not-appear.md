@@ -1,19 +1,19 @@
 ---
 title: 导出的产品.csv文件不显示
-description: 本文修复了以下问题：您尝试在Commerce管理员中将产品导出到.csv文件，但文件未显示。
+description: 本文修复了以下问题：您尝试在Commerce管理员中将所需的实体类型导出到.csv文件，但文件未显示。
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
+source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # 导出的产品.csv文件不显示
 
-本文修复了以下问题：您尝试在Commerce管理员中将产品导出到.csv文件，但文件未显示。
+本文为在Commerce管理员中将所需的实体类型导出到.csv文件导致不显示该文件的问题提供了解决方案。
 
 ## 受影响的产品和版本
 
@@ -30,7 +30,7 @@ ht-degree: 0%
    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. 选择
-   * **实体类型**：*产品*
+   * **实体类型**：要导出的实体
    * **导出文件格式**： *CSV*
    * **字段存储模块**：保持未选中状态。
 1. 单击&#x200B;**继续**。
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 <u>预期的结果</u>
 
-几分钟后，网格中会显示包含导出产品的.csv文件。
+包含导出的所需实体类型的.csv文件会在几分钟内显示在网格中。
 
 <u>实际结果</u>
 
-包含导出产品的.csv文件在10分钟或更长时间后不会显示在网格中。
+包含导出的所需实体类型的.csv文件在10分钟或更长时间后不会显示在网格中。
 
 ## 原因
 
