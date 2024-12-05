@@ -3,9 +3,9 @@ title: 在Adobe Commerce上的群集中查看环境vCPU层
 promoted: true
 description: 本文介绍如何使用“Adobe Commerce观察”上的“New Relic基础架构”选项卡检查您的vCPU层分配。 Adobe Commerce观察信息是一个New Relic Nerdlet，它显示Adobe Commerce站点的状态、当前和过去的时间视图。
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
-source-git-commit: 309fda5284de3b8be54e95bf2bfd8ff1777b6c90
+source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,3 @@ ht-degree: 0%
    * 第一个图形显示时间线上&#x200B;**vCPU层视图大于2周（您需要选择大于2周的时间线）。 注意：采样率将为每天。 如果群集在一天内发生上传/下传，则结束层大小将在第二天**&#x200B;显示。
    * 第二个图形显示时间线上的&#x200B;**vCPU层视图（需要选择大于24小时但不大于2周的时间线）**。
    * 第三个图形显示时间线上的&#x200B;**vCPU层视图（按节点），应查看时间线小于24小时**。
-
-## 相关阅读
-
-* 在我们的支持知识库中对Adobe Commerce概述[的观察](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)。
