@@ -4,7 +4,7 @@ description: 本文提供了在运行数据迁移工具时可能发生的错误�
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### 原因
 
-在我们的开发人员文档中的[EAV迁移步骤](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification)期间，在Adobe Commerce 2代码库中找不到Adobe Commerce 1代码库中的类。 在大多数情况下，缺少的类属于[扩展](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension)。
+在我们的开发人员文档中的[EAV迁移步骤](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification)期间，在Adobe Commerce 2代码库中找不到Adobe Commerce 1代码库中的类。 在大多数情况下，缺少的类属于[扩展](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension)。
 
 ### 可采用的解决方案
 

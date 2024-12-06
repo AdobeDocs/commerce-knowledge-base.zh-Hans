@@ -4,7 +4,7 @@ description: 本文介绍了为什么在具有PayPal API的Sandbox环境中测�
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -36,6 +36,6 @@ Error happened when processing the request. Please try again later.
 
 使用其他测试信用卡。 要生成可用于测试的模拟信用卡，请执行以下操作：
 
-1. 转到PayPal开发人员门户[信用卡生成器](https://developer.paypal.com/developer/creditCardGenerator/)页面。
+1. 转到PayPal开发人员门户[信用卡生成器](https://developer.paypal.com/api/rest/sandbox/card-testing/#link-creditcardgenerator)页面。
 1. 登录到PayPal开发人员门户仪表板。
 1. 生成测试信用卡。
