@@ -4,7 +4,7 @@ description: 本文介绍了为什么在具有PayPal API的Sandbox环境中测�
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
+source-git-commit: 958067830d32b1f10ffa669307ec76d1e14b82a4
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 本文介绍了为什么在具有PayPal API的Sandbox环境中测试信用卡失败。
 
 ## 受影响的产品和版本
-
 
 * Adobe Commerce 2.4.0 - 2.4.4 ，所有部署选项，带[付款服务](https://marketplace.magento.com/magento-payment-services.html)
 
