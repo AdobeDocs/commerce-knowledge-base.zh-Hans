@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
+source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,18 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 ### 提交支持案例 {#support-case}
 
 以帐户所有者或Shared Access用户身份成功登录后，您可以使用Adobe Experience League主页、Adobe Commerce帐户页面和Adobe Commerce Cloud帐户页面提交支持案例。
+
+>[!NOTE]
+>
+>Adobe Commerce Marketplace团队的支持请求无法通过Experience League提交，因为其支持系统在未与Experience League集成的单独平台上运行。
+>
+>如果以下陈述属实，您可以提交支持案例：
+>
+>* 有问题的组织在左列中命名，以([!DNL Commerce])结尾。 您的问题与该组织或与其关联的帐户相关。
+>* 您的问题是无法登录Marketplace帐户，或者对于部署扩展有疑问。
+>* 您提出的问题不仅仅是为所购买的Marketplace产品申请退款。
+>
+>对于与发布扩展、在购买过程中遇到问题或在[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/)中请求退款相关的问题，您必须直接访问https://commercemarketplace.adobe.com/以联系[!DNL Commerce Marketplace]团队。 导航到页面底部并单击&#x200B;**[!UICONTROL Contact Us]**，这将打开一个表单以提交Marketplace支持票证。
 
 #### Adobe Experience League起始页 {#experience-league-start-page}
 
