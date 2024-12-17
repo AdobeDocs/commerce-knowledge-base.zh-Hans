@@ -4,9 +4,9 @@ description: 使用Deployment Troubleshooter工具可解决Adobe Commerce上的�
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 6177863da268f43cc30119cef6f718a04c46b3e6
+source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ b.否 — 维护或全球中断。 检查预计持续时间和更新。
 
 +++**其他环境中是否有部署阻止现有环境中的部署？**
 
-要获取正在进行的活动的列表，请使用magento-cloud CLI运行以下命令（如果您仅添加到一个云项目）：
+要获取正在进行的活动列表，请使用magento-cloud CLI运行以下命令（如果您仅添加到一个云项目）。 **注意**：请检查您是否使用最新版本的magento-cloud CLI。 有关步骤，请参阅Commerce on Cloud Infrastructure指南中的[更新CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli)。
 
 ```bash
 magento-cloud --state=in_progress
@@ -199,7 +199,7 @@ b.否 — 继续执行[步骤18](#step-18)。
 
 ## 步骤18 — 检查开机自检挂钩故障 {#step-18}
 
-+++**Post挂接失败/挂起？**
++++**发布挂接失败/挂起？**
 
 a.是 — 数据库： [可用磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space)，损坏，表不完整/损坏。\
 b.否 — 继续执行[步骤19](#step-19)。
