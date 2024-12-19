@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
+source-git-commit: 16511a9bcc0e229297916f5c48ee8b606e10edbe
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -339,13 +339,15 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 <u>原因</u>
 
-如果您拥有Adobe Commerce Cloud项目，并且在该项目中添加了用户，则他们会自动被授予对项目所有者图像ID的共享访问权限。 这通常显示在&#x200B;**[!UICONTROL Share Name]**&#x200B;列中，显示来自MAG[XYZ ]*的*&#x200B;云共享访问。
+如果您拥有Adobe Commerce Cloud项目并且在该项目中添加了用户，则他们可能已自动获得项目所有者的图像ID共享访问权限。 这通常显示在&#x200B;**[!UICONTROL Share Name]**&#x200B;列中，显示来自MAG[XYZ ]*的*&#x200B;云共享访问。
 
-如果缺少DELETE链接，则表示通过Commerce Cloud自动授予共享访问权限。
+>[!NOTE]
+>
+>如果缺少DELETE链接，则表示通过Commerce Cloud自动授予共享访问权限。
 
 <u>解决方案</u>
 
-如果未在此页面上添加/提供共享访问，则无法从MAG[XYZ ]*中删除共享名称为* Cloud共享访问的共享访问用户列表。 保留它们是为了提供信息/进行审核。
+如果未在此页面](https://account.magento.com/grantor/manage/)上添加/给定[，则无法从MAG[XYZ ]*中删除共享名称为* Cloud Shared Access的共享访问用户列表。 保留它们是为了提供信息/进行审核。
 
 但是，一旦您撤销了这些共享访问用户的权限，他们将不再拥有该访问权限。
 
