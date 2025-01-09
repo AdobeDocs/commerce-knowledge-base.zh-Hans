@@ -4,7 +4,7 @@ description: 本文修复了由于完全重新索引（其中与索引相关的�
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 72ee49a8667f575a58e0cf1b3d5c9df936cc628b
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,3 +59,4 @@ ht-degree: 0%
 
 * [索引概述：如何在我们的开发人员文档中重新索引](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex)。
 * [无效缓存导致支持知识库中的响应时间降低](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)。
+
