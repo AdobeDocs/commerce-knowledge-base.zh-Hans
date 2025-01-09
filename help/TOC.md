@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: ace01511b6a3f3b406b25d563d892351a5f6cf7d
+source-git-commit: c46d29aa11b9cbbcccbf1765b4ae972e14ac80ac
 workflow-type: tm+mt
-source-wordcount: '9409'
+source-wordcount: '9397'
 ht-degree: 0%
 
 ---
@@ -1021,7 +1021,6 @@ ht-degree: 0%
    * [如何请求云基础架构扩展中的临时Adobe Commerce](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [在Adobe Commerce上的群集中查看环境vCPU层](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [云基础架构上的Adobe Commerce：检查主机的CPU配置](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
-   * [为Fastly on Cloud更改帐户所有者（通过API令牌访问凭据）](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)
    * [云上的Adobe Commerce：更改身份验证密钥并重新部署](/help/how-to/general/redeploy-with-another-key.md)
    * [如何在支持代理请求时创建“已清理”转储](/help/how-to/general/create-dump-for-support.md)
    * [MBI：创建和编辑高级计算列](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
