@@ -4,7 +4,7 @@ description: 本文修复了阻止程序在云基础架构上的Adobe Commerce�
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
+source-git-commit: df966df6a85057b26d53a870d038269ebdcc2b32
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -78,7 +78,7 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 建议：要确定性能不佳的可能原因，请考虑使用[Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit)进行性能测试。 您还可以考虑以下第三方工具：
 
-* [围攻](https://www.joedog.org/siege-home/)： HTTP负载测试和基准测试实用程序；支持基本身份验证、Cookie、HTTP、HTTPS和FTP协议。
+* [围攻](https://www.joedog.org/siege-home)： HTTP负载测试和基准测试实用程序；支持基本身份验证、Cookie、HTTP、HTTPS和FTP协议。
 * [Jmeter](https://jmeter.apache.org/)：一种可靠的负载测试和性能测量工具。 帮助衡量尖峰流量的性能，例如，针对闪存销售。
 * [New Relic](https://support.newrelic.com/)：查找导致网站性能变慢的进程和区域，跟踪每个操作花费的时间，如传输数据、查询、Redis等。
 * [WebPageTest](https://www.webpagetest.org/)（免费）和[Pingdom](https://www.pingdom.com/)（付费）：实时分析不同来源位置的网站页面加载时间。

@@ -4,7 +4,7 @@ description: MDVA-44147修补程序修复了GraphQL请求不返回申请列表�
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -37,7 +37,7 @@ GraphQL请求不返回申请列表。
 
 1. 转到&#x200B;**商店** > **设置** > **配置** > **常规** > **B2B功能**&#x200B;并启用申请列表。
 1. 以客户身份登录并将产品添加到[申请列表](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/requisition-lists)。
-1. 创建[客户令牌](https://developer.adobe.com/commerce/webapi/graphql/mutations/generate-customer-token.html)。
+1. 创建[客户令牌](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/)。
 
    <pre>
     <code class="language-graphql">
