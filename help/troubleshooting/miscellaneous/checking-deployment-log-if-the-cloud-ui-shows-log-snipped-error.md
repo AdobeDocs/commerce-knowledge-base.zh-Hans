@@ -4,9 +4,9 @@ description: 本文为以下问题提供了解决方案：云基础架构上的A
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
+source-git-commit: 846df05668b357b9088bcaf605a75c45ab10f1ae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,17 @@ ht-degree: 0%
 ## 解决方案
 
 1. 确保在本地环境中安装了[MagentoCloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html)。
-1. 运行以下命令：
+1. 可以运行以下任一命令：
 
    ```bash
-   magento-cloud activity -p <project id> -e <environment>
+   magento-cloud act -p <project id> -e <environment>
    ```
 
-1. 它将返回类似于以下内容的输出：
+   ```bash
+   magento-cloud activity:list -p <project id> -e <environment>
+   ```
+
+1. 它们将返回类似于以下内容的输出：
 
    ```bash
    Activities on the project <project name> (project id), environment <environment>:
