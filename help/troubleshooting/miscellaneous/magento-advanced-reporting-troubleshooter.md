@@ -4,7 +4,7 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
+source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -138,7 +138,7 @@ b.否 — 继续执行[步骤10](#step-10)。
 
 +++**cron作业是否引发错误消息？**
 
-示例：在`core_config_data`表中看到错误&#x200B;*“/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0文件无法删除*。 警告！unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0？lang=en)：没有此类文件或目录*
+示例：在`cron_schedule`表中看到错误&#x200B;*“/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0文件无法删除*。 警告！unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0？lang=en)：没有此类文件或目录*
 
 a.是 — 在[中使用ACSD-50165修补程序无法删除该文件。 警告！unlink：管理员](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)中没有此类文件或目录错误，请等待24小时以使作业再次运行，然后重试。\
 b.否 — 继续执行[步骤11](#step-11)。
