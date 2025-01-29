@@ -1,22 +1,33 @@
 ---
-title: “[!DNL FedEx]配送方式集成从SOAP迁移到RESTful API”
+title: '[!DNL FedEx]配送方式集成从SOAP迁移到RESTful API'
 promoted: true
 description: 应用修补程序以处理 [!DNL FedEx] 将集成从SOAP迁移到RESTful API for Adobe Commerce 2.4.4-p4 - 2.4.6-pX的问题。
 feature: Shipping/Delivery
 role: Developer
 exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
-source-git-commit: 7c468583883789a6bc6e41d1a787a356ea3205c4
+source-git-commit: 7a54e992e365238ec7c764225a31cd3b6b8ad019
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # [!DNL FedEx]配送方式集成从SOAP迁移到RESTful API
 
+>[!WARNING]
+>
+>使用[!DNL Quality Patches Tool] (QPT) 1.1.57版本中的ACSD-61622修补程序，而不是之前提供的修补程序。 新修补程序与Adobe Commerce版本（所有部署方法）2.4.6-p1 - 2.4.6-p8兼容。 它可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。
+>
+>有关详细信息，请参阅Adobe Commerce Tools指南中的[ACSD-61622修补程序文章](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response)。
+
+>[!WARNING]
+>
+>在安装新的修补程序之前，需要卸载本文中提供的先前修补程序。 有关卸载修补程序的说明，请参阅用户指南中的[还原自定义修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch)。
+
+
 本文提供了一个修补程序，用于解决将[!DNL FedEx]配送方式集成从SOAP迁移到Adobe Commerce 2.4.4-p4 - 2.4.6-pX的RESTful API时出现的问题。
 
-[!DNL FedEx Web Services]跟踪、地址验证和验证邮政编码Web服务定义语言(WSDLS)将于2024年5月15日停用。 基于SOAP的[!DNL FedEx Web Services]处于开发封闭中，已被[!DNL FedEx] RESTFUL API替换。 若要了解详细信息，请参阅[[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html)。
+[!DNL FedEx Web Services]跟踪、地址验证和验证邮政编码Web服务定义语言(WSDLS)已于2024年5月15日停用。 基于SOAP的[!DNL FedEx Web Services]处于开发封闭中，已被[!DNL FedEx] RESTFUL API替换。 若要了解详细信息，请参阅[[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html)。
 
 此更改会影响我们在Adobe Commerce中当前的[!DNL FedEx]配送方式集成实施，需要我们修复当前的实施，并从已弃用的SOAP API迁移到最新的[!DNL FedEx] RESTFUL API。
 
