@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 6321dfa57f694a53f4b9b1c1e93182d60fa63c7b
+source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '2963'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,10 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 ### 提供共享访问 {#provide-shared-access}
 
 有关设置共享帐户的详细步骤，请参阅Adobe Commerce快速入门指南的[共享Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)部分。
+
+>[!NOTE]
+>
+>在授予用户共享访问权限之前，该用户必须具有现有帐户 — 有关更多详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
 
 为新用户提供共享访问后，相关信息可在您的Adobe Commerce帐户页面的&#x200B;**共享访问** > **管理权限**&#x200B;中获得。
 
