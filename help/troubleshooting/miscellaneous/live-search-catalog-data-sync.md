@@ -4,9 +4,9 @@ description: 本文为使用Live Search扩展时目录数据无法正确同步�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 0%
 
 ## 问题
 
-您的目录数据未正确同步，或者已添加新产品，但未显示在搜索结果中。
+您的目录数据未正确同步，或者已添加新产品，但未显示在搜索结果中。 您还可能会在`var/log/exception.log`中收到以下错误：
+
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
@@ -134,6 +136,22 @@ ht-degree: 0%
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```
+
+运行以下命令以重新同步馈送：
+
+```
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
+```
+
+[提交支持请求](https://experienceleague.adobe.com/home?support-tab=home#support)以请求重新索引实时搜索索引。 在问题描述中，包括在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下的管理面板中找到的数据空间/环境ID。
 
 ## 相关阅读
 
