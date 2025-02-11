@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9de7cb6d2c9e529031999cad9ae6f3c8de5520c7
+source-git-commit: 229ae54f21cef7d8fe488bfacf5aaec8942a5fc2
 workflow-type: tm+mt
-source-wordcount: '9382'
+source-wordcount: '9386'
 ht-degree: 0%
 
 ---
@@ -603,7 +603,7 @@ ht-degree: 0%
          * [ACSD-57846：使用零价格过滤器搜索的GraphQL产品未返回结果](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
          * [ACSD-58054：为非活动客户生成API令牌](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
          * [ACSD-57045： URL重写导致在取消选中[!UICONTROL Hierarchy]中的[!UICONTROL Website Root]后出现无限的页面循环](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy.md)
-         * [ACSD-58446：通过GraphQL删除具有子用户或团队的团队时，会显示一条信息不明确的错误消息](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message.md)
+         * [ACSD-58446：通过GraphQL删除具有子用户或团队的团队会导致无法提供信息的错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message.md)
          * [ACSD-58375：在商店视图级别添加视频时，未正确配置YouTube API密钥会导致错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level.md)
       * v1.1.50 {#v1-1-50}
          * [概述： [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
@@ -622,7 +622,7 @@ ht-degree: 0%
          * [ACSD-48210：存储视图特定的范围属性将覆盖全局值](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
          * [ACSD-59280： 2.4.4-pX安装中的ReflectionUnionType：：getName()错误](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
          * [ACSD-60303：在启用HTML缩小功能的情况下解决了管理员订单放置问题](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
-      * [使用Quality Patches Tool检查Adobe Commerce问题的修补程序](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
+      * [使用Quality Patches Tool检查Commerce问题的修补程序](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 公告{#announcements}
    * [公告概述](/help/announcements/overview.md)
    * Adobe Commerce公告{#commerce-announcements}
@@ -933,6 +933,7 @@ ht-degree: 0%
       * [部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中，部署失败并显示正确的访问密钥](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知问题{#known-issues-patches-attached}
+      * [可用于Adobe Commerce的安全更新 — [!DNL APSB25-08]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
       * [Adobe Commerce 2.4.6-p8中 [!DNL GraphQL "placeOrder" API] 的向后不兼容更改](/help/troubleshooting/known-issues-patches-attached/backwards-incompatible-changes-for-graphql-placeorder-api-in-adobe-commerce-2-4-6-p8.md)
       * [可用于Adobe Commerce的安全更新 — [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
       * [有关保护存储安全和旋转加密密钥的指导： [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
