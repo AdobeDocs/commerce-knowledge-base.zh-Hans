@@ -1,12 +1,13 @@
 ---
 title: 可用于Adobe Commerce的安全更新 — [!DNL APSB25-08]
 promoted: true
-description: 为Adobe Commerce和Magento Open Source 2.4.7-beta1、2.4.7-p3、2.4.6-p8、2.4.5-p10、2.4.4-p11及更早的版本应用独立的修补程序以修复 [!DNL critical, important, and moderate vulnerabilities] 。
+description: 为Adobe Commerce 2.4.8-beta1、2.4.7-p3、2.4.6-p8、2.4.5-p10、2.4.4-p11及更早版本应用独立的修补程序以修复 [!DNL critical, important, and moderate vulnerabilities] 。
 feature: Compliance, Security
 role: Developer
-source-git-commit: 45c6486dea10b37aa8114467bbd7be0c7f9f86f6
+exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
+source-git-commit: f0c4bfae30d462d160e8096f0c4cee703f6f24e5
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**为了帮助确保尽快应用以上安全公告中列出的[!DNL CVE-2025-24434]的修正，Adobe还发布了解析[!DNL CVE-2025-24434]的隔离修补程序。 这允许商家单独应用修复，由于潜在的集成问题，延迟的风险较少。**
+>**为了帮助确保尽快应用以上安全公告中列出的[!DNL CVE-2025-24434]的修正，Adobe还发布了一个解析[!DNL CVE-2025-24434]的隔离修补程序。 这允许商家单独应用修复，由于潜在的集成问题，延迟的风险较少。**
 
-**请尽快应用最新的安全更新。 如果未这样做，则您将容易遭受这些安全问题的攻击，而Adobe在帮助进一步修复该问题方面将没有多少手段。**
+**请尽快应用最新的安全更新。 如果您未能做到这一点，您将容易遭受这些安全问题的攻击，而Adobe在帮助进一步修复该问题方面手段有限。**
 
 >[!NOTE]
 >
@@ -27,9 +28,9 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-云基础架构上的Adobe Commerce、Adobe Commerce内部部署和Magento Open Source：
+云基础架构上的Adobe Commerce、内部部署的Adobe Commerce和Magento Open Source：
 
-* 2.4.7-beta1及更早版本
+* 2.4.8-beta1及更早版本
 * 2.4.7-p3及更早版本
 * 2.4.6-p8及更低版本
 * 2.4.5-p10及更早版本
@@ -37,17 +38,36 @@ ht-degree: 0%
 
 ## 适用于Adobe Commerce on Cloud和Adobe Commerce内部部署软件的解决方案
 
-为帮助解决受影响产品和版本的漏洞，必须应用[!DNL CVE-2025-24434]独立修补程序。
+为帮助解决受影响产品和版本的漏洞，您必须根据您的Adobe Commerce/Magento Open Source版本应用[!DNL CVE-2025-24434]独立修补程序。
 
 ## 隔离的补丁程序详细信息
 
-使用以下附加的隔离修补程序：
+根据您的Adobe Commerce/Magento Open Source版本，使用以下附加的隔离修补程序：
 
-[vuln-28982-composer-patch.zip](assets/vuln-28982-composer-patch.zip)
+### 对于版本2.4.8-beta1：
+
+* [vuln-28982-2-4-8x-v2-composer-patch.zip](assets/vuln-28982-2-4-8x-v2-composer-patch.zip)
+
+### 对于版本2.4.7、2.4.7-p1、2.4.7-p2、2.4.7-p3：
+
+* [vuln-28982-2-4-7x-v2-composer-patch.zip](assets/vuln-28982-2-4-7x-v2-composer-patch.zip)
+
+### 对于版本2.4.6、2.4.6-p1、2.4.6-p2、2.4.6-p3、2.4.6-p4、2.4.6-p5、2.4.6-p6、2.4.6-p7、2.4.6-p8：
+
+* [vuln-28982-2-4-6x-v2-composer-patch.zip](assets/vuln-28982-2-4-6x-v2-composer-patch.zip)
+
+### 对于版本2.4.5、2.4.5-p1、2.4.5-p2、2.4.5-p3、2.4.5-p4、2.4.5-p5、2.4.5-p6、2.4.5-p7、2.4.5-p8、2.4.5-p9、2.4.5-p10：
+
+* [vuln-28982-2-4-5x-v2-composer-patch.zip](assets/vuln-28982-2-4-5x-v2-composer-patch.zip)
+
+### 对于版本2.4.4、2.4.4-p1、2.4.4-p2、2.4.4-p3、2.4.4-p4、2.4.4-p5、2.4.4-p6、2.4.4-p7、2.4.4-p8、2.4.4-p9、2.4.4-p10、2.4.4-p11：
+
+* [vuln-28982-2-4-4x-v2-composer-patch.zip](assets/vuln-28982-2-4-4x-v2-composer-patch.zip)
+
 
 ## 如何应用独立修补程序
 
-解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的编辑器修补程序以获取说明。
+解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)获取相关说明。
 
 ## 仅适用于Adobe Commerce on Cloud商家 — 如何判断是否已应用独立的修补程序
 
@@ -77,4 +97,4 @@ ht-degree: 0%
 可用于Adobe Commerce的安全更新：
 
 * [Adobe安全公告([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [可用于Adobe Commerce的最新安全更新](https://helpx.adobe.com/security/products/magento.html)
+* [可用于Adobe Commerce的最新安全更新)](https://helpx.adobe.com/security/products/magento.html)
