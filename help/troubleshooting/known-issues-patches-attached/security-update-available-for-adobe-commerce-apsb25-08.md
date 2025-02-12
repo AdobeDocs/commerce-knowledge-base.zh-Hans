@@ -5,9 +5,9 @@ description: 为Adobe Commerce 2.4.8-beta1、2.4.7-p3、2.4.6-p8、2.4.5-p10、2
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: f0c4bfae30d462d160e8096f0c4cee703f6f24e5
+source-git-commit: f4a7a6ac538cf1199aea32875215709fcd165a08
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * 2.4.5-p10及更早版本
 * 2.4.4-p11及更早版本
 
-## 适用于Adobe Commerce on Cloud和Adobe Commerce内部部署软件的解决方案
+## ##适用于Adobe Commerce on Cloud、Adobe Commerce内部部署和Magento Open Source软件的解决方案
 
 为帮助解决受影响产品和版本的漏洞，您必须根据您的Adobe Commerce/Magento Open Source版本应用[!DNL CVE-2025-24434]独立修补程序。
 
