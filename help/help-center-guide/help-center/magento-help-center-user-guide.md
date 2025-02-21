@@ -1,16 +1,16 @@
 ---
-title: Adobe Commerce的Experience League支持用户指南
+title: 适用于Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
+source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
 workflow-type: tm+mt
-source-wordcount: '2963'
+source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce的Experience League支持用户指南
+# 适用于Adobe Commerce的Experience League支持用户指南
 
 在本指南中，了解如何向[Experience League支持](https://experienceleague.adobe.com/home#support)提交支持票证，并提供对Adobe Commerce帐户的共享访问权限。
 
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce帮助中心的知识库部分已迁移到Adobe Experience League门户。 在创建支持工单时，将向您推荐相关的知识库文章，以及来自Adobe Experience League的其他相关Adobe Commerce文档。
+>Adobe Commerce帮助中心的知识库部分已迁移到Adobe Experience League门户。 在创建支持工单时，将向您推荐相关的知识库文章，以及Adobe Experience League中的其他相关Adobe Commerce文档。
 
 **主要更新：** 2024年7月29日
 
-**[什么是EXPERIENCE LEAGUE支持？](#what-is-experience-support)**
+**[EXPERIENCE LEAGUE支持什么？](#what-is-experience-support)**
 
 **[支持案例](#support-cases)**
 
-* [登录Experience League支持](#sign-in-experience-support)
+* [登录到Experience League支持](#sign-in-experience-support)
 * [提交支持案例](#submit-case)
 
    * [Adobe Experience League起始页](#experience-league-start-page)
@@ -61,13 +61,13 @@ ht-degree: 0%
 **[ADOBE COMMERCE的计费常见问题解答](#billing-faq)**
 
 
-## 什么是EXPERIENCE LEAGUE支持？ {#what-is-experience-support}
+## Experience League支持什么？ {#what-is-experience-support}
 
-Experience League支持是Adobe的支持门户，符合条件的Adobe Commerce客户可以在其中提交和管理支持工单。 您还可以在该处查看故障排除文章。
+Experience League支持是Adobe的支持门户，符合条件的Adobe Commerce客户可以在这里提交和管理支持工单。 您还可以在该处查看故障排除文章。
 
 ## 支持案例 {#support-cases}
 
-Adobe Experience League支持案例管理允许通过案例与支持人员合作，解决在根据合同对所有Adobe Commerce产品使用Adobe产品(包括Adobe Commerce)时遇到的特定问题。
+Adobe Experience League支持案例管理允许通过案例与支持人员合作，解决在根据合同为所有Adobe产品使用Adobe Commerce等Adobe Commerce产品时遇到的特定问题。
 
 ## 登录EXPERIENCE LEAGUE支持 {#sign-in-experience-support}
 
@@ -103,14 +103,14 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >[!INFO]
 >
 >1. 要提交案例，您必须有权获得对相应产品(例如，Adobe Commerce、Adobe Commerce Intelligence、Experience Platform等)的支持。 如果您无权获得支持，页面顶部将显示一个栏，告知您您您不是组织中有权获得支持的用户。
->1. 如果您属于多个组织，或者有多个组织具有相似的名称(每个组织都表示该组织已订阅的任何其他Adobe产品)，则需要首先从左列的以“(Commerce)”结尾的下拉菜单中选择相应的组织。
+>1. 如果您属于多个组织，或者有多个组织具有相似的名称(每个组织都表示该组织订阅的任何其他Adobe产品)，则需要首先从左列的以“(Commerce)”结尾的下拉菜单中选择相应的组织。
 >1. 要提交案例，您必须有权支持相应的产品(例如，Adobe Commerce、Adobe Commerce Reporting、Adobe Commerce Payment Services、Experience Platform等)。 如果您无权获得支持，页面顶部将显示一个栏，告知您您您不是组织中有权获得支持的用户。 要提交与Commerce相关问题的案例，您必须首先选择以&#x200B;*[!DNL (Commerce)]*&#x200B;结尾的相应组织名称。
 >1. 如果您属于多个组织，或者有多个组织具有相似的名称(每个组织都表示该组织订阅的任何其他Adobe产品)，则需要首先从下拉列表中选择相应的组织。
 >1. 如果您在[!UICONTROL Select a product]下拉列表中未看到Adobe Commerce，则必须首先从Commerce帐户所有者获取[共享访问权限](#shared-access)。 获得共享访问权限后，您必须[同步帐户](#switch-accounts)才能完成此过程，然后才能提交案例。
 
 >[!NOTE]
 >
->在提交案例之前，请确保您选择了正确的组织，并且您选择的组织拥有您请求支持的产品的相应权利。 例如，如果您的问题与Adobe Commerce相关，但您选择了Experience Platform作为产品并且案例已成功提交，这可能会导致案例的路由错误和响应时间的延迟。
+>在提交案例之前，请确保您选择了正确的组织，并且您选择的组织拥有您请求支持的产品的相应权利。 例如，如果您的问题与Adobe Commerce有关，但您选择了Adobe Commerce Intelligence或Adobe Experience Platform作为产品，并且案例已成功提交，这可能会导致案例的路由错误和响应时间的延迟。
 >
 >此外，如果在提交案例时选择了错误的组织，您的团队将无法在[!UICONTROL My Cases]下查看相应/正确的组织案例。 Adobe Commerce支持团队无法更改与案例关联的组织；要解决此问题，您必须关闭现有案例，并提交包含提供/选择的相应详细信息的新案例。
 
@@ -126,9 +126,14 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
    ![开放支持案例](assets/open_support_case.png)
 
-1. 从下拉菜单中选择产品，并提供案例标题和描述。 注意：如果下拉列表未显示任何产品，或者Commerce不可用，请尝试在左栏中切换组织并再次检查。
+1. 从下拉菜单中选择产品，并提供案例标题和描述。 注意：如果下拉列表未显示任何产品或[!DNL Commerce]不是可用选项，请尝试切换左列中的[!UICONTROL Organization]并再次检查。
 
    ![select_product](assets/support_case_product.png)
+
+>[!NOTE]
+>
+>如果您在云基础架构&#x200B;**上提交一个带有“**[!DNL Commerce]”的票证作为产品，并且组织列出了多个项目，则将提示您选择适当的[!UICONTROL Project ID]。 如果找不到所需的[!UICONTROL Project ID]，请确保在票证上添加一条注释，说明您正在为其他“项目X”寻求帮助。<br>如果您打算在Managed Services **”票证上提交“**[!DNL Commerce]”，并且在&#x200B;**[!DNL Commerce]上云基础架构**，但在云基础架构&#x200B;**上看不到**[!DNL Commerce]&#x200B;是可用的产品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中输入问题的主题。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中输入问题的描述。<br>3。 输入这两个项目后，将显示下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;字段。
+
 
 1. Adobe Experience League将推荐可帮助您解决案例的文章和最佳实践。 如果您仍然需要直接支持，则在提交案例之前需要提供一些其他信息。
 
@@ -140,7 +145,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >
 >如果您在登录experienceleague.adobe.com时无法在组织下拉菜单中看到您的组织，则在请求支持或管理现有支持案例之前，可能需要将您的配置文件与accounts.magento.com同步。   
 >
->1. 导航到accounts.magento.com ，然后使用您将用于管理Adobe Experience League中的支持案例的相同配置文件（公司、学校或个人）登录。 
+>1. 导航到accounts.magento.com ，然后使用您将用于管理Adobe Experience League中的支持案例的相同配置文件（企业、学校或个人）登录。 
 >1. 成功登录accounts.magento.com配置文件后，请导航回experienceleague.adobe.com并登录。 
 >1. 从组织下拉菜单中选择您的组织。 
 >1. 如果贵组织仍未出现，请联系Commerce管理员以获取支持委派权限。 有关其他信息，请参阅[Commerce帐户共享](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)帮助文章。 
@@ -149,7 +154,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >
 >为什么组织/产品很重要
 >
->**示例A**：您仅共享了一个公司的访问权限，且该公司拥有两个Adobe产品的权利：Product1和Product2。
+>**示例A**：您仅共享了对一家公司的访问权限，该公司拥有两个Adobe产品的权利：Product1和Product2。
 >1. 由于每个组织代表一种产品，因此您会在下拉列表中看到两个组织，例如OrgA-Product1和OrgB-Product2。
 >1. 如果您选择了产品= Product1，但您的问题与Product2有关，则案例将被转接至Product2支持部门，在将案例转接至Product1支持部门时会有所延迟。
 >1. 如果您提交了OrgA-Product1的案例，并且希望将来查看该组织的[!UICONTROL My Cases]，那么如果选择OrgA-Product2作为组织，您将不会看到该案例（与示例B相比，您只需选择另一个组织）。
@@ -158,7 +163,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >1. 如果您为OrgA提交了案例，但问题实际影响OrgB，则OrgB的成员将来将无法在[!UICONTROL My Cases]下看到此案例。
 >1. 此外，OrgA成员将能够查看[!UICONTROL My Cases]下实际适用于OrgB的案例，这可能会导致隐私问题。
 
-您必须同时在https://account.adobe.com和https://account.magento.com拥有帐户才能登录该Experience League以提交支持案例。 在登录之前，您将无法提交支持案例。
+您必须同时在https://account.adobe.com和https://account.magento.com拥有帐户才能登录Experience League以提交支持案例。 在登录之前，您将无法提交支持案例。
 
 >[!NOTE]
 >
@@ -177,7 +182,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
 
-1. 将为您加载Adobe Experience League支持页面。
+1. 系统会为您加载Adobe Experience League支持页面。
 1. 从左侧菜单中选择&#x200B;**[!UICONTROL Open Ticket]**。
 1. 填写字段。
 1. 单击&#x200B;**提交**。
@@ -343,7 +348,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 <u>原因</u>
 
-如果您拥有Adobe Commerce Cloud项目并且在该项目中添加了用户，则他们可能已自动获得项目所有者的图像ID共享访问权限。 这通常显示在&#x200B;**[!UICONTROL Share Name]**&#x200B;列中，显示来自MAG[XYZ ]*的*&#x200B;云共享访问。
+如果您拥有Adobe Commerce Cloud项目并且在该项目中添加了用户，则他们可能已自动获得对项目所有者的图像ID的共享访问权限。 这通常显示在&#x200B;**[!UICONTROL Share Name]**&#x200B;列中，显示来自MAG[XYZ ]*的*&#x200B;云共享访问。
 
 >[!NOTE]
 >
