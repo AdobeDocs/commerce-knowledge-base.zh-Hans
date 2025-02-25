@@ -3,7 +3,7 @@ title: 适用于Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
+source-git-commit: cb0d3b47c7b9693c83c6f1e85fa41cce57972c9f
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -130,9 +130,9 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
    ![select_product](assets/support_case_product.png)
 
->[!NOTE]
->
->如果您在云基础架构&#x200B;**上提交一个带有“**[!DNL Commerce]”的票证作为产品，并且组织列出了多个项目，则将提示您选择适当的[!UICONTROL Project ID]。 如果找不到所需的[!UICONTROL Project ID]，请确保在票证上添加一条注释，说明您正在为其他“项目X”寻求帮助。<br>如果您打算在Managed Services **”票证上提交“**[!DNL Commerce]”，并且在&#x200B;**[!DNL Commerce]上云基础架构**，但在云基础架构&#x200B;**上看不到**[!DNL Commerce]&#x200B;是可用的产品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中输入问题的主题。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中输入问题的描述。<br>3。 输入这两个项目后，将显示下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;字段。
+   >[!NOTE]
+   >
+   >如果您在云基础架构&#x200B;**上提交一个带有“**[!DNL Commerce]”的票证作为产品，并且组织列出了多个项目，则将提示您选择适当的[!UICONTROL Project ID]。 如果找不到所需的[!UICONTROL Project ID]，请确保在票证上添加一条注释，说明您正在为其他“项目X”寻求帮助。<br>如果您打算在Managed Services **”票证上提交“**[!DNL Commerce]”，并且在&#x200B;**[!DNL Commerce]上云基础架构**，但在云基础架构&#x200B;**上看不到**[!DNL Commerce]&#x200B;是可用的产品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中输入问题的主题。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中输入问题的描述。<br>3。 输入这两个项目后，将显示下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;字段。
 
 
 1. Adobe Experience League将推荐可帮助您解决案例的文章和最佳实践。 如果您仍然需要直接支持，则在提交案例之前需要提供一些其他信息。
@@ -143,23 +143,25 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 >[!IMPORTANT]
 >
->如果您在登录experienceleague.adobe.com时无法在组织下拉菜单中看到您的组织，则在请求支持或管理现有支持案例之前，可能需要将您的配置文件与accounts.magento.com同步。   
+>如果您在登录experienceleague.adobe.com时无法在组织下拉菜单中看到您的组织，则在请求支持或管理现有支持案例之前，可能需要将您的配置文件与accounts.magento.com同步。
 >
->1. 导航到accounts.magento.com ，然后使用您将用于管理Adobe Experience League中的支持案例的相同配置文件（企业、学校或个人）登录。 
->1. 成功登录accounts.magento.com配置文件后，请导航回experienceleague.adobe.com并登录。 
->1. 从组织下拉菜单中选择您的组织。 
->1. 如果贵组织仍未出现，请联系Commerce管理员以获取支持委派权限。 有关其他信息，请参阅[Commerce帐户共享](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)帮助文章。 
+>1. 导航到accounts.magento.com ，然后使用您将用于管理Adobe Experience League中的支持案例的相同配置文件（企业、学校或个人）登录。
+>1. 成功登录accounts.magento.com配置文件后，请导航回experienceleague.adobe.com并登录。
+>1. 从组织下拉菜单中选择您的组织。
+>1. 如果贵组织仍未出现，请联系Commerce管理员以获取支持委派权限。 有关其他信息，请参阅[Commerce帐户共享](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)帮助文章。
 
 >[!NOTE]
 >
 >为什么组织/产品很重要
 >
 >**示例A**：您仅共享了对一家公司的访问权限，该公司拥有两个Adobe产品的权利：Product1和Product2。
+>
 >1. 由于每个组织代表一种产品，因此您会在下拉列表中看到两个组织，例如OrgA-Product1和OrgB-Product2。
 >1. 如果您选择了产品= Product1，但您的问题与Product2有关，则案例将被转接至Product2支持部门，在将案例转接至Product1支持部门时会有所延迟。
 >1. 如果您提交了OrgA-Product1的案例，并且希望将来查看该组织的[!UICONTROL My Cases]，那么如果选择OrgA-Product2作为组织，您将不会看到该案例（与示例B相比，您只需选择另一个组织）。
 >
 >**示例B**：您已共享对两家公司的访问权限，并且每家公司只拥有Adobe Commerce的权利。
+>
 >1. 如果您为OrgA提交了案例，但问题实际影响OrgB，则OrgB的成员将来将无法在[!UICONTROL My Cases]下看到此案例。
 >1. 此外，OrgA成员将能够查看[!UICONTROL My Cases]下实际适用于OrgB的案例，这可能会导致隐私问题。
 
@@ -170,6 +172,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >如果您已在https://account.magento.com上拥有帐户，但无法登录，则可能尚未在https://account.adobe.com上注册帐户（自2022年8月起，必须注册）。
 >
 >要解决此问题：
+>
 >1. 在https://account.adobe.com上使用与您的广告ID相同的电子邮件地址创建一个帐户。
 >1. 转到https://account.magento.com ，将您的Adobe ID与MAG ID关联起来。
 
