@@ -4,9 +4,9 @@ description: 使用此故障诊断程序工具可解决Adobe Commerce上的高�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
+source-git-commit: 207fd4cd11f76a5076e98cda8b6776b2d68ef937
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,14 @@ ls -ltr pub/media/analytics/
 
 要检查access.logs中是否存在记录，请运行此命令：
 
-```
-zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
-```
+* 在Commerce Cloud上：
+
+  ```
+  {{zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI}}
+  ```
+
+* 对于内部部署，请相应地替换文件路径：
+  `zgrep -i analytics <your web server's log path>/access.log* | grep MagentoBI`
 
 a.是 — 如果文件`data.tgz`存在并且访问日志中有记录，但您仍然存在404错误，则您需要[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 继续执行[步骤10](#step-10)。

@@ -1,11 +1,11 @@
 ---
-title: “[!DNL Elasticsearch]”显示为搜索引擎，尽管 [!DNL OpenSearch] 已安装
+title: 尽管安装了 [!DNL OpenSearch] ，[!DNL Elasticsearch]仍显示为搜索引擎
 description: 本文针对 [!DNL Elasticsearch] 在安装或升级到 [!DNL OpenSearch]后仍显示为云上Adobe Commerce的搜索引擎的问题提供了解决方案。
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install
-source-git-commit: 1f053f76ae56edc06bfe82e55210244c8ec4b8eb
+source-git-commit: b3f68e43ce3c4fdea001db1d8ba2774900db7dba
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 受影响的版本
 
-Adobe Commerce on cloud 2.4.3-p2 - 2.4.5-p6
+Adobe Commerce on cloud 2.4.4 - 2.4.5-p11
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ Adobe Commerce on cloud 2.4.3-p2 - 2.4.5-p6
 
 ## 原因
 
-Adobe Commerce已硬编码以将[!DNL Elasticsearch7]指定为搜索引擎。
+[!DNL Elasticsearch7]在Adobe Commerce中硬编码为这些版本中使用的搜索引擎。
 
-请不要将其与安装的服务版本混淆。 应用程序仅将[!DNL Elasticsearch7]识别为搜索引擎，而不将[!DNL OpenSearch]识别为搜索引擎，即使它在后端使用基础[!DNL OpenSearch]服务作为引擎。
+请不要将其与安装的服务版本混淆。 即使代码中未包含[!DNL Opensearch]模块，Adobe Commerce仍能够使用基础[!DNL Opensearch]服务。
 
 ## 解决方案
 
@@ -70,7 +70,7 @@ $ curl 127.0.0.1:9200
 
 **方法2**：
 
-* 在Magento云CLI上使用以下命令： `magento-cloud relationships -p <project_id>`。 使用该命令后，找到[!DNL OpenSearch]。
+* 在Magento-cloud CLI上使用以下命令： `magento-cloud relationships -p <project_id>`。 使用该命令后，找到[!DNL OpenSearch]。
 
 ## 相关阅读
 
