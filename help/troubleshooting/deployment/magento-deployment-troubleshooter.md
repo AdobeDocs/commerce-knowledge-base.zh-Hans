@@ -4,9 +4,9 @@ description: 使用Deployment Troubleshooter工具可解决Adobe Commerce上的�
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
+source-git-commit: 4704446d043e3175b5af27c068908e58bfb7a9ff
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ b.否 — 维护或全球中断。 检查预计持续时间和更新。
 
 +++**其他环境中是否有部署阻止现有环境中的部署？**
 
-要获取正在进行的活动列表，请使用magento-cloud CLI运行以下命令（如果您仅添加到一个云项目）。 **注意**：请检查您是否使用最新版本的magento-cloud CLI。 有关步骤，请参阅Commerce on Cloud Infrastructure指南中的[更新CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
+要获取正在进行的活动列表，请使用magento-cloud CLI运行以下命令（如果您仅添加到一个云项目）。 **注意**：请检查您是否使用最新版本的magento-cloud CLI。 有关步骤，请参阅Commerce on Cloud Infrastructure指南中的[更新CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ magento-cloud --state=in_progress
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-查找有关现有部署活动的信息(请参阅[如果Cloud UI出现“日志截断”错误，请检查部署日志](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+查找有关现有部署活动的信息(请参阅[如果Cloud UI出现“日志截断”错误，请检查部署日志](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 详细信息)您可以运行此命令以获取该活动的运行日志：
 
 ```bash
@@ -79,7 +79,7 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 +++**使用Bitbucket？**
 
 a.是 — 检查[status.bitbucket.com](https://bitbucket.status.atlassian.com/)。\
-b.否 — 检查[生成和部署日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)中的部署日志错误。 继续执行[步骤6](#step-6)。
+b.否 — 检查[生成和部署日志](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中的部署日志错误。 继续执行[步骤6](#step-6)。
 
 +++
 
@@ -124,7 +124,7 @@ b.否 — 继续执行[步骤11](#step-11)。
 +++**可用存储空间还好吗？**
 
 a.是 — 继续执行[步骤11](#step-11)。\
-b.否 — 查看[管理磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html)。
+b.否 — 查看[管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space)。
 
 +++
 
@@ -148,7 +148,7 @@ b.否 — 继续执行[步骤8](#step-8)。
 
 ## 步骤13 — 检查Elasticsearch升级是否失败 {#step-13}
 
-+++正在升级或部署的&#x200B;**Elasticsearch？**
++++正在升级或部署&#x200B;**Elasticsearch？**
 
 a.是 — Elasticsearch升级步骤失败。 请参阅[Elasticsearch软件兼容性](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html)。 如果Elasticsearch升级仍然无法正常工作，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 **注意**：在云基础架构上的Adobe Commerce上，请注意，如果没有48个工作小时的通知，无法将服务升级推送到生产环境。 这是必需的，因为我们需要确保有一名基础架构支持工程师在所需时间范围内更新您的配置，同时最大限度地减少生产环境的停机时间。 因此，在更改需要投入生产前48小时，[提交支持工单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，其中详细列出所需的服务升级，并指明希望升级过程开始的时间。\
 b.否 — 继续执行[步骤14](#step-14)。
@@ -164,7 +164,7 @@ b.否 — 继续执行[步骤15](#step-15)。
 
 +++
 
-## 步骤15 -Elasticsearch版本错误 {#step-15}
+## 步骤15 - Elasticsearch版本错误 {#step-15}
 
 +++有关Elasticseach版本的&#x200B;**错误？**
 
@@ -210,7 +210,7 @@ b.否 — 继续执行[步骤19](#step-19)。
 
 +++**使用第三方扩展？**
 
-a.是 — 尝试[禁用第三方扩展](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html)并运行部署（查看它们是否是问题的原因），尤其是如果任何错误中都有扩展名。\
+a.是 — 尝试[禁用第三方扩展](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)并运行部署（查看它们是否是问题的原因），尤其是如果任何错误中都有扩展名。\
 b.否 — 继续执行[步骤20](#step-20)。
 
 +++
