@@ -1,12 +1,12 @@
 ---
 title: 使用Adobe Commerce上的New Relic排除性能故障
-description: '本文提供了使用New Relic解决Adobe Commerce云基础架构性能问题的故障排除步骤。 它还提供了获取进一步信息的资源。 以下是问题列表。 单击查看我们的支持知识库中的故障排除步骤：'
+description: 本文介绍了使用New Relic解决Adobe Commerce云基础架构性能问题的故障排除步骤。 它还提供了获取进一步信息的资源。 以下是问题列表。 单击查看我们的支持知识库中的故障排除步骤：
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 本文介绍了使用New Relic解决Adobe Commerce云基础架构性能问题的故障排除步骤。 它还提供了获取进一步信息的资源。 下表包含推荐资源的以下问题：
 
 * Apdex得分低
-* 高CPU使用率
+* CPU使用率较高
 * 高输入/输出操作
 * 中断
 
@@ -60,22 +60,22 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>要了解有关New Relic Apdex得分的更多信息，请参阅<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic文档&gt; APM Apdex &gt;衡量用户满意度</a>。 您还可以在我们的支持知识库中参考<a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Adobe Commerce托管警报：Apdex警告警报</a>。</p>
+<p>要了解有关New Relic Apdex得分的更多信息，请参阅<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic文档&gt; APM Apdex &gt;衡量用户满意度</a>。 您还可以在我们的支持知识库中参考<a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce托管警报：Apdex警告警报</a>。</p>
 </td>
 </tr>
 <tr>
 <td>
-<p>高CPU使用率：</p>
-<p>高CPU使用率可能表示存在特别繁忙的服务，如MySQL、Redis等。</p>
+<p>CPU使用率较高：</p>
+<p>CPU使用率高可能表示服务特别忙，如MySQL、Redis等。</p>
 </td>
 <td>
 <ol>
 <li>登录到<a href="https://login.newrelic.com/login">New Relic</a> &gt;基础架构&gt;进程。</li>
-<li>查看CPU图形，查看是否存在占用超过100% CPU时间的停滞或高耗时的进程，并与实例上的处理器计数进行比较。 请注意资源利用率的高峰。 不建议您终止进程，除非该进程处于卡住状态。</li>
+<li>查看CPU图形以了解是否存在任何占用超过100% CPU时间的停滞或高耗时的进程，并与实例上的处理器计数进行比较。 请注意资源利用率的高峰。 不建议您终止进程，除非该进程处于卡住状态。</li>
 </ol>
 </td>
 <td>
-<p>要了解有关性能指标的更多信息，特别是单个或进程组的CPU百分比、I/O字节数和内存使用率，请参阅<a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic文档&gt;基础架构UI页面&gt;基础架构主机页面&gt;进程选项卡</a>。</p>
+<p>要了解有关性能指标的更多信息，特别是CPU百分比、I/O字节数和单个进程或进程组的内存使用情况，请参阅<a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic文档&gt;基础架构UI页面&gt;基础架构主机页面&gt;进程选项卡</a>。</p>
 </td>
 </tr>
 <tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
 <li>按最耗时的内容排序。</li>
 <li>查看热门查询。
 
-注意： <code>更新</code> 或<code>插入</code>查询是占用最多的CPU的查询。</li>
+注意： <code>更新</code> 或<code>插入</code>查询是使用CPU最多的查询。</li>
 <li>从排序依据选择器切换到吞吐量，并查找导致数据库吞吐量下降的进程。</li>
 <li>如果需要进一步调查，请考虑检查第三方服务。</li>
 </ol>
