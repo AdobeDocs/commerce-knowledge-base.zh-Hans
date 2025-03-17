@@ -1,12 +1,12 @@
 ---
-title: '部署失败，并显示“构建项目时出错：构建挂接失败，状态代码为1”'
-description: '本文讨论了Adobe Commerce云基础架构问题的原因和解决方案，该问题导致部署过程的构建阶段失败，并且错误消息概述为：*"错误构建项目：构建挂接失败，状态代码为1"*。'
+title: 部署失败，并显示“构建项目时出错：构建挂接失败，状态代码为1”
+description: 本文讨论了Adobe Commerce云基础架构问题的原因和解决方案，该问题导致部署过程的构建阶段失败，并且错误消息概述为：*“错误构建项目：构建挂接失败，状态代码为1”*。
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 feature: Build, Deploy
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 6a880a57c6cafb34fa51706f7bab1e23310bcef7
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,17 @@ ht-degree: 0%
 
    请参考[升级到ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package)一文。
 
-1. 通过运行以下命令，确保`composer.lock`文件中存在ECE-tools软件包：    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;： &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    如果指定这两个参数，则响应将类似于以下示例：    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. 通过运行以下命令，确保`composer.lock`文件中存在ECE-tools软件包：
+
+   ```bash
+   grep '"name": "magento/ece-tools"' composer.lock
+   ```
+
+   如果指定这两个参数，则响应将类似于以下示例：
+
+   ```bash
+   "name": "magento/ece-tools", "version": "2002.0.20",
+   ```
 
 请参阅[升级到ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package)文章以供参考。
 
