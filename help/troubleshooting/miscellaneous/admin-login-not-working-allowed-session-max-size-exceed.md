@@ -1,17 +1,18 @@
 ---
-title: “[!DNL Admin]登录不起作用 — 超出了允许的会话最大大小”
-description: 解决当您尝试登录 [!DNL Admin] 面板并且表单刷新且无法登录的问题。
+title: '[!UICONTROL Admin]登录不起作用 — 超出了允许的会话最大大小'
+description: 解决当您尝试登录[!UICONTROL Admin]面板并且表单刷新且您无法登录的问题。
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
+source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# [!DNL Admin]登录不起作用 — 超出了允许的会话最大大小
+# [!UICONTROL Admin]登录不起作用 — 超出了允许的会话最大大小
 
-本文修复了以下问题：当您尝试登录[!DNL Admin]面板时，表单刚刚刷新，无法登录。 这是因为已超出[!DNL Admin]会话大小。
+本文修复了以下问题：当您尝试登录到[!UICONTROL Admin]面板时，表单刚刚刷新，您无法登录，或者您在[!UICONTROL Admin]面板中执行了某些操作并自动注销。
+这是由于超出了[!UICONTROL Admin] [!UICONTROL Session Size]所导致。
 
 ## 受影响的版本
 
@@ -20,7 +21,10 @@ ht-degree: 0%
 
 ## 问题
 
-无法登录到[!DNL Admin]，因为表单不断重新加载。
+您在[!UICONTROL Admin]上遇到以下症状之一：
+
+1. 无法登录到[!UICONTROL Admin]，因为表单不断重新加载。
+1. 尝试执行操作时，您将自动注销。
 
 ## 原因
 
@@ -41,7 +45,7 @@ ht-degree: 0%
 
 云基础架构上的<u>Adobe Commerce</u>：
 
-(仅当部署/操作模式为默认或开发人员时，此设置只能在[!DNL Admin]中访问。 但是，在云环境中只允许使用生产部署模式。)
+(仅当部署/操作模式为&#x200B;*默认*&#x200B;或&#x200B;*开发人员*&#x200B;时，此设置只能在[!UICONTROL Admin]中访问。 但是，在云环境中只允许使用生产部署模式。)
 
 要增加此值，请在终端(SSH)中运行此命令：
 
@@ -53,6 +57,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 相关阅读
 
-* 管理系统指南中的[会话大小](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)。
-* 配置指南中的[操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)。
-* 云基础架构上的Commerce指南中的[安全连接](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)。
+* 管理系统指南中的[会话大小](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
+* 配置指南中的[操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Commerce on Cloud Infrastructure指南中的[安全连接](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)
