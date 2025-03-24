@@ -4,9 +4,9 @@ description: 本文为Adobe Commerce提供了一个关于向前团队成员发�
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: 0017d43e221ef3023630f714c34aa65b368e214f
+source-git-commit: bd199fac6d8f33491b9fa0f508b2bb52d56b46a5
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 0%
 # 以前的团队成员会收到Adobe Commerce Cloud通知电子邮件
 
 本文提供了一个解决方案，用于从通知电子邮件的收件人列表中删除满足以下条件的用户：
+
 * 不再与您的项目关联的前团队成员。
 * 不应接收通知的当前团队成员。
 
@@ -22,6 +23,10 @@ ht-degree: 0%
 已向您的团队发送有关检测到的中断或云项目/环境的重要问题的通知。 这包括可能不再与您的项目关联的成员，例如外部/代理开发人员或系统集成商。 您希望这些用户停止接收通知。
 
 ## 解决方案
+
+>[!NOTE]
+>
+>如果您是外部/机构开发人员或系统集成商，并且不再与项目相关联，则必须联系项目所有者或项目管理员以获取帮助。
 
 可通过以下两种方法从项目中删除用户来停止通知：
 
@@ -32,5 +37,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在Commerce on cloud infrastructure指南中[查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user的project-role)。
+* 在Commerce on cloud infrastructure指南中[查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user&#39;s-project-role)。
 * [如何在Commerce KB的支持通知中包含团队成员](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html)。
