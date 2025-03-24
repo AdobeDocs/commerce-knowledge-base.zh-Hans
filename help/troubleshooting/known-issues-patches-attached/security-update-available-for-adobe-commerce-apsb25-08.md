@@ -5,26 +5,26 @@ description: 为Adobe Commerce 2.4.8-beta1、2.4.7-p3、2.4.6-p8、2.4.5-p10、2
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: d669c097767b5855c6bd747a0ab11b3520f405a0
+source-git-commit: aba9548c0b5a06ffd0cddce630e53e5664bb9aac
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # 可用于Adobe Commerce的安全更新 — [!DNL APSB25-08]
 
-2025年2月11日，Adobe发布了Adobe Commerce和Magento Open Source的定期安全更新。 此更新解决了[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用这些漏洞可能导致任意代码执行、绕过安全功能和权限提升。 更多信息可在[Adobe安全公告([!DNL APSB25-08])此处](https://helpx.adobe.com/security/products/magento/apsb25-08.html)找到。
+2025年2月11日，Adobe发布了Adobe Commerce和Magento Open Source的定期安全更新。 此更新解决了[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用这些漏洞可能会导致执行任意代码、绕过安全功能以及提升权限。 更多信息可在[Adobe安全公告([!DNL APSB25-08])此处](https://helpx.adobe.com/security/products/magento/apsb25-08.html)找到。
 
 >[!NOTE]
 >
->**为了帮助确保尽快应用上面安全公告中列出的[!DNL CVE-2025-24434]的修正，Adobe还发布了可解决[!DNL CVE-2025-24434]的隔离修补程序。 这允许商家隔离应用修复，且由于潜在集成问题导致的延迟风险较低。**
+>**为了帮助确保尽快应用以上安全公告中列出的[!DNL CVE-2025-24434]的修正，Adobe还发布了一个解析[!DNL CVE-2025-24434]的隔离修补程序。 这允许商家单独应用修复，由于潜在的集成问题，延迟的风险较少。**
 
-**请尽快应用最新的安全更新。 如果未能做到这一点，您将容易受到这些安全问题的攻击，而Adobe对于进一步修复问题将没有多少帮助。**
+**请尽快应用最新的安全更新。 如果您未能做到这一点，您将容易遭受这些安全问题的攻击，而Adobe在帮助进一步修复该问题方面手段有限。**
 
 >[!NOTE]
 >
->如果在应用安全修补程序/隔离修补程序时遇到任何问题，请联系支持服务。
+>如果您在应用安全修补程序/隔离修补程序时遇到任何问题，请联系支持服务。
 
 ## 受影响的产品和版本
 
@@ -38,9 +38,13 @@ ht-degree: 0%
 
 ## 适用于Adobe Commerce on Cloud、Adobe Commerce内部部署和Magento Open Source软件的解决方案
 
-为帮助解决受影响的产品和版本的漏洞，必须应用[!DNL CVE-2025-24434]隔离修补程序，具体取决于您的Adobe Commerce/Magento Open Source版本。
+>[!NOTE]
+>
+>此问题已由[最新云修补程序更新](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest)解决。 当云修补程序更新中已存在修补程序时，尝试应用隔离修补程序可能会导致安装失败。
 
-## 隔离修补程序详细信息
+为帮助解决受影响产品和版本的漏洞，您必须根据您的Adobe Commerce/Magento Open Source版本应用[!DNL CVE-2025-24434]独立修补程序。
+
+## 隔离的补丁程序详细信息
 
 根据您的Adobe Commerce/Magento Open Source版本，使用以下附加的隔离修补程序：
 
@@ -65,7 +69,7 @@ ht-degree: 0%
 * [vuln-28982-2-4-4x-v2-composer-patch.zip](assets/vuln-28982-2-4-4x-v2-composer-patch.zip)
 
 
-## 如何应用隔离修补程序
+## 如何应用独立修补程序
 
 解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)获取相关说明。
 
@@ -80,7 +84,7 @@ ht-degree: 0%
 1. [安装质量修补程序工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
 1. 运行命令： <br>
    ![cve-2024-34102-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
-1. 您应该会看到与下图类似的输出，其中VULN-27015返回&#x200B;*已应用*&#x200B;状态：
+1. 您应该会看到类似以下内容的输出，其中VULN-27015返回&#x200B;*已应用*&#x200B;状态：
 
    ```bash
    ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/VULN-27015-2.4.7_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                
@@ -97,4 +101,4 @@ ht-degree: 0%
 可用于Adobe Commerce的安全更新：
 
 * [Adobe安全公告([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [可用于Adobe Commerce的最新安全更新)](https://helpx.adobe.com/security/products/magento.html)
+* [可用于Adobe Commerce的最新安全更新](https://helpx.adobe.com/security/products/magento.html)
