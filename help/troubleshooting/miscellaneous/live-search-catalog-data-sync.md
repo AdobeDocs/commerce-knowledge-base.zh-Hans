@@ -4,7 +4,7 @@ description: 本文为使用Live Search扩展时目录数据无法正确同步�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 54f6fb60adca6f639cd315b3d070c7b93aa45bab
+source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 或
 
 1. 向目录中添加新产品。
-1. 尝试在运行Magento索引器+ cron后的15-20分钟后使用产品名称或其他可搜索属性运行搜索查询，以将数据同步到后端服务。
+1. 从Magento索引器+ cron运行开始，在15-20分钟后尝试使用产品名称或其他可搜索属性运行搜索查询，以将数据同步到后端服务。
 
 <u>预期的结果</u>
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ### 等待应用更改
 
-配置并连接后，可能需要超过30分钟才能在ES(Elasticsearch)中创建索引并返回搜索结果。 后续的一次性产品更新预计会在几分钟内编制索引。
+配置和连接后，可能需要30分钟以上的时间才能在ES (Elasticsearch)中创建索引并返回搜索结果。 后续的一次性产品更新预计会在几分钟内编制索引。
 
 ### 同步特定SKU的产品数据
 
@@ -146,7 +146,7 @@ bin/magento saas:resync --feed productattributes
 运行以下命令以重新同步馈送：
 
 ```
-bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed productattributes --cleanup-feed
 bin/magento saas:resync --feed products --cleanup-feed
 bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
 bin/magento saas:resync --feed scopesWebsite --cleanup-feed
