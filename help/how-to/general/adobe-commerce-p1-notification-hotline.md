@@ -3,7 +3,7 @@ title: Adobe Commerce P1通知热线
 description: 本文提供了Adobe Commerce的P1通知热线号码，在寻求报告P1事件时可以使用该号码，并解释了要提供哪些信息。
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: c5e94c6407394cd905ea470628d28db2c2c6c0ed
+source-git-commit: 8c0c128f2469086c44dcea0e9edc87f934578a69
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## P1事件定义
 
-如[Adobe Commerce支持服务条款和条件](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf)中所定义：“P1事件是服务中的灾难性生产事件，它会严重影响客户站点，导致站点停止运行或接受订单，或者导致客户站点完全停止运行或无法正常运行，或者导致生产数据丢失，并且不存在解决方法。 P1事件必须报告Adobe的免费P1电话号码，以便加快解决速度。 Adobe将持续努力，并适当向上级管理层升级，以便在商业合理时尽快解决P1事件。”
+如[Adobe Commerce支持服务条款和条件](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf)中所定义：“P1事件是服务中的灾难性生产事件，它会严重影响客户站点，导致站点停止运行或接受订单，或者导致客户站点完全停止运行或无法正常运行，或者导致生产数据丢失，并且不存在解决方法。 P1事件必须通过Adobe的免费P1电话号码报告，以加快解决速度。 Adobe将持续努力，并适当升级至高级管理层，以便在商业合理时尽快解决P1事件。”
 
 ## P1通知热线电话策略
 
@@ -40,7 +40,7 @@ ht-degree: 0%
    * 意大利：(+39) 0269 682 818(第一个菜单，按6可访问Adobe Commerce P1热线)
    * 瑞典：(+46) 0200 810 330(在第一个菜单中，按6以访问Adobe Commerce P1热线)
 * 亚太地区
-   * 澳大利亚：(+61) 1 800 358 683(第一个菜单，按6以显示Adobe Commerce P1热线)
+   * 澳大利亚：(+61) 1 800 358 683 (在第一个菜单中，按3以访问Adobe Commerce P1热线)
    * 新加坡：(+65) 1 800 818 5220(第一个菜单，按6以显示Adobe Commerce P1热线)
    * 菲律宾（付费电话）：(+63) 1 800 1441 0660 (第一个菜单，按6访问Adobe Commerce P1热线)
    * 新西兰（付费电话）：(+64) 050 861 4264 (第一个菜单，按6以访问Adobe Commerce P1热线)
