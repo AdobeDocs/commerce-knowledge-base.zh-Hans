@@ -2,9 +2,9 @@
 title: Adobe Commerce支持工具概览
 description: Adobe Commerce提供多种支持工具，帮助您和增强您改善电子商务商店体验的能力。
 exl-id: 5364ff2b-07ea-4b42-8756-adec85f4efca
-source-git-commit: f2e4dbeeade5006e253beba9ff808e6571647ef4
+source-git-commit: 6ccebaec7f0a228b646737a2f48fe6d087ea2861
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Commerce提供多种支持工具，帮助您和增强您改善电子商务
 
 云基础架构上的Adobe Commerce托管警报会生成现成的[!DNL New Relic]警报，其中包含有关后续疑难解答步骤的说明。
 
-我们设置了关键的仪表板和警报，帮助您了解您的站点何时达到关键存储和Apdex级别（用户对应用程序和服务响应时间的满意度）。 这有助于您在发现响应时间缓慢或中断之前采取行动。 您将能够使用我们的支持知识库中提供的文章对警报进行故障排除。 单击Adobe Commerce的[托管警报](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)，了解有关托管警报的详细信息。
+我们设置了关键的仪表板和警报，帮助您了解您的站点何时达到关键存储和Apdex级别（用户对应用程序和服务响应时间的满意度）。 这有助于您在发现响应时间缓慢或中断之前采取行动。 您将能够使用我们的支持知识库中提供的文章对警报进行故障排除。 单击Adobe Commerce的[托管警报](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)，了解有关托管警报的详细信息。
 
 
 ## [!DNL Site-Wide Analysis Tool] — 根据站点扫描获取性能推荐 {#site-wide-analysis-tool}
@@ -41,6 +41,6 @@ Adobe Commerce提供多种支持工具，帮助您和增强您改善电子商务
 
 ## [!DNL Quality Patches Tool] — 获取适用于您的Adobe Commerce版本的所有修补程序 {#quality-patches-tool}
 
-[!DNL Quality Patches Tool] (QPT)提供由Adobe和Magento Open Source团体开发的各个修补程序。 它允许您应用、还原和查看有关已安装Adobe Commerce或Magento Open Source版本可用的所有单个修补程序的一般信息。
+[!DNL Quality Patches Tool] (QPT)提供由Adobe和Magento Open Source社区开发的各个修补程序。 它允许您应用、还原和查看有关已安装Adobe Commerce或Magento Open Source版本可用的所有单个修补程序的一般信息。
 
 QPT仅显示已安装版本可用的修补程序，具有分类功能且易于应用程序/删除。 要了解更多信息，请参阅我们的支持知识库中的[有关Adobe Commerce问题 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)的修补程序。
