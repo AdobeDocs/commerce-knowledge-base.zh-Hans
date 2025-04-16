@@ -3,7 +3,8 @@ title: 由于缺少REGEXP_LIKE函数，升级到B2B 1.5.2失败，并出现SQL�
 description: 针对在尝试更新company_structure表时由于缺少REGEXP_LIKE函数而发生SQL语法错误的问题，本文提供了一个修补程序。
 feature: B2B, Upgrade
 role: Admin, Developer
-source-git-commit: ec1f0e06c0f2a59d4b78eba69bf02798e6bf66f3
+exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
+source-git-commit: f83b82a95d4592252c8923720e90733115c52d87
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -68,7 +69,7 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
 
    ```
    composer require magento/magento-cloud-patches:1.1.5 --no-update
-   composer updatemagento/magento-cloud-patches
+   composer update magento/magento-cloud-patches
    ```
 
 1. 提交并推送更改以启动重新部署。 有关说明，请参阅我们的Adobe Commerce on Cloud指南中的[应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)。
