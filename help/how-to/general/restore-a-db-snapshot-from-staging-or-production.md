@@ -2,9 +2,9 @@
 title: 从暂存或生产环境恢复数据库快照
 description: 本文说明如何在云基础架构上从Adobe Commerce上的暂存或生产环境恢复数据库快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: c8cd2bf97681527a32a403a413c5fa823d07abed
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,12 @@ ht-degree: 0%
 
    ```sql
    drop database <cluster ID_stg>;
+   ```
+
+1. 删除数据库后，重新创建数据库：
+
+   ```mysql
+   create database [database_name];
    ```
 
 1. 输入以下命令以导入[!DNL snapshot]：
