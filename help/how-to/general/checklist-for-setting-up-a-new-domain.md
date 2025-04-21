@@ -3,16 +3,16 @@ title: 设置新 [!DNL domain]的清单
 description: 这是一份清单，说明如何在Adobe Commerce中在云基础架构上设置新的 [!DNL domain] 。
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
+source-git-commit: f7b246088e3580922bd3389b2992e5dd8f97ff7a
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # 设置新[!DNL domain]的清单
 
-这是一份清单，说明如何在Adobe Commerce中在云基础架构上设置新的[!DNL domain]。 无论您是尝试仅添加新域还是使用新域替换当前域，它均适用。
+此核对清单说明如何在Adobe Commerce中在云基础架构上设置新的[!DNL domain]。 无论您是添加新域还是替换当前域，此规则都适用。 在获得新的暂存环境后，此标准也适用（请参阅步骤4）。
 
 ## 受影响的产品和版本
 
@@ -65,3 +65,4 @@ ht-degree: 0%
 ## 相关阅读
 
 * [设置多个网站或商店：在我们的用户指南中新增 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)。
+* 由于源遮蔽，[网站无法访问](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
