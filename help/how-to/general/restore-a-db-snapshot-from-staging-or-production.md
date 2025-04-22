@@ -2,9 +2,9 @@
 title: 从暂存或生产环境恢复数据库快照
 description: 本文说明如何在云基础架构上从Adobe Commerce上的暂存或生产环境恢复数据库快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: c8cd2bf97681527a32a403a413c5fa823d07abed
+source-git-commit: 20aaeacc4f71725c005e7bec3b9d6ac3aa844170
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -160,3 +160,4 @@ ht-degree: 0%
 
 * [导入代码：导入数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
 * [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* 云上的[备份（快照）：常见问题解答](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
