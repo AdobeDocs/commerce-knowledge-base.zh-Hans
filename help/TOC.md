@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: dc9a64e1576f93d952b4ff4c24c3845f819e08bd
+source-git-commit: 41948c702d5c4e37847ab18ca2a93798e70a8e98
 workflow-type: tm+mt
-source-wordcount: '9304'
+source-wordcount: '9315'
 ht-degree: 0%
 
 ---
@@ -943,6 +943,7 @@ ht-degree: 0%
       * [从低于2.4.5的版本升级时，[!UICONTROL salesRule]标签出现问题](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [针对2.4.4、2.4.5和2.4.6版的[!DNL JQuery UI]安全漏洞 [!DNL CVE-2022-31160] 修复](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
       * [[!DNL FedEx]配送方式集成从SOAP迁移到RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
+      * [Adobe Commerce中出现超出Cookie最大数量的错误](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
    * Elasticsearch {#elasticsearch}
       * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce云基础架构2.3.1+升级后的Elasticsearch问题](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
