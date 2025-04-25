@@ -2,7 +2,7 @@
 title: 支持票证问题原因描述
 description: 本文列出了支持工单**问题原因**字段选项，并提供了每个选项的详细说明。
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: d3523be967f16a3e65025917fa6ac65097214100
+source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
   </tr>
   <tr>
     <td>基础架构事件</td>
-    <td>您需要在Adobe Commerce上获得有关云基础架构的帮助，例如停滞部署、[!DNL New Relic]访问、SSH/sFTP访问、服务升级（[!DNL OpenSearch]、[!DNL MariaDB]/[!DNL MySQL]、[!DNL Redis]、[!DNL RabbitMQ]，但不包括PHP）、SSL证书等。 **（不适用于[!DNL Live Search]）**</td>
+    <td>您需要在Adobe Commerce上获得有关云基础架构的帮助，例如停滞部署、[!DNL New Relic]访问、SSH/sFTP访问、服务升级（[!DNL OpenSearch]、[!DNL MariaDB]/[!DNL MySQL]、[!DNL Redis]、[!DNL RabbitMQ]，但不包括PHP）、SSL证书等。<strong> （不适用于[!DNL Live Search]）</strong>。</td>
   </tr>  
 </tbody>
 </table>
