@@ -3,7 +3,7 @@ title: 适用于Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
+source-git-commit: 145fc1dfc197cde39d55ceac4d02ecee6c641459
 workflow-type: tm+mt
 source-wordcount: '2966'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 1. 系统会为您加载Adobe Experience League支持页面。
 1. 从左侧菜单中选择&#x200B;**[!UICONTROL Open Ticket]**。
-1. 填写字段。
+1. 填写[字段](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions)。
 1. 单击&#x200B;**提交**。
 
 #### *请在Adobe Commerce帐户页面上验证您的电子邮件地址*&#x200B;错误 {#verify-email-address-error}
@@ -279,8 +279,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 1. 在用户菜单中选择&#x200B;**[!UICONTROL Support]**。
 1. 加载&#x200B;**[!UICONTROL My Tickets]**&#x200B;页面。
 1. 单击右上角的&#x200B;**[!UICONTROL Submit a ticket]**。
-1. 填写字段。
-1. 单击&#x200B;**提交**。
+1. 填写[字段](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions)。
 1. 单击&#x200B;**[!UICONTROL Submit]**。
 
 ### Adobe Commerce P1热线 {#P1-hotline}

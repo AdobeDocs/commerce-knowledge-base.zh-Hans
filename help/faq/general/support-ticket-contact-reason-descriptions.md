@@ -2,9 +2,9 @@
 title: 支持票证问题原因描述
 description: 本文列出了支持工单**问题原因**字段选项，并提供了每个选项的详细说明。
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
+source-git-commit: f502c913964103b88bcb00f942f70439394148f5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,7 @@ ht-degree: 0%
   </tr>  
 </tbody>
 </table>
+
+## 相关阅读
+
+* 在Adobe Commerce的Experience League支持用户指南中[提交支持案例](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
