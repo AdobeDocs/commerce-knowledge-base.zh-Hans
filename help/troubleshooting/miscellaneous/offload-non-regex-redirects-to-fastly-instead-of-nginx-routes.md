@@ -103,4 +103,4 @@ ht-degree: 0%
 * 在开发人员文档中[配置路由](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
 * 在我们的开发人员文档中[设置 [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
 * 在开发人员文档中的[[!DNL VCL] 正则表达式备忘表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

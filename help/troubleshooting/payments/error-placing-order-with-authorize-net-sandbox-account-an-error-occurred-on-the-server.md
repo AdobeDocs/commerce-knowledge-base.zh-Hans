@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >**弃用通知**
 >
->由于支付服务指令[PSD2](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive)和许多API的不断演变，Authorize.Net有过时和将来不再符合安全性的风险。 因此，现已弃用，我们建议您在Adobe Commerce配置中禁用它，并过渡到相应的[Commerce Marketplace扩展](https://marketplace.magento.com/extensions.html)。
+>由于支付服务指令[PSD2](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive)和许多API的不断演变，Authorize.Net有过时和将来不再符合安全性的风险。 因此，现已弃用，我们建议您在Adobe Commerce配置中禁用它，并过渡到相应的[Commerce Marketplace扩展](https://marketplace.magento.com/extensions.html)。
 >
 >**此集成已从Adobe Commerce 2.4.0版本中删除，已在2.3的当前版本中弃用。**
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 问题
 
-使用[Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server)沙盒帐户下订单会导致出现错误消息：
+使用[Authorize.Net Direct Post](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server)沙盒帐户下订单会导致出现错误消息：
 
 &#x200B;>>
 “服务器上发生错误。 请尝试重新下单”

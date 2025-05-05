@@ -36,7 +36,7 @@ BAK文件是部署过程的产物。 如果在部署后手动更改配置文件�
 
 要恢复配置文件：
 
-1. 使用[SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)登录到远程存储库。
+1. 使用[SSH](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)登录到远程存储库。
 1. 列出可用的备份文件。
 
    ```

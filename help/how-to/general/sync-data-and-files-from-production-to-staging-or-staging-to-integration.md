@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 将数据从一个环境同步到另一个环境
 
-要同步数据，必须手动从源环境中转储数据库。 要将数据传输到另一个环境，您必须将源转储上传到目标环境并导入它。 有关详细信息，请参阅我们的开发人员文档中的[将Adobe Commerce代码导入Cloud项目>导入Adobe Commerce数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)。
+要同步数据，必须手动从源环境中转储数据库。 要将数据传输到另一个环境，您必须将源转储上传到目标环境并导入它。 有关详细信息，请参阅我们的开发人员文档中的[将Adobe Commerce代码导入Cloud项目>导入Adobe Commerce数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)。
 
 对于云基础架构上的Adobe Commerce Pro计划架构，您还可以从暂存和生产同步到集成主分支。 此同步仅提取和推送代码，而不提取数据。 要同步数据，您需要转储数据库数据并将其推送到另一个环境的数据库。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 将文件从一个环境同步到另一个环境
 
-要将文件从一个环境同步到另一个环境，请使用`rsync`命令。 有关详细信息，请参阅我们的开发人员文档中的[部署代码并迁移静态文件和数据>使用rsync迁移文件](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production#migrate-files-using-rsync)。
+要将文件从一个环境同步到另一个环境，请使用`rsync`命令。 有关详细信息，请参阅我们的开发人员文档中的[部署代码并迁移静态文件和数据>使用rsync迁移文件](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production#migrate-files-using-rsync)。
 
 >[!NOTE]
 >

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 `max_execution_time = 120`
 
-请参阅[自定义php.ini设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)一文。
+请参阅[自定义php.ini设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/php-settings)一文。
 
 ## 示例
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-自定义您的`php.ini`设置。 请参阅此[自定义php.ini设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
+自定义您的`php.ini`设置。 请参阅此[自定义php.ini设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
 
 ## 示例
 
@@ -65,9 +65,9 @@ MySQL环境的磁盘空间不足。 为MySQL环境提供更多磁盘空间。
 
 在我们的开发人员文档中：
 
-* [PHP设置错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [必需的PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
-* [Redis验证](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
-* [配置Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
-* [PHP内存限制错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [PHP设置错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [必需的PHP设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis验证](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [配置Redis](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP内存限制错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/overview)
 * [常见问题的解决方案 — 内存限制](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

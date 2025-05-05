@@ -34,7 +34,7 @@ ht-degree: 0%
 <p>在这些情况下，管理员用户需要将您添加到项目中。</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">访问我们的支持知识库中的New Relic服务</a>。</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html?lang=zh-Hans">访问我们的支持知识库中的New Relic服务</a>。</p>
 </td>
 </tr>
 <tr>

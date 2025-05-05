@@ -45,4 +45,4 @@ PHP 8.1已包含JSON支持，并且不需要单独安装扩展。
 
 ## 相关阅读
 
-在我们的开发人员文档中[PHP应用程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)。
+在我们的开发人员文档中[PHP应用程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/php-settings)。

@@ -24,7 +24,7 @@ ht-degree: 0%
 * ECE工具版本2002.0.16及更高版本
 * New Relic APM服务(**您的Adobe Commerce on cloud infrastructure帐户包含New Relic APM服务的软件**&#x200B;以及许可证密钥。)
 
-有关New Relic APM服务及其在Adobe Commerce on cloud infrastructure帐户中的设置的详细信息，请转到[New Relic服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)和[New Relic APM简介](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/)。
+有关New Relic APM服务及其在Adobe Commerce on cloud infrastructure帐户中的设置的详细信息，请转到[New Relic服务](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)和[New Relic APM简介](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/)。
 
 ## 问题
 
@@ -61,7 +61,7 @@ Adobe Commerce可以异步读取多个数据库或Redis。 通过将值`MYSQL_US
 
    ![KB-372_image004.png](assets/KB-372_image004.png)
 
-   您可以在DevDocs[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection)中的部署变量中找到更多详细信息。
+   您可以在DevDocs[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection)中的部署变量中找到更多详细信息。
 
 1. 提交更改并推送更改。
 1. 推送更改将启动新的部署过程。 成功完成部署后，您应该将云基础架构实例上的Adobe Commerce配置为使用从属连接。
@@ -70,7 +70,7 @@ Adobe Commerce可以异步读取多个数据库或Redis。 通过将值`MYSQL_US
 
 以下是当您考虑在云基础架构存储上为Adobe Commerce使用从连接功能时可能问到的常见问题。
 
-* 使用从属连接是否存在任何已知问题或限制？ **使用从属连接时没有任何已知问题。 只需确保您使用的是最新更新的ece-tools包。 此处提供了有关如何更新ece-tools包[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)的说明。**
+* 使用从属连接是否存在任何已知问题或限制？ **使用从属连接时没有任何已知问题。 只需确保您使用的是最新更新的ece-tools包。 此处提供了有关如何更新ece-tools包[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)的说明。**
 * 使用从属连接时是否会有额外的延迟？ *是的，跨可用区（跨可用区）延迟较高，在实例未过载且可以承担全部负载的情况下，会降低Adobe Commerce在云基础架构实例上的性能。 但很显然，如果实例过载，则主从节点可以通过将负载分散到MySQL数据库或Redis上的不同节点来帮助提高性能。*
 
   **在非重载群集上** - **从属连接将使性能降低10-15%**，这是不默认的原因之一。
@@ -82,9 +82,9 @@ Adobe Commerce可以异步读取多个数据库或Redis。 通过将值`MYSQL_US
 
 在我们的开发人员文档中：
 
-* [部署变量](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy)。
-* [设置可选的数据库复制](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication)。
-* [ece-tools包](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview)。
+* [部署变量](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy)。
+* [设置可选的数据库复制](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication)。
+* [ece-tools包](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview)。
 
 >[!NOTE]
 >

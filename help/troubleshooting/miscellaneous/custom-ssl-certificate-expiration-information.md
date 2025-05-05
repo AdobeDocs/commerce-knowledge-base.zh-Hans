@@ -46,6 +46,6 @@ Adobe Commerce会在过期后30天内更新任何证书。
 ## 相关阅读
 
 * Magento Commerce Cloud的[SSL (TLS)证书：我们的支持知识库中的常见问题解答](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)。
-* [命令行工具引用：开发人员文档中的magento-cloud certificate：add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
-* 在开发人员文档中[启动项核对清单](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)。
-* 访问用户指南中的[站点范围分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。
+* [命令行工具引用：开发人员文档中的magento-cloud certificate：add](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
+* 在开发人员文档中[启动项核对清单](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/launch/checklist)。
+* 访问用户指南中的[站点范围分析工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。

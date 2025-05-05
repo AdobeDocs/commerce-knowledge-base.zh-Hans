@@ -33,7 +33,7 @@ ht-degree: 0%
 
 要复制加密密钥，请执行以下操作：
 
-1. SSH到作为数据库转储源的项目，如开发人员文档中的[SSH到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)中所述。
+1. SSH到作为数据库转储源的项目，如开发人员文档中的[SSH到环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)中所述。
 1. 在文本编辑器中打开`app/etc/env.php`。
 1. 复制`crypt`的`key`值。
 
@@ -44,7 +44,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 设置目标项目的键值：
 
 1. 打开[云控制台](https://console.adobecommerce.com)并找到您的项目。
-1. 设置[CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html)（在我们的开发人员文档中）变量的值，如我们的开发人员文档中的[配置您的项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)中所述。 这将触发部署过程，每次部署时`app/etc/env.php`文件中的`CRYPT_KEY`将被覆盖。
+1. 设置[CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans)（在我们的开发人员文档中）变量的值，如我们的开发人员文档中的[配置您的项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hans)中所述。 这将触发部署过程，每次部署时`app/etc/env.php`文件中的`CRYPT_KEY`将被覆盖。
 
 或者，您可以在`app/etc/env.php`文件中手动覆盖加密密钥：
 

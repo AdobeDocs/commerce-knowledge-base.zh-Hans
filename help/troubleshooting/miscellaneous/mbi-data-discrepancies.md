@@ -18,7 +18,7 @@ ht-degree: 0%
 * [数据差异诊断核对清单](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [使用导出功能查明数据差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-我们还建议您确保为涉及差异的表和列设置了正确的[复制方法](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods)和[重新检查](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)。 请注意，您需要管理员权限才能访问复制方法并重新检查信息。
+我们还建议您确保为涉及差异的表和列设置了正确的[复制方法](https://experienceleague.adobe.com/zh-hans/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods)和[重新检查](https://experienceleague.adobe.com/zh-hans/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)。 请注意，您需要管理员权限才能访问复制方法并重新检查信息。
 
 ## 我仍然需要帮助！
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 ## 相关阅读
 
 * [计算列](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [结构数据库更改](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [结构数据库更改](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=zh-Hans)

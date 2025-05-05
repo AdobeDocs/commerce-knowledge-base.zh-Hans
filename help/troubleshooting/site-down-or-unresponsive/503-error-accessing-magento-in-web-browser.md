@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>重现步骤</u>
 
-（先决条件：确保存储不处于[维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)）。
+（先决条件：确保存储不处于[维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)）。
 
 在Web浏览器中导航到您的Commerce管理员或店面。
 

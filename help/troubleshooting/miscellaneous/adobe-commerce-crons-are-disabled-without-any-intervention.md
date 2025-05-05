@@ -39,10 +39,10 @@ ht-degree: 0%
 
 ## 解决方案
 
-将[!DNL ECE Tools]升级到最新版本[2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)。
+将[!DNL ECE Tools]升级到最新版本[2002.1.13](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)。
 
 ## 相关阅读
 
-* [我们的支持知识库中性能缓慢、运行缓慢且时间较长 [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html)。
-* [[!DNL Cron] 任务锁定我们支持知识库中其他组](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en)的任务。
-* [[!DNL Cron] 作业卡在我们的支持知识库中，处于“正在运行”状态](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en)。
+* [我们的支持知识库中性能缓慢、运行缓慢且时间较长 [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hans)。
+* [[!DNL Cron] 任务锁定我们支持知识库中其他组](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=zh-Hans)的任务。
+* [[!DNL Cron] 作业卡在我们的支持知识库中，处于“正在运行”状态](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=zh-Hans)。

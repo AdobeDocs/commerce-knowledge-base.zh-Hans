@@ -40,7 +40,7 @@ proc_open(): fork failed - Cannot allocate memory
 
 ## 解决方案 {#solution}
 
-我们建议您[在我们的开发人员文档中为PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)分配2GB的内存，以确保您的安装或升级成功。
+我们建议您[在我们的开发人员文档中为PHP](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)分配2GB的内存，以确保您的安装或升级成功。
 
 如果您已经这样做，请在您的计算机上创建一个交换文件。 如果Linux计算机需要更多内存资源并且RAM已满，则它使用&#x200B;*交换空间*。 交换空间用于内存中的非活动页。
 

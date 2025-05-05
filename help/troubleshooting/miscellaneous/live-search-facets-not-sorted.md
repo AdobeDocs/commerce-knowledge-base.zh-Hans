@@ -22,7 +22,7 @@ Adobe Commerce版本2.4.x及更高版本
 
 ## 解决方法
 
-但是，在某些边缘情况下，Facet可能无法按照[[!DNL Live Search] Faceting工作区](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)中的设置进行字母排序。
+但是，在某些边缘情况下，Facet可能无法按照[[!DNL Live Search] Faceting工作区](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)中的设置进行字母排序。
 
 作为解决方法，您可以在[!UICONTROL Admin]属性部分中对产品属性进行排序。
 

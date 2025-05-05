@@ -65,7 +65,7 @@ Fastly通常遵循来自应用程序的响应标头；但是，如果标头都�
 
 要检查总体缓存命中率，请执行以下操作：
 
-1. 在云基础架构环境中[获取Adobe Commerce的Fastly凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration)。
+1. 在云基础架构环境中[获取Adobe Commerce的Fastly凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration)。
 1. 运行以下Linux/macOS cURL命令以检查网站在过去30分钟内的点击率，并用您的Fastly凭据的值替换和：
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -82,8 +82,8 @@ Fastly通常遵循来自应用程序的响应标头；但是，如果标头都�
 
 1. 使用每小时和每日命中率统计信息，确定命中率何时开始下降。 如果在您将更改部署到网站的同一时间左右，点击率突然下降，请考虑回退更改，直到网站负载下降。
 1. 在Commerce管理员的&#x200B;**存储** > **配置** >高级> **系统** > **全页缓存**&#x200B;下检查配置。 确保公共内容&#x200B;**值的** TTL设置得不是太低。
-1. 确保已[上传VCL代码片段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
-1. 如果使用自定义VCL代码片段，请对其进行调试以正确使用“通过”或“管道”操作：应谨慎使用这些代码片段，并且至少应将其用于某种条件。 有关更多提示，请参阅我们的开发人员文档中的[自定义Fastly VCL代码片段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
+1. 确保已[上传VCL代码片段](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
+1. 如果使用自定义VCL代码片段，请对其进行调试以正确使用“通过”或“管道”操作：应谨慎使用这些代码片段，并且至少应将其用于某种条件。 有关更多提示，请参阅我们的开发人员文档中的[自定义Fastly VCL代码片段](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
 
 ### 步骤3：识别导致服务器负载过高的网站
 

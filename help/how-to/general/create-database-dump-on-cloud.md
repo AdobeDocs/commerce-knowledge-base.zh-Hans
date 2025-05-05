@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 前提条件：通过SSH连接到环境
 
-要使用本文中讨论的任何变体在Adobe Commerce上转储您的数据库，您必须先[SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+要使用本文中讨论的任何变体在Adobe Commerce上转储您的数据库，您必须先[SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
 
 >[!WARNING]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 选项1：db-dump （**ece-tools；建议**）
 
-您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)命令转储数据库：
+您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=zh-Hans)命令转储数据库：
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,7 +34,7 @@ vendor/bin/ece-tools db-dump
 
 这是推荐且最安全的选项。
 
-请参阅我们的Commerce on Cloud Infrastructure指南中的[转储您的数据库(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html)。
+请参阅我们的Commerce on Cloud Infrastructure指南中的[转储您的数据库(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=zh-Hans)。
 
 ## 选项2：mysqldump
 
@@ -61,4 +61,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 **相关文档：**
 
 * [mysqldump — 官方的MySQL文档中的数据库备份程序](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)。
-* 我们的Commerce on Cloud Infrastructure指南中的[特定于云的变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html)（请参阅`MAGENTO_CLOUD_RELATIONSHIPS`）。
+* 我们的Commerce on Cloud Infrastructure指南中的[特定于云的变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=zh-Hans)（请参阅`MAGENTO_CLOUD_RELATIONSHIPS`）。

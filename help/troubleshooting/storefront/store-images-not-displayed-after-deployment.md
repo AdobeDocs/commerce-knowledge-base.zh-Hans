@@ -31,9 +31,9 @@ ht-degree: 0%
 
 如果发生这种情况，您可以使用Magento命令重新生成图像缓存并正确显示图像。
 
-要执行此操作，您需要通过[云控制台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)提供的SSH信息和商店URL。
+要执行此操作，您需要通过[云控制台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hans)提供的SSH信息和商店URL。
 
-1. SSH到[数据库转储](/help/how-to/general/create-database-dump-on-cloud.md)的源项目，如开发人员文档中的[SSH到环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)中所述。
+1. SSH到[数据库转储](/help/how-to/general/create-database-dump-on-cloud.md)的源项目，如开发人员文档中的[SSH到环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections)中所述。
 1. 通过运行以下代码重新生成图像缓存：
 
    ```bash

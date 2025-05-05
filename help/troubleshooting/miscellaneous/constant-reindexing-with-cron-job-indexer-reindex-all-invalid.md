@@ -55,7 +55,7 @@ SELECT TIMESTAMPDIFF(SECOND, executed_at, finished_at) AS period FROM cron_sched
 SELECT executed_at FROM cron_schedule WHERE job_code = 'indexer_reindex_all_invalid' AND executed_at IS NOT NULL ORDER BY executed_at ASC LIMIT 1;
 ```
 
-如果这没有给您足够长的时间来进行适当的评估，则可以在此[[!DNL Cron] （计划任务）](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html)指南之后增加在日志中保留成功的`cron`进程的时间，并增加&#x200B;**[!DNL Success History Lifetime]**&#x200B;值（默认值为60分钟）。
+如果这没有给您足够长的时间来进行适当的评估，则可以在此[[!DNL Cron] （计划任务）](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html?lang=zh-Hans)指南之后增加在日志中保留成功的`cron`进程的时间，并增加&#x200B;**[!DNL Success History Lifetime]**&#x200B;值（默认值为60分钟）。
 
 
 ## 解决方案
@@ -77,4 +77,4 @@ SELECT executed_at FROM cron_schedule WHERE job_code = 'indexer_reindex_all_inva
 
 ## 相关阅读
 
-Adobe Commerce操作配置指南中的[配置 [!DNL cron] 作业](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)。
+Adobe Commerce操作配置指南中的[配置 [!DNL cron] 作业](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hans)。

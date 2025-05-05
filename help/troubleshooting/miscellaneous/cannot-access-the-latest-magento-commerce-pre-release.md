@@ -40,7 +40,7 @@ ht-degree: 0%
 
 在预发行期间，发行版软件包在以下两个位置提供：
 
-1. 通过[magento.com](https://repo.magento.com/)上的Composer，使用帐户的主MageID。 有关如何使用编辑器的更多详细信息，请参阅我们的开发人员文档中的[使用编辑器安装Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
+1. 通过[magento.com](https://repo.magento.com/)上的Composer，使用帐户的主MageID。 有关如何使用编辑器的更多详细信息，请参阅我们的开发人员文档中的[使用编辑器安装Adobe Commerce](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer)。
 1. 在[account.magento.com](https://account.magento.com/customer/account/login)上，**我的帐户** > **下载**。
 
 >[!NOTE]

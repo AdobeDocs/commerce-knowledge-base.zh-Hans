@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-请参阅[设置MySQL服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供参考。
+请参阅[设置MySQL服务](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供参考。
 
 更改`.magento/services.yaml`文件后，您需要提交并推送更改以便应用。 推送将触发部署过程。
 

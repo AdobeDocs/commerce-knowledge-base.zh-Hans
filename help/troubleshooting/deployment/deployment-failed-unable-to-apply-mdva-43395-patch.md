@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 原因
 
-如果云商已安装[magento/magento-cloud-patches 1.0.16](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)，并且其中已包含修补程序，则无需单独应用MDVA-43395修补程序。
+如果云商已安装[magento/magento-cloud-patches 1.0.16](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)，并且其中已包含修补程序，则无需单独应用MDVA-43395修补程序。
 
 ## 解决方案
 
@@ -45,4 +45,4 @@ $ vendor/bin/magento-patches -n status |grep 43443
 ## 相关阅读
 
 * [如何应用我们的支持知识库中Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
-* 在开发人员文档中[Commerce的云修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)。
+* 在开发人员文档中[Commerce的云修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)。

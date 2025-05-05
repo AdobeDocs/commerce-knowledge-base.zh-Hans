@@ -1,6 +1,6 @@
 ---
 title: 启用Fastly的子页面上不显示主菜单（类别）
-description: 本文修复了在启用Fastly或Varnish时，子页面（例如，*blog/page*）的店面未显示主菜单(或用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html))的问题。
+description: 本文修复了在启用Fastly或Varnish时，子页面（例如，*blog/page*）的店面未显示主菜单(或用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=zh-Hans))的问题。
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer

@@ -29,5 +29,5 @@ Adobe已发布质量修补程序工具以供正式发布，该工具允许应用
 
 有关详细信息，请参阅我们的开发人员文档：
 
-* Quality Patches Tool中提供了[个修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [质量修补工具发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* Quality Patches Tool中提供了[个修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hans)
+* [质量修补工具发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/release-notes)

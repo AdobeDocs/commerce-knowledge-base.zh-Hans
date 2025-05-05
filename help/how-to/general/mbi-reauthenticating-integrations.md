@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 数据库和SaaS集成
 
-有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （打开页面时，使用左侧的目录进行导航）。
+有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://experienceleague.adobe.com/zh-hans/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （打开页面时，使用左侧的目录进行导航）。
 
 ## 存在连接问题？
 

@@ -78,7 +78,7 @@ ht-degree: 0%
        php ./vendor/bin/ece-tools deploy
    ```
 
-   请参考[升级到ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package)一文。
+   请参考[升级到ece-tools](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package)一文。
 
 1. 通过运行以下命令，确保`composer.lock`文件中存在ECE-tools软件包：
 
@@ -92,7 +92,7 @@ ht-degree: 0%
    "name": "magento/ece-tools", "version": "2002.0.20",
    ```
 
-请参阅[升级到ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package)文章以供参考。
+请参阅[升级到ece-tools](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package)文章以供参考。
 
 ### 修补程序是否导致该问题？
 

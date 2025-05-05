@@ -79,4 +79,4 @@ HTTP/2 403
 
 ## 相关阅读
 
-* [站点范围分析工具指南](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+* [站点范围分析工具指南](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=zh-Hans)

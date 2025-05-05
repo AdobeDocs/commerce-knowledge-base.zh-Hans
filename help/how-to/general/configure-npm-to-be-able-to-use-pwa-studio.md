@@ -54,4 +54,4 @@ ht-degree: 0%
 
 ## 相关文档
 
-* [应用程序配置：我们的Adobe Commerce on Cloud Infrastructure指南中的挂接](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html)。
+* [应用程序配置：我们的Adobe Commerce on Cloud Infrastructure指南中的挂接](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=zh-Hans)。

@@ -57,8 +57,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 在我们的开发人员文档中：
 
-* 云基础架构上的[Adobe Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
-* 云基础架构上的[Adobe Commerce — 升级Adobe Commerce版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
-* [Adobe Commerce内部部署和Magento Open Source — 升级Adobe Commerce应用程序和模块](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
+* 云基础架构上的[Adobe Commerce指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/overview)
+* 云基础架构上的[Adobe Commerce — 升级Adobe Commerce版本](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [Adobe Commerce内部部署和Magento Open Source — 升级Adobe Commerce应用程序和模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/overview)
 * [愿望清单项目配置页](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
 * [提供高级报告的模块](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

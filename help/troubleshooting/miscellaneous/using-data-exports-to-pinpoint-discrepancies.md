@@ -1,6 +1,6 @@
 ---
 title: 使用数据导出来查明差异
-description: 本文为排查MagentoBI数据中的差异提供了解决方案。 数据导出是一种有用的工具，可用于将MagentoBI数据与源数据进行比较，以查明报告中的数据差异，尤其是在[数据差异诊断核对清单](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)无法帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
+description: 本文为排查MagentoBI数据中的差异提供了解决方案。 数据导出是一种有用的工具，可用于将MagentoBI数据与源数据进行比较，以查明报告中的数据差异，尤其是在[数据差异诊断核对清单](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)无法帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用数据导出来查明差异
 
-本文为排查MagentoBI数据中的差异提供了解决方案。 数据导出是一种将MagentoBI数据与源数据进行比较的有用工具，可以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)没有帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
+本文为排查MagentoBI数据中的差异提供了解决方案。 数据导出是一种将MagentoBI数据与源数据进行比较的有用工具，可以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)没有帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
 
 以这种分析为例：
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 如果两个系统具有相同的行计数，且&#x200B;**收入**&#x200B;指标与源数据不匹配，则&#x200B;**order\_total**&#x200B;必须在某个位置关闭。 源数据库中的&#x200B;**order\_total**&#x200B;字段可能已更新，且MagentoBI未收到这些更改。
 
-要确认这一点，请查看&#x200B;**order\_total**&#x200B;列是否正在重新检查。 前往Data Warehouse管理器并单击&#x200B;**`orders`**&#x200B;表。 您会看到“更改？”中列出了[重新检查频率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) 列。 **order\_total**&#x200B;字段应设置为按预期更改频率重新检查；如果不更改，请将其设置为所需的重新检查频率。
+要确认这一点，请查看&#x200B;**order\_total**&#x200B;列是否正在重新检查。 前往Data Warehouse管理器并单击&#x200B;**`orders`**&#x200B;表。 您会看到“更改？”中列出了[重新检查频率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=zh-Hans) 列。 **order\_total**&#x200B;字段应设置为按预期更改频率重新检查；如果不更改，请将其设置为所需的重新检查频率。
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 源数据库的行数少于MagentoBI {#lessrows}
 
-如果源数据库的行数少于MagentoBI，则可能正在从源数据库中删除行，并且MagentoBI不接收这些删除操作。 **&#x200B; [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能会导致不一致、更新时间延长以及后勤方面的一系列难题**，因此我们强烈建议您永远不要删除数据，除非它真的必要。
+如果源数据库的行数少于MagentoBI，则可能正在从源数据库中删除行，并且MagentoBI不接收这些删除操作。 **&#x200B; [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=zh-Hans)可能会导致不一致、更新时间延长以及后勤方面的一系列难题**，因此我们强烈建议您永远不要删除数据，除非它真的必要。
 
 但是，如果从表中删除了行，请查看主键上的重新检查频率。 重新选中主键表示将检查表中是否包含已删除的行。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [数据差异诊断核对清单](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [Adobe Commerce Intelligence服务策略](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [数据差异诊断核对清单](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Adobe Commerce Intelligence服务策略](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 

@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 原因
 
-此问题与最近引入的新功能有关，该功能影响了最大会话大小。 请参阅我们的开发人员文档中的[会话管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management)。
+此问题与最近引入的新功能有关，该功能影响了最大会话大小。 请参阅我们的开发人员文档中的[会话管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-session-management)。
 
 ## 解决方案
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 用户指南中的[营销菜单](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu)。
+* 用户指南中的[营销菜单](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/marketing-menu)。

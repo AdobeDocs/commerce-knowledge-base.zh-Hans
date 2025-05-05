@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-37748： GraphQL查询返回未分配给共享目录的产品'
-description: MDVA-37748修补程序修复了GraphQL查询返回未分配给共享目录的产品的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5后，即可使用此修补程序。 修补程序ID为MDVA-37748。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
+description: MDVA-37748修补程序修复了GraphQL查询返回未分配给共享目录的产品的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5后，即可使用此修补程序。 修补程序ID为MDVA-37748。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
 exl-id: 1f441882-dc14-433c-aa03-ff22483ce5a7
 feature: B2B, GraphQL, Catalog Management, Categories, Products
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37748：GraphQL查询返回未分配给共享目录的产品
 
-MDVA-37748修补程序修复了GraphQL查询返回未分配给共享目录的产品的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5时，此修补程序可用。 修补程序ID为MDVA-37748。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
+MDVA-37748修补程序修复了GraphQL查询返回未分配给共享目录的产品的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5时，此修补程序可用。 修补程序ID为MDVA-37748。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
 
 ## 受影响的产品和版本
 
@@ -27,7 +27,7 @@ Adobe Commerce（所有部署方法） 2.4.2 - 2.4.2-p2
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hans)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
@@ -320,8 +320,8 @@ GraphQL返回的计数和产品仅考虑分配给与登录用户关联的共享�
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* 在开发人员文档中，参阅Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)。
-* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+* 在开发人员文档中，参阅Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/usage)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相关阅读
 

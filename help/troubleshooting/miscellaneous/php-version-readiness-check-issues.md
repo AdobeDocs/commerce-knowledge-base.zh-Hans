@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 解决方案
 
-要解决此问题，请使用我们的开发人员文档[2.3.x系统要求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)和[2.2.x系统要求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)中列出的受支持版本之一。
+要解决此问题，请使用我们的开发人员文档[2.3.x系统要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/system-requirements)和[2.2.x系统要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/system-requirements)中列出的受支持版本之一。
 
 ## PHP就绪检查不显示
 
@@ -43,7 +43,7 @@ PHP准备情况检查不会显示PHP版本，如下图所示。
 
 ### 解决方案
 
-这是cron作业设置不正确的症状。 有关详细信息，请参阅我们的开发人员文档中的[设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
+这是cron作业设置不正确的症状。 有关详细信息，请参阅我们的开发人员文档中的[设置cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 ## PHP版本不正确
 
@@ -62,7 +62,7 @@ PHP准备情况检查不会显示PHP版本，如下图所示。
 * 重新启动Web服务器或php-fm。
 * 检查`$PATH`环境变量，以查看指向PHP的多个路径。
 * 使用`which php`命令查找路径中的第一个PHP可执行文件；如果不正确，请将其删除或创建指向正确PHP版本的符号链接。
-* 使用[`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software)页面收集更多信息。
+* 使用[`phpinfo.php`](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/optional-software)页面收集更多信息。
 * 在我们的开发人员文档中，确保您根据我们的系统要求运行支持的PHP版本：
-   * [Adobe Commerce系统要求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
-* 为PHP命令行和PHP Web服务器插件设置相同的PHP设置，如开发人员文档中的[PHP配置选项](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#php-settings)中所述。
+   * [Adobe Commerce系统要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/system-requirements)
+* 为PHP命令行和PHP Web服务器插件设置相同的PHP设置，如开发人员文档中的[PHP配置选项](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/system-requirements#php-settings)中所述。

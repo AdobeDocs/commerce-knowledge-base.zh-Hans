@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-我们的用户指南中的[自动产品重定向](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic)。
+我们的用户指南中的[自动产品重定向](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic)。

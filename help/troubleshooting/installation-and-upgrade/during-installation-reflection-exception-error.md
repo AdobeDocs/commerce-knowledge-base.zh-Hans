@@ -27,7 +27,7 @@ ht-degree: 0%
 
 清除Adobe Commerce的`var`子目录下的所有目录和文件，然后再次安装Adobe Commerce软件。
 
-作为[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)或具有`root`权限的用户，输入以下命令：
+作为[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)或具有`root`权限的用户，输入以下命令：
 
 ```bash
 $ cd <your Magento install directory>/var

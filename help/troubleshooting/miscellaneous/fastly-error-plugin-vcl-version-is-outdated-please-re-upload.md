@@ -33,15 +33,15 @@ Fastly扩展已更新（以及捆绑的VCL配置和模板），但更新的VCL�
 
 ## 解决方案
 
-1. 检查是否已安装最新的ECE-Tools，以及我们的开发人员文档中的[当前版本](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html)。 ECE-Tools在其依赖项中有一个版本的Fastly包。
+1. 检查是否已安装最新的ECE-Tools，以及我们的开发人员文档中的[当前版本](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html?lang=zh-Hans)。 ECE-Tools在其依赖项中有一个版本的Fastly包。
 
    这可能不是Fastly插件的最新版本，但可能是比您当前安装的版本更新的版本，最佳做法是安装最新的ECE工具。
 
-1. 如果您不在当前版本的ECE-Tools上，请按照我们的开发人员文档中的以下步骤[升级](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)。
+1. 如果您不在当前版本的ECE-Tools上，请按照我们的开发人员文档中的以下步骤[升级](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=zh-Hans)。
 1. 升级ECE-Tools后，检查您现在是否安装了[Fastly插件](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets)的最新版本。
-1. 如果Fastly插件不是当前版本，请按照以下步骤在开发人员文档中将插件[升级到最新版本](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module)。
+1. 如果Fastly插件不是当前版本，请按照以下步骤在开发人员文档中将插件[升级到最新版本](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#upgrade-the-fastly-module)。
 
 ## 相关阅读
 
-* 有关设置和配置Fastly的信息，请参阅我们的开发人员文档中的[配置Fastly服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)。
+* 有关设置和配置Fastly的信息，请参阅我们的开发人员文档中的[配置Fastly服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hans)。
 * 有关Fastly的一般信息，请参阅[fastly.com](https://www.fastly.com/)。

@@ -51,7 +51,7 @@ Adobe Commerce（所有部署方法）所有[支持的版本](https://www.adobe.
 - 现有的Adobe公司/个人帐户。
 - 如果您没有Adobe帐户，请创建具有相同电子邮件地址的帐户。
 
-有关步骤，请参阅Adobe Experience League中的[Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html)。
+有关步骤，请参阅Adobe Experience League中的[Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=zh-Hans)。
 
 ## 相关阅读
 

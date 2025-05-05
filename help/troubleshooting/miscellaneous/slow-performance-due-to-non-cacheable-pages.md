@@ -53,7 +53,7 @@ Cacheable和uncacheable是用于指示是否应缓存页面的术语。 默认�
 
 >[!NOTE]
 >
->对于Cloud Infrastructure 2.4.1及更高版本上的Adobe Commerce，您可以使用[站点范围分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access)来自动检查完整页缓存配置是否正确。
+>对于Cloud Infrastructure 2.4.1及更高版本上的Adobe Commerce，您可以使用[站点范围分析工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/site-wide-analysis-tool/access)来自动检查完整页缓存配置是否正确。
 
 ### 相关阅读
 

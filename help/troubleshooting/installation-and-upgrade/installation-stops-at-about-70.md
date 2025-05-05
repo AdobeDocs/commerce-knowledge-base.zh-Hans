@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 所有Web服务器和Varnish {#all-web-servers-and-varnish}
 
-1. 使用[`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software)文件找到您的`php.ini`。
+1. 使用[`phpinfo.php`](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/optional-software)文件找到您的`php.ini`。
 1. 作为具有`root`权限的用户，在文本编辑器中打开`php.ini`。
 1. 找到`max_execution_time`设置。
 1. 将其值更改为`18000` 。

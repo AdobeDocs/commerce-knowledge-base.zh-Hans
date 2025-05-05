@@ -30,11 +30,11 @@ ht-degree: 0%
 ## 解决方案
 
 1. 要求用户在https://accounts.magento.cloud上登录其帐户(他们必须已经在adobe.com上在该电子邮件地址下注册了帐户。 在https://account.adobe.com创建/拥有帐户并不自动意味着用户将在https://accounts.magento.cloud拥有帐户)
-注意：如果用户在2022年8月之前拥有在account.magento.com或accounts.magento.cloud上的帐户，则他们可能没有在adobe.com上拥有或拥有的帐户，除非他们在2022年8月或之后创建了该帐户。 如果用户确实拥有Adobe帐户并且无法登录，请在https://experienceleague.adobe.com/home#support上[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)并提供详细信息（问题原因= User Management）。
+注意：如果用户在2022年8月之前拥有在account.magento.com或accounts.magento.cloud上的帐户，则他们可能没有在adobe.com上拥有或拥有的帐户，除非他们在2022年8月或之后创建了该帐户。 如果用户确实拥有Adobe帐户并且无法登录，请在https://experienceleague.adobe.com/home#support上[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)并提供详细信息（问题原因= User Management）。
 1. 随后，用户应转到https://accounts.magento.cloud。
-1. 完成此操作后，您应该能够将用户添加到项目中。 有关步骤，请参阅我们的Commerce on Cloud Infrastructure指南中的[添加用户和管理访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access)。
+1. 完成此操作后，您应该能够将用户添加到项目中。 有关步骤，请参阅我们的Commerce on Cloud Infrastructure指南中的[添加用户和管理访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans#add-users-and-manage-access)。
 
 ## 相关阅读：
 
-* 我们的Commerce on Cloud Infrastructure指南中的[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)。
-* [无法登录Adobe Commerce支持或云帐户](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html)
+* 我们的Commerce on Cloud Infrastructure指南中的[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans)。
+* [无法登录Adobe Commerce支持或云帐户](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html?lang=zh-Hans)

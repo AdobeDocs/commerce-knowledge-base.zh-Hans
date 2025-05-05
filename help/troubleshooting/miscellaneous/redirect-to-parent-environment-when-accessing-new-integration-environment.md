@@ -59,7 +59,7 @@ update core_config_data set value = %your_new_environment_secure_url% where path
 
 #### 使用Adobe Commerce CLI更正数据库（适用于版本2.2.X）
 
-1. 以或切换到[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)身份登录。
+1. 以或切换到[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hans)身份登录。
 1. 运行以下命令：
 
 ```bash
@@ -87,4 +87,4 @@ php <your_magento_install_dir>/bin/magento cache:clean config
 
 ## 我们的开发人员文档中的相关文章：
 
-[部署变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html)
+[部署变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans)

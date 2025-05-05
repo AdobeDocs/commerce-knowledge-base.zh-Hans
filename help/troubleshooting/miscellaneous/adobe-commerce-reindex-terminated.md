@@ -37,5 +37,5 @@ ht-degree: 0%
 
 在我们的开发人员文档中：
 
-* [专业体系结构>集成环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [入门体系结构>暂存环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [专业体系结构>集成环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [入门体系结构>暂存环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

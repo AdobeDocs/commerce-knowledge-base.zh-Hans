@@ -56,5 +56,5 @@ ht-degree: 0%
 >
 >我们强烈建议先在[暂存/集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)上测试更改，然后再将其应用于生产。 我们还建议在进行任何操作之前进行最近备份。
 
-1. 禁用`Magento_Banner`模块输出，如开发人员文档中的[禁用模块输出](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output)中所述。 您需要使用的模块名称为`Magento_Banner`。
-1. 部署代码。 对于云基础架构上的Adobe Commerce，请按照开发人员文档中的[部署您的存储库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章中的说明进行部署。
+1. 禁用`Magento_Banner`模块输出，如开发人员文档中的[禁用模块输出](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/files/disable-module-output)中所述。 您需要使用的模块名称为`Magento_Banner`。
+1. 部署代码。 对于云基础架构上的Adobe Commerce，请按照开发人员文档中的[部署您的存储库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章中的说明进行部署。

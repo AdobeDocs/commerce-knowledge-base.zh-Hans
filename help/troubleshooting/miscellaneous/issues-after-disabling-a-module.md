@@ -30,6 +30,6 @@ ht-degree: 0%
 
 ## 解决方案
 
-如果需要禁用模块功能，请按照开发人员文档中的[启用或禁用模块](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)中的说明禁用模块。
+如果需要禁用模块功能，请按照开发人员文档中的[启用或禁用模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/manage-modules)中的说明禁用模块。
 
 模块输出禁用功能已从版本2.2.0中删除。

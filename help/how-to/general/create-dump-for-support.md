@@ -27,7 +27,7 @@ Adobe Commerce（所有部署方法）2.3.x、2.4.x。
 
 然后，您可以向支持人员提供转储文件的直接下载链接（您的商店地址和所显示的文件名）。
 
-如果从管理员创建转储时遇到问题，请考虑使用CLI命令，如开发人员文档中的[运行支持实用工具](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities)中所述。
+如果从管理员创建转储时遇到问题，请考虑使用CLI命令，如开发人员文档中的[运行支持实用工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/run-support-utilities)中所述。
 
 ## 相关阅读
 

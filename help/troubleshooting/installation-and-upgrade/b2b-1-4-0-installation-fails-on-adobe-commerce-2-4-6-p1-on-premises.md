@@ -114,5 +114,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 完成安装或升级过程。
 
-   * 在云基础架构上[安装 [!DNL B2B] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
-   * [安装内部部署](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)
+   * 在云基础架构上[安装 [!DNL B2B] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=zh-Hans)
+   * [安装内部部署](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=zh-Hans)

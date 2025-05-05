@@ -45,8 +45,8 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 我们的开发人员文档中的[内部部署安装概述](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
-* [数据库上载将断开与支持知识库中 [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)的连接。
-* 在我们的支持知识库中[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
-* [解决支持知识库中数据库性能问题的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)。
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 我们的开发人员文档中的[内部部署安装概述](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/overview)。
+* [数据库上载将断开与支持知识库中 [!DNL MySQL]](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)的连接。
+* 在我们的支持知识库中[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)。
+* [解决支持知识库中数据库性能问题的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)。
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

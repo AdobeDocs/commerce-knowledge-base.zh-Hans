@@ -74,4 +74,4 @@ $ curl 127.0.0.1:9200
 
 ## 相关阅读
 
-在《云基础架构上的Commerce》指南中[设置OpenSearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html)。
+在《云基础架构上的Commerce》指南中[设置OpenSearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=zh-Hans)。

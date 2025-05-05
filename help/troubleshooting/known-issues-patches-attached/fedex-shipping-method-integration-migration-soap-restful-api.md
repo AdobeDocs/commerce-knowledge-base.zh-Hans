@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 >使用[!DNL Quality Patches Tool] (QPT) 1.1.57版本中的ACSD-61622修补程序，而不是之前提供的修补程序。 新修补程序与Adobe Commerce版本（所有部署方法）2.4.6-p1 - 2.4.6-p8兼容。 它可能适用于具有新[!DNL Quality Patches Tool]发行版本的其他版本。
 >
->有关详细信息，请参阅Adobe Commerce Tools指南中的[ACSD-61622修补程序文章](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response)。
+>有关详细信息，请参阅Adobe Commerce Tools指南中的[ACSD-61622修补程序文章](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response)。
 
 >[!WARNING]
 >
->在安装新的修补程序之前，需要卸载本文中提供的先前修补程序。 有关卸载修补程序的说明，请参阅用户指南中的[还原自定义修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch)。
+>在安装新的修补程序之前，需要卸载本文中提供的先前修补程序。 有关卸载修补程序的说明，请参阅用户指南中的[还原自定义修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch)。
 
 
 本文提供了一个修补程序，用于解决将[!DNL FedEx]配送方式集成从SOAP迁移到Adobe Commerce 2.4.4-p4 - 2.4.6-pX的RESTful API时出现的问题。
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的编辑器修补程序以获取说明。
+解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hans)提供的编辑器修补程序以获取说明。
 
 ## 如何判断是否已应用修补程序
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 <u>您可以通过以下步骤执行此操作</u>：
 
-1. [安装 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+1. [安装 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hans)。
 1. 运行以下命令：
 
    ```bash

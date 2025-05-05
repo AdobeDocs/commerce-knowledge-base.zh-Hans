@@ -28,7 +28,7 @@ ht-degree: 0%
 * 为第三方供应商提供对云环境的访问权限。 相关文章：
 
    * [Adobe Commerce帮助中心用户指南>共享访问权限：授予其他用户访问您帐户的权限](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access)（位于我们的支持知识库中）。
-   * 在我们的用户指南中[共享您的Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)。
+   * 在我们的用户指南中[共享您的Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-share)。
 
 * 创建数据库转储（或授予第三方供应商执行此操作的权限）。 可以使用CLI或Commerce Admin执行此操作。 此数据库转储将混淆客户数据，因此他们获得的只是代码和产品SKU等，没有专有/客户数据。 请参考我们的支持知识库中的[共享您的Commerce帐户] (/help/how-to/general/create-database-dump-on-cloud.md)。
 * 测试完成后，请确保按照支持知识库中的[Adobe Commerce帮助中心用户指南>撤消（删除共享访问权限）](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access)中所述，撤消对云环境的共享访问权限。

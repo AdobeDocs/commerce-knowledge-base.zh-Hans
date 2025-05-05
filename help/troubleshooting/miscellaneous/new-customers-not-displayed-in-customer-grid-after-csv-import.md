@@ -47,4 +47,4 @@ ht-degree: 0%
 链接到我们的开发人员文档中的相关主题：
 
 * [索引概述](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [管理索引器](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [管理索引器](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-indexers)

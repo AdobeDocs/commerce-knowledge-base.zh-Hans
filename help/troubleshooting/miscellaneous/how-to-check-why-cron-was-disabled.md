@@ -53,21 +53,21 @@ ht-degree: 0%
 
 ### 针对缺少[!DNL OpCache]设置的解决方案 {#solution-missed-opcache-settings}
 
-查看Commerce知识库中由于配置错误或缺少 [!DNL OpCache] 设置[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings)而停止的[!DNL Cron] 。
+查看Commerce知识库中由于配置错误或缺少 [!DNL OpCache] 设置[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings)而停止的[!DNL Cron] 。
 
 ### 基础架构团队禁用的解决方案 {#solution-disabled-by-infrastructure-team}
 
 1. 检查您以前的支持工单，其中您的站点已关闭或未响应。
 1. 然后，检查基础架构团队是否表明他们已禁用该功能。
 1. 确认您已解决基础架构团队提出的问题/顾虑。
-1. 如果您需要进一步的帮助来请求重新启用[!DNL cron]，请提交[支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets)，并解释您如何解决了基础架构团队指出的问题。
+1. 如果您需要进一步的帮助来请求重新启用[!DNL cron]，请提交[支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets)，并解释您如何解决了基础架构团队指出的问题。
 
 ### 部署解决方案失败 {#solution-deployment-failed}
 
 检查部署日志：
 
-* 在我们的Commerce on Cloud Infrastructure指南中[查看和管理日志](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)。
-* [正在检查部署日志，如果Cloud UI在Commerce知识库中存在&#x200B;*`log snipped`*&#x200B;错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)。
+* 在我们的Commerce on Cloud Infrastructure指南中[查看和管理日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/test/log-locations)。
+* [正在检查部署日志，如果Cloud UI在Commerce知识库中存在&#x200B;*`log snipped`*&#x200B;错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)。
 
 1. 如果部署在`setup:upgrade`步骤中失败，则不会重新启用[!DNL cron]。
 例如：您会在部署日志中看到以下行：
@@ -80,4 +80,4 @@ ht-degree: 0%
 ...<br>
    ```  [2024-02-07T10:50:09.579005+00:00] INFO: Enable cron```
 
-如果需要进一步的帮助，**提交[支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets)。**
+如果需要进一步的帮助，**提交[支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets)。**

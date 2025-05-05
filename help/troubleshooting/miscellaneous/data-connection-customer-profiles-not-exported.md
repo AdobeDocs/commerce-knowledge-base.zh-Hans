@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-您已安装和配置[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)扩展并启用将客户配置文件数据发送到Experience Platform的功能，但该配置文件数据未出现在Experience Platform中。
+您已安装和配置[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/data-connection/overview)扩展并启用将客户配置文件数据发送到Experience Platform的功能，但该配置文件数据未出现在Experience Platform中。
 
 ## 解决方案
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 确保您已安装最新版本的`experience-platform-connector`扩展。
 
-有关最新版本的信息，请参阅[[!DNL Data Connection] 扩展发行说明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/release-notes)。
+有关最新版本的信息，请参阅[[!DNL Data Connection] 扩展发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/data-connection/release-notes)。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 #### 云基础架构上的Adobe Commerce
 
-1. 在`.magento.env.yaml`中启用`ENABLE_EVENTING`全局变量。 [了解更多](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global)。
+1. 在`.magento.env.yaml`中启用`ENABLE_EVENTING`全局变量。 [了解更多](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global)。
 
    ```bash
        stage:
@@ -116,14 +116,14 @@ select * from event_data_saas;
    "error_code": "403003" } } }
    ```
 
-1. 转到管理员中的&#x200B;*[!UICONTROL Commerce Services Connector]*&#x200B;页面，并确保指定的[!UICONTROL sandbox/production]密钥已正确配置。 此外，请确认Commerce帐户[!UICONTROL sandbox/production]设置与[!UICONTROL Commerce Services Connector]中显示的设置匹配。 了解[更多](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey)。
+1. 转到管理员中的&#x200B;*[!UICONTROL Commerce Services Connector]*&#x200B;页面，并确保指定的[!UICONTROL sandbox/production]密钥已正确配置。 此外，请确认Commerce帐户[!UICONTROL sandbox/production]设置与[!UICONTROL Commerce Services Connector]中显示的设置匹配。 了解[更多](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey)。
 
 ### 检查服务ID是否在允许列表中，并与Adobe Commerce支持部门确认
 
 1. 列入允许列表验证[!UICONTROL Commerce Services Connector] `serviceId`是否显示在Adobe Commerce的中。
-1. 联系[Adobe Commerce支持](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)以确认允许列表状态。
+1. 联系[Adobe Commerce支持](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)以确认允许列表状态。
 
 ## 相关阅读
 
-* Commerce Services用户指南中的[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)扩展
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce Services用户指南中的[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/data-connection/overview)扩展
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -13,5 +13,5 @@ ht-degree: 0%
 
 请参阅我们的开发人员文档中的以下文章：
 
-* Adobe Commerce 2.3： [设置操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
-* Adobe Commerce 2.4： [设置操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.3： [设置操作模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.4： [设置操作模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/set-mode)

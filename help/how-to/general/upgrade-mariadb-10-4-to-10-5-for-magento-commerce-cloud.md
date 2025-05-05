@@ -30,16 +30,16 @@ MariaDB 10.4将于[2024年6月18日](https://endoflife.date/mariadb)终止支持
 
 ### 云部署的升级步骤
 
-1. 使用ECE-Tools DB备份命令[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)创建数据库备份。 此备份必须在步骤2和3之前完成，以防更新表/行时出现问题。
-1. [检查所有压缩表并将其转换为动态表](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade)。 此步骤是避免在数据库升级期间潜在的数据丢失所必需的。
-1. 检查MYISAM表。 您需要[将所有MyISAM表转换为InnoD](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud)。
-1. 准备数据库表和行（前两步）后，使用ECE-Tools DB备份命令创建[DB备份](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
+1. 使用ECE-Tools DB备份命令[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)创建数据库备份。 此备份必须在步骤2和3之前完成，以防更新表/行时出现问题。
+1. [检查所有压缩表并将其转换为动态表](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/maintenance/mariadb-upgrade)。 此步骤是避免在数据库升级期间潜在的数据丢失所必需的。
+1. 检查MYISAM表。 您需要[将所有MyISAM表转换为InnoD](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud)。
+1. 准备数据库表和行（前两步）后，使用ECE-Tools DB备份命令创建[DB备份](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
 1. [打开支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以计划从MariaDB 10.4升级到10.5。在票证中，详细说明您希望数据库升级的日期和时间。 支持团队需要48小时通知，并且商人的开发团队需要可用。 在同意升级的时间和日期后，执行以下操作：
    1. 将您的网站置于维护模式，并停止任何数据库活动，例如crons。
-   1. 使用ECE-Tools DB备份命令[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)创建数据库备份。
+   1. 使用ECE-Tools DB备份命令[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)创建数据库备份。
    1. 让支持人员知道您已通过支持票证完成备份。 要获取查看和跟踪票证的步骤，请参阅我们的支持知识库中的[Adobe Commerce帮助中心用户指南：跟踪您的票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#track-tickets)。
    1. 然后，Adobe Commerce支持团队开始MariaDB升级过程。 如果已经执行了上述所有步骤，并且数据库为平均大小，那么此过程大约需要一个小时。 较大的数据库需要较长时间。 升级完成后，系统将通过票证通知您。
-1. 禁用维护模式。 请参阅我们的开发人员文档中的[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。
+1. 禁用维护模式。 请参阅我们的开发人员文档中的[启用或禁用维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。
 
 >[!NOTE]
 >
@@ -47,6 +47,6 @@ MariaDB 10.4将于[2024年6月18日](https://endoflife.date/mariadb)终止支持
 
 ## 相关阅读
 
-* 本地部署的[数据库升级最佳实践指南](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites)。
-* [在我们的支持知识库中将Adobe Commerce云端上的MariaDB 10.0升级到10.2。](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud)
-* 在开发人员文档中，[Adobe Commerce生命周期策略](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy)。
+* 本地部署的[数据库升级最佳实践指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/prepare/prerequisites)。
+* [在我们的支持知识库中将Adobe Commerce云端上的MariaDB 10.0升级到10.2。](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/how-to/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud)
+* 在开发人员文档中，[Adobe Commerce生命周期策略](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/release/planning/lifecycle-policy)。

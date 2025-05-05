@@ -50,5 +50,5 @@ Adobe Commerce（所有部署方法）所有[支持的版本](https://www.adobe.
 
 ## 相关阅读
 
-* 在我们的用户指南中[使用CSV文件](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv)。
-* 我们用户指南中的[产品导出属性引用](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product)。
+* 在我们的用户指南中[使用CSV文件](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-csv)。
+* 我们用户指南中的[产品导出属性引用](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-attributes-product)。

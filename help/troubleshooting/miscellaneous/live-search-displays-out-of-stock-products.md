@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->已在[[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html)中修复此问题。 要安装最新版本，请参阅用户指南中的[更新 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#update)。
+>已在[[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=zh-Hans)中修复此问题。 要安装最新版本，请参阅用户指南中的[更新 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans#update)。
 
 本文提供了有关产品列表页面(PLP)显示&#x200B;*无法找到与所选内容匹配的产品*&#x200B;错误，而搜索弹出框返回某些项目的已知问题的信息。
 
@@ -49,4 +49,4 @@ Adobe Commerce（所有部署方法） 2.4.x
 
 ## 相关阅读
 
-在我们的用户指南中[安装 [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)。
+在我们的用户指南中[安装 [!DNL Live Search]](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/live-search/install)。

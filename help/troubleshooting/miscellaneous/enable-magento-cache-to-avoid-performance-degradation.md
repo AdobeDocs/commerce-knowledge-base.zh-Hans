@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)并运行以下命令：
+1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)并运行以下命令：
 
    ```bash
    php bin/magento cache:status
@@ -48,7 +48,7 @@ ht-degree: 0%
 我们开发人员文档中的Adobe Commerce缓存文档：
 
 * [Adobe Commerce缓存概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [管理缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [管理缓存](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 出现性能问题的其他可能原因以及解决方案：
 

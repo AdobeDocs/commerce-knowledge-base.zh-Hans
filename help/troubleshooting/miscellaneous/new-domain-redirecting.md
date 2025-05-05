@@ -29,15 +29,15 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 如果域在同一环境中重定向，请确保已配置[变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables)。
+1. 如果域在同一环境中重定向，请确保已配置[变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hans#modify-variables)。
 1. 如果域正在重定向到其他环境，请运行以下命令检查是否已配置正确的[!DNL Fastly]服务： `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->通过登录到每个环境（暂存/生产）并检查`/mnt/shared/fastly_tokens.txt`文件，您可以找到[!DNL Fastly] API凭据。 有关详细信息，请参阅Commerce on Cloud Infrastructure指南中的[配置 [!DNL Fastly] 服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+>通过登录到每个环境（暂存/生产）并检查`/mnt/shared/fastly_tokens.txt`文件，您可以找到[!DNL Fastly] API凭据。 有关详细信息，请参阅Commerce on Cloud Infrastructure指南中的[配置 [!DNL Fastly] 服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
 
 如果上述配置均正确，请提交支持工单。
 
 ## 相关阅读
 
-* 在我们的支持知识库中设置[新域的清单](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html)。
+* 在我们的支持知识库中设置[新域的清单](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html?lang=zh-Hans)。

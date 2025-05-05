@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## 相关文档
 
-* 在开发人员文档中，[Adobe Commerce云>项目结构>可写目录](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories)。
+* 在开发人员文档中，[Adobe Commerce云>项目结构>可写目录](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories)。

@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [在我们的开发人员文档中获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+* [在我们的开发人员文档中获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。

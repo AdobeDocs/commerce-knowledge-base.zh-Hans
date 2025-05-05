@@ -25,4 +25,4 @@ PHP Warning:  date(): It is not safe to rely on the system's timezone settings. 
 
 ### 解决方案 {#solution}
 
-请仔细检查PHP时区设置。 请参阅我们的开发人员文档中的[安装指南> PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+请仔细检查PHP时区设置。 请参阅我们的开发人员文档中的[安装指南> PHP设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)。

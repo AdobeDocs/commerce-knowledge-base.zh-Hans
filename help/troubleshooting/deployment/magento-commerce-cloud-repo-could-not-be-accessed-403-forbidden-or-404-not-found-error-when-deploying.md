@@ -66,11 +66,11 @@ ht-degree: 0%
 
 如果您使用在共享帐户下创建的密钥，则需要联系Adobe Commerce许可证所有者，该所有者为您提供访问权限并请求他们为您生成密钥。
 
-如果您的许可证先前因付款问题而被撤销，并且您已解决这些问题并且已续订许可证，则您需要[生成新的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
+如果您的许可证先前因付款问题而被撤销，并且您已解决这些问题并且已续订许可证，则您需要[生成新的身份验证密钥](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hans)。
 
 ### 2.在env：COMPOSER\_AUTH变量中添加键值，并检查是否在auth.json中指定了相同的键
 
-请参阅我们的开发人员文档中的[准备现有系统](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)和[添加身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)中的说明和相关信息。
+请参阅我们的开发人员文档中的[准备现有系统](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/project/overview)和[添加身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/project/overview)中的说明和相关信息。
 
 ### 3.更新或删除auth.json
 

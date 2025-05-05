@@ -35,10 +35,10 @@ ht-degree: 0%
 ## 解决方案
 
 1. 检查应用程序、部署或MySQL日志中是否有死锁错误：
-   * [Adobe Commerce和Magento Open Source日志位置](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * 云基础架构上的[Adobe Commerce日志位置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+   * [Adobe Commerce和Magento Open Source日志位置](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html?lang=zh-Hans)
+   * 云基础架构上的[Adobe Commerce日志位置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hans)
 1. 检查您的MySQL进程列表，了解如何使用命令`mysql -e 'show full processlist';`运行进程
-1. 如果在云基础架构上的Adobe Commerce上，请检查MySQL从属是否启用。 请参阅本文： [部署变量(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection)。
+1. 如果在云基础架构上的Adobe Commerce上，请检查MySQL从属是否启用。 请参阅本文： [部署变量(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans#mysql_use_slave_connection)。
 1. 根据所涉及的错误，解决方案可能会自行出现，或者您可能需要在需要打开[支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)时提供有用的日志信息。
 
 ## 相关阅读

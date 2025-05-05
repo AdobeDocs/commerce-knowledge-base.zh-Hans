@@ -45,5 +45,5 @@ ht-degree: 0%
 ## 更多信息{#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
 * 在我们的安全中心中[Adobe Commerce 2.0.16和2.1.9安全更新页面](https://magento.com/security/patches/magento-2016-and-219-security-update)
-* 在开发人员文档中[升级Adobe Commerce应用程序和组件](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在开发人员文档中[升级Adobe Commerce应用程序和组件](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=zh-Hans)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

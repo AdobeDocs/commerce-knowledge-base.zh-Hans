@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的编辑器修补程序以获取说明。
+解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hans)提供的编辑器修补程序以获取说明。
 
 ## 仅适用于Adobe Commerce on Cloud商家 — 如何判断是否已应用修补程序
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 <u>您可以执行以下步骤，以样例文件`VULN-27015-2.4.7_COMPOSER.patch` **为例</u>**：
 
-1. [安装 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+1. [安装 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hans)。
 1. 运行命令： <br>
    ![ac-13283-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. 您应该会看到类似以下内容的输出，其中VULN-27015返回&#x200B;*已应用*&#x200B;状态：

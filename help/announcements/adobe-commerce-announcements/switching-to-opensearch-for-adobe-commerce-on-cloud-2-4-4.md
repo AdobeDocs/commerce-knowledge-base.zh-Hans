@@ -47,10 +47,10 @@ OpenSearch是Elasticsearch和Kibana的一个分支。 它由AWS而不是Elastic.
 
 如果它们所在的Adobe Commerce核心版本支持Elasticsearch7.10 — 则它们可以使用该版本。
 
-请查看开发人员文档中的[系统要求](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html)以了解版本兼容性。
+请查看开发人员文档中的[系统要求](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=zh-Hans)以了解版本兼容性。
 
 >[!NOTE]
 >
 >建议尽快计划升级到Adobe Commerce 2.4.4，因为Elasticsearch7.10将于2022年5月停用。
 
-Adobe合作伙伴可以在[此处](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html)注册我们的测试版计划，以访问我们最新的Beta4代码，该代码已针对Elasticsearch7.16.1和OpenSearch 1.1进行了测试。
+Adobe合作伙伴可以在[此处](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html?lang=zh-Hans)注册我们的测试版计划，以访问我们最新的Beta4代码，该代码已针对Elasticsearch7.16.1和OpenSearch 1.1进行了测试。

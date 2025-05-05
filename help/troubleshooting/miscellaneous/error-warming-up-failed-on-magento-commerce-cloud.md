@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 我们的用户指南中的[Adobe Commerce用户指南>全页缓存](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching)。
+* 我们的用户指南中的[Adobe Commerce用户指南>全页缓存](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/cache-management#full-page-caching)。
 * 在我们支持知识库的Adobe Commerce[&#128279;](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)上，缓存预热和网站不可用。

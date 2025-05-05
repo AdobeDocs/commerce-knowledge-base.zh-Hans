@@ -49,12 +49,12 @@ ht-degree: 0%
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-查看VCL列表。 如果您遇到来自Fastly的默认VCL的问题，则可以再次上传或验证每个[Fastly默认VCL](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets)的内容。 有关编辑自定义VCL的信息，请参阅Commerce on Cloud Infrastructure指南中的[自定义Fastly VCL片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)。
+查看VCL列表。 如果您遇到来自Fastly的默认VCL的问题，则可以再次上传或验证每个[Fastly默认VCL](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets)的内容。 有关编辑自定义VCL的信息，请参阅Commerce on Cloud Infrastructure指南中的[自定义Fastly VCL片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hans)。
 
 ## 更多信息
 
 在我们的开发人员文档中：
 
-* [关于Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [自定义Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [关于Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hans)
+* [设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)
+* [自定义Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hans)

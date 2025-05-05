@@ -67,7 +67,7 @@ Adobe Commerce就是这么做的。
 
 ## 相关阅读
 
-* 我们用户指南中的[文章主题](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)。
+* 我们用户指南中的[文章主题](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)。
 * 我们的开发人员文档中的[文章主题](https://developer.adobe.com/commerce/docs/)。 您还可以说要区分面向云用户和本地用户的devdocs中的说明：“[文章主题](https://developer.adobe.com/commerce/docs/)(在面向云基础架构的Adobe Commerce的开发人员文档中)”。 与“[文章主题](https://developer.adobe.com/commerce/docs/)”(在Adobe Commerce内部部署的开发人员文档中)。
 * 我们的支持知识库中的[文章主题](https://support.magento.com/hc/en-us)。
 * 任何相关资源（博客、论坛、StackOverflow等）

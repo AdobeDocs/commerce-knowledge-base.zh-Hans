@@ -51,14 +51,14 @@ We have detected conflicts with the following packages:
 如果您在云基础架构上升级Adobe Commerce，请尝试以下操作以解决冲突的组件依赖关系：
 
 * 检查用于升级的密钥。 密钥是否从正确的电子邮件帐户生成？
-* 检查权限并确保它们与Magento升级要求匹配。 请查看我们的开发人员文档中的[Magento升级概述>更新和升级核对清单>文件系统权限](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites#verify-file-system-permissions)。
+* 检查权限并确保它们与Magento升级要求匹配。 请查看我们的开发人员文档中的[Magento升级概述>更新和升级核对清单>文件系统权限](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/prepare/prerequisites#verify-file-system-permissions)。
 
 ## 与第三方模块不兼容： {#incompatibility-third-party-modules}
 
 第三方模块依赖于比您安装的组件更早的Commerce组件，也可能会导致组件依赖关系冲突。 尝试以下操作：
 
-1. 在前面的[example](#issue)中，安装的包magento/sample-data版本0.74.0-beta15无法升级到1.0.0-beta。 但是，0.74.0-beta15可以升级到0.74.0-beta16（或其他）。 编辑`composer.json`以进行上述任何更改。 通常，您的项目所请求的版本将在该JSON文件中对象的`require`或`require-dev`属性中定义。 根据提供的包版本选项，它们可以指定特定版本或约束。 有关如何使用编辑器的常规指导，如果您在我们的云基础架构上，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >技术和要求>编辑器](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview#files)。 如果您在Adobe Commerce本地，请参阅[Adobe Commerce >安装指南>使用编辑器安装Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) 。
-1. 现在，尝试准备情况检查。 查看我们的开发人员文档中的[Adobe Commerce升级概述>运行模块管理器>步骤1准备情况检查](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)。
+1. 在前面的[example](#issue)中，安装的包magento/sample-data版本0.74.0-beta15无法升级到1.0.0-beta。 但是，0.74.0-beta15可以升级到0.74.0-beta16（或其他）。 编辑`composer.json`以进行上述任何更改。 通常，您的项目所请求的版本将在该JSON文件中对象的`require`或`require-dev`属性中定义。 根据提供的包版本选项，它们可以指定特定版本或约束。 有关如何使用编辑器的常规指导，如果您在我们的云基础架构上，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >技术和要求>编辑器](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/overview#files)。 如果您在Adobe Commerce本地，请参阅[Adobe Commerce >安装指南>使用编辑器安装Adobe Commerce](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer) 。
+1. 现在，尝试准备情况检查。 查看我们的开发人员文档中的[Adobe Commerce升级概述>运行模块管理器>步骤1准备情况检查](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/overview)。
 1. 如果准备情况检查失败，并显示另一条组件依赖关系检查失败消息，则根据您使用的是[Adobe Commerce](#magento-commerce-magento-commerce-cloud)还是[Magento Open Source](#opensource)，单击以下链接以获取进一步的故障排除步骤。
 
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}

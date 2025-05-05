@@ -56,7 +56,7 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 要解决此问题，您需要将`is_filterable`（即用于分层导航）和`filterable_in_search`（即用于搜索结果分层导航）设置为“0”（不使用）。 为此，请执行以下步骤：
 
 1. 创建数据库备份。
-1. 使用数据库工具（如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
+1. 使用数据库工具（如[phpMyAdmin](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)），或者从命令行手动访问数据库以运行以下SQL查询：
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

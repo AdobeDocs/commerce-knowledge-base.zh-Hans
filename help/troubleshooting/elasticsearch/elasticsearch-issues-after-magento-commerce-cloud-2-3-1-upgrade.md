@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->将在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。请参阅[安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+>将在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。请参阅[安装和配置Elasticsearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 >[!WARNING]
 >
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 原因
 
-在云基础架构（版本2.3.1及更高版本）上升级到Adobe Commerce并且使用6.x之前的Elasticsearch版本的商家在部署时可能会遇到错误。 这是因为Elasticsearch版本2.x和5.x的生命周期已结束[并且在Adobe Commerce中不再受支持。 ](https://www.elastic.co/support/eol)Elasticsearch客户端必须是最新的，或者运行部署可能会触发错误。 要了解更多信息，请参阅我们的开发人员文档中的[更改Elasticsearch客户端](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+在云基础架构（版本2.3.1及更高版本）上升级到Adobe Commerce并且使用6.x之前的Elasticsearch版本的商家在部署时可能会遇到错误。 这是因为Elasticsearch版本2.x和5.x的生命周期已结束[并且在Adobe Commerce中不再受支持。 ](https://www.elastic.co/support/eol)Elasticsearch客户端必须是最新的，或者运行部署可能会触发错误。 要了解更多信息，请参阅我们的开发人员文档中的[更改Elasticsearch客户端](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 ## 问题
 
@@ -43,12 +43,12 @@ ht-degree: 0%
 
 要解决此问题，Elasticsearch客户端模块和Elasticsearch服务需要采用最新的推荐版本：
 
-1. 按照我们的开发人员文档中的说明[更改Elasticsearch模块](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)，以便您拥有最新推荐版本的Elasticsearch客户端模块。
+1. 按照我们的开发人员文档中的说明[更改Elasticsearch模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)，以便您拥有最新推荐版本的Elasticsearch客户端模块。
 1. [提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)并请求在暂存和生产环境中将Elasticsearch服务更新为6.x。 请注意，Elasticsearch服务的升级可能需要一些时间才能完成。
 
 ## 相关阅读
 
-* 在开发人员文档中[Adobe Commerce 2.3技术栈栈要求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
-* 在开发人员文档中[设置Elasticsearch服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
-* 在我们的开发人员文档中[安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+* 在开发人员文档中[Adobe Commerce 2.3技术栈栈要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/overview)。
+* 在开发人员文档中[设置Elasticsearch服务](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
+* 在我们的开发人员文档中[安装和配置Elasticsearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)。
 * [确保已在我们的支持知识库中正确安装Elasticsearch](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)。

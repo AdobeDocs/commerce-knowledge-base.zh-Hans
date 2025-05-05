@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 安装包后，请按照以下文档中的说明配置Google reCAPTCHA（推荐）或CAPTCHA：
 
-* 用户指南中的[Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha)。
-* 用户指南中的[验证码](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha)。
+* 用户指南中的[Google reCAPTCHA](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/captcha/security-google-recaptcha)。
+* 用户指南中的[验证码](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/captcha/security-captcha)。
 
 新的签出表单选项为：
 

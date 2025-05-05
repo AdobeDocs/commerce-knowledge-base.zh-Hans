@@ -25,14 +25,14 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 尝试[安装付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)。
+1. 尝试[安装付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=zh-Hans)。
 1. 请参阅以下错误：
 
    *找不到程序包magento/payment-services的匹配版本。 检查包的拼写、版本约束以及包的稳定性是否与最小稳定性（稳定）匹配。*
 
 <u>预期的结果</u>：
 
-您可以按照开发人员文档中的这些[安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)成功安装付款服务。
+您可以按照开发人员文档中的这些[安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=zh-Hans)成功安装付款服务。
 
 <u>实际结果</u>：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 解决方案
 
-验证[您的编辑器密钥已链接到在付款服务注册期间使用的MagentoID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys)。
+验证[您的编辑器密钥已链接到在付款服务注册期间使用的MagentoID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=zh-Hans#incorrect-composer-keys)。
 
 ## 问题 — 在多个实例中使用相同的数据空间
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 * Adobe Commerce — 一个生产数据空间；两个测试数据空间
 * Magento Open Source — 一个生产数据空间；无测试数据空间
 
-按照[Commerce API密钥和私钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials)中的说明成功配置您的支付服务扩展。
+按照[Commerce API密钥和私钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html?lang=zh-Hans#obtain-api-credentials)中的说明成功配置您的支付服务扩展。
 
 ## 问题 — PHP内存不足
 
@@ -67,14 +67,14 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 尝试[安装付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)。
+1. 尝试[安装付款服务](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=zh-Hans)。
 1. 请参阅以下错误或类似错误：
 
    *致命错误：在phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php第52*&#x200B;行上允许的内存大小已用尽2146435072字节（尝试分配4096字节）
 
 <u>预期的结果</u>：
 
-您可以按照开发人员文档中的这些[安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)成功安装付款服务。
+您可以按照开发人员文档中的这些[安装说明](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=zh-Hans)成功安装付款服务。
 
 <u>实际结果</u>：
 
@@ -86,4 +86,4 @@ ht-degree: 0%
 
 ### 解决方案
 
-在`php.ini`中增加环境上PHP[&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php)的内存限制。
+在`php.ini`中增加环境上PHP[&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=zh-Hans#not-enough-memory-for-php)的内存限制。

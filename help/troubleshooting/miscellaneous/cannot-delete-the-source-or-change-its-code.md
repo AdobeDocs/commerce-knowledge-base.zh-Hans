@@ -37,6 +37,6 @@ ht-degree: 0%
 
 您可以通过转移库存或从某个地点的所有发运中删除产品来从产品中删除来源。
 
-如果需要从[SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/basics/selection-reservations)计算和Adobe Commerce库存订单处理中删除来源，则可以禁用该来源。 禁用的来源会保留所有数据、分配的产品和库存数量，并可随时重新启用以重新开始发运。
+如果需要从[SSA](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/inventory/basics/selection-reservations)计算和Adobe Commerce库存订单处理中删除来源，则可以禁用该来源。 禁用的来源会保留所有数据、分配的产品和库存数量，并可随时重新启用以重新开始发运。
 
 有关如何禁用源的详细信息，请参阅[创建源指南](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources)。

@@ -28,6 +28,6 @@ ht-degree: 0%
 
 按照以下步骤更改电子邮件地址：
 
-1. 重置用于旧电子邮件地址的密码。 按照Adobehelpx中的[重置忘记的密码](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)中提供的说明进行操作。
+1. 重置用于旧电子邮件地址的密码。 按照Adobehelpx中的[重置忘记的密码](https://helpx.adobe.com/cn/manage-account/using/change-or-reset-password.html)中提供的说明进行操作。
 1. 密码重置链接将发送到当前所有者的邮箱，并附上相关说明。
 1. 导航到[Adobe帐户页](https://account.adobe.com)以使用新电子邮件登录并设置密码。

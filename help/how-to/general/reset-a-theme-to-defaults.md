@@ -30,7 +30,7 @@ ht-degree: 0%
 
 如果需要重置商店主题，但无法访问“管理员”面板，可以通过执行以下操作在数据库中重置商店主题：
 
-1. 使用数据库工具（如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)）或从命令行手动访问数据库以执行以下SQL查询： `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. 使用数据库工具（如[phpMyAdmin](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)）或从命令行手动访问数据库以执行以下SQL查询： `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. 清除以下目录：
    * `pub/static/frontend`
    * `var/view_preprocessing`

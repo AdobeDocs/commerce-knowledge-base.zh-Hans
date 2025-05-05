@@ -38,7 +38,7 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 将公司分配给母公司以建立公司层次结构。 有关详细信息，请参阅Adobe Commerce B2B指南中的[管理公司层次结构](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
+1. 将公司分配给母公司以建立公司层次结构。 有关详细信息，请参阅Adobe Commerce B2B指南中的[管理公司层次结构](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
 1. 将B2B升级到1.5.2版本。
 
 <u>预期的结果</u>：
@@ -78,4 +78,4 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
    composer update magento/magento-cloud-patches
    ```
 
-1. 提交并推送更改以启动重新部署。 有关说明，请参阅我们的Adobe Commerce on Cloud指南中的[应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)。
+1. 提交并推送更改以启动重新部署。 有关说明，请参阅我们的Adobe Commerce on Cloud指南中的[应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)。

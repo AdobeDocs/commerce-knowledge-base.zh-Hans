@@ -25,7 +25,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 >[!NOTE]
 >
->此错误仅发生在2015年9月28日之前的代码版本中。 如果您安装的代码日期为9月29日或更高版本，则不会出现此错误。 有关Redis配置选项的更多信息，请参阅我们的开发人员文档中的[配置Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)。 有关使用命令行安装程序指定Redis的详细信息，请参阅我们的开发人员文档中的[安装主题](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)或[部署配置主题](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/deployment)。
+>此错误仅发生在2015年9月28日之前的代码版本中。 如果您安装的代码日期为9月29日或更高版本，则不会出现此错误。 有关Redis配置选项的更多信息，请参阅我们的开发人员文档中的[配置Redis](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/redis/config-redis)。 有关使用命令行安装程序指定Redis的详细信息，请参阅我们的开发人员文档中的[安装主题](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/advanced)或[部署配置主题](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/deployment)。
 
 ## 原因
 
@@ -33,7 +33,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 ## 解决方案：
 
-* 升级您的Adobe Commerce代码。 请参阅我们的开发人员文档中的[安装指南>更新Adobe Commerce软件](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall)。
+* 升级您的Adobe Commerce代码。 请参阅我们的开发人员文档中的[安装指南>更新Adobe Commerce软件](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/uninstall)。
 * 对现有代码使用以下解决方法：
 
 ## 找到`php.ini` {#locate-php-ini}

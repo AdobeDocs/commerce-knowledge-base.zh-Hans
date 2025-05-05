@@ -35,7 +35,7 @@ Backup functionality is currently disabled. Please use other means for backups.
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-有关备份的其他信息，请参阅[备份和回滚文件系统、介质和数据库。](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
+有关备份的其他信息，请参阅[备份和回滚文件系统、介质和数据库。](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## 磁盘空间不足 {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ bin/magento config:set system/backup/functionality_enabled 1
 
 ## 备份失败 {#backup-fails-trouble-backup-all-}
 
-如果备份失败或所有备份测试都失败，则[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)可能没有足够的特权和所有权来拥有Adobe Commerce文件系统。 例如，其他用户可能拥有这些文件或者这些文件可能是只读的。
+如果备份失败或所有备份测试都失败，则[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)可能没有足够的特权和所有权来拥有Adobe Commerce文件系统。 例如，其他用户可能拥有这些文件或者这些文件可能是只读的。
 
-请特别注意`<magento_root>/var`目录和子目录的文件系统权限和所有权。 有关详细信息，请参阅[设置文件系统权限和所有权](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions)。
+请特别注意`<magento_root>/var`目录和子目录的文件系统权限和所有权。 有关详细信息，请参阅[设置文件系统权限和所有权](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions)。

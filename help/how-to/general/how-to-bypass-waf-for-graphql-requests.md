@@ -40,5 +40,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 云基础架构指南上的Commerce中的[Web应用程序防火墙(WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service)。
-* 在Commerce on Cloud Infrastructure指南中[自定义VCL入门](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
+* 云基础架构指南上的Commerce中的[Web应用程序防火墙(WAF)](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service)。
+* 在Commerce on Cloud Infrastructure指南中[自定义VCL入门](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。

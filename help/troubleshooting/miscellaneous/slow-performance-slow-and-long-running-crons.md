@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >在任何Adobe Commerce版本上，由于某些扩展仅适用于平面表，因此，如果禁用平面表，则存在风险。 如果您知道有一些扩展使用平面目录索引器，则可能需要在将这些值设置为“*No*”时考虑这一点。
 
-本文介绍如何解决因启用了[平面表和索引器](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat)而导致的站点性能问题以及运行缓慢和卡住的cron。
+本文介绍如何解决因启用了[平面表和索引器](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/catalog/catalog-flat)而导致的站点性能问题以及运行缓慢和卡住的cron。
 
 受影响的产品和版本
 

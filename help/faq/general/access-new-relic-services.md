@@ -28,8 +28,8 @@ ht-degree: 0%
 
 **云基础架构上的Adobe Commerce入门计划架构客户，他们想要使用New Relic：**
 
-入门架构客户在订购时不会获得New Relic基础设施服务。 但是，如果他们按照开发人员文档中的[连接到New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)步骤添加许可证，则可以使用New Relic应用程序性能监控(APM)。
+入门架构客户在订购时不会获得New Relic基础设施服务。 但是，如果他们按照开发人员文档中的[连接到New Relic](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)步骤添加许可证，则可以使用New Relic应用程序性能监控(APM)。
 
 ## 相关阅读
 
-要了解New Relic服务，请参阅我们的开发人员文档中的[调查性能](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您还可以在我们的支持知识库中查看[在云基础架构上使用Adobe Commerce的New Relic性能疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)。
+要了解New Relic服务，请参阅我们的开发人员文档中的[调查性能](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您还可以在我们的支持知识库中查看[在云基础架构上使用Adobe Commerce的New Relic性能疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)。

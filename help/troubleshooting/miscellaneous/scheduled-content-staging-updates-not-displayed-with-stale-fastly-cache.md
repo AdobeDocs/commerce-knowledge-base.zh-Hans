@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 问题
 
-商店内容资产（页面、产品、块等）的计划更新 更新开始时间后不会立即在店面显示。 如果已使用[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)功能计划了更新，则会发生这种情况。
+商店内容资产（页面、产品、块等）的计划更新 更新开始时间后不会立即在店面显示。 如果已使用[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans)功能计划了更新，则会发生这种情况。
 
 ## 原因
 
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 ## 相关文档
 
-* 在《云基础架构上的Commerce指南》中[配置清除选项](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
-* 内容和设计文档中的[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)。
+* 在《云基础架构上的Commerce指南》中[配置清除选项](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
+* 内容和设计文档中的[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans)。
 * 在Fastly文档中[提供过时的内容](https://docs.fastly.com/guides/performance-tuning/serving-stale-content)。

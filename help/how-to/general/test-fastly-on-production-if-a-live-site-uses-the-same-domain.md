@@ -48,11 +48,11 @@ ht-degree: 0%
 
 在我们的支持知识库中：
 
-* [在暂存和生产环境中配置Fastly DNS设置](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [为云上的入门计划设置Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* 在云基础架构上的Adobe Commerce上启动[个潜在阻止程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [在暂存和生产环境中配置Fastly DNS设置](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=zh-Hans)
+* [为云上的入门计划设置Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html?lang=zh-Hans)
+* 在云基础架构上的Adobe Commerce上启动[个潜在阻止程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=zh-Hans)
 
 在我们的开发人员文档中：
 
-* [Fastly概述](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [上线核对清单： Fastly的DNS配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [Fastly概述](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hans)
+* [上线核对清单： Fastly的DNS配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hans)

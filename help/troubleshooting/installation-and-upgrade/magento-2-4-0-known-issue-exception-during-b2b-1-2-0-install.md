@@ -69,8 +69,8 @@ Module 'Magento_PurchaseOrder':
 
 <u>Git修补程序</u>
 
-* 有关云基础架构上Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
-* 有关Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序：自定义修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)。
+* 有关云基础架构上Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+* 有关Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序：自定义修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)。
 
 ## 相关阅读
 

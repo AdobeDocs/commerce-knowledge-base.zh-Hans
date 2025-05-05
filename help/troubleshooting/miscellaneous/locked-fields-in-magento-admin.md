@@ -52,6 +52,6 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [导出开发人员文档中的配置](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)。
-* 在我们的开发人员文档中[设置配置值](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)。
+* [导出开发人员文档中的配置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)。
+* 在我们的开发人员文档中[设置配置值](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)。
 * 云基础架构上的[Adobe Commerce：通过我们的支持知识库中的配置管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)，减少部署停机时间。

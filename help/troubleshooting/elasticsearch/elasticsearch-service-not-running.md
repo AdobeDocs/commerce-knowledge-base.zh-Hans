@@ -19,7 +19,7 @@ ht-degree: 0%
 
    * v2.2.3+支持ES 5.x
    * v2.2.8+和v2.3.1+支持ES 6.x
-   * 由于[生命周期结束](https://www.elastic.co/support/eol)，不建议使用ES v2.x和v5.x。 但是，如果您使用的是Adobe Commerce v2.3.1并且要使用ES 2.x或ES 5.x，您必须[更改Elasticsearchphp客户端](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+   * 由于[生命周期结束](https://www.elastic.co/support/eol)，不建议使用ES v2.x和v5.x。 但是，如果您使用的是Adobe Commerce v2.3.1并且要使用ES 2.x或ES 5.x，您必须[更改Elasticsearchphp客户端](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 * Magento Open Sourcev2.3.0+支持ES 5.x和6.x （但建议使用6.x ）。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 <code>&lbrace;"0":"&lbrace;\"error\":&lbrace;\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}&rbrack;</code>
 </td>
 <td>
-已配置<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html">Elasticsearch5，但我们的支持知识库中未加载包含“Fielddata已禁用……”错误</a>的搜索页面。
+已配置<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html?lang=zh-Hans">Elasticsearch5，但我们的支持知识库中未加载包含“Fielddata已禁用……”错误</a>的搜索页面。
 </td>
 </tr>
 <tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 <code>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code>
 </td>
 <td>
-未删除Elasticsuite索引。  查看我们的支持知识库中的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite跟踪索引导致Elasticsearch</a>出现问题。
+未删除Elasticsuite索引。  查看我们的支持知识库中的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html?lang=zh-Hans">ElasticSuite跟踪索引导致Elasticsearch</a>出现问题。
  </td>
 </tr>
 <tr>
@@ -59,15 +59,15 @@ ht-degree: 0%
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">解决Linux和Unix系统硬盘问题（如磁盘已满或无法写入磁盘）的8个提示</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault： df表示磁盘已满，但磁盘未满</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com：跟踪Linux上的磁盘空间占用情况？</a></li>
-<li>日志文件没有足够定期存档。 请参阅我们的开发人员文档中的<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive">配置日志存档</a>。</li>
-<li>文件系统目录未优化。 请参阅我们的开发人员文档中的<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">文件优化</a>。</li>
+<li>日志文件没有足够定期存档。 请参阅我们的开发人员文档中的<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/action-logs/action-log-archive">配置日志存档</a>。</li>
+<li>文件系统目录未优化。 请参阅我们的开发人员文档中的<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">文件优化</a>。</li>
 <li>如果上述文档中的解决方案不能解决此问题，请考虑联系您的Adobe客户团队以请求更多存储空间。</li>
 </ul>
 </li>
 <li>如果磁盘尚未用完存储空间，但左栏中仍显示错误消息，请<a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">提交支持票证</a>。</li>
 </ul>
 <ul>
-<li>查看我们的支持知识库中的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite跟踪索引导致Elasticsearch</a>出现问题。
+<li>查看我们的支持知识库中的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html?lang=zh-Hans">ElasticSuite跟踪索引导致Elasticsearch</a>出现问题。
 </li>
 </ul>
 </td>

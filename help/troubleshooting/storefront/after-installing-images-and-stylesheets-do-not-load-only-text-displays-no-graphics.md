@@ -47,8 +47,8 @@ ht-degree: 0%
 
 根据您使用的软件以及问题的原因，以下是可采用的解决方案：
 
-* 如果您使用的是Apache Web Server，请验证[server rewrites](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache#apache-rewrites-and-htaccess)设置和Adobe Commerce/Magento Open Source服务器的基本URL，然后重试。 如果未正确设置Apache `AllowOverride`指令，则不会从正确的位置提供静态文件。
-* 如果您使用的是nginx Web服务器，请务必[配置虚拟主机文件](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)。 nginx虚拟主机文件必须满足以下条件：
+* 如果您使用的是Apache Web Server，请验证[server rewrites](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/web-server/apache#apache-rewrites-and-htaccess)设置和Adobe Commerce/Magento Open Source服务器的基本URL，然后重试。 如果未正确设置Apache `AllowOverride`指令，则不会从正确的位置提供静态文件。
+* 如果您使用的是nginx Web服务器，请务必[配置虚拟主机文件](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)。 nginx虚拟主机文件必须满足以下条件：
    * `include`指令必须指向Adobe Commerce/Magento Open Source安装目录中的nginx配置文件示例。 例如：    `include /var/www/html/magento2/nginx.conf.sample;`
    * `server_name`指令必须与您在安装Adobe Commerce/Magento Open Source时指定的基本URL匹配。 例如： `server_name 192.186.33.10;`
-* 如果应用程序处于[生产模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode)，请尝试使用`magento setup:static-content:deploy`命令部署静态视图文件。 有关部署静态文件的详细信息，请参阅我们的开发人员文档中的[部署静态视图文件](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。
+* 如果应用程序处于[生产模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode)，请尝试使用`magento setup:static-content:deploy`命令部署静态视图文件。 有关部署静态文件的详细信息，请参阅我们的开发人员文档中的[部署静态视图文件](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。

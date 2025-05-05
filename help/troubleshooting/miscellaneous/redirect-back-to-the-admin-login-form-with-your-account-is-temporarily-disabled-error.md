@@ -37,9 +37,9 @@ ht-degree: 0%
 ## 解决方案
 
 1. 创建数据库备份。
-1. 使用数据库工具，如[[!DNL phpMyAdmin]](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或从命令行手动访问数据库。 在`admin_user`数据库表中，对于管理员用户记录，检查`is_active`是否设置为“`1`”，`lock_expires`是否为`NULL`。 如果需要，请重置这些值。
+1. 使用数据库工具，如[[!DNL phpMyAdmin]](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或从命令行手动访问数据库。 在`admin_user`数据库表中，对于管理员用户记录，检查`is_active`是否设置为“`1`”，`lock_expires`是否为`NULL`。 如果需要，请重置这些值。
 
 ## 相关阅读
 
-* [尝试登录到[!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)时，重定向回登录表单，没有错误
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [尝试登录到[!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)时，重定向回登录表单，没有错误
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

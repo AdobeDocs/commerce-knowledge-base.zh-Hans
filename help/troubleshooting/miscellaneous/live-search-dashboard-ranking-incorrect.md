@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Live Search]仪表板和搜索结果排名不正确
 
-如果您发现[!DNL Live Search]仪表板中显示的数据不正确，或者搜索结果[排名](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies)与预期不符，请查看以下内容，可能原因如下：
+如果您发现[!DNL Live Search]仪表板中显示的数据不正确，或者搜索结果[排名](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies)与预期不符，请查看以下内容，可能原因如下：
 
 * `productView`事件中产品上下文的`topLevelSku`字段缺失。 这会导致空转化和其他意外量度。
 

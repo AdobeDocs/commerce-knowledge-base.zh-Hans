@@ -30,7 +30,7 @@ Adobe Commerce On-Premise和Cloud — 所有版本
 
 ### 案例一：
 
-* 如果[发行说明](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)中提到独立的修补程序文件/修补程序，请从[https://account.magento.com](https://account.magento.com/downloads/view/)的下载部分下载该文件。 共享访问用户必须首先由帐户所有者/许可证持有人授予下载权限。
+* 如果[发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)中提到独立的修补程序文件/修补程序，请从[https://account.magento.com](https://account.magento.com/downloads/view/)的下载部分下载该文件。 共享访问用户必须首先由帐户所有者/许可证持有人授予下载权限。
 
 **注意事项：**
 
@@ -50,15 +50,15 @@ Adobe Commerce On-Premise和Cloud — 所有版本
 
 * **云：**
 
-1. 在适用于Commerce的Cloud修补程序下的Cloud Tools Suite (ECE Tools)的最新版本中可能包含/发布了某些[!UICONTROL Security Patches] — 请查看[发行说明](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)，如果发行版中提到安全修补程序，请将包升级到该版本。
+1. 在适用于Commerce的Cloud修补程序下的Cloud Tools Suite (ECE Tools)的最新版本中可能包含/发布了某些[!UICONTROL Security Patches] — 请查看[发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)，如果发行版中提到安全修补程序，请将包升级到该版本。
 1. 如果发行说明未提及安全修复，请继续阅读。
 
 * **云或内部部署：**
 
-* 如果隔离的修补程序文件/修补程序不可用，请[将Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X上的Adobe Commerce版本升级到2.4.X-pY的最新修补程序版本。
-* 如果隔离的修补程序文件/修补程序不可用，请[将Adobe Commerce版本On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X升级到最新的修补程序版本2.4.X-pY。
+* 如果隔离的修补程序文件/修补程序不可用，请[将Cloud](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X上的Adobe Commerce版本升级到2.4.X-pY的最新修补程序版本。
+* 如果隔离的修补程序文件/修补程序不可用，请[将Adobe Commerce版本On-Premise](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X升级到最新的修补程序版本2.4.X-pY。
 
 ## 相关阅读
 
-* 请参阅《Commerce Cloud基础架构上的Adobe Commerce指南》*中的[Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)发行说明*。
-* 请参阅&#x200B;*Adobe Commerce Infrastructure指南*&#x200B;中的[升级Adobe Commerce版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)。
+* 请参阅《Commerce Cloud基础架构上的Adobe Commerce指南》*中的[Cloud Tools Suite](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)发行说明*。
+* 请参阅&#x200B;*Adobe Commerce Infrastructure指南*&#x200B;中的[升级Adobe Commerce版本](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)。

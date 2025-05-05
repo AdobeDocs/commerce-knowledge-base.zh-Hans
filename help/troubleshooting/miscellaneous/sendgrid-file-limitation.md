@@ -52,9 +52,9 @@ Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@xxx
 ## 解决方法
 
 * 请勿使用大于6Mb或10Mb的附件。
-* 考虑在Adobe Commerce实例上使用远程SMTP服务器。 有关步骤，请参阅我们的管理员系统指南中的[配置电子邮件通信](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html)。
+* 考虑在Adobe Commerce实例上使用远程SMTP服务器。 有关步骤，请参阅我们的管理员系统指南中的[配置电子邮件通信](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=zh-Hans)。
 * 重新配置服务器，以便在模块中保存文件，然后将链接附加到电子邮件中的文件。
 
 ## 相关阅读
 
-* 我们的Commerce on Cloud Infrastructure指南中的[[!DNL SendGrid] 电子邮件服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)。
+* 我们的Commerce on Cloud Infrastructure指南中的[[!DNL SendGrid] 电子邮件服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=zh-Hans)。

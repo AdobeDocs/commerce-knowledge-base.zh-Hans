@@ -60,4 +60,4 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[缓存管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management)。
+* 在我们的开发人员文档中[缓存管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/cache-management)。

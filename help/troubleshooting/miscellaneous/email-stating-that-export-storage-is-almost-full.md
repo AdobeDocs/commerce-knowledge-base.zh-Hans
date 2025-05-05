@@ -41,8 +41,8 @@ ht-degree: 0%
 
 `du -shc` */path/to/folder*
 
-如果介质磁盘的使用量占总磁盘空间的大部分，则可能需要考虑启用[Fastly深度映像优化](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization)，然后手动删除服务器上&#x200B;*pub/media/catalog/product/cache*&#x200B;文件夹中的文件。
+如果介质磁盘的使用量占总磁盘空间的大部分，则可能需要考虑启用[Fastly深度映像优化](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization)，然后手动删除服务器上&#x200B;*pub/media/catalog/product/cache*&#x200B;文件夹中的文件。
 
 ## 相关阅读
 
-[检查我们的支持知识库中的专用群集](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。
+[检查我们的支持知识库中的专用群集](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。

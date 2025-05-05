@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-您需要为`services.yaml`中的数据库分配更多空间，如果有些空间未使用，则进行部署。 有关步骤，请参阅[服务磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)。
+您需要为`services.yaml`中的数据库分配更多空间，如果有些空间未使用，则进行部署。 有关步骤，请参阅[服务磁盘空间](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)。
 
 注意：在Pro体系结构计划上，可以通过运行以下命令来检查分区上的已分配空间： `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## 相关阅读
 
-在我们的开发人员文档中[管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)
+在我们的开发人员文档中[管理磁盘空间](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

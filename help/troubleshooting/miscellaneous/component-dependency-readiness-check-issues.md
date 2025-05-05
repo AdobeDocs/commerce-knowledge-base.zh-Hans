@@ -51,7 +51,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-请确保按照开发人员文档中的[所有权和权限概述](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文中所述设置文件系统权限。
+请确保按照开发人员文档中的[所有权和权限概述](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文中所述设置文件系统权限。
 
 ## 组件依赖关系检查状态从不更改 {#trouble-depend-state}
 

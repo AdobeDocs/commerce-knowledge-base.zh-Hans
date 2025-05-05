@@ -50,4 +50,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 用户指南中的[媒体存储](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)。
+* 用户指南中的[媒体存储](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)。

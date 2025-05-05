@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## 相关阅读
 
-要了解何时使用维护模式，请参阅我们的开发人员文档中的[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。
+要了解何时使用维护模式，请参阅我们的开发人员文档中的[启用或禁用维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。

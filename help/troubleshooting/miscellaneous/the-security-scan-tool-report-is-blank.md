@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 按照用户指南中的[安全扫描](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)中的说明，配置安全扫描工具以检查您的网站。
+1. 按照用户指南中的[安全扫描](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-scan)中的说明，配置安全扫描工具以检查您的网站。
 1. 在“操作”列中，选择&#x200B;**运行扫描**。
 
 <u>预期的结果</u>：
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[上线并启动](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview)。
-* 用户指南中的[安全扫描](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)。
+* 在我们的开发人员文档中[上线并启动](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/launch/overview)。
+* 用户指南中的[安全扫描](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-scan)。

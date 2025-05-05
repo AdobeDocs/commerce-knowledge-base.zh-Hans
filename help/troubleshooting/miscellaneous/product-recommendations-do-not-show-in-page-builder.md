@@ -32,10 +32,10 @@ ht-degree: 0%
 1. 通过运行以下命令检查是否已单独安装模块： `composer show magento/module-page-builder-product-recommendations`
 1. 如果它返回以下消息： *找不到Package magento/module-page-builder-product-recommendations*，则必须通过运行命令来安装它： `composer require magento/module-page-builder-product-recommendations`
 
-通过在页面生成器中启用“产品Recommendations”，您将能够[向页面生成器中创建的任何内容添加推荐单元](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html)。
+通过在页面生成器中启用“产品Recommendations”，您将能够[向页面生成器中创建的任何内容添加推荐单元](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=zh-Hans)。
 
 ## 相关阅读
 
-* 在我们的用户指南中[添加内容 — 产品Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html)。
-* 在我们的开发人员文档中[安装和配置产品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)。
-* [Adobe Commerce用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+* 在我们的用户指南中[添加内容 — 产品Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=zh-Hans)。
+* 在我们的开发人员文档中[安装和配置产品Recommendations](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)。
+* [Adobe Commerce用户指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/user-guides/home)

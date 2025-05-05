@@ -42,8 +42,8 @@ ht-degree: 0%
 
 ## 解决方案
 
-启用按搜索引擎编制索引。 请参阅我们的开发人员文档中的[按搜索引擎配置索引](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)。
+启用按搜索引擎编制索引。 请参阅我们的开发人员文档中的[按搜索引擎配置索引](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)。
 
 ## 相关阅读
 
-* 在开发人员文档中[添加站点地图和搜索引擎机器人](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。
+* 在开发人员文档中[添加站点地图和搜索引擎机器人](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。

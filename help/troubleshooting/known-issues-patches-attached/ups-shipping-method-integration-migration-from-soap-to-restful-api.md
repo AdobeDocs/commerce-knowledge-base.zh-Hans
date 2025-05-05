@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的编辑器修补程序以获取说明。
+解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hans)提供的编辑器修补程序以获取说明。
 
 ## 如何判断是否已应用修补程序
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 <u>您可以通过以下步骤执行此操作</u>：
 
-1. [安装 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+1. [安装 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hans)。
 1. 运行以下命令：
 
    ```bash

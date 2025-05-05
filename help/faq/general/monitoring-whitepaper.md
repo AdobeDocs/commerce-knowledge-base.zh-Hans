@@ -36,7 +36,7 @@ Adobe Commerce实例通常包含自定义代码和配置。 Adobe不支持或解
 | **描述** | 站点可用性是根据围绕度量配置的阈值确定的。 如果检查失败10分钟并且没有正在进行的活动部署，则会触发站点中断通知。 |
 | **通知收件人** | 商家/合作伙伴和Adobe。 |
 | 由Adobe执行的&#x200B;**操作** | 负责对Adobe Commerce基础架构是否存在问题进行分类和修复。 |
-| **商家执行的操作** | 负责修复由商家/合作伙伴引入的更改或自定义代码导致的问题。 有关疑难解答，请参阅： [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html)。 |
+| **商家执行的操作** | 负责修复由商家/合作伙伴引入的更改或自定义代码导致的问题。 有关疑难解答，请参阅： [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html?lang=zh-Hans)。 |
 
 ## Diskspace监控
 
@@ -48,4 +48,4 @@ Adobe Commerce实例通常包含自定义代码和配置。 Adobe不支持或解
 | **描述** | 根据针对主机的可用磁盘空间配置的阈值发送通知。 自动向相关装载（[!DNL MySQL]或介质）添加一次额外的磁盘空间，以防止站点中断，并给商家留出时间来清除磁盘空间和/或识别并解决导致磁盘使用率快速增加的任何代码或日志。 |
 | **通知收件人** | 商家/合作伙伴和Adobe。 |
 | 由Adobe执行的&#x200B;**操作** | 自动提高支持票证，并将额外的磁盘空间自动添加到相关装载（[!DNL MySQL]或媒体）以防止站点中断。 |
-| **商家执行的操作** | 要接收持续的警告级别磁盘空间警报，请参阅： <ul><li>[[!DNL Managed alerts for Adobe Commerce]：磁盘警告警报](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)</li><li>[[!DNL Managed alerts for Adobe Commerce]：磁盘严重警报](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert) </li></ul> |
+| **商家执行的操作** | 要接收持续的警告级别磁盘空间警报，请参阅： <ul><li>[[!DNL Managed alerts for Adobe Commerce]：磁盘警告警报](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)</li><li>[[!DNL Managed alerts for Adobe Commerce]：磁盘严重警报](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert) </li></ul> |

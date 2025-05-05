@@ -43,9 +43,9 @@ ht-degree: 0%
 
 在云基础架构上的Adobe Commerce上禁用此功能。
 
-请参阅我们的开发人员文档中的[安装、管理和升级扩展](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions)，以了解如何在我们的云基础架构上执行更新或安装Adobe Commerce的外部模块。
-有关如何对Adobe Commerce内部部署执行更新或安装外部模块的信息，请参阅开发人员文档中的[快速入门安装](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
+请参阅我们的开发人员文档中的[安装、管理和升级扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure-store/extensions)，以了解如何在我们的云基础架构上执行更新或安装Adobe Commerce的外部模块。
+有关如何对Adobe Commerce内部部署执行更新或安装外部模块的信息，请参阅开发人员文档中的[快速入门安装](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer)。
 
 ## 相关阅读
 
-* 请参阅我们的开发人员文档中的[安装扩展](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)。
+* 请参阅我们的开发人员文档中的[安装扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)。

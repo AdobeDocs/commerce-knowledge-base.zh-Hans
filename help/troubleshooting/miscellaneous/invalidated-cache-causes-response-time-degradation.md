@@ -67,4 +67,4 @@ debug.log内容的![示例](assets/debug_log_sample.png)
 ## 推荐
 
 1. 避免从Commerce CLI刷新缓存。
-1. 将索引器配置为&#x200B;**按计划**&#x200B;更新，而不是&#x200B;**在保存模式下更新**，因为后者触发完全重新索引。 有关参考，请参阅我们的开发人员文档中的[管理索引器>配置索引器](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。
+1. 将索引器配置为&#x200B;**按计划**&#x200B;更新，而不是&#x200B;**在保存模式下更新**，因为后者触发完全重新索引。 有关参考，请参阅我们的开发人员文档中的[管理索引器>配置索引器](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。

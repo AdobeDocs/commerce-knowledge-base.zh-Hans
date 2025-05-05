@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 2.3.5中的产品比较已知问题
-description: 本文提供了有关如何避免在Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中出现的已知[产品比较](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare)问题的建议。
+description: 本文提供了有关如何避免在Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中出现的已知[产品比较](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/product-compare)问题的建议。
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.5中的产品比较已知问题
 
-本文提供了有关如何避免Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中的已知[产品比较](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare)问题的建议。
+本文提供了有关如何避免Adobe Commerce内部部署2.3.5和Adobe Commerce on cloud infrastructure 2.3.5中的已知[产品比较](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/shopper-tools/product-compare)问题的建议。
 
 ## 受影响的产品和版本
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->产品属性设置为使用&#x200B;**Storefront上的可比较项**&#x200B;配置设置进行比较。 有关详细信息，请参阅用户指南中的[创建产品属性](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties)。
+>产品属性设置为使用&#x200B;**Storefront上的可比较项**&#x200B;配置设置进行比较。 有关详细信息，请参阅用户指南中的[创建产品属性](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties)。
 
 Adobe Commerce 2.3.6中将会提供相应的修复，该版本计划于2020年第4季度发布。
 

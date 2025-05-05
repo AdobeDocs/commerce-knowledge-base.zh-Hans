@@ -29,7 +29,7 @@ DHL正在引入6.2架构版本，并在2022年7月底 — 9月底之前弃用版
 ## Patch
 
 修补程序ID为AC-3022，可在Quality Patches Tool版本1.1.16中找到。
-有关如何使用QPT和安装修补程序的信息，请参阅开发人员文档中的[Quality Patches Tool (QPT) > Usage](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)一文。
+有关如何使用QPT和安装修补程序的信息，请参阅开发人员文档中的[Quality Patches Tool (QPT) > Usage](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/usage)一文。
 
 该修补程序适用于以下Adobe Commerce版本：
 
@@ -38,5 +38,5 @@ DHL正在引入6.2架构版本，并在2022年7月底 — 9月底之前弃用版
 
 ## 相关阅读
 
-* 我们用户指南中的[配送公司> DHL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl)
-* 我们用户指南中的[投放方法](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/delivery-methods)
+* 我们用户指南中的[配送公司> DHL](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl)
+* 我们用户指南中的[投放方法](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/config/sales/delivery-methods)

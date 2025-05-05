@@ -40,7 +40,7 @@ cURL error 60: SSL certificate problem: certificate has expired
 
 如果部署已成功完成，则将自动续订[!DNL SSL certificate]。
 
-如果部署失败并且您需要解决该问题的帮助，请[提交支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)。
+如果部署失败并且您需要解决该问题的帮助，请[提交支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hans#submit-ticket)。
 
 ### 方法1：使用[!DNL magento-cloud] CLI {#meth2}
 
@@ -55,9 +55,9 @@ cURL error 60: SSL certificate problem: certificate has expired
 在我们的开发人员文档中：
 
 * [Cloud Manager API： SSLCertificates](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [设置Fastly：设置SSL/TLS证书](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+* [设置Fastly：设置SSL/TLS证书](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 在我们的支持知识库中：
 
-* [自定义SSL证书过期信息](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html)
-* 云基础架构上Adobe Commerce的[SSL (TLS)证书](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html)
+* [自定义SSL证书过期信息](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html?lang=zh-Hans)
+* 云基础架构上Adobe Commerce的[SSL (TLS)证书](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=zh-Hans)

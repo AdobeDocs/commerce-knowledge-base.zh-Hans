@@ -57,4 +57,4 @@ Adobe Commerce内部部署：使用[Quality Patches Tools > Usage](/docs/commerc
 ## 相关阅读
 
 * Commerce工具指南中的[[!DNL Quality Patches Tool] >发行说明](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)。
-* [[!DNL Quality Patches Tool]： Commerce Tools指南中的搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。
+* [[!DNL Quality Patches Tool]： Commerce Tools指南中的搜索修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hans)。

@@ -48,7 +48,7 @@ ht-degree: 0%
 
 要删除配置文件，请执行以下步骤：
 
-1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
 1. 删除配置文件：
    * 对于Adobe Commerce 2.4：
 
@@ -65,18 +65,18 @@ ht-degree: 0%
 通过查看以下内容了解有关配置管理的更多信息：
 
 * [在我们支持知识库中，减少Adobe Commerce在云基础架构上的部署停机时间](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)。
-* 在开发人员文档中[商店设置的配置管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)。
+* 在开发人员文档中[商店设置的配置管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hans)。
 
 ### 步骤1：使用setup：uninstall命令卸载Adobe Commerce软件 {#setup-uninstall}
 
 
 卸载Adobe Commerce软件将删除并还原数据库，删除部署配置，并清除`var`下的目录。
 
-请查看我们的开发人员文档中的[卸载Adobe Commerce软件](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html)。
+请查看我们的开发人员文档中的[卸载Adobe Commerce软件](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=zh-Hans)。
 
 要卸载Adobe Commerce软件，请执行以下步骤：
 
-1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
 1. 执行`setup:uninstall`：
 
    ```php
@@ -147,7 +147,7 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 如果执行`setup:uninstall`命令失败并出现错误，且无法完成，则可以使用以下步骤手动清除数据库：
 
-1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
 1. 连接到MySQL数据库：
 
    ```sql
@@ -168,15 +168,15 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 1. 删除以下配置文件： `config.php`、`config.php` `.bak`、`env.php`和`env.php.bak`。
 
-重置数据库后，[向环境推送git以触发重新部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands)，并将Adobe Commerce安装到新创建的数据库中。 或[运行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。
+重置数据库后，[向环境推送git以触发重新部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hans#git-commands)，并将Adobe Commerce安装到新创建的数据库中。 或[运行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hans#environment-commands)。
 
 ## 相关阅读
 
 在我们的开发人员文档中：
 
-* [在云上还原快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [创建快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [快照和备份管理](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [使用Cloud Console管理分支 — 查看日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
-* [组件部署失败](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html)
-* [管理您的项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-the-project)
+* [在云上还原快照](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [创建快照](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [快照和备份管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [使用Cloud Console管理分支 — 查看日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=zh-Hans#view-logs)
+* [组件部署失败](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=zh-Hans)
+* [管理您的项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hans#configure-the-project)

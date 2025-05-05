@@ -14,7 +14,7 @@ ht-degree: 0%
 # 可用于Adobe Commerce的安全更新 — [!DNL APSB24-61]
 
 2024年8月13日，Adobe发布了Adobe Commerce、Magento Open Source和Adobe Commerce Webhooks插件的定期安全更新。
-此更新解决了[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用此漏洞可能会导致执行任意代码、读取任意文件系统、绕过安全功能以及权限提升。 公告是[Adobe安全公告([!DNL APSB24-61])](https://helpx.adobe.com/security/products/magento/apsb24-61.html)。
+此更新解决了[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/cn/security/severity-ratings.html)漏洞。 成功利用此漏洞可能会导致执行任意代码、读取任意文件系统、绕过安全功能以及权限提升。 公告是[Adobe安全公告([!DNL APSB24-61])](https://helpx.adobe.com/cn/security/products/magento/apsb24-61.html)。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Adobe Commerce on Cloud、Adobe Commerce内部部署和Magento Open Source：
 
 ## 如何应用独立修补程序
 
-解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的编辑器修补程序以获取说明。
+解压缩文件，并参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hans)提供的编辑器修补程序以获取说明。
 
 ## 仅适用于Adobe Commerce on Cloud商家 — 如何判断是否已应用独立的修补程序
 
@@ -55,7 +55,7 @@ Adobe Commerce on Cloud、Adobe Commerce内部部署和Magento Open Source：
 
 <u>您可以执行以下步骤，以文件`VULN-27015-2.4.7_COMPOSER.patch`为例</u>：
 
-1. [安装质量修补程序工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+1. [安装质量修补程序工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hans)。
 1. 运行命令： <br>
    ![cve-2024-34102-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. 您应该会看到类似以下内容的输出，其中VULN-27015返回&#x200B;*已应用*&#x200B;状态：
@@ -74,4 +74,4 @@ Adobe Commerce on Cloud、Adobe Commerce内部部署和Magento Open Source：
 
 可用于Adobe Commerce的安全更新：
 
-* [Adobe安全公告([!DNL APSB24-61])](https://helpx.adobe.com/security/products/magento/apsb24-61.html)
+* [Adobe安全公告([!DNL APSB24-61])](https://helpx.adobe.com/cn/security/products/magento/apsb24-61.html)

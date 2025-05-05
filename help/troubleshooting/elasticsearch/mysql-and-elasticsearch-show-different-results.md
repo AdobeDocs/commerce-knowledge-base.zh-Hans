@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 将在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置和配置Elasticsearch主机。请参阅我们的开发人员文档中的[安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+> 将在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置和配置Elasticsearch主机。请参阅我们的开发人员文档中的[安装和配置Elasticsearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 本文为云基础架构2.2.3上的已知Adobe Commerce问题提供了一个修补程序，该问题与使用MySQL和Elasticsearch获取同一搜索查询的不同搜索结果相关。
 

@@ -36,7 +36,7 @@ Adobe Commerce客户。
 
 ## 安装升级兼容性工具1.1.0
 
-有关安装步骤，请参阅我们的开发人员文档中的Adobe Commerce： [升级兼容性工具>安装](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run)。 有关使用该工具的先决条件，请参阅我们的开发人员文档中的Adobe Commerce： [升级兼容性工具](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites)。
+有关安装步骤，请参阅我们的开发人员文档中的Adobe Commerce： [升级兼容性工具>安装](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run)。 有关使用该工具的先决条件，请参阅我们的开发人员文档中的Adobe Commerce： [升级兼容性工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites)。
 
 ## 每个问题旁边的编号是多少？
 
@@ -47,7 +47,7 @@ Adobe Commerce客户。
 * 错误代码：为错误消息分配的Adobe Commerce标识符。
 * 错误描述：总结错误原因的描述。
 * 错误建议操作：如果适用，为排除故障和解决错误提供指导。
-* 在[错误消息引用页](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages)上列出并描述了代码。
+* 在[错误消息引用页](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages)上列出并描述了代码。
 
 ## 可在何处分享关于该工具的反馈？
 
@@ -56,4 +56,4 @@ Adobe Commerce客户。
 ## 相关阅读
 
 * Adobe Commerce博客： [升级兼容性工具简介(Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce：在我们的开发人员文档中[升级兼容性工具](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview)。
+* Adobe Commerce：在我们的开发人员文档中[升级兼容性工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview)。

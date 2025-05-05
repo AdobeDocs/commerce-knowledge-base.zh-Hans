@@ -18,9 +18,9 @@ ht-degree: 0%
 > 将在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。
 > 
 > 请参阅：
-> [安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
-> [安装和配置Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
-> [安装和配置实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
+> [安装和配置Elasticsearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
+> [安装和配置Opensearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [安装和配置实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/live-search/install)
 
 本文提供了一个解决方案，用于在&#x200B;**搜索引擎**&#x200B;字段未显示或&#x200B;**使用系统值**&#x200B;复选框灰显且不可访问的情况下，使用Commerce管理员更改Adobe Commerce搜索引擎。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ![change_store_view.png](assets/change_store_view.png)
 
-**相关文档：** [更改用户指南中的作用域](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope)。
+**相关文档：** [更改用户指南中的作用域](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html?lang=zh-Hans#set-the-scope)。
 
 ### 问题2：无法取消选中“使用系统值”
 
@@ -108,7 +108,7 @@ array (
 
 ### 我们的开发人员文档中的相关文章
 
-Adobe Commerce配置指南中的[Adobe Commerce配置文件](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html)
+Adobe Commerce配置指南中的[Adobe Commerce配置文件](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html?lang=zh-Hans)
 
 ## 云基础架构上的Adobe Commerce
 
@@ -137,7 +137,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-如果您正在切换到[Opensearch（在2.4.6及更高版本中）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search)，则生成的`.magento.env.yaml`文件中的SEARCH\_CONFIGURATION变量可能如下所示：
+如果您正在切换到[Opensearch（在2.4.6及更高版本中）](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search)，则生成的`.magento.env.yaml`文件中的SEARCH\_CONFIGURATION变量可能如下所示：
 
 ```yaml
 stage:
@@ -150,7 +150,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-如果您[正在切换到Live Search](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch)，则生成的`.magento.env.yaml`文件中的SEARCH\_CONFIGURATION变量可能如下所示：
+如果您[正在切换到Live Search](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch)，则生成的`.magento.env.yaml`文件中的SEARCH\_CONFIGURATION变量可能如下所示：
 
 ```yaml
 stage:
@@ -167,8 +167,8 @@ stage:
 
 #### 开发人员文档
 
-* [设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
-* [生成和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) （有关`.magento.env.yaml`配置文件的文档）
-* [部署变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) （[SEARCH\_CONFIGURATION节](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration)）
-* [服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) （有关`.magento/services.yaml`配置文件的文档）
-* [实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
+* [设置Elasticsearch服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hans)
+* [生成和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hans) （有关`.magento.env.yaml`配置文件的文档）
+* [部署变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans) （[SEARCH\_CONFIGURATION节](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans#search_configuration)）
+* [服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html?lang=zh-Hans) （有关`.magento/services.yaml`配置文件的文档）
+* [实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/live-search/overview)

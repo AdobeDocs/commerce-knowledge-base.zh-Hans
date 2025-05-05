@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-如果要始终启用Google Analytics，请按照开发人员文档中的[部署变量](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)中的说明设置部署变量`ENABLE_GOOGLE_ANALYTICS = true`。
+如果要始终启用Google Analytics，请按照开发人员文档中的[部署变量](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)中的说明设置部署变量`ENABLE_GOOGLE_ANALYTICS = true`。
 
 >[!NOTE]
 >

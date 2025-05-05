@@ -48,4 +48,4 @@ Adobe列入允许列表还强烈建议商家部署工具来保护其管理面板
 * [针对Protect暴力攻击的立即操作](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [Protect您的Magento安装密码猜测新更新](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [安全最佳实践](https://magento.com/security/best-practices/security-best-practices)
-* 在Adobe Commerce中为[2.4.x](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)添加并配置双重身份验证
+* 在Adobe Commerce中为[2.4.x](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)添加并配置双重身份验证

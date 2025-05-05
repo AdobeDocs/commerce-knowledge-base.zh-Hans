@@ -48,7 +48,7 @@ ht-degree: 0%
 
 要验证是否已设置crontab，请执行以下步骤：
 
-1. 以[Magento文件Magento所有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)的身份登录或切换到您的系统服务器。
+1. 以[Magento文件Magento所有者](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)的身份登录或切换到您的系统服务器。
 1. 查看以下文件是否存在：    `bash    ls -al <magento_root>/var/.setup_cronjob_status`。 如果文件存在，则cron过去已成功运行。 如果文件&#x200B;*不存在*，则表示您尚未安装Magento或cron未运行。 无论属于哪种情况，请继续执行下一步。
 1. 获取有关cron的更多详细信息。 作为具有`root`权限的用户，输入以下命令：    `bash    crontab -u <Magento file system owner name> -l`。 例如，在CentOS `bash    crontab -u magento_user -l`上。  如果未为用户设置crontab，则会显示以下消息：    `terminal    no crontab for magento_user`。 您的crontab将告诉您以下信息：
 
@@ -62,17 +62,17 @@ ht-degree: 0%
 
 ### 未设置crontab的解决方案 {#solution-crontab-not-set-up}
 
-要验证您的cron作业是否设置正确，请参阅[设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
+要验证您的cron作业是否设置正确，请参阅[设置cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 ### 从不正确的PHP二进制文件运行的cron的解决方案 {#solution-cron-running-from-incorrect-php-binary}
 
 如果cron作业使用的PHP二进制文件与Web服务器插件不同，则可能会显示PHP设置错误。 要解决此问题，请为PHP命令行和PHP Web服务器插件设置相同的PHP设置。
 
-有关PHP设置的详细信息，请参阅我们的开发人员文档中的[必需的PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+有关PHP设置的详细信息，请参阅我们的开发人员文档中的[必需的PHP设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
 
 ### cron运行有错误的解决方案 {#solution-cron-running-with-errors}
 
-尝试手动运行每个命令，因为该命令可能会显示有用的错误消息。 查看[设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
+尝试手动运行每个命令，因为该命令可能会显示有用的错误消息。 查看[设置cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 >[!NOTE]
 >

@@ -120,7 +120,7 @@ find /tmp/*.hprof -type f -delete
 
 要避免在`/tmp`已满时出现问题，请遵循以下建议：
 
-* 请勿使用MySQL进行搜索。 Elasticsearch搜索通常无需创建大多数繁重的临时表。 请参阅我们的开发人员文档中的[配置Adobe Commerce以使用Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)。
+* 请勿使用MySQL进行搜索。 Elasticsearch搜索通常无需创建大多数繁重的临时表。 请参阅我们的开发人员文档中的[配置Adobe Commerce以使用Elasticsearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/configure-search-engine)。
 * 避免在没有索引的列上运行`SELECT`查询，因为这会占用大量临时磁盘空间。 您还可以添加索引。
 * 通过在CLI中运行以下命令来创建cron以清理`/tmp`：
 

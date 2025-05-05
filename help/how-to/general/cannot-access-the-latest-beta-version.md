@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 提前访问代码位置
 
-在测试版访问期间，只能通过[repo.magento.com](https://repo.magento.com/)上的Composer获得发行包。 在此期间，发行包在GitHub和Adobe Commerce门户上不可用，我们将在GA日期将它们发布到这些位置。 有关如何使用Composer的更多详细信息，请单击[此处](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
+在测试版访问期间，只能通过[repo.magento.com](https://repo.magento.com/)上的Composer获得发行包。 在此期间，发行包在GitHub和Adobe Commerce门户上不可用，我们将在GA日期将它们发布到这些位置。 有关如何使用Composer的更多详细信息，请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer)。
 
 ### 您需要使用的图像ID
 

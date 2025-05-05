@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 将&#x200B;**在店面上使用安全URL**&#x200B;和&#x200B;**在管理员上使用安全URL**&#x200B;设置设置为&#x200B;**是**。    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. 单击右上角的&#x200B;**保存配置**&#x200B;以应用更改。
 
-用户指南中的&#x200B;**相关文档：**   [存储URL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls)。
+用户指南中的&#x200B;**相关文档：**   [存储URL](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/site-store/store-urls)。
 
 ### 步骤2：启用强制TLS {#step-2-enable-force-tls}
 

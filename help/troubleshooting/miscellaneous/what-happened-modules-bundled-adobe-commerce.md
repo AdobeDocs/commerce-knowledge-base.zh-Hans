@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-Adobe Commerce文档>发行信息> Adobe Commerce 2.4.4发行说明中的[供应商捆绑的扩展](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions)。
+Adobe Commerce文档>发行信息> Adobe Commerce 2.4.4发行说明中的[供应商捆绑的扩展](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?lang=zh-Hans&#vendor-bundled-extensions)。

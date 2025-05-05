@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **请求浪涌容量**
 
-云基础架构上的Adobe Commerce商家如果预计在假日季节需要额外的容量，则应通过我们的[帮助中心](/help/overview.md)提交突增容量支持工单[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)，并指明工单中的日期和预期容量需求。 请注意，增加的容量需要您使用许可的超额容量。
+云基础架构上的Adobe Commerce商家如果预计在假日季节需要额外的容量，则应通过我们的[帮助中心](/help/overview.md)提交突增容量支持工单[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=zh-Hans)，并指明工单中的日期和预期容量需求。 请注意，增加的容量需要您使用许可的超额容量。
 
 **我们建议在需要容量时提前至少48个营业时间提交这些票证；此外，还建议尽量提前提交黑色星期五/网络星期一期间的请求，因为此期间的容量有限。**
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 在我们的支持知识库中：
 
-* 云中Adobe Commerce的[CPU分配计算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-* [检查Adobe Commerce在云上是否需要为主机实例进行大小调整](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-* [检查云上Adobe Commerce的主机的CPU配置](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* [识别和测量云中Adobe Commerce的中断](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html)
+* 云中Adobe Commerce的[CPU分配计算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html?lang=zh-Hans)
+* [检查Adobe Commerce在云上是否需要为主机实例进行大小调整](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=zh-Hans)
+* [检查云上Adobe Commerce的主机的CPU配置](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html?lang=zh-Hans)
+* [识别和测量云中Adobe Commerce的中断](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=zh-Hans)

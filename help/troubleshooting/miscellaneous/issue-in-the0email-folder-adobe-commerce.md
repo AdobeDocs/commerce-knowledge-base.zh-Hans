@@ -67,4 +67,4 @@ chmod 777 -R var/export/
 
 ## 相关阅读
 
-* 用户指南中的[导出](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-export)。
+* 用户指南中的[导出](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/data-transfer/data-export)。

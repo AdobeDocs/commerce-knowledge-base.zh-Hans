@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. [ACSD-45849：暂存更新后视频元数据丢失：](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45849-video-metadata-lost-after-staging-update.md)ACSD-45849修补程序修复了在应用暂存更新后视频元数据丢失的问题。 安装Quality Patches Tool (QPT) 1.1.18后，即可使用此修补程序。
 
-1. [ACSD-45754：将优惠券应用到购物车后未添加奖励积分：](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45754-reward-points-not-added-after-applying-coupon-to-the-cart.html)ACSD-45754修补程序解决了将优惠券应用到购物车后未添加奖励积分的问题。 安装Quality Patches Tool (QPT) 1.1.18后，即可使用此修补程序。
+1. [ACSD-45754：将优惠券应用到购物车后未添加奖励积分：](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45754-reward-points-not-added-after-applying-coupon-to-the-cart.html?lang=zh-Hans)ACSD-45754修补程序解决了将优惠券应用到购物车后未添加奖励积分的问题。 安装Quality Patches Tool (QPT) 1.1.18后，即可使用此修补程序。
 
 1. [ACSD-45488：具有多个来源的可配置产品未退回库存：](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md) ACSD-45488修补程序解决了具有多个来源的可配置产品未自动退回库存的问题。 安装Quality Patches Tool (QPT) 1.1.18后，即可使用此修补程序。
 

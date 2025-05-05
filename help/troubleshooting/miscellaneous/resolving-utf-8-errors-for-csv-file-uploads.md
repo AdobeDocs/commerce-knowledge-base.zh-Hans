@@ -23,4 +23,4 @@ ht-degree: 0%
 1. 单击&#x200B; &#x200B;**文件** > **另存为**&#x200B; &#x200B;并选择&#x200B; &#x200B;**逗号分隔值(.csv)**&#x200B;格式以保存文件。
 1. 以高级文本打开CSV文件。
 1. 在高级文本中，导航到&#x200B;**文件** > **&#x200B;使用编码保存** > **UTF-8\*{&#x200B;5}。**&#x200B;这将以UTF-8编码保存CSV文件。    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [将数据](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader)(在我们的Magento指南中)上载到BI中的新表。
+1. [将数据](https://experienceleague.adobe.com/zh-hans/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader)(在我们的Magento指南中)上载到BI中的新表。

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 请确保您具有正确的Fastly服务ID和API令牌，并尝试重新验证。 有关详细说明，请参阅我们的开发人员文档中的[测试Fastly凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)。
+1. 请确保您具有正确的Fastly服务ID和API令牌，并尝试重新验证。 有关详细说明，请参阅我们的开发人员文档中的[测试Fastly凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)。
 1. 如果凭据验证失败，请运行以下curl命令以确认服务的状态：
 
    ```curl
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 ## 我们的开发人员文档中的相关阅读：
 
-* [Cloud for Adobe Commerce > Fastly > Fastly服务帐户和凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
+* [Cloud for Adobe Commerce > Fastly > Fastly服务帐户和凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [Cloud for Adobe Commerce >设置Fastly >测试Fastly凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)
+* [Cloud for Adobe Commerce >设置Fastly >测试Fastly凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

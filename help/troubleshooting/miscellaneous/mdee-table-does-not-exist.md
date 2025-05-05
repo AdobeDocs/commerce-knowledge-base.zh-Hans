@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影响的产品和版本
 
-已将自定义代码应用于数据导出功能的Adobe Commerce实例（`commerce-data-exporter`或`saas-exporter`）。 如果安装的[[!DNL SaaS] Data Export版本为103.3.0](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-6)或更高版本，并且代码直接引用`catalog_data_exporter_products`索引，则会发生此错误。
+已将自定义代码应用于数据导出功能的Adobe Commerce实例（`commerce-data-exporter`或`saas-exporter`）。 如果安装的[[!DNL SaaS] Data Export版本为103.3.0](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/release-notes#release-6)或更高版本，并且代码直接引用`catalog_data_exporter_products`索引，则会发生此错误。
 
 ## 问题
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 原因
 
-由于[!DNL Commerce Data Export] [版本103.3.0](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-9)发行版中的信息源表、索引和更改日志表中的名称更改，使用[!DNL Commerce Data Export]扩展名的自定义扩展中的[!DNL Mview]订阅可能无法正常工作。
+由于[!DNL Commerce Data Export] [版本103.3.0](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/release-notes#release-9)发行版中的信息源表、索引和更改日志表中的名称更改，使用[!DNL Commerce Data Export]扩展名的自定义扩展中的[!DNL Mview]订阅可能无法正常工作。
 
 在这种情况下，出现&#x200B;*表不存在*&#x200B;错误，因为`catalog_data_exporter`表名称已更改为`cde_products_feed`，并且您的自定义代码引用了[!DNL Data Exporter Mview]订阅中的旧名称。
 
@@ -49,5 +49,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* Adobe Commerce Data Export Guide for [!DNL SaaS]服务中的[[!DNL SaaS] 数据导出扩展发行说明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Adobe Commerce Data Export Guide for [!DNL SaaS]服务中的[[!DNL SaaS] 数据导出扩展发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/release-notes)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

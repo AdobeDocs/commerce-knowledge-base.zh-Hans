@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### 解决方法
 
-使用[命令行](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)安装Adobe Commerce软件。
+使用[命令行](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/advanced)安装Adobe Commerce软件。

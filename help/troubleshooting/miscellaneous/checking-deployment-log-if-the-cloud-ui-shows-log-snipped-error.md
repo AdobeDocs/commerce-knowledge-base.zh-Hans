@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ## 原因
 
-请注意，不应将UI中显示的日志视为事实来源，尤其是当您在以“成功”状态列出部署后发现站点未响应或无法正常工作时。 您还应使用服务器上的日志进行验证。 请参阅我们的开发人员文档中的[查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)。
+请注意，不应将UI中显示的日志视为事实来源，尤其是当您在以“成功”状态列出部署后发现站点未响应或无法正常工作时。 您还应使用服务器上的日志进行验证。 请参阅我们的开发人员文档中的[查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hans)。
 
 ## 解决方案
 
-1. 确保在本地环境中安装了[MagentoCloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html)。
+1. 确保在本地环境中安装了[MagentoCloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hans)。
 1. 可以运行以下任一命令：
 
    ```bash
@@ -70,5 +70,5 @@ ht-degree: 0%
 
 ## 我们的开发人员文档中的相关阅读：
 
-* 云基础架构上的[Adobe Commerce >生成和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* 云基础架构上的[Adobe Commerce >查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* 云基础架构上的[Adobe Commerce >生成和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hans)
+* 云基础架构上的[Adobe Commerce >查看和管理日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hans)

@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-39229：更新目录规则暂存更新开始时间时出错'
-description: MDVA-39229修补程序修复了用户在更新目录规则暂存更新的开始时间后收到错误的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5后，即可使用此修补程序。 修补程序ID为MDVA-39229。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
+description: MDVA-39229修补程序修复了用户在更新目录规则暂存更新的开始时间后收到错误的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5后，即可使用此修补程序。 修补程序ID为MDVA-39229。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
 exl-id: b9a203af-693d-4253-877b-591ae5f388d3
 feature: Catalog Management, Staging
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-39229：更新目录规则暂存更新开始时间时出错
 
-MDVA-39229修补程序修复了用户在更新目录规则暂存更新的开始时间后收到错误的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5时，此修补程序可用。 修补程序ID为MDVA-39229。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
+MDVA-39229修补程序修复了用户在更新目录规则暂存更新的开始时间后收到错误的问题。 安装[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5时，此修补程序可用。 修补程序ID为MDVA-39229。 请注意，该问题计划在Adobe Commerce 2.4.4中修复。
 
 ## 受影响的产品和版本
 
@@ -27,7 +27,7 @@ Adobe Commerce（所有部署方法） 2.4.2 - 2.4.3-p1
 
 >[!NOTE]
 >
->该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
+>该修补程序可能适用于具有新的Quality Patches Tool版本的其他版本。 要检查修补程序是否与您的Adobe Commerce版本兼容，请将`magento/quality-patches`包更新到最新版本，并在[[!DNL Quality Patches Tool]：搜索修补程序页面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hans)上检查兼容性。 使用修补程序ID作为搜索关键字来查找修补程序。
 
 ## 问题
 
@@ -62,8 +62,8 @@ Adobe Commerce（所有部署方法） 2.4.2 - 2.4.3-p1
 
 要应用单独的修补程序，请根据您的部署方法使用以下链接：
 
-* 在开发人员文档中，参阅Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)。
-* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+* 在开发人员文档中，参阅Adobe Commerce或Magento Open Source内部部署： [软件更新指南>应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/usage)。
+* 云基础架构上的Adobe Commerce：我们的开发人员文档中的[升级和修补程序>应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相关阅读
 

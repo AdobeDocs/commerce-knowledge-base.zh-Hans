@@ -46,6 +46,6 @@ ht-degree: 0%
 
 ## 相关阅读
 
-在我们的用户指南中[安装实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)。
+在我们的用户指南中[安装实时搜索](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans)。
 
-在开发人员文档中[实时搜索](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)。
+在开发人员文档中[实时搜索](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/live-search/overview)。

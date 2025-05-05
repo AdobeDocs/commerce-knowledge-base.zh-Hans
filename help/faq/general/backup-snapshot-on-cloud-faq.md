@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 恢复环境快照
 
-要恢复现有快照（在支持的环境中：集成、暂存、生产环境在起始计划上或集成在专业计划上），请按照我们的Commerce on Cloud Infrastructure指南中的[备份管理：恢复手动备份](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)中的步骤操作。
+要恢复现有快照（在支持的环境中：集成、暂存、生产环境在起始计划上或集成在专业计划上），请按照我们的Commerce on Cloud Infrastructure指南中的[备份管理：恢复手动备份](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)中的步骤操作。
 
 ## 数据库(DB)备份
 

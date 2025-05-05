@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Markdown中的作者
 
-我们通常使用[Adobe Experience League Markdown语法样式指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)，但存在一些差异和异常。 此外，在某些情况下，还需要使用某些HTML标签。
+我们通常使用[Adobe Experience League Markdown语法样式指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=zh-Hans)，但存在一些差异和异常。 此外，在某些情况下，还需要使用某些HTML标签。
 
 以下是存储库中最常用的Markdown格式示例。
 

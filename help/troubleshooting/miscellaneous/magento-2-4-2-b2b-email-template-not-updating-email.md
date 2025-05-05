@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[管理消息队列](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
+* 在我们的开发人员文档中[管理消息队列](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。

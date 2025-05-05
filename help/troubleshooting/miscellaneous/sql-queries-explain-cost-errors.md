@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 无法执行查询。 \[xxx\]的EXPLAIN成本值太高，无法运行此查询。
 
-如果您看到此消息，则表示该查询被视为太昂贵而无法执行。 针对这种情况，我们提出了两个建议：一个是从查询中删除任何ORDER BY子句，因为这些子句的操作成本很高。 第二个是按照我们的[优化文章](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html)中的提示调整您的查询。
+如果您看到此消息，则表示该查询被视为太昂贵而无法执行。 针对这种情况，我们提出了两个建议：一个是从查询中删除任何ORDER BY子句，因为这些子句的操作成本很高。 第二个是按照我们的[优化文章](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html?lang=zh-Hans)中的提示调整您的查询。
 
 ## 无法执行查询。 此查询返回\[xxx\]行，这超过了我们10,000行的限制
 

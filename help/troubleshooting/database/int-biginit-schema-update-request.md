@@ -56,7 +56,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 
 >[!WARNING]
 >
->在更改表之前执行数据库备份。 另外，将站点置于[维护模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)。 此外，还建议在进行更改后对数据库表（仅对进行了更改的表）运行[!DNL MySQL]优化命令。
+>在更改表之前执行数据库备份。 另外，将站点置于[维护模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans#maintenance-mode)。 此外，还建议在进行更改后对数据库表（仅对进行了更改的表）运行[!DNL MySQL]优化命令。
 
 >[!NOTE]
 >
@@ -111,8 +111,8 @@ ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 
 ## 相关阅读
 
-* Commerce安装指南中的[常规 [!DNL MySQL] 指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html)
-* [数据库上载已断开与 [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html)的连接（在我们的支持知识库中）
-* 我们的支持知识库中的[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html)
-* 在我们支持知识库中，[Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce安装指南中的[常规 [!DNL MySQL] 指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=zh-Hans)
+* [数据库上载已断开与 [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html?lang=zh-Hans)的连接（在我们的支持知识库中）
+* 我们的支持知识库中的[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=zh-Hans)
+* 在我们支持知识库中，[Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=zh-Hans)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

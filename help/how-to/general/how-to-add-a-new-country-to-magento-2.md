@@ -24,8 +24,8 @@ ht-degree: 0%
 
 * [PHP开发人员指南](https://developer.adobe.com/commerce/php/development/)
 * [模块概述](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [创建新模块](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
-* [模块配置文件](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
+* [创建新模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-learn/tutorials/backend-development/create-module)
+* [模块配置文件](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## 所需信息
 

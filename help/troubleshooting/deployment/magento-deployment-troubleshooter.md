@@ -30,7 +30,7 @@ b.否 — 维护或全球中断。 检查预计持续时间和更新。
 
 +++**其他环境中是否有部署阻止现有环境中的部署？**
 
-要获取正在进行的活动列表，请使用magento-cloud CLI运行以下命令（如果您仅添加到一个云项目）。 **注意**：请检查您是否使用最新版本的magento-cloud CLI。 有关步骤，请参阅Commerce on Cloud Infrastructure指南中的[更新CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
+要获取正在进行的活动列表，请使用magento-cloud CLI运行以下命令（如果您仅添加到一个云项目）。 **注意**：请检查您是否使用最新版本的magento-cloud CLI。 有关步骤，请参阅Commerce on Cloud Infrastructure指南中的[更新CLI](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ magento-cloud --state=in_progress
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-查找有关现有部署活动的信息(请参阅[如果Cloud UI出现“日志截断”错误，请检查部署日志](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+查找有关现有部署活动的信息(请参阅[如果Cloud UI出现“日志截断”错误，请检查部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 详细信息)您可以运行此命令以获取该活动的运行日志：
 
 ```bash
@@ -79,7 +79,7 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 +++**使用Bitbucket？**
 
 a.是 — 检查[status.bitbucket.com](https://bitbucket.status.atlassian.com/)。\
-b.否 — 检查[生成和部署日志](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中的部署日志错误。 继续执行[步骤6](#step-6)。
+b.否 — 检查[生成和部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中的部署日志错误。 继续执行[步骤6](#step-6)。
 
 +++
 
@@ -124,7 +124,7 @@ b.否 — 继续执行[步骤11](#step-11)。
 +++**可用存储空间还好吗？**
 
 a.是 — 继续执行[步骤11](#step-11)。\
-b.否 — 查看[管理磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space)。
+b.否 — 查看[管理磁盘空间](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space)。
 
 +++
 
@@ -132,7 +132,7 @@ b.否 — 查看[管理磁盘空间](https://experienceleague.adobe.com/en/docs/
 
 +++无法写入&#x200B;**_文件警告&#x200B;_？**
 
-a.是 — 请[增加.magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space)中的磁盘值并重新部署。 如果此项不起作用，[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
+a.是 — 请[增加.magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=zh-Hans#application-disk-space)中的磁盘值并重新部署。 如果此项不起作用，[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 继续执行[步骤12](#step-12)。
 
 +++
@@ -159,7 +159,7 @@ b.否 — 继续执行[步骤14](#step-14)。
 
 +++**文件系统用完inode或空间不足？**
 
-a.是 — 请参阅[管理磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space)。\
+a.是 — 请参阅[管理磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=zh-Hans#application-disk-space)。\
 b.否 — 继续执行[步骤15](#step-15)。
 
 +++
@@ -201,7 +201,7 @@ b.否 — 继续执行[步骤18](#step-18)。
 
 +++**发布挂接失败/挂起？**
 
-a.是 — 数据库： [可用磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space)，损坏，表不完整/损坏。\
+a.是 — 数据库： [可用磁盘空间](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=zh-Hans#allocate-disk-space)，损坏，表不完整/损坏。\
 b.否 — 继续执行[步骤19](#step-19)。
 
 +++
@@ -210,7 +210,7 @@ b.否 — 继续执行[步骤19](#step-19)。
 
 +++**使用第三方扩展？**
 
-a.是 — 尝试[禁用第三方扩展](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)并运行部署（查看它们是否是问题的原因），尤其是如果任何错误中都有扩展名。\
+a.是 — 尝试[禁用第三方扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure-store/extensions)并运行部署（查看它们是否是问题的原因），尤其是如果任何错误中都有扩展名。\
 b.否 — 继续执行[步骤20](#step-20)。
 
 +++

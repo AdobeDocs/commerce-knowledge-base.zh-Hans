@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## 如何查看您的Fastly凭据
 
-请参阅我们的开发人员文档中的[获取Fastly凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds)部分。
+请参阅我们的开发人员文档中的[获取Fastly凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds)部分。
 
 ## 如何测试Fastly凭证
 
-请参阅我们的开发人员文档中的[测试Fastly凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)部分。
+请参阅我们的开发人员文档中的[测试Fastly凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)部分。
 

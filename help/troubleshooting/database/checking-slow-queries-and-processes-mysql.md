@@ -44,7 +44,7 @@ ht-degree: 0%
 如果您的Adobe Commerce项目部署在Pro架构上，则可以使用[!DNL Percona Toolkit]来分析查询。
 
 1. 对MySQL慢查询日志运行`pt-query-digest --type=slowlog`命令。
-   * 要查找慢查询日志的位置，请参阅我们的开发人员文档中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**。
+   * 要查找慢查询日志的位置，请参阅我们的开发人员文档中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hans)**。
    * 请参阅[[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest)文档。
 1. 根据发现的问题，采取措施修复查询，使其运行速度更快。
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 * 在dev.mysql.com中[MySQL显示Processlist语法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)。
 * dev.mysql.com中的[MySQL终止语法](https://dev.mysql.com/doc/refman/8.0/en/kill.html)。
 * 在开发人员文档中[安全性、性能和数据处理](https://developer.adobe.com/commerce/php/best-practices/extensions/security/)。
-* 在开发人员文档中[MySQL帮助](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。
+* 在开发人员文档中[MySQL帮助](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。

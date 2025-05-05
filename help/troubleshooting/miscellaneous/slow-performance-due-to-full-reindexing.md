@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 解决方案
 
-仅在必要时运行重新索引。 有关步骤，请查看我们的开发人员文档中的[配置索引器](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。 一般建议和最佳做法是允许部分索引机制处理数据索引，而无需商家采取手动行动。 应使用本机Adobe Commerce功能(Mview)完成所有索引调整。 Mview执行部分重新索引，这是重新索引数据的最有效方法。 要了解Mview，请参阅我们的开发人员文档中的[索引概述： Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)。
+仅在必要时运行重新索引。 有关步骤，请查看我们的开发人员文档中的[配置索引器](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。 一般建议和最佳做法是允许部分索引机制处理数据索引，而无需商家采取手动行动。 应使用本机Adobe Commerce功能(Mview)完成所有索引调整。 Mview执行部分重新索引，这是重新索引数据的最有效方法。 要了解Mview，请参阅我们的开发人员文档中的[索引概述： Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)。
 
 ## 相关阅读
 

@@ -25,7 +25,7 @@ Adobe Commerce [2.4.5](/docs/commerce-operations/release/notes/adobe-commerce/2-
 
 ## 如何应用修补程序
 
-1. 按照Commerce指南中[执行升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)中的步骤操作。
+1. 按照Commerce指南中[执行升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hans)中的步骤操作。
 1. 在&#x200B;**[!UICONTROL Update metadata]**&#x200B;阶段之前应用附加的修补程序。
 （您也可以在完成&#x200B;**[!UICONTROL Update metadata]**&#x200B;阶段后应用修补程序，但随后您需要再次运行`bin/magento setup:upgrade`）。
-1. 继续执行[执行升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)中的其余步骤。
+1. 继续执行[执行升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hans)中的其余步骤。

@@ -57,7 +57,7 @@ Adobe Commerce内部部署2.4.x
 
 **如何在云基础架构上修复Adobe Commerce：**
 
-运行上述命令或升级到欧洲经委会工具的最新版本(ece-tools：2002.1.7)，该版本将于7月29日星期四提供。 有关步骤，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >更新ece-tools版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)。
+运行上述命令或升级到欧洲经委会工具的最新版本(ece-tools：2002.1.7)，该版本将于7月29日星期四提供。 有关步骤，请参阅我们的开发人员文档中的[Cloud for Adobe Commerce >更新ece-tools版本](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)。
 
 完整的修复将在Adobe Commerce（所有部署方法）2.4.4中发布。
 

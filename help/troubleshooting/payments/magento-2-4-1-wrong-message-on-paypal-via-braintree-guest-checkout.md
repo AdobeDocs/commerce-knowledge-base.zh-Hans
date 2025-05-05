@@ -27,7 +27,7 @@ ht-degree: 0%
 <u>先决条件</u>：
 
 1. 在Commerce管理员中，在&#x200B;**商店** > **配置** > **销售** > **签出**&#x200B;下，设置&#x200B;**允许来宾签出** = *否*。
-1. 按照用户指南中的[Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?)所述，通过Braintree启用PayPal。
+1. 按照用户指南中的[Braintree](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/payments/braintree?)所述，通过Braintree启用PayPal。
 
 <u>重现步骤</u>：
 

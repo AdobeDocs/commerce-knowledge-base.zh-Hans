@@ -65,4 +65,4 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## 有用的链接
 
-在开发人员文档中，[将自定义修补程序应用到云基础架构上的Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+在开发人员文档中，[将自定义修补程序应用到云基础架构上的Adobe Commerce](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。

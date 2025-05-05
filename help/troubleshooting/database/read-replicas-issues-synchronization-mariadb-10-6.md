@@ -54,7 +54,7 @@ ht-degree: 0%
 
 
 
-有关更新数据库配置的步骤，请参阅Commerce on Cloud Infrastructure指南中“部署变量”主题中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)。
+有关更新数据库配置的步骤，请参阅Commerce on Cloud Infrastructure指南中“部署变量”主题中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans#database_configuration)。
 
 
 ## 相关阅读

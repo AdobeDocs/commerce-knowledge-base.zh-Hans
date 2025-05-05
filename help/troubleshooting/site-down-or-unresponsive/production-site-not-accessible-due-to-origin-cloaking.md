@@ -47,9 +47,9 @@ https：/&#x200B;/mydomain.com.c.&lt;projectid>.magento.cloud/不再可访问。
 ## 解决方案
 
 * 如果您的云站点处于活动状态，请切换到https://mydomain.com/。
-* 如果您有活动站点（非云），请使用https://mydomain.com/域，设置子域`mcprod.mydomain.com`，然后将&#x200B;**基本URL**&#x200B;更新为&#x200B;*https://mcprod.mydomain.com*，然后[将DNS指向Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)。
+* 如果您有活动站点（非云），请使用https://mydomain.com/域，设置子域`mcprod.mydomain.com`，然后将&#x200B;**基本URL**&#x200B;更新为&#x200B;*https://mcprod.mydomain.com*，然后[将DNS指向Fastly](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)。
 
 ## 相关阅读
 
 * 支持知识库中的[Fastly Origin遮盖功能启用常见问题解答](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
-* 在我们的支持知识库中设置[新域的清单](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain)
+* 在我们的支持知识库中设置[新域的清单](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain)
