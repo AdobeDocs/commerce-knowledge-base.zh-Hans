@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <u>要再现的步骤：</u>
 
-在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。** **
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。**&#x200B; **
 
 <u>预期结果：</u>
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 <u>要再现的步骤：</u>
 
-在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。** **
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。**&#x200B; **
 
 <u>预期结果：</u>
 

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 使用[Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server)沙盒帐户下订单会导致出现错误消息：
 
->>
+&#x200B;>>
 “服务器上发生错误。 请尝试重新下单”
 
 ## 原因1：已启用测试模式

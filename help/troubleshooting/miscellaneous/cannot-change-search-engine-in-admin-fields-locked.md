@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 《Commerce on Cloud Infrastructure指南》中Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)的[锁定（灰色）字段。
+* 《Commerce on Cloud Infrastructure指南》中Commerce Admin[&#128279;](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)的锁定（灰色）字段。

@@ -26,7 +26,7 @@ Adobe Commerce 2.3.6计划于2020年10月15日发布，并计划作为Adobe Comm
 
 >[!NOTE]
 >
->我们唯一要发布2.3完整版的情况是，我们需要保持对技术栈栈(如PHP或Elasticsearch)的合规性。 此更新将于2021年第2季度进行，届时必须对PHP 7.4进行更新，我们会将行增加到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)的DevBlog帖子[PHP 7.4支持。
+>我们唯一要发布2.3完整版的情况是，我们需要保持对技术栈栈(如PHP或Elasticsearch)的合规性。 此更新将于2021年第2季度进行，届时必须对PHP 7.4进行更新，我们会将行增加到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行[&#128279;](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)的DevBlog帖子PHP 7.4支持。
 
 ## 什么是仅安全发行版？
 
@@ -86,4 +86,4 @@ Adobe也将继续使用最新版本行的仅限安全的版本。 [引入新的�
 
 在发布线的生命周期中，将对各种技术栈栈(如PHP或Elasticsearch)进行更新，这些更新需要升级才能保持合规性。 我们会尽可能多地通知商家，这些商品即将推出。
 
-注意：在2021年第2季度，我们将需要更新2.3.x系列上的PHP和Redis以保持合规性。 这将导致该行递增到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)的DevBlog帖子[PHP 7.4支持。
+注意：在2021年第2季度，我们将需要更新2.3.x系列上的PHP和Redis以保持合规性。 这将导致该行递增到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行[&#128279;](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)的DevBlog帖子PHP 7.4支持。

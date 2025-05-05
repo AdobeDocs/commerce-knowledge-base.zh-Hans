@@ -70,4 +70,4 @@ ACSD-45675修补程序修复了产品导出使用默认商店视图范围内的�
 * [[!DNL Quality Patches Tool] 已发布：我们支持知识库中用于自助提供高质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
 * [使用我们的支持知识库中的 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html)，检查您的Adobe Commerce问题是否有可用的修补程序。
 
-有关[!DNL QPT]中其他可用修补程序的信息，请参阅Quality Patches Tool指南中的 [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)中的[Patches。
+有关[!DNL QPT]中其他可用修补程序的信息，请参阅Quality Patches Tool指南中的 [!DNL QPT][&#128279;](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)中的Patches。

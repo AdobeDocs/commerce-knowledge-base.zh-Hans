@@ -22,7 +22,7 @@ Cloud基础架构上的Adobe Commerce 2.4.7-p4及更早版本
 
 ## 先决条件
 
-* Adobe已配置您的Adobe Commerce帐户以访问&#x200B;**[!DNL HIPAA Ready]**&#x200B;扩展。 请参阅Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)上的[[!DNL HIPAA] 准备工作，以了解我们的&#x200B;**Adobe Commerce：入门指南**&#x200B;中的更多详细信息。
+* Adobe已配置您的Adobe Commerce帐户以访问&#x200B;**[!DNL HIPAA Ready]**&#x200B;扩展。 请参阅Adobe Commerce[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)上的[!DNL HIPAA] 准备工作，以了解我们的&#x200B;**Adobe Commerce：入门指南**&#x200B;中的更多详细信息。
 * 访问[repo.magento.com](https://repo.magento.com)以安装扩展。 有关密钥生成和获取必要权限的信息，请参阅&#x200B;**Adobe Commerce：安装指南**&#x200B;中的[获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
 
 ## 问题

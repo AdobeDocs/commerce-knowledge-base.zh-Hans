@@ -36,9 +36,9 @@ ht-degree: 0%
 <pre>部署应用程序验证配置E：验证routes.yaml时出错。
 为您的群集配置了以下域，但未在routes.yaml文件中定义路由：
 
-- store1.example.com
-- store2.example.com
-- test-store.example.com
+&#x200B;- store1.example.com
+&#x200B;- store2.example.com
+&#x200B;- test-store.example.com
 
 使用当前的routes.yaml配置，
   这些域将无法提供服务！

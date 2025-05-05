@@ -86,4 +86,4 @@ ht-degree: 0%
 
 ### 解决方案
 
-在`php.ini`中增加环境上PHP](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php)的内存限制[。
+在`php.ini`中增加环境上PHP[&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php)的内存限制。

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->请注意： mcrypt库功能在PHP 7.1中已弃用，已从PHP 7.2](https://www.php.net/manual/en/intro.mcrypt.php)中删除[。
+>请注意： mcrypt库功能在PHP 7.1中已弃用，已从PHP 7.2[&#128279;](https://www.php.net/manual/en/intro.mcrypt.php)中删除。
 
 ## 详细信息
 

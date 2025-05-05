@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`类阻止的脚本。
 1. 使用`CSPNonceProvider`类允许执行脚本。
-Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
+Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函数获取[!DNL nonce]字符串。
 
@@ -129,7 +129,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个**[!UICONTR
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`类阻止的脚本。
 1. 使用`CSPNonceProvider`类允许执行脚本。
-Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
+Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函数获取[!DNL nonce]字符串。
 
@@ -203,7 +203,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个**[!UICONTR
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`类阻止的脚本。
 1. 使用`CSPNonceProvider`类允许执行脚本。
-Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
+Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函数获取[!DNL nonce]字符串。
 

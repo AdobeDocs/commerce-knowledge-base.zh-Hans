@@ -101,7 +101,7 @@ DELETE `cpev_s`.* FROM `catalog_product_entity_varchar` `cpev_s` JOIN `eav_attri
 
 ### 图像
 
-正在上载用户指南中的产品图像[](/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image)
+正在上载用户指南中的产品图像[&#128279;](/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image)
 
 ### 缓存
 

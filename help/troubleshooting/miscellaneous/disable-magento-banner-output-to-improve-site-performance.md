@@ -38,7 +38,7 @@ ht-degree: 0%
 
 如果您在&#x200B;**Content** > *Elements*&#x200B;下未看到&#x200B;**横幅**&#x200B;选项，则不是这种情况，并且无法应用此文章中的推荐。
 
-对于Adobe Commerce on cloud infrastructure 2.3.x（在v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中函数重命名为[）：
+对于Adobe Commerce on cloud infrastructure 2.3.x（在v 2.3.x[&#128279;](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中函数重命名为）：
 
 1. 登录到Commerce管理员。
 1. 导航到&#x200B;**Content** > *Elements >* **动态块**。

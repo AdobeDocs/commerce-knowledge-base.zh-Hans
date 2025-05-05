@@ -64,7 +64,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 将以下内容添加到您的`composer.json`文件，具体取决于您安装Adobe Commerce的方式：
 
-* 如果已使用`composer create-project`命令](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage)创建项目[：
+* 如果已使用`composer create-project`命令[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage)创建项目：
 
   ```json
   "config": {

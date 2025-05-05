@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 如果由于任何原因无法在[magento.com](https://account.magento.com/customer/account/login)上找到此信息，请联系您的Adobe客户团队。
 1. 如果以上都不起作用，请[联系支持人员](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
-合作伙伴&#x200B;****
+合作伙伴&#x200B;**&#x200B;**
 
 要确定您的MageID是否为主映像，请尝试以下操作：
 

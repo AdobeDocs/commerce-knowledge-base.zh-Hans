@@ -33,4 +33,4 @@ ht-degree: 0%
 
 如果您有多个网站，则需要将这些网站作为Sales Channel添加到默认股票或其他自定义股票。
 
-有关如何操作的详细信息，请参阅我们用户指南中Wiki/用户指南](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)的[Stock部分。
+有关如何操作的详细信息，请参阅我们用户指南中Wiki/用户指南[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)的Stock部分。

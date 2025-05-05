@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **查看您的升级历史记录**
 
-通过向&#x200B;**CSM（客户成功经理）**请求信息，您可以查看所请求调整大小的历史记录。
+通过向&#x200B;**CSM（客户成功经理）**&#x200B;请求信息，您可以查看所请求调整大小的历史记录。
 以下信息适用于每个调整大小请求：
 
 * **大小开始日期**： upsize请求的日期。
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **请求浪涌容量**
 
-云基础架构上的Adobe Commerce商家如果预计在假日季节需要额外的容量，则应通过我们的[帮助中心](/help/overview.md)提交突增容量支持工单](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)，并指明工单中的日期和预期容量需求。 [请注意，增加的容量需要您使用许可的超额容量。
+云基础架构上的Adobe Commerce商家如果预计在假日季节需要额外的容量，则应通过我们的[帮助中心](/help/overview.md)提交突增容量支持工单[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)，并指明工单中的日期和预期容量需求。 请注意，增加的容量需要您使用许可的超额容量。
 
 **我们建议在需要容量时提前至少48个营业时间提交这些票证；此外，还建议尽量提前提交黑色星期五/网络星期一期间的请求，因为此期间的容量有限。**
 

@@ -36,7 +36,7 @@ ht-degree: 0%
 
 Cacheable和uncacheable是用于指示是否应缓存页面的术语。 默认情况下，可缓存所有页面。 但是，如果布局中的任何块被指定为不可缓存，则整个页面都不可缓存。
 
-下面的屏幕快照显示了一个设置`cacheable="false"`****的块，该块创建了一个不可缓存的页面。
+下面的屏幕快照显示了一个设置`cacheable="false"`**&#x200B;**&#x200B;的块，该块创建了一个不可缓存的页面。
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 

@@ -40,7 +40,7 @@ ht-degree: 0%
    >
    >如果您想在应用程序中运行Node.JS，而不想仅在内部版本中运行，请添加以下命令以更改内部版本挂接：
    > 
-   ```
+   > ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
    > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment

@@ -1,6 +1,6 @@
 ---
 title: “MDVA-40896：异步产品中出现‘错误：类型错误：参数3’错误”
-description: “MDVA-40896修补程序修复了传递到Magento\Framework\Webapi\ServiceInputProcessor：：process()的“错误：类型错误：参数3”必须是类型数组，字符串给定的问题”错误显示在异步产品批量API中。 安装[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15后，即可使用此修补程序。 修补程序ID为MDVA-40896。 请注意，Adobe Commerce 2.4.4中已修复该问题。
+description: “MDVA-40896修补程序修复了传递到MagentoFrameworkWebapiServiceInputProcessor：：process()的“错误：类型错误：参数3”必须是类型数组，字符串给定的问题”错误显示在异步产品批量API中。 安装[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15后，即可使用此修补程序。 修补程序ID为MDVA-40896。 请注意，Adobe Commerce 2.4.4中已修复该问题。
 exl-id: d9b73e7a-c228-492c-9fdf-c57cceafb330
 feature: Products
 role: Admin

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 将在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除[MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。
+> 将在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中删除MySQL目录搜索引擎。 在安装版本2.4.0之前，必须设置并配置Elasticsearch主机。
 > 
 > 请参阅：
 > [安装和配置Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。

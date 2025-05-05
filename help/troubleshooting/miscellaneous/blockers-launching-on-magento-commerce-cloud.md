@@ -68,7 +68,7 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **相关文章：**
 
-* 在我们的用户指南中通过routes.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html)重定向[。
+* 在我们的用户指南中通过routes.yaml[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html)重定向。
 * 在我们的用户指南中，通过Cloud Console [重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)。
 * 用户指南中的[URL重写](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html)。
 

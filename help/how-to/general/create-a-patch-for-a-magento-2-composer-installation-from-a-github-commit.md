@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 通过GitHub提交为Adobe Commerce Composer安装创建修补程序
 
-请参阅我们的开发人员文档中应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)中的[自定义修补程序部分。
+请参阅我们的开发人员文档中应用修补程序[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)中的自定义修补程序部分。

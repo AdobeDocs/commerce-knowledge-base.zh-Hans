@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ![login_panel_s.png](assets/login_panel_s.png)
 
-阅读我们的用户指南中“管理员登录”](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in)的[重置密码一节中的步骤。
+阅读我们的用户指南中“管理员登录”[&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in)的重置密码一节中的步骤。
 
 以下是关键使用说明。
 
 ### 启用传出电子邮件
 
-在使用&#x200B;**忘记密码**&#x200B;表单之前，[使用[云控制台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)启用传出电子邮件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)。
+在使用&#x200B;**忘记密码**&#x200B;表单之前，[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)使用[云控制台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)启用传出电子邮件。
 
 ### 检查您的“垃圾邮件”文件夹
 

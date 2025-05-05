@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 源数据库的行数少于MagentoBI {#lessrows}
 
-如果源数据库的行数少于MagentoBI，则可能正在从源数据库中删除行，并且MagentoBI不接收这些删除操作。 ** [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能会导致不一致、更新时间延长以及后勤方面的一系列难题**，因此我们强烈建议您永远不要删除数据，除非它真的必要。
+如果源数据库的行数少于MagentoBI，则可能正在从源数据库中删除行，并且MagentoBI不接收这些删除操作。 **&#x200B; [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能会导致不一致、更新时间延长以及后勤方面的一系列难题**，因此我们强烈建议您永远不要删除数据，除非它真的必要。
 
 但是，如果从表中删除了行，请查看主键上的重新检查频率。 重新选中主键表示将检查表中是否包含已删除的行。
 

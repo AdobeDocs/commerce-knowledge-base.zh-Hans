@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 受限的管理员访问权限导致性能问题
 
-本文提供了解决方案，用于解决在我们的用户指南中使用角色范围受网站](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)限制的[管理员角色对性能产生负面影响的情况。
+本文提供了解决方案，用于解决在我们的用户指南中使用角色范围受网站[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)限制的管理员角色对性能产生负面影响的情况。
 
 ## 受影响的产品和版本
 

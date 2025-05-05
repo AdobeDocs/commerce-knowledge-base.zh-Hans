@@ -49,13 +49,13 @@ ACSD-50794修补程序修复了用户无法通过GraphQL从客户订单中删除
 1. 现在使用此购物车查询检查礼品包装&#x200B;*Uid*：
 
    <pre><code class="language-GraphQL">
-    {
-      cart(cart_id: "{{CART_ID}}") {
-        available_gift_wrappings{
+    &lbrace;
+      cart(cart_id: "{{CART_ID}}") &lbrace;
+        available_gift_wrappings&lbrace;
             uid
-        }
-    }
-    }
+        &rbrace;
+    &rbrace;
+    &rbrace;
     </code></pre>
 
 1. 使用`setGiftOptionsOnCart`设置礼品包装。
@@ -66,38 +66,38 @@ ACSD-50794修补程序修复了用户无法通过GraphQL从客户订单中删除
 1. 运行客户查询：客户。
 
    <pre><code class="language-graphql">
-    query {
-      customer {
+    query &lbrace;
+      customer &lbrace;
         firstname
         middlename
         lastname
         suffix
         email
-        orders {
-            items {
+        orders &lbrace;
+            items &lbrace;
                 order_date
-                gift_wrapping {
+                gift_wrapping &lbrace;
                     design
                     uid
-                }
-            }
-        }
-        addresses {
+                &rbrace;
+            &rbrace;
+        &rbrace;
+        addresses &lbrace;
           firstname
           middlename
           lastname
           street
           city
-          region {
+          region &lbrace;
             region_code
             region
-          }
+          &rbrace;
           postcode
           country_code
           telephone
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code></pre>
 
 <u>预期的结果</u>：

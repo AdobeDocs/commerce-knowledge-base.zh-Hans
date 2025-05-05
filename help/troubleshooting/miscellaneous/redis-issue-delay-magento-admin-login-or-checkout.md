@@ -80,6 +80,6 @@ Adobe Commerce 2.1.14和2.2.2中已修复此问题。
 
 ## 云基础架构2.2.0上的Adobe Commerce：使用ECE-Tools v2002.0.8或更高版本 {#h_64593789291526919876198}
 
-版本为2002.0.3 - 2002.0.7的[ECE-Tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)部署脚本包自动应用解决方法](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)，将`disable_locking`设置为`1`。 [这将禁用Adobe Commerce 2.2.0的会话锁定机制，在该机制上不会出现初始问题。
+版本为2002.0.3 - 2002.0.7的[ECE-Tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)部署脚本包自动应用解决方法[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)，将`disable_locking`设置为`1`。 这将禁用Adobe Commerce 2.2.0的会话锁定机制，在该机制上不会出现初始问题。
 
 如果您在云基础架构2.2.0上运行Adobe Commerce，请将ECE-Tools升级到v2002.0.8或更高版本。 您还可以考虑将您在云基础架构上的Adobe Commerce升级到2.2.2或更高版本。

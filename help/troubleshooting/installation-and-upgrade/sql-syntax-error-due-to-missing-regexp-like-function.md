@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >如果您在更新到B2B 1.5.2后升级`Magento_Company`模块时遇到性能问题，请应用附加的[ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch](assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip)。
 >
->有关详细信息，请参阅Adobe Commerce知识库中的Magento_Company模块在B2B 1.5.2更新后](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)升级中的[性能问题。
+>有关详细信息，请参阅Adobe Commerce知识库中的Magento_Company模块在B2B 1.5.2更新后[&#128279;](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)升级中的性能问题。
 
 本文为尝试更新`company_structure`表时由于缺少`REGEXP_LIKE`函数而发生的SQL语法错误提供了修补程序。
 

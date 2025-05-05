@@ -25,9 +25,9 @@ ht-degree: 0%
 
 有关详细信息，请参阅[[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions)。
 
-Adobe Commerce与3.54及更高版本的任何最新[!DNL  Google Maps]版本不兼容。
+Adobe Commerce与3.54及更高版本的任何最新[!DNL &#x200B; Google Maps]版本不兼容。
 
-不兼容是由旧版`prototype.js script`导致的，该旧版通过`lib/web/legacy-build.min.js`加载将覆盖本机Array.from函数，从而导致与[!DNL  Google Maps] API直接冲突。
+不兼容是由旧版`prototype.js script`导致的，该旧版通过`lib/web/legacy-build.min.js`加载将覆盖本机Array.from函数，从而导致与[!DNL &#x200B; Google Maps] API直接冲突。
 
 请参阅[[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices)。
 

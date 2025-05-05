@@ -29,7 +29,7 @@ ht-degree: 0%
 
 前提条件：使用“付款服务”功能下达订单。
 
-1. 在[管理员](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin)中，订单已开票[](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) （或[已取消](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)或通过贷项通知单](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)退款[）。
+1. 在[管理员](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin)中，订单已开票[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) （或[已取消](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)或通过贷项通知单[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)退款）。
 1. 定位至“订单付款状态”报表，以查看有关该订单的信息。
 1. 状态显示为`AUTHORIZED`，这是开票或其他订单操作之前的订单状态。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 有两个因素会影响“管理员”中可见数据的延迟：
 
-* 您选择通过Admin](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)中的[配置从Commerce同步（导出和保留）数据的频率。
+* 您选择通过Admin[&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)中的配置从Commerce同步（导出和保留）数据的频率。
 * PayPal发布报表数据的时间范围。
 
 ## 解决方案

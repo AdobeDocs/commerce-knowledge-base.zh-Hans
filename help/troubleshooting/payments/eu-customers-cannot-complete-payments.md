@@ -31,4 +31,4 @@ ht-degree: 0%
 
 ## 解决方案
 
-遵循DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations)的[Adobe Commerce Payment Provider Recommendations部分的建议。
+遵循DevBlog[&#128279;](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations)的Adobe Commerce Payment Provider Recommendations部分的建议。

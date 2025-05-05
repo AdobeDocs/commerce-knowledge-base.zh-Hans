@@ -41,7 +41,7 @@ ht-degree: 0%
 即使您的版本不支持[!DNL OpenSearch]，应用程序也将只识别/接受[!DNL Elasticsearch7]作为搜索引擎。
 
 从Adobe Commerce版本2.4.6开始，已更新应用程序，以允许选择[!DNL OpenSearch]作为搜索引擎。
-如果您在非云环境中转到**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**，您将能够更改此选项，如下面的&#x200B;**解决方案**中所示。
+如果您在非云环境中转到&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**，您将能够更改此选项，如下面的&#x200B;**解决方案**&#x200B;中所示。
 （注意：在云环境中，此字段无法更改，因为搜索引擎在`app/etc/env.php`文件中被锁定。）
 
 ## 解决方案

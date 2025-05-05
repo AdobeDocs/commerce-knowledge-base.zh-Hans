@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 商家需要[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，请求升级到增强集成环境，使用联系原因“*请求云配置更改*”。
 1. Adobe客户工程团队会确认集成环境的数量，并开始进行更改。
 1. 升级完成后，贸易商将在票证中收到通知。
-1. 商家重新部署集成环境。 按照开发人员文档中的[合并分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)中的步骤操作。 *注意*：运行时将自动进行部署： <pre>git push origin <branch-name></pre>
+1. 商家重新部署集成环境。 按照开发人员文档中的[合并分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)中的步骤操作。 *注意*：运行时将自动进行部署： <pre>git push origin &lt;branch-name></pre>
 
 性能提高表示成功升级到增强集成环境。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 1. 商家需要[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，请求升级到增强集成环境，使用联系原因&#x200B;*“请求云配置更改”* - **您的暂存环境是一个命名的集成环境**。
 1. Adobe客户工程团队会确认集成环境的数量，并开始进行更改。
 1. 升级完成后，贸易商将在票证中收到通知。
-1. 商家重新部署集成环境。 按照开发人员文档中的[合并分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)中的步骤操作。 *注意*：运行时将自动进行部署： <pre>git push origin <branch-name></pre>
+1. 商家重新部署集成环境。 按照开发人员文档中的[合并分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)中的步骤操作。 *注意*：运行时将自动进行部署： <pre>git push origin &lt;branch-name></pre>
 
 性能提高表示成功升级到增强集成环境。
 

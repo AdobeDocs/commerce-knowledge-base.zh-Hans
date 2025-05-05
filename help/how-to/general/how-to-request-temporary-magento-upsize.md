@@ -53,7 +53,7 @@ Adobe为Adobe Commerce on cloud infrastructure提供一套New Relic警报策略�
 
 按照以下步骤提交[支持票证](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)以请求临时额外云容量：
 
-输入以下信息后，在Adobe Commerce支持中心](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)提交[支持工单：
+输入以下信息后，在Adobe Commerce支持中心[&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)提交支持工单：
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Adobe为Adobe Commerce on cloud infrastructure提供一套New Relic警报策略�
 
 ## 查看您的升级历史记录
 
-通过向&#x200B;**CSM（客户成功经理）**请求信息，您可以查看所请求调整大小的历史记录。
+通过向&#x200B;**CSM（客户成功经理）**&#x200B;请求信息，您可以查看所请求调整大小的历史记录。
 以下信息适用于每个调整大小请求：
 
 * **大小开始日期**： upsize请求的日期。

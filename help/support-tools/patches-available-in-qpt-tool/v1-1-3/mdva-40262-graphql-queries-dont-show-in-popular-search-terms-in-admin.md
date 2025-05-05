@@ -44,23 +44,23 @@ GraphQL查询不会显示在管理员的常用搜索词中。
 
 <pre>
 <code class="language-graphql">
-{
+&lbrace;
   products(
     search: "jackets"
     filter: { price: { to: "50" } }
     pageSize: 20
-   ) {
+   ) &lbrace;
     total_count
-    items {
+    items &lbrace;
       name
       sku
-    }
-    page_info {
+    &rbrace;
+    page_info &lbrace;
       page_size
       current_page
-    }
-  }
-}
+    &rbrace;
+  &rbrace;
+&rbrace;
 </code>
 </pre>
 
@@ -86,4 +86,4 @@ GraphQL查询不会显示在管理员的常用搜索词中。
 * [已发布质量修补程序工具：用于自助提供质量修补程序的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)。
 * [使用Quality Patches Tool](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)检查是否有可用于Adobe Commerce问题的修补程序。
 
-有关QPT中其他可用修补程序的信息，请参阅QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-)中可用的[修补程序部分。
+有关QPT中其他可用修补程序的信息，请参阅QPT[&#128279;](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-)中可用的修补程序部分。

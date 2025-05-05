@@ -32,7 +32,7 @@ ht-degree: 0%
   ),
 ```
 
-空数组表示[!DNL cron]已启用&#x200B;****：
+空数组表示[!DNL cron]已启用&#x200B;**&#x200B;**：
 
 ```'cron' =>
   array (
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 针对缺少[!DNL OpCache]设置的解决方案 {#solution-missed-opcache-settings}
 
-查看Commerce知识库中由于配置错误或缺少 [!DNL OpCache] 设置](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings)而停止的[[!DNL Cron] 。
+查看Commerce知识库中由于配置错误或缺少 [!DNL OpCache] 设置[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings)而停止的[!DNL Cron] 。
 
 ### 基础架构团队禁用的解决方案 {#solution-disabled-by-infrastructure-team}
 

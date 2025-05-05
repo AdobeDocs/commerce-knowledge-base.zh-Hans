@@ -166,7 +166,7 @@ Adobe Commerce on cloud starter（所有版本）
    * 用户名：mbi
    * 密码：步骤8的输出中提供了[输入密码。]
    * 数据库名称： main
-   * 表前缀：如果没有表前缀]，则[留空
+   * 表前缀：如果没有表前缀&rbrack;，则&lbrack;留空
 
 1. 设置您的[!UICONTROL Timezone Settings]。
 

@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 原因
 
-[!DNL UPS]已发布其 [!DNL API]](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)的[安全更新。
+[!DNL UPS]已发布其 [!DNL API][&#128279;](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)的安全更新。
 
 如果您将欧盟（其他来源可能遇到相同问题）作为装运的来源地，这将导致[!DNL UPS REST]请求中出错：
 “*装运不能以KGS/IN、LBS/CM或OZS/CM作为其度量单位。*”

@@ -50,4 +50,4 @@ ht-degree: 0%
 
 ## 如何提交票证？
 
-您可以通过单击页面顶部的&#x200B;**提交票证**&#x200B;链接，向我们的支持团队[提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 我们建议您在联系我们之前，在您的支持工单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket)中查看[信息，以确保您的初始提交中包含所有必需的信息。
+您可以通过单击页面顶部的&#x200B;**提交票证**&#x200B;链接，向我们的支持团队[提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 我们建议您在联系我们之前，在您的支持工单[&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket)中查看信息，以确保您的初始提交中包含所有必需的信息。

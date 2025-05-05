@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 配置管理（位于我们的开发人员文档中）
 
-* 云基础架构上的&#x200B;*Adobe Commerce指南中的&#x200B;**2.1.X**](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[示例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的[配置管理*
-* 云基础架构上的&#x200B;*Adobe Commerce指南中的&#x200B;**2.2.X**](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[示例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的[配置管理*
+* 云基础架构上的&#x200B;*Adobe Commerce指南中的&#x200B;**2.1.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[示例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的配置管理*
+* 云基础架构上的&#x200B;*Adobe Commerce指南中的&#x200B;**2.2.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[示例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的配置管理*
 * [从&#x200B;*在云基础架构上升级Adobe Commerce*&#x200B;主题的2.0.X或2.1.X](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html#upgrade-from-older-versions)部分升级
 * *云基础架构上的Adobe Commerce配置指南*&#x200B;中的[管道部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/overview.html) — 对于云基础架构上的Adobe Commerce，您无需遵循本指南中的说明。 内容仅供参考。 我们已在云基础架构上通过Adobe Commerce提供构建服务器、集成环境等。
