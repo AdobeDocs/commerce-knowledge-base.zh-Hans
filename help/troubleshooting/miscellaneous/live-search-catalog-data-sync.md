@@ -31,9 +31,9 @@ ht-degree: 0%
 
 <u>重现步骤</u>
 
-1. 按照用户文档中的[安装Live Search >配置API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys)中所述，为Adobe Commerce实例配置并连接Live Search。
-1. 30分钟后，按照用户文档中的[安装Live Search >验证导出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)中的说明验证导出的目录数据。
-1. 30分钟后，按照用户文档中的[安装Live Search >测试连接](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)中的说明测试连接。
+1. 按照用户文档中的[安装Live Search >配置API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans#configure-api-keys)中所述，为Adobe Commerce实例配置并连接Live Search。
+1. 30分钟后，按照用户文档中的[安装Live Search >验证导出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans#verify-export)中的说明验证导出的目录数据。
+1. 30分钟后，按照用户文档中的[安装Live Search >测试连接](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans#test-connection)中的说明测试连接。
 
 或
 
@@ -150,13 +150,13 @@ bin/magento saas:resync --feed categories --cleanup-feed
 bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
-[提交支持请求](https://experienceleague.adobe.com/home?support-tab=home#support)以请求重新索引实时搜索索引。 在问题描述中，包括在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下的管理面板中找到的数据空间/环境ID。
+[提交支持请求](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)以请求重新索引实时搜索索引。 在问题描述中，包括在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下的管理面板中找到的数据空间/环境ID。
 
 >[!IMPORTANT]
->在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。  仅在您拥有新的空环境、Adobe团队完成数据空间清理操作后，或运行带有[ — 试运行](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)选项的`saas:resync`命令时，才使用此项。 在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。
+>在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。  仅在您拥有新的空环境、Adobe团队完成数据空间清理操作后，或运行带有[ — 试运行](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)选项的`saas:resync`命令时，才使用此项。 在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。
 
 ## 相关阅读
 
-* 在我们的用户文档中[载入Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)
-* [在Adobe Commerce SaaS Data Export Guide中查看日志并排除Adobe Commerce SaaS数据导出和同步问题](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在我们的用户文档中[载入Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=zh-Hans)
+* [在Adobe Commerce SaaS Data Export Guide中查看日志并排除Adobe Commerce SaaS数据导出和同步问题](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
