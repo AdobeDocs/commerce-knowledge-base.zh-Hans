@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ![login_panel_s.png](assets/login_panel_s.png)
 
-阅读我们的用户指南中“管理员登录”](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in)的[重置密码一节中的步骤。
+阅读我们的用户指南中“管理员登录”[&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in)的重置密码一节中的步骤。
 
 以下是关键使用说明。
 
 ### 启用传出电子邮件
 
-在使用&#x200B;**忘记密码**&#x200B;表单之前，请确保使用[云控制台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)启用传出电子邮件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)。 [这仅适用于集成环境和沙盒项目。
+在使用&#x200B;**忘记密码**&#x200B;表单之前，请确保使用[云控制台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)启用传出电子邮件[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)。 这仅适用于集成环境和沙盒项目。
 
 如果在Pro Production或Staging上确实禁用了传出电子邮件（即SendGrid未提取电子邮件），则可以通过选中[在Cloud Console中启用电子邮件](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/outgoing-emails#enable-emails-in-the-cli)来验证此设置。 如果问题仍然存在，您可以提交Adobe [支持票证](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)。
 
