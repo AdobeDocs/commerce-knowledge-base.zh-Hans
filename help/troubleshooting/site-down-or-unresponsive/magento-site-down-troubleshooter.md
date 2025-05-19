@@ -174,7 +174,7 @@ b.否 — 继续执行[步骤17](#step-17)。
 
 +++**您有[!DNL MySQL]个数据库死锁还是没有响应的[!DNL MySQL]数据库？**
 
-a.是 — 继续检查 [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/deadlocks-in-mysql)文章中的此[死锁中的[!DNL MySQL]死锁。\
+a.是 — 继续检查 [!DNL MySQL][&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/deadlocks-in-mysql)文章中的此死锁中的[!DNL MySQL]死锁。\
 b.否 — 打开[支持票证](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-cases)以进行进一步调查。
 
 +++
