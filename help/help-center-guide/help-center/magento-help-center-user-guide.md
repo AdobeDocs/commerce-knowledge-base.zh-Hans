@@ -130,7 +130,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
    >[!NOTE]
    >
-   >如果您在云基础架构&#x200B;**上提交一个带有“**[!DNL Commerce]”的票证作为产品，并且组织列出了多个项目，则将提示您选择适当的[!UICONTROL Project ID]。 如果找不到所需的[!UICONTROL Project ID]，请确保在票证上添加一条注释，说明您正在为其他“项目X”寻求帮助。<br>如果您打算在Managed Services **”票证上提交“**[!DNL Commerce]”，并且在&#x200B;**[!DNL Commerce]上云基础架构**，但在云基础架构&#x200B;**上看不到**[!DNL Commerce]&#x200B;是可用的产品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中输入问题的主题。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中输入问题的描述。<br>3。 输入这两个项目后，将显示下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;字段。
+   >如果您在云基础架构&#x200B;**上提交一个带有“**&#x200B;[!DNL Commerce]”的票证作为产品，并且组织列出了多个项目，则将提示您选择适当的[!UICONTROL Project ID]。 如果找不到所需的[!UICONTROL Project ID]，请确保在票证上添加一条注释，说明您正在为其他“项目X”寻求帮助。<br>如果您打算在Managed Services **”票证上提交“**&#x200B;[!DNL Commerce]”，并且在&#x200B;**[!DNL Commerce]上云基础架构**，但在云基础架构&#x200B;**上看不到**&#x200B;[!DNL Commerce]&#x200B;是可用的产品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中输入问题的主题。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中输入问题的描述。<br>3。 输入这两个项目后，将显示下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;字段。
 
 
 1. Adobe Experience League将推荐可帮助您解决案例的文章和最佳实践。 如果您仍然需要直接支持，则在提交案例之前需要提供一些其他信息。
@@ -360,7 +360,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 <u>解决方案</u>
 
-如果未在此页面](https://account.magento.com/grantor/manage/)上添加/给定[，则无法从MAG[XYZ ]*中删除共享名称为* Cloud Shared Access的共享访问用户列表。 保留它们是为了提供信息/进行审核。
+如果未在此页面[&#128279;](https://account.magento.com/grantor/manage/)上添加/给定，则无法从MAG[XYZ ]*中删除共享名称为* Cloud Shared Access的共享访问用户列表。 保留它们是为了提供信息/进行审核。
 
 但是，一旦您撤销了这些共享访问用户的权限，他们将不再拥有该访问权限。
 
