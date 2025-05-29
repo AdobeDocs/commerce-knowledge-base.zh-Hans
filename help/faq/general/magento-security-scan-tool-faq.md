@@ -3,9 +3,9 @@ title: Adobe Commerce安全扫描工具常见问题解答
 description: 本文解答了一些有关Adobe Commerce安全扫描工具的常见问题(FAQ)。
 exl-id: 380ce617-e3d9-491b-b425-8489abd3c541
 feature: Compliance
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: cff17a83648e10e85d95a5895acd8d1916a8eef9
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 ## 如果在扫描报告中遇到误报，我该怎么办？ {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
-我们建议我们的商家调查所有失败的扫描，并采取适当步骤来解决此类问题。 经调查后，如果商户发现扫描结果呈误判，我们会要求商户通知Adobe采取适当措施。
+我们建议我们的商家调查所有失败的扫描，并采取适当步骤来解决此类问题。 调查后，如果商家遇到似乎误报的扫描结果，我们要求商家通知Adobe采取适当措施。
 
-要提交误报报告，请输入具有Adobe Commerce商家支持的票证，以便我们能够评估误报、进行必要更改和/或提供建议以避免将来看到此类通知。 商户还可以向我们发送电子邮件至[securityscan@magento.com](mailto:securityscan@magento.com)来报告误报。
+要提交误报报告，请输入具有Adobe Commerce商家支持的票证，以便我们能够评估误报、进行必要更改和/或提供建议以避免将来看到此类通知。
