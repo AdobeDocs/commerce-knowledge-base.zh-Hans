@@ -40,7 +40,7 @@ ht-degree: 0%
 <u>更改日期</u>：
 
 1. 将网站放入[!UICONTROL Maintenance Mode]。
-详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升级指南中的升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)的[[!UICONTROL Maintenance Mode]选项。
+详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升级指南中的升级[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)的[!UICONTROL Maintenance Mode]选项。
 1. 禁用cron作业。 有关禁用cron作业的详细信息，请参阅[crons属性指南](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)。
 1. 获取本地[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)。
 
