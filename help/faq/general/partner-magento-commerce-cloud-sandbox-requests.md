@@ -30,7 +30,7 @@ ht-degree: 0%
 
 合作伙伴沙盒云项目合作伙伴无法通过Experience League提交沙盒相关问题的票证。 请不要使用商户帐户提交这些票证，因为似乎代表他们提交这些票证，这样会造成混淆。
 
-如果您代表未被授予共享访问权限的商家提交工单，请向帐户所有者请求访问权限。 有关如何请求访问权限的步骤，请参阅[共享访问权限：授予其他用户访问您帐户的权限](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)。
+如果您代表未被授予共享访问权限的商家提交工单，请向帐户所有者请求访问权限。 有关如何请求访问权限的步骤，请参阅[共享访问权限：授予其他用户访问您帐户的权限](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)。
 
 * 解决方案合作伙伴应通过电子邮件发送[SPPHelp@adobe.com](mailto:SPPHelp@adobe.com)来提交与沙盒相关的支持请求。 这些请求将发送给合作伙伴技术支持团队。
 * 技术合作伙伴应联系[市场支持](mailto:commercemarketplacesupport@adobe.com)。
