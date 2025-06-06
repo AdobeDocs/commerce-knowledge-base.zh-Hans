@@ -2,7 +2,7 @@
 title: 从暂存或生产环境恢复数据库快照
 description: 本文说明如何在云基础架构上从Adobe Commerce上的暂存或生产环境恢复数据库快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 20aaeacc4f71725c005e7bec3b9d6ac3aa844170
+source-git-commit: 3d75b53dd290731380b2da33e3c0a1f746b9275b
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
    cd /mnt/shared/<cluster ID/ | cd /mnt/shared/<cluster ID_stg>
    gunzip all-databases.sql.gz 
    head -n 17 all-databases.sql > <cluster ID_stg>.sql
-   sed -n '/^-- Current Database: `wyf2o4zlrljjs`/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID_stg>.sql 
+   sed -n '/^-- Current Database: <cluster ID_stg>/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID_stg>.sql 
    gzip <cluster ID_stg>.sql  
    zcat <cluster ID_stg>.sql.gz | \
    sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | \
@@ -62,7 +62,7 @@ ht-degree: 0%
    ```
 
 1. 将数据库[!DNL dump file]（例如： [!DNL Production]的`<cluster ID>.sql.gz`或[!DNL Staging]的`<cluster ID_stg>.sql.gz`）复制到本地计算机。
-1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn)。
+1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn)。
 1. 连接到数据库。
 
    ```sql
@@ -158,6 +158,6 @@ ht-degree: 0%
 
 在我们的开发人员文档中：
 
-* [导入代码：导入数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* 云上的[备份（快照）：常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [导入代码：导入数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* 云上的[备份（快照）：常见问题解答](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
