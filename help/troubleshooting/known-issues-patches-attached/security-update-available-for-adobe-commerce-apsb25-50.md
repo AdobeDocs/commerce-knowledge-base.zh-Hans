@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 可用于Adobe Commerce的安全更新 — [!DNL APSB25-50]
 
-2025年6月10日，Adobe发布了Adobe Commerce和Magento Open Source的定期安全更新。 此更新解决了[[!DNL critical] 和 [!DNL important]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用这些漏洞可能会导致绕过安全功能、权限提升和任意代码执行。
+2025年6月10日，Adobe发布了Adobe Commerce和Magento Open Source的定期安全更新。 此更新解决了[[!DNL critical] 和 [!DNL important]](https://helpx.adobe.com/cn/security/severity-ratings.html)漏洞。 成功利用这些漏洞可能会导致绕过安全功能、权限提升和任意代码执行。
 
 更多信息可在[Adobe安全公告([!DNL APSB25-50])此处](https://helpx.adobe.com/security/products/magento/apsb25-50.html)找到。
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >如果您在应用安全修补程序/隔离修补程序时遇到任何问题，请联系支持服务。
 
-提醒您，您可以在此处找到[可用于Adobe Commerce的最新安全更新。](https://helpx.adobe.com/security/products/magento.html)
+提醒您，您可以在此处找到[可用于Adobe Commerce的最新安全更新。](https://helpx.adobe.com/cn/security/products/magento.html)
 
 ## 受影响的产品和版本
 
@@ -93,7 +93,7 @@ Adobe Commerce（所有部署方法）：
 
 ## 如何应用独立修补程序
 
-解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)获取相关说明。
+解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hans)获取相关说明。
 
 ## 仅适用于Adobe Commerce on Cloud商家 — 如何判断是否已应用独立的修补程序
 
@@ -103,7 +103,7 @@ Adobe Commerce（所有部署方法）：
 >
 ><u>您可以执行以下步骤，使用文件`VULN-27015-2.4.7_COMPOSER.patch` **作为示例**</u>：
 
-1. [安装质量修补程序工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+1. [安装质量修补程序工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hans)。
 1. 运行命令： <br>
    ![cve-2024-34102-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. 您应该会看到类似以下内容的输出，其中VULN-27015返回&#x200B;*已应用*&#x200B;状态：
@@ -123,4 +123,4 @@ Adobe Commerce（所有部署方法）：
 可用于Adobe Commerce的安全更新：
 
 * [Adobe安全公告([!DNL APSB25-50])](https://helpx.adobe.com/security/products/magento/apsb25-50.html)
-* [可用于Adobe Commerce的最新安全更新](https://helpx.adobe.com/security/products/magento.html)
+* [可用于Adobe Commerce的最新安全更新](https://helpx.adobe.com/cn/security/products/magento.html)
