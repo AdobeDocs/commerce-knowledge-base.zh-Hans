@@ -24,7 +24,7 @@ ht-degree: 0%
 ### 暂存和生产环境
 
 * 在Pro计划中，手动快照不适用于暂存和生产环境。
-* 无论站点的活动状态&#x200B;**如何，都会在**创建自动快照（同时也会为尚未启动的站点创建快照）。 不能公开访问自动备份，因为它们存储在单独的系统中。
+* 无论站点的活动状态&#x200B;**如何，都会在**&#x200B;创建自动快照（同时也会为尚未启动的站点创建快照）。 不能公开访问自动备份，因为它们存储在单独的系统中。
 您可以[提交Adobe Commerce支持票证](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)以请求特殊备份，或从票证中提供日期、时间和时区的特定备份中还原。 基础架构团队提供快照后，要确定最初拍摄时间戳的时间，请从快照的放置位置运行以下命令：
 
   `cat /mnt/recovery/vol-<volume_id>/snap.time`
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 
 * 支持不会根据需要生成任何手动快照。 另外，请注意，支持人员不会为您执行数据库回滚或还原 — 他们检索快照，但您必须自行还原数据库。
-* 无论站点的活动状态&#x200B;**如何，都会在**创建自动快照（同时也会为尚未启动的站点创建快照）。 自动备份存储在单独的系统中，公众无法访问。
+* 无论站点的活动状态&#x200B;**如何，都会在**&#x200B;创建自动快照（同时也会为尚未启动的站点创建快照）。 自动备份存储在单独的系统中，公众无法访问。
 您可以[提交Adobe Commerce支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md)以请求特殊备份，或从票证中提供日期、时间和时区的特定备份中还原。 支持不会根据需要生成任何手动快照。
 另外，请注意，支持人员不会为您执行数据库回滚或还原 — 他们检索快照，但您必须自行还原数据库。
 * 备份是使用&#x200B;**加密的Amazon Web Services Elastic Block Store (AWS EBS)快照**&#x200B;创建的。
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### 集成（开发）环境
 
-* 您的[集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) **未自动备份**，但您可以手动创建快照&#x200B;****。
+* 您的[集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) **未自动备份**，但您可以手动创建快照&#x200B;**&#x200B;**。
 * 您可以为非实时存储上的集成环境创建手动快照。
 * 您可能有&#x200B;**多个已手动触发的快照**。
 * 手动触发的快照存储&#x200B;**7天**。
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 环境快照，入门计划
 
-* 未自动备份所有类型的环境（集成、暂存、生产）****，但您可以手动创建快照。
+* 未自动备份所有类型的环境（集成、暂存、生产）**&#x200B;**，但您可以手动创建快照。
 * 无论站点的活动状态&#x200B;**如何，您都可以创建手动快照**（快照也针对尚未启动的站点创建）。
 * 手动触发的快照存储&#x200B;**7天**。
 
