@@ -1,9 +1,9 @@
 ---
 title: 2024和2023年Adobe Commerce发布战略和生命周期策略的常见问题解答
-description: 为了满足Adobe Commerce客户的任务关键型需求，我们将Adobe Commerce 2.4.4及更高版本的支持时间范围从版本&lbrace;0**日期延长到**3年。  [!DNL GA] 支持包括**安全和质量补丁**。 有关时间详细信息，请参阅我们新的[发布日历](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans)。
+description: 为了满足Adobe Commerce客户的任务关键型需求，我们将Adobe Commerce 2.4.4及更高版本的支持时间范围从版本{0**日期延长到**3年。  [!DNL GA] 支持包括**安全和质量补丁**。 有关时间详细信息，请参阅我们新的[发布日历](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)。
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
-source-git-commit: 216e3c6c7f4db605b39ef365356bc18c76ea034e
+source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 根据这项新政策，2.4.4、2.4.5、2.4.6和2.4.7上的客户何时会终止支持？
 
-Adobe Commerce 2.4.4+上的客户将从版本[!DNL GA]日期起3年收到安全和质量修复，如下面的时间线所示。 有关特定支持终止日期，请参阅[!DNL Experience League]上的[已发布版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=zh-Hans)页面。
+Adobe Commerce 2.4.4+上的客户将从版本[!DNL GA]日期起3年收到安全和质量修复，如下面的时间线所示。 有关特定支持终止日期，请参阅[!DNL Experience League]上的[已发布版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)页面。
 
 ![图形1](assets/MSKB-1978-1.jpg)
 
@@ -38,20 +38,20 @@ Adobe Commerce 2.4.4+上的客户将从版本[!DNL GA]日期起3年收到安全�
 
 ### 新的发布时间表如何使客户受益？
 
-以可组合的[!DNL SaaS]服务形式提供新功能，使客户能够更快地访问有助于提高销售的新工具。 您可以随时使用功能，而无需升级核心Adobe Commerce应用程序。 而且，Adobe可以不断地更新这些服务，以提供功能和性能方面的最新改进。 每年发布一个核心应用程序修补程序有助于降低升级成本，更容易规划升级，并为自定义和优化商业体验提供更多时间。 其他轻量级安全修补程序可帮助客户保持更安全的状态。
+以可组合的[!DNL SaaS]服务形式提供新功能，使客户能够更快地访问有助于提高销售的新工具。 您可以随时使用功能，而无需升级核心Adobe Commerce应用程序。 Adobe可不断更新这些服务，以提供功能和性能方面的最新改进。 每年发布一个核心应用程序修补程序有助于降低升级成本，更容易规划升级，并为自定义和优化商业体验提供更多时间。 其他轻量级安全修补程序可帮助客户保持更安全的状态。
 
 ### 什么是预发行版访问？
 
 在2023年，客户可以在正式发布前大约两周访问Adobe Commerce修补程序版本。
 
-从2024年开始，Adobe不再提供对修补程序的“预发布”访问。 而对于2.4.7及更高版本，客户可以使用[测试版](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html?lang=zh-Hans)来访问用于测试和开发目的的前通用可用性代码。 以下2023年版本仍计划提供预发行版访问：
+从2024年开始，Adobe不再提供对修补程序的“预发布”访问。 而对于2.4.7及更高版本，客户可以使用[测试版](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html)来访问用于测试和开发目的的前通用可用性代码。 以下2023年版本仍计划提供预发行版访问：
 
 * 2023年8月8日预发行版访问权限为2023年7月25日
 * 2023年10月10日预发行版访问将于2023年9月26日进行
 
 ### Adobe Commerce发布计划发布于何处？
 
-有关更多详细信息，请参阅[!DNL Experience League]上的[Adobe Commerce发布计划](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans)。
+有关更多详细信息，请参阅[!DNL Experience League]上的[Adobe Commerce发布计划](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)。
 
 ### 计划中包含哪些不同类型的版本？
 
@@ -62,11 +62,11 @@ Adobe Commerce 2.4.4+上的客户将从版本[!DNL GA]日期起3年收到安全�
 
 ### 客户从何处获得高质量的修补程序？
 
-质量修补程序是一种分发单个质量问题的修复程序的方法。 客户可以联系Adobe支持或使用[[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=zh-Hans)查找高质量的修补程序。
+质量修补程序是一种分发单个质量问题的修复程序的方法。 客户可以联系Adobe支持或使用[[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)查找高质量的修补程序。
 
 ### 哪些资源可用于帮助进行总体规划、预算和升级？
 
-可用资源包括全面的2.4升级指南、技术升级研讨会录音和[!DNL Upgrade Compatibility Tool]。 可在[Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html?lang=zh-Hans)上找到资源的综合列表。
+可用资源包括全面的2.4升级指南、技术升级研讨会录音和[!DNL Upgrade Compatibility Tool]。 可在[Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html)上找到资源的完整列表。
 
 ### 作为Managed Services客户，客户工程部如何帮助我升级到2.4.4+?
 
@@ -191,7 +191,7 @@ Managed Services客户可以与我们的客户工程团队合作，以获得升�
 
 在长期的支持下，我们的客户工程团队将继续提供与往常相同的质量和安全修补程序，而不会出现任何范围降级。 但是，如果基础第三方技术（如[!DNL MariaDB]）终止支持，客户将需要采取其他措施以保持[!DNL PCI]兼容。
 
-Adobe不支持已终止支持的第三方技术。 Adobe建议客户与其[[!DNL PCI] 评估员](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/)合作以确保遵循相关说明。 有关经过测试和受支持的第三方技术的完整列表，请参阅[Adobe Commerce系统要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/system-requirements)。
+Adobe不为已终止支持的第三方技术提供支持。 Adobe建议客户与其[[!DNL PCI] 评估员](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/)合作，以确保遵循相关说明。 有关经过测试和受支持的第三方技术的完整列表，请参阅[Adobe Commerce系统要求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)。
 
 <table style="height: 444px; width: 632.2px;">
 <tbody>
@@ -225,7 +225,7 @@ Adobe不支持已终止支持的第三方技术。 Adobe建议客户与其[[!DNL
 </tbody>
 </table>
 
-* 在扩展支持期间，<sup>1</sup> Adobe Commerce 2.4.4和2.4.5 Cloud客户不会受到[!DNL PHP] 8.1 EOS日期的影响，因为Adobe会自动对其基础架构应用生命周期支持[!DNL PHP] 8.1安全修复。 Adobe Commerce 2.4.4和2.4.5如果需要，本地客户将需要联系Adobe支持部门以索取[!DNL PHP] 8.1生命周期支持安全修补程序。
+* 在扩展支持期间，<sup>1</sup> Adobe Commerce 2.4.4和2.4.5 Cloud客户不会受到[!DNL PHP] 8.1 EOS日期的影响，因为Adobe将自动对其基础架构应用生命周期支持[!DNL PHP] 8.1安全修复。 Adobe Commerce 2.4.4和2.4.5如果需要，本地客户将需要联系Adobe支持以索取[!DNL PHP] 8.1生命周期支持安全修补程序。
 * <sup>2</sup>与Adobe Commerce 2.4.4和2.4.5的[!DNL MariaDB] 10.6的兼容性计划于2025年4月在“仅限安全性”修补程序的范围内发布。
 * <sup>3</sup>与Adobe Commerce 2.4.4和2.4.5的[!DNL Composer] 2.8的兼容性计划于2025年4月在“仅限安全性”修补程序的范围内发布。
 * 计划于2025年4月在Adobe Commerce 2.4.4和2.4.5的范围内发布仅用于安全保护的修补程序，其中包含<sup>4</sup>与[!DNL OpenSearch] 2的兼容性。
