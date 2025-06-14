@@ -178,7 +178,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 要使用Adobe Commerce帐户页提交新的支持工单，请执行以下步骤：
 
-1. 登录到您的Adobe Commerce帐户。 请参阅我们的用户指南中的[详细说明](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account)。
+1. 登录到您的Adobe Commerce帐户。 请参阅我们的用户指南中的[详细说明](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=zh-Hans#create-a-commerce-account)。
 1. 单击&#x200B;**支持**&#x200B;选项卡。
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
@@ -290,7 +290,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 ### Adobe Commerce共同责任运营模式 {#shared-responsibility-operational-model}
 
-请参阅关于[Adobe Commerce分担责任运营模型](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary)的文章，
+请参阅关于[Adobe Commerce分担责任运营模型](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary)的文章，
 旨在厘清我们专业基础设施服务的运营责任。
 
 ### 打开跟进票证 {#follow-up}
@@ -319,7 +319,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 >[!NOTE]
 >
->在授予用户共享访问权限之前，该用户必须具有现有帐户 — 有关更多详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
+>在授予用户共享访问权限之前，该用户必须具有现有帐户 — 有关更多详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
 
 为新用户提供共享访问后，相关信息可在您的Adobe Commerce帐户页面的&#x200B;**共享访问** > **管理权限**&#x200B;中获得。
 
