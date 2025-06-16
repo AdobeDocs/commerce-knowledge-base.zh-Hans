@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: e5f5fda302aa5023cc4c05ec0971086bffbeaf39
+source-git-commit: 4f4d516ab4250249928c676d9451a1efe041c207
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3533'
 ht-degree: 0%
 
 ---
@@ -181,10 +181,8 @@ ht-degree: 0%
       * [无法在云基础架构UI上访问Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
       * [顶点地址清理：不允许使用不同的地址](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md)
       * [未保存对类别所做的更改](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
-      * [无论管理员中的库存状态设置如何，实时搜索都会显示缺货产品](/help/troubleshooting/miscellaneous/live-search-displays-out-of-stock-products.md)
       * [Adobe Commerce 2.4.0已知问题 — 出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [适用于Adobe Commerce的Magento Order Management System (OMS)处理错误](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
-      * [在Adobe Commerce 2.4.x中无法进行精确匹配搜索](/help/troubleshooting/miscellaneous/exact-match-search-for-product-not-working-in-adobe-commerce.md)
       * [由于不可缓存的页面导致性能降低](/help/troubleshooting/miscellaneous/slow-performance-due-to-non-cacheable-pages.md)
       * [从2.2.X升级到2.3.X后，不会加载缓存的图像](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
       * [保存具有1k+个产品的类别时出现504网关超时错误](/help/troubleshooting/miscellaneous/504-gateway-time-out-error-when-saving-a-category-with-1k-products.md)
@@ -216,7 +214,6 @@ ht-degree: 0%
       * [禁用模块后出现问题](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [卸载非正则表达式重定向到Fastly而不是Nginx（路由）](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [Adobe Commerce 2.4.0已知问题：创建新订单按钮缺失](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
-      * [laminas/laminas-escaper 2.7.1导致Adobe Commerce前端和管理页面错误](/help/troubleshooting/miscellaneous/laminas-escaper-2-7-1-causes-error-adobe-commerce-frontend-and-admin-pages.md)
       * [访问Adobe Commerce上的站点范围分析工具时出现403错误](/help/troubleshooting/miscellaneous/403-errors-when-accessing-site-wide-analysis-tool-on-magento.md)
       * [适用于Adobe Commerce的高级报表疑难解答程序](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [常见PHP致命错误和解决方案](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
@@ -252,7 +249,6 @@ ht-degree: 0%
       * [PWA Studio：Webpack在开始编译之前挂起](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [安装最新修补程序以修复Adobe Commerce Redis问题](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
       * [解决非法偏移错误](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
-      * [用于隐藏类别的GraphQL查询不适用于B2B共享目录](/help/troubleshooting/miscellaneous/graphql-categories-cannot-hide-categories-shared-catalog.md)
       * [以编程方式创建时产品状态不正确](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
       * [快速错误：插件VCL版本已过时！ 请重新上传](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)
       * [Adobe Commerce 2.4.0：无法刷新客户的活动](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
@@ -297,7 +293,6 @@ ht-degree: 0%
       * [新域正在重定向到默认域](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
       * [无法将用户添加到Adobe Commerce云项目](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [Cron由于配置错误或丢失而停止 [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
-      * [无法删除该文件。 警告！ 取消链接： [!DNL Admin]中没有此类文件或目录错误*](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
       * [[!DNL Admin]登录不起作用 — 超出了允许的会话最大大小](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [为现有Adobe Commerce Intelligence入门项目配置云连接](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager]被实时搜索小组件破坏](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
@@ -313,15 +308,11 @@ ht-degree: 0%
       * [启用早期alpha包模块时出现部署错误](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)
       * [部署时出现“不支持当前版本的RDBMS”错误](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
       * [部署失败Fastly模块不兼容的Adobe Commerce版本](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
-      * [环境重新部署失败或MySQL服务器消失](/help/troubleshooting/deployment/environment-redeployment-failed-or-mysql-server-gone-away.md)
       * [部署错误： SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [与帐户权限和访问密钥相关的部署问题](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
       * [Adobe Commerce部署疑难解答程序](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [升级到支持PHP 8.1的版本时，在部署过程中出错](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
-      * [E：验证路由时出错。在暂存或生产部署期间出现yaml错误](/help/troubleshooting/deployment/e-error-verifying-routes-yaml-error-during-staging-or-production-deploy.md)
       * [部署失败，并显示“构建项目时出错：构建挂接失败，状态代码为1”](/help/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.md)
-      * [无法访问云存储库上的Adobe Commerce：部署时出现403 Forbidden或404 Not Found错误](/help/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.md)
-      * [部署卡住，出现“无法将应用程序上传到远程群集”错误](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md)
       * [部署错误：“下载时发生错误7 ...端口443：连接被拒绝”](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [提交不正确的文件时出现部署错误](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [未找到修补程序的部署错误](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
@@ -364,7 +355,6 @@ ht-degree: 0%
       * [Elasticsearch索引状态为“黄色”或“红色”](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
       * [Elasticsearch服务未运行](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
       * [MySQL和Elasticsearch显示不同的结果](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
-      * [尽管安装了OpenSearch，Elasticsearch仍显示为搜索引擎](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * 帮助中心指南 {#help-center-guide}
    * [适用于Adobe Commerce的Experience League支持用户指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Adobe Commerce支持票证生命周期策略更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
@@ -467,6 +457,5 @@ ht-degree: 0%
    * [云上的备份（快照）：常见问题解答](/help/faq/general/backup-snapshot-on-cloud-faq.md)
    * [2024和2023年Adobe Commerce发布战略和生命周期策略的常见问题解答](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
    * [我是否可以为共享目录中的价格计划内容暂存更新？](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
-   * [Adobe Commerce安全扫描工具常见问题解答](/help/faq/general/magento-security-scan-tool-faq.md)
    * [Adobe Commerce软件终止支持常见问题解答](/help/faq/general/adobe-commerce-eos-policy-faq.md)
    * [我是否需要Fastly才能使用Headless Adobe Commerce网站？](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
