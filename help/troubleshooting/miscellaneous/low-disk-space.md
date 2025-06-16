@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-具有可写目录的磁盘上的磁盘空间不足。 一个症状可能是[停滞的部署](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26878)。
+具有可写目录的磁盘上的磁盘空间不足。 一个症状可能是[停滞的部署](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26878)。
 
 要检查磁盘使用情况，请运行以下命令：
 
@@ -45,7 +45,7 @@ Adobe Commerce将所有日志文件存储在`var`目录中。 将创建新的日
 * 清理`var`目录。
 * 设置cron作业以跟踪`var`目录的大小并清理它。
 * 分配更多磁盘空间（如果您有未使用的空间）。 （有关如何检查您的空间限制的信息，请参阅以下部分。）
-   * 对于入门计划、所有环境和Pro计划集成环境，如果您有一些未使用的磁盘空间，则可以分配磁盘空间，如[管理磁盘空间：分配磁盘空间](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space)中所述。
+   * 对于入门计划、所有环境和Pro计划集成环境，如果您有一些未使用的磁盘空间，则可以分配磁盘空间，如[管理磁盘空间：分配磁盘空间](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space)中所述。
    * 对于Pro Plan暂存和生产环境，如果您有一些未使用的磁盘空间，请联系支持人员以分配更多磁盘空间。
 * 如果您已达到空间限制但仍遇到空间不足问题，请考虑购买更多磁盘空间，请联系您的Adobe客户团队以了解详细信息。
 

@@ -19,10 +19,10 @@ ht-degree: 0%
 
 +++**您的网站是否符合高级报告要求？**
 
-使用高级报告时，出现“404错误”页面。 您的网站是否符合[高级报告要求](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)？
+使用高级报告时，出现“404错误”页面。 您的网站是否符合[高级报告要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)？
 
 a.是 — 继续执行[步骤2](#step-2)。\
-b.否 — 按照[高级报告要求](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)中的步骤完成网站的高级报告要求。 然后，继续执行[步骤2](#step-2)。
+b.否 — 按照[高级报告要求](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)中的步骤完成网站的高级报告要求。 然后，继续执行[步骤2](#step-2)。
 
 +++
 
@@ -44,7 +44,7 @@ b.否 — 输出仅显示一种货币。 示例： `USD`。 是否曾经使用�
 
 +++**您是否使用拆分数据库解决方案？**
 
-您是否使用[拆分数据库解决方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)？
+您是否使用[拆分数据库解决方案](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)？
 
 a.是 — 对拆分数据库解决方案和清除缓存使用高级报告404错误中的修补程序&#x200B;**MDVA-26831**。 请等待24小时以使作业再次运行，然后重试。\
 b.否 — 继续执行[步骤4](#step-4)。
@@ -55,10 +55,10 @@ b.否 — 继续执行[步骤4](#step-4)。
 
 +++**是否启用了高级报告？**
 
-检查&#x200B;**管理员** > **商店** > **设置** > **配置** > **常规** > **高级报告**。 有关详细步骤，请查看[高级报告：启用高级报告](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)。
+检查&#x200B;**管理员** > **商店** > **设置** > **配置** > **常规** > **高级报告**。 有关详细步骤，请查看[高级报告：启用高级报告](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)。
 
 a.是 — 继续执行[步骤5](#step-5)。\
-b.否 — [启用高级报告](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)并保存，等待24小时让Adobe Commerce和高级报告同步。 检查您的数据现在是否加载。 如果它确实解决了这个问题。 如果未执行[步骤5](#step-5)。
+b.否 — [启用高级报告](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)并保存，等待24小时让Adobe Commerce和高级报告同步。 检查您的数据现在是否加载。 如果它确实解决了这个问题。 如果未执行[步骤5](#step-5)。
 
 +++
 
@@ -81,9 +81,9 @@ b.否 — 如果令牌值为NULL或数据库中没有记录，请继续执行[�
 
 a.是 — 执行以下步骤：1. 运行以下查询：\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\。 [在设置中禁用并启用高级报告模块](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，并[重新授权令牌](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
+2\。 [在设置中禁用并启用高级报告模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，并[重新授权令牌](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
 3\。 等待24小时，以便Adobe Commerce和高级报表进行同步。 如果仍无法在高级报表中看到数据，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
-b.否 — 如果查询未返回任何内容，请执行以下步骤：1. [在设置中禁用并启用高级报告模块](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，并[重新授权令牌](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
+b.否 — 如果查询未返回任何内容，请执行以下步骤：1. [在设置中禁用并启用高级报告模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，并[重新授权令牌](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
 2\。 等待24小时，以便Adobe Commerce和高级报表进行同步。 如果仍无法在高级报表中看到数据，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 +++
@@ -145,7 +145,7 @@ b.否 — 继续执行[步骤10](#step-10)。
 
 示例：在`cron_schedule`表中看到错误&#x200B;*“/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0文件无法删除*。 警告！unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0？lang=en)：没有此类文件或目录*
 
-a.是 — 在[中使用ACSD-50165修补程序无法删除该文件。 警告！unlink：管理员](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26887)中没有此类文件或目录错误，请等待24小时以使作业再次运行，然后重试。\
+a.是 — 在[中使用ACSD-50165修补程序无法删除该文件。 警告！unlink：管理员](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26887)中没有此类文件或目录错误，请等待24小时以使作业再次运行，然后重试。\
 b.否 — 继续执行[步骤11](#step-11)。
 
 +++
@@ -165,4 +165,4 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 
 ## 相关阅读
 
-[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
