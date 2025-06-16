@@ -3,7 +3,7 @@ title: Adobe Commerce P1通知热线
 description: 本文提供了Adobe Commerce的P1通知热线号码，在寻求报告P1事件时可以使用该号码，并解释了要提供哪些信息。
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: 8c0c128f2469086c44dcea0e9edc87f934578a69
+source-git-commit: bbff778a020a05953b82b452cdede7c46f20c990
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 ## P1通知热线电话策略
 
 * P1通知热线可用于报告P1级问题。 （请参阅上一节中的P1事件定义）。
-* [在调用Adobe Commerce P1通知热线之前提交支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hans#submit-ticket)。
+* [在调用Adobe Commerce P1通知热线之前提交支持票证](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)。
 * 调查、故障排除和通信将仅在支持服务单中进行。
 * 在调用之前，直接将您可能拥有的所有与问题相关的其他信息添加到票证。
 * 呼叫时，请确保您拥有票证编号。
@@ -32,7 +32,7 @@ ht-degree: 0%
 注：如果您因任何原因收到语音邮件，请留下您的信息：全名、公司、电话号码和票号。 线路受到监控，工程师将尽快回电。
 
 * US
-   * 免费电话：(+1) 800 497 0335 (第一个菜单，按6以访问Adobe Commerce P1热线)
+   * 免费电话：(+1) 800 497 0335(第一个菜单，按3显示Adobe Commerce P1热线)
 * EMEA
    * 英国：(+44) 800 169 0454(第一个菜单，按6可访问Adobe Commerce P1热线)
    * 丹麦：(+45) 80206017 (第一个菜单，按6可访问Adobe Commerce P1热线)
