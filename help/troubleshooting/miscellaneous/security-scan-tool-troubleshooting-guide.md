@@ -104,7 +104,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 提交支持票证时需要什么信息？
 
-请提供与为[安全扫描](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID提交的域名完全相同的域名。 请注意，对于本地Adobe Commerce，不需要Cloud Project_ID。
+请提供与为[安全扫描](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID提交的域名完全相同的域名。 请注意，对于本地Adobe Commerce，不需要Cloud Project_ID。
 
 ### 如果我从扫描工具扫描中删除存储区会发生什么情况？
 
