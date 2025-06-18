@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce为次要版本提供了质量修复，修复时间为从下一个次要软件版本正式发布之日起至少12个月。 我们在此期间提供质量修复的方式正在发生变化：
 
 * **以前的策略：**&#x200B;目前，对12个月EOS窗口内的上一行的质量修复是通过我们的季度修补程序版本提供的，因此季度修补程序是安全和质量的组合。
-* **新策略：**&#x200B;从2.4开始，作为最新的次发行版本行，以前支持的行(2.3)的发行修补程序将变为仅安全版本。 在发布次要（如2.4）和后续的新次要发布行之后，我们仍将在12个月的时间内提供上一受支持行的质量修复；但这些修复将通过[质量修补程序工具(QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)提供，并且仅侧重于严重问题。
+* **新策略：**&#x200B;从2.4开始，作为最新的次发行版本行，以前支持的行(2.3)的发行修补程序将变为仅安全版本。 在发布次要（如2.4）和后续的新次要发布行之后，我们仍将在12个月的时间内提供上一受支持行的质量修复；但这些修复将通过[质量修补程序工具(QPT)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)提供，并且仅侧重于严重问题。
 
 ## 此策略何时生效？
 
@@ -38,7 +38,7 @@ Adobe也将继续对最新发行版本发布仅限安全的版本。 [引入新�
 
 ## 什么是Quality Patches工具？
 
-请参阅我们的支持知识库中的[Quality Patches Tool released： a new tool to self-service quality patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)文章。
+请参阅我们的支持知识库中的[Quality Patches Tool released： a new tool to self-service quality patches](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)文章。
 
 ## 谁应考虑使用此新策略？
 
