@@ -4,9 +4,9 @@ description: 了解如何对Adobe Commerce和Magento Open Source的安全扫描�
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
+source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 问题：无法提交站点
 
-安全扫描工具要求您先证明对网站的所有权，然后才能将域添加到安全扫描工具。 可以通过使用HTML注释或`<meta>`标记向网站添加确认代码来执行此操作。 HTML注释应置于`<body>`标记内，例如，页脚部分。 `<meta>`标记应放置在页面的`<head>`部分中。
+安全扫描工具要求您先证明对网站的所有权，然后才能将域添加到安全扫描工具。 可以通过使用HTML注释或`<meta>`标记向您的网站添加确认代码来执行此操作。 HTML注释应放在`<body>`标记内，例如，页脚部分中。 `<meta>`标记应放置在页面的`<head>`部分中。
 
 当安全扫描工具无法确认商户的网站所有权时，商户会遇到一个常见问题。
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ## 问题：安全扫描工具生成的空报告
 
-您从安全扫描工具获取了空的扫描报告，或者获取了仅包含一个错误的报告，如&#x200B;*安全工具无法访问基本URL*，或者在提供的URL *上找不到* Magento安装。
+您从安全扫描工具获取了空的扫描报告，或者获得的报告只包含一个错误，如&#x200B;*安全工具无法访问基本URL*，或者在提供的URL *上找不到* Magento安装。
 
 ### 解决方案
 
-1. 检查52.87.98.44 、 34.196.167.176和3.218.25.102 IP是否在80和443端口处未被阻止。
+1. 检查52.87.98.44、34.196.167.176和3.218.25.102 IP是否未在80和443端口处被阻止。
 1. 检查提交的重定向URL（例如，`https://mystore.com`重定向到`https://www.mystore.com`或反之，或者重定向到其他域名）。
 1. 调查WAF/Web服务器访问日志中有关被拒绝/未完成的请求。 HTTP 403 `Forbidden`和HTTP 500 `Internal server error`是导致生成空报表的常见服务器响应。 以下是阻止用户代理请求的确认代码示例：
 
@@ -57,7 +57,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 1. **通过**：安全扫描工具已扫描您更新的数据并批准更改。
 1. **未知**：安全扫描工具还没有域的相关数据；请等待下一个同步周期。
-1. **失败**：如果状态显示失败，则需要修复问题（启用2FA、更改管理员URL等） 并等待下一个同步周期。
+1. **失败**：如果状态显示失败，您需要修复问题（启用2FA、更改管理员URL等）并等待下一个同步周期。
 
 如果对实例进行更改后已过去24小时，并且这些更改未反映在安全扫描报告中，您可以[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 在提交票证时提供存储URL。
 
@@ -76,7 +76,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 1. 检查新创建的SSH帐户、文件系统更改等。
 1. 执行安全审查。
-1. 检查Adobe Commerce的版本并进行升级，尤其是当它仍在运行不再受支持的Magento1时。
+1. 查看Adobe Commerce版本并进行升级，尤其是当它仍在运行不再受支持的Magento 1时。
 1. 如果问题仍然存在，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)并提供商店URL。
 
 ## 问题：危害注入失败
@@ -104,8 +104,8 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 提交支持票证时需要什么信息？
 
-请确保提供域名。
+请提供与为[安全扫描](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID提交的域名完全相同的域名。 请注意，对于本地Adobe Commerce，不需要Cloud Project_ID。
 
 ### 如果我从扫描工具扫描中删除存储区会发生什么情况？
 
-如果删除存储提交，则将删除所有相关数据，包括扫描报告。 此操作不可逆。 删除商店域后提交该域会创建一个新的提交。
+如果删除存储提交，则将删除所有相关数据，包括扫描报告。 此操作不可逆。 删除商店域后提交商店域会创建“新建”提交。
