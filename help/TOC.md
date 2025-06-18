@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4f4d516ab4250249928c676d9451a1efe041c207
+source-git-commit: 2ed731574bb25c31d0fcb800fcf8f98b85ff0bc2
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3459'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,6 @@ ht-degree: 0%
       * [修订的Google修补程序所有Adobe Commerce版本上的访问丢失](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
       * [修复数据未在 [!DNL Commerce Data Exporter] 源中更新，并且 [!DNL cron] 日志中不存在更改日志表的错误](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
-      * [如何检查 [!DNL cron] 被禁用的原因](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [错误 [!DNL opensearch] 搜索引擎不存在。 回退到 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [电子邮件表明导出存储几乎已满](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [索引失效，“indexer_reindex_all_invalid”会持续运行](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
@@ -165,7 +164,6 @@ ht-degree: 0%
       * [访问storefront或Commerce管理员时出现空白页面或重定向循环错误](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Adobe Commerce 2.4.1顶点地址验证消息地址更新](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)
       * [Extension Manager在Adobe Commerce 2.3.x中不显示扩展](/help/troubleshooting/miscellaneous/extension-manager-shows-no-extensions-in-magento-commerce-2-3-x.md)
-      * [应用修补程序以继续将DHL作为运输运营商](/help/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.md)
       * [尝试登录Commerce Admin时的登录重定向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [解决加密密钥问题](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [“更新程序应用程序不可用”错误](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
@@ -195,7 +193,6 @@ ht-degree: 0%
       * [安全扫描工具报告为空白](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
       * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
       * [无法访问最新的Adobe Commerce预发行版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
-      * [管理员密码以纯文本形式保存到操作日志](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
       * [索引被另一个进程锁定](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
       * [诊断数据差异](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
       * [未收到管理员2FA电子邮件通知](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
@@ -206,7 +203,6 @@ ht-degree: 0%
       * [在云基础架构上的Adobe Commerce上启动阻止程序](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [PHP设置错误](/help/troubleshooting/miscellaneous/php-settings-errors.md)
       * [Redis问题延迟Commerce管理员登录或签出](/help/troubleshooting/miscellaneous/redis-issue-delay-magento-admin-login-or-checkout.md)
-      * [升级到Adobe Commerce 2.4.4时，出现编辑器插件问题](/help/troubleshooting/miscellaneous/adobe-commerce-244-update-composer.md)
       * [PHP mcrypt扩展未正确安装](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知问题： dotdigital login](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron作业卡在“正在运行”状态](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
@@ -214,7 +210,6 @@ ht-degree: 0%
       * [禁用模块后出现问题](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [卸载非正则表达式重定向到Fastly而不是Nginx（路由）](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [Adobe Commerce 2.4.0已知问题：创建新订单按钮缺失](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
-      * [访问Adobe Commerce上的站点范围分析工具时出现403错误](/help/troubleshooting/miscellaneous/403-errors-when-accessing-site-wide-analysis-tool-on-magento.md)
       * [适用于Adobe Commerce的高级报表疑难解答程序](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [常见PHP致命错误和解决方案](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
       * [在Adobe Commerce上更新编辑器失败：参数类型不兼容](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
@@ -304,15 +299,12 @@ ht-degree: 0%
       * [集成环境中的性能不佳](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * 部署 {#deployment}
       * [部署失败：Elasticsearch版本与Adobe Commerce版本不兼容](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
-      * [部署失败：无法应用MDVA-43395修补程序](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
-      * [启用早期alpha包模块时出现部署错误](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)
       * [部署时出现“不支持当前版本的RDBMS”错误](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
       * [部署失败Fastly模块不兼容的Adobe Commerce版本](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
       * [部署错误： SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [与帐户权限和访问密钥相关的部署问题](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
       * [Adobe Commerce部署疑难解答程序](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [升级到支持PHP 8.1的版本时，在部署过程中出错](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
-      * [部署失败，并显示“构建项目时出错：构建挂接失败，状态代码为1”](/help/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.md)
       * [部署错误：“下载时发生错误7 ...端口443：连接被拒绝”](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [提交不正确的文件时出现部署错误](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [未找到修补程序的部署错误](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
