@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 51f693c29781029adc0f3d6214d7f784b873998b
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '3449'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 0%
       * [云上的Adobe Commerce上出现MySQL Server已消失&#x200B;错误](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
       * [云基础架构上的Adobe Commerce上的MySQL磁盘空间不足](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)
       * [Adobe Commerce上的数据库存储疑难解答](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
-      * [MySQL表太大](/help/troubleshooting/database/mysql-tables-are-too-large.md)
       * [与Adobe Commerce上max_allowed_packet相关的数据库错误](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
       * [Adobe Commerce数据库数值超出范围， [!DNL INT] 到 [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
       * [带有MariaDB 10.6的Adobe Commerce Cloud 2.4.6上的只读副本问题](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
@@ -56,9 +55,7 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0：Braintree不在多个地址中签出](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
       * [2.3.4 PayPal问题修补程序](/help/troubleshooting/payments/2-3-4-paypal-issue-hotfix.md)
       * [Adobe Commerce 2.4.1：PayPal-Braintree访客结帐时出现错误消息](/help/troubleshooting/payments/magento-2-4-1-wrong-message-on-paypal-via-braintree-guest-checkout.md)
-      * [未验证PayPal沙盒帐户](/help/troubleshooting/payments/payservices-paypal-acct.md)
       * [使用Authorize.net Sandbox帐户下订单时出错（服务器上出现错误）](/help/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server.md)
-      * [延迟支付服务报表数据](/help/troubleshooting/payments/payservices-report-info-delayed.md)
       * [使用Authorize.net付款方式时结账卡住](/help/troubleshooting/payments/checkout-is-stuck-when-authorize-net-payment-method-is-used.md)
       * [Adobe Commerce 2.4.1已知问题：使用PayPal Braintree结帐时弹出错误](/help/troubleshooting/payments/magento-2-4-1-known-issue-error-popping-up-on-checkout-with-paypal-braintree.md)
       * [Adobe Commerce 2.4.0 Braintree虚拟终端页面已损坏](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
@@ -70,14 +67,11 @@ ht-degree: 0%
       * [PayPal Payflow主动分卡活动](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
       * [Adobe Commerce上的PayPal故障排除](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
       * [Adobe Commerce 2.4.0、2.4.1：启用Braintree Venmo部分发票](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
-      * [在沙盒环境中信用卡付款失败](/help/troubleshooting/payments/payservices-cc-sandbox-failure.md)
       * [Adobe Commerce 2.4.2 B2B：折扣仍按支付方法更改](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
       * [Adobe Commerce 2.4.2：Braintree Venmo付款不起作用](/help/troubleshooting/payments/magento-2-4-2-braintree-venmo-payment-does-not-work.md)
       * [使用多个地址结账时未显示支付方式](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
       * [欧盟客户无法完成支付](/help/troubleshooting/payments/eu-customers-cannot-complete-payments.md)
-      * [PayPal网关已拒绝请求 — 重复发票问题](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)
       * [Adobe Commerce 2.4.0已知问题： Klarna现场消息传递空白页](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
-      * [付款服务安装疑难解答](/help/troubleshooting/payments/payservices-install.md)
    * 店面 {#storefront}
       * [Adobe Commerce 2.4.0已知问题：订单显示错误](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
       * [Adobe Commerce内部部署2.4.2：产品图像缺失](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
@@ -96,7 +90,6 @@ ht-degree: 0%
    * 安装和升级 {#installation-and-upgrade}
       * [升级到Adobe Commerce版本2.4.5后出现[!UICONTROL Recommendations] [!DNL JS] 错误](/help/troubleshooting/installation-and-upgrade/recommendations-js-errors-after-upgrade-to-adobe-commerce-version-2-4-5.md)
       * [在Adobe Commerce 2.4.6-p1内部部署上安装[!DNL B2B] 1.4.0失败](/help/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises.md)
-      * [在2.4.6升级之前减少过期的“oauth_tokens”](/help/troubleshooting/installation-and-upgrade/reduce-expired-oauth-tokens-before-2-4-6-upgrade.md)
       * [无法使用nginx进行安装](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
       * [升级到Adobe Commerce版本2.3.4-p1或2.3.5期间出现愿望清单错误](/help/troubleshooting/installation-and-upgrade/wishlist-error-during-upgrade-to-magento-versions-2-3-4-p1-or-2-3-5.md)
       * [Adobe Commerce 2.4.0安装因存储缓存过期而失败](/help/troubleshooting/installation-and-upgrade/magento-2-4-0-known-issue-2-4-0-installation-fails-with-outdated-stores-cache.md)
@@ -111,7 +104,6 @@ ht-degree: 0%
       * [安装停止率约为70%](/help/troubleshooting/installation-and-upgrade/installation-stops-at-about-70.md)
       * [Adobe Commerce升级2.4.3、2.3.7-p1 PHP致命错误修补程序](/help/troubleshooting/installation-and-upgrade/hotfix-unsupported-php8-command-in-adobe-commerce-2-4-3.md)
       * [Adobe Commerce 2.4.0：安装B2B 1.2.0时出现异常](/help/troubleshooting/installation-and-upgrade/magento-2-4-0-known-issue-exception-during-b2b-1-2-0-install.md)
-      * [升级兼容性工具错误疑难解答](/help/troubleshooting/installation-and-upgrade/uct-segmentation-fault-error.md)
       * [安装或升级期间出现内存不足错误](/help/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade.md)
       * [由于缺少REGEXP_LIKE函数，升级到B2B 1.5.2失败，并出现SQL语法错误](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
       * [B2B 1.5.2更新后Magento_Company模块升级中的性能问题](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
@@ -132,8 +124,6 @@ ht-degree: 0%
       * [配置文件缺失或更改](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL错误60： SSL证书已过期](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
       * [Adobe Commerce中的“产品推荐”模块疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
-      * [云基础架构上的Adobe Commerce中的磁盘空间不足时安全删除文件](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
-      * [robots.txt未更新或显示默认设置](/help/troubleshooting/miscellaneous/robots-txt-not-updated-or-displaying-default-settings.md)
       * [Adobe Commerce的/tmp mount full故障诊断](/help/troubleshooting/miscellaneous/tmp-mount-full.md)
       * [未知模块Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
       * [Cron就绪检查问题](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
@@ -180,7 +170,6 @@ ht-degree: 0%
       * [未保存对类别所做的更改](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
       * [Adobe Commerce 2.4.0已知问题 — 出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [适用于Adobe Commerce的Magento Order Management System (OMS)处理错误](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
-      * [由于不可缓存的页面导致性能降低](/help/troubleshooting/miscellaneous/slow-performance-due-to-non-cacheable-pages.md)
       * [从2.2.X升级到2.3.X后，不会加载缓存的图像](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
       * [保存具有1k+个产品的类别时出现504网关超时错误](/help/troubleshooting/miscellaneous/504-gateway-time-out-error-when-saving-a-category-with-1k-products.md)
       * [将站点添加到安全扫描时出现错误消息](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
@@ -217,11 +206,8 @@ ht-degree: 0%
       * [手动将订单导出到MOM失败。 “导出顺序”按钮返回HTTP 404错误](/help/troubleshooting/miscellaneous/manual-order-export-to-mom-fails-the-export-order-button-returns-http-404-error.md)
       * [PWA Studio：浏览器不信任生成的SSL证书](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [由于必须更改默认清漆设置而导致503错误故障诊断](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
-      * [访问新的集成环境时重定向到父环境](/help/troubleshooting/miscellaneous/redirect-to-parent-environment-when-accessing-new-integration-environment.md)
-      * [robots.txt在云基础架构2.3.x中显示404错误Adobe Commerce](/help/troubleshooting/miscellaneous/robots-txt-gives-404-error-magento-commerce-cloud-2-3-x.md)
       * [受限的管理员访问权限导致性能问题](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Cron任务从其他组锁定任务](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-      * [Commerce管理员中的已锁定（灰显）字段](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
       * [无法使用Commerce管理更改搜索引擎（搜索引擎菜单不可访问）](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
       * [安装xdebug最大函数嵌套级别错误](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [无法保存实体Adobe Commerce后端](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)
@@ -279,7 +265,6 @@ ht-degree: 0%
       * [清除Commerce Admin中的缓存时出错](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1：保存dotdigital Page Builder表单时显示空页面](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce cloud：通过终止消息终止重新索引](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
-      * [升级到10.0版DHL模式以继续提供DHL装运](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
       * [Adobe Commerce状态列缺少导出的产品CSV文件](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
       * [无法在Adobe Commerce Cloud帐户上访问New Relic](/help/troubleshooting/miscellaneous/cannot-access-new-relic-for-adobe-commerce-cloud-account.md)
       * [Adobe Commerce 2.4.4中缺少模块](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
@@ -308,7 +293,6 @@ ht-degree: 0%
       * [提交不正确的文件时出现部署错误](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [未找到修补程序的部署错误](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
       * [部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
-      * [在env：COMPOSER_AUTH或auth.json中，部署失败并显示正确的访问密钥](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知问题 {#known-issues-patches-attached}
       * [Adobe Commerce 2.4.7-p4 [!DNL HIPAA] 1.2.0兼容包修补程序](/help/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4.md)
       * [可用于Adobe Commerce的安全更新 — [!DNL APSB25-08]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)

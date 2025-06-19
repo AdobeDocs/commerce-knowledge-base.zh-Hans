@@ -4,7 +4,7 @@ description: 本文提供了避免在应用实体更新时出现延迟或中断�
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 原因
 
-如果索引器被[配置为按计划](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)更新，则问题可能是由一个或多个更改日志过大或未设置MySQL触发器的表导致的。
+如果索引器被[配置为按计划](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)更新，则问题可能是由一个或多个更改日志过大或未设置MySQL触发器的表导致的。
 
 ### 超大的更改日志表
 
@@ -71,7 +71,7 @@ select * from cron_schedule where job_code = "indexer_update_all_views" and stat
 
 >[!WARNING]
 >
->在切换索引器模式之前，我们建议将您的网站置于[维护](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans#maintenance-mode)模式和[禁用cron作业](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hans#disable-cron-jobs)以避免数据库锁定。
+>在切换索引器模式之前，我们建议将您的网站置于[维护](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)模式和[禁用cron作业](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs)以避免数据库锁定。
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
@@ -83,6 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## 相关阅读
 
-* [[!DNL MySQL] 表在我们的支持知识库中太大](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large)
+* [[!DNL MySQL] 表在我们的支持知识库中太大](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * 在我们的开发人员文档中[索引： [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

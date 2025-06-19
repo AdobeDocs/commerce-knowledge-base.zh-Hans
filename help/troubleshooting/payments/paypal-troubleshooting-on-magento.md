@@ -4,9 +4,9 @@ description: 本文为通过PayPal处理支付相关问题提供了解决方案�
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ PayPal付款的大多数问题都有类似的症状：在指定付款卡详细�
 
 请参阅以下文章：
 
-* [PayPal网关拒绝请求 — 我们的支持知识库中存在重复发票问题](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)。
+* [PayPal网关拒绝请求 — 我们的支持知识库中存在重复发票问题](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 * [更改我们支持知识库中的新商店实体](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)的增量ID。
 
 ## 联系支持人员以收集高级付款日志

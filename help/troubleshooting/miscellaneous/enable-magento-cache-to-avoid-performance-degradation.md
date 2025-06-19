@@ -4,9 +4,9 @@ description: 本文介绍如何解决因禁用某些Adobe Commerce缓存类型�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)并运行以下命令：
+1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)并运行以下命令：
 
    ```bash
    php bin/magento cache:status
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    这将显示每种缓存类型的状态（禁用时为“0”，启用时为“1”）。 或者，您可以在`app/etc/env.php`文件中获取此信息。
 
-1. 调查已禁用的高速缓存类型。 所有Adobe Commerce缓存类型都应启用，除非您收到了Adobe的替代指导。 第三方扩展不得要求禁用Adobe Commerce缓存。
+1. 调查已禁用的高速缓存类型。 所有Adobe Commerce缓存类型都应启用，除非您从Adobe收到了其他指导。 第三方扩展不得要求禁用Adobe Commerce缓存。
 1. 如果调查确认某些缓存类型被错误地禁用，请通过为每个缓存类型运行以下命令来启用它们： `php bin/magento cache:enable <your_disabled_cache_type>`
 
 如果存在可以或应该禁用特定Adobe Commerce缓存类型的顾虑和/或问题，请[联系Adobe Commerce支持](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以寻求建议。
@@ -48,11 +48,11 @@ ht-degree: 0%
 我们开发人员文档中的Adobe Commerce缓存文档：
 
 * [Adobe Commerce缓存概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [管理缓存](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [管理缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 出现性能问题的其他可能原因以及解决方案：
 
 * [禁用Adobe Commerce横幅输出以提高网站性能](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md)
-* [MySQL表太大](/help/troubleshooting/database/mysql-tables-are-too-large.md)
+* [MySQL表太大](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [性能缓慢、运行速度缓慢且运行时间较长](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [受限的管理员访问权限导致性能问题](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)

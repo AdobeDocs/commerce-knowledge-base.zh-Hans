@@ -4,9 +4,9 @@ description: 对于Adobe Commerce上遇到数据库问题的客户，本文是�
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 IUse% > 90%吗？
 
-a.是 — 这是由于文件过多所致。 查看在[磁盘空间不足时安全删除文件，云基础架构上的Adobe Commerce ](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)中安全删除文件的步骤。 完成这些步骤后，请继续执行[步骤2](#step-2)。 如果要请求更多空间，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
+a.是 — 这是由于文件过多所致。 查看在[磁盘空间不足时安全删除文件，云基础架构上的Adobe Commerce ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889)中安全删除文件的步骤。 完成这些步骤后，请继续执行[步骤2](#step-2)。 如果要请求更多空间，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 检查空间。 在CLI/终端中运行`df -h | grep mysql`，然后运行`df -h | grep tmp`，以检查`/tmp`和`/data/mysql`目录中的磁盘空间使用情况。 继续执行[步骤3](#step-3)。
 
 +++
@@ -93,4 +93,4 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 
 ## 相关阅读
 
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
