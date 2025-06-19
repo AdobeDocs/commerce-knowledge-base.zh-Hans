@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+source-git-commit: dc2149f886d46826610f2f74b48ef9060a4ff376
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -76,14 +76,11 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0已知问题：订单显示错误](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
       * [Adobe Commerce内部部署2.4.2：产品图像缺失](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
       * [安装后，不加载图像和样式表；只显示文本，不加载图形](/help/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.md)
-      * [无法将“shipping”另存为URL键](/help/troubleshooting/storefront/storefront-unable-to-enter-shipping-as-a-url-key.md)
       * [店面未显示产品](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
       * [Adobe Commerce 2.4.0问题：storefront原始消息数据显示](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
       * [在Adobe Commerce 2.3.5中结账时出现商店信用问题](/help/troubleshooting/storefront/store-credit-issue-during-checkout-in-magento-2-3-5.md)
       * [部署后不显示存储映像](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
       * [Adobe Commerce 2.3.5中的产品比较已知问题](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
-      * [店面未加载顶部导航面板](/help/troubleshooting/storefront/top-navigation-panel-does-not-load-on-storefront.md)
-      * [尽管具有“产品编辑”图像角色，仍不显示产品图像](/help/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.md)
       * [Adobe Commerce 2.4.0：在多送货结帐中删除奖励点时出现404错误](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
       * [客户在Adobe Commerce店面被注销或丢失购物车内容](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
       * [无法将联系人另存为URL键](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
@@ -108,7 +105,6 @@ ht-degree: 0%
       * [由于缺少REGEXP_LIKE函数，升级到B2B 1.5.2失败，并出现SQL语法错误](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
       * [B2B 1.5.2更新后Magento_Company模块升级中的性能问题](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
    * 网站关闭或无响应 {#site-down-or-unresponsive}
-      * [由于源遮蔽，无法访问站点](/help/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking.md)
       * [在Web浏览器中访问Adobe Commerce时出现503错误](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
       * [由于启用了维护模式，站点加载失败](/help/troubleshooting/site-down-or-unresponsive/site-fails-to-load-due-to-maintenance-mode-left-enabled.md)
       * [站点关闭疑难解答示意图](/help/troubleshooting/site-down-or-unresponsive/site-down-troubleshooting-diagram.md)
@@ -120,7 +116,6 @@ ht-degree: 0%
       * [修复数据未在 [!DNL Commerce Data Exporter] 源中更新，并且 [!DNL cron] 日志中不存在更改日志表的错误](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [错误 [!DNL opensearch] 搜索引擎不存在。 回退到 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [电子邮件表明导出存储几乎已满](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-      * [索引失效，“indexer_reindex_all_invalid”会持续运行](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
       * [配置文件缺失或更改](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL错误60： SSL证书已过期](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
       * [Adobe Commerce中的“产品推荐”模块疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
@@ -148,7 +143,6 @@ ht-degree: 0%
       * [解决CSV文件上传的UTF-8错误](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
       * [使用Adobe Commerce上的New Relic排除性能故障](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
       * [Adobe Commerce 2.3.5中的批量操作产品计数已知问题](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
-      * [禁用Adobe Commerce横幅输出以提高网站性能](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md)
       * [检查来自CLI的DDoS攻击](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
       * [访问storefront或Commerce管理员时出现空白页面或重定向循环错误](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Adobe Commerce 2.4.1顶点地址验证消息地址更新](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)
@@ -160,7 +154,6 @@ ht-degree: 0%
       * [安装Inventory management后，库存状态不正确](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Adobe Commerce 2.3.5已知问题：虚拟产品多发运订单](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
       * [使用数据导出来查明差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-      * [用于防御依赖项混淆攻击的编辑器插件](/help/troubleshooting/miscellaneous/composer-plugin-against-dependency-confusion-attacks.md)
       * [不显示图库图像，Adobe Commerce和Magento Open Source 2.3.7-p2](/help/troubleshooting/miscellaneous/adobe-commerce-and-magento-open-source-2-3-7-p2-stock-images-not-showing.md)
       * [在Adobe Commerce中启用图像优化时出错](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md)
       * [数据迁移工具故障排除](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
@@ -208,7 +201,6 @@ ht-degree: 0%
       * [由于必须更改默认清漆设置而导致503错误故障诊断](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
       * [受限的管理员访问权限导致性能问题](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Cron任务从其他组锁定任务](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-      * [无法使用Commerce管理更改搜索引擎（搜索引擎菜单不可访问）](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
       * [安装xdebug最大函数嵌套级别错误](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [无法保存实体Adobe Commerce后端](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)
       * [在浏览器中访问Adobe Commerce时，出现PHP版本错误或404错误](/help/troubleshooting/miscellaneous/php-version-error-or-404-error-when-accessing-magento-in-browser.md)
