@@ -36,7 +36,7 @@ ht-degree: 0%
 
 有三种解决方案：
 
-* [升级到版本2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)。
+* [升级到版本2.3.4](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)。
 * 确保减少请求（缓存请求或迁移到客户的私有内容）。
 * 减少请求数。
 
@@ -46,11 +46,11 @@ ht-degree: 0%
 
 <u>减少请求数</u>
 
-* 禁用永久购物车，因为它可能会增加`customer/section/load`请求数。 按照开发人员文档中的[永久购物车路径](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/config-reference-general)中的步骤查看是否启用了永久购物车。
+* 禁用永久购物车，因为它可能会增加`customer/section/load`请求数。 按照开发人员文档中的[永久购物车路径](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/paths/config-reference-general)中的步骤查看是否启用了永久购物车。
 * 如果您需要在`sections.xml`中重新加载内容或使内容无效，请按照开发人员文档中的[私有内容：使私有内容无效](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content)中的步骤操作。 请确保未在自定义设置中直接使用`customerData.reload()`方法。
 * 查看同一页面上的其他POST AJAX请求。 在Google Chrome Chrome浏览器中打开Google开发人员工具。 单击“**网络**”选项卡，然后单击“**XHR**”选项卡，将出现来自特定页面的所有AJAX请求的列表。 然后，单击每个请求，在字段中，请求方法应为GET请求。 注意：以Google Chrome为例，也可以在其他浏览器中执行此操作。
 * 检查特定AJAX请求的Google标签管理器(GTM)功能。 用户可以删除此AJAX并使用私有功能重构其自定义设置，以减少向服务器发出的请求总数。
-* 检查是否已启用但未使用Adobe Commerce横幅。 您可能需要[禁用Adobe Commerce横幅输出以提高网站性能](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)。
+* 检查是否已启用但未使用Adobe Commerce横幅。 您可能需要[禁用Adobe Commerce横幅输出以提高网站性能](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26909)。
 
 ### 相关阅读
 
