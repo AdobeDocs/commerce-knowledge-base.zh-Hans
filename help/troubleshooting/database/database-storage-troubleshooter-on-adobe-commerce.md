@@ -30,7 +30,7 @@ ht-degree: 0%
 
 IUse% > 90%吗？
 
-a.是 — 这是由于文件过多所致。 查看在[磁盘空间不足时安全删除文件，云基础架构上的Adobe Commerce ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889)中安全删除文件的步骤。 完成这些步骤后，请继续执行[步骤2](#step-2)。 如果要请求更多空间，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
+a.是 — 这是由于文件过多所致。 查看在[磁盘空间不足时安全删除文件，云基础架构上的Adobe Commerce ](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26889)中安全删除文件的步骤。 完成这些步骤后，请继续执行[步骤2](#step-2)。 如果要请求更多空间，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 检查空间。 在CLI/终端中运行`df -h | grep mysql`，然后运行`df -h | grep tmp`，以检查`/tmp`和`/data/mysql`目录中的磁盘空间使用情况。 继续执行[步骤3](#step-3)。
 
 +++
@@ -93,4 +93,4 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 
 ## 相关阅读
 
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -41,7 +41,7 @@ PayPal付款的大多数问题都有类似的症状：在指定付款卡详细�
 
 请参阅以下文章：
 
-* [PayPal网关拒绝请求 — 我们的支持知识库中存在重复发票问题](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
+* [PayPal网关拒绝请求 — 我们的支持知识库中存在重复发票问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 * [更改我们支持知识库中的新商店实体](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)的增量ID。
 
 ## 联系支持人员以收集高级付款日志
