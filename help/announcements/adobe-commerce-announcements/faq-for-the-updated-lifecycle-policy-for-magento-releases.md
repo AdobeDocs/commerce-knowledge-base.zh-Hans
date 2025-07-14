@@ -4,7 +4,7 @@ description: Adobe Commerce为次要版本提供了质量修复，修复时间�
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin
-source-git-commit: 2898089896cc2cdc88110a999564669341a52136
+source-git-commit: f11596ea844fead42141c7e1fea586b2a11f757a
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce为次要版本提供了质量修复，修复时间为从下一个次要软件版本正式发布之日起至少12个月。 我们在此期间提供质量修复的方式正在发生变化：
 
 * **以前的策略：**&#x200B;目前，对12个月EOS窗口内的上一行的质量修复是通过我们的季度修补程序版本提供的，因此季度修补程序是安全和质量的组合。
-* **新策略：**&#x200B;从2.4开始，作为最新的次发行版本行，以前支持的行(2.3)的发行修补程序将变为仅安全版本。 在发布次要（如2.4）和后续的新次要发布行之后，我们仍将在12个月的时间内提供上一受支持行的质量修复；但这些修复将通过[质量修补程序工具(QPT)](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)提供，并且仅侧重于严重问题。
+* **新策略：**&#x200B;从2.4开始，作为最新的次发行版本行，以前支持的行(2.3)的发行修补程序将变为仅安全版本。 在发布次要（如2.4）和后续的新次要发布行之后，我们仍将在12个月的时间内提供上一受支持行的质量修复；但这些修复将通过[质量修补程序工具(QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)提供，并且仅侧重于严重问题。
 
 ## 此策略何时生效？
 
@@ -26,7 +26,7 @@ Adobe Commerce 2.3.6计划于2020年10月15日发布，并计划作为Adobe Comm
 
 >[!NOTE]
 >
->我们唯一要发布2.3完整版本就是我们需要保持与技术栈栈(如PHP或Elasticsearch)的合规性。 此更新将于2021年第2季度进行，届时必须对PHP 7.4进行更新，我们会将行增加到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行[&#128279;](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)的DevBlog帖子PHP 7.4支持。
+>我们唯一要发布2.3完整版本就是我们需要保持与技术栈栈(如PHP或Elasticsearch)的合规性。 此更新将于2021年第2季度进行，届时必须对PHP 7.4进行更新，我们会将行增加到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行[的DevBlog帖子](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)PHP 7.4支持。
 
 ## 什么是仅安全发行版？
 
@@ -38,7 +38,7 @@ Adobe也将继续对最新发行版本发布仅限安全的版本。 [引入新�
 
 ## 什么是Quality Patches工具？
 
-请参阅我们的支持知识库中的[Quality Patches Tool released： a new tool to self-service quality patches](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)文章。
+请参阅我们的支持知识库中的[Quality Patches Tool released： a new tool to self-service quality patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)文章。
 
 ## 谁应考虑使用此新策略？
 
@@ -50,7 +50,7 @@ Adobe也将继续对最新发行版本发布仅限安全的版本。 [引入新�
 
 ## 如何获得非最新版本的受支持次要版本的质量修复？
 
-将通过[Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patche)进行修复。
+将通过[Quality Patches Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)进行修复。
 
 ## 我如何获得最新产品线的质量修复？
 
@@ -86,4 +86,4 @@ Adobe也将继续对最新发行版本发布仅限安全的版本。 [引入新�
 
 在发布线的生命周期中，将更新各种技术栈栈(如PHP或Elasticsearch)，需要升级才能保持合规性。 我们会尽可能多地通知商家，这些商品即将推出。
 
-注意：在2021年第2季度，我们将需要更新2.3.x系列上的PHP和Redis以保持合规性。 这将导致该行递增到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行[&#128279;](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)的DevBlog帖子PHP 7.4支持。
+注意：在2021年第2季度，我们将需要更新2.3.x系列上的PHP和Redis以保持合规性。 这将导致该行递增到2.3.7。有关详细信息，请参阅对Adobe Commerce 2.3.x版本行[的DevBlog帖子](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946)PHP 7.4支持。
