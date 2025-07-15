@@ -78,7 +78,7 @@ df -h
 
 为了使[!DNL MySQL]重回正轨（或防止其卡住），您可以立即执行一个步骤：通过刷新大表格释放一些空间。
 
-但长期解决方案需要分配更多空间并遵循[数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)，包括启用[订单/发票/装运存档](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+但长期解决方案需要分配更多空间并遵循[数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)，包括启用[订单/发票/装运存档](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 下面是有关快速解决方案和长期解决方案的详细信息。
 
@@ -124,7 +124,7 @@ Size Used Avail Use% Mounted on·
 
 >[!WARNING]
 >
->我们强烈建议在执行任何操作之前创建数据库备份，并在高站点负载期间避免执行这些操作。 请参阅我们的开发人员文档中的[转储数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
+>我们强烈建议在执行任何操作之前创建数据库备份，并在高站点负载期间避免执行这些操作。 请参阅我们的开发人员文档中的[转储数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
 
 检查是否存在大型表格，并考虑是否可以刷新其中的任何表格。 在主（源）节点上执行此操作。
 
@@ -132,7 +132,7 @@ Size Used Avail Use% Mounted on·
 
 如果没有大型报表表，请考虑刷新`_index`表，只是为了使Adobe Commerce应用程序返回正轨。 `index_price`个表将是最佳候选。 例如，`catalog_category_product_index_storeX`表，其中X的值可以为“1”到最大存储计数。 请注意，您需要重新索引以恢复这些表中的数据，在大目录的情况下，此重新索引可能需要花费大量时间。
 
-刷新后，请等待wsrep同步完成。 您现在可以创建备份，并采取更多重要步骤来增加空间，例如分配/购买更多空间，以及启用[订单/发票/装运存档](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+刷新后，请等待wsrep同步完成。 您现在可以创建备份，并采取更多重要步骤来增加空间，例如分配/购买更多空间，以及启用[订单/发票/装运存档](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 ### 检查二进制日志记录设置
 
@@ -148,7 +148,7 @@ Size Used Avail Use% Mounted on·
    mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
    ```
 
-   有关详细步骤，请参阅[针对Adobe Commerce数据库](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)连接并运行查询。
+   有关详细步骤，请参阅[针对Adobe Commerce数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)连接并运行查询。
 
 1. 检查未使用的空间：
 
@@ -167,7 +167,7 @@ Size Used Avail Use% Mounted on·
    检查输出以查看是否有已分配但未使用的内存。 当从表中删除了数据，但内存仍分配给该表时，会发生这种情况。
 
 
-1. 将您的网站置于维护模式，并停止cron作业，以便数据库中不会发生交互。 有关步骤，请参阅[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)和[禁用cron作业](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+1. 将您的网站置于维护模式，并停止cron作业，以便数据库中不会发生交互。 有关步骤，请参阅[启用或禁用维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)和[禁用cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
 1. 使用以下命令重新创建表以回收该空间（例如使用上面列出的具有最未使用空间的表）：
 
    ```sql
@@ -182,7 +182,7 @@ Size Used Avail Use% Mounted on·
    ```
 
 
-1. 现在[禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1)和[启用cron作业](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+1. 现在[禁用维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1)和[启用cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
 
 
 ### 分配/购买更多空间
@@ -196,4 +196,4 @@ Size Used Avail Use% Mounted on·
 
 ## 相关阅读
 
-[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
