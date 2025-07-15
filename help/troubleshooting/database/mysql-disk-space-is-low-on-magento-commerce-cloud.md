@@ -1,19 +1,19 @@
 ---
-title: “[!DNL MySQL]磁盘空间在云基础架构上的Adobe Commerce上不足”
+title: 云基础架构上的Adobe Commerce上的[!DNL MySQL]磁盘空间不足
 description: 本文为您在云基础架构上的Adobe Commerce上遇到空间非常小或 [!DNL MySQL] 没有空间的情况提供了解决方案。 症状可能包括站点中断、客户无法将产品添加到购物车、无法连接到数据库、远程访问数据库、无法通过SSH连接到节点。 症状还包括Galera、环境同步、PHP、数据库和部署错误，如下所列。 单击[解决方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳转到解决方案部分。
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 80343c834563e7550569d225979edfa6a997bcfc
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
 
 # 云基础架构上的Adobe Commerce上的[!DNL MySQL]磁盘空间不足
 
-本文为您在云基础架构上的Adobe Commerce上遇到空间非常小或没有空间可供[!DNL MySQL]使用的问题提供了解决方案。 症状可能包括站点中断、客户无法将产品添加到购物车、无法连接到数据库、远程访问数据库、无法通过SSH连接到节点。 症状还包括Galera、环境同步、PHP、数据库和部署错误，如下所列。 单击[解决方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳转到解决方案部分。
+本文为您在云基础架构上的Adobe Commerce上遇到空间非常小或没有空间可供[!DNL MySQL]使用的问题提供了解决方案。 症状包括站点中断、客户无法将产品添加到购物车、无法连接到数据库、远程访问数据库、无法通过SSH连接到节点。 症状还包括Galera、环境同步、PHP、数据库和部署错误，如下所列。 单击[解决方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳转到解决方案部分。
 
 ## 受影响的产品和版本
 
@@ -78,7 +78,7 @@ df -h
 
 为了使[!DNL MySQL]重回正轨（或防止其卡住），您可以立即执行一个步骤：通过刷新大表格释放一些空间。
 
-但长期解决方案需要分配更多空间并遵循[数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)，包括启用[订单/发票/装运存档](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+但长期解决方案需要分配更多空间并遵循[数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)，包括启用[订单/发票/装运存档](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 下面是有关快速解决方案和长期解决方案的详细信息。
 
@@ -118,13 +118,13 @@ Size Used Avail Use% Mounted on·
 
 ### 检查大型`ibtmp1`文件
 
-检查每个节点`/data/mysql`上的大型`ibtmp1`文件：此文件是临时表的表空间。 如果存在生成临时表的错误查询，则它们包含在`ibtmp1`文件中。 仅当重新启动数据库时才会删除此文件。 如果它正在占用所有可用空间，则必须重新启动数据库。 如果存在错误的查询，则将重新创建它。
+检查每个节点`ibtmp1`上的大型`/data/mysql`文件：此文件是临时表的表空间。 如果存在生成临时表的错误查询，则它们包含在`ibtmp1`文件中。 仅当重新启动数据库时才会删除此文件。 如果它正在占用所有可用空间，则必须重新启动数据库。 如果存在错误的查询，则将重新创建它。
 
 ### 刷新大型表
 
 >[!WARNING]
 >
->我们强烈建议在执行任何操作之前创建数据库备份，并在高站点负载期间避免执行这些操作。 请参阅我们的开发人员文档中的[转储数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
+>我们强烈建议在执行任何操作之前创建数据库备份，并在高站点负载期间避免执行这些操作。 请参阅我们的开发人员文档中的[转储数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
 
 检查是否存在大型表格，并考虑是否可以刷新其中的任何表格。 在主（源）节点上执行此操作。
 
@@ -132,13 +132,58 @@ Size Used Avail Use% Mounted on·
 
 如果没有大型报表表，请考虑刷新`_index`表，只是为了使Adobe Commerce应用程序返回正轨。 `index_price`个表将是最佳候选。 例如，`catalog_category_product_index_storeX`表，其中X的值可以为“1”到最大存储计数。 请注意，您需要重新索引以恢复这些表中的数据，在大目录的情况下，此重新索引可能需要花费大量时间。
 
-刷新后，请等待wsrep同步完成。 您现在可以创建备份，并采取更多重要步骤来增加空间，例如分配/购买更多空间，以及启用[订单/发票/装运存档](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+刷新后，请等待wsrep同步完成。 您现在可以创建备份，并采取更多重要步骤来增加空间，例如分配/购买更多空间，以及启用[订单/发票/装运存档](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 ### 检查二进制日志记录设置
 
 检查您的[!DNL MySQL]服务器二进制日志记录设置： `log_bin`和`log_bin_index`。 如果启用这些设置，则日志文件可能会变得很大。 [创建支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，请求清除大型二进制日志文件。 此外，请求检查是否正确配置了二进制日志记录，以便定期清除日志并且不会占用太多空间。
 
 如果您无权访问[!DNL MySQL]服务器设置，请请求支持部门进行检查。
+
+### 回收未使用的已分配磁盘空间
+
+1. SSH到节点1并登录到MySQL：
+
+   ```sh
+   mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
+   ```
+
+   有关详细步骤，请参阅[针对Adobe Commerce数据库](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)连接并运行查询。
+
+1. 检查未使用的空间：
+
+   ```sql
+   SELECT table_name, round((data_length+index_length)/1048576,2) AS size_MB, round((data_free)/1048576,2) AS Allocated_but_unused FROM information_schema.tables WHERE data_free > 1048576*10 ORDER BY data_free DESC;
+   ```
+
+
+   示例输出：
+
+   | table_name | size_MB | 已分配_但未使用 |
+   |----------------------|----------|--------------------------|
+   | vertex_taxrequest | 28145.20 | 14943.00 |
+
+
+   检查输出以查看是否有已分配但未使用的内存。 当从表中删除了数据，但内存仍分配给该表时，会发生这种情况。
+
+
+1. 将您的网站置于维护模式，并停止cron作业，以便数据库中不会发生交互。 有关步骤，请参阅[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)和[禁用cron作业](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+1. 使用以下命令重新创建表以回收该空间（例如使用上面列出的具有最未使用空间的表）：
+
+   ```sql
+   ALTER TABLE vertex_taxrequest Engine = "INNODB";
+   ```
+
+1. 运行以下查询以检查列&#x200B;**[!UICONTROL Allocated_but_unused]**&#x200B;中显示高值的每个表的未分配空间。
+
+   ```sql
+   SELECT table_name, round((data_length+index_length)/1048576,2) as size_MB, round((data_free)/1048576,2) as Allocated_but_unused FROM information_schema.tables WHERE 1 AND data_free > 1048576*10 ORDER BY 
+   data_free DESC;
+   ```
+
+
+1. 现在[禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1)和[启用cron作业](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+
 
 ### 分配/购买更多空间
 
@@ -151,4 +196,4 @@ Size Used Avail Use% Mounted on·
 
 ## 相关阅读
 
-[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
