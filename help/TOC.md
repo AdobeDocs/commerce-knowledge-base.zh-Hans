@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9defec16bbe62e13320d20fcbd0b5e65e946d9f7
+source-git-commit: 86fcde85e7e751125c47f3bc3693b8155d1e972f
 workflow-type: tm+mt
-source-wordcount: '3257'
+source-wordcount: '3220'
 ht-degree: 0%
 
 ---
@@ -294,10 +294,6 @@ ht-degree: 0%
       * [加密密钥轮换疑难解答：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
       * [可用于Adobe Commerce的安全更新 — [!DNL APSB24-40]已修订为包括 [!DNL CVE-2024-34102]的隔离修补程序](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS]配送方式集成从 [!DNL SOAP] 迁移到 [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
-      * [[!DNL USPS] Ground Advantage配送方式支持AC-9182的修补程序](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
-      * [Adobe Commerce 2.4.3-p2 — 适用于CVE-2022-35698的2.4.5安全修补程序](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-      * [Adobe Commerce 2.4.4：无法创建部分发票](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
-      * [高级搜索未显示最相关的结果](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [在Admin中过滤订单时出错](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [如果未在允许国家/地区中选择任何内容，则用户无法将产品添加到购物车](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
       * [Adobe Commerce管理员URL位置已披露](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
@@ -313,7 +309,7 @@ ht-degree: 0%
       * [客户组名称、区段和促销规则信息通过 [!DNL GraphQL]公开](/help/troubleshooting/known-issues-patches-attached/hotfix-for-exposed-customer-group-segments-promo-rules-information.md)
       * [Adobe Commerce有安全更新 — APSB25-50](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-50.md)
    * Elasticsearch {#elasticsearch}
-      * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+      * [当搜索引擎设置为 [!DNL Elasticsearch7] 时回退到 [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce云基础架构2.3.1+升级后的Elasticsearch问题](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
       * [ElasticSuite跟踪索引导致Elasticsearch出现问题](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
       * [确保正确安装Elasticsearch](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)
