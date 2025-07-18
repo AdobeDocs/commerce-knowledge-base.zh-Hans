@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4d3f571c55feb4752037429b9708e71dcf2c571b
+source-git-commit: 2d9b1c0934e7f2646462a73a786e126ab29719b0
 workflow-type: tm+mt
-source-wordcount: '3164'
+source-wordcount: '3193'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
       * [Composer install命令覆盖.gitignore文件、Adobe Commerce](/help/troubleshooting/installation-and-upgrade/custom-gitignore-file-overridden.md)
       * [安装过程中，PHP日期警告](/help/troubleshooting/installation-and-upgrade/during-installation-php-date-warning.md)
       * [安装期间，发生反射异常错误](/help/troubleshooting/installation-and-upgrade/during-installation-reflection-exception-error.md)
-      * [运行setup：upgrade时出现未设置区号错误](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
+      * [运行安装程序时显示未设置区号错误](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
       * [安装失败；无法创建install.log](/help/troubleshooting/installation-and-upgrade/installation-fails-cannot-create-install-log.md)
       * [安装期间出现异常](/help/troubleshooting/installation-and-upgrade/exceptions-during-installation.md)
       * [安装可选示例数据时出错](/help/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data.md)
@@ -286,10 +286,14 @@ ht-degree: 0%
       * [部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * 已知问题 {#known-issues-patches-attached}
       * [有关保护存储安全和旋转加密密钥的指导： [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [在Admin中过滤订单时出错](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
-      * [如果未在允许国家/地区中选择任何内容，则用户无法将产品添加到购物车](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
-      * [Adobe Commerce管理员URL位置已披露](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
-      * [启用Braintree付款后，管理员无法创建订单/重新订单](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
+      * [可用于Adobe Commerce的安全更新 — [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
+      * [加密密钥轮换疑难解答：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
+      * [可用于Adobe Commerce的安全更新 — [!DNL APSB24-40]已修订为包括 [!DNL CVE-2024-34102]的隔离修补程序](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
+      * [[!DNL UPS]配送方式集成从 [!DNL SOAP] 迁移到 [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
+      * [[!DNL USPS] Ground Advantage配送方式支持AC-9182的修补程序](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
+      * [Adobe Commerce 2.4.3-p2 — 适用于CVE-2022-35698的2.4.5安全修补程序](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
+      * [Adobe Commerce 2.4.4：无法创建部分发票](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
+      * [高级搜索未显示最相关的结果](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [从2.4.4升级到2.4.4后，将包降级 — p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [从服务器电子邮件地址订购发送的电子邮件](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [从管理员面板下订单时Adobe Commerce 2.4.6出错](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
