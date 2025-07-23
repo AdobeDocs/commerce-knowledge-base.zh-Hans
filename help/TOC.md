@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 3ac35387a6ccf5b8ee721f1cc3777f20adb919f0
+source-git-commit: acc2baf6066204bb8a4babf18fce9d595b011394
 workflow-type: tm+mt
-source-wordcount: '3128'
+source-wordcount: '3081'
 ht-degree: 0%
 
 ---
@@ -286,11 +286,6 @@ ht-degree: 0%
       * [部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * 已知问题 {#known-issues-patches-attached}
       * [有关保护存储安全和旋转加密密钥的指导： [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [从2.4.4升级到2.4.4后，将包降级 — p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [从服务器电子邮件地址订购发送的电子邮件](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [从管理员面板下订单时Adobe Commerce 2.4.6出错](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
-      * [从低于2.4.5的版本升级时，[!UICONTROL salesRule]标签出现问题](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
-      * [针对2.4.4、2.4.5和2.4.6版的[!DNL JQuery UI]安全漏洞 [!DNL CVE-2022-31160] 修复](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
       * [[!DNL FedEx]配送方式集成从SOAP迁移到RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
       * [Adobe Commerce中出现超出Cookie最大数量的错误](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
       * [APSB25-08安全修补程序后，所有批量异步Web端点的执行时间都有所增加](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
