@@ -24,9 +24,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文不适用于尝试[预览暂存更新](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change)时出现404错误的情况。 如果您遇到此问题，请打开[支持票证](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
+>本文不适用于尝试[预览暂存更新](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change)时出现404错误的情况。 如果您遇到此问题，请打开[支持票证](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
 
-访问任何店面页面或管理员会导致404错误（“糟糕，我们的错误……”页面），原因是使用[Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)对商店内容资产执行了计划更新操作(使用[Magento\_Staging模块](https://developer.adobe.com/commerce/php/module-reference/)计划的商店内容资产更新)。 例如，您可能已删除了计划更新的产品，或删除了计划更新的结束日期。
+访问任何店面页面或管理员会导致404错误（“糟糕，我们的错误……”页面），原因是使用[Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans)对商店内容资产执行了计划更新操作(使用[Magento\_Staging模块](https://developer.adobe.com/commerce/php/module-reference/)计划的商店内容资产更新)。 例如，您可能已删除了计划更新的产品，或删除了计划更新的结束日期。
 
 商店内容资产包括：
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-在这种情况下，您可以参阅[Site Down Troubleshooter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27152)以了解故障排除想法。
+在这种情况下，您可以参阅[Site Down Troubleshooter](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27152)以了解故障排除想法。
 
 ## 解决方案
 
@@ -88,8 +88,8 @@ ht-degree: 0%
 
 1. 等待[!DNL cron]作业运行（如果设置正确，最多可在五分钟内运行）；如果未设置[!DNL cron]，请手动运行该作业。
 
-该问题应在修复无效链接后立即解决。 如果问题仍然存在，请[提交支持票证](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
+该问题应在修复无效链接后立即解决。 如果问题仍然存在，请[提交支持票证](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
 
 ## 相关阅读
 
-[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
