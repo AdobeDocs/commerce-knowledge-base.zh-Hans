@@ -1,12 +1,12 @@
 ---
-title: “代码目录中无法保存类”错误
+title: “类无法保存在代码目录中”错误
 description: 本文介绍如何修复以下问题：指定依赖项的方式阻止即时自动生成类，并且您收到*“类无法保存在生成的/代码目录中”*错误消息。
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 在本地环境中，编写依赖于自动生成类的自定义类。
 1. 运行触发自定义类的方案，并查看其是否正常运行。
 1. 提交更改并将其推送到集成环境。 这将触发部署过程。 部署成功。
-1. 在[集成环境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)中，运行触发自定义类的方案。
+1. 在[集成环境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)中，运行触发自定义类的方案。
 
 <u>预期的结果</u>
 

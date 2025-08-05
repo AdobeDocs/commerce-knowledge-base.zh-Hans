@@ -1,12 +1,12 @@
 ---
-title: “Adobe Commerce cloud：使用‘已终止’消息终止重新索引”
-description: '* Adobe Commerce on cloud infrastructure（所有版本）'
+title: Adobe Commerce cloud：使用“已终止”消息终止重新索引
+description: '*云基础架构上的Adobe Commerce（所有版本）'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 0%
 1. 减少产品数量（以及客户组和商店 — 如果适用）。
 1. 仅限一个或两个并发用户使用。
 1. 禁用cron作业，并根据需要手动运行。
-1. 如果之前未执行此操作，请请求升级到增强集成环境 — 请注意，一旦执行升级，您将受到环境数量限制。 有关详细信息，请参阅我们的支持知识库中的[集成环境增强请求 — Pro和Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)文章。
+1. 如果之前未执行此操作，请请求升级到增强集成环境 — 请注意，一旦执行升级，您将受到环境数量限制。 有关详细信息，请参阅我们的支持知识库中的[集成环境增强请求 — Pro和Starter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)文章。
 
 ## 相关阅读：
 
 在我们的开发人员文档中：
 
-* [专业体系结构>集成环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [入门体系结构>暂存环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [专业体系结构>集成环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [入门体系结构>暂存环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
