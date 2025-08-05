@@ -31,10 +31,10 @@ ht-degree: 0%
 
 要解决性能问题，请确保遵循最佳实践以在集成环境中获得最佳性能。 您可能还需要请求升级环境以增强集成。
 
-首先，确定您的环境是否位于[增强集成配置](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)上。
+首先，确定您的环境是否位于[增强集成配置](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)上。
 
-* [专业体系结构](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [入门体系结构](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [专业体系结构](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [入门体系结构](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 使用以下方法之一检查部署日志。
 
@@ -59,10 +59,10 @@ opensearch (type: opensearch:2, size: L, disk: 1024)
 rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 ```
 
-如果您不在增强集成配置中，您可以[请求增强功能/升级](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)。
+如果您不在增强集成配置中，您可以[请求增强功能/升级](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)。
 如果您已在使用增强集成配置，或者在升级后仍遇到性能问题，请确保遵循最佳实践以在集成环境中获得最佳性能：
 
-* [专业体系结构](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [入门体系结构](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [专业体系结构](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [入门体系结构](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
-如果您已满足上述建议，请[提交支持请求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)以获得更多帮助。
+如果您已满足上述建议，请[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)以获得更多帮助。

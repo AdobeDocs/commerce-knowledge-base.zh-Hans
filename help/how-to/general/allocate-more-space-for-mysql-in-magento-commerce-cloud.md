@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 在入门计划和专业计划集成上分配空间
 
-对于所有入门计划环境和Pro计划[集成环境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以通过增加`.magento/services.yaml`参数在`mysql: disk:`文件中为MySQL分配更多空间。 例如：
+对于所有入门计划环境和Pro计划[集成环境](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以通过增加`.magento/services.yaml`参数在`mysql: disk:`文件中为MySQL分配更多空间。 例如：
 
 ```yaml
 mysql:
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-请参阅[设置MySQL服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供参考。
+请参阅[设置MySQL服务](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供参考。
 
 更改`.magento/services.yaml`文件后，您需要提交并推送更改以便应用。 推送将触发部署过程。
 

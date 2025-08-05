@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 在本地环境中，编写依赖于自动生成类的自定义类。
 1. 运行触发自定义类的方案，并查看其是否正常运行。
 1. 提交更改并将其推送到集成环境。 这将触发部署过程。 部署成功。
-1. 在[集成环境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)中，运行触发自定义类的方案。
+1. 在[集成环境](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)中，运行触发自定义类的方案。
 
 <u>预期的结果</u>
 

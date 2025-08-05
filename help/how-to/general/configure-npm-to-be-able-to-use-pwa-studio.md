@@ -48,10 +48,10 @@ ht-degree: 0%
    > ```
 
 1. 在文件中保存更改。
-1. Git将编辑的文件推送到[集成环境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)。
+1. Git将编辑的文件推送到[集成环境](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)。
 
 在Git将更新的YAML文件推送到环境后，更改将生效。
 
 ## 相关文档
 
-* [应用程序配置：我们的Adobe Commerce on Cloud Infrastructure指南中的挂接](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html)。
+* [应用程序配置：我们的Adobe Commerce on Cloud Infrastructure指南中的挂接](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=zh-Hans)。

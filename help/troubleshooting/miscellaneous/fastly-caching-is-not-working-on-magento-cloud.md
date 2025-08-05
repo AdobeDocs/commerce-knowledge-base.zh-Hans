@@ -170,13 +170,13 @@ curl命令的输出可能会很长。 以下是仅供参考的摘要：
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. 如果使用配置管理，则应该有一个配置文件。 编辑app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)文件，并确保设置`'Fastly_Cdn' => 1`正确。 设置不应为`'Fastly_Cdn' => 0`（表示已禁用）。如果您启用了Fastly，请删除配置文件并运行bin/magento magento-cloud:scd-dump命令进行更新。 有关该文件的演练，请参阅配置指南中的[管理系统特定设置示例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration)。
+1. 如果使用配置管理，则应该有一个配置文件。 编辑app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)文件，并确保设置`'Fastly_Cdn' => 1`正确。 设置不应为`'Fastly_Cdn' => 0`（表示已禁用）。如果您启用了Fastly，请删除配置文件并运行bin/magento magento-cloud:scd-dump命令进行更新。 有关该文件的演练，请参阅配置指南中的[管理系统特定设置示例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html?lang=zh-Hans#manage-the-system-specific-configuration)。
 
-如果未安装该模块，则需要在[集成环境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)分支中安装并部署到暂存和生产环境。 有关Commerce on Cloud Infrastructure指南中的说明，请参阅[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+如果未安装该模块，则需要在[集成环境](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)分支中安装并部署到暂存和生产环境。 有关Commerce on Cloud Infrastructure指南中的说明，请参阅[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
 
 ### Fastly-Magento-VCL-Uploaded不存在
 
-在安装和配置期间，您应该已上传Fastly VCL。 这些是Fastly模块提供的基本VCL片段，而不是您创建的自定义VCL片段。 有关说明，请参阅Commerce on Cloud Infrastructure指南中的[上传Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly)。
+在安装和配置期间，您应该已上传Fastly VCL。 这些是Fastly模块提供的基本VCL片段，而不是您创建的自定义VCL片段。 有关说明，请参阅Commerce on Cloud Infrastructure指南中的[上传Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#upload-vcl-to-fastly)。
 
 ### X-Cache包括MISS
 
@@ -190,7 +190,7 @@ curl命令的输出可能会很长。 以下是仅供参考的摘要：
 
 如果问题仍然存在，则其他扩展可能会重置这些标头。 在暂存中重复以下过程可禁用扩展，以查找导致问题的扩展。 找到导致问题的扩展后，您将需要在生产环境中禁用该扩展。
 
-1. 要禁用扩展，请按照Commerce on Cloud Infrastructure指南的[管理扩展](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions)部分中给出的步骤操作。
+1. 要禁用扩展，请按照Commerce on Cloud Infrastructure指南的[管理扩展](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=zh-Hans#manage-extensions)部分中给出的步骤操作。
 1. 禁用扩展后，转到&#x200B;**[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**。
 1. 单击&#x200B;**[!UICONTROL Flush Magento Cache]**。
 1. 现在，每次启用一个扩展，以保存配置并刷新缓存。
@@ -201,6 +201,6 @@ curl命令的输出可能会很长。 以下是仅供参考的摘要：
 
 ## 有关更多信息，请参阅我们的开发人员文档：
 
-* [关于Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [自定义Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [关于Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hans)
+* [设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)
+* [自定义Fastly VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hans)
