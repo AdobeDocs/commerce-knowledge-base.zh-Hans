@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: acb00b0e25b85a558675993d63a80a59df7af5d7
+source-git-commit: 66ac9de94e9a4a1eccdb5aac1875ecf0a0637e90
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2993'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,6 @@ ht-degree: 0%
       * [在Web浏览器中访问Adobe Commerce时出现503错误](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
       * [由于启用了维护模式，站点加载失败](/help/troubleshooting/site-down-or-unresponsive/site-fails-to-load-due-to-maintenance-mode-left-enabled.md)
       * [站点关闭疑难解答示意图](/help/troubleshooting/site-down-or-unresponsive/site-down-troubleshooting-diagram.md)
-      * [Adobe Commerce站点故障排查器](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)
       * [应用修补程序将导致您的网站停机](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [由于内容暂存问题，所有页面均显示错误404](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
       * [修订的Google修补程序所有Adobe Commerce版本上的访问丢失](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
