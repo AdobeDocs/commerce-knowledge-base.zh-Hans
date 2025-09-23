@@ -4,9 +4,9 @@ description: 该文章介绍了如何修复Redis。
 exl-id: 5eb8fb70-0f41-433a-8d3f-c368781a2d1d
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 649e01b29b59bf77e6396acbeb7a83bd9c67e1ef
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,16 @@ ht-degree: 0%
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 
-可从`app/etc/env.php`检索&#x200B;*REDIS\_PORT*&#x200B;和&#x200B;*REDIS\_HOST*&#x200B;变量。
+可从&#x200B;*检索* REDIS\_PORT *和* REDIS\_HOST`app/etc/env.php`变量。
+
+>[!NOTE]
+>
+>您还可以通过运行以下CLI命令来检索Redis主机地址和端口号：
+>   
+```bash
+>   echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
+>   ```
+
 
 如果运行上述查询的输出显示可用内存的百分比小于40%，则[向Adobe Commerce支持部门提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，请求增加Redis服务器中的`maxmemory`设置。 如果收回的键值不是“0”，或者Redis启动时间（以天为单位）等于0（表示Redis今天已崩溃），则您还应[向Adobe Commerce支持部门提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以请求对此问题进行调查和修复。
 
