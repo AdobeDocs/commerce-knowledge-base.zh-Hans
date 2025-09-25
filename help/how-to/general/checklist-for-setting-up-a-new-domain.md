@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是在我们的用户指南的[!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** **[!UICONTROL Domains]**[[!DNL Manage domains]&#x200B;中更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)中的配置。
+>您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是在我们的用户指南的[!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** **[!UICONTROL Domains]**&#x200B;[[!DNL Manage domains]&#x200B;中更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)中的配置。
 >
 >
 >如果您无法添加域，可能是由于以下原因之一：
