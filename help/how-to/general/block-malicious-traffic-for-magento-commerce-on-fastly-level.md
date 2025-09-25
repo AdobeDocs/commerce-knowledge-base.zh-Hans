@@ -3,16 +3,18 @@ title: 阻止Adobe Commerce在Fastly级别的恶意流量
 description: 本文提供了当您怀疑云基础架构存储上的Adobe Commerce遇到DDoS攻击时，阻止恶意流量可以采取的步骤。
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
+source-git-commit: 2555fbdb8a7a53d41c746df6414a7b0bad2de5d9
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 # 阻止Adobe Commerce在Fastly级别的恶意流量
 
-本文提供了当您怀疑云基础架构存储上的Adobe Commerce遇到DDoS攻击时，阻止恶意流量可以采取的步骤。
+本文介绍了如何阻止不需要的流量进入您的商店，这不仅是为了响应恶意威胁，也是作为一种地理过滤方法。
+
+云基础架构上的Adobe Commerce（和Fastly CDN）提供了用于管理存储流量的工具，以响应DDoS攻击等恶意威胁。 此外，它允许您阻止来自特定国家或地区的请求（即使未检测到恶意意图），以遵守业务政策、法规要求或其他操作需求。
 
 ## 受影响的产品和版本：
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 如果您的网站因DDoS而过载，则可能无法登录到Commerce管理员（并执行本文中进一步描述的所有步骤）。
 
-若要访问管理员，请按照[启用或禁用维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)并将IP地址列入白名单中的说明将网站置于维护模式。 完成后禁用维护模式。
+若要访问管理员，请按照[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)并将IP地址列入白名单中的说明将网站置于维护模式。 完成后禁用维护模式。
 
 ## 按IP阻止流量
 
@@ -74,7 +76,7 @@ name: block_bad_useragents
 * 机器人可以忽略您的`robots.txt`。 尤其是恶意软件机器人，它会扫描网页以发现安全漏洞，垃圾邮件发送者使用的电子邮件地址收集器不会引起注意。
 * `robots.txt`文件是公开可用的文件。 任何人都可以看到您不希望机器人使用的服务器区域。
 
-可在开发人员文档的[搜索引擎机器人](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots)文章中找到基本信息和默认Adobe Commerce `robots.txt`配置。
+可在开发人员文档的`robots.txt`搜索引擎机器人[文章中找到基本信息和默认Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots)配置。
 
 有关`robots.txt`的一般信息和建议，请参阅：
 
@@ -86,4 +88,4 @@ name: block_bad_useragents
 ## 相关阅读
 
 * 云中Adobe Commerce的[产品特定许可条款](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* 在Commerce on Cloud指南中[用于阻止请求的自定义VCL](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
+* 在Commerce on Cloud指南中[用于阻止请求的自定义VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
