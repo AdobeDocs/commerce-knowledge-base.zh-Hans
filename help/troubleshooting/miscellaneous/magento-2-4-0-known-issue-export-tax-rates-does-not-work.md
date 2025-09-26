@@ -4,9 +4,9 @@ description: 本文为Adobe Commerce 2.4.0的已知问题提供了一个解决�
 exl-id: 29a34a1f-d23a-43cb-ac1f-8711ce25fa6c
 feature: Data Import/Export, Orders
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 0%
 
 在我们的支持知识库中：
 
-* [Adobe Commerce 2.4.0已知问题：Braintree付款方式未显示在多个地址结帐](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中。
+* [Adobe Commerce 2.4.0已知问题： Braintree付款方法未出现在多地址结帐中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)。
 * [Adobe Commerce 2.4.0已知问题 — 客户活动上的刷新不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)。
-* [Adobe Commerce 2.4.0已知问题：店面上显示原始消息数据](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)。
 * [Adobe Commerce 2.4.0已知问题：“将选定内容添加到购物车”按钮不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)。

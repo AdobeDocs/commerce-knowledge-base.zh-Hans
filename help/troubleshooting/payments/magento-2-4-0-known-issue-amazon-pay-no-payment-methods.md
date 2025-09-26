@@ -1,12 +1,12 @@
 ---
-title: 'Adobe Commerce 2.4.0已知问题：Amazon支付，无支付方式'
+title: Adobe Commerce 2.4.0已知问题：Amazon支付，无支付方式
 description: 本文为Adobe Commerce 2.4.0的已知问题提供了一个解决方案，该问题导致客户在启用Amazon支付后使用**返回标准结帐**时缺少支付方法。
 exl-id: efd792c7-8970-4366-b9d1-4bf284ea96db
 feature: B2B, Orders, Payments
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 60f68b9edabd13a69e84705b85d84fd10ee6e2be
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,8 @@ Adobe Commerce内部部署和Adobe Commerce on cloud infrastructure v2.3.5.p1和
 ## 我们的支持知识库中的相关读物：
 
 * [Adobe Commerce 2.4.0已知问题：在结账期间为某些国家/地区显示选择本地支付方法的错误消息](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-* [Adobe Commerce 2.4.0已知问题：在多送货结帐中删除奖励点时出现404错误](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
-* [Adobe Commerce 2.4.0已知问题：订单显示错误](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
 * [Adobe Commerce 2.4.0 B2B管理员无法将可配置产品添加到报价](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-* [Adobe Commerce 2.4.0已知问题：Braintree支付方式未显示在多地址结账中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
+* [Adobe Commerce 2.4.0已知问题：Braintree支付方法未出现在多地址结账中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [Adobe Commerce 2.4.0已知问题 — 无法刷新客户活动](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Adobe Commerce 2.4.0已知问题 — 出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Adobe Commerce 2.4.0已知问题：“将选定内容添加到购物车”按钮不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
-* [Adobe Commerce 2.4.0已知问题：店面中显示原始消息数据](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)

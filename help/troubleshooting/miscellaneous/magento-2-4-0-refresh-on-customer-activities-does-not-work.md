@@ -1,12 +1,12 @@
 ---
-title: “Adobe Commerce 2.4.0：无法刷新客户活动”
+title: Adobe Commerce 2.4.0：无法刷新客户的活动
 description: 本文为管理员用户为客户创建订单并且客户的“活动”侧面板上的“刷新”按钮不起作用时Adobe Commerce 2.4.0已知问题提供了解决方案。
 exl-id: 50048e9f-6009-4db5-ae4a-c35a84cec265
 feature: Configuration
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [Adobe Commerce 2.4.0已知问题：Braintree支付方式未显示在多地址结账中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Adobe Commerce 2.4.0已知问题：店面中显示原始消息数据](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
+* [Adobe Commerce 2.4.0已知问题：Braintree支付方法未出现在多地址结账中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [Adobe Commerce 2.4.0已知问题：出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Adobe Commerce 2.4.0已知问题：“将选定内容添加到购物车”按钮不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

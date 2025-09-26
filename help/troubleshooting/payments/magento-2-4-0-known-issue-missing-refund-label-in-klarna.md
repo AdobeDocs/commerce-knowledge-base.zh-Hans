@@ -1,12 +1,12 @@
 ---
-title: “Adobe Commerce 2.4.0已知问题：Klarna缺少‘退款’标签”
+title: Adobe Commerce 2.4.0已知问题：Klarna缺少“退款”标签
 description: 本文为管理员中缺少**Refute**标签（供应商捆绑扩展）的已知问题提供了解决方法。 当在Klarna门户网站进行退款时，已退款的捆绑产品旁边不显示**退款**标签。
 exl-id: f08039b2-7f8b-481e-8ec8-1659e227744f
 feature: B2B, Orders, Payments
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -55,12 +55,9 @@ ht-degree: 0%
 
 ## 我们的支持知识库中的相关读物：
 
-* [Adobe Commerce 2.4.0已知问题：店面中显示原始消息数据](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
 * [Adobe Commerce 2.4.0已知问题：出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Adobe Commerce 2.4.0已知问题：Braintree支付方式未显示在多地址结账中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
+* [Adobe Commerce 2.4.0已知问题：Braintree支付方法未出现在多地址结账中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [Adobe Commerce 2.4.0已知问题：在结账期间为某些国家/地区显示选择本地支付方法的错误消息](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-* [Adobe Commerce 2.4.0已知问题：在多送货结帐中删除奖励点时出现404错误](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
-* [Adobe Commerce 2.4.0已知问题：订单显示错误](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
 * [Adobe Commerce 2.4.0 B2B管理员无法将可配置产品添加到报价](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Adobe Commerce 2.4.0已知问题 — 无法刷新客户活动](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Adobe Commerce 2.4.0已知问题：“将选定内容添加到购物车”按钮不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

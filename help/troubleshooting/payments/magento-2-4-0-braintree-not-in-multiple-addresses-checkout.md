@@ -1,21 +1,21 @@
 ---
-title: 'Adobe Commerce 2.4.0：Braintree不在多个地址中签出'
-description: 本文为Adobe Commerce 2.4.0的已知问题提供了解决方法，该问题涉及在多个地址结账时未包含Braintree支付方法。 请注意，Adobe Commerce 2.4.1中已修复此问题。
+title: Adobe Commerce 2.4.0：Braintree不在多个地址中签出
+description: 本文为Adobe Commerce 2.4.0的已知问题提供了解决方法，该问题导致在多个地址结账时未使用Braintree支付方法。 请注意，Adobe Commerce 2.4.1中已修复此问题。
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 2.4.0：Braintree不在多个地址中签出
 
-本文为Adobe Commerce 2.4.0的已知问题提供了解决方法，该问题涉及在多个地址结账时未包含Braintree支付方法。 请注意，Adobe Commerce 2.4.1中已修复此问题。
+本文为Adobe Commerce 2.4.0的已知问题提供了解决方法，该问题导致在多个地址结账时未使用Braintree支付方法。 请注意，Adobe Commerce 2.4.1中已修复此问题。
 
-注意：Adobe Commerce建议对版本2.3及更高版本使用[Commerce MarketplaceBraintree扩展](https://marketplace.magento.com/paypal-module-braintree.html)，以保持PSD合规性。 该扩展不提供多地址签出功能。
+注意：Adobe Commerce建议对版本2.3及更高版本使用[Commerce Marketplace Braintree扩展](https://marketplace.magento.com/paypal-module-braintree.html)，以保持PSD合规性。 该扩展不提供多地址签出功能。
 
 ## 受影响的产品和版本
 
@@ -54,6 +54,5 @@ Braintree不可用作支付方式。
 ## 我们的支持知识库中的相关阅读
 
 * [Adobe Commerce 2.4.0已知问题 — 无法刷新客户活动](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0已知问题：店面中显示原始消息数据](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
 * [Adobe Commerce 2.4.0已知问题 — 出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Adobe Commerce 2.4.0已知问题：“将选定内容添加到购物车”按钮不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
