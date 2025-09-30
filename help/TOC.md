@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 2b12aeb9227944fc80da50d50fbc5668f4622269
+source-git-commit: 750c0c41580af90cc5c883472326f2073cfe0b23
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2891'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 0%
 * 故障排除 {#troubleshooting}
    * [疑难解答概述](/help/troubleshooting/overview.md)
    * 数据库 {#database}
-      * [数据库中同一实体的多行](/help/troubleshooting/database/multiple-rows-in-database-for-same-entity.md)
       * [正在检查慢查询和进程MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [数据库上载断开与MySQL的连接](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [数据库中的更改未反映在店面上](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
