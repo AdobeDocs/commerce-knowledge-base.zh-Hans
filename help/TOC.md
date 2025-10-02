@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 750c0c41580af90cc5c883472326f2073cfe0b23
+source-git-commit: d1a9f509bdf4a4c75220145069810e55eddcc43e
 workflow-type: tm+mt
-source-wordcount: '2891'
+source-wordcount: '2881'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 0%
       * [在Web浏览器中访问Adobe Commerce时出现503错误](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
       * [由于启用了维护模式，站点加载失败](/help/troubleshooting/site-down-or-unresponsive/site-fails-to-load-due-to-maintenance-mode-left-enabled.md)
       * [应用修补程序将导致您的网站停机](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
-      * [由于内容暂存问题，所有页面均显示错误404](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
       * [修订的Google修补程序所有Adobe Commerce版本上的访问丢失](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
       * [修复数据未在 [!DNL Commerce Data Exporter] 源中更新，并且 [!DNL cron] 日志中不存在更改日志表的错误](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
