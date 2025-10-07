@@ -4,9 +4,9 @@ description: 本文提供了一个解决方案，用于解决“/tmp”装载已
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: aa4cfbceb745f1a06b8a8f9e93cbdebbc151458b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Filesystem Inodes   Used   Free Use% Mounted on
 
 #### 检查并释放MySQL空间
 
-按照[云基础架构上Adobe Commerce上的MySQL磁盘空间不足>检查并释放支持知识库中的存储空间](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free)中的说明进行操作。
+按照[云基础架构上Adobe Commerce上的MySQL磁盘空间不足>检查并释放支持知识库中的存储空间](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space)中的说明进行操作。
 
 #### 检查Elasticsearch栈转储
 
@@ -106,7 +106,7 @@ Filesystem Inodes   Used   Free Use% Mounted on
 find /tmp/*.hprof -type f -delete
 ```
 
-如果您无权删除由另一用户(在本例中为Elasticsearch)创建的文件，但您看到文件很大，请[创建支持工单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)来处理这些文件。
+如果您无权删除由其他用户(在本例中为Elasticsearch)创建的文件，但您看到文件很大，请[创建支持工单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)来处理这些文件。
 
 #### 检查数据库转储/备份
 
@@ -120,7 +120,7 @@ find /tmp/*.hprof -type f -delete
 
 要避免在`/tmp`已满时出现问题，请遵循以下建议：
 
-* 请勿使用MySQL进行搜索。 Elasticsearch搜索通常无需创建大多数繁重的临时表。 请参阅我们的开发人员文档中的[配置Adobe Commerce以使用Elasticsearch](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/configure-search-engine)。
+* 请勿使用MySQL进行搜索。 Elasticsearch搜索功能通常无需创建大多数繁重的临时表。 请参阅我们的开发人员文档中的[配置Adobe Commerce以使用Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)。
 * 避免在没有索引的列上运行`SELECT`查询，因为这会占用大量临时磁盘空间。 您还可以添加索引。
 * 通过在CLI中运行以下命令来创建cron以清理`/tmp`：
 
@@ -130,4 +130,4 @@ find /tmp/*.hprof -type f -delete
 
 ## 相关阅读
 
-在我们的支持知识库中，[云基础架构上的Adobe Commerce上的MySQL磁盘空间不足](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)。
+在我们的支持知识库中，[云基础架构上的Adobe Commerce上的MySQL磁盘空间不足](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806)。
