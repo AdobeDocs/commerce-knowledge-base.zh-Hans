@@ -21,7 +21,7 @@ ht-degree: 0%
 
 这可以通过一系列症状来指示，包括`/tmp`装载已满、站点已关闭或无法通过SSH连接到节点。 您可能还会遇到诸如&#x200B;_设备(28)上已没有剩余空间_&#x200B;之类的错误。 有关因`/tmp`已满导致的错误列表，请查看[/tmp装入已满](/help/troubleshooting/miscellaneous/tmp-mount-full.md)。
 
-还是由于缺少空间而导致`/data/mysql`问题？ 这也可能由各种症状指示，包括站点中断、客户无法将产品添加到购物车、与数据库的连接失败以及类似&#x200B;_SQLSTATE\[08S01\]的条码错误：通信链接失败： 1047 WSREP_。 有关因磁盘空间不足[!DNL MySQL]导致的错误列表，请参阅Adobe Commerce上云基础架构上的[[!DNL MySQL] 磁盘空间不足](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806)。
+还是由于缺少空间而导致`/data/mysql`问题？ 这也可能由各种症状指示，包括站点中断、客户无法将产品添加到购物车、与数据库的连接失败以及类似&#x200B;_SQLSTATE\[08S01\]的条码错误：通信链接失败： 1047 WSREP_。 有关因磁盘空间不足[!DNL MySQL]导致的错误列表，请参阅Adobe Commerce上云基础架构上的[[!DNL MySQL] 磁盘空间不足](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27806)。
 
 如果不确定您是否存在磁盘空间问题并且您拥有New Relic帐户，请转到[New Relic基础架构监视主机页面](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/)。 从该位置，单击&#x200B;**存储**&#x200B;选项卡，将&#x200B;**图表显示**&#x200B;下拉列表从5个结果更改为20个结果，并在表中查找磁盘使用率在%图表或表中是否较高。 有关更多详细步骤，请参阅[New Relic Infrastructure Monitoring > Storage选项卡]https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#storage)。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 IUse% > 90%吗？
 
-a.是 — 这是由于文件过多所致。 查看在[磁盘空间不足时安全删除文件，云基础架构上的Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889)中安全删除文件的步骤。 完成这些步骤后，请继续执行[步骤2](#step-2)。 如果要请求更多空间，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
+a.是 — 这是由于文件过多所致。 查看在[磁盘空间不足时安全删除文件，云基础架构上的Adobe Commerce &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26889)中安全删除文件的步骤。 完成这些步骤后，请继续执行[步骤2](#step-2)。 如果要请求更多空间，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 检查空间。 在CLI/终端中运行`df -h | grep mysql`，然后运行`df -h | grep tmp`，以检查`/tmp`和`/data/mysql`目录中的磁盘空间使用情况。 继续执行[步骤3](#step-3)。
 
 +++
@@ -81,7 +81,7 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 
 +++**检查默认值**
 
-数据库配置可能不再为原始默认值。 通过在[!DNL MySQL] CLI `SELECT @@DATADIR;`中运行来查找数据库tmpdir配置。 如果输出`/data/mysql/`，则数据库tmpdir现在正在写入`/data/mysql/`。 在云基础架构上的Adobe Commerce上[[!DNL MySQL] 磁盘空间不足](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806)中，按照以下步骤来尝试增加此目录中的空间。 然后在CLI/终端中运行`df -h | grep mysql`，然后运行`df -h | grep tmp`以检查`/data/mysql`和`/tmp`中的磁盘空间使用情况。\
+数据库配置可能不再为原始默认值。 通过在[!DNL MySQL] CLI `SELECT @@DATADIR;`中运行来查找数据库tmpdir配置。 如果输出`/data/mysql/`，则数据库tmpdir现在正在写入`/data/mysql/`。 在云基础架构上的Adobe Commerce上[[!DNL MySQL] 磁盘空间不足](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27806)中，按照以下步骤来尝试增加此目录中的空间。 然后在CLI/终端中运行`df -h | grep mysql`，然后运行`df -h | grep tmp`以检查`/data/mysql`和`/tmp`中的磁盘空间使用情况。\
   &lt; 70%已使用？
 
 答：是的，你已经解决了这个问题。 \
@@ -93,4 +93,4 @@ b.否 — [提交支持票证](/help/help-center-guide/help-center/magento-help-
 
 ## 相关阅读
 
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
