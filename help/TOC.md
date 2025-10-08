@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4ba5d701280fa41bea1102fa1ca46e1e3cc35256
+source-git-commit: 4b92294b26082da2ac5984b729cea2a49663f4b2
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2852'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,6 @@ ht-degree: 0%
       * [使用多个地址结账时未显示支付方式](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
       * [Adobe Commerce 2.4.0已知问题： Klarna现场消息传递空白页](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
    * 店面 {#storefront}
-      * [Adobe Commerce内部部署2.4.2：产品图像缺失](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
       * [店面未显示产品](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
       * [部署后不显示存储映像](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
       * [客户在Adobe Commerce店面被注销或丢失购物车内容](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
