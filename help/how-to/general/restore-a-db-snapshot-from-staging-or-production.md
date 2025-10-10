@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果要将快照导入集成环境，请注意数据库大小。 大型数据库可能会导致导入后的性能下降。 建议先将快照导入暂存或本地环境，以查看并减小其大小，然后再将其转移到集成。 此外，如果在导入后出现性能问题，请考虑在集成分支中禁用cron作业。 有关详细信息，请参阅Commerce on Cloud Infrastructure指南中的[集成环境](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)。
+> 如果要将快照导入集成环境，请注意数据库大小。 大型数据库可能会导致导入后的性能下降。 建议先将快照导入暂存或本地环境，以查看并减小其大小，然后再将其转移到集成。 此外，如果在导入后出现性能问题，请考虑在集成分支中禁用cron作业。 有关详细信息，请参阅Commerce on Cloud Infrastructure指南中的[集成环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)。
 
 * [方法1：将数据库 [!DNL dump] 传输到本地计算机并导入它](#meth2)。
 * [方法2：直接从服务器 [!DNL dump] 导入数据库](#meth3)。
@@ -83,7 +83,7 @@ ht-degree: 0%
    ```
 
 1. 将数据库[!DNL dump file]（例如： `<cluster ID>.sql.gz`的[!DNL Production]或`<cluster ID_stg>.sql.gz`的[!DNL Staging]）复制到本地计算机。
-1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn)。
+1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn)。
 1. 连接到数据库。
 
    ```bash
@@ -179,6 +179,6 @@ ht-degree: 0%
 
 在我们的开发人员文档中：
 
-* [导入代码：导入数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* 云上的[备份（快照）：常见问题解答](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [导入代码：导入数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* 云上的[备份（快照）：常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
