@@ -2,22 +2,22 @@
 title: 从暂存或生产环境恢复数据库快照
 description: 本文说明如何在云基础架构上从Adobe Commerce上的暂存或生产环境恢复数据库快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 193b5118342f380cef925766c0f7956a6592800c
+source-git-commit: 62815213ce54f72d27812b9c2d7b3997f2e88897
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # 从[!DNL Staging]或[!DNL Production]还原数据库快照
 
-本文说明如何在Cloud Pro基础架构上的Adobe Commerce上从[!DNL Staging]或[!DNL Production]还原DB [!DNL snapshot]。
+本文说明如何在Cloud Pro基础架构上的Adobe Commerce上从[!DNL snapshot]或[!DNL Staging]还原DB [!DNL Production]。
 
 
 >[!NOTE]
 >
 >这些方法将还原&#x200B;**完整快照**。
->&#x200B;>如果需要恢复快照&#x200B;**部分**（例如，仅恢复目录表，而保留顺序表不变），则必须咨询开发人员或DBA。
+>>如果需要恢复快照&#x200B;**部分**（例如，仅恢复目录表，而保留顺序表不变），则必须咨询开发人员或DBA。
 
 
 ## 受影响的产品和版本
@@ -26,8 +26,12 @@ ht-degree: 0%
 
 选择最适合您的具体情况：
 
+>[!NOTE]
+>
+> 如果要将快照导入集成环境，请注意数据库大小。 大型数据库可能会导致导入后的性能下降。 建议先将快照导入暂存或本地环境，以查看并减小其大小，然后再将其转移到集成。 此外，如果在导入后出现性能问题，请考虑在集成分支中禁用cron作业。 有关详细信息，请参阅Commerce on Cloud Infrastructure指南中的[集成环境](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)。
+
 * [方法1：将数据库 [!DNL dump] 传输到本地计算机并导入它](#meth2)。
-* [方法2：直接从服务器](#meth3)导入数据库 [!DNL dump] 。
+* [方法2：直接从服务器 [!DNL dump] 导入数据库](#meth3)。
 
 ## 方法1：将数据库[!DNL dump]传输到本地计算机并将其导入 {#meth2}
 
@@ -78,8 +82,8 @@ ht-degree: 0%
    --init-command="SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;SET NAMES utf8 ;SET @OLD_TIME_ZONE=@@TIME_ZONE ;SET TIME_ZONE='+00:00' ;SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 ;SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 ;SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' ;SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0;"
    ```
 
-1. 将数据库[!DNL dump file]（例如： [!DNL Production]的`<cluster ID>.sql.gz`或[!DNL Staging]的`<cluster ID_stg>.sql.gz`）复制到本地计算机。
-1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn)。
+1. 将数据库[!DNL dump file]（例如： `<cluster ID>.sql.gz`的[!DNL Production]或`<cluster ID_stg>.sql.gz`的[!DNL Staging]）复制到本地计算机。
+1. 请确保您已将[!DNL SSH tunnel]设置为远程连接到我们的开发人员文档中的数据库： [[!DNL SSH] 和 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn)。
 1. 连接到数据库。
 
    ```bash
@@ -175,6 +179,6 @@ ht-degree: 0%
 
 在我们的开发人员文档中：
 
-* [导入代码：导入数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* 云上的[备份（快照）：常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [导入代码：导入数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* 云上的[备份（快照）：常见问题解答](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
