@@ -60,7 +60,7 @@ php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 
 如果您使用由Adobe管理的SendGrid服务：
 
-[提交支持票证](https://experienceleague.adobe.com/home?support-tab=home#support)，请求使用SendGrid对您的发送域进行身份验证（有时称为&#x200B;*白标签*）。
+[提交支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)，请求使用SendGrid对您的发送域进行身份验证（有时称为&#x200B;*白标签*）。
 此过程包括添加DNS记录(DKIM和SPF)以授权SendGrid代表您的域发送电子邮件，这会增加将您的电子邮件投放到收件箱而不是Spam文件夹的可能性。
 
 如果您使用自己的SendGrid帐户：
@@ -74,4 +74,4 @@ php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid)。
+* 在我们的开发人员文档中[SendGrid](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/project/sendgrid)。
