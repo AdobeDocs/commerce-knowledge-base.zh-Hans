@@ -4,9 +4,9 @@ description: 本文介绍了在设置了双重身份验证(2FA)以增强Adobe Co
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9eaea028886e74fc06c9516801919cd7f650f98c
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,24 @@ ht-degree: 0%
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-检查您的Spam文件夹中的电子邮件。 如果电子邮件出现在该处，则[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login)以请求在SendGrid中将域标记为白标。
+检查您的Spam文件夹中的电子邮件。
+
+如果电子邮件出现在您的“垃圾邮件”文件夹中，则域的电子邮件身份验证可能未完全配置为通过SendGrid出站投放。
+
+如果您使用由Adobe管理的SendGrid服务：
+
+[提交支持票证](https://experienceleague.adobe.com/home?support-tab=home#support)，请求使用SendGrid对您的发送域进行身份验证（有时称为&#x200B;*白标签*）。
+此过程包括添加DNS记录(DKIM和SPF)以授权SendGrid代表您的域发送电子邮件，这会增加将您的电子邮件投放到收件箱而不是Spam文件夹的可能性。
+
+如果您使用自己的SendGrid帐户：
+
+您负责直接在SendGrid帐户仪表板中管理域身份验证设置。 有关详细信息，请参阅SendGrid文档中的[如何设置域身份验证](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/how-to-set-up-domain-authentication)。
+
+>[!NOTE]
+>
+>某些客户可能会选择使用单独配置的SendGrid服务，以便完全控制电子邮件的可投放性和合规性（例如HIPAA要求）。 根据您使用的SendGrid服务类型(Adobe托管与自托管)，确保遵循正确的故障排除步骤。
+
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[SendGrid](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/project/sendgrid)。
+* 在我们的开发人员文档中[SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid)。
