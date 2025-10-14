@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 原因
 
-在云基础架构（版本2.3.1及更高版本）上升级到Adobe Commerce并且使用6.x之前的Elasticsearch版本的商家在部署时可能会遇到错误。 这是因为Elasticsearch版本2.x和5.x的生命周期已结束[并且在Adobe Commerce中不再受支持。 ](https://www.elastic.co/support/eol)Elasticsearch客户端必须是最新的，或者运行部署可能会触发错误。 要了解更多信息，请参阅我们的开发人员文档中的[更改Elasticsearch客户端](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)。
+在云基础架构（版本2.3.1及更高版本）上升级到Adobe Commerce并且使用6.x之前的Elasticsearch版本的商家在部署时可能会遇到错误。 这是因为Elasticsearch版本2.x和5.x的生命周期已结束[并且在Adobe Commerce中不再受支持。 &#x200B;](https://www.elastic.co/support/eol)Elasticsearch客户端必须是最新的，或者运行部署可能会触发错误。 要了解更多信息，请参阅我们的开发人员文档中的[更改Elasticsearch客户端](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 ## 问题
 

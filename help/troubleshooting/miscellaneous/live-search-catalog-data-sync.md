@@ -153,7 +153,7 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 [提交支持请求](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)以请求重新索引实时搜索索引。 在问题描述中，包括在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下的管理面板中找到的数据空间/环境ID。
 
 >[!IMPORTANT]
->在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。  仅在您拥有新的空环境、Adobe团队完成数据空间清理操作后，或运行带有[ — 试运行](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)选项的`saas:resync`命令时，才使用此项。 在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。
+>在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。  仅在您拥有新的空环境、Adobe团队完成数据空间清理操作后，或运行带有[&#x200B; — 试运行](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)选项的`saas:resync`命令时，才使用此项。 在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。
 
 ## 相关阅读
 

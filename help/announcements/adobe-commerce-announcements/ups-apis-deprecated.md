@@ -15,4 +15,4 @@ ht-degree: 0%
 
 联合邮政服务(UPS) API暂时被弃用，因为Adobe Commerce与UPS的集成当前不支持OAuth 2.0安全模型。 但是，我们希望在2023年底之前支持这一模式。 这不会影响使用生成的API密钥的当前商家，因为UPS将支持通过2024年6月3日之前的API密钥进行身份验证。 没有生成密钥的商家无法使用我们的集成，但他们可以使用市场中的现有集成。
 
-若要了解详细信息，请参阅developer.ups.com： [开发人员门户访问密钥迁移指南](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)。
+若要了解详细信息，请参阅developer.ups.com： [开发人员门户访问密钥迁移指南](https://developer.ups.com/oauth-developer-guide?loc=en_US&sp_rid=NTA5MzQ1OTE2NjEyS0&sp_mid=72989914)。

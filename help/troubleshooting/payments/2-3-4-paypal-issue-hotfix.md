@@ -49,7 +49,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 对于Adobe Commerce本地商家：应用[修补程序，](https://magento.com/tech-resources/download#download2353)，该修补程序可从“我的帐户”中[magento.com](https://magento.com)门户的“下载”部分获得。
 
-对于Adobe Commerce on cloud infrastructure商家：Adobe在适用于Commerce v1.0.2的云修补程序中包含此修补程序。请参阅我们的开发人员文档中的[Commerce的云修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)发行说明，查找有关应用最新软件包的说明。
+对于Adobe Commerce on cloud infrastructure商家：Adobe在适用于Commerce v1.0.2的云修补程序中包含此修补程序。请参阅我们的开发人员文档中的[Commerce的云修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche)发行说明，查找有关应用最新软件包的说明。
 
 ## 如何应用修补程序
 

@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 云基础架构上的Adobe Commerce，所有版本
 
-1. 在开发人员文档中记录位置： [云基础架构上的Adobe Commerce ](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/test/log-locations)。
+1. 在开发人员文档中记录位置： [云基础架构上的Adobe Commerce &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/test/log-locations)。
 1. 根据您发现的错误，如果您希望启用、禁用或卸载自定义模块，我们开发人员文档中的以下文章将详细介绍这些操作：
    * [安装、管理和升级扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure-store/extensions)。
    * [组件部署失败](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment)。

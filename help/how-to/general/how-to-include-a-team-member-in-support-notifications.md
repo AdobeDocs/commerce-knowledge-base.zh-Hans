@@ -37,7 +37,7 @@ ht-degree: 0%
 
 如果他们已添加到[!DNL cloud project]，但没有该[!DNL Super User role]，请在[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans)中相应地更新其[!DNL role]。
 
-如果您希望使团队成员成为您组织的所有已打开案例的关注者，请提交[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&amp;support-tab=home#support)。
+如果您希望使团队成员成为您组织的所有已打开案例的关注者，请提交[支持票证](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)。
 
 ## 相关阅读
 

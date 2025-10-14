@@ -76,7 +76,7 @@ name: block_bad_useragents
 * 机器人可以忽略您的`robots.txt`。 尤其是恶意软件机器人，它会扫描网页以发现安全漏洞，垃圾邮件发送者使用的电子邮件地址收集器不会引起注意。
 * `robots.txt`文件是公开可用的文件。 任何人都可以看到您不希望机器人使用的服务器区域。
 
-可在开发人员文档的`robots.txt`搜索引擎机器人[文章中找到基本信息和默认Adobe Commerce ](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots)配置。
+可在开发人员文档的`robots.txt`搜索引擎机器人[文章中找到基本信息和默认Adobe Commerce &#x200B;](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots)配置。
 
 有关`robots.txt`的一般信息和建议，请参阅：
 
