@@ -24,8 +24,8 @@ ht-degree: 0%
 >
 >在继续域设置之前，请确保：
 >
->在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**下，所有基础URL都配置为使用HTTPS，其作用域为正确的网站或商店视图。
->> [已启用强制TLS](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996)，以在云基础架构上的Adobe Commerce站点中将所有HTTP流量重定向到HTTPS。
+>在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**&#x200B;下，所有基础URL都配置为使用HTTPS，其作用域为正确的网站或商店视图。
+>&#x200B;> [已启用强制TLS](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996)，以在云基础架构上的Adobe Commerce站点中将所有HTTP流量重定向到HTTPS。
 
 ### 步骤1 — 这是否适用于[!DNL Integration, Staging]或[!DNL Production environment]？
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是在我们的用户指南的[!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** **[!UICONTROL Domains]**[[!DNL Manage domains]&#x200B;中更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)中的配置。
+>您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是在我们的用户指南的[!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** **[!UICONTROL Domains]**&#x200B;[[!DNL Manage domains]&#x200B;中更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)中的配置。
 >
 >
 >如果您无法添加域，可能是由于以下原因之一：
