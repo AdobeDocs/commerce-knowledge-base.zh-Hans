@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9c17f1a10303f91ac95813171191983471d345a1
+source-git-commit: ed116b8fddfb6f5e22c2da2fdad5d0d0d2b4a377
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,6 @@ ht-degree: 0%
       * [计划内容暂存更新未与过时的Fastly缓存一起显示](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [cron疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [导出的产品.csv文件不显示](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
-      * [“类无法保存在代码目录中”错误](/help/troubleshooting/miscellaneous/class-cannot-be-saved-in-the-code-directory-error.md)
       * [检查部署日志，如果Cloud UI出现“日志截断”错误](/help/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.md)
       * [由于编辑器中的更改，下载失败](/help/troubleshooting/miscellaneous/download-fails-because-of-changes-in-composer.md)
       * [错误：在云基础架构上的Adobe Commerce上预热失败](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
