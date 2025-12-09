@@ -4,9 +4,9 @@ description: 本文介绍了一个已知的Adobe Commerce 2.4.1问题，其中�
 exl-id: c2abeb96-e837-4d16-92dd-82fea5661dd9
 feature: Shipping/Delivery
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: ce377064efabaf09d3856da7c6c5c742a9fdcc2f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,6 @@ ht-degree: 0%
 
 ## 问题
 
-先决条件：
-
-启用&#x200B;**顶点地址清理**。 有关步骤，请参阅用户指南中的[配置店面地址清理](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=zh-Hans)。
 
 <u>要再现的步骤：</u>
 

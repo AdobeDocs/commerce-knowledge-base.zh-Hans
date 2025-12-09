@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 3a482f7e5ddc872ddaf9634da8ca4f41a3b46ab4
+source-git-commit: 96ec7b44bd913c5976f0a8e3ce8355f7686622ad
 workflow-type: tm+mt
-source-wordcount: '2763'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,6 @@ ht-degree: 0%
       * [Extension Manager在Adobe Commerce 2.3.x中不显示扩展](/help/troubleshooting/miscellaneous/extension-manager-shows-no-extensions-in-magento-commerce-2-3-x.md)
       * [尝试登录Commerce Admin时的登录重定向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [解决加密密钥问题](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
-      * [“更新程序应用程序不可用”错误](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
       * [PWA Studio：对Adobe Commerce的Venia GraphQL查询产生验证错误](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [安装Inventory management后，库存状态不正确](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Adobe Commerce 2.3.5已知问题：虚拟产品多发运订单](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
@@ -133,7 +132,6 @@ ht-degree: 0%
       * [数据迁移工具故障排除](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [组件依赖项就绪检查问题](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
       * [无法在云基础架构UI上访问Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
-      * [顶点地址清理：不允许使用不同的地址](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md)
       * [未保存对类别所做的更改](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
       * [Adobe Commerce 2.4.0已知问题 — 出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [适用于Adobe Commerce的Magento Order Management System (OMS)处理错误](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
@@ -157,7 +155,6 @@ ht-degree: 0%
       * [更新Adobe Commerce软件时，git pull origin开发失败](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
       * [在云基础架构上的Adobe Commerce上启动阻止程序](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [PHP设置错误](/help/troubleshooting/miscellaneous/php-settings-errors.md)
-      * [Redis问题延迟Commerce管理员登录或签出](/help/troubleshooting/miscellaneous/redis-issue-delay-magento-admin-login-or-checkout.md)
       * [PHP mcrypt扩展未正确安装](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知问题： dotdigital login](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron作业卡在“正在运行”状态](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
@@ -173,7 +170,6 @@ ht-degree: 0%
       * [手动将订单导出到MOM失败。 “导出顺序”按钮返回HTTP 404错误](/help/troubleshooting/miscellaneous/manual-order-export-to-mom-fails-the-export-order-button-returns-http-404-error.md)
       * [PWA Studio：浏览器不信任生成的SSL证书](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [由于必须更改默认清漆设置而导致503错误故障诊断](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
-      * [受限的管理员访问权限导致性能问题](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Cron任务从其他组锁定任务](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
       * [安装xdebug最大函数嵌套级别错误](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [无法保存实体Adobe Commerce后端](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)

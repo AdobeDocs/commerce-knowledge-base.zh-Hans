@@ -4,9 +4,9 @@ description: 本文介绍如何解决因禁用某些Adobe Commerce缓存类型�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: bd6aa238ff8273c60a4cf5160fb614de6ff00d21
+source-git-commit: d9985fecdafa63882f8411b32e296cc47583c93d
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)并运行以下命令：
+1. 首先，检查Adobe Commerce缓存的状态，看看这是否是问题所在。 为此，请[SSH到您的环境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)并运行以下命令：
 
    ```bash
    php bin/magento cache:status
@@ -48,11 +48,10 @@ ht-degree: 0%
 我们开发人员文档中的Adobe Commerce缓存文档：
 
 * [Adobe Commerce缓存概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [管理缓存](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [管理缓存](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 出现性能问题的其他可能原因以及解决方案：
 
-* [禁用Adobe Commerce横幅输出以提高网站性能](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26909)
-* [MySQL表太大](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26945)
+* [禁用Adobe Commerce横幅输出以提高网站性能](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [MySQL表太大](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [性能缓慢、运行速度缓慢且运行时间较长](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
-* [受限的管理员访问权限导致性能问题](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
