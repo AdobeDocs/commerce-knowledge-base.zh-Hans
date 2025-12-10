@@ -4,9 +4,9 @@ description: 本文说明了Adobe Commerce 2.3.5中的一个已知问题：包�
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery
 role: Developer
-source-git-commit: 60f68b9edabd13a69e84705b85d84fd10ee6e2be
+source-git-commit: 39e61a3fe8b75fb613819d89c7d47acdf1c384f6
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,6 @@ ht-degree: 0%
 Adobe Commerce 2.3.6中将会提供相应的修复，该版本计划于2020年第4季度发布。
 
 ## 相关阅读
-
-在我们的支持知识库中：
-
-* [Adobe Commerce 2.3.5中的批量操作产品计数已知问题](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 
 在我们的开发人员文档中：
 

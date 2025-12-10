@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 96ec7b44bd913c5976f0a8e3ce8355f7686622ad
+source-git-commit: dff3d2101da7264fe5e6af9ac5c9a6c1c8c97bc9
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,6 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0 B2B管理员无法将可配置产品添加到报价](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
       * [Adobe Commerce 2.3.6：在地址保存时显示无休止的回旋](/help/troubleshooting/miscellaneous/magento-2-3-6-endless-spinner-displayed-on-address-save.md)
       * [New Relic云基础架构上的Adobe Commerce疑难解答](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
-      * [通过管理面板访问Web设置向导时出现404 not found错误](/help/troubleshooting/miscellaneous/404-error-web-set-up-wizard-cloud.md)
       * [启用缓存以避免性能下降](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Adobe Commerce安全扫描工具疑难解答指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
       * [文件权限准备情况检查问题](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
@@ -116,7 +115,6 @@ ht-degree: 0%
       * [缓存预热和网站在Adobe Commerce上不可用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
       * [解决CSV文件上传的UTF-8错误](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
       * [使用Adobe Commerce上的New Relic排除性能故障](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
-      * [Adobe Commerce 2.3.5中的批量操作产品计数已知问题](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
       * [检查来自CLI的DDoS攻击](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
       * [访问storefront或Commerce管理员时出现空白页面或重定向循环错误](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Adobe Commerce 2.4.1顶点地址验证消息地址更新](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)
@@ -127,7 +125,6 @@ ht-degree: 0%
       * [安装Inventory management后，库存状态不正确](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Adobe Commerce 2.3.5已知问题：虚拟产品多发运订单](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
       * [使用数据导出来查明差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-      * [不显示图库图像，Adobe Commerce和Magento Open Source 2.3.7-p2](/help/troubleshooting/miscellaneous/adobe-commerce-and-magento-open-source-2-3-7-p2-stock-images-not-showing.md)
       * [在Adobe Commerce中启用图像优化时出错](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md)
       * [数据迁移工具故障排除](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [组件依赖项就绪检查问题](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
@@ -141,7 +138,6 @@ ht-degree: 0%
       * [共享访问疑难解答](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
       * [性能缓慢、运行速度缓慢且运行时间较长](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
       * [验证Fastly凭据时出错](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
-      * [备份问题](/help/troubleshooting/miscellaneous/backup-issues.md)
       * [CSV导入后，新客户未显示在客户网格中](/help/troubleshooting/miscellaneous/new-customers-not-displayed-in-customer-grid-after-csv-import.md)
       * [安全扫描工具报告为空白](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
       * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
