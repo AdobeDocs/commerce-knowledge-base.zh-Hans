@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: dff3d2101da7264fe5e6af9ac5c9a6c1c8c97bc9
+source-git-commit: 0c5164641f171a92612417dbc8586b6b6ed442b1
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2679'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,6 @@ ht-degree: 0%
       * [适用于Adobe Commerce的高级报表疑难解答程序](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [常见PHP致命错误和解决方案](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
       * [在Adobe Commerce上更新编辑器失败：参数类型不兼容](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
-      * [无法删除源或更改其代码](/help/troubleshooting/miscellaneous/cannot-delete-the-source-or-change-its-code.md)
       * [Adobe Commerce 2.4.2 B2B：电子邮件模板未更新电子邮件](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
       * [手动将订单导出到MOM失败。 “导出顺序”按钮返回HTTP 404错误](/help/troubleshooting/miscellaneous/manual-order-export-to-mom-fails-the-export-order-button-returns-http-404-error.md)
       * [PWA Studio：浏览器不信任生成的SSL证书](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
@@ -176,7 +175,6 @@ ht-degree: 0%
       * [不在pub media目录中执行的自定义服务器端脚本](/help/troubleshooting/miscellaneous/custom-server-side-scripts-not-executed-in-pub-media-directory.md)
       * [PHP版本准备情况检查问题](/help/troubleshooting/miscellaneous/php-version-readiness-check-issues.md)
       * [云站点运行缓慢](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
-      * [清除云上的Fastly缓存时出错（未成功处理清除请求）](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
       * [自定义SSL证书过期信息](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
       * [PWA Studio：运行开发人员模式时出现验证错误](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [使用Adobe Commerce时关闭每小时Amazon电子邮件](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
