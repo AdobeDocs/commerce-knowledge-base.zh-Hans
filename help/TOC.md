@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 898424645c2ef0435c1a75604a47b7d5713670d8
+source-git-commit: de5dd9b057f2dbe79f9c931ef6d3473d809aedab
 workflow-type: tm+mt
-source-wordcount: '2669'
+source-wordcount: '2663'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ ht-degree: 0%
       * [正在检查慢查询和进程MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [数据库上载断开与MySQL的连接](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [云上的Adobe Commerce上出现MySQL Server已消失&#x200B;错误](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
-      * [Adobe Commerce上的数据库存储疑难解答](/help/troubleshooting/database/database-storage-troubleshooter-on-adobe-commerce.md)
       * [与Adobe Commerce上max_allowed_packet相关的数据库错误](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
       * [Adobe Commerce数据库数值超出范围， [!DNL INT] 到 [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
       * [带有MariaDB 10.6的Adobe Commerce Cloud 2.4.6上的只读副本问题](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
