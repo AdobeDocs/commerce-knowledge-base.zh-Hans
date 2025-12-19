@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9a2dadfbb5ca0a2c04d4e86454a1145b97924f61
+source-git-commit: b03b34be26ed42280036ccda5a94ebc664cdaf7d
 workflow-type: tm+mt
-source-wordcount: '2656'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 0%
       * [配置文件缺失或更改](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL错误60： SSL证书已过期](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
       * [Adobe Commerce中的“产品推荐”模块疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
-      * [Adobe Commerce的/tmp mount full故障诊断](/help/troubleshooting/miscellaneous/tmp-mount-full.md)
       * [未知模块Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
       * [Cron就绪检查问题](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
       * [Redis服务崩溃](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
