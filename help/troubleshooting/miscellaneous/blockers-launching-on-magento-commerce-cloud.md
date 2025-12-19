@@ -4,9 +4,9 @@ description: 本文修复了阻止程序在云基础架构上的Adobe Commerce�
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: a3d11c96bac7922ea3c9d6eb4c19ebe1633da2d6
+source-git-commit: 878abfdc4353122d808929f4834930a16b953e24
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,30 +23,26 @@ ht-degree: 0%
 >
 >启用全页缓存(FPC)后，网站的执行方式会有所不同；请确保在网站正式启用前对其进行测试。
 
-Fastly配置过程在我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)主题中详细记录。 以下是重要步骤。
+Fastly配置过程在我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)主题中详细记录。 以下是重要步骤。
 
 ### 1a. 确保您安装了最新版本的Fastly模块
 
-确保您安装了最新版本的Fastly模块，以获取最新功能和改进。 要检查您是否拥有最新版本的Fastly，请查看我们的用户指南中的[升级Fastly模块](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#upgrade-the-fastly-module)。 有关更多详细信息，请参阅我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
+确保您安装了最新版本的Fastly模块，以获取最新功能和改进。 要检查您是否拥有最新版本的Fastly，请查看我们的用户指南中的[升级Fastly模块](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module)。 有关更多详细信息，请参阅我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 ### 1b. 使用Commerce管理员启用和配置Fastly
 
-有关更多详细信息，请参阅我们的用户指南中的[获取你的Fastly凭据](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#get-fastly-credentials)。
+有关更多详细信息，请参阅我们的用户指南中的[获取你的Fastly凭据](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials)。
 
 ### 1c. 上传Fastly VCL片段
 
-有关更多详细信息，请参阅用户指南中的[将VCL上传到Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
+有关更多详细信息，请参阅用户指南中的[将VCL上传到Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
-您也可以[创建并添加自己的自定义VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hans)。
+您也可以[创建并添加自己的自定义VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)。
 
 ### 1d 为Fastly配置DNS
 
 
-请参阅本文章以了解详细步骤：[在我们的用户指南中设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#update-dns-configuration-with-development-settings)。
-
-### 我们的支持知识库中的相关Fastly文章
-
-* [Fastly缓存不适用于云](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
+请参阅本文章以了解详细步骤：[在我们的用户指南中设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)。
 
 ## 2.有效的SSL (TLS)证书
 
@@ -67,9 +63,9 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **相关文章：**
 
-* 在我们的用户指南中通过routes.yaml[重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html?lang=zh-Hans)。
-* 在我们的用户指南中，通过Cloud Console [重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hans)。
-* 用户指南中的[URL重写](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=zh-Hans)。
+* 在我们的用户指南中通过routes.yaml[重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html)。
+* 在我们的用户指南中，通过Cloud Console [重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)。
+* 用户指南中的[URL重写](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html)。
 
 ## 4.资产绩效
 
@@ -82,8 +78,8 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 * [New Relic](https://support.newrelic.com/)：查找导致网站性能变慢的进程和区域，跟踪每个操作花费的时间，如传输数据、查询、Redis等。
 * [WebPageTest](https://www.webpagetest.org/)（免费）和[Pingdom](https://www.pingdom.com/)（付费）：实时分析不同来源位置的网站页面加载时间。
 
-您还可以考虑对CSS、JavaScript和HTML进行[缩小](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hans)。
+您还可以考虑对CSS、JavaScript和HTML进行[缩小](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)。
 
 **相关文章：**
 
-* 在我们的开发人员文档中测试[部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html?lang=zh-Hans)。
+* 在我们的开发人员文档中测试[部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html)。
