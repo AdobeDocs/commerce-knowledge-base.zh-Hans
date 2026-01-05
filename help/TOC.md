@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d1fe74501ffcb908e9434a0988087ae6c9e73088
+source-git-commit: 557cfbab3dd2c612255c177848d9faf98024a04b
 workflow-type: tm+mt
-source-wordcount: '2617'
+source-wordcount: '2612'
 ht-degree: 0%
 
 ---
@@ -330,7 +330,6 @@ ht-degree: 0%
    * [我可以在我的云实例上安装第三方应用程序吗？](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [链接Magento.com和accounts.magento.cloud帐户登录](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Fastly Origin遮盖功能启用常见问题解答](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
-   * [Adobe Commerce的计费常见问题解答](/help/faq/general/billing-faq-for-adobe-commerce.md)
    * [在我们的云专业架构上，将数据库auto_increment增量变量设置为“3”Adobe Commerce](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
    * [在Cloud Pro基础架构上监控Adobe Commerce的情况说明书](/help/faq/general/monitoring-whitepaper.md)
    * [访问New Relic服务](/help/faq/general/access-new-relic-services.md)
