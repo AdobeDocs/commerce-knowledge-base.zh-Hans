@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 557cfbab3dd2c612255c177848d9faf98024a04b
+source-git-commit: fd5d542ca580060c3f0b3ad28024365a43758cfb
 workflow-type: tm+mt
-source-wordcount: '2612'
+source-wordcount: '2597'
 ht-degree: 0%
 
 ---
@@ -249,7 +249,6 @@ ht-degree: 0%
    * [Adobe Commerce支持票证生命周期策略更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * 操作方法 {#how-to}
    * [操作方法概述](/help/how-to/overview.md)
-   * [Adobe Commerce P1通知热线](/help/how-to/general/adobe-commerce-p1-notification-hotline.md)
    * [如何在支持通知中包含团队成员](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
    * [如何获取和应用安全修补程序](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [设置新 [!DNL domain]的清单](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
@@ -296,7 +295,6 @@ ht-degree: 0%
    * [阻止Adobe Commerce在Fastly级别的恶意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [通过GitHub提交为Adobe Commerce Composer安装创建修补程序](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
    * [在云基础架构上更改Adobe Commerce上的管理员密码](/help/how-to/general/change-magento-admin-password-on-cloud.md)
-   * [如何请求云基础架构扩展中的临时Adobe Commerce](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [在Adobe Commerce上的群集中查看环境vCPU层](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [云基础架构上的Adobe Commerce：检查主机的CPU配置](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [云上的Adobe Commerce：更改身份验证密钥并重新部署](/help/how-to/general/redeploy-with-another-key.md)
