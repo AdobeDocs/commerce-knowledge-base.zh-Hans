@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
+source-git-commit: d9d2382570c53d8da835d770dfae108fe64b31cc
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,6 @@ ht-degree: 0%
       * [部署失败Fastly模块不兼容的Adobe Commerce版本](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
       * [部署错误： SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [与帐户权限和访问密钥相关的部署问题](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
-      * [Adobe Commerce部署疑难解答程序](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [升级到支持PHP 8.1的版本时，在部署过程中出错](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [部署错误：“下载时发生错误7 ...端口443：连接被拒绝”](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [提交不正确的文件时出现部署错误](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
