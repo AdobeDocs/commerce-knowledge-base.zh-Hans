@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: f729183422f29ce4485f640e66e65a1eeb0c4525
+source-git-commit: f619f3de2f2032ef0a79d9a001817458f22394e6
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 0%
       * [在Cloud 2.4.4上切换到OpenSearch for Adobe Commerce](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [Adobe Commerce针对PHP漏洞的建议](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
       * [Adobe Commerce 2.4.0中将删除MySQL目录搜索引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
-      * [Adobe支持客户数据访问和隐私](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
       * [已弃用UPS API](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
       * [2024年发布时间表](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Adobe Commerce支持将摄取过程迁移到Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
