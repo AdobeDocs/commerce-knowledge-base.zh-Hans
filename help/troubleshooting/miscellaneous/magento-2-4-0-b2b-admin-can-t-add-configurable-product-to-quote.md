@@ -4,9 +4,9 @@ description: 本文介绍了在管理B2B报价时Commerce Admin中的一个已�
 exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
 feature: Admin Workspace, B2B, Catalog Management, Configuration, Products, Quotes
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,4 @@ ht-degree: 0%
 ## 推荐
 
 目前，编辑B2B报价时没有解决此问题的办法，但是对于订单和购物车管理，可以从&#x200B;**产品列表**&#x200B;中选择产品，而不是通过&#x200B;**SKU**&#x200B;添加产品。 Adobe Commerce 2.4.1将提供用于解决此问题的修补程序，该版本计划于2020年第4季度发布。
-
-## 相关阅读
-
-* [Adobe Commerce 2.4.0已知问题：无法刷新客户活动](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0已知问题：出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 

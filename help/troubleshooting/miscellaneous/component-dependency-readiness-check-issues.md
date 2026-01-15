@@ -4,9 +4,9 @@ description: 本文提供了组件依赖关系冲突的解决方案。
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ We found conflicting component dependencies.
 >
 >您看到的消息可能会有所不同。
 
-请参阅支持知识库中解决方案[&#128279;](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)的冲突的组件依赖项。
-
 ## 文件系统权限问题 {#trouble-depend-permission}
 
 如果Adobe Commerce文件系统所有者无权写入Adobe Commerce文件系统上的目录，则会显示一条与以下内容类似的消息：
@@ -51,7 +49,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-请确保按照开发人员文档中的[所有权和权限概述](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文中所述设置文件系统权限。
+请确保按照开发人员文档中的[所有权和权限概述](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文中所述设置文件系统权限。
 
 ## 组件依赖关系检查状态从不更改 {#trouble-depend-state}
 

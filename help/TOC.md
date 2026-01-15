@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 466435b0f73d1fb26ce492c0063104b1dd932e2d
+source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2417'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,6 @@ ht-degree: 0%
       * [Redis服务崩溃](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
       * [SQL查询： EXPLAIN成本错误](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [Adobe Commerce 2.4.0 B2B管理员无法将可配置产品添加到报价](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-      * [Adobe Commerce 2.3.6：在地址保存时显示无休止的回旋](/help/troubleshooting/miscellaneous/magento-2-3-6-endless-spinner-displayed-on-address-save.md)
       * [New Relic云基础架构上的Adobe Commerce疑难解答](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
       * [启用缓存以避免性能下降](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Adobe Commerce安全扫描工具疑难解答指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
@@ -124,7 +123,6 @@ ht-degree: 0%
       * [组件依赖项就绪检查问题](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
       * [无法在云基础架构UI上访问Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
       * [未保存对类别所做的更改](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
-      * [Adobe Commerce 2.4.0已知问题 — 出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [适用于Adobe Commerce的Magento Order Management System (OMS)处理错误](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
       * [从2.2.X升级到2.3.X后，不会加载缓存的图像](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
       * [将站点添加到安全扫描时出现错误消息](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
@@ -146,37 +144,24 @@ ht-degree: 0%
       * [PHP mcrypt扩展未正确安装](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知问题： dotdigital login](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron作业卡在“正在运行”状态](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
-      * [部署后.magento.env.yaml更改未显示在env.php中](/help/troubleshooting/miscellaneous/magento-env-yaml-changes-not-shown-in-env-php-after-deploy.md)
-      * [禁用模块后出现问题](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [卸载非正则表达式重定向到Fastly而不是Nginx（路由）](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
-      * [Adobe Commerce 2.4.0已知问题：创建新订单按钮缺失](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
       * [适用于Adobe Commerce的高级报表疑难解答程序](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [常见PHP致命错误和解决方案](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
-      * [在Adobe Commerce上更新编辑器失败：参数类型不兼容](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
       * [Adobe Commerce 2.4.2 B2B：电子邮件模板未更新电子邮件](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
       * [PWA Studio：浏览器不信任生成的SSL证书](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [由于必须更改默认清漆设置而导致503错误故障诊断](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
       * [Cron任务从其他组锁定任务](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
       * [安装xdebug最大函数嵌套级别错误](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
-      * [在浏览器中访问Adobe Commerce时，出现PHP版本错误或404错误](/help/troubleshooting/miscellaneous/php-version-error-or-404-error-when-accessing-magento-in-browser.md)
-      * [导入时未更新捆绑选项顺序](/help/troubleshooting/miscellaneous/bundle-options-order-is-not-updated-by-import.md)
-      * [Adobe Commerce 2.4.0：“将选定内容添加到购物车”不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
       * [MBI：数据差异](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
       * [不在pub media目录中执行的自定义服务器端脚本](/help/troubleshooting/miscellaneous/custom-server-side-scripts-not-executed-in-pub-media-directory.md)
-      * [PHP版本准备情况检查问题](/help/troubleshooting/miscellaneous/php-version-readiness-check-issues.md)
       * [云站点运行缓慢](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
       * [自定义SSL证书过期信息](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
       * [PWA Studio：运行开发人员模式时出现验证错误](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [使用Adobe Commerce时关闭每小时Amazon电子邮件](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [Github令牌问题和编辑器密钥过程](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
-      * [Adobe Commerce 2.4.1问题：无法在Chrome中更改Amazon帐户](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
-      * [ECE-Tools和修补程序更新错误Adobe Commerce云基础架构2.2.x.、2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
       * [PWA Studio：Webpack在开始编译之前挂起](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-      * [安装最新修补程序以修复Adobe Commerce Redis问题](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
       * [解决非法偏移错误](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [以编程方式创建时产品状态不正确](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [快速错误：插件VCL版本已过时！ 请重新上传](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)
-      * [Adobe Commerce 2.4.0：无法刷新客户的活动](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
       * [云上的Adobe Commerce存在变量/导出文件夹权限问题](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [计划内容暂存更新未与过时的Fastly缓存一起显示](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [cron疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
@@ -199,12 +184,10 @@ ht-degree: 0%
       * [Adobe Commerce Intelligence帐户锁定疑难解答](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
       * [影响xdebug安装的已知问题](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)
       * [无法登录Adobe Commerce支持或云帐户](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-      * [冲突的组件依赖关系](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)
       * [Adobe Commerce Intelligence服务策略](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [从Git推送时处于生产状态的新环境](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [登录到Commerce管理员后出错](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [适用于Adobe Commerce的Magento Order Management System (OMS)超时](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-      * [清除Commerce Admin中的缓存时出错](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1：保存dotdigital Page Builder表单时显示空页面](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce cloud：通过终止消息终止重新索引](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [Adobe Commerce状态列缺少导出的产品CSV文件](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)

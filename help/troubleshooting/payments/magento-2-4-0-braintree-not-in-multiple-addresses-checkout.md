@@ -4,9 +4,9 @@ description: 本文为Adobe Commerce 2.4.0的已知问题提供了解决方法�
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,3 @@ Braintree不可用作支付方式。
 ## 解决方法
 
 如果使用Adobe Commerce 2.4.0中的Braintree，请勿启用多地址选项。已在Adobe Commerce 2.4.1中修复此问题。
-
-## 我们的支持知识库中的相关阅读
-
-* [Adobe Commerce 2.4.0已知问题 — 无法刷新客户活动](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0已知问题 — 出口税率不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Adobe Commerce 2.4.0已知问题：“将选定内容添加到购物车”按钮不起作用](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
