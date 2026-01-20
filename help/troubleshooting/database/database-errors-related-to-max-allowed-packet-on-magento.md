@@ -4,16 +4,16 @@ description: 本文针对“var/log/exception.log”中的数据库连接错误�
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # 与Adobe Commerce上max_allowed_packet相关的数据库错误
 
-本文为导入大量产品或执行其他任务强制服务器处理大于`max_allowed_packet`中设置的大于默认值16MB的数据包时，`var/log/exception.log`中可能发生的数据库连接错误提供了解决方案。
+本文为导入大量产品或执行其他任务强制服务器处理大于`var/log/exception.log`中设置的大于默认值16MB的数据包时，`max_allowed_packet`中可能发生的数据库连接错误提供了解决方案。
 
 ## 受影响的产品和版本
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-当[!DNL MySQL]客户端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)服务器收到大于[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)字节的数据包时，它会发出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)错误（可在`exception.log`中看到）并关闭连接。 对于某些客户端，如果通信数据包太大，则在查询&#x200B;*错误期间您还可能会收到*&#x200B;与[!DNL MySQL]服务器的丢失连接。
+当[!DNL MySQL]客户端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)服务器收到大于[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)字节的数据包时，它会发出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)错误（可在`exception.log`中看到）并关闭连接。 对于某些客户端，如果通信数据包太大，则在查询&#x200B;*错误期间您还可能会收到[!DNL MySQL]与*&#x200B;服务器的丢失连接。
 
 <u>重现步骤</u>
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 解决方案
 
 1. 标识单个行超过当前`max_allowed_packet`限制的查询。 需要重写此类查询以减少返回的数据量。 可以通过在`SELECT`语句中具有更少列数或为表设计中的各个列选择更小的数据类型来实现这一点。 如果您拥有New Relic帐户，请使用[New Relic APM错误页面](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors)、[New Relic APM数据库页面](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time)和[New Relic日志](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management)搜索相关查询。
-1. 为快速修正，您可以在[提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)时临时请求增加`max_allowed_packet`的大小，但这由客户工程团队自行决定，因为值过大可能会导致网络拥塞，进而导致复制失败。
+1. 为快速修正，您可以在`max_allowed_packet`提交票证[时临时请求增加](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)的大小，但这由客户工程团队自行决定，因为值过大可能会导致网络拥塞，进而导致复制失败。
 1. 作为最佳实践，您应在CLI中针对某些大型数据库表运行以下命令：
 
    ```
@@ -45,8 +45,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 我们的开发人员文档中的[内部部署安装概述](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/overview)。
-* [数据库上载将断开与支持知识库中 [!DNL MySQL]](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)的连接。
-* 在我们的支持知识库中[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)。
-* [解决支持知识库中数据库性能问题的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)。
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 我们的开发人员文档中的[内部部署安装概述](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
+* 在我们的支持知识库中[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
+* [解决支持知识库中数据库性能问题的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)。
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

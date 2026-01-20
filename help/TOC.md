@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d9d2382570c53d8da835d770dfae108fe64b31cc
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2407'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 0%
    * [疑难解答概述](/help/troubleshooting/overview.md)
    * 数据库 {#database}
       * [正在检查慢查询和进程MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
-      * [数据库上载断开与MySQL的连接](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [云上的Adobe Commerce上出现MySQL Server已消失&#x200B;错误](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
       * [与Adobe Commerce上max_allowed_packet相关的数据库错误](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
       * [Adobe Commerce数据库数值超出范围， [!DNL INT] 到 [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)

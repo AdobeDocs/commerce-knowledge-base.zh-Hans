@@ -4,16 +4,16 @@ description: 本文讨论如何解决您在“cron.log”文件中收到“ *SQL
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
 # 云上的Adobe Commerce上出现MySQL Server已消失&#x200B;错误
 
-本文讨论如何解决您在`cron.log`文件中收到“*SQL Server已不存在*”错误消息的问题。 可能会出现一系列症状，包括映像文件导入问题或部署失败。
+本文讨论如何解决您在&#x200B;*文件中收到“* SQL Server已不存在`cron.log`”错误消息的问题。 可能会出现一系列症状，包括映像文件导入问题或部署失败。
 
 ## 受影响的产品和版本
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-您在`cron.log`文件中收到了“*SQL Server已消失*”错误消息。
+您在&#x200B;*文件中收到了“* SQL Server已消失`cron.log`”错误消息。
 
 <u>重现步骤</u>
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 <u>实际结果</u>
 
-`cron.log`中的错误消息：&quot; *SQLSTATE\[HY000\] \[2006\] MySQL服务器已消失at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php：144&quot;*
+`cron.log`中的错误消息：&quot; *SQLSTATE\[HY000\] \[2006\] MySQL服务器已消失at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;*
 
 ## 原因
 
@@ -47,6 +47,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [数据库上载断开与MySQL的连接](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
-* [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)
-* [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)
+* [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
