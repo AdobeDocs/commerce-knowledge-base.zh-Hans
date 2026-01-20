@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >在实施本文中的解决方案（`INT`到`BIGINT`架构更新）之前，商家必须始终检查他们将要更改的字段是否与其他表没有任何外键关系。 如果该字段确实与其他表有外键关系，则会出现问题，因为相关字段仍为`INT`。 他们可以使用以下查询来验证这一点。 此查询列出数据库中给定表字段的外键关系：
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM
