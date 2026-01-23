@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
+source-git-commit: 2118d569e032293f0609becaf10ba4e903ae4b5d
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -223,7 +223,6 @@ ht-degree: 0%
       * [ElasticSuite跟踪索引导致Elasticsearch出现问题](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 帮助中心指南 {#help-center-guide}
    * [适用于Adobe Commerce的Experience League支持用户指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
-   * [Adobe Commerce支持票证生命周期策略更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * 操作方法 {#how-to}
    * [操作方法概述](/help/how-to/overview.md)
    * [如何在支持通知中包含团队成员](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
