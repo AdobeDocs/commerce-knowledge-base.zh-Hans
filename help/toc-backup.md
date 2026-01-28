@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d9985fecdafa63882f8411b32e296cc47583c93d
+source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
 workflow-type: tm+mt
-source-wordcount: '9207'
+source-wordcount: '9208'
 ht-degree: 0%
 
 ---
@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Realpath缓存大小最佳实践](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [在Adobe Commerce中优化CSS和JS文件](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * 数据库 {#database}
-      * [Adobe Commerce 2.3.5升级：压缩为动态表](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=zh-Hans)
+      * [Adobe Commerce 2.3.5升级：压缩为动态表](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
       * [触发器使用最佳实践](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)
+      * [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
       * [适用于MySQL从属连接的云基础架构上的Adobe Commerce最佳实践](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)
+      * [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
    * 常规 {#general}
       * [私有内容块中的_isScopePrivate会降低Adobe Commerce性能](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [Adobe Commerce在云基础架构上的疑难解答最佳实践](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [云基础架构上Adobe Commerce中的图像最佳实践](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Adobe Commerce最佳实践：在管理员中执行关键操作](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Adobe Commerce最佳实践：如果未使用，请禁用报表](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [索引器“按计划更新”可优化Adobe Commerce性能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=zh-Hans)
+      * [索引器“按计划更新”可优化Adobe Commerce性能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
       * [Adobe Commerce产品变体最佳实践](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Adobe Commerce订购表现最佳实践](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Adobe Commerce最佳实践：启用异步订单处理](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
@@ -471,7 +471,7 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/general/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
       * [无法访问最新的Adobe Commerce预发行版](/help/troubleshooting/general/cannot-access-the-latest-magento-commerce-pre-release.md)
       * [管理员密码以纯文本形式保存到操作日志](/help/troubleshooting/general/admin-passwords-saved-as-plain-text-to-actions-log.md)
-      * [运行 &#x200B;](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
+      * [运行 ](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
       * [索引被另一个进程锁定](/help/troubleshooting/general/index-is-locked-by-another-process.md)
       * [诊断数据差异](/help/troubleshooting/general/diagnosing-a-data-discrepancy.md)
       * [部署错误： SQLSTATE[HY000]](/help/troubleshooting/general/deployment-error-sql-hy000.md)
@@ -855,7 +855,7 @@ ht-degree: 0%
    * [文件权限准备情况检查问题](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
    * [Fastly缓存在云基础架构上不起作用Adobe Commerce](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
    * [诊断Google电子商务收入差异](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
-   * [我已为Sensei配置了API密钥，但只看到一个SaaS数据空间](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
+   * [我已为Adobe AI配置了API密钥，但只看到一个SaaS数据空间](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
    * [启用Fastly的子页面上不显示主菜单（类别）](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
    * [文件存储不足，特定页面加载缓慢](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
    * [由于完全重新索引，性能缓慢](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
@@ -902,12 +902,12 @@ ht-degree: 0%
    * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
    * [无法访问最新的Adobe Commerce预发行版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
    * [管理员密码以纯文本形式保存到操作日志](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
-   * [运行 &#x200B;](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
+   * [运行 ](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
    * [索引被另一个进程锁定](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
    * [诊断数据差异](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
    * [未收到管理员2FA电子邮件通知](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
    * [重定向回Commerce管理员登录表单，其中显示“您的当前会话已过期”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
-   * [Redis未序列化错误 &#x200B;](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
+   * [Redis未序列化错误 ](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
    * [处于维护模式但可供客户使用的站点](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
    * [更新Adobe Commerce软件时，git pull origin开发失败](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
    * [在云基础架构上的Adobe Commerce上启动阻止程序](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
@@ -976,7 +976,7 @@ ht-degree: 0%
    * [Adobe Commerce Fastly疑难解答](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
    * [高吞吐量AJAX请求导致性能不佳](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
    * [PWA Studio：浏览器显示“无法代理到”错误](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
-   * [运行 &#x200B;](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed_version.txt-issue.md)
+   * [运行 ](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed_version.txt-issue.md)
    * [单次使用优惠券多次，Adobe Commerce](/help/troubleshooting/miscellaneous/coupon-code-used-more-than-once-adobe-commerce.md)
    * [重定向回Commerce管理员登录表单，其中显示“您的帐户暂时被禁用”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
    * [Google Analytics在部署后将被禁用](/help/troubleshooting/miscellaneous/google-analytics-gets-disabled-after-deployment.md)
@@ -992,7 +992,7 @@ ht-degree: 0%
    * [清除Commerce Admin中的缓存时出错](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
    * [在Adobe Commerce上超过SendGrid信用时未发送电子邮件](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
    * [Adobe Commerce 2.4.1：保存dotdigital Page Builder表单时显示空页面](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
-   * [Adobe Commerce cloud：重新索引终止 &#x200B;](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
+   * [Adobe Commerce cloud：重新索引终止 ](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
    * [部署失败：Elasticsearch版本与Adobe Commerce版本不兼容](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
    * [部署失败：无法应用MDVA-43395修补程序](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
    * [启用早期alpha包模块时出现部署错误](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)
