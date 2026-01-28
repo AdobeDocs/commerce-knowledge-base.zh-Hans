@@ -1,12 +1,12 @@
 ---
-title: 'Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知问题：dotdigital登录'
+title: Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知问题： dotdigital login
 description: 本文介绍了一个Adobe Commerce 2.3.6、2.4.0-p1和2.4.1已知问题，即在启用dotdigital帐户的情况下，无法通过Admin Panel登录[dotdigital](https://dotdigital.com/)。
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 38b4d310cab9dccad142c244f6e07f8421a9894d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,3 @@ ht-degree: 0%
 ## 解决方案
 
 解决方法：对此特定情况使用Safari的替代浏览器。
-
-## 相关阅读
-
-[Adobe Commerce 2.4.1已知问题 — 在我们的支持知识库中，无法使用其他送货/帐单地址验证顶点地址](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)。
