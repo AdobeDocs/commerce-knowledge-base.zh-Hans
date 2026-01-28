@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
+source-git-commit: ce183e2135380a360ec48399c82e104f00e64f01
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 0%
       * [安装Inventory management后，库存状态不正确](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Adobe Commerce 2.3.5已知问题：虚拟产品多发运订单](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
       * [使用数据导出来查明差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-      * [在Adobe Commerce中启用图像优化时出错](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md)
       * [数据迁移工具故障排除](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [组件依赖项就绪检查问题](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
       * [无法在云基础架构UI上访问Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
