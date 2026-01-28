@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Realpath缓存大小最佳实践](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [在Adobe Commerce中优化CSS和JS文件](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * 数据库 {#database}
-      * [Adobe Commerce 2.3.5升级：压缩为动态表](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+      * [Adobe Commerce 2.3.5升级：压缩为动态表](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=zh-Hans)
       * [触发器使用最佳实践](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)
       * [适用于MySQL从属连接的云基础架构上的Adobe Commerce最佳实践](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+      * [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)
    * 常规 {#general}
       * [私有内容块中的_isScopePrivate会降低Adobe Commerce性能](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [Adobe Commerce在云基础架构上的疑难解答最佳实践](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [云基础架构上Adobe Commerce中的图像最佳实践](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Adobe Commerce最佳实践：在管理员中执行关键操作](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Adobe Commerce最佳实践：如果未使用，请禁用报表](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [索引器“按计划更新”可优化Adobe Commerce性能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [索引器“按计划更新”可优化Adobe Commerce性能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=zh-Hans)
       * [Adobe Commerce产品变体最佳实践](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Adobe Commerce订购表现最佳实践](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Adobe Commerce最佳实践：启用异步订单处理](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
