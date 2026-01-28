@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4d40c0e6c8a73fac19e03d72aa1b1cc584a0228a
+source-git-commit: 12e17359c84e3a71425fce1b378cb57ed7fca86d
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,6 @@ ht-degree: 0%
       * [在云基础架构上的Adobe Commerce上启动阻止程序](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [PHP设置错误](/help/troubleshooting/miscellaneous/php-settings-errors.md)
       * [PHP mcrypt扩展未正确安装](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
-      * [Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知问题： dotdigital login](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron作业卡在“正在运行”状态](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
       * [卸载非正则表达式重定向到Fastly而不是Nginx（路由）](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [适用于Adobe Commerce的高级报表疑难解答程序](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
