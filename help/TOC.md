@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 7f7e26f07e921577b1dd7686f5dace396888aa60
+source-git-commit: 49dd77f7cb185d771f5f1db823692ede72748634
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -309,7 +309,6 @@ ht-degree: 0%
    * [Adobe Commerce GDPR资源](/help/faq/general/magento-gdpr-resources.md)
    * [基本价格更改对共享目录价格的影响](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
    * [Adobe Commerce上的管理面板中的双重身份验证常见问题解答](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
-   * [Adobe Commerce支持工具概览](/help/faq/general/support-tools-overview.md)
    * [云上的备份（快照）：常见问题解答](/help/faq/general/backup-snapshot-on-cloud-faq.md)
    * [2024和2023年Adobe Commerce发布战略和生命周期策略的常见问题解答](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
    * [我是否可以为共享目录中的价格计划内容暂存更新？](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
