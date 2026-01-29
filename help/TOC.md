@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 12e17359c84e3a71425fce1b378cb57ed7fca86d
+source-git-commit: 8d9e35d76f4956387b73df620256eccae3a8bb88
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2350'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,6 @@ ht-degree: 0%
       * [PWA Studio：Webpack在开始编译之前挂起](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [解决非法偏移错误](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [以编程方式创建时产品状态不正确](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [云上的Adobe Commerce存在变量/导出文件夹权限问题](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [计划内容暂存更新未与过时的Fastly缓存一起显示](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [cron疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [导出的产品.csv文件不显示](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
@@ -315,5 +314,4 @@ ht-degree: 0%
    * [云上的备份（快照）：常见问题解答](/help/faq/general/backup-snapshot-on-cloud-faq.md)
    * [2024和2023年Adobe Commerce发布战略和生命周期策略的常见问题解答](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
    * [我是否可以为共享目录中的价格计划内容暂存更新？](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
-   * [Adobe Commerce软件终止支持常见问题解答](/help/faq/general/adobe-commerce-eos-policy-faq.md)
    * [我是否需要Fastly才能使用Headless Adobe Commerce网站？](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
