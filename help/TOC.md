@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 3786fde60a4161a155da798a9deda0184e6d1e6a
+source-git-commit: 87955322d02a499cf97d297761c9c1f7ebbca3c3
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,6 @@ ht-degree: 0%
    * [从暂存或生产环境恢复数据库快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials：更新支付方式或取消订阅](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [Adobe Commerce Intelligence培训视频： SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
-   * [为图像和其他静态内容设置缓存TTL](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)
    * [仅为首次购买提供折扣（无优惠券）](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [回滚没有云快照的环境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [记录入门计划的位置（目录）](/help/how-to/general/log-locations-directories-for-starter-plan.md)
