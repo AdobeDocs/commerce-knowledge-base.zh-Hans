@@ -3,16 +3,16 @@ title: 适用于Adobe Commerce的Experience League支持用户指南
 description: 了解如何向Experience League支持提交支持工单、提供对帐户的共享访问以及导航Adobe Commerce知识库。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: be3f8d0b9c6ef46d2ba7105b32a7ce1ab957ae14
+source-git-commit: 307252b30091f2ba397cba09e840050a86f610b5
 workflow-type: tm+mt
-source-wordcount: '3121'
+source-wordcount: '3345'
 ht-degree: 0%
 
 ---
 
 # 适用于Adobe Commerce的Experience League支持用户指南
 
-在本指南中，了解如何向[Experience League支持](https://experienceleague.adobe.com/home?lang=zh-Hans#support)提交支持票证，并提供对Adobe Commerce帐户的共享访问权限。
+在本指南中，了解如何向[Experience League支持](https://experienceleague.adobe.com/home#support)提交支持票证，并提供对Adobe Commerce帐户的共享访问权限。
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目前，要查看您之前在Adobe Commerce帮助中心提交的案例，您必须转到https://support.magento.com/hc/en-us/requests ，因为这些案例尚未迁移到新的支持票证系统。 帮助中心现在为只读；要继续获得对原始问题的支持，您必须向[Experience League支持](https://experienceleague.adobe.com/home?lang=zh-Hans#support)提交跟进票证。
+>目前，要查看您之前在Adobe Commerce帮助中心提交的案例，您必须转到https://support.magento.com/hc/en-us/requests ，因为这些案例尚未迁移到新的支持票证系统。 帮助中心现在为只读；要继续获得对原始问题的支持，您必须向[Experience League支持](https://experienceleague.adobe.com/home#support)提交跟进票证。
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 要登录Adobe Experience League支持，请执行以下步骤：
 
-1. 导航到[experienceleague.adobe.com](https://experienceleague.adobe.com/zh-hans)。
+1. 导航到[experienceleague.adobe.com](https://experienceleague.adobe.com/)。
 1. 使用您的Adobe登录凭据登录。
 
 ![登录experience-league](assets/experience_league_sign_in.png)
@@ -146,7 +146,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >1. 导航到accounts.magento.com ，然后使用您将用于管理Adobe Experience League中的支持案例的相同配置文件（企业、学校或个人）登录。
 >1. 成功登录accounts.magento.com配置文件后，请导航回experienceleague.adobe.com并登录。
 >1. 从组织下拉菜单中选择您的组织。
->1. 如果贵组织仍未出现，请联系Commerce管理员以获取支持委派权限。 有关其他信息，请参阅[Commerce帐户共享](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-share)帮助文章。
+>1. 如果贵组织仍未出现，请联系Commerce管理员以获取支持委派权限。 有关其他信息，请参阅[Commerce帐户共享](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)帮助文章。
 
 >[!NOTE]
 >
@@ -163,6 +163,25 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 >1. 如果您为OrgA提交了案例，但问题实际影响OrgB，则OrgB的成员将来将无法在[!UICONTROL My Cases]下看到此案例。
 >1. 此外，OrgA成员将能够查看[!UICONTROL My Cases]下实际适用于OrgB的案例，这可能会导致隐私问题。
 
+>[!NOTE]
+>
+> 为确保您获得最快、最准确的支持，请在创建支持请求时选择正确的详细信息。 准确的选择有助于将您的案例直接发送到正确的团队，并减少响应时间。
+>
+>如果贵组织有权使用Adobe Commerce Intelligence/Commerce报表(MBI)，但您需要有关高级报表的帮助，请不要选择&#x200B;**Commerce报表**&#x200B;作为产品。 Commerce报表团队不支持高级报表问题。
+>
+>如果无法选择其他产品（例如，**选择产品**&#x200B;下拉列表为空或未显示），则通常是由以下原因之一造成的：
+>
+>* 您的Commerce授权已过期或处于非活动状态（例如，由于未解决的计费或许可问题）。
+>* 对于在云基础架构(PaaS)上的Adobe Commerce上托管的实例，尚未将您添加到云项目。
+>
+>对于云项目上的Adobe Commerce，请联系您的帐户所有者，并请求将其添加到相应的云项目。 有关详细信息，请参阅[在云基础架构上管理Adobe Commerce的用户访问权限](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access)。
+>
+>在您获得共享访问权限并添加到云项目后：
+>
+>1. 转到[Adobe支持](https://experienceleague.adobe.com/home?lang=en#support)页面。
+>1. 在左侧的组织下拉列表中，选择名称以&#x200B;**(Commerce)**&#x200B;结尾的组织。
+>1. 提交相应产品的票证，对于与高级报告具体相关的问题，请勿选择&#x200B;**Commerce报告**。
+
 您必须同时在https://account.adobe.com和https://account.magento.com拥有帐户才能登录Experience League以提交支持案例。 在登录之前，您将无法提交支持案例。
 
 >[!NOTE]
@@ -178,14 +197,14 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 要使用Adobe Commerce帐户页提交新的支持工单，请执行以下步骤：
 
-1. 登录到您的Adobe Commerce帐户。 请参阅我们的用户指南中的[详细说明](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=zh-Hans#create-a-commerce-account)。
+1. 登录到您的Adobe Commerce帐户。 请参阅我们的用户指南中的[详细说明](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account)。
 1. 单击&#x200B;**支持**&#x200B;选项卡。
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
 
 1. 系统会为您加载Adobe Experience League支持页面。
 1. 从左侧菜单中选择&#x200B;**[!UICONTROL Open Ticket]**。
-1. 填写[字段](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions)。
+1. 填写[字段](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions)。
 1. 单击&#x200B;**提交**。
 
 #### *请在Adobe Commerce帐户页面上验证您的电子邮件地址*&#x200B;错误 {#verify-email-address-error}
@@ -215,7 +234,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 #### 从Adobe Commerce帮助中心查看历史案例
 
-详细了解如何从Adobe Commerce知识库的&#x200B;**停用Adobe Commerce帮助中心**&#x200B;中的Adobe Commerce帮助中心[查看您的历史案例](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center)。
+详细了解如何从Adobe Commerce知识库的&#x200B;**停用Adobe Commerce帮助中心**&#x200B;中的Adobe Commerce帮助中心[查看您的历史案例](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center)。
 
 #### 查看您的观察案例
 
@@ -258,7 +277,7 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 >[!NOTE]
 >
->有关如何为案例添加和删除观察者的详细信息，请参阅[添加和删除观察者、关闭和重新打开票证视频](https://experienceleague.adobe.com/zh-hans/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket)。
+>有关如何为案例添加和删除观察者的详细信息，请参阅[添加和删除观察者、关闭和重新打开票证视频](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket)。
 
 ### 您案例中的备注 {#comments-in-your-case}
 
@@ -278,17 +297,17 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 >[!NOTE]
 >
->有关如何关闭案例的更多信息，请参阅[添加和删除观察者、关闭和重新打开票证视频](https://experienceleague.adobe.com/zh-hans/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket)。
+>有关如何关闭案例的更多信息，请参阅[添加和删除观察者、关闭和重新打开票证视频](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket)。
 
 ### 重新打开您的案例 {#reopen-case}
 
 >[!NOTE]
 >
->**您只能在案例关闭后的14天内重新打开案例。**&#x200B;如果您已超过案例关闭的14天，但仍想请求有关问题的帮助，则需要打开一个新案例。<br>有关关闭和重新打开案例的详细信息，请参阅[添加和删除观察者、关闭和重新打开票证视频](https://experienceleague.adobe.com/zh-hans/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket)。
+>**您只能在案例关闭后的14天内重新打开案例。**&#x200B;如果您已超过案例关闭的14天，但仍想请求有关问题的帮助，则需要打开一个新案例。<br>有关关闭和重新打开案例的详细信息，请参阅[添加和删除观察者、关闭和重新打开票证视频](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/help-and-support/add-remove-watchers-close-reopen-support-ticket)。
 
 >[!NOTE]
 >
->无法通过响应来自已关闭票证的电子邮件通知来重新打开案例。 要重新打开案例，请确保帐户所有者已授予您[共享访问权限](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26164)。
+>无法通过响应来自已关闭票证的电子邮件通知来重新打开案例。 要重新打开案例，请确保帐户所有者已授予您[共享访问权限](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26164)。
 
 ### 使用Cloud Console提交票证 {#cloud-console}
 
@@ -298,16 +317,16 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 1. 在用户菜单中选择&#x200B;**[!UICONTROL Support]**。
 1. 加载&#x200B;**[!UICONTROL My Tickets]**&#x200B;页面。
 1. 单击右上角的&#x200B;**[!UICONTROL Submit a ticket]**。
-1. 填写[字段](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions)。
+1. 填写[字段](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-support-ticket-contact-reason-descriptions)。
 1. 单击&#x200B;**[!UICONTROL Submit]**。
 
 ### Adobe Commerce P1热线 {#P1-hotline}
 
-[Adobe Commerce P1热线](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=zh-Hans)文章提供了Adobe Commerce在P1事件期间寻求帮助时的P1热线号码，并解释了要提供的信息。
+[Adobe Commerce P1热线](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html)文章提供了Adobe Commerce在P1事件期间寻求帮助时的P1热线号码，并解释了要提供的信息。
 
 ### Adobe Commerce共同责任运营模式 {#shared-responsibility-operational-model}
 
-请参阅关于[Adobe Commerce分担责任运营模型](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary)的文章，
+请参阅关于[Adobe Commerce分担责任运营模型](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary)的文章，
 旨在厘清我们专业基础设施服务的运营责任。
 
 ### 打开跟进票证 {#follow-up}
@@ -332,17 +351,17 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 ### 提供共享访问 {#provide-shared-access}
 
-有关设置共享帐户的详细步骤，请参阅Adobe Commerce快速入门指南的[共享Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-share)部分。
+有关设置共享帐户的详细步骤，请参阅Adobe Commerce快速入门指南的[共享Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)部分。
 
 >[!NOTE]
 >
->在授予用户共享访问权限之前，该用户必须具有现有帐户 — 有关更多详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
+>在授予用户共享访问权限之前，该用户必须具有现有帐户 — 有关更多详细信息，请参阅[创建Commerce帐户](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
 
 为新用户提供共享访问后，相关信息可在您的Adobe Commerce帐户页面的&#x200B;**共享访问** > **管理权限**&#x200B;中获得。
 
 >[!NOTE]
 >
->共享访问不会自动授予对Commerce Cloud Console的访问权限。 您需要[单独将用户添加到云项目](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project)。
+>共享访问不会自动授予对Commerce Cloud Console的访问权限。 您需要[单独将用户添加到云项目](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project)。
 
 ![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
@@ -390,14 +409,14 @@ Adobe Experience League支持案例管理允许通过案例与支持人员合作
 
 ![grant-account-permissions-image](assets/help-center-user-guide-grant-account-permissions-image.png){width="800"}
 
-有关更多信息，请参阅我们的Commerce on Cloud Infrastructure指南上的[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans#manage-users-from-the-project-web-interface)文档。
+有关更多信息，请参阅我们的Commerce on Cloud Infrastructure指南上的[管理用户访问权限](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface)文档。
 
 ### 访问您的共享帐户（切换帐户） {#switch-accounts}
 
 >[!NOTE]
 >
 >提交Adobe Commerce的票证不需要执行此步骤。
->有关提交Adobe Commerce票证的演示，[请观看此视频](https://experienceleague.adobe.com/zh-hans/playlists/support-requests)。
+>有关提交Adobe Commerce票证的演示，[请观看此视频](https://experienceleague.adobe.com/en/playlists/support-requests)。
 
 要使用为您提供的共享访问权限，请执行以下步骤：
 
