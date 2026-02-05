@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 538514ebb9a262af74aa1304ea7d70aefcf08dbe
+source-git-commit: eb9dce9eaf08283ff20d4a30b619e4c00207f551
 workflow-type: tm+mt
-source-wordcount: '2269'
+source-wordcount: '2266'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,6 @@ ht-degree: 0%
       * [Adobe Commerce中的“产品推荐”模块疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
       * [未知模块Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
       * [Cron就绪检查问题](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
-      * [Redis服务崩溃](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
       * [SQL查询： EXPLAIN成本错误](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [Adobe Commerce 2.4.0 B2B管理员无法将可配置产品添加到报价](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
       * [New Relic云基础架构上的Adobe Commerce疑难解答](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
