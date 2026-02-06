@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: a1ce42bcd018d2c9b9b40060c225a22112d878fc
+source-git-commit: 943a85cb94073190654ae8abd7315f3014c40170
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,6 @@ ht-degree: 0%
    * [访问New Relic服务](/help/faq/general/access-new-relic-services.md)
    * [Adobe Commerce的Web内容可访问性](/help/faq/general/accessibility.md)
    * [客户可以在Adobe Commerce中使用多少张优惠券？](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
-   * [在云基础架构沙盒请求上合作伙伴Adobe Commerce](/help/faq/general/partner-magento-commerce-cloud-sandbox-requests.md)
    * [Adobe Commerce GDPR资源](/help/faq/general/magento-gdpr-resources.md)
    * [基本价格更改对共享目录价格的影响](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
    * [Adobe Commerce上的管理面板中的双重身份验证常见问题解答](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
