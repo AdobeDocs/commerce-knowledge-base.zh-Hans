@@ -4,7 +4,7 @@ description: 本文修复了手动运行“setup:static-content:deploy”命令�
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # 运行`setup:static-content:deploy` deployed_version.txt问题
 
-本文修复了手动运行`setup:static-content:deploy`命令时出现`deployed_version.txt`不可写错误。
+本文修复了手动运行`deployed_version.txt`命令时出现`setup:static-content:deploy`不可写错误。
 
 ## 问题
 
-如果您遵循Adobe Commerce on cloud infrastructure的建议以使用[配置管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)（并将静态资源生成移动到生成阶段以减少部署期间的网站停机时间），则在手动运行`setup:static-content:deploy`命令时可能会遇到以下错误：
+如果您遵循Adobe Commerce on cloud infrastructure建议以使用配置管理（并将静态资产生成移动到构建阶段以减少部署期间的网站停机时间），则在手动运行`setup:static-content:deploy`命令时可能会遇到以下错误：
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy

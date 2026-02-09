@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 943a85cb94073190654ae8abd7315f3014c40170
+source-git-commit: ceea083458aef5f8d0fcabef66399046d0d2016b
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -220,8 +220,6 @@ ht-degree: 0%
    * [Adobe Commerce Intelligence培训视频： SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
    * [仅为首次购买提供折扣（无优惠券）](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [回滚没有云快照的环境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-   * [记录入门计划的位置（目录）](/help/how-to/general/log-locations-directories-for-starter-plan.md)
-   * [减少云基础架构上Adobe Commerce的部署停机时间](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)
    * [如何向Adobe Commerce添加新国家/地区](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [在Commerce管理中自定义设计配置](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [增加云上集成环境的磁盘空间](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
