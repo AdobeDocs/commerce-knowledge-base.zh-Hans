@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 014b425a0db4b5824a1caf033318fe7fd74d9a92
+source-git-commit: 41585ba5bc50e9a65d5d28963f43054f5f98b918
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,6 @@ ht-degree: 0%
       * [访问storefront或Commerce管理员时出现空白页面或重定向循环错误](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [尝试登录Commerce Admin时的登录重定向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [解决加密密钥问题](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
-      * [PWA Studio：对Adobe Commerce的Venia GraphQL查询产生验证错误](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [使用数据导出来查明差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
       * [数据迁移工具故障排除](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [组件依赖项就绪检查问题](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
