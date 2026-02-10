@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 41585ba5bc50e9a65d5d28963f43054f5f98b918
+source-git-commit: c6d036ff57ede5dbdb031f00f099e00c811d7b0a
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2207'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,6 @@ ht-degree: 0%
    * [设置新 [!DNL domain]的清单](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [从暂存或生产环境恢复数据库快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials：更新支付方式或取消订阅](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
-   * [仅为首次购买提供折扣（无优惠券）](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [回滚没有云快照的环境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [如何向Adobe Commerce添加新国家/地区](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [在Commerce管理中自定义设计配置](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
