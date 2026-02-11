@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 950cbe6a4886f1f4f9f38250a46eb7f82bda73d4
+source-git-commit: 0e5465d2d3ef177f8d42f791f4652fc9139695fb
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2192'
 ht-degree: 0%
 
 ---
@@ -230,7 +230,6 @@ ht-degree: 0%
    * [识别和测量云基础架构上Adobe Commerce的中断](/help/how-to/general/how-to-identify-outages.md)
    * [更改New Relic on Cloud的帐户所有者](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [在云基础架构上的Adobe Commerce上更改管理员URL](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-   * [在云中启用Elasticsearch](/help/how-to/general/enable-elasticsearch-on-cloud.md)
    * [配置NPM以便能够使用PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [在Adobe Commerce上重新排列云分支](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [如何查找Adobe Commerce产品文档](/help/how-to/general/how-to-find-magento-product-documentation.md)
