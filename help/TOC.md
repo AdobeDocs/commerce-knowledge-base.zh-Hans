@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: c6d036ff57ede5dbdb031f00f099e00c811d7b0a
+source-git-commit: 950cbe6a4886f1f4f9f38250a46eb7f82bda73d4
 workflow-type: tm+mt
-source-wordcount: '2207'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -223,7 +223,6 @@ ht-degree: 0%
    * [云基础架构上的Adobe Commerce：CPU分配计算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [使用REST API更新共享目录价格](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [查找大型MySQL表](/help/how-to/general/find-large-mysql-tables.md)
-   * [将数据和文件生产同步到暂存环境或暂存到集成](/help/how-to/general/sync-data-and-files-from-production-to-staging-or-staging-to-integration.md)
    * [在云基础架构环境上的Adobe Commerce中使用CLI检查磁盘空间](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
    * [手动重置云基础架构cron作业上受阻的Adobe Commerce](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [如果实时网站使用相同的域，则在生产环境中测试Fastly](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
