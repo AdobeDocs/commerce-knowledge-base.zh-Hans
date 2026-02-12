@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4c8bb0d63cd7826b24c2f6c85fbb9bb5982b2a35
+source-git-commit: 6ad8716b066a89fd60d5c9300607889f891e5e3f
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,6 @@ ht-degree: 0%
    * [从暂存或生产环境恢复数据库快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials：更新支付方式或取消订阅](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [回滚没有云快照的环境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-   * [如何向Adobe Commerce添加新国家/地区](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [云基础架构上的Adobe Commerce：CPU分配计算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [查找大型MySQL表](/help/how-to/general/find-large-mysql-tables.md)
    * [在云基础架构环境上的Adobe Commerce中使用CLI检查磁盘空间](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
