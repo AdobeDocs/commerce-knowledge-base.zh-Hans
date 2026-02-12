@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 6ad8716b066a89fd60d5c9300607889f891e5e3f
+source-git-commit: 9d80bfb801d55c25627e92e9777699c14056e2dd
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,6 @@ ht-degree: 0%
    * [适用于Adobe Commerce的Experience League支持用户指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * 操作方法 {#how-to}
    * [操作方法概述](/help/how-to/overview.md)
-   * [如何在支持通知中包含团队成员](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
    * [如何获取和应用安全修补程序](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [设置新 [!DNL domain]的清单](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [从暂存或生产环境恢复数据库快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
@@ -219,7 +218,6 @@ ht-degree: 0%
    * [回滚没有云快照的环境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [云基础架构上的Adobe Commerce：CPU分配计算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [查找大型MySQL表](/help/how-to/general/find-large-mysql-tables.md)
-   * [在云基础架构环境上的Adobe Commerce中使用CLI检查磁盘空间](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
    * [手动重置云基础架构cron作业上受阻的Adobe Commerce](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [如果实时网站使用相同的域，则在生产环境中测试Fastly](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [减少云上部署停机时间的静态内容部署选项](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
