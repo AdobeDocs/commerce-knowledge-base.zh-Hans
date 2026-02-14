@@ -19,7 +19,7 @@ ht-degree: 0%
 
 **计划和估计流量**
 
-我们建议云基础架构中的所有Adobe Commerce商家[利用这一组有关如何估计每年高峰假日销售季节的高峰季节流量](https://business.adobe.com/blog/how-to/the-5-ps-of-peak-season-performance-a-guide-to-preparing-your-infrastructure-for-high-traffic)的建议。
+我们建议云基础架构中的所有Adobe Commerce商家[利用这一组有关如何估计每年高峰假日销售季节的高峰季节流量](https://business.adobe.com/cn/blog/how-to/the-5-ps-of-peak-season-performance-a-guide-to-preparing-your-infrastructure-for-high-traffic)的建议。
 
 完成建议的估计后，如果您的团队已确定您认为需要额外容量的日期，请继续下一步以了解有关如何请求激增容量的信息。
 
