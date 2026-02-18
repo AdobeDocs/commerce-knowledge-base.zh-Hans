@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 数据库和SaaS集成
 
-有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （打开页面时，使用左侧的目录进行导航）。
+有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://experienceleague.adobe.com/zh-hans/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （打开页面时，使用左侧的目录进行导航）。
 
 ## 存在连接问题？
 
@@ -35,4 +35,4 @@ ht-degree: 0%
 
 要重新进行身份验证，您可能需要重新输入帐户凭据。 在某些情况下，您可能需要为问题集成生成新的API密钥。 单击问题集成的名称，开始重新授权过程。
 
-如果问题仍然存在，请[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+如果问题仍然存在，请[提交支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。

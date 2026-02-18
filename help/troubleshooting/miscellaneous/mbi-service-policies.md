@@ -50,4 +50,4 @@ ht-degree: 0%
 
 ## 如何提交票证？
 
-您可以通过单击页面顶部的[提交票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)链接，向我们的支持团队&#x200B;**提交票证**。 我们建议您在联系我们之前，在您的支持工单[中查看](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)信息，以确保您的初始提交中包含所有必需的信息。
+您可以通过单击页面顶部的[提交票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)链接，向我们的支持团队&#x200B;**提交票证**。 我们建议您在联系我们之前，在您的支持工单[中查看](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)信息，以确保您的初始提交中包含所有必需的信息。

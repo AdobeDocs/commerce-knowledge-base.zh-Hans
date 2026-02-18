@@ -29,7 +29,7 @@ Adobe提供了一个域验证的[让我们加密SSL/TLS证书](https://letsencry
 要将域添加到[!DNL Fastly]中的服务，请执行以下操作：
 
 1. 将DNS中的域指向prod.magentocloud.map.fastly.net ，最长等待6小时。
-1. [提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，请求在Nginx配置中添加此域（如果之前未添加）。
+1. [提交支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，请求在Nginx配置中添加此域（如果之前未添加）。
 
 ## 如何请求证书？
 
@@ -47,10 +47,10 @@ Adobe提供了一个域验证的[让我们加密SSL/TLS证书](https://letsencry
 
 但是，此过程需要额外的设置和维护工作。 您首先需要为网站的域名（或通用名称）生成证书签名请求(CSR)，并将其提供给您的SSL供应商以提供SSL证书。
 
-获得SSL证书后，请提交[Adobe Commerce支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，或使用CTA将自定义托管证书添加到云环境。
+获得SSL证书后，请提交[Adobe Commerce支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，或使用CTA将自定义托管证书添加到云环境。
 
 * 如果不再使用这些域，这些域将自动从我们的系统中清除，并且无需执行进一步操作。
-* 如果您已经拥有证书，请使用SFTP（SSH文件传输协议）客户端将其上载到服务器上不可访问Web的文件位置，然后[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，让他们知道文件路径。
+* 如果您已经拥有证书，请使用SFTP（SSH文件传输协议）客户端将其上载到服务器上不可访问Web的文件位置，然后[提交支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，让他们知道文件路径。
 
 >[!WARNING]
 >
@@ -67,7 +67,7 @@ SSL证书的名称仅与主URL有关，它是由第一个URL命名的主要主�
 
 ## 我可以使用通配符TLS证书吗？
 
-通配符TLS证书只能与您的自定义证书一起使用，不能与Adobe Commerce Let&#39;s Encrypt证书一起使用。 作为TLS优化的一部分，Adobe将终止对通配符TLS证书的支持。 我们正在识别并联系使用通配符证书与Adobe的Let&#39;s Encrypt证书并在Adobe Commerce的[!DNL Fastly]控制台中配置的商家。 我们要求将这些通配符证书替换为精确域，以确保TLS覆盖。 要替换通配符TLS证书，请访问[插件的](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)域部分[!DNL Fastly]。 从此处，可以添加确切的域，并且可以删除通配符。 请注意，DNS需要指向[!DNL Fastly]，这些新域才能通过CDN路由。 添加域并更新DNS后，将配置匹配的[Let&#39;s Encrypt](https://letsencrypt.org/)证书。 如果不使用通配符删除指向[!DNL Fastly]的域，Adobe将删除共享证书。 如果您未配置URL FQDN并在DNS中设置相同的URL FQDN，则可能会导致站点中断。 因此，您应该确认配置的URL在其DNS中也具有指向[!DNL Fastly]的一对一匹配项。
+通配符TLS证书只能与您的自定义证书一起使用，不能与Adobe Commerce Let&#39;s Encrypt证书一起使用。 作为TLS优化的一部分，Adobe将终止对通配符TLS证书的支持。 我们正在识别并联系使用通配符证书与Adobe的Let&#39;s Encrypt证书并在Adobe Commerce的[!DNL Fastly]控制台中配置的商家。 我们要求将这些通配符证书替换为精确域，以确保TLS覆盖。 要替换通配符TLS证书，请访问[插件的](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)域部分[!DNL Fastly]。 从此处，可以添加确切的域，并且可以删除通配符。 请注意，DNS需要指向[!DNL Fastly]，这些新域才能通过CDN路由。 添加域并更新DNS后，将配置匹配的[Let&#39;s Encrypt](https://letsencrypt.org/)证书。 如果不使用通配符删除指向[!DNL Fastly]的域，Adobe将删除共享证书。 如果您未配置URL FQDN并在DNS中设置相同的URL FQDN，则可能会导致站点中断。 因此，您应该确认配置的URL在其DNS中也具有指向[!DNL Fastly]的一对一匹配项。
 
 ## 如果我的域不再指向Adobe Commerce，我应该怎么做？
 
@@ -75,4 +75,4 @@ SSL证书的名称仅与主URL有关，它是由第一个URL命名的主要主�
 
 ## 相关阅读
 
-在我们的开发人员文档中[配置SSL/TLS证书](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+在我们的开发人员文档中[配置SSL/TLS证书](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)

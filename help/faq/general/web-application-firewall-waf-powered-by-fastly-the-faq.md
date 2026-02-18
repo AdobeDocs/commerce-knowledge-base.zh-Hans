@@ -104,7 +104,7 @@ Adobe Commerce的WAF产品包括作为PCI要求的一部分针对OWASP前10大�
 
 ## 客户是否可以创建和修改IP黑名单以阻止流量？
 
-是，客户可以在云基础架构的Admin UI上通过Adobe Commerce启用按国家/地区和访问控制列表(ACL)进行阻止。 如果您希望阻止来自特定国家/地区或特定IP或IP范围的访客访问，请使用这些功能。 如果您希望被阻止的访客查看自定义页面而不是错误代码，可以通过在Fastly配置菜单中上传HTML来创建自定义错误页面。 请参阅我们的开发人员文档中的[创建自定义错误/维护页面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+是，客户可以在云基础架构的Admin UI上通过Adobe Commerce启用按国家/地区和访问控制列表(ACL)进行阻止。 如果您希望阻止来自特定国家/地区或特定IP或IP范围的访客访问，请使用这些功能。 如果您希望被阻止的访客查看自定义页面而不是错误代码，可以通过在Fastly配置菜单中上传HTML来创建自定义错误页面。 请参阅我们的开发人员文档中的[创建自定义错误/维护页面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
 
 ## 可在何处查看WAF服务的运行状态？
 
@@ -118,7 +118,7 @@ Adobe Commerce的WAF产品包括作为PCI要求的一部分针对OWASP前10大�
 
 虽然Adobe Commerce没有安全运营中心，但我们确实有一个安全运营流程，使我们能够利用适当的资源实时响应安全事件。 我们还提供全天候的跟踪支持。
 
-您还可以从[安全中心](https://helpx.adobe.com/security.html)获取与Adobe Commerce相关的安全新闻和更新。
+您还可以从[安全中心](https://helpx.adobe.com/cn/security.html)获取与Adobe Commerce相关的安全新闻和更新。
 
 ## 提供哪些支持？
 
@@ -132,7 +132,7 @@ WAF支持提供以下资源来帮助您减轻不需要的或恶意请求的服�
 
 ## 如果WAF阻止合法流量或导致其他问题，如何获得帮助？
 
-[在](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce帮助中心[提交支持票证](https://support.magento.com)。 请注意：票证与WAF服务相关，并且包含阻止的请求标识符(ID)。
+[在](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce帮助中心[提交支持票证](https://support.magento.com)。 请注意：票证与WAF服务相关，并且包含阻止的请求标识符(ID)。
 
 Adobe Commerce支持工单系统跟踪我们的支持工程师和客户人员之间的通信。 此系统提供了带有时间戳的沟通记录，并在票证更新时向客户和Adobe Commerce的员工发送电子邮件。
 
@@ -160,7 +160,7 @@ Adobe Commerce支持工单系统跟踪我们的支持工程师和客户人员之
 </tr>
 <tr>
 <td>紧急升级*</td>
-<td>请参阅有关美国和国际号码的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1通知热线</a>文章。</td>
+<td>请参阅有关美国和国际号码的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=zh-Hans">Adobe Commerce P1通知热线</a>文章。</td>
 </tr>
 </tbody>
 </table>

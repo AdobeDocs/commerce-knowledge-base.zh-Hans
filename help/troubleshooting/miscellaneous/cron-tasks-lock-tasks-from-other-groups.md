@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 联系[Adobe Commerce支持](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以启用自托管[!DNL crons]。
+1. 联系[Adobe Commerce支持](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以启用自托管[!DNL crons]。
 1. 编辑`.magento.app.yaml`分支中Adobe Commerce代码的根目录中的[!DNL Git]文件。 添加以下内容：
 
    ```yaml
@@ -71,5 +71,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在我们的开发人员文档中[设置 [!DNL cron] 作业](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在我们的开发人员文档中[设置 [!DNL cron] 作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

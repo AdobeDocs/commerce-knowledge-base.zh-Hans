@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 这添加了对该编辑器包版本的要求。 检查锁定文件 — `composer/composer`版本必须为1.0.22或更高版本。
 1. 提交`composer.json`和`composer.lock`并推送部署。
 
-如果此方法不起作用，请[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+如果此方法不起作用，请[提交支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ## 相关阅读
 

@@ -95,8 +95,8 @@ Adobe Commerce应用程序部件版本2.3.2中的导出功能存在的已知问�
 
 >[!TIP]
 >
->[YAML文件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)区分大小写，不允许制表符。 请注意在整个.magento.env.yaml文件中使用一致的缩进，否则您的配置可能无法按预期工作。 文档和示例文件中的示例使用双空格缩进。 使用ece-tools validate命令检查配置。
+>[YAML文件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hans)区分大小写，不允许制表符。 请注意在整个.magento.env.yaml文件中使用一致的缩进，否则您的配置可能无法按预期工作。 文档和示例文件中的示例使用双空格缩进。 使用ece-tools validate命令检查配置。
 
 >[!NOTE]
 >
->在Adobe Commerce on cloud infrastructure Pro项目中，必须在云基础架构上的Adobe Commerce上启用[自动cron功能](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)，然后才能使用`.magento.app.yaml`将自定义cron作业添加到暂存和生产环境。 如果未启用此功能，请[创建支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，以便为您添加作业。
+>在Adobe Commerce on cloud infrastructure Pro项目中，必须在云基础架构上的Adobe Commerce上启用[自动cron功能](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)，然后才能使用`.magento.app.yaml`将自定义cron作业添加到暂存和生产环境。 如果未启用此功能，请[创建支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，以便为您添加作业。

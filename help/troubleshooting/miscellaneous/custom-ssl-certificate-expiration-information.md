@@ -41,11 +41,11 @@ Adobe Commerce会在过期后30天内更新任何证书。
 
 当商家选择使用自己的自定义SSL证书时，必须在证书到期前30天以上更新该证书，以确保不会将其替换为内部Adobe Commerce SSL证书。
 
-如果您遇到自定义SSL被内部SSL替换的情况，并且希望将其替换为您更新的自定义SSL证书，请[提交支持请求](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，并提供您上载新证书文件的位置。 请包括新SSL的开始日期。 获得此信息后，我们可以继续安装新的SSL证书。
+如果您遇到自定义SSL被内部SSL替换的情况，并且希望将其替换为您更新的自定义SSL证书，请[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，并提供您上载新证书文件的位置。 请包括新SSL的开始日期。 获得此信息后，我们可以继续安装新的SSL证书。
 
 ## 相关阅读
 
 * Magento Commerce Cloud的[SSL (TLS)证书：我们的支持知识库中的常见问题解答](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)。
-* [命令行工具引用：开发人员文档中的magento-cloud证书:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
-* 在开发人员文档中[启动项核对清单](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)。
-* 访问用户指南中的[站点范围分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。
+* [命令行工具引用：开发人员文档中的magento-cloud证书:add](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
+* 在开发人员文档中[启动项核对清单](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/launch/checklist)。
+* 访问用户指南中的[站点范围分析工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。

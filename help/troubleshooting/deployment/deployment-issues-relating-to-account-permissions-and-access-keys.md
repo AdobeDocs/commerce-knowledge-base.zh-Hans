@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### 如何禁用访问密钥
 
-如果您无权访问与旧密钥关联的[Commerce Marketplace](https://marketplace.magento.com/)帐户，请[联系Adobe Commerce支持部门](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以禁用该密钥。
+如果您无权访问与旧密钥关联的[Commerce Marketplace](https://marketplace.magento.com/)帐户，请[联系Adobe Commerce支持部门](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以禁用该密钥。
 
 如果您有权访问与旧密钥关联的Marketplace帐户，请执行以下步骤来禁用该密钥：
 
@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [在我们的开发人员文档中获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+* [在我们的开发人员文档中获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
