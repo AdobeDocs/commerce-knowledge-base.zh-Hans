@@ -4,9 +4,9 @@ description: 本文介绍了使用New Relic解决Adobe Commerce云基础架构�
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 <li>向下滚动，单击显示所有事务表。</li>
 <li>您可以按<a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">各种参数</a>对事务进行排序，并跳转到引起怀疑的事务。</li>
 <li>查看Apdex得分低、Count异常高或Avg时间长或Dissat %的事务。</li>
-<li>单击每个单独的事务。 如果无法解决此问题，请<a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">提交支持票证。</a>
+<li>单击每个单独的事务。 如果无法解决此问题，请<a href="https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket">提交支持票证。</a>
 </li>
 <li>如果需要进一步调查，请考虑检查非Web事务。</li>
 </ol>
@@ -60,7 +60,7 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>要了解有关New Relic Apdex得分的更多信息，请参阅<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic文档&gt; APM Apdex &gt;衡量用户满意度</a>。 您还可以在我们的支持知识库中参考<a href="https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce托管警报：Apdex警告警报</a>。</p>
+<p>要了解有关New Relic Apdex得分的更多信息，请参阅<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic文档&gt; APM Apdex &gt;衡量用户满意度</a>。 您还可以在我们的支持知识库中参考<a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce托管警报：Apdex警告警报</a>。</p>
 </td>
 </tr>
 <tr>

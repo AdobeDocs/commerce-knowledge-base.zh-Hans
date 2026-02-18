@@ -1,22 +1,22 @@
 ---
-title: 'MBI：重新验证集成'
-description: 本文提供了重新授权集成以授予Magento Business Intelligence(MBI)从第三方服务拉取数据所需的权限的解决方案。 撤销这些权限时需要重新授权。
+title: MBI：重新验证集成
+description: 本文提供了重新授权集成以授予Magento Business Intelligence (MBI)从第三方服务拉取数据所需的权限的解决方案。 撤销这些权限时需要重新授权。
 exl-id: c608d6f9-64a5-44f8-9d7b-9a85a2668775
 feature: Commerce Intelligence, Integration
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # MBI：重新验证集成
 
-本文提供了重新授权集成以授予Magento Business Intelligence(MBI)从第三方服务拉取数据所需的权限的解决方案。 撤销这些权限时需要重新授权。
+本文提供了重新授权集成以授予Magento Business Intelligence (MBI)从第三方服务拉取数据所需的权限的解决方案。 撤销这些权限时需要重新授权。
 
 ## 数据库和SaaS集成
 
-有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://experienceleague.adobe.com/zh-hans/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （打开页面时，使用左侧的目录进行导航）。
+有关数据库和SaaS集成的列表，请参阅我们的开发人员文档中的[使用集成连接外部数据](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （打开页面时，使用左侧的目录进行导航）。
 
 ## 存在连接问题？
 
@@ -35,4 +35,4 @@ ht-degree: 0%
 
 要重新进行身份验证，您可能需要重新输入帐户凭据。 在某些情况下，您可能需要为问题集成生成新的API密钥。 单击问题集成的名称，开始重新授权过程。
 
-如果问题仍然存在，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+如果问题仍然存在，请[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。

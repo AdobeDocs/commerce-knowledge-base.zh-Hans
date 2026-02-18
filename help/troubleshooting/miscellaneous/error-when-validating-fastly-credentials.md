@@ -4,16 +4,16 @@ description: 本文为用户在验证 [!DNL Fastly] 凭据时遇到错误的问�
 exl-id: 02104731-6666-47a6-abc6-215812f09915
 feature: Configuration
 role: Developer
-source-git-commit: 838f0c5d55c29d026dc37a8f7e5214b9880a4353
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
 # 验证[!DNL Fastly]凭据时出错
 
-本文说明如何解决在验证[!DNL Fastly]凭据时遇到的&#x200B;*令牌过期*&#x200B;错误。
+本文说明如何解决在验证&#x200B;*凭据时遇到的*&#x200B;令牌过期[!DNL Fastly]错误。
 
 如果您出于安全原因需要旋转（循环）您的[!DNL Fastly] API令牌，则本文中概述的步骤也适用。 在这些情况下，您应提交Adobe Commerce支持票证以请求新的[!DNL Fastly] API令牌。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 请确保您具有正确的[!DNL Fastly]服务ID和API令牌，然后再次尝试验证。 有关详细说明，请参阅我们的开发人员文档中的[测试 [!DNL Fastly] 凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)。
+1. 请确保您具有正确的[!DNL Fastly]服务ID和API令牌，然后再次尝试验证。 有关详细说明，请参阅我们的开发人员文档中的[测试 [!DNL Fastly] 凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)。
 1. 如果凭据验证失败，请运行以下curl命令以确认服务的状态：
 
    ```curl
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 如果上述命令返回类似于`{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}`的错误，请提交支持票证以请求新的API令牌。 收到新令牌后，更新环境中的配置。
 
-   要了解如何提交支持工单，请参阅我们的支持知识库中的[Adobe Commerce帮助中心用户指南>支持工单](/help/help-center-guide/help-center/magento-help-center-user-guide.md#support-tickets)。
+   要了解如何提交支持工单，请参阅我们的支持知识库中的[Adobe Commerce帮助中心用户指南>支持工单](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets)。
 
    >[!NOTE]
    >
@@ -50,6 +50,6 @@ ht-degree: 0%
 
 ## 我们的开发人员文档中的相关阅读：
 
-* 适用于Adobe Commerce的[Cloud > [!DNL Fastly] > [!DNL Fastly] 服务帐户和凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* 适用于Adobe Commerce的[Cloud > [!DNL Fastly] > [!DNL Fastly] 服务帐户和凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* 适用于Adobe Commerce的[Cloud >设置 [!DNL Fastly] >测试 [!DNL Fastly] 凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* 适用于Adobe Commerce的[Cloud >设置 [!DNL Fastly] >测试 [!DNL Fastly] 凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)

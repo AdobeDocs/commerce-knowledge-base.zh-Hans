@@ -4,9 +4,9 @@ description: 本文为通过PayPal处理支付相关问题提供了解决方案�
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -41,14 +41,14 @@ PayPal付款的大多数问题都有类似的症状：在指定付款卡详细�
 
 请参阅以下文章：
 
-* [PayPal网关拒绝请求 — 我们的支持知识库中存在重复发票问题](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26838)。
+* [PayPal网关拒绝请求 — 我们的支持知识库中存在重复发票问题](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 * [更改我们支持知识库中的新商店实体](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)的增量ID。
 
 ## 联系支持人员以收集高级付款日志
 
 为了排除复杂的付款问题，Adobe Commerce支持团队可能会要求您应用专用修补程序以启用高级付款日志记录。 在这种情况下，您的步骤应如下所示：
 
-[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，详细信息如下：
+[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，详细信息如下：
 
 * 请尽可能多地指定您的问题。
 * 列出您尝试从本文、知识库和其他资源中执行的步骤。 包括所有结果。
@@ -57,5 +57,5 @@ PayPal付款的大多数问题都有类似的症状：在指定付款卡详细�
 如果您收到了“高级付款记录”修补程序：
 
 * 应用修补程序。
-* 收集日志并将它们附加到您的[支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+* 收集日志并将它们附加到您的[支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 * 等待Adobe Commerce支持团队提出进一步的建议。

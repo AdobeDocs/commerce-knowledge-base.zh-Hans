@@ -4,7 +4,7 @@ description: 本文提供了与Github令牌失败相关的部署失败问题的�
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 feature: Identity Management
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 部署失败，部署日志包含与以下内容类似的信息：
 
-*致命错误：未捕获的UnexpectedValueException：您的github.com的github oauth令牌包含无效字符： /app/vendor/composer/composer/src/Composer/IO/BaseIO.php：129*&#x200B;中的“ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
+*致命错误：未捕获的UnexpectedValueException：您的github.com的github oauth令牌包含无效字符： /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*&#x200B;中的“ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx”
 
 ## 原因
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 这添加了对该编辑器包版本的要求。 检查锁定文件 — `composer/composer`版本必须为1.0.22或更高版本。
 1. 提交`composer.json`和`composer.lock`并推送部署。
 
-如果此方法不起作用，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+如果此方法不起作用，请[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ## 相关阅读
 

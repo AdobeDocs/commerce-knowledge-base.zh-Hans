@@ -4,9 +4,9 @@ description: 了解如何对Adobe Commerce和Magento Open Source的安全扫描�
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. **未知**：安全扫描工具还没有域的相关数据；请等待下一个同步周期。
 1. **失败**：如果状态显示失败，您需要修复问题（启用2FA、更改管理员URL等）并等待下一个同步周期。
 
-如果对实例进行更改后已过去24小时，并且这些更改未反映在安全扫描报告中，您可以[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 在提交票证时提供存储URL。
+如果对实例进行更改后已过去24小时，并且这些更改未反映在安全扫描报告中，您可以[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。 在提交票证时提供存储URL。
 
 ## BotNet可疑故障
 
@@ -77,7 +77,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. 检查新创建的SSH帐户、文件系统更改等。
 1. 执行安全审查。
 1. 查看Adobe Commerce版本并进行升级，尤其是当它仍在运行不再受支持的Magento 1时。
-1. 如果问题仍然存在，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)并提供商店URL。
+1. 如果问题仍然存在，请[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)并提供商店URL。
 
 ## 问题：危害注入失败
 
@@ -87,10 +87,10 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 1. 查看安全扫描工具报告中指示的脚本。
 1. 查看主页源正文以了解内联脚本注入。
-1. 执行系统配置更改审查，尤其是在`footer`分区值中的自定义`HTML head`和`Miscellaneous HTML`。
+1. 执行系统配置更改审查，尤其是在`HTML head`分区值中的自定义`Miscellaneous HTML`和`footer`。
 1. 执行代码和数据库审查，以发现不熟悉的更改和注入的恶意软件的迹象。
 
-如果以上都不能解决问题，请[提交支持票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，并从报告中提供商店URL和错误消息。
+如果以上都不能解决问题，请[提交支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，并从报告中提供商店URL和错误消息。
 
 ## 常见问题解答
 
@@ -104,7 +104,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 提交支持票证时需要什么信息？
 
-请提供与为[安全扫描](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID提交的域名完全相同的域名。 请注意，对于本地Adobe Commerce，不需要Cloud Project_ID。
+请提供与为[安全扫描](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID提交的域名完全相同的域名。 请注意，对于本地Adobe Commerce，不需要Cloud Project_ID。
 
 ### 如果我从扫描工具扫描中删除存储区会发生什么情况？
 

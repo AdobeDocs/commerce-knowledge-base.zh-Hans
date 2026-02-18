@@ -4,9 +4,9 @@ description: 本文针对“var/log/exception.log”中的数据库连接错误�
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 解决方案
 
 1. 标识单个行超过当前`max_allowed_packet`限制的查询。 需要重写此类查询以减少返回的数据量。 可以通过在`SELECT`语句中具有更少列数或为表设计中的各个列选择更小的数据类型来实现这一点。 如果您拥有New Relic帐户，请使用[New Relic APM错误页面](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors)、[New Relic APM数据库页面](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time)和[New Relic日志](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management)搜索相关查询。
-1. 为快速修正，您可以在`max_allowed_packet`提交票证[时临时请求增加](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)的大小，但这由客户工程团队自行决定，因为值过大可能会导致网络拥塞，进而导致复制失败。
+1. 为快速修正，您可以在`max_allowed_packet`提交票证[时临时请求增加](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)的大小，但这由客户工程团队自行决定，因为值过大可能会导致网络拥塞，进而导致复制失败。
 1. 作为最佳实践，您应在CLI中针对某些大型数据库表运行以下命令：
 
    ```
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 我们的开发人员文档中的[内部部署安装概述](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/overview)。
-* 在我们的支持知识库中[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)。
-* [解决支持知识库中数据库性能问题的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)。
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 我们的开发人员文档中的[内部部署安装概述](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
+* 在我们的支持知识库中[云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
+* [解决支持知识库中数据库性能问题的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)。
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

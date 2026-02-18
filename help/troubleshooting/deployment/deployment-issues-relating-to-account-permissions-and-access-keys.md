@@ -4,9 +4,9 @@ description: 本文为因访问密钥所有权冲突导致的在云基础架构�
 exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
 feature: Deploy, Roles/Permissions
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### 如何禁用访问密钥
 
-如果您无权访问与旧密钥关联的[Commerce Marketplace](https://marketplace.magento.com/)帐户，请[联系Adobe Commerce支持部门](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以禁用该密钥。
+如果您无权访问与旧密钥关联的[Commerce Marketplace](https://marketplace.magento.com/)帐户，请[联系Adobe Commerce支持部门](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以禁用该密钥。
 
 如果您有权访问与旧密钥关联的Marketplace帐户，请执行以下步骤来禁用该密钥：
 
@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [在我们的开发人员文档中获取您的身份验证密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+* [在我们的开发人员文档中获取您的身份验证密钥](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。

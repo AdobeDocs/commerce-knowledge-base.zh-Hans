@@ -1,23 +1,23 @@
 ---
 title: 无法访问最新的Beta版本
-description: 本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于遵循[Adobe Commerce Beta计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe合作伙伴。
+description: 本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于已遵循[Adobe Beta计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe Commerce合作伙伴。
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # 无法访问最新的Beta版本
 
-本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于遵循[Adobe Commerce Beta计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe合作伙伴。
+本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于遵循[Adobe计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe CommerceBeta合作伙伴。
 
 ## 问题
 
 本文介绍了以下有关访问早期访问代码的问题：
 
-* Adobe Commerce Beta版本不可在[magento.com](https://account.magento.com/customer/account/login)上的&#x200B;**我的帐户** > **下载**&#x200B;下下载。
+* Adobe Commerce Beta版本不可在&#x200B;**magento.com**&#x200B;上的&#x200B;**我的帐户** > [下载](https://account.magento.com/customer/account/login)下下载。
 * 无法使用Composer从[magento.com](https://account.magento.com/customer/account/login)下载抢先访问的Adobe Commerce版本。
 
 ## 原因
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 提前访问代码位置
 
-在测试版访问期间，只能通过[repo.magento.com](https://repo.magento.com/)上的Composer获得发行包。 在此期间，发行包在GitHub和Adobe Commerce门户上不可用，我们将在GA日期将它们发布到这些位置。 有关如何使用Composer的更多详细信息，请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer)。
+在测试版访问期间，只能通过[repo.magento.com](https://repo.magento.com/)上的Composer获得发行包。 在此期间，发行包在GitHub和Adobe Commerce门户上不可用，我们将在GA日期将它们发布到这些位置。 有关如何使用Composer的更多详细信息，请单击[此处](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
 
 ### 您需要使用的图像ID
 
@@ -47,7 +47,7 @@ ht-degree: 0%
    * 如果您看到有效的Partner许可证信息，则表示您的MageID是主要的。 如果END DATE值是未来的日期，则合作伙伴许可证有效。
    * 如果您看不到有效的合作伙伴许可证信息，则您的MageID仅具有共享访问权限。 要了解谁是主ID持有者，请转到&#x200B;**与我共享**&#x200B;注意此处指定的SHARENAME。 单击&#x200B;**切换帐户**&#x200B;并选择您在SHARENAME中记下的值。 在欢迎页面上，您将看到主ID持有者的电子邮件。
 1. 如果由于任何原因无法在[magento.com](https://account.magento.com/customer/account/login)上找到此信息，请联系您的合作伙伴经理。
-1. 如果以上都不起作用，请[联系支持人员](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed)。
+1. 如果以上都不起作用，请[联系支持人员](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
 
 #### 开发人员没有正确的密钥访问权限
 
@@ -60,4 +60,4 @@ ht-degree: 0%
 
 ### 不是抢先体验计划的一部分
 
-我们的Beta访问计划仅适用于我们的解决方案和技术合作伙伴，以便他们能够评估我们的预生产代码。 若要纳入Beta访问计划，贵组织必须具有信誉良好并已[此处](https://github.com/magento/magento2/wiki/Magento-Beta-Program)签署Beta NDA的活动Adobe合作伙伴帐户。 如果您认为您符合这些条件并且无法访问测试版代码，请联系[commercebeta@adobe.com](mailto:commercebeta@adobe.com)。
+我们的Beta访问计划仅适用于我们的解决方案和技术合作伙伴，以便他们能够评估我们的预生产代码。 要纳入Beta Access计划，贵组织必须拥有一个信誉良好的有效Adobe合作伙伴帐户，并在[此处](https://github.com/magento/magento2/wiki/Magento-Beta-Program)签署Beta NDA。 如果您认为您符合这些条件并且无法访问测试版代码，请联系[commercebeta@adobe.com](mailto:commercebeta@adobe.com)。

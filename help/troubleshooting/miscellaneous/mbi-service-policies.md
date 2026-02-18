@@ -4,9 +4,9 @@ description: 在Commerce Intelligence，我们的目标是提供一流的客户�
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ ht-degree: 0%
 
 除了上面列出的数据安全功能外，我们的支持团队还无法满足一些与产品相关的请求：
 
-* **正在教导SQL** — 希望使用SQLReport Builder，但不知道SQL？ 没关系 — 我们提供了[教程](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)帮助您了解基础知识。
+* **正在教导SQL** — 希望使用SQL Report Builder，但不知道SQL？ 没关系 — 我们提供了[教程](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)帮助您了解基础知识。
 
 * **不是由产品缺陷引起的SQL可视化问题** — 如果图表最后看起来有点不确定，而&#x200B;**不是**&#x200B;由产品缺陷引起的，则原因可能是查询本身。 请查看我们的用户指南中的[从SQL查询创建可视化图表教程](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html)，以获取有关如何构造查询以进行可视化的指导。
-* **调试SQL查询** — 您有时可能会遇到非EXPLAIN错误，导致查询无法运行。 我们建议您参阅[Commerce Intelligence User Guide：使用SQLReport Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)和SQL教程来帮助确定查询的错误位置。
+* **调试SQL查询** — 您有时可能会遇到非EXPLAIN错误，导致查询无法运行。 我们建议您参阅[Commerce Intelligence用户指南：使用SQL Report Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html)和SQL教程来帮助确定查询的错误位置。
 
 ## 如何提交票证？
 
-您可以通过单击页面顶部的&#x200B;**提交票证**&#x200B;链接，向我们的支持团队[提交票证](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 我们建议您在联系我们之前，在您的支持工单[&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket)中查看信息，以确保您的初始提交中包含所有必需的信息。
+您可以通过单击页面顶部的[提交票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)链接，向我们的支持团队&#x200B;**提交票证**。 我们建议您在联系我们之前，在您的支持工单[中查看](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)信息，以确保您的初始提交中包含所有必需的信息。

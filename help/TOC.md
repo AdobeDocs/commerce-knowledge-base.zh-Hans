@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
+source-git-commit: 688cdb1d0e76850aa953c602a78820fe6208ae41
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -207,8 +207,6 @@ ht-degree: 0%
    * Elasticsearch {#elasticsearch}
       * [当搜索引擎设置为 [!DNL Elasticsearch7] 时回退到 [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [ElasticSuite跟踪索引导致Elasticsearch出现问题](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-* 帮助中心指南 {#help-center-guide}
-   * [适用于Adobe Commerce的Experience League支持用户指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * 操作方法 {#how-to}
    * [操作方法概述](/help/how-to/overview.md)
    * [设置新 [!DNL domain]的清单](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
