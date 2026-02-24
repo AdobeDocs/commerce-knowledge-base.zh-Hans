@@ -2,10 +2,10 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 688cdb1d0e76850aa953c602a78820fe6208ae41
+source-git-commit: 4d86db1115489e83e58d82464abed8fbd82fea25
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 0%
+source-wordcount: '2096'
+ht-degree: 1%
 
 ---
 
@@ -220,9 +220,7 @@ ht-degree: 0%
    * [识别和测量云基础架构上Adobe Commerce的中断](/help/how-to/general/how-to-identify-outages.md)
    * [更改New Relic on Cloud的帐户所有者](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [在云基础架构上的Adobe Commerce上更改管理员URL](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-   * [配置NPM以便能够使用PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [在Adobe Commerce上重新排列云分支](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
-   * [如何查找Adobe Commerce产品文档](/help/how-to/general/how-to-find-magento-product-documentation.md)
    * [对于云基础架构上的Adobe Commerce上的所有页面，将HTTP重定向到HTTPS（强制TLS）](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [在云上的Adobe Commerce中为MySQL分配更多空间](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
