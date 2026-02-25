@@ -1,6 +1,6 @@
 ---
 title: PWA Studio：浏览器无法解析.local.pwadev站点
-description: 本文提供了当其他程序或进程编辑了您的[主机文件](https://en.wikipedia.org/wiki/Hosts_(file\)并删除了您的项目域条目时的解决方案。
+description: 本文提供了当其他程序或进程编辑了您的[主机文件] (https://en.wikipedia.org/wiki/Hosts_(file)并删除了您的项目域条目时的解决方案。
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration
 role: Developer
