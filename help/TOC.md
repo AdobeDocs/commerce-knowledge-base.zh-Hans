@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: bb56e1f5ae48d9a8c370b1d19588551d76779b66
+source-git-commit: caefdec695d553b2681e8677b200e687ea824d55
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2071'
 ht-degree: 1%
 
 ---
@@ -217,7 +217,6 @@ ht-degree: 1%
    * [手动重置云基础架构cron作业上受阻的Adobe Commerce](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [如果实时网站使用相同的域，则在生产环境中测试Fastly](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [识别和测量云基础架构上Adobe Commerce的中断](/help/how-to/general/how-to-identify-outages.md)
-   * [更改New Relic on Cloud的帐户所有者](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [在云基础架构上的Adobe Commerce上更改管理员URL](/help/how-to/general/change-magento-admin-url-on-cloud.md)
    * [在Adobe Commerce上重新排列云分支](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [对于云基础架构上的Adobe Commerce上的所有页面，将HTTP重定向到HTTPS（强制TLS）](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
