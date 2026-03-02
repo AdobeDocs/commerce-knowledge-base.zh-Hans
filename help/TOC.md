@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: caefdec695d553b2681e8677b200e687ea824d55
+source-git-commit: d1169e70188408f48207d9ca9b5a9ec3aaabeea0
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2043'
 ht-degree: 1%
 
 ---
@@ -180,7 +180,6 @@ ht-degree: 1%
       * [Adobe Commerce 2.4.4中缺少模块](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
       * [以前的团队成员会收到Adobe Commerce Cloud通知电子邮件](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
       * [新域正在重定向到默认域](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
-      * [无法将用户添加到Adobe Commerce云项目](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [Cron由于配置错误或丢失而停止 [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [[!DNL Admin]登录不起作用 — 超出了允许的会话最大大小](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [[!DNL Google Tag Manager]被实时搜索小组件破坏](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
@@ -224,10 +223,8 @@ ht-degree: 1%
    * [更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [为云上的入门计划设置Fastly](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [Adobe Commerce Intelligence培训视频：同类群组Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
-   * [将适用于Adobe Commerce on cloud的MariaDB 10.0升级到10.2](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
    * [在云基础架构上重置Adobe Commerce上的环境](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI：重新验证集成](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [在暂存和生产环境中配置Fastly DNS设置](/help/how-to/general/configure-fastly-dns-settings-on-staging-and-production-environments.md)
    * [记录Pro计划的位置（目录）：集成、测试、生产](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce on cloud：检查是否需要为主机实例进行扩展](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [在沙盒脚本中BootstrapAdobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
