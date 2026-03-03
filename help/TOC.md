@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d1169e70188408f48207d9ca9b5a9ec3aaabeea0
+source-git-commit: 37d987f5eab3d229f0f3230c7da5a7a79c910dc4
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2036'
 ht-degree: 1%
 
 ---
@@ -162,7 +162,6 @@ ht-degree: 1%
       * [Experience Platform中未显示客户配置文件](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio：浏览器无法解析.local.pwadev站点](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [页面生成器中未显示产品推荐](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
-      * [高吞吐量AJAX请求导致性能不佳](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
       * [PWA Studio：浏览器显示“无法代理到”错误](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
       * [运行安装程序:static-content:deployed_version.txt问题](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed-version-txt-issue.md)
       * [重定向回Commerce管理员登录表单，其中显示“您的帐户暂时被禁用”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
