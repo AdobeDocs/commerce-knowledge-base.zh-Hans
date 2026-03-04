@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 37d987f5eab3d229f0f3230c7da5a7a79c910dc4
+source-git-commit: 3386035e973f1f839a9ff8792b4c2dbd55262139
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2028'
 ht-degree: 1%
 
 ---
@@ -221,7 +221,6 @@ ht-degree: 1%
    * [在云上的Adobe Commerce中为MySQL分配更多空间](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [为云上的入门计划设置Fastly](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-   * [Adobe Commerce Intelligence培训视频：同类群组Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [在云基础架构上重置Adobe Commerce上的环境](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI：重新验证集成](/help/how-to/general/mbi-reauthenticating-integrations.md)
    * [记录Pro计划的位置（目录）：集成、测试、生产](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
