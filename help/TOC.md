@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 27fdd8be38a2507601aba7d52a0cd4348ec9ed6e
+source-git-commit: 8351ff2e2ac3db4488ad61dc38974e4ca79c6ce6
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -234,7 +234,6 @@ ht-degree: 1%
    * [云基础架构上的Adobe Commerce：检查主机的CPU配置](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [云上的Adobe Commerce：更改身份验证密钥并重新部署](/help/how-to/general/redeploy-with-another-key.md)
    * [如何在支持代理请求时创建“已清理”转储](/help/how-to/general/create-dump-for-support.md)
-   * [MBI：创建和编辑高级计算列](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [云基础架构上Adobe Commerce的SSL (TLS)证书](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
    * [无法访问最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [切换应用程序模式](/help/how-to/general/switch-the-magento-mode.md)
