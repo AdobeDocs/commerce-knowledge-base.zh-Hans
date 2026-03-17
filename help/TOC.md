@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 90da89b659179c2789a9ac60b4834411300f332b
+source-git-commit: 9ca39100b19808db467383433d5f6b58da3fc000
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1984'
 ht-degree: 1%
 
 ---
@@ -217,12 +217,11 @@ ht-degree: 1%
    * [对于云基础架构上的Adobe Commerce上的所有页面，将HTTP重定向到HTTPS（强制TLS）](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [在云上的Adobe Commerce中为MySQL分配更多空间](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
-   * [为云上的入门计划设置Fastly](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [在云基础架构上重置Adobe Commerce上的环境](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI：重新验证集成](/help/how-to/general/mbi-reauthenticating-integrations.md)
    * [记录Pro计划的位置（目录）：集成、测试、生产](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce on cloud：检查是否需要为主机实例进行扩展](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
-   * [在沙盒脚本中BootstrapAdobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
+   * [在沙盒脚本中Adobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
    * [Adobe Commerce Intelligence培训视频：过滤器集](/help/how-to/general/mbi-training-video-filter-sets.md)
    * [如何在Adobe Commerce中分析云基础架构上的数据库查询](/help/how-to/general/how-to-profile-database-queries-on-cloud.md)
    * [阻止Adobe Commerce在Fastly级别的恶意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
