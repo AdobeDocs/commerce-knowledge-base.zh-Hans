@@ -1,19 +1,19 @@
 ---
-title: 'PWA Studio：Webpack在开始编译之前挂起'
-description: 本文介绍了当Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)在Progressive Web App Studio(PWA Studio)中开始编译之前挂起很长一段时间时的建议解决方案。
+title: PWA Studio：Webpack在开始编译之前挂起
+description: 本文介绍了当Javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)在Progressive Web App Studio (PWA Studio)中开始编译之前挂起很长一段时间时的建议解决方案。
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# PWA Studio：Webpack在开始编译前挂起
+# PWA Studio：Webpack在开始编译之前挂起
 
-本文介绍了当Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)在Progressive Web App Studio中开始编译之前挂起很长时间时的建议解决方案(PWA Studio)。
+本文介绍了当Javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)在Progressive Web App Studio (PWA Studio)中开始编译之前挂起很长一段时间时的建议解决方案。
 
 ## 受影响的产品和版本
 
@@ -37,7 +37,7 @@ pwa-buildpack
 
 <u>重现步骤</u>：
 
-<u>先决条件</u>：使用本地Adobe Commerce实例设置PWA Studio店面（如Venia）并运行
+<u>先决条件</u>：使用本地PWA Studio实例设置Adobe Commerce店面（如Venia）并运行
 
 ```yaml
 build
@@ -93,7 +93,7 @@ openssl version
 ## 相关阅读
 
 * [Javascript Webpack：概念](https://webpack.js.org/concepts/)
-* [Venia店面设置](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA构建包](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [buildpack命令行界面](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [工具和库： buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [Venia店面设置](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [buildpack命令行界面](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [工具和库： buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)

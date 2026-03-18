@@ -1,10 +1,10 @@
 ---
-title: 'PWA Studio：浏览器显示“无法代理到”错误'
+title: PWA Studio：浏览器显示“无法代理到”错误
 description: 本主题讨论当Web浏览器显示“*无法代理到*”并且控制台显示
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 feature: Console
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8be0c125bb0417e34e016656337506da88796630
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 ENOTFOUND
 ```
 
-使用Progressive Web App (PWA) Studio for Adobe Commerce时出错。
+使用适用于Adobe Commerce的渐进式Web应用程序(PWA) Studio时出错。
 
 ## 受影响的产品和版本
 
-* Adobe CommercePWA Studio
+* 适用于Adobe Commerce的PWA Studio
 
 ## 问题
 
@@ -55,5 +55,5 @@ NodeJS无法解析Adobe Commerce存储的主机名。
 
 ## 相关阅读
 
-* [PWA StudioAdobe Commerce文档](https://magento.github.io/pwa-studio/)
-* [工具和库](https://magento.github.io/pwa-studio/technologies/tools-libraries/)
+* Adobe Commerce的[PWA Studio文档](https://developer.adobe.com/commerce/pwa-studio/)
+* [工具和库](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/)
