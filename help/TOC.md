@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: e669e0f092b009a124f728390f6fff24aadece15
+source-git-commit: 03cb143909535a2e615b87ac4bdff425fb667c97
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1945'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,6 @@ ht-degree: 1%
    * [操作方法概述](/help/how-to/overview.md)
    * [设置新 [!DNL domain]的清单](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [从暂存或生产环境恢复数据库快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
-   * [Adobe Commerce Intelligence Essentials：更新支付方式或取消订阅](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [回滚没有云快照的环境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [云基础架构上的Adobe Commerce：CPU分配计算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [手动重置云基础架构cron作业上受阻的Adobe Commerce](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
