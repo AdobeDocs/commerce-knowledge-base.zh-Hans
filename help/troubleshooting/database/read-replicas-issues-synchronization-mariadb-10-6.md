@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 检查`slave_parallel_mode`参数是否设置为&#x200B;*conservative* （如果值未显示为[conservative](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)，则需要&#x200B;*引发支持票证*）。 要检查，请运行以下命令：
+1. 检查`slave_parallel_mode`参数是否设置为&#x200B;*conservative* （如果值未显示为[conservative](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hans#submit-ticket)，则需要&#x200B;*引发支持票证*）。 要检查，请运行以下命令：
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -54,10 +54,10 @@ ht-degree: 0%
 
 
 
-有关更新数据库配置的步骤，请参阅Commerce on Cloud Infrastructure指南中“部署变量”主题中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)。
+有关更新数据库配置的步骤，请参阅Commerce on Cloud Infrastructure指南中“部署变量”主题中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans#database_configuration)。
 
 
 ## 相关阅读
 
-* 在《云基础架构上的Commerce指南》中[为部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)配置环境变量。
-* 在《实施行动手册》中[数据库配置的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
+* 在《云基础架构上的Commerce指南》中[为部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hans)配置环境变量。
+* 在《实施行动手册》中[数据库配置的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)。

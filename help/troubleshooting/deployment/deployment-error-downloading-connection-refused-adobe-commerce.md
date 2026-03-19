@@ -55,10 +55,10 @@ W:    refused
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-要检查项目上的谁是超级用户，请参阅《云基础架构上的Commerce指南》中的[查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user的project-role)。
+要检查项目上的谁是超级用户，请参阅《云基础架构上的Commerce指南》中的[查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans#view-a-user的project-role)。
 
 ## 推荐阅读
 
-* [Adobe Commerce部署疑难解答程序](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640)。
-* 无法访问云存储库上的[Adobe Commerce：部署](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)时出现403禁止或404未找到错误。
-* [部署失败，并显示“生成项目时出错：生成挂接失败，状态代码为1”](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html)。
+* [Adobe Commerce部署疑难解答程序](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-29640)。
+* 无法访问云存储库上的[Adobe Commerce：部署](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html?lang=zh-Hans)时出现403禁止或404未找到错误。
+* [部署失败，并显示“生成项目时出错：生成挂接失败，状态代码为1”](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html?lang=zh-Hans)。

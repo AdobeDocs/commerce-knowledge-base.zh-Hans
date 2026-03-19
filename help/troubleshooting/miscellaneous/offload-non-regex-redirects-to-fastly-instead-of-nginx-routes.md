@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 创建一个Edge词典。
 
-   首先，您可以使用Adobe Commerce[[!DNL VCL] 中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)代码片段来定义Edge词典。 这将包含重定向。
+   首先，您可以使用Adobe Commerce[[!DNL VCL] 中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hans)代码片段来定义Edge词典。 这将包含重定向。
 
    对此有一些注意事项：
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 ## 相关阅读
 
 * [[!DNL Fastly VCL] 引用](https://docs.fastly.com/vcl/)
-* 在开发人员文档中[配置路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
-* 在我们的开发人员文档中[设置 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* 在开发人员文档中[配置路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html?lang=zh-Hans)
+* 在我们的开发人员文档中[设置 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)
 * 在开发人员文档中的[[!DNL VCL] 正则表达式备忘表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

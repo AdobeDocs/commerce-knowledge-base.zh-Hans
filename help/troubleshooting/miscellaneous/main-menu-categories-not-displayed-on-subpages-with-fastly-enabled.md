@@ -1,6 +1,6 @@
 ---
 title: 启用Fastly的子页面上不显示主菜单（类别）
-description: 本文修复了在启用Fastly或Varnish时，子页面（例如，*blog/page*）的店面未显示主菜单(或用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html))的问题。
+description: 本文修复了在启用Fastly或Varnish时，子页面（例如，*blog/page*）的店面未显示主菜单(或用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=zh-Hans))的问题。
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 启用Fastly的子页面上不显示主菜单（类别）
 
-本文修复了在启用Fastly或Varnish时，主菜单（或用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html)）未显示在子页面（例如，*博客/页面*）的店面中的问题。
+本文修复了在启用Fastly或Varnish时，主菜单（或用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=zh-Hans)）未显示在子页面（例如，*博客/页面*）的店面中的问题。
 
 **原因：**&#x200B;页面的`/`URL键&#x200B;*参数中不允许的*&#x200B;字符（斜杠）（搜索引擎优化设置）。 如果错误地指定了&#x200B;*URL路径*（包含整个页面位置），而不是&#x200B;*URL键*，则通常会添加该字符：例如&#x200B;*blog/page\_name*，而不是仅指定&#x200B;*page\_name*。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 问题
 
-启用Fastly或其他基于Varnish的服务时，子页面的店面不会显示主菜单（也称为用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html)）。
+启用Fastly或其他基于Varnish的服务时，子页面的店面不会显示主菜单（也称为用户指南中的[类别顶部导航菜单](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=zh-Hans)）。
 
 ## 原因
 
@@ -57,10 +57,10 @@ ht-degree: 0%
 
 SEO的&#x200B;*URL键*&#x200B;参数：
 
-* [搜索引擎优化](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html)
-* [添加新页面](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html)
+* [搜索引擎优化](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html?lang=zh-Hans)
+* [添加新页面](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html?lang=zh-Hans)
 
 页面层次结构：
 
-* [概述](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html)
-* [添加节点](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#add-a-hierarchy-node)
+* [概述](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=zh-Hans)
+* [添加节点](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=zh-Hans#add-a-hierarchy-node)
