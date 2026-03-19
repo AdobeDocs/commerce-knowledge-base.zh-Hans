@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: e669e0f092b009a124f728390f6fff24aadece15
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -222,9 +222,7 @@ ht-degree: 1%
    * [Adobe Commerce on cloud：检查是否需要为主机实例进行扩展](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [在沙盒脚本中Adobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
    * [Adobe Commerce Intelligence培训视频：过滤器集](/help/how-to/general/mbi-training-video-filter-sets.md)
-   * [如何在Adobe Commerce中分析云基础架构上的数据库查询](/help/how-to/general/how-to-profile-database-queries-on-cloud.md)
    * [阻止Adobe Commerce在Fastly级别的恶意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
-   * [通过GitHub提交为Adobe Commerce Composer安装创建修补程序](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
    * [在云基础架构上更改Adobe Commerce上的管理员密码](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [在Adobe Commerce上的群集中查看环境vCPU层](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [云基础架构上的Adobe Commerce：检查主机的CPU配置](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
