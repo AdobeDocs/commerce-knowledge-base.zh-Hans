@@ -4,9 +4,9 @@ description: 本文为由于配置错误或缺少 [!DNL OpCache] 设置而导致
 exl-id: 30643ea9-969f-41c8-8e62-b24e56d690cf
 feature: Cache
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ cron已停止工作。
 
 ## 原因
 
-[!DNL OpCache]模块已更新到较新的版本，该版本引入了一个在运行时重写`env.php`的[!DNL GraphQL]插件，并且可以覆盖cron设置，这可能导致该问题。 需要更新[!DNL OpCache]配置以避免`env.php file`出现任何问题，已在[!DNL ECE Tools]包的[版本2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13)中解决该问题。
+[!DNL OpCache]模块已更新到较新的版本，该版本引入了一个在运行时重写[!DNL GraphQL]的`env.php`插件，并且可以覆盖cron设置，这可能导致该问题。 需要更新[!DNL OpCache]配置以避免`env.php file`出现任何问题，已在[包的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13)版本2002.1.13[!DNL ECE Tools]中解决该问题。
 
 ## 解决方案
 
@@ -56,6 +56,6 @@ bin/magento cron:run
 
 ## 相关阅读
 
-* [Cron就绪检查问题](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Crons属性](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [Cron作业卡在“正在运行”状态](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [Cron就绪检查问题](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
+* [Crons属性](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
+* [Cron作业卡在“正在运行”状态](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)

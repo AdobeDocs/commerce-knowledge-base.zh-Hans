@@ -1,12 +1,12 @@
 ---
 title: 带有MariaDB 10.6的Adobe Commerce Cloud 2.4.6上的只读副本问题
-description: 本文介绍了如何使用MariaDB 10.6对Adobe Commerce Cloud 2.4.6上的只读副本问题进行故障诊断。
+description: 本文介绍如何解决Adobe Commerce Cloud 2.4.6与MariaDB 10.6之间的只读副本问题。
 feature: Configuration
 role: Developer,Admin
 exl-id: b7af1cc3-93ff-40c5-8959-076cedddb56d
-source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ## 原因
 
-当值应为&#x200B;*conservative*&#x200B;时，数据库上的`slave_parallel_mode`配置默认更改为&#x200B;*optimistics*，而Ece-Tools中的`synchronous_replication`值默认为&#x200B;*true*，而值应为&#x200B;*false*。
+当值应为`slave_parallel_mode`conservative *时，数据库上的*&#x200B;配置默认更改为&#x200B;*optimistics*，而Ece-Tools中的`synchronous_replication`值默认为&#x200B;*true*，而值应为&#x200B;*false*。
 
 ## 解决方案
 
-1. 检查`slave_parallel_mode`参数是否设置为&#x200B;*conservative* （如果值未显示为&#x200B;*conservative*，则需要[引发支持票证](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)）。 要检查，请运行以下命令：
+1. 检查`slave_parallel_mode`参数是否设置为&#x200B;*conservative* （如果值未显示为[conservative](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)，则需要&#x200B;*引发支持票证*）。 要检查，请运行以下命令：
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -54,10 +54,10 @@ ht-degree: 0%
 
 
 
-有关更新数据库配置的步骤，请参阅Commerce on Cloud Infrastructure指南中“部署变量”主题中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hans#database_configuration)。
+有关更新数据库配置的步骤，请参阅Commerce on Cloud Infrastructure指南中“部署变量”主题中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)。
 
 
 ## 相关阅读
 
-* 在《云基础架构上的Commerce指南》中[为部署](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)配置环境变量。
-* 在《实施行动手册》中[数据库配置的最佳实践](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
+* 在《云基础架构上的Commerce指南》中[为部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)配置环境变量。
+* 在《实施行动手册》中[数据库配置的最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。

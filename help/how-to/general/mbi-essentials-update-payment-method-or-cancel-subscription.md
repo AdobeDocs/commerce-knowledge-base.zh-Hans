@@ -1,11 +1,11 @@
 ---
 title: Adobe Commerce Intelligence Essentials：更新支付方式或取消订阅
-description: 符合条件的Commerce Intelligence Essentials客户(独立、月度、通过account.magento.com计费)如何更新支付方式或取消。 不适用于Pro、Cloud、基于合同的订阅或发票订阅。
+description: 符合条件的Commerce Intelligence Essentials客户（独立、月度、通过account.magento.com计费）如何更新支付方式或取消。 不适用于Pro、Cloud、基于合同的订阅或发票订阅。
 exl-id: 45e95451-6d17-44c7-81d3-87f5876b5758
 feature: Commerce Intelligence
-source-git-commit: 7d304a492471168f456071a9a38134f465dbc88f
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
    * 购买Adobe Commerce Intelligence Essentials作为独立月度订阅的客户。
    * 直接通过[account.magento.com](https://account.magento.com)管理账单的客户
 * **不适用于：**
-   * 作为Adobe Commerce合同的一部分访问Commerce Intelligence的客户(例如，云基础架构上的Adobe Commerce Pro或Adobe Commerce)。
+   * 作为Adobe Commerce合同的一部分访问Commerce Intelligence的客户（例如，云基础架构上的Adobe Commerce Pro或Adobe Commerce）。
    * 具有基于合约的计费或已开发票订阅的客户
 
 >[!IMPORTANT]
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [Commerce Intelligence用户指南](/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [Commerce Intelligence用户指南](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)

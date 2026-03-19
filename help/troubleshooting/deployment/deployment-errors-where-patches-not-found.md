@@ -1,10 +1,10 @@
 ---
 title: 未找到修补程序的部署错误
-description: “本文为您遇到错误*未找到下一个修补程序的问题提供了解决方案：MDVA-XXXXX、ACSD-XXXXX。 请检查‘状态’命令是否可用于当前Magento版本*。”
+description: 本文提供了解决出现以下问题的解决方案：错误*未找到下一个修补程序：MDVA-XXXXX、ACSD-XXXXX。 请通过“状态”命令查看这些修补程序对于当前Magento版本*的可用性。
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 在QUALITY_PATCH部分下检查您的`.magento.env.yaml`文件，例如，
+1. 检查QUALITY_PATCHES部分下的`.magento.env.yaml`文件，例如，
 
    ```yaml
    QUALITY_PATCHES:
@@ -36,10 +36,10 @@ ht-degree: 0%
     - ACSD-XXXXX
    ```
 
-1. 在[Quality Patches发行说明](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)中查找修补程序ID，以检查每个修补程序ID是否可以应用于要升级的Adobe Commerce新版本。
+1. 在[Quality Patches发行说明](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)中查找修补程序ID，以检查每个修补程序ID是否可以应用于要升级的Adobe Commerce新版本。
 1. 如果该修补程序不适用于要升级到的新版Adobe Commerce，请从`.magento.env.yaml`文件中删除修补程序ID。
 1. 查看错误指示的所有修补程序ID后，推送更改并重新部署。
 
 ## 相关阅读
 
-* 在Commerce on Cloud Infrastructure指南中[应用修补程序](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment)。
+* 在Commerce on Cloud Infrastructure指南中[应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment)。
