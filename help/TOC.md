@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 03cb143909535a2e615b87ac4bdff425fb667c97
+source-git-commit: 8f1f6cbdc5aabb0c05a51287d463f051f4233b16
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1941'
 ht-degree: 1%
 
 ---
@@ -229,7 +229,6 @@ ht-degree: 1%
    * [如何在支持代理请求时创建“已清理”转储](/help/how-to/general/create-dump-for-support.md)
    * [云基础架构上Adobe Commerce的SSL (TLS)证书](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
    * [无法访问最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
-   * [切换应用程序模式](/help/how-to/general/switch-the-magento-mode.md)
    * [如何登录Adobe Commerce在云基础架构上提供的Fastly帐户](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [显示Adobe Commerce错误报告编号而不是Fastly 503错误](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
    * [将主题重置为默认值](/help/how-to/general/reset-a-theme-to-defaults.md)
