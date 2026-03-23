@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 8f1f6cbdc5aabb0c05a51287d463f051f4233b16
+source-git-commit: fb8a1b5815663b62c5416829b5471adb9c0980c5
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1928'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 1%
       * [Adobe Commerce 2.4.0：Braintree不在多个地址中签出](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
       * [2.3.4 PayPal问题修补程序](/help/troubleshooting/payments/2-3-4-paypal-issue-hotfix.md)
       * [Adobe Commerce 2.4.1：PayPal-Braintree访客结帐时出现错误消息](/help/troubleshooting/payments/magento-2-4-1-wrong-message-on-paypal-via-braintree-guest-checkout.md)
-      * [使用Authorize.net Sandbox帐户下订单时出错（服务器上出现错误）](/help/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server.md)
       * [使用Authorize.net付款方式时结账卡住](/help/troubleshooting/payments/checkout-is-stuck-when-authorize-net-payment-method-is-used.md)
       * [Adobe Commerce 2.4.1已知问题：使用PayPal Braintree结帐时弹出错误](/help/troubleshooting/payments/magento-2-4-1-known-issue-error-popping-up-on-checkout-with-paypal-braintree.md)
       * [Adobe Commerce 2.4.0 Braintree虚拟终端页面已损坏](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
