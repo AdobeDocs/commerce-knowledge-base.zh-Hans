@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: fb8a1b5815663b62c5416829b5471adb9c0980c5
+source-git-commit: e7dcfc91da247d881f4aae4725a5c130102799ee
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1905'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 1%
    * [公告概述](/help/announcements/overview.md)
    * Adobe Commerce公告 {#commerce-announcements}
       * [针对云基础架构上的Adobe Commerce的假期激增容量请求](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
-      * [Adobe Commerce版本的更新生命周期策略常见问题解答](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [在Cloud 2.4.4上切换到OpenSearch for Adobe Commerce](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [Adobe Commerce针对PHP漏洞的建议](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
       * [Adobe Commerce 2.4.0中将删除MySQL目录搜索引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
@@ -228,7 +227,6 @@ ht-degree: 1%
    * [如何在支持代理请求时创建“已清理”转储](/help/how-to/general/create-dump-for-support.md)
    * [云基础架构上Adobe Commerce的SSL (TLS)证书](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
    * [无法访问最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
-   * [如何登录Adobe Commerce在云基础架构上提供的Fastly帐户](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [显示Adobe Commerce错误报告编号而不是Fastly 503错误](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
    * [将主题重置为默认值](/help/how-to/general/reset-a-theme-to-defaults.md)
    * [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
