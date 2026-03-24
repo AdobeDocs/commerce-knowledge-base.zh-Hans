@@ -65,12 +65,12 @@ Module 'Magento_PurchaseOrder':
 
 <u>Composer修补程序</u>
 
-有关编辑器修补程序的说明，请参阅[如何应用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。
+有关编辑器修补程序的说明，请参阅[如何应用Adobe](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。
 
 <u>Git修补程序</u>
 
-* 有关云基础架构上Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
-* 有关Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序：自定义修补程序](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)。
+* 有关云基础架构上Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+* 有关Adobe Commerce的Git修补程序说明，请参阅开发人员文档中的[应用修补程序：自定义修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)。
 
 ## 相关阅读
 

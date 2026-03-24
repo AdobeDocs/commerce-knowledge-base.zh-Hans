@@ -65,4 +65,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [如何应用我们的支持知识库中由Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。
+* [如何应用我们的支持知识库中由Adobe](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。

@@ -69,6 +69,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-有关说明，请参阅[如何应用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。
+有关说明，请参阅[如何应用Adobe](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。
 
 ## 附加文件
