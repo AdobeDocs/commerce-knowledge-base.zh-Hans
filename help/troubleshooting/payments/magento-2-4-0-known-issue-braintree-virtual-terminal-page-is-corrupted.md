@@ -1,19 +1,19 @@
 ---
-title: Adobe Commerce 2.4.0Braintree虚拟终端页面已损坏
-description: 本文为已知的Adobe Commerce 2.4.0问题提供了一个修补程序，该问题导致“Braintree虚拟终端”页面未加载正确的UI元素，或者如果未配置Braintree，则显示正确的错误消息。
+title: Adobe Commerce 2.4.0 Braintree虚拟终端页面已损坏
+description: 本文为已知的Adobe Commerce 2.4.0问题提供了一个修补程序，该问题导致Braintree虚拟终端页面未加载正确的UI元素，或者如果未配置Braintree，则显示正确的错误消息。
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.0Braintree虚拟终端页面已损坏
+# Adobe Commerce 2.4.0 Braintree虚拟终端页面已损坏
 
-本文为已知的Adobe Commerce 2.4.0问题提供了一个修补程序，该问题导致“Braintree虚拟终端”页面未加载正确的UI元素，或者如果未配置Braintree，则显示正确的错误消息。
+本文为已知的Adobe Commerce 2.4.0问题提供了一个修补程序，该问题导致Braintree虚拟终端页面未加载正确的UI元素，或者如果未配置Braintree，则显示正确的错误消息。
 
 ## 受影响的产品和版本
 
@@ -22,29 +22,29 @@ ht-degree: 0%
 
 ## 问题
 
-### 方案1：配置Braintree支付方式
+### 场景1：配置Braintree支付方式
 
 <u>要再现的步骤：</u>
 
-在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。**&#x200B; &#x200B;**
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。** **
 
 <u>预期结果：</u>
 
-**Braintree虚拟终端**&#x200B;页使用正确的UI加载。
+使用正确的UI加载&#x200B;**Braintree虚拟终端**&#x200B;页面。
 
 <u>实际结果：</u>
 
 **Braintree虚拟终端**&#x200B;页面的UI已损坏。
 
-### 方案2：配置Braintree支付方式
+### 场景2：配置Braintree支付方式
 
 <u>要再现的步骤：</u>
 
-在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。**&#x200B; &#x200B;**
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。** **
 
 <u>预期结果：</u>
 
-**Braintree虚拟终端**&#x200B;页面加载时带有正确的UI，并显示一条警告，告知Braintree尚未配置。
+**Braintree虚拟终端**&#x200B;页面加载时带有正确的UI，并显示一条警告，告知您尚未配置Braintree。
 
 <u>实际结果：</u>
 
@@ -69,6 +69,6 @@ ht-degree: 0%
 
 ## 如何应用修补程序
 
-有关说明，请参阅[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
+有关说明，请参阅[如何应用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。
 
 ## 附加文件

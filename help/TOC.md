@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: e7dcfc91da247d881f4aae4725a5c130102799ee
+source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1896'
 ht-degree: 1%
 
 ---
@@ -229,7 +229,6 @@ ht-degree: 1%
    * [无法访问最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [显示Adobe Commerce错误报告编号而不是Fastly 503错误](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
    * [将主题重置为默认值](/help/how-to/general/reset-a-theme-to-defaults.md)
-   * [如何应用Adobe提供的编辑器修补程序](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
    * [检查日志以对Adobe Commerce上的500和503错误进行故障排除](/help/how-to/general/check-logs-to-troubleshoot-500-and-503-errors-on-magento.md)
    * [在云基础架构上的Adobe Commerce上创建数据库转储](/help/how-to/general/create-database-dump-on-cloud.md)
    * [Adobe Commerce在云基础架构上的第三方测试提示](/help/how-to/general/share-access-third-party.md)

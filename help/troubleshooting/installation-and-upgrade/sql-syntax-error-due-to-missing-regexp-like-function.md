@@ -4,9 +4,9 @@ description: 针对在尝试更新company_structure表时由于缺少REGEXP_LIKE
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
-source-git-commit: 04e17dfdf143e233eb2767064c1328990c899eda
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >
 >如果您在更新到B2B 1.5.2后升级`Magento_Company`模块时遇到性能问题，请应用附加的[ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch](assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip)。
 >
->有关详细信息，请参阅Adobe Commerce知识库中的Magento_Company模块在B2B 1.5.2更新后[&#128279;](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)升级中的性能问题。
+>有关详细信息，请参阅Adobe Commerce知识库中的Magento_Company模块在B2B 1.5.2更新后[升级中的](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)性能问题。
 
-本文为尝试更新`company_structure`表时由于缺少`REGEXP_LIKE`函数而发生的SQL语法错误提供了修补程序。
+本文为尝试更新`REGEXP_LIKE`表时由于缺少`company_structure`函数而发生的SQL语法错误提供了修补程序。
 
 ## 受影响的产品和版本
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 问题
 
-由于尝试更新`company_structure`表时缺少`REGEXP_LIKE`函数，升级到B2B版本1.5.2失败，并出现SQL语法错误。
+由于尝试更新`REGEXP_LIKE`表时缺少`company_structure`函数，升级到B2B版本1.5.2失败，并出现SQL语法错误。
 
 <u>先决条件</u>：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 将公司分配给母公司以建立公司层次结构。 有关详细信息，请参阅Adobe Commerce B2B指南中的[管理公司层次结构](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
+1. 将公司分配给母公司以建立公司层次结构。 有关详细信息，请参阅Adobe Commerce B2B指南中的[管理公司层次结构](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
 1. 将B2B升级到1.5.2版本。
 
 <u>预期的结果</u>：
@@ -64,7 +64,7 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
    composer update magento/module-b2b
    ```
 
-1. 应用附加的[ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip)修补程序。 有关说明，请参阅我们的支持知识库中的[如何应用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的编辑器修补程序。
+1. 应用附加的[ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip)修补程序。 有关说明，请参阅我们的支持知识库中的[如何应用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的编辑器修补程序。
 1. 运行`bin/magento setup:upgrade`。
 
 ### 使用云修补程序应用修补程序
@@ -78,4 +78,4 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
    composer update magento/magento-cloud-patches
    ```
 
-1. 提交并推送更改以启动重新部署。 有关说明，请参阅我们的Adobe Commerce on Cloud指南中的[应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)。
+1. 提交并推送更改以启动重新部署。 有关说明，请参阅我们的Adobe Commerce on Cloud指南中的[应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)。
