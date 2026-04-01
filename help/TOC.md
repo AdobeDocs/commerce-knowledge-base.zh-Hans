@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
+source-git-commit: 1502ee72f4421f8fdec5c0e780f1f56423a2cce8
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1880'
 ht-degree: 1%
 
 ---
@@ -215,10 +215,8 @@ ht-degree: 1%
    * [更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [在云基础架构上重置Adobe Commerce上的环境](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI：重新验证集成](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [记录Pro计划的位置（目录）：集成、测试、生产](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce on cloud：检查是否需要为主机实例进行扩展](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [在沙盒脚本中Adobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
-   * [Adobe Commerce Intelligence培训视频：过滤器集](/help/how-to/general/mbi-training-video-filter-sets.md)
    * [阻止Adobe Commerce在Fastly级别的恶意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [在云基础架构上更改Adobe Commerce上的管理员密码](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [在Adobe Commerce上的群集中查看环境vCPU层](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
