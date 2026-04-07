@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 620f4d9e2e070ea8009f2f16b106ddd63d23b1b6
+source-git-commit: 254399e41010fc3f0ee37ee2adb489b7980a2d9d
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 1%
    * [公告概述](/help/announcements/overview.md)
    * Adobe Commerce公告 {#commerce-announcements}
       * [针对云基础架构上的Adobe Commerce的假期激增容量请求](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
-      * [Adobe Commerce针对PHP漏洞的建议](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
       * [Adobe Commerce 2.4.0中将删除MySQL目录搜索引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Adobe Commerce支持将摄取过程迁移到Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * 帮助中心新闻 {#news}
