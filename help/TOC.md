@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: a54f3772949bca48018d1cfc97a25dbf93652a56
+source-git-commit: 992746d72bd6251d3a830f8bb03d7ed11e848b9b
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1837'
 ht-degree: 1%
 
 ---
@@ -238,7 +238,6 @@ ht-degree: 1%
    * [将适用于Adobe Commerce on cloud的MariaDB 10.4升级到10.5](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * 常见问题解答 {#faq}
    * [常见问题解答概述](/help/faq/overview.md)
-   * [Fastly支持的Web应用程序防火墙(WAF)：常见问题解答](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
    * [核心Adobe Commerce支付集成已弃用](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
    * [我可以在我的云实例上安装第三方应用程序吗？](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [链接Magento.com和accounts.magento.cloud帐户登录](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
