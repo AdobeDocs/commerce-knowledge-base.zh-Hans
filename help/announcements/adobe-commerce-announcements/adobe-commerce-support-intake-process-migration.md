@@ -1,12 +1,12 @@
 ---
 title: Adobe Commerce支持将摄取过程迁移到Experience League
-description: Adobe Commerce将于2024年7月15日将支持接收流程从Adobe Commerce帮助中心迁移到Adobe Experience League。 Experience League将成为满足所有支持需求（从自助服务到代理驱动通信）的主要资源。
+description: Adobe Commerce将于2024年7月15日将支持接收流程从Adobe Commerce帮助中心迁移到Adobe Experience League。 Experience League将成为您满足所有支持需求（从自助服务到代理驱动通信）的主要资源。
 feature: Support
 role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 30b62c0e-4341-46c4-8e9c-2cc0fd8e33f9
-source-git-commit: 52c7092df0e052839aefee4783a44f6a0193d755
+source-git-commit: 7beb50c1bdb07003643bc2ce2e4a956e8ba71ac2
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
