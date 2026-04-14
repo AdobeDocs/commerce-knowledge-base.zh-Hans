@@ -3,9 +3,9 @@ title: 更改当前的Adobe帐户电子邮件地址
 description: 了解如何将当前在Adobe帐户中注册的电子邮件地址更改为当前未在Adobe帐户或Magento帐户中注册的新地址。
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 8d91d4c21dc981accf25537cdb61e1271e17b78c
+source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ### 验证Commerce Marketplace电子邮件
 
-1. 登录到您的Commerce Marketplace帐户，并确认您的帐户电子邮件已更新为新地址。
+1. 登录到您的[Commerce Marketplace帐户](https://commercemarketplace.adobe.com/)，并确认您的帐户电子邮件已更新为新地址。
 1. 如果电子邮件未更新，请提交[支持票证](https://experienceleague.adobe.com/zh-hans/support#home)以请求更正Commerce Marketplace帐户电子邮件。
 
 ### 请求支持人员完成内部帐户更新
