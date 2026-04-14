@@ -28,7 +28,7 @@ ht-degree: 0%
 
 按照以下步骤更改电子邮件地址：
 
-1. 重置用于旧电子邮件地址的密码。 按照Adobe helpx中的[重置忘记的密码](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)中提供的说明进行操作。
+1. 重置用于旧电子邮件地址的密码。 按照Adobe helpx中的[重置忘记的密码](https://helpx.adobe.com/cn/manage-account/using/change-or-reset-password.html)中提供的说明进行操作。
 1. 密码重置链接将发送到当前所有者的邮箱，并附上相关说明。
 1. 导航到[Adobe帐户页面](https://account.adobe.com)以使用新电子邮件登录并设置密码。
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 ### 验证Commerce Marketplace电子邮件
 
 1. 登录到您的[Commerce Marketplace帐户](https://commercemarketplace.adobe.com/)，并确认您的帐户电子邮件已更新为新地址。
-1. 如果电子邮件未更新，请提交[支持票证](https://experienceleague.adobe.com/en/support#home)以请求更正Commerce Marketplace帐户电子邮件。
+1. 如果电子邮件未更新，请提交[支持票证](https://experienceleague.adobe.com/zh-hans/support#home)以请求更正Commerce Marketplace帐户电子邮件。
 
 ### 请求支持人员完成内部帐户更新
 
-1. 提交[支持票证](https://experienceleague.adobe.com/en/support#home)，要求我们完成任何必要的内部更新（例如，更新旧的Adobe ID和新的ID与图像ID之间的关联）。
+1. 提交[支持票证](https://experienceleague.adobe.com/zh-hans/support#home)，要求我们完成任何必要的内部更新（例如，更新旧的Adobe ID和新的ID与图像ID之间的关联）。
 1. 如果由于Commerce Marketplace电子邮件在上一部分中未更新而打开了支持票证，则可以使用同一票证来请求这些额外的内部更新。
