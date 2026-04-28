@@ -3,9 +3,9 @@ title: 云上的备份（快照）：常见问题解答
 description: 本文介绍了在云基础架构上的Adobe Commerce上使用快照备份环境的要点。
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 79e7cd40665b1857a9c68916679f07b1c046028a
+source-git-commit: 878a49fd1bbfa98dd506f0e81008ebe3bf7ecaca
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,14 @@ ht-degree: 0%
 * 体系结构计划：入门级、专业级旧版、专业级
 
 ## 环境快照， Pro计划
+
+### 准备升级
+
+如果您需要备份数据库以准备升级，则您负责在继续之前创建和验证自己的备份。 灾难恢复快照仅用于升级不成功时进行数据库恢复，而不是替代升级准备备份。
+
+如果出现错误，导致无法创建自己的备份，请[联系支持人员](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)，并将备份错误详细信息包含在票证中。
+
+注：灾难恢复快照是以前捕获的系统恢复点，而不是计划升级时手动创建的备份，不能按需生成。 如果请求快照，则会提供最新的可用恢复点，因此在该点之后所做的任何更改都可能无法恢复。
 
 ### 暂存和生产环境
 
