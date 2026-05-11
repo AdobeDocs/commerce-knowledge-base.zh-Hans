@@ -57,4 +57,4 @@ ht-degree: 0%
 
 ## 重新关联的阅读
 
-[SaaS数据空间配置](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
+[SaaS数据空间配置](https://experienceleague.adobe.com/zh-hans/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
