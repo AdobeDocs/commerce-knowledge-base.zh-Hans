@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce支持知识库指南正在重组，其内容正在移至Adobe Experience League中的其他位置。 使用[Experience League搜索页面和筛选器](https://experienceleague.adobe.com/en/search#)查找最新的Adobe Commerce疑难解答和与支持相关的内容。
+>Adobe Commerce支持知识库指南正在重组，其内容正在移至Adobe Experience League中的其他位置。 使用[Experience League搜索页面和筛选器](https://experienceleague.adobe.com/zh-hans/search#)查找最新的Adobe Commerce疑难解答和与支持相关的内容。
 
 ![知识库主页](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-此知识库中的信息旨在补充[Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs)、[Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)及其他Adobe Commerce出版物。 它涵盖故障排除和最佳实践，发布公告，回答常见问题，并重点说明官方文档中未提及（出于任何原因）的特定场景。
+此知识库中的信息旨在补充[Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs)、[Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hans)及其他Adobe Commerce出版物。 它涵盖故障排除和最佳实践，发布公告，回答常见问题，并重点说明官方文档中未提及（出于任何原因）的特定场景。
