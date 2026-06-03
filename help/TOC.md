@@ -2,41 +2,39 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 3bec25fb1d0ade6c36c41135075edc4ba3610d30
+source-git-commit: 1f8558e14c82e9f5ca3c050b15394c1361bdd179
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1796'
 ht-degree: 1%
 
 ---
 
 # Adobe Commerce 知识库 {#kb}
 
-* [Adobe Commerce Support Knowledge Base](/help/overview.md)
-* Support Tools {#support-tools}
-   * [Support Tools overview](/help/support-tools/overview.md)
-* Announcements {#announcements}
-   * [Announcements overview](/help/announcements/overview.md)
-   * Adobe Commerce Announcements {#commerce-announcements}
-      * {hide-from-toc}[Adobe Commerce support intake process migration to Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
+* [Adobe Commerce支持知识库](/help/overview.md)
+* 公告 {#announcements}
+   * [公告概述](/help/announcements/overview.md)
+   * Adobe Commerce公告 {#commerce-announcements}
+      * {hide-from-toc}[Adobe Commerce支持接收过程迁移到Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
 * 故障排除 {#troubleshooting}
-   * [Troubleshooting overview](/help/troubleshooting/overview.md)
-   * Database {#database}
-      * [Checking slow queries and processes MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
-      * [MySQL server has gone away&#x200B; error on Adobe Commerce on cloud](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
-      * [Database errors related to max_allowed_packet on Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
-      * [Adobe Commerce database numeric value out of range, [!DNL INT] to [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
-      * [Read Replicas issues on Adobe Commerce Cloud 2.4.6 with MariaDB 10.6](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
-   * Payments {#payments}
-      * [Troubleshoot create order page in [!UICONTROL CSP] restricted mode](/help/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode.md)
-      * [Troubleshoot storefont checkout page in [!UICONTROL CSP] restricted mode](/help/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode.md)
-      * [Adobe Commerce 2.4.0 known issue: missing &quot;Refund&quot; label in Klarna](/help/troubleshooting/payments/magento-2-4-0-known-issue-missing-refund-label-in-klarna.md)
-      * [Adobe Commerce 2.4.0: Braintree not in Multiple Addresses checkout](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-      * [2.3.4 PayPal issue hotfix](/help/troubleshooting/payments/2-3-4-paypal-issue-hotfix.md)
-      * [Adobe Commerce 2.4.1: wrong message on PayPal-Braintree guest checkout](/help/troubleshooting/payments/magento-2-4-1-wrong-message-on-paypal-via-braintree-guest-checkout.md)
-      * [Checkout is stuck when Authorize.net payment method is used](/help/troubleshooting/payments/checkout-is-stuck-when-authorize-net-payment-method-is-used.md)
-      * [Adobe Commerce 2.4.1 known issue: error popping up on Checkout with PayPal Braintree](/help/troubleshooting/payments/magento-2-4-1-known-issue-error-popping-up-on-checkout-with-paypal-braintree.md)
-      * [Adobe Commerce 2.4.0 Braintree Virtual Terminal page corrupted](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
-      * [Cybersource payment from Admin and front on different domains not processed](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
+   * [疑难解答概述](/help/troubleshooting/overview.md)
+   * 数据库 {#database}
+      * [正在检查慢查询和进程MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
+      * [云上的Adobe Commerce上出现MySQL Server已消失&#x200B;错误](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
+      * [与Adobe Commerce上max_allowed_packet相关的数据库错误](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
+      * [Adobe Commerce数据库数值超出范围， [!DNL INT] 到 [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
+      * [带有MariaDB 10.6的Adobe Commerce Cloud 2.4.6上的只读副本问题](/help/troubleshooting/database/read-replicas-issues-synchronization-mariadb-10-6.md)
+   * 支付 {#payments}
+      * [在[!UICONTROL CSP]限制模式下创建订单页疑难解答](/help/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode.md)
+      * [在[!UICONTROL CSP]限制模式下对storefont签出页面进行故障排除](/help/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode.md)
+      * [Adobe Commerce 2.4.0已知问题：Klarna缺少“退款”标签](/help/troubleshooting/payments/magento-2-4-0-known-issue-missing-refund-label-in-klarna.md)
+      * [Adobe Commerce 2.4.0：Braintree不在多个地址中签出](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
+      * [2.3.4 PayPal问题修补程序](/help/troubleshooting/payments/2-3-4-paypal-issue-hotfix.md)
+      * [Adobe Commerce 2.4.1：PayPal-Braintree访客结帐时出现错误消息](/help/troubleshooting/payments/magento-2-4-1-wrong-message-on-paypal-via-braintree-guest-checkout.md)
+      * [使用Authorize.net付款方式时结账卡住](/help/troubleshooting/payments/checkout-is-stuck-when-authorize-net-payment-method-is-used.md)
+      * [Adobe Commerce 2.4.1已知问题：使用PayPal Braintree结帐时弹出错误](/help/troubleshooting/payments/magento-2-4-1-known-issue-error-popping-up-on-checkout-with-paypal-braintree.md)
+      * [Adobe Commerce 2.4.0 Braintree虚拟终端页面已损坏](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
+      * [不处理来自管理员和前端不同域的网络来源付款](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
       * [Adobe Commerce 2.4.0已知问题：Amazon支付，无支付方式](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
       * [Adobe Commerce 2.4.0：选择本地付款时出现结账错误](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
       * [Adobe Commerce上的PayPal故障排除](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
@@ -186,30 +184,30 @@ ht-degree: 1%
       * [与帐户权限和访问密钥相关的部署问题](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
       * [升级到支持PHP 8.1的版本时，在部署过程中出错](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [部署错误：“下载时发生错误7 ...端口443：连接被拒绝”](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
-      * [Deployment errors when committing incorrect files](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
-      * [Deployment errors where patches not found](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
-      * [Deployment failed on cache flush: &quot;There are no commands defined in the &#39;cache&#39; namespace&quot; error](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
-   * Known issues {#known-issues-patches-attached}
-      * [Guidance on securing your store and rotating encryption keys: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
+      * [提交不正确的文件时出现部署错误](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
+      * [未找到修补程序的部署错误](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
+      * [部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+   * 已知问题 {#known-issues-patches-attached}
+      * [有关保护存储安全和旋转加密密钥的指导： [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
    * Elasticsearch {#elasticsearch}
-      * [Falling back to [!DNL Elasticsearch7] when search engine set to [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
-      * [ElasticSuite tracking indices causes problems with Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-* How-to {#how-to}
-   * [How-to overview](/help/how-to/overview.md)
-   * [Checklist for setting up a new [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
-   * [Restore a DB snapshot from Staging or Production](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
-   * [Roll back environment without Cloud snapshot](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-   * [Adobe Commerce on cloud infrastructure: CPU allocation calculation](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-   * [Reset stuck Adobe Commerce on cloud infrastructure cron jobs manually](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
-   * [Test Fastly on Production if a Live Site uses the same domain](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-   * [Identify and measure outages for Adobe Commerce on cloud infrastructure](/help/how-to/general/how-to-identify-outages.md)
-   * [Redirect HTTP to HTTPS for all pages on Adobe Commerce on cloud infrastructure (Force TLS)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
-   * [Allocate more space for MySQL in Adobe Commerce on cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
-   * [Change increment ID for a DB entity (order, invoice, credit memo, etc.) on particular store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
-   * [Reset environment on Adobe Commerce on cloud infrastructure](/help/how-to/general/reset-environment-on-cloud.md)
-   * [MBI: Re-authenticating integrations](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [Adobe Commerce on cloud: check if upsize for host&#39;s instances is needed](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
-   * [Bootstrap Adobe Commerce 2 in a sandbox script](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
+      * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+      * [ElasticSuite跟踪索引导致Elasticsearch出现问题](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
+* 操作方法 {#how-to}
+   * [操作方法概述](/help/how-to/overview.md)
+   * [设置新 [!DNL domain]的清单](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
+   * [从暂存或生产环境恢复数据库快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
+   * [回滚没有云快照的环境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
+   * [云基础架构上的Adobe Commerce：CPU分配计算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
+   * [手动重置云基础架构cron作业上受阻的Adobe Commerce](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
+   * [如果实时网站使用相同的域，则在生产环境中测试Fastly](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
+   * [识别和测量云基础架构上Adobe Commerce的中断](/help/how-to/general/how-to-identify-outages.md)
+   * [对于云基础架构上的Adobe Commerce上的所有页面，将HTTP重定向到HTTPS（强制TLS）](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
+   * [在云上的Adobe Commerce中为MySQL分配更多空间](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
+   * [更改数据库实体（订单、发票、贷项通知单等）的增量ID 在特定存储上](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
+   * [在云基础架构上重置Adobe Commerce上的环境](/help/how-to/general/reset-environment-on-cloud.md)
+   * [MBI：重新验证集成](/help/how-to/general/mbi-reauthenticating-integrations.md)
+   * [Adobe Commerce on cloud：检查是否需要为主机实例进行扩展](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
+   * [在沙盒脚本中Adobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
    * [阻止Adobe Commerce在Fastly级别的恶意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [在云基础架构上更改Adobe Commerce上的管理员密码](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [在Adobe Commerce上的群集中查看环境vCPU层](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
