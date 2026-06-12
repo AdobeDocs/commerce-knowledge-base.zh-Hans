@@ -4,9 +4,9 @@ description: 本文介绍了当Javascript [Webpack](https://developer.adobe.com/
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ watch
 
 <u>预期的结果</u>：
 
-* 如果使用    ```yaml    build    ```    命令，它通常会为Venia生成生成构件。
-* 如果使用    ```yaml    watch    ```    命令，正常启动Venia店面。
+* 如果使用`build`命令，它通常会为Venia生成生成工件。
+* 如果使用`watch`命令，它将正常启动Venia店面。
 
 <u>实际结果</u>：
 
@@ -96,4 +96,4 @@ openssl version
 * [Venia店面设置](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
 * [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
 * [buildpack命令行界面](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
-* [工具和库： buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
+* [工具和库：构建包](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)

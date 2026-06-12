@@ -4,9 +4,9 @@ description: 本文提供了一个解决方案，用于修复在 [!DNL Commerce 
 feature: Data Import/Export, Saas, Logs
 role: Developer
 exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-在自定义扩展中，编辑[!DNL Mview]配置文件(```./etc/mview.xml```)以将`catalog_data_exporter_products`表名更改为&#x200B;*`cde_products_feed`*。
+在自定义扩展中，编辑[!DNL Mview]配置文件(`./etc/mview.xml`)以将`catalog_data_exporter_products`表名更改为&#x200B;*`cde_products_feed`*。
 
 以下示例显示了用于指定[!DNL Mview]订阅所跟踪的表的代码：
 

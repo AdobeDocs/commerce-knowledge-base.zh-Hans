@@ -4,16 +4,16 @@ description: 本文讨论如何解决您在“cron.log”文件中收到“ *SQL
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
 # 云上的Adobe Commerce上出现MySQL Server已消失&#x200B;错误
 
-本文讨论如何解决您在&#x200B;*文件中收到“* SQL Server已不存在`cron.log`”错误消息的问题。 可能会出现一系列症状，包括映像文件导入问题或部署失败。
+本文讨论如何解决您在`cron.log`文件中收到“*SQL Server已不存在*”错误消息的问题。 可能会出现一系列症状，包括映像文件导入问题或部署失败。
 
 ## 受影响的产品和版本
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 问题
 
-您在&#x200B;*文件中收到了“* SQL Server已消失`cron.log`”错误消息。
+您在`cron.log`文件中收到了“*SQL Server已消失*”错误消息。
 
 <u>重现步骤</u>
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 ## 解决方案
 
-1. 通过在CLI中运行检查`default_socket_timeout`的当前超时时间段：    ```    php -i |grep default_socket_timeout    ```
+1. 通过在CLI `php -i |grep default_socket_timeout`中运行检查`default_socket_timeout`的当前超时时间段
 1. 根据超时设置的增加，`default_socket_timeout`变量将变为`/etc/platform/<project_name>/php.ini`文件中预期的最长运行时间。 建议你设置10至15分钟。
 1. 将其提交到GIT并重新部署。
 
 ## 相关阅读
 
 * [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)
-* [Adobe Commerce中关于云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)
+* [Adobe Commerce中有关云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)
