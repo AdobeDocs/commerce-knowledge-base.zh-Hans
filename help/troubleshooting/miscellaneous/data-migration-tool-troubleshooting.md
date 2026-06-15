@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### 原因
 
-在我们的开发人员文档中的[EAV迁移步骤](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification)期间，在Adobe Commerce 2代码库中找不到Adobe Commerce 1代码库中的类。 在大多数情况下，缺少的类属于[扩展](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension)。
+在我们的开发人员文档中的[EAV迁移步骤](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/data-migration/basics/technical-specification)期间，在Adobe Commerce 2代码库中找不到Adobe Commerce 1代码库中的类。 在大多数情况下，缺少的类属于[扩展](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/glossary#extension)。
 
 ### 可采用的解决方案
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### 原因
 
-在对数据进行更改的[增量迁移](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta)（在我们的开发人员文档中）期间发生此错误。 这意味着在Adobe Commerce 1数据库中找不到deltalog表（前缀为`m2_cl_*`）。 此工具会在[数据迁移](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) （在我们的开发人员文档中）期间安装这些表，还会安装用于跟踪更改和填充增量表的数据库触发器。
+在对数据进行更改的[增量迁移](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/data-migration/migrate-data/delta)（在我们的开发人员文档中）期间发生此错误。 这意味着在Adobe Commerce 1数据库中找不到deltalog表（前缀为`m2_cl_*`）。 此工具会在[数据迁移](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/data-migration/migrate-data/data) （在我们的开发人员文档中）期间安装这些表，还会安装用于跟踪更改和填充增量表的数据库触发器。
 
 导致该错误的一个原因可能是，您尝试从Live Adobe Commerce 1存储区的&#x200B;*副本*&#x200B;进行迁移，而不是从Live存储区本身进行迁移。 当您从从未迁移的Adobe Commerce 1实时存储中创建副本时，该副本不包含完成增量迁移所需的触发器和其他增量表，因此迁移失败。 数据迁移工具不会比较AC1和AC2的DB以迁移差异。 相反，该工具使用在首次迁移期间安装的触发器和增量表来执行后续的增量迁移。 在这种情况下，实时Adobe Commerce 1数据库的副本将不包含数据迁移工具用于执行迁移的触发器和删除表。
 
@@ -165,5 +165,5 @@ Deltalog for <TABLE_NAME> is not installed
 
 ## 相关阅读
 
-[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 
