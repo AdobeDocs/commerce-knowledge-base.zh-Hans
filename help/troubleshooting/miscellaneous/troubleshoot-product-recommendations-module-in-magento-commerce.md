@@ -4,7 +4,7 @@ description: 本文介绍Adobe Commerce中[!UICONTROL Product Recommendations]�
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: 48b929f6fdf0bf8745ec03c8faa8b07bf5b3e5c3
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -90,3 +90,4 @@ saas-export
 * 在[!DNL SaaS]数据导出指南中[查看日志并排除故障](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging)
 * Adobe Commerce Data Export Guide for [!DNL SaaS]服务中的[[!DNL SaaS] 数据导出扩展发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/saas-data-export/release-notes)
 * [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+

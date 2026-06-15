@@ -2,7 +2,7 @@
 title: 在部署或手动应用程序期间未找到修补程序错误
 description: 本文提供了解决出现以下问题的解决方案：错误*未找到下一个修补程序：MDVA-XXXXX、ACSD-XXXXX。 使用“状态”命令*检查这些修补程序在当前Magento版本中的可用性。
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
-source-git-commit: 180f0e00ec1a2c6c3bd2ebca4dafe387c7bb3852
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -79,3 +79,4 @@ Check the availability of these patches for the  current Magento version using t
 ## 相关阅读
 
 * 在Commerce on Cloud Infrastructure指南中[应用修补程序](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=zh-Hans#apply-a-patch-in-a-local-environment)。
+
