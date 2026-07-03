@@ -4,9 +4,9 @@ description: 本文讨论如何解决您在“cron.log”文件中收到“ *SQL
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+source-git-commit: 467d214d25b2154af0545054a026a588de883f58
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 
 ## 解决方案
 
+1. 通过在CLI `php -i |grep default_socket_timeout`中运行检查`default_socket_timeout`的当前超时时间段。
 1. 通过在CLI `php -i |grep default_socket_timeout`中运行检查`default_socket_timeout`的当前超时时间段
 1. 根据超时设置的增加，`default_socket_timeout`变量将变为`/etc/platform/<project_name>/php.ini`文件中预期的最长运行时间。 建议你设置10至15分钟。
 1. 将其提交到GIT并重新部署。
@@ -49,4 +50,3 @@ ht-degree: 0%
 
 * [云基础架构上Adobe Commerce的数据库最佳实践](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hans)
 * [Adobe Commerce中有关云基础架构的最常见数据库问题](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hans)
-
