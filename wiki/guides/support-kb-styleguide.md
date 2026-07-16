@@ -1,7 +1,7 @@
 ---
 source-git-commit: c992521cae8c847adc0cc23d2323300e0ba69cdc
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 * 用户单击的所有内容都放入&#x200B;**bold**。 例如，“单击&#x200B;**继续**。” 选项值和错误消息的格式为&#x200B;_斜体_。
 * 请尽量避免在说明中提及UI元素类型。 (单击&#x200B;**下一步**。 vs单击&#x200B;**下一步**&#x200B;按钮。)
-* 在命令序列中使用“选择”和“>”。 (选择&#x200B;**编辑** > **首选项**。 与单击编辑 | 首选项。)
+* 在命令序列中使用“选择”和“>”。 (选择&#x200B;**编辑** > **首选项**。 与单击编辑 |首选项。)
 * 前置词：“在”用于对话框、窗口，包括面板、视图、向导、列表、文件夹和节点。
 * 前置位置：屏幕、页面、工具栏、菜单栏、选项卡、窗格、功能区的“开”。
 * 前置词：单击（单击&#x200B;**下一步**&#x200B;与单击&#x200B;**下一步**）。
@@ -164,7 +164,7 @@ Adobe Commerce版本2.4.0
 
 </td>
 
-<td colspan="1">Adobe Commerce 2.4.0（无版本或版本）</td>
+<td colspan="1">Adobe Commerce 2.4.0(无版本 或版本)</td>
 
 <td colspan="1"></td>
 
@@ -276,4 +276,4 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ## 品牌化
 
-* Magento Commerce现在是Adobe Commerce。 有关如何使用最新品牌语言的详细信息，请参阅[品牌推广术语](https://github.com/magento/knowledge-base/wiki) Wiki。
+* Magento Commerce现在更名为Adobe Commerce。 有关如何使用最新品牌语言的详细信息，请参阅[品牌推广术语](https://github.com/magento/knowledge-base/wiki) Wiki。
