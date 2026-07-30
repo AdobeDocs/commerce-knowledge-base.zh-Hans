@@ -1,12 +1,12 @@
 ---
-title: 'Adobe Commerce 2.4.2 B2B：折扣仍按支付方法更改'
+title: Adobe Commerce 2.4.2 B2B：折扣仍按支付方法更改
 description: 本文介绍了一个已知的Adobe Commerce 2.4.2 B2B问题，该问题在结账时更改支付方式后仍存在与支付方式关联的折扣。 目前没有可用的解决方案。
 exl-id: cd863852-403b-404f-8717-c78c238f5f33
 feature: B2B, Orders, Payments, Personalization
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 <u>实际结果</u> ：
 
-付款方式折扣仍应用于订单合计。  未显示错误消息。商店所有者将能够通过检查订单历史记录看到此情况。
+付款方式折扣仍应用于订单合计。  不显示错误消息。通过检查订单历史记录，商店所有者将能够看到发生此情况。
 
-<u>预期结果</u>：付款方式折扣按预期从订单总额中删除。
+<u>预期的结果</u> :The付款方式折扣按预期从订单总额中删除。
 
 ## 解决方案
 

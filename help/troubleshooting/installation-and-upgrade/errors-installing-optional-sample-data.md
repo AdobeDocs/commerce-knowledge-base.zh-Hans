@@ -6,7 +6,7 @@ feature: Console, Install, Upgrade
 role: Developer
 source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 ## 症状（生产模式）
 
-如果当前设置为[生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans)，则使用[magento sampledata：deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=zh-Hans)命令时，示例数据安装将失败：
+如果您当前设置为[生产模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hans)，则使用[magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=zh-Hans)命令时，示例数据安装将失败：
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
