@@ -6,7 +6,7 @@ feature: Orders
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Adobe Commerce（所有部署方法） 2.4.3及更高版本
 ...
 ```
 
-有关详细步骤，请参阅我们的开发人员文档中的[管理消息队列>配置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
+有关详细步骤，请参阅我们的开发人员文档中的[管理消息队列>配置](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
 
 ## 相关阅读
 
-在我们的开发人员文档中，[消息队列概述](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。
+在我们的开发人员文档中，[消息队列概述](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。

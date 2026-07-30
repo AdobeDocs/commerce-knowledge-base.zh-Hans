@@ -1,19 +1,19 @@
 ---
-title: 'Adobe Commerce 2.4.2：BraintreeVenmo付款不起作用'
-description: 本文介绍了一个已知的Adobe Commerce 2.4.2问题，即在结账期间使用BraintreeVenmo时不会生成订单。 目前没有可用的解决方案。
+title: Adobe Commerce 2.4.2：Braintree Venmo付款不起作用
+description: 本文介绍了一个已知的Adobe Commerce 2.4.2问题，即在结账期间使用Braintree Venmo时不会生成订单。 目前没有可用的解决方案。
 exl-id: 1832ab64-5024-444b-915e-473b34979a6e
 feature: Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.2：BraintreeVenmo付款不起作用
+# Adobe Commerce 2.4.2：Braintree Venmo付款不起作用
 
-本文介绍了一个已知的Adobe Commerce 2.4.2问题，即在结账期间使用BraintreeVenmo时不会生成订单。 目前没有可用的解决方案。
+本文介绍了一个已知的Adobe Commerce 2.4.2问题，即在结账期间使用Braintree Venmo时不会生成订单。 目前没有可用的解决方案。
 
 ## 受影响的产品和版本
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <u>前提条件</u> ：
 
-在Braintree配置中启用Venmo付款。
+在Braintree配置中启用Venmo支付。
 
 <u>重现问题的步骤</u> ：
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 <u>预期的结果</u>：
 
-当客户从Venmo应用程序重定向回应用商店，并且订单是按预期在Braintree中创建后，将在Adobe Commerce中创建订单。
+当客户从Venmo应用程序重定向回应用商店，并且订单按预期在Braintree中创建后，将在Adobe Commerce中创建订单。
 
 ## 解决方案
 

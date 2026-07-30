@@ -1,19 +1,19 @@
 ---
-title: Adobe Commerce 2.4.1：PayPalBraintree访客结帐时出现错误消息
-description: 本文介绍了一个已知的Adobe Commerce 2.4.1问题：如果禁用访客签出，则尝试通过Braintree使用PayPal下达订单的访客客户将收到一则非信息性错误消息。
+title: Adobe Commerce 2.4.1：PayPal-Braintree访客结帐时出现错误消息
+description: 本文介绍了一个已知的Adobe Commerce 2.4.1问题：如果禁用访客签出，则尝试通过Braintree向PayPal下达订单的访客客户会收到一则非信息性错误消息。
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
 source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.1：PayPalBraintree访客结帐时出现错误消息
+# Adobe Commerce 2.4.1：PayPal-Braintree访客结帐时出现错误消息
 
-本文介绍了一个已知的Adobe Commerce 2.4.1问题：如果禁用访客签出，则尝试通过Braintree使用PayPal下达订单的访客客户将收到一则非信息性错误消息。
+本文介绍了一个已知的Adobe Commerce 2.4.1问题：如果禁用访客签出，则尝试通过Braintree向PayPal下达订单的访客客户会收到一则非信息性错误消息。
 
 ## 受影响的产品和版本
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 <u>先决条件</u>：
 
 1. 在Commerce管理员中，在&#x200B;**商店** > **配置** > **销售** > **签出**&#x200B;下，设置&#x200B;**允许来宾签出** = *否*。
-1. 按照用户指南中的[Braintree](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/stores-sales/payments/braintree?)所述，通过Braintree启用PayPal。
+1. 按照用户指南中的[Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree？)所述，通过Braintree启用PayPal。
 
 <u>重现步骤</u>：
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 <pre><code class="language-bash">To check out, please sign in with your email address.</code></pre>
 
-如果您启用直接Paypal而不使用Braintree，则此方案的行为方式不同。 它不允许来宾用户继续支付流程。 当访客用户单击迷你购物车中的PayPal按钮时，它将显示以下消息：
+如果您在不使用Braintree的情况下启用直接Paypal，则此方案的行为方式不同。 它不允许来宾用户继续支付流程。 当访客用户单击迷你购物车中的PayPal按钮时，它将显示以下消息：
 
 <pre><code class="language-bash">To check out, please sign in with your email address.</code></pre>
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 解决方法
 
-此问题的解决方法是客户可以在禁用来宾签出的商店（登录用户不使用来宾签出）登录。 已在Adobe Commerce版本2.4.2中修复此问题。
+此问题的解决方法是客户可以在商店登录（登录用户不使用来宾结帐）。 禁用来宾签出。 已在Adobe Commerce版本2.4.2中修复此问题。
 
 ## 相关阅读
 
