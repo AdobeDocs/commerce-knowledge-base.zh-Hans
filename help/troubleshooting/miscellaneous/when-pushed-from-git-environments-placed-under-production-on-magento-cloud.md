@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-只有在商家推送并激活新创建的分支后，才能设置父分支。 请参阅我们的开发人员文档中的[Adobe Commerce on cloud infrastructure > Bitbucket集成](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)。
+只有在商家推送并激活新创建的分支后，才能设置父分支。 请参阅我们的开发人员文档中的[Adobe Commerce on cloud infrastructure > Bitbucket集成](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)。
 
 要更新服务器上现有分支的父级，请使用magento-cloud CLI中的`magento-cloud environment:info`命令。
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在开发人员文档中，[云基础架构上的Adobe Commerce > magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
+* 在开发人员文档中，[云基础架构上的Adobe Commerce > magento-cloud CLI](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
