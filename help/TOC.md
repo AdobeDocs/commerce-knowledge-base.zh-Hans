@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: b82083924e570e6a0bc004b47ab41f597836b3aa
+source-git-commit: 694ab6fe606195c40b15d2752c09dd380d3dcedb
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1771'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,6 @@ ht-degree: 1%
     * [应用修补程序将导致您的网站停机](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [修订的Google修补程序所有Adobe Commerce版本上的访问丢失](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 其他 {#miscellaneous}
-    * [修复数据未在 [!DNL Commerce Data Exporter] 源中更新，并且 [!DNL cron] 日志中不存在更改日志表的错误](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
     * [电子邮件表明导出存储几乎已满](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [配置文件缺失或更改](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL错误60： SSL证书已过期](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
