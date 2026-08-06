@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 29d98726945266e08a49af010690728c3b4c81c1
+source-git-commit: 4787dec7aefd10f0b8db97ee5e76b09abe78af6c
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1753'
 ht-degree: 1%
 
 ---
@@ -73,11 +73,9 @@ ht-degree: 1%
     * [修订的Google修补程序所有Adobe Commerce版本上的访问丢失](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 其他 {#miscellaneous}
     * [电子邮件表明导出存储几乎已满](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [配置文件缺失或更改](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL错误60： SSL证书已过期](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Adobe Commerce中的“产品推荐”模块疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [未知模块Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
-    * [Cron就绪检查问题](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
     * [SQL查询： EXPLAIN成本错误](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Adobe Commerce安全扫描工具疑难解答指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [文件权限准备情况检查问题](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
