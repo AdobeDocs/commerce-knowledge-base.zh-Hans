@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4787dec7aefd10f0b8db97ee5e76b09abe78af6c
+source-git-commit: 5bb5ce75f5bd20f21762c0c43ab0f54286baf076
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -73,19 +73,15 @@ ht-degree: 1%
     * [修订的Google修补程序所有Adobe Commerce版本上的访问丢失](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 其他 {#miscellaneous}
     * [电子邮件表明导出存储几乎已满](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [cURL错误60： SSL证书已过期](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Adobe Commerce中的“产品推荐”模块疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [未知模块Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
-    * [SQL查询： EXPLAIN成本错误](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Adobe Commerce安全扫描工具疑难解答指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
-    * [文件权限准备情况检查问题](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
     * [诊断Google电子商务收入差异](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [我已为Adobe AI配置了API密钥，但只看到一个SaaS数据空间](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [启用Fastly的子页面上不显示主菜单（类别）](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
     * [文件存储不足，特定页面加载缓慢](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [由于完全重新索引，性能缓慢](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [常规自定义模块故障诊断帮助](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
-    * [磁盘空间不足](/help/troubleshooting/miscellaneous/low-disk-space.md)
     * [缓存预热和网站在Adobe Commerce上不可用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [解决CSV文件上传的UTF-8错误](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [使用Adobe Commerce上的New Relic排除性能故障](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
