@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 5bb5ce75f5bd20f21762c0c43ab0f54286baf076
+source-git-commit: 9216789f967ee842ee41d669779d8037fd47897f
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1724'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,6 @@ ht-degree: 1%
     * [Adobe Commerce安全扫描工具疑难解答指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [诊断Google电子商务收入差异](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [我已为Adobe AI配置了API密钥，但只看到一个SaaS数据空间](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
-    * [启用Fastly的子页面上不显示主菜单（类别）](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
     * [文件存储不足，特定页面加载缓慢](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [由于完全重新索引，性能缓慢](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [常规自定义模块故障诊断帮助](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
