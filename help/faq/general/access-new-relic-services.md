@@ -1,10 +1,10 @@
 ---
 title: 访问New Relic服务
-description: '本文说明具有足够许可证/订阅授权的客户如何能够访问选定的New Relic服务：'
+description: 本文说明具有足够许可证/订阅授权的客户如何访问所选的New Relic服务：
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 09777d70272bdb78a0bcf7566cc398a53c474f4c
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-要了解New Relic服务，请参阅我们的开发人员文档中的[调查性能](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您还可以在我们的支持知识库中查看[在云基础架构上使用Adobe Commerce的New Relic性能疑难解答](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)。
+要了解New Relic服务，请参阅我们的开发人员文档中的[调查性能](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您还可以在我们的支持知识库中查看[在云基础架构上使用Adobe Commerce的New Relic性能疑难解答](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-40830)。
