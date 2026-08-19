@@ -2,9 +2,9 @@
 title: 访问New Relic服务
 description: 本文说明具有足够许可证/订阅授权的客户如何访问所选的New Relic服务：
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: eb7dfd0f3285fc210b942ce7c9c18ab92d8a7204
+source-git-commit: 2ae94bc621d0cc4b308fbf7d5c0f58a5284b6f4d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,9 @@ ht-degree: 0%
 
 **云基础架构上的Adobe Commerce入门计划架构客户，他们想要使用New Relic：**
 
-入门架构客户在订购时不会获得New Relic基础设施服务。 但是，如果他们按照开发人员文档中的[连接到New Relic](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)步骤添加许可证，则可以使用New Relic应用程序性能监控(APM)。
+入门架构客户在订购时不会获得New Relic基础设施服务。 但是，如果他们按照开发人员文档中的[连接到New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)步骤添加许可证，则可以使用New Relic应用程序性能监控(APM)。
 
 ## 相关阅读
 
-要了解New Relic服务，请参阅我们的开发人员文档中的[调查性能](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。
+要了解New Relic服务，请参阅我们的开发人员文档中的[调查性能](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您还可以在我们的支持知识库中查看[在云基础架构上使用Adobe Commerce的New Relic性能疑难解答](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-40830)。
+
