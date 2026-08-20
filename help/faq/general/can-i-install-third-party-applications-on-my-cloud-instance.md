@@ -5,7 +5,7 @@ exl-id: 3abbe282-2a14-4597-8af8-da1edcbece30
 feature: Cloud, Compliance, Install
 source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe Commerce on cloud infrastructure Edition [服务条款协议](https://mage
 作为PCI认证的第1级解决方案提供商，云基础架构上的Adobe Commerce必须遵循PCI数据安全标准，并确保：
 
 >...开发和维护安全的系统和应用程序
-> ([AdobePCI合规性方法](https://magento.com/pci-compliance)要求6，维护漏洞管理程序)
+> （[Adobe的PCI合规性方法](https://magento.com/pci-compliance)要求6，维护漏洞管理计划）
 
 由于Adobe无法保证第三方应用程序的PCI合规性，因此不允许在云服务器上安装此类应用程序。
 
