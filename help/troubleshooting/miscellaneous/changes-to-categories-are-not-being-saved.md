@@ -6,7 +6,7 @@ feature: Categories
 role: Developer
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ### 对于同一类别，第二个数据库条目（以及所有后续条目）如何显示在数据库中？
 
-受影响类别的第二个DB记录（可能还有后续记录）表示已使用Magento\_Staging模块计划了类别更新。 模块为`catalog_category_entity`中的类别创建附加记录，这是预期的应用程序行为；问题是这些记录的`created_in`列具有相同的值。
+受影响类别的第二个DB记录（可能还有后续的数据库记录）表示已使用Magento\_Staging模块计划了类别更新。 模块为`catalog_category_entity`中的类别创建附加记录，这是预期的应用程序行为；问题是这些记录的`created_in`列具有相同的值。
 
 ### 如何显示相同的值？
 

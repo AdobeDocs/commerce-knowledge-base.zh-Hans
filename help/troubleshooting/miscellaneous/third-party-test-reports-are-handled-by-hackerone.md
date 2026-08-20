@@ -6,7 +6,7 @@ role: Developer, Admin
 exl-id: db2e15f0-11e3-48ed-84b4-94567a50fe5f
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ ht-degree: 0%
 
 ## 解决方案
 
-第三方安全扫描发现的漏洞应发送到[!DNL HackerOne]网站。 Adobe Commerce在[!DNL HackerOne]没有直接联系人，因此您应直接联系[!DNL HackerOne]。 Adobe仅处理MST(Magento安全扫描工具)报告。
+第三方安全扫描发现的漏洞应发送到[!DNL HackerOne]网站。 Adobe Commerce在[!DNL HackerOne]没有直接联系人，因此您应直接联系[!DNL HackerOne]。 Adobe仅处理MST（Magento安全扫描工具）报表。

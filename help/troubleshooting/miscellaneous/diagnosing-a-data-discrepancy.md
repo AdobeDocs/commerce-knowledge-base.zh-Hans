@@ -1,19 +1,19 @@
 ---
 title: 诊断数据差异
-description: 本文提供了解决Magento Business Intelligence(MBI)报表与查询或第三方报表之间差异问题的解决方案。
+description: 本文为Magento Business Intelligence (MBI)报表与查询或第三方报表之间的差异故障排除提供了解决方案。
 exl-id: 7d1156cb-9e9b-4426-a0ca-8890b815c245
 feature: Commerce Intelligence
 role: Developer
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
 # 诊断数据差异
 
-本文提供了解决Magento Business Intelligence(MBI)报表与查询或第三方报表之间差异问题的解决方案。
+本文为Magento Business Intelligence (MBI)报表与查询或第三方报表之间的差异故障排除提供了解决方案。
 
 根据分析的复杂性，生成相应的MBI报告可能需要熟悉平台的许多不同方面。 此清单和相关链接将帮助您了解报告背后的逻辑，使您能够识别任何差异的来源。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 1. 如果分析中使用的量度是在数据库中某个表上生成的，而该表中曾删除过某些行，请与MBI支持团队确认是否正在检查该表中已删除的行，以及重新检查该表的频率和[复制方法](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=zh-Hans)。
 1. 同样，如果在添加行后可以修改分析中使用的列，请向支持人员确认正在[检查这些列的修改](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=zh-Hans)以及重新检查的频率。
 
-**仍为空白？**&#x200B;不必担心 — 我们随时为您提供帮助。 使用[这些说明](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)向我们发送请求。
+**仍为空白？** 别担心，我们是来帮忙的。 使用[这些说明](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)向我们发送请求。
 
 ## 相关阅读
 

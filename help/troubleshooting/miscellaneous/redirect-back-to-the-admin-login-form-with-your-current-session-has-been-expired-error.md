@@ -1,12 +1,12 @@
 ---
-title: '重定向回[!UICONTROL Commerce Admin]登录表单，其中显示“您的当前会话已过期”错误'
-description: '''本文提供了[!UICONTROL Commerce Admin]登录问题的可能解决方案，您会在该问题中被重定向回登录表单，并出现以下错误消息：*“您的当前会话已过期”*。 解决方案包括检查服务器时间设置问题和更改会话存储设置。'
+title: 重定向回[!UICONTROL Commerce Admin]登录表单，其中显示“您的当前会话已过期”错误
+description: 本文为[!UICONTROL Commerce Admin]登录问题提供了可能的解决方案，在该问题中，您将被重定向回登录表单，并出现以下错误消息：*“您的当前会话已过期”*。 解决方案包括检查服务器时间设置问题和更改会话存储设置。
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---

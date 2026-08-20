@@ -1,23 +1,23 @@
 ---
-title: Adobe Commerce的Magento Order Management系统(OMS)处理错误
-description: 当您在适用于Adobe Commerce的Magento Order Management系统(OMS)中运行“bin/magento oms:messages:process”的CLI中收到“getMode()”错误时，本文提供了此问题的解决方案。
+title: 适用于Adobe Commerce的Magento Order Management System (OMS)处理错误
+description: 当您在Magento Order Management System (OMS) for Adobe Commerce中运行“bin/magento oms:messages:process”的CLI中收到“getMode()”错误时，本文提供了此问题的解决方案。
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce的Magento Order Management系统(OMS)处理错误
+# 适用于Adobe Commerce的Magento Order Management System (OMS)处理错误
 
-当您在适用于Adobe Commerce的Magento Order Management系统(OMS)中运行`bin/magento oms:messages:process`的CLI中出现`getMode()`错误时，本文提供了此问题的解决方案。
+当您在适用于Adobe Commerce的Magento Order Management System (OMS)中运行`bin/magento oms:messages:process`的CLI中出现`getMode()`错误时，本文提供了此问题的解决方案。
 
 ## 受影响的产品和版本
 
-使用MCOM连接器3.1.1和3.2.0版时，会出现此错误。在MCOM Connector 3.3.0中可解决此问题。它不是特定于MDC或MOM版本。
+使用MCOM连接器3.1.1和3.2.0版时，会出现此错误。 在MCOM Connector 3.3.0中可解决此问题。 它不是特定于MDC或MOM版本。
 
 ## 问题
 

@@ -1,12 +1,12 @@
 ---
-title: “部署在缓存刷新时失败：‘缓存’命名空间中未定义命令’错误”
+title: 部署在缓存刷新时失败：“在‘缓存’命名空间中未定义命令”错误
 description: 本文为部署失败并出现以下错误**在缓存命名空间中未定义命令**的问题提供了解决方案。
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
    `bin/magento`
 
-   如果您收到如下错误，这表示未找到所请求的ID为X的网站，则表示您剩余有配置        删除的网站和商店中的数据。
+   如果您收到如下错误，指示未找到所请求的ID为X的网站，则数据库中会保留来自网站以及已删除商店的配置。
 
    ```
    In WebsiteRepository.php line 110:
@@ -108,5 +108,5 @@ ht-degree: 0%
 ## 相关阅读
 
 * [Adobe Commerce部署疑难解答程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
-* [如果Cloud UI出现“日志截断”错误，则检查部署日志](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [检查部署日志，如果Cloud UI出现“日志截断”错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 * [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

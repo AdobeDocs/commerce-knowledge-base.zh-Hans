@@ -1,24 +1,24 @@
 ---
-title: 更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID
-description: 本文讨论如何使用“ALTER TABLE”SQL语句更改特定Adobe Commerce存储上Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID。
+title: 更改数据库实体（订单、发票、贷项通知单等）的增量ID 在特定存储上
+description: 本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce存储区中使用“ALTER TABLE”SQL语句。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
 source-git-commit: e33d0bf6c857d0d54ec1373db79910d78296b054
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
-# 更改特定商店中数据库实体（订单、发票、贷项通知单等）的增量ID
+# 更改数据库实体（订单、发票、贷项通知单等）的增量ID 在特定存储上
 
-本文讨论如何使用`ALTER TABLE` SQL语句更改特定Adobe Commerce存储中Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID。
+本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce存储上使用`ALTER TABLE` SQL语句。
 
 >[!NOTE]
 >
 >本文仅介绍如何更改订单、发票、贷项通知单等的增量ID的起始数值。
 >
->它不包括如何修改增量ID格式或添加自定义前缀/后缀(例如，将10000001更改为ORDER-10000001、MYSTORE-10000001、2A10000001等)
+>它不包括如何修改增量ID格式或添加自定义前缀/后缀（例如，将10000001更改为ORDER-10000001、MYSTORE-10000001、2A10000001等）
 >
 >要自定义格式，您需要自定义扩展或开发工作。
 
