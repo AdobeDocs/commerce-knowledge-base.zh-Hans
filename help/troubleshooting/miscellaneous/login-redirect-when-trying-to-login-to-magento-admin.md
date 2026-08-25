@@ -4,9 +4,9 @@ description: 本文为Commerce管理员登录问题提供了可能的解决方�
 exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -90,4 +90,4 @@ ht-degree: 0%
 ## 相关文章
 
 * [重定向回管理员登录表单，在我们的支持知识库中出现“您的帐户已被暂时禁用”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)。
-* [重定向回管理员登录表单，在我们的支持知识库中出现“您的当前会话已过期”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)。
+* [重定向回管理员登录表单，在我们的支持知识库中出现“您的当前会话已过期”错误](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686)。
