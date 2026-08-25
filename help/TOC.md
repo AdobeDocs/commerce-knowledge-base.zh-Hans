@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
+source-git-commit: 85213549e150c6f00e03201750694c0d51b8309d
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,6 @@ ht-degree: 1%
     * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [无法访问最新的Adobe Commerce预发行版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [索引被另一个进程锁定](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [诊断数据差异](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [未收到管理员2FA电子邮件通知](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
     * [处于维护模式但可供客户使用的站点](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [更新Adobe Commerce软件时，git pull origin开发失败](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
@@ -170,7 +169,7 @@ ht-degree: 1%
   * 已知问题 {#known-issues-patches-attached}
     * [有关保护存储安全和旋转加密密钥的指导： [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite跟踪索引导致Elasticsearch出现问题](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作方法 {#how-to}
   * [操作方法概述](/help/how-to/overview.md)
