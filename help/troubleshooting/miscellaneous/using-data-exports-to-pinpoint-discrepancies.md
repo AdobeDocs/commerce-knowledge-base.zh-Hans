@@ -51,7 +51,7 @@ ht-degree: 0%
 
 如果两个系统具有相同的行计数，且&#x200B;**收入**&#x200B;指标与源数据不匹配，则&#x200B;**order\_total**&#x200B;必须在某个位置关闭。 源数据库中的&#x200B;**order\_total**&#x200B;字段可能已更新，并且Magento BI未收到这些更改。
 
-要确认这一点，请查看&#x200B;**order\_total**&#x200B;列是否正在重新检查。 前往Data Warehouse Manager并单击&#x200B;**`orders`**&#x200B;表。 您会看到[重新检查频率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html)列在“更改？”列中。 **order\_total**&#x200B;字段应设置为按预期更改频率重新检查；如果不更改，请将其设置为所需的重新检查频率。
+要确认这一点，请查看&#x200B;**order\_total**&#x200B;列是否正在重新检查。 前往Data Warehouse Manager并单击&#x200B;**`orders`**&#x200B;表。 您会看到[重新检查频率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=zh-Hans)列在“更改？”列中。 **order\_total**&#x200B;字段应设置为按预期更改频率重新检查；如果不更改，请将其设置为所需的重新检查频率。
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 源数据库的行数少于Magento BI {#lessrows}
 
-如果源数据库的行数少于Magento BI，则可能会从源数据库中删除行，并且Magento BI不会拾取这些删除内容。 **&#x200B; [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能会导致不一致、更新时间延长以及后勤方面的一系列难题**，因此我们强烈建议您永远不要删除数据，除非它真的必要。
+如果源数据库的行数少于Magento BI，则可能会从源数据库中删除行，并且Magento BI不会拾取这些删除内容。 **&#x200B; [删除数据](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=zh-Hans)可能会导致不一致、更新时间延长以及后勤方面的一系列难题**，因此我们强烈建议您永远不要删除数据，除非它真的必要。
 
 但是，如果从表中删除了行，请查看主键上的重新检查频率。 重新选中主键表示将检查表中是否包含已删除的行。
 
@@ -90,6 +90,6 @@ ht-degree: 0%
 ## 相关阅读
 
 * [数据差异诊断核对清单](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
-* [Adobe Commerce Intelligence服务策略](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [Adobe Commerce Intelligence服务策略](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 
