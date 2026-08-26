@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 85213549e150c6f00e03201750694c0d51b8309d
+source-git-commit: d88862877bdf410f27752386655038d8646f1b45
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1645'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,6 @@ ht-degree: 1%
     * [文件存储不足，特定页面加载缓慢](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [常规自定义模块故障诊断帮助](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [缓存预热和网站在Adobe Commerce上不可用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
-    * [解决CSV文件上传的UTF-8错误](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [尝试登录Commerce Admin时的登录重定向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [使用数据导出来查明差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [组件依赖项就绪检查问题](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
