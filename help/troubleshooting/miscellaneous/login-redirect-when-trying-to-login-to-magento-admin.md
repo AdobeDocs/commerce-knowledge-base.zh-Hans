@@ -90,4 +90,4 @@ ht-degree: 0%
 ## 相关文章
 
 * [重定向回管理员登录表单，在我们的支持知识库中出现“您的帐户已被暂时禁用”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)。
-* [重定向回管理员登录表单，在我们的支持知识库中出现“您的当前会话已过期”错误](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686)。
+* [重定向回管理员登录表单，在我们的支持知识库中出现“您的当前会话已过期”错误](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-41686)。
