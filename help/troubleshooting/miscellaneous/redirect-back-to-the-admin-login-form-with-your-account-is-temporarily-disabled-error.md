@@ -4,9 +4,9 @@ description: 本文为Commerce管理员登录问题提供了可能的解决方�
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9f4777deac8e9d367643158cf6947f4cb61e8fdd
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [尝试登录到[!UICONTROL Commerce Admin]时，重定向回登录表单，并且没有错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)
 * [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

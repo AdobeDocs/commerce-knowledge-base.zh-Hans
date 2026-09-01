@@ -1,6 +1,6 @@
 ---
 title: 使用数据导出来查明差异
-description: 本文提供了解决Magento BI数据不一致问题的解决方案。 数据导出是一种有用的工具，可用于将Magento BI数据与源数据进行比较，以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)无法帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
+description: 本文提供了解决Magento BI数据不一致问题的解决方案。 数据导出是一种有用的工具，可用于将Magento BI数据与源数据进行比较，以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-41479)无法帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用数据导出来查明差异
 
-本文提供了解决Magento BI数据不一致问题的解决方案。 数据导出是一种有用的工具，可用于将Magento BI数据与源数据进行比较，以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)没有帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
+本文提供了解决Magento BI数据不一致问题的解决方案。 数据导出是一种有用的工具，可用于将Magento BI数据与源数据进行比较，以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-41479)没有帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
 
 以这种分析为例：
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [数据差异诊断核对清单](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
+* [数据差异诊断核对清单](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Adobe Commerce Intelligence服务策略](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
 * [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 
