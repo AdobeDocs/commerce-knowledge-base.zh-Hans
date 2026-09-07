@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 2c7e07dac7bb2c6d3ea5e4266511d519a60fbe8a
+source-git-commit: d8f408d530a9106a1b26c602085bd6ce0db3fef3
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1614'
 ht-degree: 1%
 
 ---
@@ -91,8 +91,6 @@ ht-degree: 1%
     * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [无法访问最新的Adobe Commerce预发行版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [索引被另一个进程锁定](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [诊断数据差异](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
-    * [重定向回Commerce管理员登录表单，其中显示“您的当前会话已过期”错误](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [处于维护模式但可供客户使用的站点](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [更新Adobe Commerce软件时，git pull origin开发失败](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [在云基础架构上的Adobe Commerce上启动阻止程序](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
@@ -166,7 +164,7 @@ ht-degree: 1%
   * 已知问题 {#known-issues-patches-attached}
     * [有关保护存储安全和旋转加密密钥的指导： [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite跟踪索引导致Elasticsearch出现问题](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作方法 {#how-to}
   * [操作方法概述](/help/how-to/overview.md)
