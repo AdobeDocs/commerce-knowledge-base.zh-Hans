@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d8f408d530a9106a1b26c602085bd6ce0db3fef3
+source-git-commit: 16bf1de71bfc6ab2836cb2e98dd60fe191d942d1
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1618'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 1%
 * [Adobe Commerce支持知识库](/help/overview.md)
 * 公告 {#announcements}
   * [公告概述](/help/announcements/overview.md)
+  * [Adobe Commerce有安全更新 — APSB26-146](/help/announcements/commerce-apsb26-146.md)
   * Adobe Commerce公告 {#commerce-announcements}
     * {hide-from-toc}[Adobe Commerce支持接收过程迁移到Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
 * 故障排除 {#troubleshooting}
