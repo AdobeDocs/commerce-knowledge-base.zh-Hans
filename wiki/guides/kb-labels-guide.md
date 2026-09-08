@@ -1,7 +1,7 @@
 ---
 source-git-commit: 88a2b8fe11d718f33c26bbc6f407c55d9f1fd189
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -10,7 +10,7 @@ ht-degree: 0%
 本文档提供了向Adobe Commerce支持知识库中的文章添加标签的指南。
 标签（也称为标记）可改善[Adobe Commerce支持知识库](https://support.magento.com/hc/en-us)中的搜索体验。
 标签会添加到文章文件元数据部分的“标签”字段中，并以逗号分隔，逗号与下一个标签之间没有空格。
-有关详细信息，请参阅[../../.github/CONTRIBUTING.md#metadata]。
+有关详细信息，请参阅[../../.#metadata]。
 
 ## 一般规定
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 * 产品的标签。 （必填）
 * 受影响版本的标签。 （必需，一般支持相关文章除外）
 * 内容类型的标签。 （必填）
-* 主要技术组件的标签。（如果适用）
+* 主要技术组件的标签（如果适用）
 * 正在疑难解答/描述的流程/功能的标签。 （如果适用）
 * 正在修复/描述的问题标签。 （如果适用）
 
@@ -50,7 +50,7 @@ ht-degree: 0%
     <td>“Adobe Commerce，内部部署”</td>
   </tr>
   <tr>
-    <td>Magento Business Intelligence(MBI)</td>
+    <td>Magento Business Intelligence (MBI)</td>
     <td>
         “Magento Business Intelligence，MBI”
     </td>
@@ -66,7 +66,7 @@ ht-degree: 0%
     <td>“B2B”</td>
   </tr>
   <tr>
-    <td>Adobe CommercePWA</td>
+    <td>适用于Adobe Commerce的PWA</td>
     <td>"PWA"</td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ ht-degree: 0%
 * 请勿为间隔添加标签。
 即，如果受2.3.0-2.3.5影响，则添加：“2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2”
 不是“2.3.0-2.3.5”
-* 不要添加带有.x的标签。示例： &quot;2.3.x&quot;
+* 不要添加带有.x的标签。 示例： &quot;2.3.x&quot;
 
 ## 内容类型的标签（基于类别）
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 * 请勿使用同义词，即一个组件使用一个标签。
 * 最好使用一个单词标签，但如果组件名称包含多个单词，请使用多个单词。 请勿添加问题描述。 也就是说，用“Elasticsearch”代替“Elasticsearch问题”。
 * 如果内容仅与组件的特定版本相关，请添加包含名称+版本的标签。\
-  示例：“Elasticsearch5”。 如果它与多个特定版本相关，请添加多个此类型的标签。 示例：“Elasticsearch5”、“Elasticsearch6”。 如果相关，请将“x”用于多个版本。 示例：“Elasticsearch2.x”
+  示例：“Elasticsearch 5”。 如果它与多个特定版本相关，请添加多个此类型的标签。 示例：“Elasticsearch 5”、“Elasticsearch 6”。 如果相关，请将“x”用于多个版本。 示例：“Elasticsearch 2.x”
 
 示例：
 
