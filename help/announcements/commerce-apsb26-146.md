@@ -86,7 +86,7 @@ Magento Open Source版本：
 
 ### 如何应用修补程序
 
-解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)获取相关说明。
+解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)获取相关说明。
 
 ### 确认应用了修补程序（仅限Cloud Mertors上的Adobe Commerce）
 
@@ -94,7 +94,7 @@ Magento Open Source版本：
 
 为此，您可以使用文件`VULN-39341_Hotfix_COMPOSER.patch`作为示例，执行以下步骤：
 
-1. [安装质量修补程序工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage#install)。
+1. [安装质量修补程序工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/usage#install)。
 1. 运行命令： `vendor/bin/magento-patches -n status | grep "39341\|Status"`。
 1. 您应该会看到类似于以下内容的输出，其中示例VULN-39341返回Applied状态：
 
@@ -115,7 +115,7 @@ Magento Open Source版本：
 1. 应用修补程序。
 1. 启用维护模式。
 1. 禁用cron执行（云命令上的Commerce： `vendor/bin/ece-tools cron:disable`）。
-1. [旋转加密密钥](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en)。
+1. [旋转加密密钥](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/encryption-key?lang=en)。
 1. 旋转所有Admin面板用户密码。
 1. 停用并重新生成所有REST/SOAP/GraphQL集成令牌(**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**)。
 1. 为任何连接的第三方应用程序轮换OAuth客户端密钥。
@@ -137,4 +137,4 @@ Magento Open Source版本：
 
 ### 相关阅读
 
-在《Adobe Commerce安装指南》中[启用或禁用维护模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
+在《Adobe Commerce安装指南》中[启用或禁用维护模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
