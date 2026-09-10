@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: b4a9384a0d72eec790e08382dd2e45d53cbb9831
+source-git-commit: 829114a6626409412d62e829ba1209d3fbc55ae2
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1605'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,6 @@ ht-degree: 1%
     * [从2.2.X升级到2.3.X后，不会加载缓存的图像](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
     * [将站点添加到安全扫描时出现错误消息](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [共享访问疑难解答](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
-    * [验证Fastly凭据时出错](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
     * [安全扫描工具报告为空白](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [无法访问最新的Adobe Commerce预发行版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
