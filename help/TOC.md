@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 829114a6626409412d62e829ba1209d3fbc55ae2
+source-git-commit: 104c637c8f1c0a22b34d0b963a7cacf80b074999
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1602'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 1%
     * [适用于Adobe Commerce的Magento Order Management System (OMS)处理错误](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
     * [从2.2.X升级到2.3.X后，不会加载缓存的图像](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
     * [将站点添加到安全扫描时出现错误消息](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
-    * [共享访问疑难解答](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
     * [安全扫描工具报告为空白](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1：具有不正确值的发票注释](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [无法访问最新的Adobe Commerce预发行版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
@@ -163,7 +162,7 @@ ht-degree: 1%
   * 已知问题 {#known-issues-patches-attached}
     * [有关保护存储安全和旋转加密密钥的指导： [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite跟踪索引导致Elasticsearch出现问题](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作方法 {#how-to}
   * [操作方法概述](/help/how-to/overview.md)
