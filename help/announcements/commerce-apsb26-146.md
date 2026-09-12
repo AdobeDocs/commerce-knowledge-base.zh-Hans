@@ -11,9 +11,9 @@ feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7526f999381e9f117ea2d52dc59330b0d34cba62
+source-git-commit: 8a165b274bf508d849c60fd6768569af1885fdb7
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: 957
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Adobe已发布安全公告APSB26-146，其中介绍了此漏洞。 公告可从此处获取：
 
-[可用于Adobe Commerce的安全更新| APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
+[可用于Adobe Commerce的安全更新| APSB26-146](https://helpx.adobe.com/cn/security/products/magento/apsb26-146.html)
 
 本文介绍了如何为Adobe Commerce和Magento Open Source的当前版本及早期版本应用修补程序。
 
@@ -120,7 +120,7 @@ Magento Open Source版本：
 1. 停用并重新生成所有REST/SOAP/GraphQL集成令牌(**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**)。
 1. 为任何连接的第三方应用程序轮换OAuth客户端密钥。
 1. 在提供商级别（Stripe、Braintree、Adyen、PayPal等）轮换支付网关API凭据。
-1. 旋转数据库凭据。
+1. 旋转数据库和Fastly凭据（通过支持票证）。
 1. 轮换SSH/部署密钥和任何cron或系统授权的服务帐户凭据。
 1. 轮换API密钥，用于运输、税务和其他集成的第三方扩展。
 1. 刷新缓存。
@@ -132,8 +132,8 @@ Magento Open Source版本：
 
 可用于Adobe Commerce的安全更新：
 
-* [Adobe安全公告(APSB26-146)](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
-* [可用于Adobe Commerce的最新安全更新](https://helpx.adobe.com/security/products/magento.html)
+* [Adobe安全公告(APSB26-146)](https://helpx.adobe.com/cn/security/products/magento/apsb26-146.html)
+* [可用于Adobe Commerce的最新安全更新](https://helpx.adobe.com/cn/security/products/magento.html)
 
 ### 相关阅读
 
