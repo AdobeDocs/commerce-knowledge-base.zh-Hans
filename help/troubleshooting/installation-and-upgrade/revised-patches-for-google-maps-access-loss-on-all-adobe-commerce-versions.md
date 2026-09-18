@@ -1,15 +1,14 @@
 ---
 title: 修订的Google修补程序所有Adobe Commerce版本上的访问丢失
-description: '本文为Adobe Commerce商家提供了与3.54+的任何最新 [!DNL Google Maps] 版本都不兼容的修复。'
+description: 本文修复了与3.54+版本的任何最新[!DNL Google Maps]版本不兼容的Adobe Commerce商家。
 feature: Install, Upgrade
 role: Developer
-source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
+exl-id: 6151e89a-3190-40cb-b599-94ae5530488b
+source-git-commit: d7e58d6a9ed8e9b369ea41165cbdd6b362e40824
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # 修订了所有Adobe Commerce版本上[!DNL Google Maps]访问丢失的修补程序
 
 本文修复了与3.54+版本的任何最新[!DNL Google Maps]版本不兼容的Adobe Commerce商家。 此修复是为了解决Adobe Commerce商家无法再访问任何版本的Adobe Commerce中的[!DNL Google Maps]的问题。
@@ -25,9 +24,9 @@ ht-degree: 0%
 
 有关详细信息，请参阅[[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions)。
 
-Adobe Commerce与3.54及更高版本的任何最新[!DNL &#x200B; Google Maps]版本不兼容。
+Adobe Commerce与3.54及更高版本的任何最新[!DNL  Google Maps]版本不兼容。
 
-不兼容是由旧版`prototype.js script`导致的，该旧版通过`lib/web/legacy-build.min.js`加载将覆盖本机Array.from函数，从而导致与[!DNL &#x200B; Google Maps] API直接冲突。
+不兼容是由旧版`prototype.js script`导致的，该旧版通过`lib/web/legacy-build.min.js`加载将覆盖本机Array.from函数，从而导致与[!DNL  Google Maps] API直接冲突。
 
 请参阅[[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices)。
 
@@ -53,13 +52,17 @@ Adobe Commerce与3.54及更高版本的任何最新[!DNL &#x200B; Google Maps]�
 
 根据Adobe Commerce版本，使用以下附加的修补程序：
 
-对于版本2.4.4：**[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)**
+对于版本2.4.4：****
+[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-对于版本2.4.5：**[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)**
+对于版本2.4.5：****
+[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-对于版本2.4.6：**[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)**
+对于版本2.4.6：****
+[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-对于版本2.4.7：**[ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip)**
+对于版本2.4.7：****
+[ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip)
 
 **请注意**
 
@@ -68,4 +71,4 @@ Adobe Commerce与3.54及更高版本的任何最新[!DNL &#x200B; Google Maps]�
 
 ## 相关阅读
 
-[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)

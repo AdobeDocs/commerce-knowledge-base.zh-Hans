@@ -1,15 +1,14 @@
 ---
-title: “[!DNL Live Search] Facet未按字母顺序排序”
-description: 如果 [!DNL Live Search] 方面未按字母顺序排序，本文将提供故障诊断信息。
+title: '[!DNL Live Search]个Facet未按字母顺序排序'
+description: 如果[!DNL Live Search]方面未按字母顺序排序，本文将提供故障诊断信息。
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search]个Facet未按字母顺序排序
 
 ## 受影响的产品和版本
@@ -22,7 +21,7 @@ Adobe Commerce版本2.4.x及更高版本
 
 ## 解决方法
 
-但是，在某些边缘情况下，Facet可能无法按照[[!DNL Live Search] Faceting工作区](https://experienceleague.adobe.com/zh-hans/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)中的设置进行字母排序。
+但是，在某些边缘情况下，Facet可能无法按照[[!DNL Live Search] Faceting工作区](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)中的设置进行字母排序。
 
 作为解决方法，您可以在[!UICONTROL Admin]属性部分中对产品属性进行排序。
 
