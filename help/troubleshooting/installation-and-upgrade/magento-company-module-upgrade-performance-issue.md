@@ -3,13 +3,12 @@ title: B2B 1.5.2更新后Magento_Company模块升级中的性能问题
 description: 本文为B2B 1.5.2更新后Magento_Company模块升级中的性能问题提供了修补程序，解决了对company_structure表中大型数据集的处理时间过长的问题。
 feature: B2B, Upgrade
 role: Admin, Developer
-source-git-commit: d06f0045b4c4c1615bd3abec963eb17fdee93860
+exl-id: b091d761-2e8a-4535-b461-ee9a46b5c2bc
+source-git-commit: e0524b54ee0adae1caa809212e98dda3a33c1954
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 # B2B 1.5.2更新后Magento_Company模块升级中的性能问题
 
 本文为B2B 1.5.2更新后`Magento_Company`模块升级中的性能问题提供了一个修补程序，用于解决`company_structure`表中大型数据集（约100,000多条记录）的处理时间过长的问题。
@@ -84,4 +83,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [由于缺少REGEXP_LIKE函数](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)，升级到B2B 1.5.2失败，出现SQL语法错误
+* [由于缺少REGEXP_LIKE函数，升级到B2B 1.5.2失败，并出现SQL语法错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

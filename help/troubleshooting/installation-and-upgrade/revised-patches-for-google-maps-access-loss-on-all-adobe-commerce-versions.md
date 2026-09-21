@@ -1,15 +1,14 @@
 ---
 title: 修订的Google修补程序所有Adobe Commerce版本上的访问丢失
-description: '本文为Adobe Commerce商家提供了与3.54+的任何最新 [!DNL Google Maps] 版本都不兼容的修复。'
+description: 本文修复了与3.54+版本的任何最新[!DNL Google Maps]版本不兼容的Adobe Commerce商家。
 feature: Install, Upgrade
 role: Developer
-source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
+exl-id: 6151e89a-3190-40cb-b599-94ae5530488b
+source-git-commit: d7e58d6a9ed8e9b369ea41165cbdd6b362e40824
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # 修订了所有Adobe Commerce版本上[!DNL Google Maps]访问丢失的修补程序
 
 本文修复了与3.54+版本的任何最新[!DNL Google Maps]版本不兼容的Adobe Commerce商家。 此修复是为了解决Adobe Commerce商家无法再访问任何版本的Adobe Commerce中的[!DNL Google Maps]的问题。
@@ -53,13 +52,17 @@ Adobe Commerce与3.54及更高版本的任何最新[!DNL &#x200B; Google Maps]�
 
 根据Adobe Commerce版本，使用以下附加的修补程序：
 
-对于版本2.4.4：**[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)**
+对于版本2.4.4：**&#x200B;**
+[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-对于版本2.4.5：**[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)**
+对于版本2.4.5：**&#x200B;**
+[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-对于版本2.4.6：**[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)**
+对于版本2.4.6：**&#x200B;**
+[ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-对于版本2.4.7：**[ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip)**
+对于版本2.4.7：**&#x200B;**
+[ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip)
 
 **请注意**
 

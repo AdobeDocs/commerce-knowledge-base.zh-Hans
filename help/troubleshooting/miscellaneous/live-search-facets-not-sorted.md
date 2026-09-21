@@ -1,15 +1,14 @@
 ---
-title: “[!DNL Live Search] Facet未按字母顺序排序”
-description: 如果 [!DNL Live Search] 方面未按字母顺序排序，本文将提供故障诊断信息。
+title: '[!DNL Live Search]个Facet未按字母顺序排序'
+description: 如果[!DNL Live Search]方面未按字母顺序排序，本文将提供故障诊断信息。
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search]个Facet未按字母顺序排序
 
 ## 受影响的产品和版本

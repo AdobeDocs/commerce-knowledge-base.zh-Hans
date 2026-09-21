@@ -4,13 +4,11 @@ description: 本文介绍如何解决因禁用某些Adobe Commerce缓存类型�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: 42aa1d4ef3540d4eb9682627dc5bf1dd14091dc3
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # 启用缓存以避免性能下降
 
 本文介绍如何解决因禁用某些Adobe Commerce缓存类型而导致的网站速度缓慢问题。
@@ -54,4 +52,4 @@ ht-degree: 0%
 
 * [禁用Adobe Commerce横幅输出以提高网站性能](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26909)
 * [MySQL表太大](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26945)
-* [性能缓慢、运行速度缓慢且运行时间较长](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
+* [性能缓慢、运行速度缓慢且运行时间较长](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-42802)
