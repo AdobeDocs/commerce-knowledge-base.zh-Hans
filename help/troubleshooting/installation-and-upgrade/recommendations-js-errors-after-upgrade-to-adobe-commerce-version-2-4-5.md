@@ -1,16 +1,14 @@
 ---
-title: 升级到Adobe Commerce版本2.4.5后出现[!UICONTROL Recommendations] [!DNL JS] 错误
-description: 本文修复了在升级到Adobe Commerce（所有部署方法）后，控制台中何时存在 [!DNL JS] 个与产品[!UICONTROL Recommendations]模块相关的错误。
+title: 升级到Adobe Commerce版本2.4.5后出现[!UICONTROL Recommendations] [!DNL JS]错误
+description: 本文修复了在升级到Adobe Commerce（所有部署方法）后，控制台中何时存在[!DNL JS]个与产品[!UICONTROL Recommendations]模块相关的错误。
 feature: Install, Upgrade
 role: Developer
 exl-id: 51d899eb-48f7-48c5-8bda-bd72a4d28945
 source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 # 升级到Adobe Commerce版本2.4.5后出现[!UICONTROL Recommendations] [!DNL JS]错误
 
 本文修复了在升级到Adobe Commerce（所有部署方法）后，控制台中何时存在[!DNL JS]个与产品[!UICONTROL Recommendations]模块/设备相关的错误。
@@ -29,7 +27,7 @@ ht-degree: 0%
 
 1. 升级到Adobe Commerce 2.4.5。
 1. 访问店面网页。
-1. 右键单击鼠标，然后选择&#x200B;**Inspect**&#x200B;以在Web浏览器上打开Web检查器。
+1. 右键单击鼠标，然后选择&#x200B;**检查**&#x200B;以在Web浏览器上打开Web检查器。
 1. 单击&#x200B;**[!UICONTROL Console]**&#x200B;选项卡。
 1. 查看[!DNL JS]错误。
 
