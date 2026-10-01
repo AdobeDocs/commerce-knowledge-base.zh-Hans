@@ -5,11 +5,9 @@ description: 本文介绍如何使用“Adobe Commerce观察”上的“New Reli
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
 source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
-
 ---
-
 # 在Adobe Commerce上的群集中查看环境vCPU层
 
 本文介绍如何使用“Adobe Commerce观察”上的“New Relic基础架构”选项卡检查您的vCPU层分配。 Adobe Commerce观察信息是一个New Relic Nerdlet，它显示Adobe Commerce站点的状态、当前和过去的时间视图。
