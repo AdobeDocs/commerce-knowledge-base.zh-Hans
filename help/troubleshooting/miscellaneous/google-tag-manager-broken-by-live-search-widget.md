@@ -1,16 +1,14 @@
 ---
-title: Google Tag Manager已被 [!DNL Live Search] 小组件破坏
-description: 本文为 [!DNL Live Search Product Listing Widget] 提供解决方案，以导致 [!DNL Google Tag Manager] 停止运行。
+title: Google Tag Manager已被[!DNL Live Search]小组件破坏
+description: 本文为[!DNL Live Search Product Listing Widget]提供了一个解决方案，导致[!DNL Google Tag Manager]停止运行。
 feature: Install, Search, Best Practices
 role: Admin, Developer
 exl-id: 485f8ccb-cba2-4785-a8e1-a1e98c88b21e
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Tag Manager]被[!DNL Live Search]小组件破坏
 
 本文为[!DNL Live Search Product Listing Widget]提供了一个解决方案，导致[!DNL Google Tag Manager]停止运行。
@@ -31,6 +29,6 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 我们的Adobe Commerce Live Search文档中的[[!DNL Live Search] 指南概述](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html?lang=zh-Hans)
+* 我们的Adobe Commerce Live Search文档中的[[!DNL Live Search] 指南概述](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
 
-* 在我们的Adobe Commerce Live Search文档中[正在安装 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans)
+* 在我们的Adobe Commerce Live Search文档中[正在安装 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)

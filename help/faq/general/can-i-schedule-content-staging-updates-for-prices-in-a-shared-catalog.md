@@ -1,18 +1,16 @@
 ---
 title: 我是否可以为共享目录中的价格计划内容暂存更新？
-description: Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更新([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans))的功能。
+description: Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更新([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))的功能。
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
 source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '290'
 ht-degree: 0%
-
 ---
-
 # 我是否可以为共享目录中的价格计划内容暂存更新？
 
-Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更新([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans))的功能。
+Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更新([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))的功能。
 
 这意味着您不能直接从Commerce管理面板的&#x200B;**设置定价和结构**&#x200B;菜单计划此类价格更新（此菜单中没有&#x200B;**计划新更新**&#x200B;按钮）。
 
@@ -23,7 +21,7 @@ Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更
 
 ## 客户组的计划价格更新
 
-1. 开始[计划新产品更新](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html?lang=zh-Hans)。
+1. 开始[计划新产品更新](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html)。
 1. 向下滚动到&#x200B;**价格**&#x200B;字段，然后单击&#x200B;**高级定价**。
 
    ![advanced_pricing.png](assets/advanced_pricing.png){width="600"}
@@ -40,9 +38,9 @@ Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更
 
 **相关文档**
 
-* 在我们的用户指南中[计划更新（内容暂存）](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html?lang=zh-Hans)。
-* 我们用户指南中的[高级定价](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=zh-Hans)。
+* 在我们的用户指南中[计划更新（内容暂存）](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html)。
+* 我们用户指南中的[高级定价](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html)。
 
 ## 基准价格的计划价格更新
 
-请参阅相关文章：[基本价格更改如何影响共享目录价格？我们的支持知识库中的](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)。
+请参阅相关文章：[基本价格更改如何影响共享目录价格？](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) 在我们的支持知识库中。
