@@ -5,11 +5,9 @@ exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
 source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '290'
 ht-degree: 0%
-
 ---
-
 # 我是否可以为共享目录中的价格计划内容暂存更新？
 
 Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更新([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans))的功能。
@@ -45,4 +43,4 @@ Adobe Commerce不提供为共享目录中的一个或多个产品计划价格更
 
 ## 基准价格的计划价格更新
 
-请参阅相关文章：[基本价格更改如何影响共享目录价格？我们的支持知识库中的](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)。
+请参阅相关文章：[基本价格更改如何影响共享目录价格？](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) 在我们的支持知识库中。
