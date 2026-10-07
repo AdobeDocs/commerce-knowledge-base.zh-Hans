@@ -5,11 +5,9 @@ exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '309'
 ht-degree: 0%
-
 ---
-
 # 在我们的云专业架构上，将数据库auto_increment增量变量设置为“3”Adobe Commerce
 
 这是Adobe Commerce在云基础架构上的预期行为。专业版计划架构解决方案，因为采用3节点架构，因此无法修改。
@@ -31,5 +29,5 @@ ht-degree: 0%
 
 请参阅我们的开发人员文档中的：
 
-* [Cloud for Adobe Commerce >专业架构>备份和灾难恢复](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Cloud for Adobe Commerce >安装先决条件：数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Cloud for Adobe Commerce >专业体系结构>备份和灾难恢复](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [适用于Adobe Commerce的Cloud >安装先决条件：数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/overview)

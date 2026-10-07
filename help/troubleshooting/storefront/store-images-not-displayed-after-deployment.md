@@ -6,11 +6,9 @@ feature: Cache, Categories, Deploy, Storefront
 role: Admin
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '184'
 ht-degree: 0%
-
 ---
-
 # 部署后不显示存储映像
 
 本文为部署后图像无法正确显示提供了一个解决方案。

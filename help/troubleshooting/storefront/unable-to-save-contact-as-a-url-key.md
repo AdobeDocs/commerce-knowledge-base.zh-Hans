@@ -6,11 +6,9 @@ feature: CMS, Marketing Tools, Storefront
 role: Admin
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '350'
 ht-degree: 0%
-
 ---
-
 # 无法将&#x200B;*联系人*&#x200B;另存为URL键
 
 当您无法将&#x200B;*contact*&#x200B;另存为产品或CMS页面的URL密钥（例如，“/contact”）时，本文提供了此问题的解决方法。
