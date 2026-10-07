@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '359'
 ht-degree: 0%
-
 ---
-
 # 安装或升级期间出现内存不足错误
 
 本文介绍了在安装/升级Adobe Commerce内部部署和Magento Open Source内部部署产品时出现的内存不足错误解决方案。
@@ -22,7 +20,7 @@ ht-degree: 0%
 
 ## 问题
 
-使用Web设置向导安装或更新Adobe Commerce或Magento Open Source应用程序或组件（如扩展、主题或语言包）时，会显示与以下内容类似的错误：
+使用Web设置向导安装或更新Adobe Commerce或Magento Open Source应用程序或扩展、主题或语言包等组件时，会显示与以下内容类似的错误：
 
 ```bash
 Could not complete update {"components":[
@@ -40,7 +38,7 @@ proc_open(): fork failed - Cannot allocate memory
 
 ## 解决方案 {#solution}
 
-我们建议您[在我们的开发人员文档中为PHP](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)分配2GB的内存，以确保您的安装或升级成功。
+我们建议您[在我们的开发人员文档中为PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)分配2GB的内存，以确保您的安装或升级成功。
 
 如果您已经这样做，请在您的计算机上创建一个交换文件。 如果Linux计算机需要更多内存资源并且RAM已满，则它使用&#x200B;*交换空间*。 交换空间用于内存中的非活动页。
 
@@ -50,9 +48,9 @@ proc_open(): fork failed - Cannot allocate memory
 
 使用下列参考中所述的`fallocate`命令：
 
-* [如何在Ubuntu 14.04 (Digitalocean)上添加交换](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
-* [如何在Ubuntu 16.04 (Digitalocean)上添加交换空间](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
-* [SwapFaq (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
+* [如何在Ubuntu 14.04(Digitalocean)中添加交换](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
+* [如何在Ubuntu 16.04(Digitalocean)中添加交换空间](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+* [交换常见问题解答(help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
 
 ### 在CentOS上交换文件 {#swap-file-on-centos}
 
