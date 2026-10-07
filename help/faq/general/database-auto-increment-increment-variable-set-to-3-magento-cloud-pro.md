@@ -29,5 +29,5 @@ ht-degree: 0%
 
 请参阅我们的开发人员文档中的：
 
-* [Cloud for Adobe Commerce >专业体系结构>备份和灾难恢复](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [适用于Adobe Commerce的Cloud >安装先决条件：数据库](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Cloud for Adobe Commerce >专业体系结构>备份和灾难恢复](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [适用于Adobe Commerce的Cloud >安装先决条件：数据库](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/overview)
