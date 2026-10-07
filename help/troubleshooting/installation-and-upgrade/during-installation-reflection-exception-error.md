@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '107'
 ht-degree: 0%
-
 ---
-
 # 安装期间，发生反射异常错误
 
 本文针对安装期间出现反射异常错误提供了解决方案。
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 清除Adobe Commerce的`var`子目录下的所有目录和文件，然后再次安装Adobe Commerce软件。
 
-作为[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)或具有`root`权限的用户，输入以下命令：
+作为[Adobe Commerce文件系统所有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)或具有`root`权限的用户，输入以下命令：
 
 ```bash
 $ cd <your Magento install directory>/var
