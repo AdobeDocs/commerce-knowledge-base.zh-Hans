@@ -4,13 +4,20 @@ description: 本文讨论了一些MySQL常见问题（查询缓慢、流程耗�
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # 正在检查慢查询和进程MySQL
 
 本文讨论了一些MySQL常见问题（查询缓慢、流程耗时过长），这些问题可能会对商户的网站及其指示的解决方案产生不利影响。
@@ -21,9 +28,9 @@ ht-degree: 0%
 
 如果由于数据库超载而导致中断，这些步骤将帮助您检查数据库的查询日志是否缓慢。
 
-### 使用MySQL命令行分析查询(Adobe Commerce Cloud/内部部署/Magento Open Source)
+### 使用MySQL命令行(Adobe Commerce Cloud/on-premise/Magento Open Source)分析查询
 
-1. 从命令行(云基础架构上的Adobe Commerce)登录到MySQL命令行(Adobe Commerce本地/Magento Open Source)或云服务器。
+1. 从命令行（云基础架构上的Adobe Commerce）登录到MySQL命令行（Magento Open Source/本地Adobe Commerce）或云服务器。
 1. 检查慢查询日志中超过50秒的查询：
 
    ```bash
@@ -39,12 +46,12 @@ ht-degree: 0%
 * 创建转储
 
 
-### 使用[!DNL Percona Toolkit]分析查询(仅限Adobe Commerce Pro：云架构)
+### 使用[!DNL Percona Toolkit]分析查询（仅限Adobe Commerce Pro：云架构）
 
 如果您的Adobe Commerce项目部署在Pro架构上，则可以使用[!DNL Percona Toolkit]来分析查询。
 
 1. 对MySQL慢查询日志运行`pt-query-digest --type=slowlog`命令。
-   * 要查找慢查询日志的位置，请参阅我们的开发人员文档中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hans)**。
+   * 要查找慢查询日志的位置，请参阅我们的开发人员文档中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**。
    * 请参阅[[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest)文档。
 1. 根据发现的问题，采取措施修复查询，使其运行速度更快。
 
@@ -56,7 +63,7 @@ ht-degree: 0%
 
 ### 步骤
 
-1. 从命令行(云基础架构上的Adobe Commerce)登录到MySQL命令行(Adobe Commerce本地/Magento Open Source)或云服务器。
+1. 从命令行（云基础架构上的Adobe Commerce）登录到MySQL命令行（Magento Open Source/本地Adobe Commerce）或云服务器。
 1. 使用以下代码块登录MySQL。 这将自动执行登录过程。
 
    ```MySQL
@@ -81,4 +88,4 @@ ht-degree: 0%
 * 在dev.mysql.com中[MySQL显示Processlist语法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)。
 * dev.mysql.com中的[MySQL终止语法](https://dev.mysql.com/doc/refman/8.0/en/kill.html)。
 * 在开发人员文档中[安全性、性能和数据处理](https://developer.adobe.com/commerce/php/best-practices/extensions/security/)。
-* 在开发人员文档中[MySQL帮助](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。
+* 在开发人员文档中[MySQL帮助](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。
