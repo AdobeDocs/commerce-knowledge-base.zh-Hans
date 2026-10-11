@@ -1,16 +1,28 @@
 ---
 title: 部署失败Fastly模块不兼容的Adobe Commerce版本
-description: '更新时间：2019年2月29日'
+description: 更新日期： 2019年2月29日
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # 部署失败Fastly模块不兼容的Adobe Commerce版本
 
 更新日期： 2019年2月29日
@@ -68,6 +80,6 @@ ht-degree: 0%
 
 1. 执行以下命令之一：
    * 如果Fastly模块包含在magento-cloud-metapackage中：    <pre>编辑器更新magento/magento-cloud-metapackage</pre>
-   * 如果Fastly模块是单独安装的(例如，如果您使用的是本地Adobe Commerce，而不是云版本) <pre>编辑器更新fastly/magento2</pre>
+   * 如果Fastly模块是单独安装的（例如，如果您使用的是本地Adobe Commerce，而不是云版本） <pre>编辑器更新fastly/magento2</pre>
 1. 提交并推送更改，如果未自动完成，则触发部署过程。
 1. 在管理员中，[将新VCL上传到Fastly](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
