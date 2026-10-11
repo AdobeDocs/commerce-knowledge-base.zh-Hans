@@ -1,23 +1,30 @@
 ---
-title: 'PWA Studio：浏览器不信任生成的SSL证书'
+title: PWA Studio：浏览器不信任生成的SSL证书
 description: 本文提供了一种解决方案，可在开发期间导航到PWA Studio店面的本地实例时，解决浏览器中不受信任的、生成的SSL证书警告。
 exl-id: b7bfe1e6-5832-4472-9e51-f04b8583428a
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # PWA Studio：浏览器不信任生成的SSL证书
 
 本文提供了一种解决方案，可在开发期间导航到PWA Studio店面的本地实例时，解决浏览器中不受信任的、生成的SSL证书警告。
 
 ## 受影响的产品和版本
 
-Adobe CommercePWA Studio
+适用于Adobe Commerce的PWA Studio
 
 ## 问题
 
@@ -53,6 +60,6 @@ yarn buildpack create-custom-origin ./
 ## 我们的支持知识库中的相关阅读
 
 * [PWA Studio：自签名证书信任错误](https://support.magento.com/hc/en-us/articles/360038973172)
-* [PWA Studio：Webpack在开始编译前挂起](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
+* [PWA Studio：Webpack在开始编译之前挂起](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
 * [PWA Studio：浏览器显示“无法代理到”错误](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
 * [PWA Studio：运行开发人员模式时出现验证错误](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
