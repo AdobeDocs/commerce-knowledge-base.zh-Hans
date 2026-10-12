@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >在继续域设置之前，请确保：
 >
->在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**下，所有基础URL都配置为使用HTTPS，其作用域为正确的网站或商店视图。
+>在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**&#x200B;下，所有基础URL都配置为使用HTTPS，其作用域为正确的网站或商店视图。
 > [已启用强制TLS](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996)，以在云基础架构上的Adobe Commerce站点中将所有HTTP流量重定向到HTTPS。
 
 ### 步骤1 — 这是否适用于[!DNL Integration, Staging]或[!DNL Production environment]？
@@ -166,7 +166,7 @@ ht-degree: 0%
 ]
 ```
 
-这意味着您以前曾通过运行`ece-tools`包中的`config:dump`命令在Build](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)上设置[SCD。
+这意味着您以前曾通过运行`ece-tools`包中的`config:dump`命令在Build[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)上设置SCD。
 
 如果您发现创建的新商店/网站未显示在`app/etc/config.php`文件中，请确保再次运行该命令以将`config.php`文件与对数据库的更改同步，然后提交`config.php`文件并重新部署。 这有助于将新商店/网站的静态内容部署到相应的文件路径。
 

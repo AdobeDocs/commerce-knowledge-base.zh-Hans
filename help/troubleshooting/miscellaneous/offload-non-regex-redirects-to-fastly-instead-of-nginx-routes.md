@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 创建一个Edge词典。
 
-   首先，您可以使用Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[[!DNL VCL] 代码片段来定义Edge词典。 这将包含重定向。
+   首先，您可以使用Adobe Commerce[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[!DNL VCL] 代码片段来定义Edge词典。 这将包含重定向。
 
    对此有一些注意事项：
 
