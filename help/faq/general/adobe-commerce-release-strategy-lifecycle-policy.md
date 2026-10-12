@@ -1,15 +1,19 @@
 ---
 title: 2024和2023年Adobe Commerce发布战略和生命周期策略的常见问题解答
-description: 为了满足Adobe Commerce客户的任务关键型需求，我们将Adobe Commerce 2.4.4及更高版本的支持时间范围从版本&lbrace;0**日期延长到**3年。  [!DNL GA] 支持包括**安全和质量补丁**。 有关时间详细信息，请参阅我们新的[发布日历](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans)。
+description: 为了满足Adobe Commerce客户的任务关键型需求，我们将Adobe Commerce 2.4.4及更高版本的支持时间范围从版本[!DNL GA]日期延长到**3年**。 支持包括**安全和质量补丁**。 有关时间详细信息，请参阅我们新的[发布日历](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hans)。
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
-source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1293'
 ht-degree: 1%
-
 ---
-
 # 2024和2023年Adobe Commerce发布战略和生命周期策略的常见问题解答
 
 ## 2024和2023发布战略和更新的生命周期政策

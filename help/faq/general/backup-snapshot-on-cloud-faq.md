@@ -3,13 +3,22 @@ title: 云上的备份（快照）：常见问题解答
 description: 本文介绍了在云基础架构上的Adobe Commerce上使用快照备份环境的要点。
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 878a49fd1bbfa98dd506f0e81008ebe3bf7ecaca
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+subfeature_v2:
+  - id: df5e974b-6742-4873-a687-a6bedaafdaa2
+    internal-label: IaaS
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1173'
 ht-degree: 0%
-
 ---
-
 # 云上的备份（快照）：常见问题解答
 
 本文介绍了如何在云基础架构上的Adobe Commerce上使用快照备份环境。

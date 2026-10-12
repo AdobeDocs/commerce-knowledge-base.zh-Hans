@@ -4,13 +4,22 @@ description: 本文为已知的Adobe Commerce 2.4.0问题提供了一个修补�
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '304'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0 Braintree虚拟终端页面已损坏
 
 本文为已知的Adobe Commerce 2.4.0问题提供了一个修补程序，该问题导致Braintree虚拟终端页面未加载正确的UI元素，或者如果未配置Braintree，则显示正确的错误消息。
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 <u>要再现的步骤：</u>
 
-在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。**&#x200B; **
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。 **&#x200B; **
 
 <u>预期结果：</u>
 
@@ -40,7 +49,7 @@ ht-degree: 0%
 
 <u>要再现的步骤：</u>
 
-在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。**&#x200B; **
+在Commerce Admin中，转到&#x200B;**Sales** > **Braintree虚拟终端**。 **&#x200B; **
 
 <u>预期结果：</u>
 

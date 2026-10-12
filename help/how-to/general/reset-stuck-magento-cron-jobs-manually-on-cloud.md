@@ -3,13 +3,17 @@ title: 手动重置云基础架构cron作业上受阻的Adobe Commerce
 description: 云基础架构上的Adobe Commerce cron作业无法完成执行、卡住并阻止其他cron作业运行。 本文介绍了如何手动重置卡住的cron作业。
 exl-id: aec6de8e-c3a9-4a6d-8ecd-a213e77c97a1
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # 手动重置云基础架构cron作业上受阻的Adobe Commerce
 
 云基础架构上的Adobe Commerce cron作业无法完成执行、卡住并阻止其他cron作业运行。 本文介绍了如何手动重置卡住的cron作业。

@@ -4,13 +4,35 @@ description: 本文提供了当产品未显示在店面时解决方案。
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 feature: Cache, Categories, Console, Products, Storefront
 role: Admin
-source-git-commit: ae2a4508daeaf2d29a5f615918fcc46626b2e196
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # 店面未显示产品
 
 本文提供了当产品未显示在店面时解决方案。
@@ -48,12 +70,12 @@ ht-degree: 0%
 以下几点都可以解决此问题。
 
 * 在“管理员”中查看产品设置。 转到&#x200B;**目录** > **产品**，打开产品页并确保正确配置了以下字段：
-   * **启用产品** = *是。*
-   * **库存状态**：*库存*。 或者，如果&#x200B;*缺货*&#x200B;为正确的值，请确保&#x200B;**显示缺货产品** （**商店** > **设置** > **配置** > **目录** > **库存** > **库存选项** > **显示缺货产品**）设置为&#x200B;*是*（在全球级别上配置）。
-   * **类别**：如果您尝试在类别页面上查找该产品，请验证是否将该产品分配给该类别。 要简化疑难解答，请从当前页面创建一个新类别并为其分配产品。
-   * **可见性** = *目录，搜索。*
-   * 在网站&#x200B;**的**&#x200B;产品分区中，确保将产品分配给正确的网站。
-   * 将范围选择器切换到商店视图，尝试在店面中找到您的产品，并验证相同的设置。
+  * **启用产品** = *是。*
+  * **库存状态**：*库存*。 或者，如果&#x200B;*缺货*&#x200B;为正确的值，请确保&#x200B;**显示缺货产品** （**商店** > **设置** > **配置** > **目录** > **库存** > **库存选项** > **显示缺货产品**）设置为&#x200B;*是*（在全球级别上配置）。
+  * **类别**：如果您尝试在类别页面上查找该产品，请验证是否将该产品分配给该类别。 要简化疑难解答，请从当前页面创建一个新类别并为其分配产品。
+  * **可见性** = *目录，搜索。*
+  * 在网站&#x200B;**的**&#x200B;产品分区中，确保将产品分配给正确的网站。
+  * 将范围选择器切换到商店视图，尝试在店面中找到您的产品，并验证相同的设置。
 * 通过从控制台运行`bin/magento indexer:reindex`来执行完整的重新索引，并在&#x200B;**系统** > **工具** > **缓存管理**&#x200B;下刷新管理员中的所有缓存，或者通过运行`bin/magento cache:clean`从控制台中刷新所有缓存。
 * 如果以上方法不起作用，您可以通过检查`var/log`目录中的日志来开始进一步调查。
 

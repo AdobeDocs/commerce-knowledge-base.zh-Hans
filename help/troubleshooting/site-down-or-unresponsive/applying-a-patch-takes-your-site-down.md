@@ -4,13 +4,23 @@ description: 本文讨论您刚刚应用的修补程序导致网站中断的问�
 exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 feature: Cache
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # 应用修补程序将导致您的网站停机
 
 本文讨论您刚刚应用的修补程序导致网站中断的问题。 要解决此问题，可以删除修补程序。
@@ -56,7 +66,7 @@ ht-degree: 0%
 
 对于云基础架构上的Adobe Commerce，所有版本，
 
-1. 从`%patch_name%.composer.patch`目录中删除`m2-hotfixes`文件。
+1. 从`m2-hotfixes`目录中删除`%patch_name%.composer.patch`文件。
 1. 提交并推送代码更改：
 
    ```

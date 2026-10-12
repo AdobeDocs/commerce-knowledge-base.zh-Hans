@@ -3,13 +3,17 @@ title: 更改当前的Adobe帐户电子邮件地址
 description: 了解如何将当前在Adobe帐户中注册的电子邮件地址更改为当前未在Adobe帐户或Magento帐户中注册的新地址。
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # 更改当前的Adobe帐户电子邮件地址
 
 本文说明如何将当前在[Adobe帐户](https://account.adobe.com/)中注册的电子邮件地址更改为当前未在[Adobe帐户](https://account.adobe.com/)或[Magento帐户](https://account.magento.com/)中注册的新地址。

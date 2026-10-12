@@ -4,13 +4,25 @@ description: 本文为使用Live Search扩展时目录数据无法正确同步�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: beca5aa3fa796e4b12afc4882024db718b65ac0c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # 实时搜索目录未同步
 
 本文为使用Live Search扩展时目录数据无法正确同步的Adobe Commerce问题提供了解决方案。
@@ -38,7 +50,7 @@ ht-degree: 0%
 或
 
 1. 向目录中添加新产品。
-1. 从Magento索引器+ cron运行开始，在15-20分钟后尝试使用产品名称或其他可搜索属性运行搜索查询，以将数据同步到后端服务。
+1. 从Magento indexer + cron运行开始，在15-20分钟后尝试使用产品名称或其他可搜索属性运行搜索查询，以将数据同步到后端服务。
 
 <u>预期的结果</u>
 

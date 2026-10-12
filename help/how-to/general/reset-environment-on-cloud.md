@@ -3,13 +3,28 @@ title: 在云基础架构上重置Adobe Commerce上的环境
 description: 本文显示了在Adobe Commerce上回滚云基础架构上环境的各种方案。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 984562f30789ee4cea1f6b43eb960545a71da35e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1256'
 ht-degree: 0%
-
 ---
-
 # 在云基础架构上重置Adobe Commerce上的环境
 
 本文显示了在Adobe Commerce上回滚云基础架构上环境的各种方案。
@@ -41,7 +56,7 @@ ht-degree: 0%
 <u>更改日期</u>：
 
 1. 将网站放入[!UICONTROL Maintenance Mode]。
-详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html?lang=zh-Hans)，以及升级指南中的升级[[!UICONTROL Maintenance Mode]的](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html?lang=zh-Hans)选项。
+详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html?lang=zh-Hans)，以及升级指南中的升级[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html?lang=zh-Hans)的[!UICONTROL Maintenance Mode]选项。
 1. 禁用cron作业。 有关禁用cron作业的详细信息，请参阅[crons属性指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
 1. 获取本地[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=zh-Hans)。
 
@@ -49,9 +64,9 @@ ht-degree: 0%
 
 1. 如果应用程序（如[!DNL MariaDB]）已作为此计划活动的一部分升级，请首先将该应用程序重新安装到以前的版本。
 1. [!UICONTROL Rollback]使用本地[!UICONTROL Database Dump]的数据库，并将其导入回[!DNL MariaDB]。
-1. 通过[!UICONTROL Rollback]将代码[!DNL Git]到以前的工作版本。
+1. 通过[!DNL Git]将代码[!UICONTROL Rollback]到以前的工作版本。
 
-对于升级/计划活动[!UICONTROL Snapshots]，建议不要使用[!UICONTROL rollbacks/restores]，因为与本地[!UICONTROL Database Dump]相比，检索数据需要更长的时间，如上面&#x200B;**步骤2中所示，如果需要[!UICONTROL Rollback]**&#x200B;部分。
+对于升级/计划活动[!UICONTROL rollbacks/restores]，建议不要使用[!UICONTROL Snapshots]，因为与本地[!UICONTROL Database Dump]相比，检索数据需要更长的时间，如上面&#x200B;**步骤2中所示，如果需要[!UICONTROL Rollback]**&#x200B;部分。
 
 [!UICONTROL Snapshots]不保存在节点/服务器上，而是保存在单独的存储块中，由于该数据必须通过网络从块存储传输到新磁盘，因此该过程需要时间。 然后，将该新磁盘装载到节点上，准备检索/导入到连接到节点/服务器的原始磁盘上。
 
@@ -122,7 +137,7 @@ ht-degree: 0%
 
 通过[!DNL git]重置，我们将代码还原到过去所需的状态。
 
-1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令： ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 访问提交历史记录。 使用`--reverse`以相反顺序显示历史记录，以便更加方便： `git log --reverse`
 1. 选择已完成的提交哈希。 要将代码重置为其真实状态(Vanilla)，请查找创建分支（环境）的第一次提交。
    ![替换文本](image.png)

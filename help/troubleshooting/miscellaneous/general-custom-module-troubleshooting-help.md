@@ -4,13 +4,23 @@ description: 本文介绍了可帮助对Adobe Commerce中的自定义模块进�
 exl-id: c6603a2b-dc98-4022-ab29-c081c2b07415
 feature: Extensions
 role: Developer
-source-git-commit: ae2a4508daeaf2d29a5f615918fcc46626b2e196
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # 常规自定义模块故障诊断帮助
 
 本文介绍了可帮助对Adobe Commerce中的自定义模块进行故障排除的常规工具。
@@ -44,7 +54,7 @@ ht-degree: 0%
 * [模块概述](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
 * [安装可选示例数据时出错](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
 * [异常处理](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
-* 安装期间出现[异常](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
+* [安装期间出现异常](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
 * [运行模块管理器](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
 * [模块配置文件](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/files/module-files)
 * [内存不足错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)

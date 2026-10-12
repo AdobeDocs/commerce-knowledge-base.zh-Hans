@@ -4,13 +4,20 @@ description: 本文修复了在运行“git pull origin develop”时无法更�
 exl-id: b133253e-c160-4f15-a9b0-8591e93a1e9b
 feature: Upgrade
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # 更新Adobe Commerce软件时，git pull origin开发失败
 
 本文修复了在运行`git pull origin develop`时无法更新Adobe Commerce软件的问题。

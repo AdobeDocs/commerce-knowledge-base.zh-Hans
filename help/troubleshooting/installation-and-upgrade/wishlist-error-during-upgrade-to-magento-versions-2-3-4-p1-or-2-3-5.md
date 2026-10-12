@@ -4,13 +4,22 @@ description: 本文修复了在升级到Adobe Commerce版本2.3.4-p1和2.3.5时�
 exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # 升级到Adobe Commerce版本2.3.4-p1或2.3.5期间出现愿望清单错误
 
 本文修复了在升级到Adobe Commerce版本2.3.4-p1和2.3.5时，与升级到这些版本期间出现愿望清单错误相关的已知问题。
@@ -57,8 +66,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 在我们的开发人员文档中：
 
-* 云基础架构上的[Adobe Commerce指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/overview)
-* 云基础架构上的[Adobe Commerce — 升级Adobe Commerce版本](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [云基础架构上的Adobe Commerce指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/overview)
+* [云基础架构上的Adobe Commerce — 升级Adobe Commerce版本](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
 * [Adobe Commerce内部部署和Magento Open Source — 升级Adobe Commerce应用程序和模块](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/upgrade-guide/overview)
-* [愿望清单项目配置页](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts#wishlist-item-configure-page)
+* [希望列表项目配置页面](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts#wishlist-item-configure-page)
 * [提供高级报告的模块](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

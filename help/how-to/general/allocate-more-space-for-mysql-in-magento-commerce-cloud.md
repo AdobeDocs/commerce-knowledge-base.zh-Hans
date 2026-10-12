@@ -3,19 +3,23 @@ title: 在云上的Adobe Commerce中为MySQL分配更多空间
 description: 本文介绍了如何在云基础架构的Adode Commerce中为MySQL分配更多空间。
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # 在云上的Adobe Commerce中为MySQL分配更多空间
 
 
 ## 在入门计划和专业计划集成上分配空间
 
-对于所有入门计划环境和Pro计划[集成环境](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以通过增加`.magento/services.yaml`参数在`mysql: disk:`文件中为MySQL分配更多空间。 例如：
+对于所有入门计划环境和Pro计划[集成环境](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以通过增加`mysql: disk:`参数在`.magento/services.yaml`文件中为MySQL分配更多空间。 例如：
 
 ```yaml
 mysql:

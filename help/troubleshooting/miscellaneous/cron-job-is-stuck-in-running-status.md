@@ -1,16 +1,23 @@
 ---
 title: '[!DNL Cron]作业卡在**正在运行**状态'
-description: 本文提供了当Adobe Commerce [!DNL cron] 作业未完成执行并持续处于“正在运行”状态时（阻止其他 [!DNL cron] 作业运行）的解决方案。 发生这种情况的原因有很多，例如网络问题、应用程序崩溃和重新部署问题。
+description: 本文针对Adobe Commerce [!DNL cron]作业未完成执行并持续处于“正在运行”状态时提供了解决方案，该状态会阻止其他[!DNL cron]作业运行。 发生这种情况的原因有很多，例如网络问题、应用程序崩溃和重新部署问题。
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # [!DNL Cron]作业卡在“正在运行”状态
 
 本文针对Adobe Commerce [!DNL cron]作业未完成执行并持续处于“正在运行”状态时提供了解决方案，该状态会阻止其他[!DNL cron]作业运行。 发生这种情况的原因有很多，例如网络问题、应用程序崩溃和重新部署问题。
@@ -72,7 +79,7 @@ ht-degree: 0%
    bxc2qly+ 25896 29.0  0.6 475320 109876 ?       R    20:51   0:00 /usr/bin/php7.1-zts /app/bxc2qlykqhbqe/bin/magento cron:run --group=ddg_automation --bootstrap=standaloneProcessStarted=1
    ```
 
-1. 如果您看到长时间运行的[!DNL cron]作业可能属于块部署进程，则可以使用`kill`命令终止该进程。您可以识别&#x200B;**进程ID**（找到`PID`列），然后将该`PID`放入命令中以终止该进程。
+1. 如果您看到长时间运行的[!DNL cron]作业可能属于块部署进程，则可以使用`kill`命令终止该进程。 您可以识别&#x200B;**进程ID**（找到`PID`列），然后将`PID`放入命令中以终止该进程。
 **终止进程**&#x200B;命令为：
 
    `kill -9 <PID>`

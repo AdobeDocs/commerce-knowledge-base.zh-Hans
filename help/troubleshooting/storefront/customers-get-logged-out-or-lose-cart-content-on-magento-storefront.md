@@ -4,13 +4,26 @@ description: 此文章提供了针对此问题的解决方案和解决方法：�
 exl-id: 9175570c-b06c-4a65-b8ca-7a12ff266afb
 feature: Orders, Page Content, Shopping Cart, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 # 客户在Adobe Commerce店面被注销或丢失购物车内容
 
 本文针对以下问题提供了解决方案：在从支付或其他第三方服务（会话Cookie“丢失”）重定向回Adobe Commerce商店后，客户注销或从店面购物车中丢失商品。

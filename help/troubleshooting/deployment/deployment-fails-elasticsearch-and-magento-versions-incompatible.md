@@ -1,16 +1,30 @@
 ---
-title: '部署失败：Elasticsearch版本与Adobe Commerce版本不兼容'
-description: 请参阅我们的开发人员文档中的[设置Elasticsearch服务&amp；Elasticsearch软件兼容性](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
+title: 部署失败：Elasticsearch版本与Adobe Commerce版本不兼容
+description: 请参阅我们的开发人员文档中的[设置Elasticsearch服务&gt； Elasticsearch软件兼容性](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
 exl-id: 7021df62-627c-45cf-a2f2-07c1a29ba1b2
 feature: Deploy, Search, Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '71'
 ht-degree: 0%
-
 ---
-
 # 部署失败：Elasticsearch版本与Adobe Commerce版本不兼容
 
-请参阅我们的开发人员文档中的[设置Elasticsearch服务>Elasticsearch软件兼容性](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
+请参阅我们的开发人员文档中的[设置Elasticsearch服务> Elasticsearch软件兼容性](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。

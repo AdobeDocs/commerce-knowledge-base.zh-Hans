@@ -4,13 +4,20 @@ description: 本文为尝试使用Adobe Commerce的最新预发行版代码时�
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '719'
 ht-degree: 0%
-
 ---
-
 # 无法访问最新的Adobe Commerce预发行版
 
 本文为尝试使用Adobe Commerce的最新预发行版代码时出现的问题提供了解决方案。
@@ -41,7 +48,7 @@ ht-degree: 0%
 在预发行期间，发行版软件包在以下两个位置提供：
 
 1. 通过[magento.com](https://repo.magento.com/)上的Composer，使用帐户的主MageID。 有关如何使用编辑器的更多详细信息，请参阅我们的开发人员文档中的[使用编辑器安装Adobe Commerce](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/composer)。
-1. 在&#x200B;**account.magento.com**&#x200B;上，**我的帐户** > [下载](https://account.magento.com/customer/account/login)。
+1. 在[account.magento.com](https://account.magento.com/customer/account/login)上，**我的帐户** > **下载**。
 
 >[!NOTE]
 >

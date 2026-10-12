@@ -2,22 +2,23 @@
 title: 无法访问最新的Beta版本
 description: 本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于已遵循[Adobe Beta计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe Commerce合作伙伴。
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 # 无法访问最新的Beta版本
 
-本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于遵循[Adobe计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe CommerceBeta合作伙伴。
+本文针对在尝试使用Adobe Commerce的最新Beta版本代码时出现的问题提供了解决方案。 Beta代码仅适用于遵循[Adobe计划](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述过程的官方Adobe Commerce合作伙伴。
 
 ## 问题
 
 本文介绍了以下有关访问早期访问代码的问题：
 
-* Adobe Commerce Beta版本不可在&#x200B;**magento.com**&#x200B;上的&#x200B;**我的帐户** > [下载](https://account.magento.com/customer/account/login)下下载。
+* Adobe Commerce Beta版本不可在[magento.com](https://account.magento.com/customer/account/login)上的&#x200B;**我的帐户** > **下载**&#x200B;下下载。
 * 无法使用Composer从[magento.com](https://account.magento.com/customer/account/login)下载抢先访问的Adobe Commerce版本。
 
 ## 原因

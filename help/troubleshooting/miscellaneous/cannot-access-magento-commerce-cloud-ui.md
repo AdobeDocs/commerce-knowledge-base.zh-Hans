@@ -4,13 +4,22 @@ description: 本文针对您无法在Cloud Infrastructure UI上登录Adobe Comme
 exl-id: 948e4acd-abd6-4562-b9c0-771a977188ba
 feature: Cloud, Paas
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 # 无法在云基础架构UI上访问Adobe Commerce
 
 本文针对无法在云基础架构UI上登录Adobe Commerce并出现&#x200B;*403错误*&#x200B;的问题提供了解决方案。

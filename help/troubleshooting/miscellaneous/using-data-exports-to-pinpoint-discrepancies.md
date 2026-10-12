@@ -4,13 +4,22 @@ description: 本文提供了解决Magento BI数据不一致问题的解决方案
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
-source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
-
 ---
-
 # 使用数据导出来查明差异
 
 本文提供了解决Magento BI数据不一致问题的解决方案。 数据导出是一种有用的工具，可用于将Magento BI数据与源数据进行比较，以查明报告中的数据差异，尤其是当[数据差异诊断核对清单](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-41479)没有帮助您查明问题时。 本文将带您了解如何使用Data Exports查明数据差异的实际示例。
@@ -19,7 +28,7 @@ ht-degree: 0%
 
 ![](assets/Exports_Discrepancies_1.png)
 
-2014年11月出现了可疑的下降。 收入500,780.94美元？ 听起来不对。 您已确认源数据库中显示了更多的2014年11月收入，并仔细检查了是否正确定义了此报告中使用的&#x200B;**收入**&#x200B;指标。 Magento BI数据仓库中的数据似乎不完整，可以使用“数据导出”进行确认。
+2014年11月出现了可疑的下降。 收入500,780.94美元？ 听起来不对。 您已确认源数据库中显示了更多的2014年11月收入，并仔细检查了是否正确定义了此报告中使用的&#x200B;**收入**&#x200B;指标。 Magento BI数据仓库中的数据似乎不完整，可以使用“数据导出”来确认。
 
 ## 导出数据 {#export}
 
@@ -49,7 +58,7 @@ ht-degree: 0%
 
 ### 两个工作表包含的行数相同
 
-如果两个系统具有相同的行计数，且&#x200B;**收入**&#x200B;指标与源数据不匹配，则&#x200B;**order\_total**&#x200B;必须在某个位置关闭。 源数据库中的&#x200B;**order\_total**&#x200B;字段可能已更新，并且Magento BI未收到这些更改。
+如果两个系统具有相同的行计数，且&#x200B;**收入**&#x200B;指标与源数据不匹配，则&#x200B;**order\_total**&#x200B;必须在某个位置关闭。 源数据库中的&#x200B;**order\_total**&#x200B;字段可能已更新，并且Magento BI未接收这些更改。
 
 要确认这一点，请查看&#x200B;**order\_total**&#x200B;列是否正在重新检查。 前往Data Warehouse Manager并单击&#x200B;**`orders`**&#x200B;表。 您会看到[重新检查频率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=zh-Hans)列在“更改？”列中。 **order\_total**&#x200B;字段应设置为按预期更改频率重新检查；如果不更改，请将其设置为所需的重新检查频率。
 
@@ -57,9 +66,9 @@ ht-degree: 0%
 
 如果重新检查频率已正确设置，则表明存在其他问题。 请参阅本文末尾的[联系支持部分](#support)以了解后续步骤。
 
-## 源数据库的行数超过了Magento BI {#morerows}
+## 源数据库的行数比Magento BI多 {#morerows}
 
-如果源数据库的行数大于Magento BI，并且间隔大于在更新周期期间可预期传入的订单数，则可能存在连接问题。 这意味着Magento BI无法从源数据库提取新数据，这可能是由若干原因造成的。
+如果源数据库的行数多于Magento BI，并且间隔大于在更新周期期间可望传入的订单数，则可能存在连接问题。 这意味着Magento BI无法从源数据库提取新数据，这可能由于若干原因而发生。
 
 导航到“连接”页面，并查看包含`order`表的数据源的状态：
 
@@ -83,7 +92,7 @@ ht-degree: 0%
 
 如果无法查明问题的根源，则需要在RJ支持中循环。 在提交票证之前，请执行以下操作：
 
-* **如果源数据库和Magento BI具有相同的行数**，并且重新检查频率设置正确，请在电子表格&#x200B;**中执行VLOOKUP，以找出哪些order\_id值在Magento BI和源数据库之间具有不同的order\_total值。** 在提交票证时包含这些值。
+* **如果源数据库和Magento BI具有相同的行数**，并且重新检查频率设置正确，请在电子表格&#x200B;**中执行VLOOKUP，以找出哪个order\_id值在Magento BI和源数据库之间具有不同的order\_total值。** 在提交票证时包含这些值。
 * **如果源数据库具有的行数超过Magento BI**，并且连接显示为“成功”或继续失败，我们需要知道连接的名称和您看到的错误消息（如果有）。
 * **如果源数据库的行数少于Magento BI，则不会从表中删除**&#x200B;行，并且重新检查频率设置正确，请在电子表格&#x200B;**中执行VLOOKUP以查找哪些order\_id值在Magento BI**&#x200B;中，而不是在源数据库中。 在提交票证时包含这些值。
 

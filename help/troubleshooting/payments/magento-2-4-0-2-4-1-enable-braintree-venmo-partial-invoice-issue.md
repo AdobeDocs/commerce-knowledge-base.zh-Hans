@@ -1,19 +1,30 @@
 ---
-title: 'Adobe Commerce 2.4.0、2.4.1：启用BraintreeVenmo部分发票'
-description: 本文介绍了已知的Adobe Commerce 2.4.0和2.4.1问题，该问题不适用于通过Venmo使用Braintree下单的订单。
+title: Adobe Commerce 2.4.0、2.4.1：启用Braintree Venmo部分发票
+description: 本文介绍了已知的Adobe Commerce 2.4.0和2.4.1问题，该问题不适用于通过Venmo使用Braintree下达的订单。
 exl-id: ef6c8aa4-a2a7-4e07-a957-23173017baf2
 feature: Invoices, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
+# Adobe Commerce 2.4.0、2.4.1：启用Braintree Venmo部分发票
 
-# Adobe Commerce 2.4.0、2.4.1：启用BraintreeVenmo部分发票
-
-本文介绍了已知的Adobe Commerce 2.4.0和2.4.1问题，该问题不适用于通过Venmo使用Braintree下单的订单。
+本文介绍了已知的Adobe Commerce 2.4.0和2.4.1问题，该问题不适用于通过Venmo使用Braintree下达的订单。
 
 ## 受影响的产品和版本
 
@@ -28,7 +39,7 @@ ht-degree: 0%
 
 <u>要再现的步骤：</u>
 
-1. 使用Venmo(Braintree)作为付款方式，为两种或更多种产品创建订单。
+1. 使用Venmo (Braintree)作为付款方式，为两个或更多产品创建订单。
 1. 在Commerce管理中打开订单。
 1. 为订购的产品之一创建发票。
 1. 尝试为其余订购的产品创建发票。
@@ -43,4 +54,4 @@ ht-degree: 0%
 
 ## 解决方法
 
-在为使用Braintree通过Venmo下达的订单创建发票时获取全部金额。
+在为通过Venmo使用Braintree下达的订单创建发票时获取全部金额。

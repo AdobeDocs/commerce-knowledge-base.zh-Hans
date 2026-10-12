@@ -1,13 +1,14 @@
 ---
 title: 安装期间，SessionHandler：：read()出现异常
-description: “本文修复了安装Adobe Commerce期间出现的异常**SessionHandler：：read()**错误。”
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+description: 本文修复了安装Adobe Commerce期间出现的异常**SessionHandler：：read()**错误。
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 
 # 安装期间，SessionHandler：：read()出现异常
 

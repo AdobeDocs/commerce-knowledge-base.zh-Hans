@@ -3,13 +3,20 @@ title: 如果实时网站使用相同的域，则在生产环境中测试Fastly
 description: 如果您的生产域(“example.com”)上已启动并运行实时网站，并且您需要在启用了Fastly CDN的云基础架构的生产环境中在Adobe Commerce上测试新存储，我们建议使用子域（如“prod.example.com”）（之前已将它添加到Fastly）来执行任何启动前测试活动。 本文讨论详细信息，并提供指向相关Adobe Commerce文档资源的有用链接。
 exl-id: bc9d11c8-ce47-461d-b5b8-c03494bc4ceb
 feature: Cache
-source-git-commit: 6651963ea5843283dee40a8ce58280baac79053a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 如果实时网站使用相同的域，则在生产环境中测试Fastly
 
 如果您的生产域(`example.com`)上已启动并运行实时网站，并且您需要在启用了Fastly CDN的云基础架构的生产环境中在Adobe Commerce上测试新存储，我们建议使用子域（例如`prod.example.com`）（以前已将其添加到Fastly）来执行任何启动前测试活动。 本文讨论详细信息，并提供指向相关Adobe Commerce文档资源的有用链接。
@@ -49,9 +56,9 @@ ht-degree: 0%
 在我们的支持知识库中：
 
 * [在暂存和生产环境中配置Fastly DNS设置](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=zh-Hans)
-* 在云基础架构上的Adobe Commerce上启动[个潜在阻止程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=zh-Hans)
+* [在云基础架构上的Adobe Commerce上启动的潜在阻止程序](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=zh-Hans)
 
 在我们的开发人员文档中：
 
 * [Fastly概述](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hans)
-* [上线核对清单： Fastly的DNS配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hans)
+* [上线核对清单：Fastly的DNS配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hans)

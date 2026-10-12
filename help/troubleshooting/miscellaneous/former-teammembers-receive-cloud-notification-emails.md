@@ -4,13 +4,24 @@ description: 本文为Adobe Commerce提供了一个关于向前团队成员发�
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: bd199fac6d8f33491b9fa0f508b2bb52d56b46a5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '336'
 ht-degree: 0%
-
 ---
-
 # 以前的团队成员会收到Adobe Commerce Cloud通知电子邮件
 
 本文提供了一个解决方案，用于从通知电子邮件的收件人列表中删除满足以下条件的用户：
@@ -37,5 +48,5 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在Commerce on cloud infrastructure指南中[查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans#view-a-user&?lang=zh-Hans#39;s-project-role)。
+* 在Commerce on cloud infrastructure指南中[查看用户的项目角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hans#view-a-user's-project-role)。
 * [如何在Commerce KB的支持通知中包含团队成员](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html?lang=zh-Hans)。

@@ -3,13 +3,17 @@ title: 更改数据库实体（订单、发票、贷项通知单等）的增量I
 description: 本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce存储区中使用“ALTER TABLE”SQL语句。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: e33d0bf6c857d0d54ec1373db79910d78296b054
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # 更改数据库实体（订单、发票、贷项通知单等）的增量ID 在特定存储上
 
 本文讨论如何更改Adobe Commerce数据库(DB)实体（订单、发票、贷项通知单等）的增量ID 在特定Adobe Commerce存储上使用`ALTER TABLE` SQL语句。

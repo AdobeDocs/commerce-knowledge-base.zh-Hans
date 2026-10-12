@@ -4,13 +4,23 @@ description: 本主题讨论当Web浏览器显示“*无法代理到*”并且�
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 feature: Console
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '207'
 ht-degree: 0%
-
 ---
-
 # PWA Studio：浏览器显示“无法代理到”错误
 
 本主题讨论当Web浏览器显示“*无法代理到*”并且控制台显示
@@ -55,5 +65,5 @@ NodeJS无法解析Adobe Commerce存储的主机名。
 
 ## 相关阅读
 
-* Adobe Commerce的[PWA Studio文档](https://developer.adobe.com/commerce/pwa-studio/)
+* [适用于Adobe Commerce的PWA Studio文档](https://developer.adobe.com/commerce/pwa-studio/)
 * [工具和库](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/)

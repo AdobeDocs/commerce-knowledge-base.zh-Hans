@@ -4,13 +4,22 @@ description: 本文为因访问密钥所有权冲突导致的在云基础架构�
 exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
 feature: Deploy, Roles/Permissions
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '396'
 ht-degree: 0%
-
 ---
-
 # 与帐户权限和访问密钥相关的部署问题
 
 本文为因访问密钥所有权冲突导致的在云基础架构上部署Adobe Commerce时出现的问题提供了解决方案。
@@ -23,12 +32,12 @@ ht-degree: 0%
 
 <u>先决条件</u>：
 
-云许可证与联系人A关联(电子邮件地址： *<u>first@e.mail</u>*)
+云许可证与联系人A关联（电子邮件地址： *<u>first@e.mail</u>*）
 
 <u>重现步骤</u>：
 
 1. 联系在其帐户中创建的Adobe Commerce访问密钥（密钥X），并将其安装在云中。
-1. 联系人B(电子邮件地址：*<u>second@e.mail</u>*)使用其帐户购买了一个扩展，并创建了用于安装该扩展的访问密钥（密钥Y）。
+1. 联系人B（电子邮件地址：*<u>second@e.mail</u>*）使用其帐户购买了一个扩展，并创建了用于安装该扩展的访问密钥（密钥Y）。
 1. 联系人A随后离开了公司，许可证（所有权）随后转让给联系人B。
 1. 系统集成商尝试使用密钥X在云环境中安装扩展。
 

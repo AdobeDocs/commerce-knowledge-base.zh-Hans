@@ -3,7 +3,13 @@ title: 在我们的云专业架构上，将数据库auto_increment增量变量�
 description: 这是Adobe Commerce在云基础架构上的预期行为。专业版计划架构解决方案，因为采用3节点架构，因此无法修改。
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

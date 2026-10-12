@@ -1,19 +1,26 @@
 ---
 title: PWA Studio：运行开发人员模式时出现验证错误
-description: 本主题讨论了一种解决方案，用于解决在Progressive Web App (PWA) Studio for Adobe Commerce中运行开发人员模式时，由于之前未创建venia-concept （Venia是PWA店面）环境文件而导致出现验证错误的情况。 此文件将包含本地开发环境的变量。
+description: 本主题讨论了一种解决方案，用于解决在Progressive Web App (PWA) Studio for Adobe Commerce中运行开发人员模式时，由于之前未创建venia-concept（Venia是PWA店面）而导致出现验证错误的情况。 环境文件。 此文件将包含本地开发环境的变量。
 exl-id: 97d042ef-88e6-4eda-a834-2cff4de276e2
 feature: Configuration
 role: Developer
-source-git-commit: 9d32a5971341ed8dc46e0932c10eaac4d17ec299
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
-
 # PWA Studio：运行开发人员模式时出现验证错误
 
-本主题讨论了一种解决方案，用于解决在Progressive Web App (PWA) Studio for Adobe Commerce中运行开发人员模式时，由于之前未创建venia-concept （Venia是PWA店面）环境文件而导致出现验证错误的情况。 此文件将包含本地开发环境的变量。
+本主题讨论了一种解决方案，用于解决在Progressive Web App (PWA) Studio for Adobe Commerce中运行开发人员模式时，由于之前未创建venia-concept（Venia是PWA店面）而导致出现验证错误的情况。 环境文件。 此文件将包含本地开发环境的变量。
 
 ## 受影响的产品和版本
 
@@ -53,5 +60,5 @@ npx @magento/pwa-buildpack create-env-file packages/venia-concept
 
 ## 相关阅读
 
-* Adobe Commerce的[PWA Studio文档](https://developer.adobe.com/commerce/pwa-studio/)
+* [适用于Adobe Commerce的PWA Studio文档](https://developer.adobe.com/commerce/pwa-studio/)
 * [Venia Storefront（概念）](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)

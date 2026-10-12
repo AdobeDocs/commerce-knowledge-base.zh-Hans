@@ -1,16 +1,26 @@
 ---
-title: '当搜索引擎设置为 [!DNL Opensearch]时回退到 [!DNL Elasticsearch7] '
-description: 本文提供了当Adobe Commerce中的*回退到 [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] 时问题的解决方案。
+title: 当搜索引擎设置为[!DNL Opensearch]时回退到[!DNL Elasticsearch7]
+description: 本文为在Adobe Commerce中将搜索引擎设置为[!DNL OpenSearch]时出现*回退到[!DNL Elasticsearch7]*错误的问题提供了解决方案。
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # 当搜索引擎设置为[!DNL Opensearch]时回退到[!DNL Elasticsearch7]
 
 本文为在Adobe Commerce中将搜索引擎设置为[!DNL OpenSearch]时出现&#x200B;*回退到[!DNL Elasticsearch7]*&#x200B;错误的问题提供了解决方案。

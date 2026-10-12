@@ -4,13 +4,25 @@ description: 本文为从Adobe Commerce on cloud infrastructure 2.2.X升级到2.
 exl-id: 3e6bd5aa-bd5d-4880-8b78-64f280647abe
 feature: Cache, Upgrade
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 # 从2.2.X升级到2.3.X后，不会加载缓存的图像
 
 本文为从Adobe Commerce on cloud infrastructure 2.2.X升级到2.3.X后无法显示缓存的图像的问题提供了解决方案。
@@ -27,7 +39,7 @@ Adobe Commerce从2.2.X升级到2.3.X后，缓存的产品图像不可用，而�
 
 ## 解决方案
 
-1. 在`.magento.app.yaml`位置检查您的`"/media"`配置文件。 正确的配置如下所示：
+1. 在`"/media"`位置检查您的`.magento.app.yaml`配置文件。 正确的配置如下所示：
 
    ```yaml
    "/media":

@@ -3,13 +3,26 @@ title: 回滚没有云快照的环境
 description: 本文显示了两种解决方案，它们可以在云基础架构上回滚环境，而无需拍摄您的Adobe Commerce环境快照。
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '949'
 ht-degree: 0%
-
 ---
-
 # 回滚没有云快照的环境
 
 本文显示了两种解决方案，它们可以在云基础架构上回滚环境，而无需拍摄您的Adobe Commerce环境快照。
@@ -44,7 +57,7 @@ ht-degree: 0%
 
 我们需要禁用配置管理，以便它不会在部署期间自动应用以前的配置设置。
 
-要禁用配置管理，请确保您的`/app/etc/`目录不包含`config.php`(对于Adobe Commerce 2.4.x)或`config.local.php`(对于Adobe Commerce 2.1.x)文件。
+要禁用配置管理，请确保您的`/app/etc/`目录不包含`config.php`（对于Adobe Commerce 2.4.x）或`config.local.php`（对于Adobe Commerce 2.1.x）文件。
 
 要删除配置文件，请执行以下步骤：
 
@@ -94,7 +107,7 @@ ht-degree: 0%
 
 通过Git重置，我们可以将代码还原到过去所需的状态。
 
-1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令： ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 访问提交历史记录。 使用`--reverse`以相反顺序显示历史记录，以便更加方便：
 
    ```git
@@ -122,13 +135,13 @@ ht-degree: 0%
 
 在这种情况下，您必须首先使用Git重置来恢复Adobe Commerce应用程序的工作状态，然后卸载Adobe Commerce软件（要删除并恢复数据库，删除部署配置等）。 该场景包含与场景1相同的步骤，但步骤顺序不同，并且还有一个额外的步骤 — 强制重新部署。 步骤如下：
 
-[1.重置Git分支。](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
+[&#x200B;1. 重置Git分支。](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
 
-[2。 禁用配置管理。](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
+[2. 禁用配置管理。](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
 
-[3.卸载Adobe Commerce软件。](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
+[&#x200B;3. 卸载Adobe Commerce软件。](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4&amp;amp；句点；强制重新部署。
+4个期间；强制重新部署。
 
 执行这些步骤后，您的结果将与方案1中的结果相同。
 
@@ -171,7 +184,7 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 在我们的开发人员文档中：
 
-* [在云上还原快照](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [在云上恢复快照](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
 * [创建快照](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
 * [快照和备份管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
 * [使用Cloud Console管理分支 — 查看日志](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=zh-Hans#view-logs)

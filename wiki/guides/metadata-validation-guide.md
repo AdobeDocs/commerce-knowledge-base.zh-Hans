@@ -1,10 +1,13 @@
 ---
-source-git-commit: 0cfb7dc0dce68bcb0933a5ae49b0cd5a8b5b5a39
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
-
 ---
+
 # 元数据验证指南
 
 为了确保MD文件中元数据的格式正确，我们实施了元数据验证测试。 本文档提供的准则可帮助参与者避免一些最常见的元数据验证错误。

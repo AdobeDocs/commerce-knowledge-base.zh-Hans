@@ -1,15 +1,22 @@
 ---
-title: 设置新 [!DNL domain]的清单
-description: 这是一份清单，说明如何在Adobe Commerce中在云基础架构上设置新的 [!DNL domain] 。
+title: 设置新[!DNL domain]的清单
+description: 这是一份清单，说明如何在Adobe Commerce中在云基础架构上设置新的[!DNL domain]。
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: 552a290b50f9e0c5fa740f26092c57bac447fe68
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 # 设置新[!DNL domain]的清单
 
 此核对清单说明如何在Adobe Commerce中在云基础架构上设置新的[!DNL domain]。 无论您是添加新域还是替换当前域，此规则都适用。 在获得新的暂存环境后，此标准也适用（请参阅步骤4）。
@@ -25,7 +32,7 @@ ht-degree: 0%
 >在继续域设置之前，请确保：
 >
 >在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**&#x200B;下，所有基础URL都配置为使用HTTPS，其作用域为正确的网站或商店视图。
->&#x200B;> [已启用强制TLS](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996)，以在云基础架构上的Adobe Commerce站点中将所有HTTP流量重定向到HTTPS。
+> [已启用强制TLS](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996)，以在云基础架构上的Adobe Commerce站点中将所有HTTP流量重定向到HTTPS。
 
 ### 步骤1 — 这是否适用于[!DNL Integration, Staging]或[!DNL Production environment]？
 
@@ -35,7 +42,7 @@ ht-degree: 0%
 
 ### 步骤2 - [!DNL Staging environment]：您是在[!DNL Pro]还是[!DNL Starter]？
 
-* **[!DNL Pro]**： **提交请求**&#x200B;以将域添加到[!DNL Fastly, Nginx]，并配置[!DNL SSL certificate]（如有必要，还将配置[!DNL Sendgrid domain]）。 完成配置后，[使用 [!DNL DNS]  [!DNL development settings]更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#update-dns-configuration-with-development-settings)配置。
+* **[!DNL Pro]**： **提交请求**&#x200B;以将域添加到[!DNL Fastly, Nginx]，并配置[!DNL SSL certificate]（如有必要，还将配置[!DNL Sendgrid domain]）。 完成配置后，[使用 [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#update-dns-configuration-with-development-settings)更新 [!DNL DNS] 配置。
 
 >[!NOTE]
 >
@@ -50,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是在我们的用户指南的[!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** **[!UICONTROL Domains]**&#x200B;[[!DNL Manage domains]&#x200B;中更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=zh-Hans#manage-domains)中的配置。
+>您可以自己将新[!DNL domain]添加到[!DNL Fastly]，方法是在我们的用户指南的&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=zh-Hans#manage-domains)中更新[!DNL Admin]中的配置。
 >
 >
 >如果您无法添加域，可能是由于以下原因之一：
@@ -58,16 +65,16 @@ ht-degree: 0%
 >1. 您正在将域从内部部署迁移到云环境，该环境已在您自己的[!DNL Fastly]服务中配置。 在这种情况下，提交请求并请求委派域。
 >1. 您正在将域从Starter迁移到Pro。 在这种情况下，请提出进一步援助请求。
 
-* **[!DNL Starter]**：将[!DNL domain]添加到您项目的&#x200B;**[!DNL Domains]**&#x200B;选项卡中，然后&#x200B;**提交请求**&#x200B;以提供&#x200B;**[!DNL ACME Challenge Key]**&#x200B;的[!DNL SSL certificate]。
+* **[!DNL Starter]**：将[!DNL domain]添加到您项目的&#x200B;**[!DNL Domains]**&#x200B;选项卡中，然后&#x200B;**提交请求**&#x200B;以提供[!DNL SSL certificate]的&#x200B;**[!DNL ACME Challenge Key]**。
 
 ### 步骤4 - [!DNL domain]是否处于活动状态？
 
-* **是**：[使用 [!DNL DNS] 设置更新[!UICONTROL production]配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hans#update-dns-configuration-with-production-settings)。
-* **否**：[使用 [!DNL DNS] 设置更新[!UICONTROL development]配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#update-dns-configuration-with-development-settings)。
+* **是**：[使用[!UICONTROL production]设置更新 [!DNL DNS] 配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hans#update-dns-configuration-with-production-settings)。
+* **否**：[使用[!UICONTROL development]设置更新 [!DNL DNS] 配置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#update-dns-configuration-with-development-settings)。
 
 ### 步骤5 — 是否在`magento-vars.php`中配置了域重定向？
 
-配置域后，您需要[修改](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)文件中的变量`magento-vars.php`，以将域定向到相应的网站/商店URL。
+配置域后，您需要[修改`magento-vars.php`文件中的变量](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)，以将域定向到相应的网站/商店URL。
 
 ### 步骤6 - [!DNL domain]配置是否已验证？
 
@@ -159,11 +166,11 @@ ht-degree: 0%
 ]
 ```
 
-这意味着您以前曾通过运行[包中的](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)命令在Build`config:dump`上设置`ece-tools`SCD。
+这意味着您以前曾通过运行`ece-tools`包中的`config:dump`命令在Build[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)上设置SCD。
 
 如果您发现创建的新商店/网站未显示在`app/etc/config.php`文件中，请确保再次运行该命令以将`config.php`文件与对数据库的更改同步，然后提交`config.php`文件并重新部署。 这有助于将新商店/网站的静态内容部署到相应的文件路径。
 
 ## 相关阅读
 
 * [设置多个网站或商店：在我们的用户指南中新增 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hans#add-new-domains)。
-* 由于源遮蔽，[网站无法访问](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26856)
+* [由于源遮蔽，无法访问站点](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26856)

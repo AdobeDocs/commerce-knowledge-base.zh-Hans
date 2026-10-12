@@ -1,15 +1,18 @@
 ---
-source-git-commit: c587986edc925c49bf95ab935888b59f265371af
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
+
 # 知识库格式化指南
 
 ## Markdown中的作者
 
-我们通常使用[Adobe Experience League Markdown语法样式指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=zh-Hans)，但存在一些差异和异常。 此外，在某些情况下，还需要使用某些HTML标签。
+我们通常使用[Adobe Experience League Markdown语法样式指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)，但存在一些差异和异常。 此外，在某些情况下，还需要使用某些HTML标记。
 
 以下是存储库中最常用的Markdown格式示例。
 
@@ -27,7 +30,7 @@ ht-degree: 0%
 
 `<ins>This text will be underlined</ins>`
 
-要添加换行符，请使用`<br>`HTML标记。
+要添加换行符，请使用`<br>` HTML标记。
 
 
 ## 标头
@@ -55,7 +58,7 @@ ht-degree: 0%
 \`\`\` sql
 
 选择TABLE_NAME作为`Table`，
-ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024)作为`Size (MB)`
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
 FROM information_schema.TABLES
 其中TABLE_SCHEMA =“%project_id%”
 排序依据(DATA_LENGTH + INDEX_LENGTH)说明；
@@ -139,7 +142,7 @@ your code here
 ![alt text](assets/image.png)
 ```
 
-如果要自定义图像的大小，需要使用以下HTML标记进行自定义：
+如果要自定义图像的大小，需要使用以下HTML标记执行此操作：
 
 ```html
 <img src = "assets/image.png" alt = "your alt text" width="custom width, ex: 250px">
@@ -165,7 +168,7 @@ your code here
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-如果需要引用标头以外的元素，请使用HTML来定义要添加元素，并使用[id属性](https://www.w3schools.com/html/html_id.asp)。 然后，您可以使用Markdown或HTML引用此ID。
+如果需要引用标头以外的元素，请使用HTML定义要添加元素，并使用[id属性](https://www.w3schools.com/html/html_id.asp)。 然后，您可以使用Markdown或HTML引用此ID。
 
 ### 其他文章的相对链接和链接
 

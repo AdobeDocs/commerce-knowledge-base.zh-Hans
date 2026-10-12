@@ -1,16 +1,20 @@
 ---
 title: 识别和测量云基础架构上Adobe Commerce的中断
 promoted: true
-description: “商家（或对网站健康感兴趣的任何人）可以通过多种方法来识别网站故障，也称为网站中断。 “站点关闭”是指商家的站点无法充分响应客户请求的时间段。 中断的定义及其对站点的影响是广泛的。 所附文章描述了以下内容：
+description: 商家（或对网站运行状况感兴趣的任何人）可以通过多种方法来识别网站故障（也称为网站中断）。 “站点关闭”是指商家的站点无法充分响应客户请求的时间段。 中断的定义及其对站点的影响是广泛的。 所附文章介绍如下：
 exl-id: 204910b0-49d5-43df-921b-8c0c7a42524e
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '172'
 ht-degree: 0%
-
 ---
-
 # 识别和测量云基础架构上Adobe Commerce的中断
 
 商家（或对网站运行状况感兴趣的任何人）可以通过多种方法来识别网站故障（也称为网站中断）。 “站点关闭”是指商家的站点无法充分响应客户请求的时间段。 中断的定义及其对站点的影响是广泛的。 所附文章介绍如下：

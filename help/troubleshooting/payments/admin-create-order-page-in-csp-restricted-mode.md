@@ -4,13 +4,26 @@ description: 本文介绍了在启用CSP限制模式时在管理员端创建订�
 feature: Checkout,Security,Orders,Payments
 role: Developer
 exl-id: c1a0886a-df1f-418a-9e4d-562b28a0d8b3
-source-git-commit: 6d0c4ea9576440d66be3b8053a6e362b8ac0ebcb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
-
 ---
-
 # 在[!UICONTROL CSP]限制模式下创建订单页疑难解答
 
 本文针对Adobe Commerce 2.4.7问题提供了解释和修复，当在管理员端使用&#x200B;**[!UICONTROL CSP restricted mode]**&#x200B;创建订单时，该订单处于&#x200B;*Enabled*&#x200B;状态，并且“*Refused to execute inline script，因为它违反了以下内容安全策略指令：“script-src ...*” 浏览器控制台日志中的错误消息。
@@ -43,7 +56,8 @@ ht-degree: 0%
 
 ### 原因
 
-在Adobe Commerce和Magento Open Source版本2.4.7及更高版本中，**[!UICONTROL CSP]**&#x200B;默认在`restrict-mode`中针对店面和管理区域中的付款页面进行配置，在所有其他页面中则以`report-only`模式进行配置。在付款页的`script-src`指令中，相应的&#x200B;**[!UICONTROL CSP]**&#x200B;标题不包含`unsafe-inline`关键字。 此外，只允许使用[!DNL whitelisted]内联脚本。
+在Adobe Commerce和Magento Open Source版本2.4.7及更高版本中，**[!UICONTROL CSP]**&#x200B;默认在`restrict-mode`中针对店面和管理区域中的付款页面进行配置，在所有其他页面中则以`report-only`模式进行配置。
+在付款页的`script-src`指令中，相应的&#x200B;**[!UICONTROL CSP]**&#x200B;标题不包含`unsafe-inline`关键字。 此外，只允许使用[!DNL whitelisted]内联脚本。
 
 ### 解决方案
 
@@ -54,7 +68,8 @@ ht-degree: 0%
 <u>要解决此问题，您必须</u>：
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`类阻止的脚本。
-1. 使用`CSPNonceProvider`类允许执行脚本。Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
+1. 使用`CSPNonceProvider`类允许执行脚本。
+Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函数获取[!DNL nonce]字符串。
 
@@ -114,7 +129,8 @@ ht-degree: 0%
 
 ### 原因
 
-在Adobe Commerce和Magento Open Source版本2.4.7及更高版本中，**[!UICONTROL CSP]**&#x200B;默认在`restrict-mode`中针对店面和管理区域中的付款页面进行配置，在所有其他页面中则以`report-only`模式进行配置。在付款页的`script-src`指令中，相应的&#x200B;**[!UICONTROL CSP]**&#x200B;标题不包含`unsafe-inline`关键字。 此外，只允许使用[!DNL whitelisted]内联脚本。
+在Adobe Commerce和Magento Open Source版本2.4.7及更高版本中，**[!UICONTROL CSP]**&#x200B;默认在`restrict-mode`中针对店面和管理区域中的付款页面进行配置，在所有其他页面中则以`report-only`模式进行配置。
+在付款页的`script-src`指令中，相应的&#x200B;**[!UICONTROL CSP]**&#x200B;标题不包含`unsafe-inline`关键字。 此外，只允许使用[!DNL whitelisted]内联脚本。
 
 ### 解决方案
 
@@ -125,7 +141,8 @@ ht-degree: 0%
 <u>要解决此问题，您必须</u>：
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`类阻止的脚本。
-1. 使用`CSPNonceProvider`类允许执行脚本。Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
+1. 使用`CSPNonceProvider`类允许执行脚本。
+Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函数获取[!DNL nonce]字符串。
 
@@ -186,7 +203,8 @@ ht-degree: 0%
 
 ### 原因
 
-在Adobe Commerce和Magento Open Source版本2.4.7及更高版本中，**[!UICONTROL CSP]**&#x200B;默认在`restrict-mode`中针对店面和管理区域中的付款页面进行配置，在所有其他页面中则以`report-only`模式进行配置。在付款页的`script-src`指令中，相应的&#x200B;**[!UICONTROL CSP]**&#x200B;标题不包含`unsafe-inline`关键字。 此外，只允许使用[!DNL whitelisted]内联脚本。
+在Adobe Commerce和Magento Open Source版本2.4.7及更高版本中，**[!UICONTROL CSP]**&#x200B;默认在`restrict-mode`中针对店面和管理区域中的付款页面进行配置，在所有其他页面中则以`report-only`模式进行配置。
+在付款页的`script-src`指令中，相应的&#x200B;**[!UICONTROL CSP]**&#x200B;标题不包含`unsafe-inline`关键字。 此外，只允许使用[!DNL whitelisted]内联脚本。
 
 ### 解决方案
 
@@ -197,7 +215,8 @@ ht-degree: 0%
 <u>要解决此问题，您必须</u>：
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`类阻止的脚本。
-1. 使用`CSPNonceProvider`类允许执行脚本。Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
+1. 使用`CSPNonceProvider`类允许执行脚本。
+Adobe Commerce和Magento Open Source 2.4.7及更高版本包含一个&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供程序，以便为每个请求生成唯一的[!DNL nonce]字符串。 然后将这些[!DNL nonce]字符串附加到[!UICONTROL CSP]标头。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函数获取[!DNL nonce]字符串。
 

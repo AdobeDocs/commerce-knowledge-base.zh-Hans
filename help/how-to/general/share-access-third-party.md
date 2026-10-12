@@ -3,13 +3,19 @@ title: Adobe Commerce在云基础架构上的第三方测试提示
 description: 当您在云基础架构上使用Adobe Commerce的扩展遇到问题时，本文提供了与第三方共享访问权限以进行测试/验证的选项。
 exl-id: e2d80aa9-8b68-48ed-bec5-68e128611a1e
 feature: Best Practices, Cloud
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '530'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce在云基础架构上的第三方测试提示
 
 当您在云基础架构上使用Adobe Commerce的扩展遇到问题时，本文提供了与第三方共享访问权限以进行测试/验证的选项。
@@ -27,8 +33,8 @@ ht-degree: 0%
 
 * 为第三方供应商提供对云环境的访问权限。 相关文章：
 
-   * [Adobe Commerce帮助中心用户指南>共享访问权限：授予其他用户访问您帐户的权限](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access)（位于我们的支持知识库中）。
-   * 在我们的用户指南中[共享您的Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-share)。
+  * [Adobe Commerce帮助中心用户指南>共享访问权限：授予其他用户访问您帐户的权限](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access)（位于我们的支持知识库中）。
+  * 在我们的用户指南中[共享您的Commerce帐户](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/start/commerce-account/commerce-account-share)。
 
 * 创建数据库转储（或授予第三方供应商执行此操作的权限）。 可以使用CLI或Commerce Admin执行此操作。 此数据库转储将混淆客户数据，因此他们获得的只是代码和产品SKU等，没有专有/客户数据。 请参考我们的支持知识库中的[共享您的Commerce帐户] (/help/how-to/general/create-database-dump-on-cloud.md)。
 * 测试完成后，请确保按照支持知识库中的[Adobe Commerce帮助中心用户指南>撤消（删除共享访问权限）](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access)中所述，撤消对云环境的共享访问权限。
