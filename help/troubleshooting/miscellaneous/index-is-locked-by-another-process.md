@@ -4,13 +4,23 @@ description: 本文讨论了Adobe Commerce中的一个常见索引问题，该�
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
-
 ---
-
 # 索引被另一个进程锁定
 
 本文讨论了Adobe Commerce中的一个常见索引问题，该问题导致索引被其他进程锁定并跳过。
@@ -94,13 +104,13 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 在我们的用户指南中：
 
-* [索引管理](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
+* [索引管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
 
 在我们的开发人员文档中：
 
 * [索引概述](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [索引器最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/performance-best-practices/configuration)
-* [配置和运行Cron](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
-* [管理索引器](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [索引器最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration)
+* [配置和运行Cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [管理索引器](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
 * [索引器优化](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
 

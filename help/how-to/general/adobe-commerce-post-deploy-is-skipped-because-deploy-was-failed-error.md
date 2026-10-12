@@ -1,18 +1,22 @@
 ---
 title: Adobe Commerce *已跳过部署后，因为部署失败*错误
-description: '本文说明如何调查部署错误：*由于部署失败，已跳过Post-deploy*'
+description: 本文说明如何调查部署错误： *由于部署失败，已跳过部署后*
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '155'
 ht-degree: 0%
-
 ---
-
 # 已跳过Adobe Commerce *后期部署，因为部署失败*&#x200B;错误
 
-本文说明如何调查部署错误： *已跳过Post-deploy，因为部署到其他环境（例如升级）期间发生部署失败*。
+本文说明如何调查部署错误： *已跳过部署后，因为部署失败*，此错误发生在部署到不同环境（例如升级）期间。
 
 ## 受影响的产品和版本
 

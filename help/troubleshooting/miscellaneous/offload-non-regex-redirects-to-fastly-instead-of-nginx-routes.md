@@ -1,16 +1,23 @@
 ---
-title: 将非[!DNL regex]重定向卸载到 [!DNL Fastly] 而不是 [!DNL Nginx] （路由）
-description: 本主题针对您在云基础架构上的Adobe Commerce中将非[!DNL regex]重定向卸载到 [!DNL Fastly] 而不是 [!DNL Nginx] 时可能遇到的典型重定向性能问题提供解决方案。
+title: 将非[!DNL regex]重定向卸载到[!DNL Fastly]而不是[!DNL Nginx]（路由）
+description: 本主题针对您在云基础架构上的Adobe Commerce中将非[!DNL regex]重定向卸载到[!DNL Fastly]而不是[!DNL Nginx]时可能遇到的典型重定向性能问题提供了解决方案。
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 1783ae9f-7157-5aeb-a915-91e260301e46
+    internal-label: Routes
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '796'
 ht-degree: 0%
-
 ---
-
 # 将非[!DNL regex]重定向卸载到[!DNL Fastly]而不是[!DNL Nginx]（路由）
 
 本主题针对您在云基础架构上的Adobe Commerce中将非[!DNL regex]重定向卸载到[!DNL Fastly]而不是[!DNL Nginx]时可能遇到的典型重定向性能问题提供了解决方案。
@@ -21,11 +28,11 @@ ht-degree: 0%
 
 ## 问题
 
-在云基础架构上的Adobe Commerce中，[!DNL regex]层无法执行大量非[!DNL Nginx]重定向/重写，因此可能会导致性能问题。
+在云基础架构上的Adobe Commerce中，[!DNL Nginx]层无法执行大量非[!DNL regex]重定向/重写，因此可能会导致性能问题。
 
 ## 原因
 
-`routes.yaml`目录中的`.magento/routes.yaml`文件为云基础架构上的Adobe Commerce定义了路由。
+`.magento/routes.yaml`目录中的`routes.yaml`文件为云基础架构上的Adobe Commerce定义了路由。
 
 如果`routes.yaml`文件的大小为32KB或更大，则应将非[!DNL regex]重定向/重写卸载到[!DNL Fastly]。
 
@@ -39,7 +46,7 @@ ht-degree: 0%
 
 1. 创建一个Edge词典。
 
-   首先，您可以使用Adobe Commerce[[!DNL VCL] 中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hans)代码片段来定义Edge词典。 这将包含重定向。
+   首先，您可以使用Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[[!DNL VCL] 代码片段来定义Edge词典。 这将包含重定向。
 
    对此有一些注意事项：
 
@@ -99,8 +106,8 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [[!DNL Fastly VCL] 引用](https://docs.fastly.com/vcl/)
-* 在开发人员文档中[配置路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html?lang=zh-Hans)
-* 在我们的开发人员文档中[设置 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)
+* [[!DNL Fastly VCL]引用](https://docs.fastly.com/vcl/)
+* 在开发人员文档中[配置路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
+* 在我们的开发人员文档中[设置 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
 * 在开发人员文档中的[[!DNL VCL] 正则表达式备忘表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

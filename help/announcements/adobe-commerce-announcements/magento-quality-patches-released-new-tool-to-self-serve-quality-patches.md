@@ -1,19 +1,29 @@
 ---
-title: '已发布质量修补程序工具：用于自助提供质量修补程序的新工具'
-description: Adobe已发布质量修补程序工具以供正式发布，该工具允许应用、还原和查看有关已安装Adobe Commerce版本（内部部署和云基础架构）或Magento Open Source上可用的质量修补程序的一般信息。
+title: 已发布质量修补程序工具：用于自助提供质量修补程序的全新工具
+description: Adobe已发布用于正式发布的高质量修补程序工具 — 该工具允许应用、还原和查看有关已安装Adobe Commerce版本（内部部署和云基础架构）或Magento Open Source可用的质量修补程序的常规信息。
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 618ab558-d6ad-5352-99d6-d5702c6fdf80
+    internal-label: Tools and External Services
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # 已发布质量修补程序工具：用于自助提供质量修补程序的全新工具
 
-Adobe已发布质量修补程序工具以供正式发布，该工具允许应用、还原和查看有关已安装Adobe Commerce版本（内部部署和云基础架构）或Magento Open Source上可用的质量修补程序的一般信息。
+Adobe已发布用于正式发布的高质量修补程序工具 — 该工具允许应用、还原和查看有关已安装Adobe Commerce版本（内部部署和云基础架构）或Magento Open Source可用的质量修补程序的常规信息。
 
 该工具提供了更快的自助问题解决方案，允许您轻松应用Adobe Commerce支持团队建议的修补程序以解决可能在Adobe Commerce中遇到的问题。
 
@@ -29,5 +39,5 @@ Adobe已发布质量修补程序工具以供正式发布，该工具允许应用
 
 有关详细信息，请参阅我们的开发人员文档：
 
-* Quality Patches Tool中提供了[个修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hans)
-* [质量修补工具发行说明](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Quality Patches Tool中提供的修补程序](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [质量修补程序工具发行说明](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)

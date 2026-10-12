@@ -4,13 +4,31 @@ description: 本文提供了有关如何使云基础架构网站上的Adobe Comm
 exl-id: 144df36b-6305-4e57-b813-46bbb0ddedda
 feature: Cache, Categories, Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
-
 ---
-
 # 云站点运行缓慢
 
 本文提供了有关如何使云基础架构网站上的Adobe Commerce在重流量负载下表现更好的以及如何减少此负载的建议。
@@ -65,7 +83,7 @@ Fastly通常遵循来自应用程序的响应标头；但是，如果标头都�
 
 要检查总体缓存命中率，请执行以下操作：
 
-1. 在云基础架构环境中[获取Adobe Commerce的Fastly凭据](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration)。
+1. 在云基础架构环境中[获取Adobe Commerce的Fastly凭据](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration)。
 1. 运行以下Linux/macOS cURL命令以检查网站在过去30分钟内的点击率，并用您的Fastly凭据的值替换和：
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -82,8 +100,8 @@ Fastly通常遵循来自应用程序的响应标头；但是，如果标头都�
 
 1. 使用每小时和每日命中率统计信息，确定命中率何时开始下降。 如果在您将更改部署到网站的同一时间左右，点击率突然下降，请考虑回退更改，直到网站负载下降。
 1. 在Commerce管理员的&#x200B;**存储** > **配置** >高级> **系统** > **全页缓存**&#x200B;下检查配置。 确保公共内容&#x200B;**值的** TTL设置得不是太低。
-1. 确保已[上传VCL代码片段](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
-1. 如果使用自定义VCL代码片段，请对其进行调试以正确使用“通过”或“管道”操作：应谨慎使用这些代码片段，并且至少应将其用于某种条件。 有关更多提示，请参阅我们的开发人员文档中的[自定义Fastly VCL代码片段](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
+1. 确保已[上传VCL代码片段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
+1. 如果使用自定义VCL代码片段，请对其进行调试以正确使用“通过”或“管道”操作：应谨慎使用这些代码片段，并且至少应将其用于某种条件。 有关更多提示，请参阅我们的开发人员文档中的[自定义Fastly VCL代码片段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
 
 ### 步骤3：识别导致服务器负载过高的网站
 

@@ -4,7 +4,23 @@ description: 本文为B2B 1.5.2更新后Magento_Company模块升级中的性能�
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: b091d761-2e8a-4535-b461-ee9a46b5c2bc
-source-git-commit: e0524b54ee0adae1caa809212e98dda3a33c1954
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -31,7 +47,7 @@ ht-degree: 0%
 
 <u>重现步骤</u>：
 
-1. 将公司分配给母公司以建立公司层次结构。 有关详细信息，请参阅Adobe Commerce B2B指南中的[管理公司层次结构](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
+1. 将公司分配给母公司以建立公司层次结构。 有关详细信息，请参阅Adobe Commerce B2B指南中的[管理公司层次结构](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
 1. 将B2B升级到1.5.2版本。
 
 <u>预期的结果</u>：
@@ -60,7 +76,7 @@ ht-degree: 0%
 
 ### 如何应用修补程序
 
-解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)获取相关说明。
+解压缩文件，并在我们的支持知识库中参阅[如何应用Adobe提供的编辑器修补程序](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)获取相关说明。
 
 ### 使用云修补程序应用修补程序
 
@@ -79,8 +95,8 @@ ht-degree: 0%
    ```
 
 1. 将ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch添加到`m2-hotfixes`目录。
-1. 提交并推送更改以启动重新部署和`bin/magento setup:upgrade`。 有关说明，请参阅我们的Adobe Commerce on Cloud指南中的[应用修补程序](https://experienceleague.adobe.com/zh-hans/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)。
+1. 提交并推送更改以启动重新部署和`bin/magento setup:upgrade`。 有关说明，请参阅我们的Adobe Commerce on Cloud指南中的[应用修补程序](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)。
 
 ## 相关阅读
 
-* [由于缺少REGEXP_LIKE函数，升级到B2B 1.5.2失败，并出现SQL语法错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [由于缺少REGEXP_LIKE函数，升级到B2B 1.5.2失败，并出现SQL语法错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

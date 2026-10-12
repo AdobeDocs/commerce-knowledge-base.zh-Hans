@@ -3,13 +3,17 @@ title: 基本价格更改对共享目录价格的影响
 description: 本文回答了以下问题：如果共享目录中的产品具有自定义价格，并且产品的基本价格发生变化（例如，在计划更新后），那么共享目录中将应用哪个价格？
 exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # 基本价格更改对共享目录价格的影响
 
 本文回答了以下问题：如果共享目录中的产品具有自定义价格，并且产品的基本价格发生变化（例如，在计划更新后），那么共享目录中将应用哪个价格？
@@ -30,4 +34,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-在我们的用户指南中[设置共享目录的定价和结构](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=zh-Hans)。
+在我们的用户指南中[设置共享目录的定价和结构](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html)。

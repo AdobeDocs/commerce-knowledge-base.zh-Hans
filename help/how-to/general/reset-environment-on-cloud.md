@@ -3,13 +3,28 @@ title: 在云基础架构上重置Adobe Commerce上的环境
 description: 本文显示了在Adobe Commerce上回滚云基础架构上环境的各种方案。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 984562f30789ee4cea1f6b43eb960545a71da35e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1256'
 ht-degree: 0%
-
 ---
-
 # 在云基础架构上重置Adobe Commerce上的环境
 
 本文显示了在Adobe Commerce上回滚云基础架构上环境的各种方案。
@@ -41,17 +56,17 @@ ht-degree: 0%
 <u>更改日期</u>：
 
 1. 将网站放入[!UICONTROL Maintenance Mode]。
-详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html?lang=zh-Hans)，以及升级指南中的升级[[!UICONTROL Maintenance Mode]的](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html?lang=zh-Hans)选项。
-1. 禁用cron作业。 有关禁用cron作业的详细信息，请参阅[crons属性指南](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
-1. 获取本地[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=zh-Hans)。
+详细了解用户指南中的[启用或禁用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升级指南中的升级](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)的[[!UICONTROL Maintenance Mode]选项。
+1. 禁用cron作业。 有关禁用cron作业的详细信息，请参阅[crons属性指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+1. 获取本地[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)。
 
 <u>如果需要[!UICONTROL Rollback]</u>：
 
 1. 如果应用程序（如[!DNL MariaDB]）已作为此计划活动的一部分升级，请首先将该应用程序重新安装到以前的版本。
 1. [!UICONTROL Rollback]使用本地[!UICONTROL Database Dump]的数据库，并将其导入回[!DNL MariaDB]。
-1. 通过[!UICONTROL Rollback]将代码[!DNL Git]到以前的工作版本。
+1. 通过[!DNL Git]将代码[!UICONTROL Rollback]到以前的工作版本。
 
-对于升级/计划活动[!UICONTROL Snapshots]，建议不要使用[!UICONTROL rollbacks/restores]，因为与本地[!UICONTROL Database Dump]相比，检索数据需要更长的时间，如上面&#x200B;**步骤2中所示，如果需要[!UICONTROL Rollback]**&#x200B;部分。
+对于升级/计划活动[!UICONTROL rollbacks/restores]，建议不要使用[!UICONTROL Snapshots]，因为与本地[!UICONTROL Database Dump]相比，检索数据需要更长的时间，如上面&#x200B;**步骤2中所示，如果需要[!UICONTROL Rollback]**&#x200B;部分。
 
 [!UICONTROL Snapshots]不保存在节点/服务器上，而是保存在单独的存储块中，由于该数据必须通过网络从块存储传输到新磁盘，因此该过程需要时间。 然后，将该新磁盘装载到节点上，准备检索/导入到连接到节点/服务器的原始磁盘上。
 
@@ -59,13 +74,13 @@ ht-degree: 0%
 
 ## 场景2：恢复快照
 
-阅读：我们的开发人员文档中的[在Adobe Commerce上还原云基础架构上的快照](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
+阅读：我们的开发人员文档中的[在Adobe Commerce上还原云基础架构上的快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
 
 >[!NOTE]
 >
 >在访问云基础架构帐户上的Adobe Commerce之后以及在应用重大更改之前，创建快照必须是我们的第一步。 这是最佳实践，强烈推荐。
 
-阅读：在我们的开发人员文档中创建[快照](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
+阅读：在我们的开发人员文档中创建[快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
 
 ## 场景3：无快照，构建稳定（可用SSH连接）
 
@@ -92,21 +107,21 @@ ht-degree: 0%
 
 要删除配置文件，请执行以下步骤：
 
-1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 删除配置文件： `rm app/etc/config.php`
 
-在开发人员文档中阅读有关[存储设置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hans)的配置管理的更多信息。
+在开发人员文档中阅读有关[存储设置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的配置管理的更多信息。
 
 ### 步骤1：使用setup:uninstall命令卸载Adobe Commerce软件
 
 
 卸载Adobe Commerce软件将删除并还原数据库，删除部署配置，并清除`var`下的目录。
 
-阅读：在开发人员文档中[卸载Adobe Commerce软件](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=zh-Hans)。
+阅读：在开发人员文档中[卸载Adobe Commerce软件](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html)。
 
 要卸载Adobe Commerce软件，请执行以下步骤：
 
-1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 执行`setup:uninstall`： `bin/magento setup:uninstall`
 1. 确认卸载。
 
@@ -122,7 +137,7 @@ ht-degree: 0%
 
 通过[!DNL git]重置，我们将代码还原到过去所需的状态。
 
-1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. 将环境克隆到本地开发环境。 您可以在Cloud Console中复制命令： ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 访问提交历史记录。 使用`--reverse`以相反顺序显示历史记录，以便更加方便： `git log --reverse`
 1. 选择已完成的提交哈希。 要将代码重置为其真实状态(Vanilla)，请查找创建分支（环境）的第一次提交。
    ![替换文本](image.png)
@@ -156,10 +171,10 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 如果执行`setup:uninstall`命令失败并出现错误，且无法完成，则可以使用以下步骤手动清除数据库：
 
-1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
-1. 连接到MySQL数据库： `mysql -h database.internal` （对于Pro环境，请参阅： [设置MySQL服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=zh-Hans)）。
+1. [SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. 连接到MySQL数据库： `mysql -h database.internal` （对于Pro环境，请参阅： [设置MySQL服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)）。
 1. 删除`main`数据库： `drop database main;`
 1. 创建空的`main`数据库： `create database main;`
 1. 删除以下配置文件： `config.php`、`config.php.bak`、`env.php`、`env.php.bak`
 
-重置数据库后，[向环境推送 [!DNL git] 以触发重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html?lang=zh-Hans)并将Adobe Commerce安装到新创建的数据库中。 或[运行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hans#environment-commands)。
+重置数据库后，[向环境推送 [!DNL git] 以触发重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html)并将Adobe Commerce安装到新创建的数据库中。 或[运行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。

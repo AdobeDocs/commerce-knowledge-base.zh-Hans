@@ -4,13 +4,24 @@ description: 本文针对您收到一封电子邮件，指出导出存储已几�
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
-source-git-commit: 11cf981c7ebe813219a0cd311632eafce086bbf6
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: aa037b12-c774-5642-a947-459024feb1a2
+    internal-label: Storage
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # 电子邮件表明导出存储空间几乎已满
 
 本文针对您收到一封电子邮件，指出导出存储已几乎满的问题提供了解决方案。
@@ -42,9 +53,9 @@ ht-degree: 0%
 
 * 在此示例中，`/data/exports`是主导出文件系统：
 
-   * 总计50 GB
-   * 38 GB已使用
-   * 12 GB可用（77%利用率）
+  * 总计50 GB
+  * 38 GB已使用
+  * 12 GB可用（77%利用率）
 
 * `/data/exports/shared`是用于共享数据的`tmpfs` （内存中）装载，对磁盘压力没有显着影响。
 
@@ -56,7 +67,7 @@ ht-degree: 0%
 
 按照以下步骤查看、清理和验证exports存储的使用情况。
 
-1. 运行命令`df -h | grep exports`以检查导出存储文件系统的当前使用情况。 查看&#x200B;**的**&#x200B;使用%`/data/exports`列：
+1. 运行命令`df -h | grep exports`以检查导出存储文件系统的当前使用情况。 查看`/data/exports`的&#x200B;**使用%**&#x200B;列：
 
    * 如果使用率为70-85%，则开始计划清理。
    * 如果使用率大于90%，请立即采取措施以避免写入失败或影响服务。
@@ -75,8 +86,8 @@ ht-degree: 0%
    * 在非生产环境中，您通常可以更积极地删除测试介质或旧工件。
    * 在生产环境中，在删除任何媒体或业务关键型文件之前，请与您的团队协调。
 
-1. 清理后，运行以下命令`df -h | grep exports`以确认&#x200B;**的** Use%`/data/exports`值已降至安全操作级别。
+1. 清理后，运行以下命令`df -h | grep exports`以确认`/data/exports`的&#x200B;**Use%**&#x200B;值已降至安全操作级别。
 
 ## 相关阅读
 
-[检查我们的支持知识库中的专用群集](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。
+[检查我们的支持知识库中的专用群集](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。

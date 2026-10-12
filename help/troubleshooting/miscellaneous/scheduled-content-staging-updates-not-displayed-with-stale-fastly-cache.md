@@ -1,23 +1,39 @@
 ---
 title: 计划内容暂存更新未与过时的Fastly缓存一起显示
-description: 本文修复了在使用Content Staging和Fastly时Adobe Commerce存储不显示计划更新的问题。 问题是由于默认启用了Fastly软清除。 此功能可减少应用程序资源负载，并且仅在第二次请求时重新生成新的缓存。 要解决此问题，您可以通过Commerce管理员启用“清除CMS”页面，以便始终重新生成并提供最新内容。
+description: 本文修复了在使用Content Staging和Fastly时Adobe Commerce存储不显示计划更新的问题。 问题是由于默认启用了Fastly软清除。 此功能可减少应用程序资源负载，并且仅在第二次请求时重新生成新的缓存。 要解决此问题，您可以通过CMS管理员启用清除Commerce页面，以始终重新生成并提供最新内容。
 exl-id: becbffaa-b6dd-4e9b-894e-17901c40223a
 feature: CMS, Cache, Page Content, Staging
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # 计划内容暂存更新未与过时的Fastly缓存一起显示
 
-本文修复了在使用Content Staging和Fastly时Adobe Commerce存储不显示计划更新的问题。 问题是由于默认启用了Fastly软清除。 此功能可减少应用程序资源负载，并且仅在第二次请求时重新生成新的缓存。 要解决此问题，您可以通过Commerce管理员启用“清除CMS”页面，以便始终重新生成并提供最新内容。
+本文修复了在使用Content Staging和Fastly时Adobe Commerce存储不显示计划更新的问题。 问题是由于默认启用了Fastly软清除。 此功能可减少应用程序资源负载，并且仅在第二次请求时重新生成新的缓存。 要解决此问题，您可以通过CMS管理员启用清除Commerce页面，以始终重新生成并提供最新内容。
 
 ## 问题
 
-商店内容资产（页面、产品、块等）的计划更新 更新开始时间后不会立即在店面显示。 如果已使用[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans)功能计划了更新，则会发生这种情况。
+商店内容资产（页面、产品、块等）的计划更新 更新开始时间后不会立即在店面显示。 如果已使用[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)功能计划了更新，则会发生这种情况。
 
 ## 原因
 
@@ -31,7 +47,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-如果提供过时内容（即使为第一个请求提供）是不可接受的，则可以禁用软清除并启用清除CMS页面：
+如果提供过时内容而不接受第一次请求，则可以禁用软清除并启用清除CMS页面：
 
 1. 以管理员身份登录到您的本地Commerce管理员。
 1. 转到&#x200B;**商店** > **配置** > **高级** > **系统** > **全页缓存**。
@@ -45,6 +61,6 @@ ht-degree: 0%
 
 ## 相关文档
 
-* 在《云基础架构上的Commerce指南》中[配置清除选项](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
-* 内容和设计文档中的[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hans)。
+* 在《云基础架构上的Commerce指南》中[配置清除选项](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+* 内容和设计文档中的[内容暂存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)。
 * 在Fastly文档中[提供过时的内容](https://docs.fastly.com/guides/performance-tuning/serving-stale-content)。

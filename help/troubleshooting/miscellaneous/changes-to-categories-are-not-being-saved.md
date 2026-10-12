@@ -4,13 +4,23 @@ description: 本文修复了在通过Commerce管理员更新产品类别时，�
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
-
 ---
-
 # 未保存对类别所做的更改
 
 本文修复了在通过Commerce管理员更新产品类别时，更改不会显示在管理员和店面中的问题。 问题是由于`catalog_category_entity`表中的数据损坏导致的。 要解决此问题，请修复或删除表中有问题的类别更新记录。 之后，您应该能够使用管理员更新产品类别。
@@ -40,7 +50,7 @@ ht-degree: 0%
 
 ### 对于同一类别，第二个数据库条目（以及所有后续条目）如何显示在数据库中？
 
-受影响类别的第二个DB记录（可能还有后续的数据库记录）表示已使用Magento\_Staging模块计划了类别更新。 模块为`catalog_category_entity`中的类别创建附加记录，这是预期的应用程序行为；问题是这些记录的`created_in`列具有相同的值。
+受影响类别的第二个DB记录（可能还有后续的数据库记录）意味着已使用Magento\_Staging模块计划了类别更新。 模块为`catalog_category_entity`中的类别创建附加记录，这是预期的应用程序行为；问题是这些记录的`created_in`列具有相同的值。
 
 ### 如何显示相同的值？
 
@@ -92,4 +102,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

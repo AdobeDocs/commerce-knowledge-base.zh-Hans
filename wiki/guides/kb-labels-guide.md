@@ -1,10 +1,13 @@
 ---
-source-git-commit: 88a2b8fe11d718f33c26bbc6f407c55d9f1fd189
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
-
 ---
+
 # 知识库标签指南
 
 本文档提供了向Adobe Commerce支持知识库中的文章添加标签的指南。

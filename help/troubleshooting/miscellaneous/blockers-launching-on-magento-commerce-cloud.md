@@ -4,13 +4,31 @@ description: 本文修复了阻止程序在云基础架构上的Adobe Commerce�
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d653957b94127e8b1d37a66c069a618f34ac5af9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: 4239b8a6-e74f-567d-a7a5-b98b9ead0ea4
+    internal-label: Observability
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '800'
 ht-degree: 0%
-
 ---
-
 # 在云基础架构上的Adobe Commerce上启动阻止程序
 
 本文修复了阻止程序在云基础架构上的Adobe Commerce上启动的问题，包括与Fastly配置、SSL证书、301重定向和静态资产性能相关的问题。
@@ -23,35 +41,35 @@ ht-degree: 0%
 >
 >启用全页缓存(FPC)后，网站的执行方式会有所不同；请确保在网站正式启用前对其进行测试。
 
-Fastly配置过程在我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)主题中详细记录。 以下是重要步骤。
+Fastly配置过程在我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)主题中详细记录。 以下是重要步骤。
 
 ### 1a. 确保您安装了最新版本的Fastly模块
 
-确保您安装了最新版本的Fastly模块，以获取最新功能和改进。 要检查您是否拥有最新版本的Fastly，请查看我们的用户指南中的[升级Fastly模块](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#upgrade-the-fastly-module)。 有关更多详细信息，请参阅我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
+确保您安装了最新版本的Fastly模块，以获取最新功能和改进。 要检查您是否拥有最新版本的Fastly，请查看我们的用户指南中的[升级Fastly模块](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module)。 有关更多详细信息，请参阅我们的用户指南中的[设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 ### 1b. 使用Commerce管理员启用和配置Fastly
 
-有关更多详细信息，请参阅我们的用户指南中的[获取你的Fastly凭据](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#get-fastly-credentials)。
+有关更多详细信息，请参阅我们的用户指南中的[获取你的Fastly凭据](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials)。
 
 ### 1c. 上传Fastly VCL片段
 
-有关更多详细信息，请参阅用户指南中的[将VCL上传到Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans)。
+有关更多详细信息，请参阅用户指南中的[将VCL上传到Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
-您也可以[创建并添加自己的自定义VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hans)。
+您也可以[创建并添加自己的自定义VCL代码片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)。
 
 ### 1d 为Fastly配置DNS
 
 
-请参阅本文章以了解详细步骤：[在我们的用户指南中设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hans#update-dns-configuration-with-development-settings)。
+请参阅本文章以了解详细步骤：[在我们的用户指南中设置Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)。
 
-## 2.有效的SSL (TLS)证书
+## &#x200B;2. 有效的SSL (TLS)证书
 
 问题：如果没有有效且有效的SSL证书，您将无法在“结帐”页面（在暂存环境中）上测试外部付款方法。
 
 推荐&#x200B;**：**&#x200B;请求您为暂存或实时域名共享的SSL证书。
 
 
-## 3.配置和测试301重定向
+## &#x200B;3. 配置和测试301重定向
 
 问题： 301重定向未提供或配置不正确，导致您的商店在SEO排名和搜索列表中排名下降。
 
@@ -63,11 +81,11 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **相关文章：**
 
-* 在我们的用户指南中通过routes.yaml[重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html?lang=zh-Hans)。
-* 在我们的用户指南中，通过Cloud Console [重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hans)。
-* 用户指南中的[URL重写](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=zh-Hans)。
+* 在我们的用户指南中通过routes.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html)重定向[。
+* 在我们的用户指南中，通过Cloud Console [重定向](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)。
+* 用户指南中的[URL重写](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html)。
 
-## 4.资产绩效
+## &#x200B;4. 资源性能
 
 问题：静态资产提供缓慢，导致网站性能不佳（加载时间长、不显示多媒体内容等）。 网站的静态资产包括CSS资源、图像、视频、附加文档等。 组织和提供这些网站的方式是网站性能的一个关键因素。
 
@@ -78,8 +96,8 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 * [New Relic](https://support.newrelic.com/)：查找导致网站性能变慢的进程和区域，跟踪每个操作花费的时间，如传输数据、查询、Redis等。
 * [WebPageTest](https://www.webpagetest.org/)（免费）和[Pingdom](https://www.pingdom.com/)（付费）：实时分析不同来源位置的网站页面加载时间。
 
-您还可以考虑对CSS、JavaScript和HTML进行[缩小](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hans)。
+您还可以考虑对CSS、JavaScript和HTML进行[缩小](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)。
 
 **相关文章：**
 
-* 在我们的开发人员文档中测试[部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html?lang=zh-Hans)。
+* 在我们的开发人员文档中测试[部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html)。

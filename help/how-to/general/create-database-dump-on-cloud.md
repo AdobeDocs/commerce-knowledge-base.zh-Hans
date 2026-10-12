@@ -3,22 +3,26 @@ title: 在云基础架构上的Adobe Commerce上创建数据库转储
 description: 本文讨论在云基础架构上的Adobe Commerce上创建数据库(DB)转储的可能性（和推荐的方法）。
 exl-id: 4a2e54ac-8d65-4e51-8337-08f9748dc6c0
 feature: Cloud
-source-git-commit: 96b145a1f76c296907da96fd97c7a8f7778463f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # 在云基础架构上的Adobe Commerce上创建数据库转储
 
 本文讨论在云基础架构上的Adobe Commerce上创建数据库(DB)转储的可能性（和推荐的方法）。
 
-您只需要使用一个变体（选项）来转储数据库。 这些选项适用于任何环境类型（集成、暂存、生产）和任何计划(云基础架构上的Adobe Commerce入门计划架构和云基础架构上的Adobe Commerce Pro计划架构)。
+您只需要使用一个变体（选项）来转储数据库。 这些选项适用于任何环境类型（集成、暂存、生产）和任何计划（云基础架构上的Adobe Commerce入门计划架构和云基础架构上的Adobe Commerce Pro计划架构）。
 
 ## 前提条件：通过SSH连接到环境
 
-要使用本文中讨论的任何变体在Adobe Commerce上转储您的数据库，您必须先[SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hans)。
+要使用本文中讨论的任何变体在Adobe Commerce上转储您的数据库，您必须先[SSH到您的环境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 
 >[!WARNING]
 >
@@ -26,7 +30,7 @@ ht-degree: 0%
 
 ## 选项1：db-dump （**ece-tools；建议**）
 
-您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=zh-Hans)命令转储数据库：
+您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)命令转储数据库：
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,7 +38,7 @@ vendor/bin/ece-tools db-dump
 
 这是推荐且最安全的选项。
 
-请参阅我们的Commerce on Cloud Infrastructure指南中的[转储您的数据库(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=zh-Hans)。
+请参阅我们的Commerce on Cloud Infrastructure指南中的[转储您的数据库(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html)。
 
 ## 选项2：mariadb-dump（对于旧版本则为mysqldump）
 
@@ -73,4 +77,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 **相关文档：**
 
 * [mysqldump — 官方的MySQL文档中的数据库备份程序](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)。
-* 我们的Commerce on Cloud Infrastructure指南中的[特定于云的变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=zh-Hans)（请参阅`MAGENTO_CLOUD_RELATIONSHIPS`）。
+* 我们的Commerce on Cloud Infrastructure指南中的[特定于云的变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html)（请参阅`MAGENTO_CLOUD_RELATIONSHIPS`）。

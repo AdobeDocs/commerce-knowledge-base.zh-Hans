@@ -4,13 +4,23 @@ description: 本文列出了在查看Adobe Commerce日志时可以找到的一�
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # 常见PHP致命错误和解决方案
 
 本文列出了在查看Adobe Commerce日志时可以找到的一些常见的PHP致命错误快速示例，以及它们指示的问题的解决方案。
@@ -21,13 +31,13 @@ ht-degree: 0%
 
 ## 解决方案
 
-您可以通过在`max_execution_time`文件中设置自定义`php.ini`值并重新部署来更新最大执行时间。
+您可以通过在`php.ini`文件中设置自定义`max_execution_time`值并重新部署来更新最大执行时间。
 
 例如：
 
 `max_execution_time = 120`
 
-请参阅[自定义php.ini设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/php-settings)一文。
+请参阅[自定义php.ini设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)一文。
 
 ## 示例
 
@@ -35,7 +45,7 @@ ht-degree: 0%
 
 ## 解决方案
 
-自定义您的`php.ini`设置。 请参阅此[自定义php.ini设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
+自定义您的`php.ini`设置。 请参阅此[自定义php.ini设置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
 
 ## 示例
 
@@ -65,9 +75,9 @@ MySQL环境的磁盘空间不足。 为MySQL环境提供更多磁盘空间。
 
 在我们的开发人员文档中：
 
-* [PHP设置错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [必需的PHP设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)
-* [Redis验证](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
-* [配置Redis](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
-* [PHP内存限制错误](https://experienceleague.adobe.com/zh-hans/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [PHP设置错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [必需的PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis验证](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [配置Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP内存限制错误](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
 * [常见问题的解决方案 — 内存限制](https://developer.adobe.com/commerce/testing/guide/unit/command-line#solutions-to-common-problems)

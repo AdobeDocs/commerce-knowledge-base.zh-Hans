@@ -3,13 +3,17 @@ title: 更改New Relic on Cloud的帐户所有者
 description: 对于您的Adobe Commerce on cloud基础架构项目，您可以在New Relic UI页面上更改New Relic帐户所有者。 有关详细步骤，请参阅New Relic文档中的[有关管理帐户和用户访问权限的教程](https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-user-management/account-user-mgmt-tutorial/)。
 exl-id: fbb778d5-7e5d-4cd9-849a-4071ca9e4bea
 feature: Cloud
-source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '280'
 ht-degree: 0%
-
 ---
-
 # 更改New Relic on Cloud的帐户所有者
 
 对于您的Adobe Commerce on cloud基础架构项目，您可以在New Relic UI页面上更改New Relic帐户所有者。 有关详细步骤，请参阅New Relic文档中的[更改帐户所有者](https://docs.newrelic.com/docs/accounts/accounts-billing/new-relic-one-user-management/account-user-mgmt-tutorial/)。
@@ -20,4 +24,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 在开发人员文档中[New Relic服务](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。
+* 在开发人员文档中[New Relic服务](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。

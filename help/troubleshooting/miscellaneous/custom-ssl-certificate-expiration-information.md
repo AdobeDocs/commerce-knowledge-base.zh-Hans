@@ -4,13 +4,23 @@ description: 本文为使用Adobe提供的SSL证书更新自定义SSL证书时�
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # 自定义SSL证书过期信息
 
 本文为使用Adobe提供的SSL证书更新自定义SSL证书时提供了解决方案。
@@ -41,11 +51,11 @@ Adobe Commerce会在过期后30天内更新任何证书。
 
 当商家选择使用自己的自定义SSL证书时，必须在证书到期前30天以上更新该证书，以确保不会将其替换为内部Adobe Commerce SSL证书。
 
-如果您遇到自定义SSL被内部SSL替换的情况，并且希望将其替换为您更新的自定义SSL证书，请[提交支持请求](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，并提供您上载新证书文件的位置。 请包括新SSL的开始日期。 获得此信息后，我们可以继续安装新的SSL证书。
+如果您遇到自定义SSL被内部SSL替换的情况，并且希望将其替换为您更新的自定义SSL证书，请[提交支持请求](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，并提供您上载新证书文件的位置。 请包括新SSL的开始日期。 获得此信息后，我们可以继续安装新的SSL证书。
 
 ## 相关阅读
 
 * Magento Commerce Cloud的[SSL (TLS)证书：我们的支持知识库中的常见问题解答](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)。
-* [命令行工具引用：开发人员文档中的magento-cloud证书:add](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
-* 在开发人员文档中[启动项核对清单](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/launch/checklist)。
-* 访问用户指南中的[站点范围分析工具](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。
+* [命令行工具引用：开发人员文档中的magento-cloud证书:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
+* 在开发人员文档中[启动项核对清单](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)。
+* 访问用户指南中的[站点范围分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。

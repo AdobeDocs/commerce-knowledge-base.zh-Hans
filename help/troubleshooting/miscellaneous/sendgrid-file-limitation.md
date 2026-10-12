@@ -1,16 +1,27 @@
 ---
-title: '[!DNL SendGrid] Adobe Commerce Cloud文件限制'
-description: 本文为Adobe Commerce在云基础架构上的 [!DNL SendGrid] 限制提供了解决方法。
+title: Adobe Commerce Cloud的[!DNL SendGrid]文件限制
+description: 本文为Adobe Commerce在云基础架构上的[!DNL SendGrid]限制提供了解决方法。
 feature: Deploy, Marketing Tools
 role: Developer, Admin
 exl-id: 48629f48-8100-4128-9211-53d947aecd49
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '206'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce Cloud的[!DNL SendGrid]限制
 
 本文为Adobe Commerce在云基础架构上的[!DNL SendGrid]限制提供了一些解决方法。
@@ -52,9 +63,9 @@ Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@xxx
 ## 解决方法
 
 * 请勿使用大于6Mb或10Mb的附件。
-* 考虑在Adobe Commerce实例上使用远程SMTP服务器。 有关步骤，请参阅我们的管理员系统指南中的[配置电子邮件通信](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=zh-Hans)。
+* 考虑在Adobe Commerce实例上使用远程SMTP服务器。 有关步骤，请参阅我们的管理员系统指南中的[配置电子邮件通信](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html)。
 * 重新配置服务器，以便在模块中保存文件，然后将链接附加到电子邮件中的文件。
 
 ## 相关阅读
 
-* 我们的Commerce on Cloud Infrastructure指南中的[[!DNL SendGrid] 电子邮件服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=zh-Hans)。
+* 我们的Commerce on Cloud Infrastructure指南中的[[!DNL SendGrid] 电子邮件服务](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)。

@@ -4,13 +4,20 @@ description: 当您收到因不正确提交到不应添加的文件/文件夹存
 feature: Deploy
 role: Developer
 exl-id: c795f9d5-7171-4846-b99f-c018f1d2bf12
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '181'
 ht-degree: 0%
-
 ---
-
 # 提交不正确的文件时出现部署错误
 
 本文修复了因提交到存储库的不正确而不应添加的文件/文件夹而导致部署错误的问题。
@@ -21,7 +28,7 @@ ht-degree: 0%
 
 ## 问题
 
-提交到文件/文件夹存储库时出现部署错误。 例如，以下错误是由于在[构建阶段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=zh-Hans#build-phase)期间尝试连接到数据库时当前不可用而导致的：
+提交到文件/文件夹存储库时出现部署错误。 例如，以下错误是由于在[构建阶段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase)期间尝试连接到数据库时当前不可用而导致的：
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +49,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## 原因
 
-某些文件/文件夹不应提交到存储库，因为它们导致[部署工作流](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=zh-Hans)中断。
+某些文件/文件夹不应提交到存储库，因为它们导致[部署工作流](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html)中断。
 
 ## 解决方案
 

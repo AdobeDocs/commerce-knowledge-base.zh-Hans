@@ -1,16 +1,28 @@
 ---
-title: 'Adobe Commerce 2.4.2-p1：具有不正确值的发票注释'
+title: Adobe Commerce 2.4.2-p1：具有不正确值的发票注释
 description: 本文介绍了已知的Adobe Commerce 2.4.2-p1问题，该问题导致在创建订单时更改客户组时生成值不正确的发票注释。 此问题已在版本2.4.3中修复。
 exl-id: bde90251-625f-4c9d-8e5a-9a2019656125
 feature: Customer Service, Invoices
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.2-p1：具有不正确值的发票注释
 
 本文介绍了已知的Adobe Commerce 2.4.2-p1问题，该问题导致在创建订单时更改客户组时生成值不正确的发票注释。 此问题已在版本2.4.3中修复。
@@ -29,7 +41,7 @@ ht-degree: 0%
 1. 创建&#x200B;**测试客户帐户**&#x200B;并将其添加到&#x200B;**零售客户组**。
 1. 为测试客户创建&#x200B;**新订单**，添加&#x200B;**产品**&#x200B;和&#x200B;**地址**。
 1. 选择&#x200B;**配送方式**。
-1. 在&#x200B;**帐户信息**&#x200B;部分中，将客户组从&#x200B;**零售商**&#x200B;更改为&#x200B;**政府**。
+1. 在&#x200B;**帐户信息**&#x200B;部分中，将客户组从&#x200B;**Retailer**&#x200B;更改为&#x200B;**政府**。
 1. 单击&#x200B;**下单**。
 1. 单击&#x200B;**发票** > **提交发票**。
 

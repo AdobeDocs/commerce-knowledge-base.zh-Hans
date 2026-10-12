@@ -2,13 +2,14 @@
 title: '[!UICONTROL Admin]登录不起作用 — 超出了允许的会话最大大小'
 description: 解决当您尝试登录[!UICONTROL Admin]面板并且表单刷新且您无法登录的问题。
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Admin]登录不起作用 — 超出了允许的会话最大大小
 
 本文修复了以下问题：当您尝试登录到[!UICONTROL Admin]面板时，表单刚刚刷新，您无法登录，或者您在[!UICONTROL Admin]面板中执行了某些操作并自动注销。
@@ -34,7 +35,7 @@ ht-degree: 0%
 
 检查`var/log/support_report.log`文件中是否存在错误，例如：
 
-*[2023-07-13T04:26:09.792060+00:00]报告。警告： 260572的会话大小超过了允许的会话最大大小256000。 [] []
+*[2023-07-13T04:26:09.792060+00:00]报告。警告： 260572的会话大小超过了允许的会话最大大小256000。[] []
 [2023-07-13T04:26:17.056714+00:00]报告。警告： 260570的会话大小超过了允许的会话最大大小256000。[][]*
 
 如果您看到这些错误，解决办法将是：
@@ -57,6 +58,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 相关阅读
 
-* 管理系统指南中的[会话大小](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
-* 配置指南中的[操作模式](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cli/set-mode)
-* Commerce on Cloud Infrastructure指南中的[安全连接](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/develop/secure-connections)
+* 管理系统指南中的[会话大小](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
+* 配置指南中的[操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Commerce on Cloud Infrastructure指南中的[安全连接](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)

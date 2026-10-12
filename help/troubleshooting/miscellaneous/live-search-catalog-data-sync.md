@@ -4,13 +4,25 @@ description: 本文为使用Live Search扩展时目录数据无法正确同步�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: beca5aa3fa796e4b12afc4882024db718b65ac0c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # 实时搜索目录未同步
 
 本文为使用Live Search扩展时目录数据无法正确同步的Adobe Commerce问题提供了解决方案。
@@ -31,14 +43,14 @@ ht-degree: 0%
 
 <u>重现步骤</u>
 
-1. 按照用户文档中的[安装Live Search >配置API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans#configure-api-keys)中所述，为Adobe Commerce实例配置并连接Live Search。
-1. 30分钟后，按照用户文档中的[安装Live Search >验证导出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans#verify-export)中的说明验证导出的目录数据。
-1. 30分钟后，按照用户文档中的[安装Live Search >测试连接](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hans#test-connection)中的说明测试连接。
+1. 按照用户文档中的[安装Live Search >配置API密钥](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys)中所述，为Adobe Commerce实例配置并连接Live Search。
+1. 30分钟后，按照用户文档中的[安装Live Search >验证导出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)中的说明验证导出的目录数据。
+1. 30分钟后，按照用户文档中的[安装Live Search >测试连接](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)中的说明测试连接。
 
 或
 
 1. 向目录中添加新产品。
-1. 从Magento索引器+ cron运行开始，在15-20分钟后尝试使用产品名称或其他可搜索属性运行搜索查询，以将数据同步到后端服务。
+1. 从Magento indexer + cron运行开始，在15-20分钟后尝试使用产品名称或其他可搜索属性运行搜索查询，以将数据同步到后端服务。
 
 <u>预期的结果</u>
 
@@ -80,7 +92,7 @@ ht-degree: 0%
    bin/magento indexer:reindex cde_products_feed
    ```
 
-1. 如果仍看不到正确的数据，请[创建支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+1. 如果仍看不到正确的数据，请[创建支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ### 检查上次产品导出的时间戳
 
@@ -96,7 +108,7 @@ ht-degree: 0%
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 等待`<>`时间（增量更新的时间）。 如果您仍未看到数据，请[创建支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+1. 等待`<>`时间（增量更新的时间）。 如果您仍未看到数据，请[创建支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ### 同步特定的属性代码
 
@@ -114,7 +126,7 @@ ht-degree: 0%
    bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
-1. 如果仍看不到正确的数据，请[创建支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+1. 如果仍看不到正确的数据，请[创建支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ### 检查上次产品属性导出的时间戳
 
@@ -132,7 +144,7 @@ ht-degree: 0%
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 等待15-20分钟（增量更新的时间）。 如果您仍未看到数据，请[创建支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+1. 等待15-20分钟（增量更新的时间）。 如果您仍未看到数据，请[创建支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ### 在API配置更改后同步
 
@@ -150,13 +162,13 @@ bin/magento saas:resync --feed categories --cleanup-feed
 bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
-[提交支持请求](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=home#support)以请求重新索引实时搜索索引。 在问题描述中，包括在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下的管理面板中找到的数据空间/环境ID。
+[提交支持请求](https://experienceleague.adobe.com/home?support-tab=home#support)以请求重新索引实时搜索索引。 在问题描述中，包括在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下的管理面板中找到的数据空间/环境ID。
 
 >[!IMPORTANT]
->在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。  仅在您拥有新的空环境、Adobe团队完成数据空间清理操作后，或运行带有[&#x200B; — 试运行](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)选项的`saas:resync`命令时，才使用此项。 在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。
+>在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。  仅在您拥有新的空环境、Adobe团队完成数据空间清理操作后，或运行带有[ — 试运行](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)选项的`saas:resync`命令时，才使用此项。 在其他情况下使用`--cleanup-feed`选项可能会导致数据丢失和数据同步问题。
 
 ## 相关阅读
 
-* 在我们的用户文档中[载入Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=zh-Hans)
-* [在Adobe Commerce SaaS Data Export Guide中查看日志并排除Adobe Commerce SaaS数据导出和同步问题](https://experienceleague.adobe.com/zh-hans/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging)
-* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在我们的用户文档中[载入Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)
+* [在Adobe Commerce SaaS Data Export Guide中查看日志并排除Adobe Commerce SaaS数据导出和同步问题](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging)
+* [在Commerce实施行动手册中修改数据库表的最佳实践](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

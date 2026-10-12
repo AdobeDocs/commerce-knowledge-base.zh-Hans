@@ -4,13 +4,22 @@ description: 本文为安装停止在70%左右时提供了修补程序。
 exl-id: 04aa3572-3c42-4565-9f7f-b4d90df96df2
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '200'
 ht-degree: 0%
-
 ---
-
 # 安装停止率约为70%
 
 本文为安装停止在70%左右时提供了修补程序。
@@ -32,7 +41,7 @@ ht-degree: 0%
 
 ### 所有Web服务器和Varnish {#all-web-servers-and-varnish}
 
-1. 使用[`phpinfo.php`](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/optional-software)文件找到您的`php.ini`。
+1. 使用[`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software)文件找到您的`php.ini`。
 1. 作为具有`root`权限的用户，在文本编辑器中打开`php.ini`。
 1. 找到`max_execution_time`设置。
 1. 将其值更改为`18000` 。

@@ -2,13 +2,14 @@
 title: ElasticSuite跟踪索引导致Elasticsearch出现问题
 description: 本文讨论了Elasticsearch插件生成的跟踪索引导致的内存问题。
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # ElasticSuite跟踪索引导致Elasticsearch出现问题
 
 >[!NOTE]
@@ -68,5 +69,5 @@ ElasticSuite具有创建跟踪索引的新功能。 这些跟踪索引记录哪�
 
 如果要在设定的时间频率删除索引，请通过引用开发人员文档中的以下文章来创建cron作业：
 
-* [配置自定义cron作业和cron组（教程）](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [设置cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [配置自定义cron作业和cron组（教程）](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

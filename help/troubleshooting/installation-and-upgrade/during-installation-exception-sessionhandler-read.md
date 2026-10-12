@@ -1,13 +1,14 @@
 ---
 title: 安装期间，SessionHandler：：read()出现异常
-description: “本文修复了安装Adobe Commerce期间出现的异常**SessionHandler：：read()**错误。”
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+description: 本文修复了安装Adobe Commerce期间出现的异常**SessionHandler：：read()**错误。
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 
 # 安装期间，SessionHandler：：read()出现异常
 
@@ -25,7 +26,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 >[!NOTE]
 >
->此错误仅发生在2015年9月28日之前的代码版本中。 如果您安装的代码日期为9月29日或更高版本，则不会出现此错误。 有关Redis配置选项的更多信息，请参阅我们的开发人员文档中的[配置Redis](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/cache/redis/config-redis)。 有关使用命令行安装程序指定Redis的详细信息，请参阅我们的开发人员文档中的[安装主题](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/advanced)或[部署配置主题](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/deployment)。
+>此错误仅发生在2015年9月28日之前的代码版本中。 如果您安装的代码日期为9月29日或更高版本，则不会出现此错误。 有关Redis配置选项的更多信息，请参阅我们的开发人员文档中的[配置Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)。 有关使用命令行安装程序指定Redis的详细信息，请参阅我们的开发人员文档中的[安装主题](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)或[部署配置主题](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/deployment)。
 
 ## 原因
 
@@ -33,7 +34,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 ## 解决方案：
 
-* 升级您的Adobe Commerce代码。 请参阅我们的开发人员文档中的[安装指南>更新Adobe Commerce软件](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/tutorials/uninstall)。
+* 升级您的Adobe Commerce代码。 请参阅我们的开发人员文档中的[安装指南>更新Adobe Commerce软件](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall)。
 * 对现有代码使用以下解决方法：
 
 ## 找到`php.ini` {#locate-php-ini}

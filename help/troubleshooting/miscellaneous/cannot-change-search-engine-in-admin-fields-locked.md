@@ -2,13 +2,14 @@
 title: 无法更改“app/etc/env.php”中的搜索引擎
 description: 本文解决了一个问题：您尝试在Commerce管理员中更改搜索引擎，但字段被锁定。
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # 无法更改`app/etc/env.php`中的搜索引擎
 
 本文提供了这个问题的解决方案，即您尝试从`app/etc/env.php`文件中删除搜索引擎配置，但在重新部署后，该配置将恢复为以前的设置或默认情况下更改为[!DNL OpenSearch]。
@@ -42,4 +43,4 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* 《Commerce on Cloud Infrastructure指南》中Commerce Admin[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-kcs/kbarticles/ka-26879)的锁定（灰色）字段。
+* 《Commerce on Cloud Infrastructure指南》中Commerce Admin](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26879)的[锁定（灰色）字段。

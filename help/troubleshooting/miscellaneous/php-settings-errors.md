@@ -4,13 +4,20 @@ description: 本文为PHP设置错误提供了解决方案。
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '348'
 ht-degree: 0%
-
 ---
-
 # PHP设置错误
 
 本文为PHP设置错误提供了解决方案。
@@ -48,7 +55,7 @@ ht-degree: 0%
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-`max-input-vars`没有“适当”值；这取决于配置的大小和复杂性。 根据需要修改`php.ini`文件中的值。 请参阅[必需的PHP设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+`max-input-vars`没有“适当”值；这取决于配置的大小和复杂性。 根据需要修改`php.ini`文件中的值。 请参阅[必需的PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
 
 ## xdebug最大函数嵌套级别错误
 
@@ -76,4 +83,4 @@ Parse error: syntax error, unexpected 'data' (T_STRING)
 
 有关[asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags)的详细信息。
 
-编辑`php.ini`并设置`asp_tags = off`。 有关详细信息，请参阅[必需的PHP设置](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+编辑`php.ini`并设置`asp_tags = off`。 有关详细信息，请参阅[必需的PHP设置](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
