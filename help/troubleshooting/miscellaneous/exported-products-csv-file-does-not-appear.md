@@ -91,7 +91,7 @@ Adobe Commerce应用程序部件版本2.3.2中的导出功能存在的已知问�
 
 #### 将进程添加为cron作业（可选）
 
-1. 确保已设置和配置您的cron。 有关详细信息，请参阅[设置cron作业](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)。
+1. 确保已设置和配置您的cron。 有关详细信息，请参阅[设置cron作业](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hans)。
 1. 运行以下命令以返回消息队列使用者的列表： `./bin/magento queue:consumers:list`
 1. 将以下内容添加到根应用程序目录中的`.magento.env.yaml`文件，并包含要添加的使用者。 例如，以下是导出处理所需的使用者：
 
@@ -105,17 +105,17 @@ Adobe Commerce应用程序部件版本2.3.2中的导出功能存在的已知问�
                    - exportProcessor
    ```
 
-   然后，推送此更新文件并重新部署您的环境。 在开发人员文档中还引用[将自定义cron作业添加到您的项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project)。
+   然后，推送此更新文件并重新部署您的环境。 在开发人员文档中还引用[将自定义cron作业添加到您的项目](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hans#add-custom-cron-jobs-to-your-project)。
 
 >[!NOTE]
 >
->如果您找不到环境的`.magento.env.yaml`文件，并且认为该文件已被删除，则需要创建一个新的`.magento.env.yaml`。 最初可能为空，您可以根据需要在该处添加信息。 引用以下文章：开发人员文档中的[为部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)配置环境变量[以及环境变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html)。
+>如果您找不到环境的`.magento.env.yaml`文件，并且认为该文件已被删除，则需要创建一个新的`.magento.env.yaml`。 最初可能为空，您可以根据需要在该处添加信息。 引用以下文章：开发人员文档中的[为部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hans)配置环境变量[以及环境变量](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html?lang=zh-Hans)。
 
 >[!TIP]
 >
->[YAML文件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)区分大小写，不允许制表符。 请注意在整个.magento.env.yaml文件中使用一致的缩进，否则您的配置可能无法按预期工作。 文档和示例文件中的示例使用双空格缩进。 使用ece-tools validate命令检查配置。
+>[YAML文件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hans)区分大小写，不允许制表符。 请注意在整个.magento.env.yaml文件中使用一致的缩进，否则您的配置可能无法按预期工作。 文档和示例文件中的示例使用双空格缩进。 使用ece-tools validate命令检查配置。
 
 >[!NOTE]
 >
->在Adobe Commerce on cloud infrastructure Pro项目中，必须在云基础架构上的Adobe Commerce上启用[自动cron功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)，然后才能使用`.magento.app.yaml`将自定义cron作业添加到暂存和生产环境。 如果未启用此功能，请[创建支持票证](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，以便为您添加作业。
+>在Adobe Commerce on cloud infrastructure Pro项目中，必须在云基础架构上的Adobe Commerce上启用[自动cron功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hans#crontab)，然后才能使用`.magento.app.yaml`将自定义cron作业添加到暂存和生产环境。 如果未启用此功能，请[创建支持票证](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，以便为您添加作业。
 

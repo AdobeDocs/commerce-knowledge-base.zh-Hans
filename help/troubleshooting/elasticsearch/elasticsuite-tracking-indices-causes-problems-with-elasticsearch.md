@@ -69,5 +69,5 @@ ElasticSuite具有创建跟踪索引的新功能。 这些跟踪索引记录哪�
 
 如果要在设定的时间频率删除索引，请通过引用开发人员文档中的以下文章来创建cron作业：
 
-* [配置自定义cron作业和cron组（教程）](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [设置cron作业](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [配置自定义cron作业和cron组（教程）](https://experienceleague.adobe.com/zh-hans/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [设置cron作业](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
