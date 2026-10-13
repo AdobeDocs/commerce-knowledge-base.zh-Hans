@@ -1,16 +1,14 @@
 ---
-title: 'Adobe Commerce 2.4.1：保存dotdigital Page Builder表单时显示空页面'
+title: Adobe Commerce 2.4.1：保存dotdigital Page Builder表单时显示空页面
 description: 本文为Adobe Commerce 2.4.1中的已知问题提供了解决方法，即在使用Safari浏览器时，在“管理面板”中保存dotdigital Page Builder表单后显示空网页。
 exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 feature: Page Builder
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.1：保存dotdigital Page Builder表单时显示空页面
 
 本文为Adobe Commerce 2.4.1中的已知问题提供了解决方法，即在使用Safari浏览器时，在“管理面板”中保存dotdigital Page Builder表单后显示空网页。
@@ -44,7 +42,7 @@ ht-degree: 0%
 
 ## 相关阅读
 
-* [什么是页面生成器？](https://developer.adobe.com/commerce/frontend-core/page-builder/)位于我们的开发人员文档中。
+* [什么是页面生成器？](https://developer.adobe.com/commerce/frontend-core/page-builder/) 在我们的开发人员文档中。
 * 在开发人员文档中[页面生成器设置](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=zh-Hans)。
 * 我们用户指南中的[页面生成器](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/page-builder/introduction)。
 * 用户指南中的[页面生成器 — 元素](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/page-builder/workspace#elements)。
