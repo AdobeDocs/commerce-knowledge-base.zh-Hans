@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知识库
 user-guide-description: 排除 Commerce 商店故障以及对其进行维护所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 152df0a44bb16aae19cd84c6d79b891da7365565
+source-git-commit: f95d594316ff1df6f10be04bc4662e9907bee469
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1559'
 ht-degree: 1%
 ---
 # Adobe Commerce 知识库 {#kb}
@@ -72,8 +72,6 @@ ht-degree: 1%
     * [修订的Google修补程序所有Adobe Commerce版本上的访问丢失](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 其他 {#miscellaneous}
     * [我已为Adobe AI配置了API密钥，但只看到一个SaaS数据空间](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
-    * [常规自定义模块故障诊断帮助](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
-    * [缓存预热和网站在Adobe Commerce上不可用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [使用数据导出来查明差异](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [组件依赖项就绪检查问题](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [无法在云基础架构UI上访问Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)

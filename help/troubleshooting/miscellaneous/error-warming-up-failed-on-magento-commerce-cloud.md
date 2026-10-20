@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
+source-git-commit: a5bb7b49f18f098b8706ba8b3187a7ae81059940
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '199'
 ht-degree: 0%
 ---
 # 错误：在云基础架构上的Adobe Commerce上预热失败
@@ -62,4 +62,3 @@ ht-degree: 0%
 ## 相关阅读
 
 * 我们的用户指南中的[Adobe Commerce用户指南>全页缓存](https://experienceleague.adobe.com/zh-hans/docs/commerce-admin/systems/tools/cache-management#full-page-caching)。
-* 在我们支持知识库的Adobe Commerce[&#128279;](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)上，缓存预热和网站不可用。

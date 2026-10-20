@@ -129,7 +129,7 @@ your code here
 外部链接非常直接：
 
 ```markdown
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/cn)
 ```
 
 ### 指向附件的链接

@@ -256,7 +256,7 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ### 指向外部网站的链接
 
-使用普通URL而不是goURL链接到[Adobe.com](http://Adobe.com)之外的页面。
+使用普通URL而不是goURL链接到[Adobe.com](http://Adobe.com/cn)之外的页面。
 
 
 ## 逗号
