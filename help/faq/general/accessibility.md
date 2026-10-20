@@ -28,4 +28,4 @@ Adobe Commerce是高度可自定义的，我们的客户可以扩展Luma主题�
 
 ## 相关阅读
 
-* [Adobe辅助功能](https://www.adobe.com/trust/accessibility.html)
+* [Adobe辅助功能](https://www.adobe.com/cn/trust/accessibility.html)
